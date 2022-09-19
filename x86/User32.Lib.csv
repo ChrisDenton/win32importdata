@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+?SetThreadCursorCreationScaling@@YGKK@Z (unsigned long __stdcall SetThreadCursorCreationScaling(unsigned long));code;USER32.dll;2079
 ActivateKeyboardLayout;code;USER32.dll;_ActivateKeyboardLayout@8
 AddClipboardFormatListener;code;USER32.dll;_AddClipboardFormatListener@4
 AdjustWindowRect;code;USER32.dll;_AdjustWindowRect@12
@@ -703,7 +704,8 @@ SetWindowsHookA;code;USER32.dll;_SetWindowsHookA@8
 SetWindowsHookExA;code;USER32.dll;_SetWindowsHookExA@16
 SetWindowsHookExW;code;USER32.dll;_SetWindowsHookExW@16
 SetWindowsHookW;code;USER32.dll;_SetWindowsHookW@8
-ShellSetWindowPos;code;USER32.dll;_ShellSetWindowPos@20
+_ShellMigrateWindow@12;code;USER32.dll;2664
+ShellSetWindowPos;code;USER32.dll;_ShellSetWindowPos@24
 ShowCaret;code;USER32.dll;_ShowCaret@4
 ShowCursor;code;USER32.dll;_ShowCursor@4
 ShowOwnedPopups;code;USER32.dll;_ShowOwnedPopups@8

@@ -11,6 +11,8 @@ GetActiveVirtualTrustLevel;code;VmSavedStateDumpProvider.dll;
 GetArchitecture;code;VmSavedStateDumpProvider.dll;
 GetCrashDumpHeader;code;VmSavedStateDumpProvider.dll;
 GetEnabledVirtualTrustLevels;code;VmSavedStateDumpProvider.dll;
+GetGuestEnabledVirtualTrustLevels;code;VmSavedStateDumpProvider.dll;
+GetGuestOsInfo;code;VmSavedStateDumpProvider.dll;
 GetGuestPhysicalMemoryChunks;code;VmSavedStateDumpProvider.dll;
 GetGuestRawSavedMemorySize;code;VmSavedStateDumpProvider.dll;
 GetMemoryBlockCacheLimit;code;VmSavedStateDumpProvider.dll;

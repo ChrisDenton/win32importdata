@@ -76,6 +76,7 @@ D3DKMTAcquireSwapChain;code;GDI32.dll;_D3DKMTAcquireSwapChain@4
 D3DKMTAddSurfaceToSwapChain;code;GDI32.dll;_D3DKMTAddSurfaceToSwapChain@4
 D3DKMTAdjustFullscreenGamma;code;GDI32.dll;_D3DKMTAdjustFullscreenGamma@4
 D3DKMTCacheHybridQueryValue;code;GDI32.dll;_D3DKMTCacheHybridQueryValue@4
+D3DKMTCancelPresents;code;GDI32.dll;_D3DKMTCancelPresents@4
 D3DKMTChangeVideoMemoryReservation;code;GDI32.dll;_D3DKMTChangeVideoMemoryReservation@4
 D3DKMTCheckExclusiveOwnership;code;GDI32.dll;_D3DKMTCheckExclusiveOwnership@0
 D3DKMTCheckMonitorPowerState;code;GDI32.dll;_D3DKMTCheckMonitorPowerState@4
@@ -84,6 +85,7 @@ D3DKMTCheckMultiPlaneOverlaySupport3;code;GDI32.dll;_D3DKMTCheckMultiPlaneOverla
 D3DKMTCheckMultiPlaneOverlaySupport;code;GDI32.dll;_D3DKMTCheckMultiPlaneOverlaySupport@4
 D3DKMTCheckOcclusion;code;GDI32.dll;_D3DKMTCheckOcclusion@4
 D3DKMTCheckSharedResourceAccess;code;GDI32.dll;_D3DKMTCheckSharedResourceAccess@4
+D3DKMTCheckSinglePlaneForMultiPlaneOverlaySupport;code;GDI32.dll;_D3DKMTCheckSinglePlaneForMultiPlaneOverlaySupport@4
 D3DKMTCheckVidPnExclusiveOwnership;code;GDI32.dll;_D3DKMTCheckVidPnExclusiveOwnership@4
 D3DKMTCloseAdapter;code;GDI32.dll;_D3DKMTCloseAdapter@4
 D3DKMTConfigureSharedResource;code;GDI32.dll;_D3DKMTConfigureSharedResource@4
@@ -294,7 +296,6 @@ DescribePixelFormat;code;GDI32.dll;_DescribePixelFormat@16
 DeviceCapabilitiesExA;code;GDI32.dll;_DeviceCapabilitiesExA@24
 DeviceCapabilitiesExW;code;GDI32.dll;_DeviceCapabilitiesExW@24
 DrawEscape;code;GDI32.dll;_DrawEscape@16
-DxTrimNotificationListHead;data;GDI32.dll;_DxTrimNotificationListHead
 Ellipse;code;GDI32.dll;_Ellipse@20
 EnableEUDC;code;GDI32.dll;_EnableEUDC@4
 EndDoc;code;GDI32.dll;_EndDoc@4
@@ -607,4 +608,3 @@ ghICM;data;GDI32.dll;_ghICM
 pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps
 pGdiSharedHandleTable;data;GDI32.dll;_pGdiSharedHandleTable
 pGdiSharedMemory;data;GDI32.dll;_pGdiSharedMemory
-semDxTrimNotification;data;GDI32.dll;_semDxTrimNotification

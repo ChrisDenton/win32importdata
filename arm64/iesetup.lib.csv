@@ -1,4 +1,11 @@
 Name;Type;DLL;SymbolOrOrdinal
+IEApplyCurrentHardening;code;iesetup.dll;?IEApplyCurrentHardening@@$$hYAJXZ (long __cdecl IEApplyCurrentHardening(void))
+IEHardenAdmin;code;iesetup.dll;?IEHardenAdmin@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenAdmin(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenAdminNow;code;iesetup.dll;?IEHardenAdminNow@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenAdminNow(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenLMSettings;code;iesetup.dll;?IEHardenLMSettings@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenLMSettings(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenMachineNow;code;iesetup.dll;?IEHardenMachineNow@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenMachineNow(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenUser;code;iesetup.dll;?IEHardenUser@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenUser(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEShowHardeningDialog;code;iesetup.dll;?IEShowHardeningDialog@@$$hYAJXZ (long __cdecl IEShowHardeningDialog(void))
 IEApplyCurrentHardening;code;iesetup.dll;?IEApplyCurrentHardening@@YAJXZ (long __cdecl IEApplyCurrentHardening(void))
 IEHardenAdmin;code;iesetup.dll;?IEHardenAdmin@@YAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenAdmin(struct HWND__ *,struct HINSTANCE__ *,char *,int))
 IEHardenAdminNow;code;iesetup.dll;?IEHardenAdminNow@@YAJPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (long __cdecl IEHardenAdminNow(struct HWND__ *,struct HINSTANCE__ *,char *,int))

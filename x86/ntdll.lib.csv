@@ -264,6 +264,7 @@ NtCreateEventPair;code;ntdll.dll;_NtCreateEventPair@12
 NtCreateFile;code;ntdll.dll;_NtCreateFile@44
 NtCreateIRTimer;code;ntdll.dll;_NtCreateIRTimer@12
 NtCreateIoCompletion;code;ntdll.dll;_NtCreateIoCompletion@16
+NtCreateIoRing;code;ntdll.dll;_NtCreateIoRing@20
 NtCreateJobObject;code;ntdll.dll;_NtCreateJobObject@12
 NtCreateJobSet;code;ntdll.dll;_NtCreateJobSet@12
 NtCreateKey;code;ntdll.dll;_NtCreateKey@28
@@ -473,6 +474,7 @@ NtQueryInformationWorkerFactory;code;ntdll.dll;_NtQueryInformationWorkerFactory@
 NtQueryInstallUILanguage;code;ntdll.dll;_NtQueryInstallUILanguage@4
 NtQueryIntervalProfile;code;ntdll.dll;_NtQueryIntervalProfile@8
 NtQueryIoCompletion;code;ntdll.dll;_NtQueryIoCompletion@20
+NtQueryIoRingCapabilities;code;ntdll.dll;_NtQueryIoRingCapabilities@8
 NtQueryKey;code;ntdll.dll;_NtQueryKey@20
 NtQueryLicenseValue;code;ntdll.dll;_NtQueryLicenseValue@20
 NtQueryMultipleValueKey;code;ntdll.dll;_NtQueryMultipleValueKey@24
@@ -569,6 +571,7 @@ NtSetIRTimer;code;ntdll.dll;_NtSetIRTimer@8
 NtSetInformationDebugObject;code;ntdll.dll;_NtSetInformationDebugObject@20
 NtSetInformationEnlistment;code;ntdll.dll;_NtSetInformationEnlistment@16
 NtSetInformationFile;code;ntdll.dll;_NtSetInformationFile@20
+NtSetInformationIoRing;code;ntdll.dll;_NtSetInformationIoRing@16
 NtSetInformationJobObject;code;ntdll.dll;_NtSetInformationJobObject@16
 NtSetInformationKey;code;ntdll.dll;_NtSetInformationKey@16
 NtSetInformationObject;code;ntdll.dll;_NtSetInformationObject@16
@@ -609,6 +612,7 @@ NtSignalAndWaitForSingleObject;code;ntdll.dll;_NtSignalAndWaitForSingleObject@16
 NtSinglePhaseReject;code;ntdll.dll;_NtSinglePhaseReject@8
 NtStartProfile;code;ntdll.dll;_NtStartProfile@4
 NtStopProfile;code;ntdll.dll;_NtStopProfile@4
+NtSubmitIoRing;code;ntdll.dll;_NtSubmitIoRing@16
 NtSubscribeWnfStateChange;code;ntdll.dll;_NtSubscribeWnfStateChange@16
 NtSuspendProcess;code;ntdll.dll;_NtSuspendProcess@4
 NtSuspendThread;code;ntdll.dll;_NtSuspendThread@8
@@ -1006,6 +1010,7 @@ RtlGetFullPathName_U;code;ntdll.dll;_RtlGetFullPathName_U@16
 RtlGetFullPathName_UEx;code;ntdll.dll;_RtlGetFullPathName_UEx@20
 RtlGetFullPathName_UstrEx;code;ntdll.dll;_RtlGetFullPathName_UstrEx@32
 RtlGetGroupSecurityDescriptor;code;ntdll.dll;_RtlGetGroupSecurityDescriptor@12
+RtlGetImageFileMachines;code;ntdll.dll;_RtlGetImageFileMachines@8
 RtlGetIntegerAtom;code;ntdll.dll;_RtlGetIntegerAtom@8
 RtlGetInterruptTimePrecise;code;ntdll.dll;_RtlGetInterruptTimePrecise@4
 RtlGetLastNtStatus;code;ntdll.dll;_RtlGetLastNtStatus@0
@@ -1138,6 +1143,7 @@ RtlIsCurrentProcess;code;ntdll.dll;_RtlIsCurrentProcess@4
 RtlIsCurrentThread;code;ntdll.dll;_RtlIsCurrentThread@4
 RtlIsDosDeviceName_U;code;ntdll.dll;_RtlIsDosDeviceName_U@4
 RtlIsElevatedRid;code;ntdll.dll;_RtlIsElevatedRid@4
+RtlIsEnclaveFeaturePresent;code;ntdll.dll;_RtlIsEnclaveFeaturePresent@4
 RtlIsGenericTableEmpty;code;ntdll.dll;_RtlIsGenericTableEmpty@4
 RtlIsGenericTableEmptyAvl;code;ntdll.dll;_RtlIsGenericTableEmptyAvl@4
 RtlIsMultiSessionSku;code;ntdll.dll;_RtlIsMultiSessionSku@0
@@ -1726,6 +1732,7 @@ ZwCreateEventPair;code;ntdll.dll;_ZwCreateEventPair@12
 ZwCreateFile;code;ntdll.dll;_ZwCreateFile@44
 ZwCreateIRTimer;code;ntdll.dll;_ZwCreateIRTimer@12
 ZwCreateIoCompletion;code;ntdll.dll;_ZwCreateIoCompletion@16
+ZwCreateIoRing;code;ntdll.dll;_ZwCreateIoRing@20
 ZwCreateJobObject;code;ntdll.dll;_ZwCreateJobObject@12
 ZwCreateJobSet;code;ntdll.dll;_ZwCreateJobSet@12
 ZwCreateKey;code;ntdll.dll;_ZwCreateKey@28
@@ -1933,6 +1940,7 @@ ZwQueryInformationWorkerFactory;code;ntdll.dll;_ZwQueryInformationWorkerFactory@
 ZwQueryInstallUILanguage;code;ntdll.dll;_ZwQueryInstallUILanguage@4
 ZwQueryIntervalProfile;code;ntdll.dll;_ZwQueryIntervalProfile@8
 ZwQueryIoCompletion;code;ntdll.dll;_ZwQueryIoCompletion@20
+ZwQueryIoRingCapabilities;code;ntdll.dll;_ZwQueryIoRingCapabilities@8
 ZwQueryKey;code;ntdll.dll;_ZwQueryKey@20
 ZwQueryLicenseValue;code;ntdll.dll;_ZwQueryLicenseValue@20
 ZwQueryMultipleValueKey;code;ntdll.dll;_ZwQueryMultipleValueKey@24
@@ -2029,6 +2037,7 @@ ZwSetIRTimer;code;ntdll.dll;_ZwSetIRTimer@8
 ZwSetInformationDebugObject;code;ntdll.dll;_ZwSetInformationDebugObject@20
 ZwSetInformationEnlistment;code;ntdll.dll;_ZwSetInformationEnlistment@16
 ZwSetInformationFile;code;ntdll.dll;_ZwSetInformationFile@20
+ZwSetInformationIoRing;code;ntdll.dll;_ZwSetInformationIoRing@16
 ZwSetInformationJobObject;code;ntdll.dll;_ZwSetInformationJobObject@16
 ZwSetInformationKey;code;ntdll.dll;_ZwSetInformationKey@16
 ZwSetInformationObject;code;ntdll.dll;_ZwSetInformationObject@16
@@ -2069,6 +2078,7 @@ ZwSignalAndWaitForSingleObject;code;ntdll.dll;_ZwSignalAndWaitForSingleObject@16
 ZwSinglePhaseReject;code;ntdll.dll;_ZwSinglePhaseReject@8
 ZwStartProfile;code;ntdll.dll;_ZwStartProfile@4
 ZwStopProfile;code;ntdll.dll;_ZwStopProfile@4
+ZwSubmitIoRing;code;ntdll.dll;_ZwSubmitIoRing@16
 ZwSubscribeWnfStateChange;code;ntdll.dll;_ZwSubscribeWnfStateChange@16
 ZwSuspendProcess;code;ntdll.dll;_ZwSuspendProcess@4
 ZwSuspendThread;code;ntdll.dll;_ZwSuspendThread@8

@@ -1,4 +1,11 @@
 Name;Type;DLL;SymbolOrOrdinal
+CheckForVersionConflict;code;inseng.dll;#CheckForVersionConflict
+CheckTrust;code;inseng.dll;#CheckTrust
+CheckTrustEx;code;inseng.dll;#CheckTrustEx
+DownloadFile;code;inseng.dll;#DownloadFile
+GetICifFileFromFile;code;inseng.dll;#GetICifFileFromFile
+GetICifRWFileFromFile;code;inseng.dll;#GetICifRWFileFromFile
+PurgeDownloadDirectory;code;inseng.dll;#PurgeDownloadDirectory
 CheckForVersionConflict;code;inseng.dll;
 CheckTrust;code;inseng.dll;
 CheckTrustEx;code;inseng.dll;

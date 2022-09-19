@@ -98,6 +98,8 @@ SymGetLineFromAddrEx;code;dbghelp.dll;?SymGetLineFromAddrEx@@YAHPEAX_KPEAU_IMAGE
 SymGetLineFromNameEx;code;dbghelp.dll;?SymGetLineFromNameEx@@YAHPEAXPEBD1KPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAJPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromNameEx(void *,char const *,char const *,unsigned long,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,long *,struct _IMAGEHLP_LINE64 *))
 SymGetLineNextEx;code;dbghelp.dll;?SymGetLineNextEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineNextEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
 SymGetLinePrevEx;code;dbghelp.dll;?SymGetLinePrevEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLinePrevEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
+SymRegisterGetSourcePathPartCallback;code;dbghelp.dll;?SymRegisterGetSourcePathPartCallback@@YAXP6AJPEBGPEAPEAG@ZPEAP6AJ01@Z@Z (void __cdecl SymRegisterGetSourcePathPartCallback(long (__cdecl*)(unsigned short const *,unsigned short * *),long (__cdecl**)(unsigned short const *,unsigned short * *)))
+SymRegisterSourceFileUrlListCallback;code;dbghelp.dll;?SymRegisterSourceFileUrlListCallback@@YAXP6AJPEAX_KPEBG22PEAPEAUtagSAFEARRAY@@@ZPEAP6AJ012223@Z@Z (void __cdecl SymRegisterSourceFileUrlListCallback(long (__cdecl*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__cdecl**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;dbghelp.dll;?SymSetDiaSession@@YAHPEAX_KPEAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YAX_KK@Z (void __cdecl _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;
@@ -234,8 +236,12 @@ SymGetSourceFile;code;dbghelp.dll;
 SymGetSourceFileChecksum;code;dbghelp.dll;
 SymGetSourceFileChecksumW;code;dbghelp.dll;
 SymGetSourceFileFromToken;code;dbghelp.dll;
+SymGetSourceFileFromTokenByTokenName;code;dbghelp.dll;
+SymGetSourceFileFromTokenByTokenNameW;code;dbghelp.dll;
 SymGetSourceFileFromTokenW;code;dbghelp.dll;
 SymGetSourceFileToken;code;dbghelp.dll;
+SymGetSourceFileTokenByTokenName;code;dbghelp.dll;
+SymGetSourceFileTokenByTokenNameW;code;dbghelp.dll;
 SymGetSourceFileTokenW;code;dbghelp.dll;
 SymGetSourceFileW;code;dbghelp.dll;
 SymGetSourceVarFromToken;code;dbghelp.dll;
@@ -624,6 +630,9 @@ JetPrereadIndexRange;code;ESENT.dll;
 JetPrereadIndexRanges;code;ESENT.dll;
 JetPrereadKeys;code;ESENT.dll;
 JetPrereadTablesW;code;ESENT.dll;
+JetRBSCancelRevert;code;ESENT.dll;
+JetRBSExecuteRevert;code;ESENT.dll;
+JetRBSPrepareRevert;code;ESENT.dll;
 JetReadFile;code;ESENT.dll;
 JetReadFileInstance;code;ESENT.dll;
 JetRegisterCallback;code;ESENT.dll;
@@ -2118,6 +2127,7 @@ DsaopPrepareScript;code;NTDSAPI.dll;
 DsaopUnBind;code;NTDSAPI.dll;
 ?NPEnumResource@@YAKPEAXPEAI01@Z (unsigned long __cdecl NPEnumResource(void *,unsigned int *,void *,unsigned int *));code;NTLANMAN.dll;34
 ?NPGetConnection@@YAKPEAG0PEAI@Z (unsigned long __cdecl NPGetConnection(unsigned short *,unsigned short *,unsigned int *));code;NTLANMAN.dll;12
+?NPGetPersistentUseOptionsForConnection2@@YAKPEAU_NETRESOURCEW@@PEAEK1PEAK@Z (unsigned long __cdecl NPGetPersistentUseOptionsForConnection2(struct _NETRESOURCEW *,unsigned char *,unsigned long,unsigned char *,unsigned long *));code;NTLANMAN.dll;58
 ?NPGetReconnectFlags@@YAKPEAGPEAE@Z (unsigned long __cdecl NPGetReconnectFlags(unsigned short *,unsigned char *));code;NTLANMAN.dll;53
 ?NPOpenEnum@@YAKIIIPEAU_NETRESOURCEW@@PEAPEAX@Z (unsigned long __cdecl NPOpenEnum(unsigned int,unsigned int,unsigned int,struct _NETRESOURCEW *,void * *));code;NTLANMAN.dll;33
 DllMain;code;NTLANMAN.dll;
@@ -6609,6 +6619,7 @@ ClusterGetFaultDomainObject;code;CLUSAPI.dll;
 ClusterGetFaultDomainObjects;code;CLUSAPI.dll;
 ClusterGetFaultDomainState;code;CLUSAPI.dll;
 ClusterGetFaultDomainXML;code;CLUSAPI.dll;
+ClusterGetMaximumAccessForToken;code;CLUSAPI.dll;
 ClusterGetPlacementScore;code;CLUSAPI.dll;
 ClusterGroupCloseEnum;code;CLUSAPI.dll;
 ClusterGroupCloseEnumEx;code;CLUSAPI.dll;
@@ -6714,6 +6725,12 @@ ClusterSharedVolumeSetSnapshotState;code;CLUSAPI.dll;
 ClusterStmFindDisk;code;CLUSAPI.dll;
 ClusterUpgradeFunctionalLevel;code;CLUSAPI.dll;
 ClusterUpgradeFunctionalLevelEx;code;CLUSAPI.dll;
+ClusterWprAddMarker;code;CLUSAPI.dll;
+ClusterWprCancel;code;CLUSAPI.dll;
+ClusterWprCaptureState;code;CLUSAPI.dll;
+ClusterWprFlush;code;CLUSAPI.dll;
+ClusterWprStart;code;CLUSAPI.dll;
+ClusterWprStop;code;CLUSAPI.dll;
 CreateCluster;code;CLUSAPI.dll;
 CreateClusterAvailabilitySet;code;CLUSAPI.dll;
 CreateClusterGroup;code;CLUSAPI.dll;

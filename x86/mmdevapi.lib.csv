@@ -2,7 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 _AETraceOutputDebugString;code;MMDevAPI.DLL;13
 _ActivateAudioInterfaceAsync@20;code;MMDevAPI.DLL;17
 _CleanupDeviceAPI@0;code;MMDevAPI.DLL;2
-_FlushDeviceTopologyCache@0;code;MMDevAPI.DLL;15
+_FlushDeviceTopologyCache@4;code;MMDevAPI.DLL;15
 _GenerateMediaEvent@8;code;MMDevAPI.DLL;12
 _GetCategoryPath@16;code;MMDevAPI.DLL;32
 _GetClassFromEndpointId@4;code;MMDevAPI.DLL;7

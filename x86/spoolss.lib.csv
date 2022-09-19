@@ -150,6 +150,7 @@ RouterFindNextPrinterChangeNotification;code;SPOOLSS.DLL;_RouterFindNextPrinterC
 RouterFreeBidiMem;code;SPOOLSS.DLL;_RouterFreeBidiMem@4
 RouterFreeBidiResponseContainer;code;SPOOLSS.DLL;_RouterFreeBidiResponseContainer@4
 RouterFreePrinterNotifyInfo;code;SPOOLSS.DLL;_RouterFreePrinterNotifyInfo@4
+RouterInstallPrinterDriverPackageFromConnection;code;SPOOLSS.DLL;_RouterInstallPrinterDriverPackageFromConnection@4
 RouterInternalGetPrinterDriver;code;SPOOLSS.DLL;_RouterInternalGetPrinterDriver@40
 RouterRefreshPrinterChangeNotification;code;SPOOLSS.DLL;_RouterRefreshPrinterChangeNotification@16
 RouterReplyPrinter;code;SPOOLSS.DLL;_RouterReplyPrinter@24
@@ -198,7 +199,7 @@ UndoAlignRpcPtr;code;SPOOLSS.DLL;_UndoAlignRpcPtr@16
 UpdateBufferSize;code;SPOOLSS.DLL;_UpdateBufferSize@24
 UpdatePrintDeviceObject;code;SPOOLSS.DLL;_UpdatePrintDeviceObject@8
 UpdatePrinterRegAll;code;SPOOLSS.DLL;_UpdatePrinterRegAll@16
-UpdatePrinterRegAllEx;code;SPOOLSS.DLL;_UpdatePrinterRegAllEx@20
+UpdatePrinterRegAllEx;code;SPOOLSS.DLL;_UpdatePrinterRegAllEx@24
 UpdatePrinterRegUser;code;SPOOLSS.DLL;_UpdatePrinterRegUser@20
 WaitForPrinterChange;code;SPOOLSS.DLL;_WaitForPrinterChange@8
 WaitForSpoolerInitialization;code;SPOOLSS.DLL;_WaitForSpoolerInitialization@0

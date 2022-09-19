@@ -150,6 +150,7 @@ RouterFindNextPrinterChangeNotification;code;SPOOLSS.DLL;
 RouterFreeBidiMem;code;SPOOLSS.DLL;
 RouterFreeBidiResponseContainer;code;SPOOLSS.DLL;
 RouterFreePrinterNotifyInfo;code;SPOOLSS.DLL;
+RouterInstallPrinterDriverPackageFromConnection;code;SPOOLSS.DLL;
 RouterInternalGetPrinterDriver;code;SPOOLSS.DLL;
 RouterRefreshPrinterChangeNotification;code;SPOOLSS.DLL;
 RouterReplyPrinter;code;SPOOLSS.DLL;

@@ -3,6 +3,7 @@ InterlockedPushListSList;code;KERNEL32.dll;@InterlockedPushListSList@16
 AcquireSRWLockExclusive;code;KERNEL32.dll;_AcquireSRWLockExclusive@4
 AcquireSRWLockShared;code;KERNEL32.dll;_AcquireSRWLockShared@4
 ActivateActCtx;code;KERNEL32.dll;_ActivateActCtx@8
+ActivatePackageVirtualizationContext;code;KERNEL32.dll;_ActivatePackageVirtualizationContext@8
 AddAtomA;code;KERNEL32.dll;_AddAtomA@4
 AddAtomW;code;KERNEL32.dll;_AddAtomW@4
 AddConsoleAliasA;code;KERNEL32.dll;_AddConsoleAliasA@12
@@ -148,6 +149,7 @@ CreateMutexExW;code;KERNEL32.dll;_CreateMutexExW@16
 CreateMutexW;code;KERNEL32.dll;_CreateMutexW@12
 CreateNamedPipeA;code;KERNEL32.dll;_CreateNamedPipeA@32
 CreateNamedPipeW;code;KERNEL32.dll;_CreateNamedPipeW@32
+CreatePackageVirtualizationContext;code;KERNEL32.dll;_CreatePackageVirtualizationContext@8
 CreatePipe;code;KERNEL32.dll;_CreatePipe@16
 CreatePrivateNamespaceA;code;KERNEL32.dll;_CreatePrivateNamespaceA@12
 CreatePrivateNamespaceW;code;KERNEL32.dll;_CreatePrivateNamespaceW@12
@@ -181,6 +183,7 @@ CreateWaitableTimerExW;code;KERNEL32.dll;_CreateWaitableTimerExW@16
 CreateWaitableTimerW;code;KERNEL32.dll;_CreateWaitableTimerW@12
 CtrlRoutine;code;KERNEL32.dll;_CtrlRoutine@4
 DeactivateActCtx;code;KERNEL32.dll;_DeactivateActCtx@8
+DeactivatePackageVirtualizationContext;code;KERNEL32.dll;_DeactivatePackageVirtualizationContext@4
 DebugActiveProcess;code;KERNEL32.dll;_DebugActiveProcess@4
 DebugActiveProcessStop;code;KERNEL32.dll;_DebugActiveProcessStop@4
 DebugBreak;code;KERNEL32.dll;_DebugBreak@0
@@ -218,6 +221,7 @@ DnsHostnameToComputerNameW;code;KERNEL32.dll;_DnsHostnameToComputerNameW@12
 DosDateTimeToFileTime;code;KERNEL32.dll;_DosDateTimeToFileTime@12
 DosPathToSessionPathW;code;KERNEL32.dll;_DosPathToSessionPathW@12
 DuplicateHandle;code;KERNEL32.dll;_DuplicateHandle@28
+DuplicatePackageVirtualizationContext;code;KERNEL32.dll;_DuplicatePackageVirtualizationContext@8
 EnableProcessOptionalXStateFeatures;code;KERNEL32.dll;_EnableProcessOptionalXStateFeatures@8
 EnableThreadProfiling;code;KERNEL32.dll;_EnableThreadProfiling@20
 EncodePointer;code;KERNEL32.dll;_EncodePointer@4
@@ -424,6 +428,7 @@ GetCurrentPackageFullName;code;KERNEL32.dll;_GetCurrentPackageFullName@8
 GetCurrentPackageId;code;KERNEL32.dll;_GetCurrentPackageId@8
 GetCurrentPackageInfo;code;KERNEL32.dll;_GetCurrentPackageInfo@16
 GetCurrentPackagePath;code;KERNEL32.dll;_GetCurrentPackagePath@8
+GetCurrentPackageVirtualizationContext;code;KERNEL32.dll;_GetCurrentPackageVirtualizationContext@0
 GetCurrentProcess;code;KERNEL32.dll;_GetCurrentProcess@0
 GetCurrentProcessId;code;KERNEL32.dll;_GetCurrentProcessId@0
 GetCurrentProcessorNumber;code;KERNEL32.dll;_GetCurrentProcessorNumber@0
@@ -506,6 +511,7 @@ GetLongPathNameA;code;KERNEL32.dll;_GetLongPathNameA@12
 GetLongPathNameTransactedA;code;KERNEL32.dll;_GetLongPathNameTransactedA@16
 GetLongPathNameTransactedW;code;KERNEL32.dll;_GetLongPathNameTransactedW@16
 GetLongPathNameW;code;KERNEL32.dll;_GetLongPathNameW@12
+GetMachineTypeAttributes;code;KERNEL32.dll;_GetMachineTypeAttributes@8
 GetMailslotInfo;code;KERNEL32.dll;_GetMailslotInfo@20
 GetMaximumProcessorCount;code;KERNEL32.dll;_GetMaximumProcessorCount@4
 GetMaximumProcessorGroupCount;code;KERNEL32.dll;_GetMaximumProcessorGroupCount@0
@@ -589,6 +595,7 @@ GetProcessTimes;code;KERNEL32.dll;_GetProcessTimes@20
 GetProcessVersion;code;KERNEL32.dll;_GetProcessVersion@4
 GetProcessWorkingSetSize;code;KERNEL32.dll;_GetProcessWorkingSetSize@12
 GetProcessWorkingSetSizeEx;code;KERNEL32.dll;_GetProcessWorkingSetSizeEx@16
+GetProcessesInVirtualizationContext;code;KERNEL32.dll;_GetProcessesInVirtualizationContext@12
 GetProcessorSystemCycleTime;code;KERNEL32.dll;_GetProcessorSystemCycleTime@12
 GetProductInfo;code;KERNEL32.dll;_GetProductInfo@20
 GetProfileIntA;code;KERNEL32.dll;_GetProfileIntA@12
@@ -992,6 +999,7 @@ RegisterWaitUntilOOBECompleted;code;KERNEL32.dll;_RegisterWaitUntilOOBECompleted
 ReleaseActCtx;code;KERNEL32.dll;_ReleaseActCtx@4
 ReleaseMutex;code;KERNEL32.dll;_ReleaseMutex@4
 ReleaseMutexWhenCallbackReturns;code;KERNEL32.dll;_ReleaseMutexWhenCallbackReturns@8
+ReleasePackageVirtualizationContext;code;KERNEL32.dll;_ReleasePackageVirtualizationContext@4
 ReleaseSRWLockExclusive;code;KERNEL32.dll;_ReleaseSRWLockExclusive@4
 ReleaseSRWLockShared;code;KERNEL32.dll;_ReleaseSRWLockShared@4
 ReleaseSemaphore;code;KERNEL32.dll;_ReleaseSemaphore@12

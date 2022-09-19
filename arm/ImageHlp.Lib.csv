@@ -3,6 +3,8 @@ SymAllocDiaString;code;imagehlp.dll;?SymAllocDiaString@@YAPAGPBG@Z (unsigned sho
 SymFreeDiaString;code;imagehlp.dll;?SymFreeDiaString@@YAXPAG@Z (void __cdecl SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;imagehlp.dll;?SymGetDiaSession@@YAHPAX_KPAPAUIDiaSession@@@Z (int __cdecl SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
 SymGetDiaSource;code;imagehlp.dll;?SymGetDiaSource@@YAHPAX_KPAPAUIDiaDataSource@@@Z (int __cdecl SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+SymRegisterGetSourcePathPartCallback;code;imagehlp.dll;?SymRegisterGetSourcePathPartCallback@@YAXP6AJPBGPAPAG@ZPAP6AJ01@Z@Z (void __cdecl SymRegisterGetSourcePathPartCallback(long (__cdecl*)(unsigned short const *,unsigned short * *),long (__cdecl**)(unsigned short const *,unsigned short * *)))
+SymRegisterSourceFileUrlListCallback;code;imagehlp.dll;?SymRegisterSourceFileUrlListCallback@@YAXP6AJPAX_KPBG22PAPAUtagSAFEARRAY@@@ZPAP6AJ012223@Z@Z (void __cdecl SymRegisterSourceFileUrlListCallback(long (__cdecl*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__cdecl**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;imagehlp.dll;?SymSetDiaSession@@YAHPAX_KPAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 BindImage;code;imagehlp.dll;
 BindImageEx;code;imagehlp.dll;
@@ -101,7 +103,11 @@ SymGetModuleInfoW64;code;imagehlp.dll;
 SymGetOptions;code;imagehlp.dll;
 SymGetSearchPath;code;imagehlp.dll;
 SymGetSourceFileChecksumW;code;imagehlp.dll;
+SymGetSourceFileFromTokenByTokenName;code;imagehlp.dll;
+SymGetSourceFileFromTokenByTokenNameW;code;imagehlp.dll;
 SymGetSourceFileFromTokenW;code;imagehlp.dll;
+SymGetSourceFileTokenByTokenName;code;imagehlp.dll;
+SymGetSourceFileTokenByTokenNameW;code;imagehlp.dll;
 SymGetSourceFileTokenW;code;imagehlp.dll;
 SymGetSourceVarFromTokenW;code;imagehlp.dll;
 SymGetSymFromAddr;code;imagehlp.dll;

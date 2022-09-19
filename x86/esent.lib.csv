@@ -287,6 +287,9 @@ JetPrereadIndexRange;code;ESENT.dll;_JetPrereadIndexRange@28
 JetPrereadIndexRanges;code;ESENT.dll;_JetPrereadIndexRanges@32
 JetPrereadKeys;code;ESENT.dll;_JetPrereadKeys@28
 JetPrereadTablesW;code;ESENT.dll;_JetPrereadTablesW@20
+JetRBSCancelRevert;code;ESENT.dll;_JetRBSCancelRevert@4
+JetRBSExecuteRevert;code;ESENT.dll;_JetRBSExecuteRevert@12
+JetRBSPrepareRevert;code;ESENT.dll;_JetRBSPrepareRevert@24
 JetReadFile;code;ESENT.dll;_JetReadFile@16
 JetReadFileInstance;code;ESENT.dll;_JetReadFileInstance@20
 JetRegisterCallback;code;ESENT.dll;_JetRegisterCallback@24

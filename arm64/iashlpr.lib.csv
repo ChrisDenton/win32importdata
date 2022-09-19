@@ -1,4 +1,16 @@
 Name;Type;DLL;SymbolOrOrdinal
+AllocateAttributes;code;iashlpr.dll;#AllocateAttributes
+ConfigureIas;code;iashlpr.dll;#ConfigureIas
+DoRequest;code;iashlpr.dll;#DoRequest
+DoRequestAsync;code;iashlpr.dll;#DoRequestAsync
+FreeAttributes;code;iashlpr.dll;#FreeAttributes
+GetOptionIas;code;iashlpr.dll;#GetOptionIas
+InitializeIas;code;iashlpr.dll;#InitializeIas
+MemAllocIas;code;iashlpr.dll;#MemAllocIas
+MemFreeIas;code;iashlpr.dll;#MemFreeIas
+MemReallocIas;code;iashlpr.dll;#MemReallocIas
+SetOptionIas;code;iashlpr.dll;#SetOptionIas
+ShutdownIas;code;iashlpr.dll;#ShutdownIas
 AllocateAttributes;code;iashlpr.dll;
 ConfigureIas;code;iashlpr.dll;
 DoRequest;code;iashlpr.dll;

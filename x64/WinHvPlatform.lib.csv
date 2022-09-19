@@ -41,6 +41,7 @@ WHvReadVpciDeviceRegister;code;WinHvPlatform.dll;
 WHvRegisterPartitionDoorbellEvent;code;WinHvPlatform.dll;
 WHvRequestInterrupt;code;WinHvPlatform.dll;
 WHvRequestVpciDeviceInterrupt;code;WinHvPlatform.dll;
+WHvResetPartition;code;WinHvPlatform.dll;
 WHvResumePartitionTime;code;WinHvPlatform.dll;
 WHvRetargetVpciDeviceInterrupt;code;WinHvPlatform.dll;
 WHvRunVirtualProcessor;code;WinHvPlatform.dll;

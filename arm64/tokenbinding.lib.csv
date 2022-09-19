@@ -1,4 +1,14 @@
 Name;Type;DLL;SymbolOrOrdinal
+TokenBindingDeleteAllBindings;code;TOKENBINDING.dll;#TokenBindingDeleteAllBindings
+TokenBindingDeleteBinding;code;TOKENBINDING.dll;#TokenBindingDeleteBinding
+TokenBindingGenerateBinding;code;TOKENBINDING.dll;#TokenBindingGenerateBinding
+TokenBindingGenerateID;code;TOKENBINDING.dll;#TokenBindingGenerateID
+TokenBindingGenerateIDForUri;code;TOKENBINDING.dll;#TokenBindingGenerateIDForUri
+TokenBindingGenerateMessage;code;TOKENBINDING.dll;#TokenBindingGenerateMessage
+TokenBindingGetHighestSupportedVersion;code;TOKENBINDING.dll;#TokenBindingGetHighestSupportedVersion
+TokenBindingGetKeyTypesClient;code;TOKENBINDING.dll;#TokenBindingGetKeyTypesClient
+TokenBindingGetKeyTypesServer;code;TOKENBINDING.dll;#TokenBindingGetKeyTypesServer
+TokenBindingVerifyMessage;code;TOKENBINDING.dll;#TokenBindingVerifyMessage
 TokenBindingDeleteAllBindings;code;TOKENBINDING.dll;
 TokenBindingDeleteBinding;code;TOKENBINDING.dll;
 TokenBindingGenerateBinding;code;TOKENBINDING.dll;

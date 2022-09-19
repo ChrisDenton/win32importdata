@@ -6,16 +6,6 @@ CheckBitmapBits;code;mscms.dll;_CheckBitmapBits@36
 CheckColors;code;mscms.dll;_CheckColors@20
 CloseColorProfile;code;mscms.dll;_CloseColorProfile@4
 CloseDisplay;code;mscms.dll;_CloseDisplay@4
-_ColorAdapterGetCurrentProfileCalibration@24;code;mscms.dll;217
-_ColorAdapterGetDisplayCurrentStateID@16;code;mscms.dll;211
-_ColorAdapterGetDisplayProfile@24;code;mscms.dll;216
-_ColorAdapterGetDisplayTargetWhitePoint@24;code;mscms.dll;215
-_ColorAdapterGetDisplayTransformData@20;code;mscms.dll;214
-_ColorAdapterGetSystemModifyWhitePointCaps@8;code;mscms.dll;210
-_ColorAdapterRegisterOEMColorService@4;code;mscms.dll;218
-_ColorAdapterUnregisterOEMColorService@4;code;mscms.dll;219
-_ColorAdapterUpdateDeviceProfile@16;code;mscms.dll;213
-_ColorAdapterUpdateDisplayGamma@20;code;mscms.dll;212
 ColorCplGetDefaultProfileScope;code;mscms.dll;_ColorCplGetDefaultProfileScope@16
 ColorCplGetDefaultRenderingIntentScope;code;mscms.dll;_ColorCplGetDefaultRenderingIntentScope@4
 ColorCplGetProfileProperties;code;mscms.dll;_ColorCplGetProfileProperties@8
@@ -73,6 +63,7 @@ InstallColorProfileA;code;mscms.dll;_InstallColorProfileA@8
 InstallColorProfileW;code;mscms.dll;_InstallColorProfileW@8
 _InternalGetAppliedGDIGammaRamp@8;code;mscms.dll;207
 _InternalGetAppliedGammaRamp@8;code;mscms.dll;205
+_InternalGetChromaticAdaptationMatrixForDisplay@16;code;mscms.dll;250
 InternalGetDeviceConfig;code;mscms.dll;_InternalGetDeviceConfig@24
 _InternalGetDeviceGammaCapability@4;code;mscms.dll;206
 InternalGetPS2CSAFromLCS;code;mscms.dll;_InternalGetPS2CSAFromLCS@16

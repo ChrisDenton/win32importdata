@@ -3,6 +3,8 @@ SymAllocDiaString;code;dbghelp.dll;?SymAllocDiaString@@YGPAGPBG@Z (unsigned shor
 SymFreeDiaString;code;dbghelp.dll;?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;dbghelp.dll;?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
 SymGetDiaSource;code;dbghelp.dll;?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+SymRegisterGetSourcePathPartCallback;code;dbghelp.dll;?SymRegisterGetSourcePathPartCallback@@YGXP6GJPBGPAPAG@ZPAP6GJ01@Z@Z (void __stdcall SymRegisterGetSourcePathPartCallback(long (__stdcall*)(unsigned short const *,unsigned short * *),long (__stdcall**)(unsigned short const *,unsigned short * *)))
+SymRegisterSourceFileUrlListCallback;code;dbghelp.dll;?SymRegisterSourceFileUrlListCallback@@YGXP6GJPAX_KPBG22PAPAUtagSAFEARRAY@@@ZPAP6GJ012223@Z@Z (void __stdcall SymRegisterSourceFileUrlListCallback(long (__stdcall*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__stdcall**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;dbghelp.dll;?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YGX_KK@Z (void __stdcall _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;_DbgHelpCreateUserDump@12
@@ -140,8 +142,12 @@ SymGetSourceFile;code;dbghelp.dll;_SymGetSourceFile@28
 SymGetSourceFileChecksum;code;dbghelp.dll;_SymGetSourceFileChecksum@32
 SymGetSourceFileChecksumW;code;dbghelp.dll;_SymGetSourceFileChecksumW@32
 SymGetSourceFileFromToken;code;dbghelp.dll;_SymGetSourceFileFromToken@20
+SymGetSourceFileFromTokenByTokenName;code;dbghelp.dll;_SymGetSourceFileFromTokenByTokenName@24
+SymGetSourceFileFromTokenByTokenNameW;code;dbghelp.dll;_SymGetSourceFileFromTokenByTokenNameW@24
 SymGetSourceFileFromTokenW;code;dbghelp.dll;_SymGetSourceFileFromTokenW@20
 SymGetSourceFileToken;code;dbghelp.dll;_SymGetSourceFileToken@24
+SymGetSourceFileTokenByTokenName;code;dbghelp.dll;_SymGetSourceFileTokenByTokenName@32
+SymGetSourceFileTokenByTokenNameW;code;dbghelp.dll;_SymGetSourceFileTokenByTokenNameW@32
 SymGetSourceFileTokenW;code;dbghelp.dll;_SymGetSourceFileTokenW@24
 SymGetSourceFileW;code;dbghelp.dll;_SymGetSourceFileW@28
 SymGetSourceVarFromToken;code;dbghelp.dll;_SymGetSourceVarFromToken@24

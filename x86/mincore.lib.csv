@@ -1060,6 +1060,7 @@ SslCreateEphemeralKey;code;ncrypt.dll;_SslCreateEphemeralKey@36
 SslCreateHandshakeHash;code;ncrypt.dll;_SslCreateHandshakeHash@20
 SslDecrementProviderReferenceCount;code;ncrypt.dll;_SslDecrementProviderReferenceCount@4
 SslDecryptPacket;code;ncrypt.dll;_SslDecryptPacket@40
+SslDeriveSessionTicketKey;code;ncrypt.dll;_SslDeriveSessionTicketKey@32
 SslDuplicateTranscriptHash;code;ncrypt.dll;_SslDuplicateTranscriptHash@16
 SslEncryptPacket;code;ncrypt.dll;_SslEncryptPacket@44
 SslEnumCipherSuites;code;ncrypt.dll;_SslEnumCipherSuites@20
@@ -1086,6 +1087,7 @@ SslGenerateSessionKeys;code;ncrypt.dll;_SslGenerateSessionKeys@24
 SslGetCipherSuitePRFHashAlgorithm;code;ncrypt.dll;_SslGetCipherSuitePRFHashAlgorithm@24
 SslGetKeyProperty;code;ncrypt.dll;_SslGetKeyProperty@20
 SslGetProviderProperty;code;ncrypt.dll;_SslGetProviderProperty@24
+SslGetSessionTicketProtectionHeaderSize;code;ncrypt.dll;_SslGetSessionTicketProtectionHeaderSize@16
 SslHashHandshake;code;ncrypt.dll;_SslHashHandshake@20
 SslImportKey;code;ncrypt.dll;_SslImportKey@24
 SslImportMasterKey;code;ncrypt.dll;_SslImportMasterKey@36
@@ -1094,7 +1096,9 @@ SslLookupCipherLengths;code;ncrypt.dll;_SslLookupCipherLengths@28
 SslLookupCipherSuiteInfo;code;ncrypt.dll;_SslLookupCipherSuiteInfo@24
 SslOpenPrivateKey;code;ncrypt.dll;_SslOpenPrivateKey@16
 SslOpenProvider;code;ncrypt.dll;_SslOpenProvider@12
+SslProtectSessionTicket;code;ncrypt.dll;_SslProtectSessionTicket@28
 SslSignHash;code;ncrypt.dll;_SslSignHash@32
+SslUnprotectSessionTicket;code;ncrypt.dll;_SslUnprotectSessionTicket@28
 SslVerifySignature;code;ncrypt.dll;_SslVerifySignature@28
 NetApiBufferAllocate;code;netutils.dll;_NetApiBufferAllocate@8
 NetApiBufferFree;code;netutils.dll;_NetApiBufferFree@4
@@ -1704,6 +1708,7 @@ WinHttpDetectAutoProxyConfigUrl;code;WINHTTP.dll;_WinHttpDetectAutoProxyConfigUr
 WinHttpFreeProxyResult;code;WINHTTP.dll;_WinHttpFreeProxyResult@4
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;_WinHttpFreeProxyResultEx@4
 WinHttpFreeProxySettings;code;WINHTTP.dll;_WinHttpFreeProxySettings@4
+WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;_WinHttpFreeQueryConnectionGroupResult@4
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;_WinHttpGetDefaultProxyConfiguration@4
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;_WinHttpGetIEProxyConfigForCurrentUser@4
 WinHttpGetProxyForUrl;code;WINHTTP.dll;_WinHttpGetProxyForUrl@16
@@ -1718,6 +1723,7 @@ WinHttpOpen;code;WINHTTP.dll;_WinHttpOpen@20
 WinHttpOpenRequest;code;WINHTTP.dll;_WinHttpOpenRequest@28
 WinHttpProbeConnectivity;code;WINHTTP.dll;_WinHttpProbeConnectivity@24
 WinHttpQueryAuthSchemes;code;WINHTTP.dll;_WinHttpQueryAuthSchemes@16
+WinHttpQueryConnectionGroup;code;WINHTTP.dll;_WinHttpQueryConnectionGroup@20
 WinHttpQueryDataAvailable;code;WINHTTP.dll;_WinHttpQueryDataAvailable@8
 WinHttpQueryHeaders;code;WINHTTP.dll;_WinHttpQueryHeaders@24
 WinHttpQueryHeadersEx;code;WINHTTP.dll;_WinHttpQueryHeadersEx@44
@@ -2545,6 +2551,7 @@ GetThreadSelectedCpuSetMasks;code;api-ms-win-core-processthreads-l1-1-6.dll;_Get
 SetProcessDefaultCpuSetMasks;code;api-ms-win-core-processthreads-l1-1-6.dll;_SetProcessDefaultCpuSetMasks@12
 SetProcessDynamicEnforcedCetCompatibleRanges;code;api-ms-win-core-processthreads-l1-1-6.dll;_SetProcessDynamicEnforcedCetCompatibleRanges@12
 SetThreadSelectedCpuSetMasks;code;api-ms-win-core-processthreads-l1-1-6.dll;_SetThreadSelectedCpuSetMasks@12
+GetMachineTypeAttributes;code;api-ms-win-core-processthreads-l1-1-7.dll;_GetMachineTypeAttributes@8
 QueryPerformanceCounter;code;api-ms-win-core-profile-l1-1-0.dll;_QueryPerformanceCounter@4
 QueryPerformanceFrequency;code;api-ms-win-core-profile-l1-1-0.dll;_QueryPerformanceFrequency@4
 QueryIdleProcessorCycleTime;code;api-ms-win-core-realtime-l1-1-0.dll;_QueryIdleProcessorCycleTime@8
@@ -3109,6 +3116,7 @@ DnsFlushResolverCacheEntry_W;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_W@4
 DnsFree;code;DNSAPI.dll;_DnsFree@8
 DnsFreeAdaptersInfo;code;DNSAPI.dll;_DnsFreeAdaptersInfo@8
 DnsFreeConfigStructure;code;DNSAPI.dll;_DnsFreeConfigStructure@8
+DnsFreeCustomServers;code;DNSAPI.dll;_DnsFreeCustomServers@8
 DnsFreeNrptRule;code;DNSAPI.dll;_DnsFreeNrptRule@4
 DnsFreeNrptRuleNamesList;code;DNSAPI.dll;_DnsFreeNrptRuleNamesList@8
 DnsFreePolicyConfig;code;DNSAPI.dll;_DnsFreePolicyConfig@4
@@ -3117,6 +3125,7 @@ DnsFreeWellKnownServerProperty;code;DNSAPI.dll;_DnsFreeWellKnownServerProperty@4
 DnsFreeWellKnownServers;code;DNSAPI.dll;_DnsFreeWellKnownServers@8
 DnsGetAdaptersInfo;code;DNSAPI.dll;_DnsGetAdaptersInfo@24
 DnsGetApplicationIdentifier;code;DNSAPI.dll;_DnsGetApplicationIdentifier@12
+DnsGetApplicationSettings;code;DNSAPI.dll;_DnsGetApplicationSettings@12
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
 DnsGetCacheDataTableEx;code;DNSAPI.dll;_DnsGetCacheDataTableEx@12
@@ -3155,6 +3164,7 @@ DnsNameCopy;code;DNSAPI.dll;_DnsNameCopy@24
 DnsNameCopyAllocate;code;DNSAPI.dll;_DnsNameCopyAllocate@16
 DnsNetworkInfo_CreateFromFAZ;code;DNSAPI.dll;_DnsNetworkInfo_CreateFromFAZ@20
 DnsNetworkInformation_CreateFromFAZ;code;DNSAPI.dll;_DnsNetworkInformation_CreateFromFAZ@16
+DnsNotifyProxyConfigChangePrivate;code;DNSAPI.dll;_DnsNotifyProxyConfigChangePrivate@0
 DnsNotifyResolver;code;DNSAPI.dll;_DnsNotifyResolver@8
 DnsNotifyResolverClusterIp;code;DNSAPI.dll;_DnsNotifyResolverClusterIp@8
 DnsNotifyResolverEx;code;DNSAPI.dll;_DnsNotifyResolverEx@16
@@ -3201,6 +3211,7 @@ DnsServiceRegister;code;DNSAPI.dll;_DnsServiceRegister@8
 DnsServiceRegisterCancel;code;DNSAPI.dll;_DnsServiceRegisterCancel@4
 DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
+DnsSetApplicationSettings;code;DNSAPI.dll;_DnsSetApplicationSettings@12
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
 DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
 DnsSetInterfaceSettings;code;DNSAPI.dll;_DnsSetInterfaceSettings@20
@@ -3336,6 +3347,7 @@ AddIPAddress;code;IPHLPAPI.DLL;_AddIPAddress@20
 AllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_AllocateAndGetInterfaceInfoFromStack@20
 AllocateAndGetIpAddrTableFromStack;code;IPHLPAPI.DLL;_AllocateAndGetIpAddrTableFromStack@16
 CancelIPChangeNotify;code;IPHLPAPI.DLL;_CancelIPChangeNotify@4
+CancelIfTimestampConfigChange;code;IPHLPAPI.DLL;_CancelIfTimestampConfigChange@4
 CancelMibChangeNotify2;code;IPHLPAPI.DLL;_CancelMibChangeNotify2@4
 CaptureInterfaceHardwareCrossTimestamp;code;IPHLPAPI.DLL;_CaptureInterfaceHardwareCrossTimestamp@8
 CloseCompartment;code;IPHLPAPI.DLL;_CloseCompartment@4
@@ -3424,7 +3436,9 @@ GetIfTable2Ex;code;IPHLPAPI.DLL;_GetIfTable2Ex@8
 GetIfTable;code;IPHLPAPI.DLL;_GetIfTable@12
 GetInterfaceActiveTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceActiveTimestampCapabilities@8
 GetInterfaceCompartmentId;code;IPHLPAPI.DLL;_GetInterfaceCompartmentId@4
+GetInterfaceCurrentTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceCurrentTimestampCapabilities@8
 GetInterfaceDnsSettings;code;IPHLPAPI.DLL;_GetInterfaceDnsSettings@20
+GetInterfaceHardwareTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceHardwareTimestampCapabilities@8
 GetInterfaceInfo;code;IPHLPAPI.DLL;_GetInterfaceInfo@8
 GetInterfaceSupportedTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceSupportedTimestampCapabilities@8
 GetInvertedIfStackTable;code;IPHLPAPI.DLL;_GetInvertedIfStackTable@4
@@ -3575,6 +3589,7 @@ NhGetInterfaceNameFromGuid;code;IPHLPAPI.DLL;_NhGetInterfaceNameFromGuid@20
 NhpAllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_NhpAllocateAndGetInterfaceInfoFromStack@20
 NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
+NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
 NotifyNetworkConnectivityHintChange;code;IPHLPAPI.DLL;_NotifyNetworkConnectivityHintChange@16
 NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
@@ -4030,6 +4045,7 @@ RpcBindingInqAuthInfoA;code;RPCRT4.dll;_RpcBindingInqAuthInfoA@24
 RpcBindingInqAuthInfoExA;code;RPCRT4.dll;_RpcBindingInqAuthInfoExA@32
 RpcBindingInqAuthInfoExW;code;RPCRT4.dll;_RpcBindingInqAuthInfoExW@32
 RpcBindingInqAuthInfoW;code;RPCRT4.dll;_RpcBindingInqAuthInfoW@24
+RpcBindingInqMaxCalls;code;RPCRT4.dll;_RpcBindingInqMaxCalls@8
 RpcBindingInqObject;code;RPCRT4.dll;_RpcBindingInqObject@8
 RpcBindingInqOption;code;RPCRT4.dll;_RpcBindingInqOption@12
 RpcBindingReset;code;RPCRT4.dll;_RpcBindingReset@4

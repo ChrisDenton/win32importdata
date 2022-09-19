@@ -6,16 +6,6 @@ CheckBitmapBits;code;mscms.dll;
 CheckColors;code;mscms.dll;
 CloseColorProfile;code;mscms.dll;
 CloseDisplay;code;mscms.dll;
-ColorAdapterGetCurrentProfileCalibration;code;mscms.dll;217
-ColorAdapterGetDisplayCurrentStateID;code;mscms.dll;211
-ColorAdapterGetDisplayProfile;code;mscms.dll;216
-ColorAdapterGetDisplayTargetWhitePoint;code;mscms.dll;215
-ColorAdapterGetDisplayTransformData;code;mscms.dll;214
-ColorAdapterGetSystemModifyWhitePointCaps;code;mscms.dll;210
-ColorAdapterRegisterOEMColorService;code;mscms.dll;218
-ColorAdapterUnregisterOEMColorService;code;mscms.dll;219
-ColorAdapterUpdateDeviceProfile;code;mscms.dll;213
-ColorAdapterUpdateDisplayGamma;code;mscms.dll;212
 ColorCplGetDefaultProfileScope;code;mscms.dll;
 ColorCplGetDefaultRenderingIntentScope;code;mscms.dll;
 ColorCplGetProfileProperties;code;mscms.dll;
@@ -73,6 +63,7 @@ InstallColorProfileA;code;mscms.dll;
 InstallColorProfileW;code;mscms.dll;
 InternalGetAppliedGDIGammaRamp;code;mscms.dll;207
 InternalGetAppliedGammaRamp;code;mscms.dll;205
+InternalGetChromaticAdaptationMatrixForDisplay;code;mscms.dll;250
 InternalGetDeviceConfig;code;mscms.dll;
 InternalGetDeviceGammaCapability;code;mscms.dll;206
 InternalGetPS2CSAFromLCS;code;mscms.dll;

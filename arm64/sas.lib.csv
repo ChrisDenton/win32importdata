@@ -1,2 +1,3 @@
 Name;Type;DLL;SymbolOrOrdinal
+SendSAS;code;SAS.dll;#SendSAS
 SendSAS;code;SAS.dll;

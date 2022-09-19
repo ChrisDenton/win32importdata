@@ -7,6 +7,8 @@ SymGetLineFromAddrEx;code;dbghelp.dll;?SymGetLineFromAddrEx@@YAHPEAX_KPEAU_IMAGE
 SymGetLineFromNameEx;code;dbghelp.dll;?SymGetLineFromNameEx@@YAHPEAXPEBD1KPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAJPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromNameEx(void *,char const *,char const *,unsigned long,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,long *,struct _IMAGEHLP_LINE64 *))
 SymGetLineNextEx;code;dbghelp.dll;?SymGetLineNextEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineNextEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
 SymGetLinePrevEx;code;dbghelp.dll;?SymGetLinePrevEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLinePrevEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
+SymRegisterGetSourcePathPartCallback;code;dbghelp.dll;?SymRegisterGetSourcePathPartCallback@@YAXP6AJPEBGPEAPEAG@ZPEAP6AJ01@Z@Z (void __cdecl SymRegisterGetSourcePathPartCallback(long (__cdecl*)(unsigned short const *,unsigned short * *),long (__cdecl**)(unsigned short const *,unsigned short * *)))
+SymRegisterSourceFileUrlListCallback;code;dbghelp.dll;?SymRegisterSourceFileUrlListCallback@@YAXP6AJPEAX_KPEBG22PEAPEAUtagSAFEARRAY@@@ZPEAP6AJ012223@Z@Z (void __cdecl SymRegisterSourceFileUrlListCallback(long (__cdecl*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__cdecl**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;dbghelp.dll;?SymSetDiaSession@@YAHPEAX_KPEAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YAX_KK@Z (void __cdecl _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;
@@ -143,8 +145,12 @@ SymGetSourceFile;code;dbghelp.dll;
 SymGetSourceFileChecksum;code;dbghelp.dll;
 SymGetSourceFileChecksumW;code;dbghelp.dll;
 SymGetSourceFileFromToken;code;dbghelp.dll;
+SymGetSourceFileFromTokenByTokenName;code;dbghelp.dll;
+SymGetSourceFileFromTokenByTokenNameW;code;dbghelp.dll;
 SymGetSourceFileFromTokenW;code;dbghelp.dll;
 SymGetSourceFileToken;code;dbghelp.dll;
+SymGetSourceFileTokenByTokenName;code;dbghelp.dll;
+SymGetSourceFileTokenByTokenNameW;code;dbghelp.dll;
 SymGetSourceFileTokenW;code;dbghelp.dll;
 SymGetSourceFileW;code;dbghelp.dll;
 SymGetSourceVarFromToken;code;dbghelp.dll;

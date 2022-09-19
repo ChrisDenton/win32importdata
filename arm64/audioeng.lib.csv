@@ -1,3 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+AERT_Allocate;code;audioeng.dll;#AERT_Allocate
+AERT_Free;code;audioeng.dll;#AERT_Free
 AERT_Allocate;code;audioeng.dll;
 AERT_Free;code;audioeng.dll;

@@ -1,4 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
+LoadGPExtension;code;dnsrslvr.dll;#LoadGPExtension
+Reg_DoRegisterAdapter;code;dnsrslvr.dll;#Reg_DoRegisterAdapter
+ServiceMain;code;dnsrslvr.dll;#ServiceMain
+SvchostPushServiceGlobals;code;dnsrslvr.dll;#SvchostPushServiceGlobals
 LoadGPExtension;code;dnsrslvr.dll;
 Reg_DoRegisterAdapter;code;dnsrslvr.dll;
 ServiceMain;code;dnsrslvr.dll;

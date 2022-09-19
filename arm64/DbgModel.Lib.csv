@@ -1,2 +1,3 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreateDataModelManager;code;dbgmodel.dll;#CreateDataModelManager
 CreateDataModelManager;code;dbgmodel.dll;

@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-D3DAssemble;code;D3DCOMPILER_47.dll;?D3DAssemble@@YAJPEBX_KPEBDPEBU_D3D_SHADER_MACRO@@PEAUID3DInclude@@IPEAPEAUID3D10Blob@@5@Z (long __cdecl D3DAssemble(void const *,unsigned __int64,char const *,struct _D3D_SHADER_MACRO const *,struct ID3DInclude *,unsigned int,struct ID3D10Blob * *,struct ID3D10Blob * *))
 DebugSetMute;code;D3DCOMPILER_47.dll;?DebugSetMute@@YAXH@Z (void __cdecl DebugSetMute(int))
 D3DCompile;code;D3DCOMPILER_47.dll;
 D3DCompile2;code;D3DCOMPILER_47.dll;

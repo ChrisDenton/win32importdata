@@ -98,7 +98,7 @@ SamIUnLoadDownlevelDatabase;code;SAMSRV.dll;_SamIUnLoadDownlevelDatabase@4
 SamIUninitialize;code;SAMSRV.dll;_SamIUninitialize@0
 SamIUpdateLogonStatistics;code;SAMSRV.dll;_SamIUpdateLogonStatistics@8
 SamIValidateAccountName;code;SAMSRV.dll;_SamIValidateAccountName@8
-SamIValidateNewAccountName;code;SAMSRV.dll;_SamIValidateNewAccountName@20
+SamIValidateNewAccountName;code;SAMSRV.dll;_SamIValidateNewAccountName@24
 SampAccountControlToFlags;code;SAMSRV.dll;_SampAccountControlToFlags@4
 SampAcquireReadLock;code;SAMSRV.dll;_SampAcquireReadLock@0
 SampAcquireSamLockExclusive;code;SAMSRV.dll;_SampAcquireSamLockExclusive@0
@@ -168,6 +168,7 @@ SampEncryptCredentialData;code;SAMSRV.dll;_SampEncryptCredentialData@28
 SampExamineSid;code;SAMSRV.dll;_SampExamineSid@28
 SampExtendDefinedDomains;code;SAMSRV.dll;_SampExtendDefinedDomains@4
 SampFlagsToAccountControl;code;SAMSRV.dll;_SampFlagsToAccountControl@8
+SampFlagsToAccountControlEx;code;SAMSRV.dll;_SampFlagsToAccountControlEx@12
 SampFreeGroupInfo;code;SAMSRV.dll;_SampFreeGroupInfo@4
 SampFreeMachineInfo;code;SAMSRV.dll;_SampFreeMachineInfo@4
 SampFreeOemGroupInfo;code;SAMSRV.dll;_SampFreeOemGroupInfo@4
@@ -266,8 +267,10 @@ SampRtlWellKnownPrivilegeCheck;code;SAMSRV.dll;_SampRtlWellKnownPrivilegeCheck@1
 SampSetAccessAttribute;code;SAMSRV.dll;_SampSetAccessAttribute@16
 SampSetAdminPassword;code;SAMSRV.dll;_SampSetAdminPassword@4
 SampSetAttributeAccess;code;SAMSRV.dll;_SampSetAttributeAccess@12
+SampSetCheckpointInfo;code;SAMSRV.dll;_SampSetCheckpointInfo@4
 SampSetComputerObjectDsName;code;SAMSRV.dll;_SampSetComputerObjectDsName@4
 SampSetDSRMPasswordWorker;code;SAMSRV.dll;_SampSetDSRMPasswordWorker@8
+SampSetErrorInfo;code;SAMSRV.dll;_SampSetErrorInfo@8
 SampSetExtendedAttributeAccess;code;SAMSRV.dll;_SampSetExtendedAttributeAccess@16
 SampSetFixedAttributes;code;SAMSRV.dll;_SampSetFixedAttributes@8
 SampSetGlobalDsSids;code;SAMSRV.dll;_SampSetGlobalDsSids@12

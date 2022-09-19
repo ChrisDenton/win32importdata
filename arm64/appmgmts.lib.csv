@@ -1,4 +1,21 @@
 Name;Type;DLL;SymbolOrOrdinal
+CsCreateClassStore;code;APPMGMTS.dll;#CsCreateClassStore
+CsEnumApps;code;APPMGMTS.dll;#CsEnumApps
+CsGetAppCategories;code;APPMGMTS.dll;#CsGetAppCategories
+CsGetClassAccess;code;APPMGMTS.dll;#CsGetClassAccess
+CsGetClassStore;code;APPMGMTS.dll;#CsGetClassStore
+CsGetClassStorePath;code;APPMGMTS.dll;#CsGetClassStorePath
+CsRegisterAppCategory;code;APPMGMTS.dll;#CsRegisterAppCategory
+CsServerGetClassStore;code;APPMGMTS.dll;#CsServerGetClassStore
+CsUnregisterAppCategory;code;APPMGMTS.dll;#CsUnregisterAppCategory
+GenerateGroupPolicy;code;APPMGMTS.dll;#GenerateGroupPolicy
+ProcessGroupPolicyObjectsEx;code;APPMGMTS.dll;#ProcessGroupPolicyObjectsEx
+ReleaseAppCategoryInfoList;code;APPMGMTS.dll;#ReleaseAppCategoryInfoList
+ReleasePackageDetail;code;APPMGMTS.dll;#ReleasePackageDetail
+ReleasePackageInfo;code;APPMGMTS.dll;#ReleasePackageInfo
+ServiceMain;code;APPMGMTS.dll;#ServiceMain
+CsSetOptions;code;APPMGMTS.dll;?CsSetOptions@@$$hYAXK@Z (void __cdecl CsSetOptions(unsigned long))
+IID_IClassAdmin;code;APPMGMTS.dll;IID_IClassAdmin
 CsSetOptions;code;APPMGMTS.dll;?CsSetOptions@@YAXK@Z (void __cdecl CsSetOptions(unsigned long))
 CsCreateClassStore;code;APPMGMTS.dll;
 CsEnumApps;code;APPMGMTS.dll;

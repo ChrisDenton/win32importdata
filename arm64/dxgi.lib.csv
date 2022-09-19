@@ -1,4 +1,19 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreateDXGIFactory;code;dxgi.dll;#CreateDXGIFactory
+CreateDXGIFactory1;code;dxgi.dll;#CreateDXGIFactory1
+CreateDXGIFactory2;code;dxgi.dll;#CreateDXGIFactory2
+DXGID3D10CreateDevice;code;dxgi.dll;#DXGID3D10CreateDevice
+DXGID3D10CreateLayeredDevice;code;dxgi.dll;#DXGID3D10CreateLayeredDevice
+DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;#DXGID3D10GetLayeredDeviceSize
+DXGID3D10RegisterLayers;code;dxgi.dll;#DXGID3D10RegisterLayers
+DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;#DXGIDeclareAdapterRemovalSupport
+DXGIGetDebugInterface1;code;dxgi.dll;#DXGIGetDebugInterface1
+DXGIReportAdapterConfiguration;code;dxgi.dll;#DXGIReportAdapterConfiguration
+DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@$$hYAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
+PIXBeginCapture;code;dxgi.dll;?PIXBeginCapture@@$$hYAJIPEAX@Z (long __cdecl PIXBeginCapture(unsigned int,void *))
+PIXEndCapture;code;dxgi.dll;?PIXEndCapture@@$$hYAJH@Z (long __cdecl PIXEndCapture(int))
+PIXGetCaptureState;code;dxgi.dll;?PIXGetCaptureState@@$$hYAIXZ (unsigned int __cdecl PIXGetCaptureState(void))
+UpdateHMDEmulationStatus;code;dxgi.dll;?UpdateHMDEmulationStatus@@$$hYAJ_N@Z (long __cdecl UpdateHMDEmulationStatus(bool))
 DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
 PIXBeginCapture;code;dxgi.dll;?PIXBeginCapture@@YAJIPEAX@Z (long __cdecl PIXBeginCapture(unsigned int,void *))
 PIXEndCapture;code;dxgi.dll;?PIXEndCapture@@YAJH@Z (long __cdecl PIXEndCapture(int))

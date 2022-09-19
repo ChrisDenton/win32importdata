@@ -1,4 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+KsGetMediaType;code;ksproxy.ax;#KsGetMediaType
+KsGetMediaTypeCount;code;ksproxy.ax;#KsGetMediaTypeCount
+KsGetMultiplePinFactoryItems;code;ksproxy.ax;#KsGetMultiplePinFactoryItems
+KsOpenDefaultDevice;code;ksproxy.ax;#KsOpenDefaultDevice
+KsResolveRequiredAttributes;code;ksproxy.ax;#KsResolveRequiredAttributes
+KsSynchronousDeviceControl;code;ksproxy.ax;#KsSynchronousDeviceControl
 KsGetMediaType;code;ksproxy.ax;
 KsGetMediaTypeCount;code;ksproxy.ax;
 KsGetMultiplePinFactoryItems;code;ksproxy.ax;

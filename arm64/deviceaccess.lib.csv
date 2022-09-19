@@ -1,4 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreateDeviceAccessInstance;code;deviceaccess.dll;#CreateDeviceAccessInstance
+ProcessTrackerInsertOrWait;code;deviceaccess.dll;#ProcessTrackerInsertOrWait
+ProcessTrackerRemove;code;deviceaccess.dll;#ProcessTrackerRemove
 CreateDeviceAccessInstance;code;deviceaccess.dll;
 ProcessTrackerInsertOrWait;code;deviceaccess.dll;
 ProcessTrackerRemove;code;deviceaccess.dll;

@@ -1,4 +1,44 @@
 Name;Type;DLL;SymbolOrOrdinal
+SLConsumeWindowsRight;code;SLC.dll;#SLConsumeWindowsRight
+SLGetWindowsInformation;code;SLC.dll;#SLGetWindowsInformation
+SLGetWindowsInformationDWORD;code;SLC.dll;#SLGetWindowsInformationDWORD
+SLIsWindowsGenuineLocal;code;SLC.dll;#SLIsWindowsGenuineLocal
+SLReArmWindows;code;SLC.dll;#SLReArmWindows
+SLRegisterWindowsEvent;code;SLC.dll;#SLRegisterWindowsEvent
+SLUnregisterWindowsEvent;code;SLC.dll;#SLUnregisterWindowsEvent
+SLpCheckProductKey;code;SLC.dll;?SLpCheckProductKey@@$$hYAJPEAUDIGITALPID4@@PEAH@Z (long __cdecl SLpCheckProductKey(struct DIGITALPID4 *,int *))
+SLpGetGenuineLocal;code;SLC.dll;?SLpGetGenuineLocal@@YAJPEAXPEBU_GUID@@PEAW4_SL_GENUINE_STATE@@@Z (long __cdecl SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))
+SLpUpdateComponentTokens;code;SLC.dll;?SLpUpdateComponentTokens@@$$hYAJPEAXPEAH@Z (long __cdecl SLpUpdateComponentTokens(void *,int *))
+SLClose;code;SLC.dll;SLClose
+SLConsumeRight;code;SLC.dll;SLConsumeRight
+SLDepositOfflineConfirmationId;code;SLC.dll;SLDepositOfflineConfirmationId
+SLDepositOfflineConfirmationIdEx;code;SLC.dll;SLDepositOfflineConfirmationIdEx
+SLFireEvent;code;SLC.dll;SLFireEvent
+SLGenerateOfflineInstallationId;code;SLC.dll;SLGenerateOfflineInstallationId
+SLGenerateOfflineInstallationIdEx;code;SLC.dll;SLGenerateOfflineInstallationIdEx
+SLGetApplicationInformation;code;SLC.dll;SLGetApplicationInformation
+SLGetGenuineInformation;code;SLC.dll;SLGetGenuineInformation
+SLGetInstalledProductKeyIds;code;SLC.dll;SLGetInstalledProductKeyIds
+SLGetLicense;code;SLC.dll;SLGetLicense
+SLGetLicenseFileId;code;SLC.dll;SLGetLicenseFileId
+SLGetLicenseInformation;code;SLC.dll;SLGetLicenseInformation
+SLGetLicensingStatusInformation;code;SLC.dll;SLGetLicensingStatusInformation
+SLGetPKeyId;code;SLC.dll;SLGetPKeyId
+SLGetPKeyInformation;code;SLC.dll;SLGetPKeyInformation
+SLGetPolicyInformation;code;SLC.dll;SLGetPolicyInformation
+SLGetPolicyInformationDWORD;code;SLC.dll;SLGetPolicyInformationDWORD
+SLGetProductSkuInformation;code;SLC.dll;SLGetProductSkuInformation
+SLGetSLIDList;code;SLC.dll;SLGetSLIDList
+SLGetServiceInformation;code;SLC.dll;SLGetServiceInformation
+SLInstallLicense;code;SLC.dll;SLInstallLicense
+SLInstallProofOfPurchase;code;SLC.dll;SLInstallProofOfPurchase
+SLOpen;code;SLC.dll;SLOpen
+SLRegisterEvent;code;SLC.dll;SLRegisterEvent
+SLSetCurrentProductKey;code;SLC.dll;SLSetCurrentProductKey
+SLSetGenuineInformation;code;SLC.dll;SLSetGenuineInformation
+SLUninstallLicense;code;SLC.dll;SLUninstallLicense
+SLUninstallProofOfPurchase;code;SLC.dll;SLUninstallProofOfPurchase
+SLUnregisterEvent;code;SLC.dll;SLUnregisterEvent
 SLpCheckProductKey;code;SLC.dll;?SLpCheckProductKey@@YAJPEAUDIGITALPID4@@PEAH@Z (long __cdecl SLpCheckProductKey(struct DIGITALPID4 *,int *))
 SLpGetGenuineLocal;code;SLC.dll;?SLpGetGenuineLocal@@YAJPEAXPEBU_GUID@@PEAW4_SL_GENUINE_STATE@@@Z (long __cdecl SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))
 SLpUpdateComponentTokens;code;SLC.dll;?SLpUpdateComponentTokens@@YAJPEAXPEAH@Z (long __cdecl SLpUpdateComponentTokens(void *,int *))

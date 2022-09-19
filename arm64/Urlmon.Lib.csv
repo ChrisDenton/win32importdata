@@ -1,4 +1,99 @@
 Name;Type;DLL;SymbolOrOrdinal
+BindAsyncMoniker;code;urlmon.dll;#BindAsyncMoniker
+CORPolicyProvider;code;urlmon.dll;#CORPolicyProvider
+CoGetClassObjectFromURL;code;urlmon.dll;#CoGetClassObjectFromURL
+CoInternetCanonicalizeIUri;code;urlmon.dll;#CoInternetCanonicalizeIUri
+CoInternetCombineIUri;code;urlmon.dll;#CoInternetCombineIUri
+CoInternetCombineUrl;code;urlmon.dll;#CoInternetCombineUrl
+CoInternetCombineUrlEx;code;urlmon.dll;#CoInternetCombineUrlEx
+CoInternetCompareUrl;code;urlmon.dll;#CoInternetCompareUrl
+CoInternetCreateSecurityManager;code;urlmon.dll;#CoInternetCreateSecurityManager
+CoInternetCreateZoneManager;code;urlmon.dll;#CoInternetCreateZoneManager
+CoInternetGetProtocolFlags;code;urlmon.dll;#CoInternetGetProtocolFlags
+CoInternetGetSecurityUrl;code;urlmon.dll;#CoInternetGetSecurityUrl
+CoInternetGetSecurityUrlEx;code;urlmon.dll;#CoInternetGetSecurityUrlEx
+CoInternetGetSession;code;urlmon.dll;#CoInternetGetSession
+CoInternetIsFeatureEnabled;code;urlmon.dll;#CoInternetIsFeatureEnabled
+CoInternetIsFeatureEnabledForIUri;code;urlmon.dll;#CoInternetIsFeatureEnabledForIUri
+CoInternetIsFeatureEnabledForUrl;code;urlmon.dll;#CoInternetIsFeatureEnabledForUrl
+CoInternetIsFeatureZoneElevationEnabled;code;urlmon.dll;#CoInternetIsFeatureZoneElevationEnabled
+CoInternetParseIUri;code;urlmon.dll;#CoInternetParseIUri
+CoInternetParseUrl;code;urlmon.dll;#CoInternetParseUrl
+CoInternetQueryInfo;code;urlmon.dll;#CoInternetQueryInfo
+CoInternetSetFeatureEnabled;code;urlmon.dll;#CoInternetSetFeatureEnabled
+CompareSecurityIds;code;urlmon.dll;#CompareSecurityIds
+CompatFlagsFromClsid;code;urlmon.dll;#CompatFlagsFromClsid
+CopyBindInfo;code;urlmon.dll;#CopyBindInfo
+CopyStgMedium;code;urlmon.dll;#CopyStgMedium
+CreateAsyncBindCtx;code;urlmon.dll;#CreateAsyncBindCtx
+CreateAsyncBindCtxEx;code;urlmon.dll;#CreateAsyncBindCtxEx
+CreateFormatEnumerator;code;urlmon.dll;#CreateFormatEnumerator
+CreateIUriBuilder;code;urlmon.dll;#CreateIUriBuilder
+CreateURLMoniker;code;urlmon.dll;#CreateURLMoniker
+CreateURLMonikerEx;code;urlmon.dll;#CreateURLMonikerEx
+CreateURLMonikerEx2;code;urlmon.dll;#CreateURLMonikerEx2
+CreateUri;code;urlmon.dll;#CreateUri
+CreateUriFromMultiByteString;code;urlmon.dll;#CreateUriFromMultiByteString
+CreateUriPriv;code;urlmon.dll;#CreateUriPriv
+CreateUriWithFragment;code;urlmon.dll;#CreateUriWithFragment
+Extract;code;urlmon.dll;#Extract
+FaultInIEFeature;code;urlmon.dll;#FaultInIEFeature
+FindMediaType;code;urlmon.dll;#FindMediaType
+FindMediaTypeClass;code;urlmon.dll;#FindMediaTypeClass
+FindMimeFromData;code;urlmon.dll;#FindMimeFromData
+GetClassFileOrMime;code;urlmon.dll;#GetClassFileOrMime
+GetClassURL;code;urlmon.dll;#GetClassURL
+GetComponentIDFromCLSSPEC;code;urlmon.dll;#GetComponentIDFromCLSSPEC
+GetIUriPriv;code;urlmon.dll;#GetIUriPriv
+GetIUriPriv2;code;urlmon.dll;#GetIUriPriv2
+GetLabelsFromNamedHost;code;urlmon.dll;#GetLabelsFromNamedHost
+GetSoftwareUpdateInfo;code;urlmon.dll;#GetSoftwareUpdateInfo
+HlinkGoBack;code;urlmon.dll;#HlinkGoBack
+HlinkGoForward;code;urlmon.dll;#HlinkGoForward
+HlinkNavigateMoniker;code;urlmon.dll;#HlinkNavigateMoniker
+HlinkNavigateString;code;urlmon.dll;#HlinkNavigateString
+HlinkSimpleNavigateToMoniker;code;urlmon.dll;#HlinkSimpleNavigateToMoniker
+HlinkSimpleNavigateToString;code;urlmon.dll;#HlinkSimpleNavigateToString
+IEGetUserPrivateNamespaceName;code;urlmon.dll;#IEGetUserPrivateNamespaceName
+IEInstallScope;code;urlmon.dll;#IEInstallScope
+IsAsyncMoniker;code;urlmon.dll;#IsAsyncMoniker
+IsJITInProgress;code;urlmon.dll;#IsJITInProgress
+IsLoggingEnabledA;code;urlmon.dll;#IsLoggingEnabledA
+IsLoggingEnabledW;code;urlmon.dll;#IsLoggingEnabledW
+IsValidURL;code;urlmon.dll;#IsValidURL
+MkParseDisplayNameEx;code;urlmon.dll;#MkParseDisplayNameEx
+ObtainUserAgentString;code;urlmon.dll;#ObtainUserAgentString
+RegisterBindStatusCallback;code;urlmon.dll;#RegisterBindStatusCallback
+RegisterFormatEnumerator;code;urlmon.dll;#RegisterFormatEnumerator
+RegisterMediaTypeClass;code;urlmon.dll;#RegisterMediaTypeClass
+RegisterMediaTypes;code;urlmon.dll;#RegisterMediaTypes
+ReleaseBindInfo;code;urlmon.dll;#ReleaseBindInfo
+RevokeBindStatusCallback;code;urlmon.dll;#RevokeBindStatusCallback
+RevokeFormatEnumerator;code;urlmon.dll;#RevokeFormatEnumerator
+SetAccessForIEAppContainer;code;urlmon.dll;#SetAccessForIEAppContainer
+SetSoftwareUpdateAdvertisementState;code;urlmon.dll;#SetSoftwareUpdateAdvertisementState
+URLDownloadA;code;urlmon.dll;#URLDownloadA
+URLDownloadToCacheFileA;code;urlmon.dll;#URLDownloadToCacheFileA
+URLDownloadToCacheFileW;code;urlmon.dll;#URLDownloadToCacheFileW
+URLDownloadToFileA;code;urlmon.dll;#URLDownloadToFileA
+URLDownloadToFileW;code;urlmon.dll;#URLDownloadToFileW
+URLDownloadW;code;urlmon.dll;#URLDownloadW
+URLOpenBlockingStreamA;code;urlmon.dll;#URLOpenBlockingStreamA
+URLOpenBlockingStreamW;code;urlmon.dll;#URLOpenBlockingStreamW
+URLOpenPullStreamA;code;urlmon.dll;#URLOpenPullStreamA
+URLOpenPullStreamW;code;urlmon.dll;#URLOpenPullStreamW
+URLOpenStreamA;code;urlmon.dll;#URLOpenStreamA
+URLOpenStreamW;code;urlmon.dll;#URLOpenStreamW
+UrlMkBuildVersion;code;urlmon.dll;#UrlMkBuildVersion
+UrlMkGetSessionOption;code;urlmon.dll;#UrlMkGetSessionOption
+UrlMkSetSessionOption;code;urlmon.dll;#UrlMkSetSessionOption
+WriteHitLogging;code;urlmon.dll;#WriteHitLogging
+GetPortFromUrlScheme;code;urlmon.dll;?GetPortFromUrlScheme@@$$hYAHKPEAK@Z (int __cdecl GetPortFromUrlScheme(unsigned long,unsigned long *))
+GetPropertyFromName;code;urlmon.dll;?GetPropertyFromName@@$$hYAHPEBGPEAW4__MIDL_IUri_0001@@@Z (int __cdecl GetPropertyFromName(unsigned short const *,enum __MIDL_IUri_0001 *))
+GetPropertyName;code;urlmon.dll;?GetPropertyName@@$$hYAPEBGW4__MIDL_IUri_0001@@@Z (unsigned short const * __cdecl GetPropertyName(enum __MIDL_IUri_0001))
+?IECompatLogCSSFix@@$$hYAXPEBG0K@Z (void __cdecl IECompatLogCSSFix(unsigned short const *,unsigned short const *,unsigned long));code;urlmon.dll;322
+IsDWORDProperty;code;urlmon.dll;?IsDWORDProperty@@$$hYAHW4__MIDL_IUri_0001@@@Z (int __cdecl IsDWORDProperty(enum __MIDL_IUri_0001))
+IsStringProperty;code;urlmon.dll;?IsStringProperty@@$$hYAHW4__MIDL_IUri_0001@@@Z (int __cdecl IsStringProperty(enum __MIDL_IUri_0001))
 GetPortFromUrlScheme;code;urlmon.dll;?GetPortFromUrlScheme@@YAHKPEAK@Z (int __cdecl GetPortFromUrlScheme(unsigned long,unsigned long *))
 GetPropertyFromName;code;urlmon.dll;?GetPropertyFromName@@YAHPEBGPEAW4__MIDL_IUri_0001@@@Z (int __cdecl GetPropertyFromName(unsigned short const *,enum __MIDL_IUri_0001 *))
 GetPropertyName;code;urlmon.dll;?GetPropertyName@@YAPEBGW4__MIDL_IUri_0001@@@Z (unsigned short const * __cdecl GetPropertyName(enum __MIDL_IUri_0001))

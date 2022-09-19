@@ -1,3 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
+LicenseProtectionPbrReset;code;licenseprotection.dll;?LicenseProtectionPbrReset@@YAJW4ResetScopeType@@PBG1@Z (long __cdecl LicenseProtectionPbrReset(enum ResetScopeType,unsigned short const *,unsigned short const *))
 RegisterLicenseKeyWithExpiration;code;licenseprotection.dll;
 ValidateLicenseKeyProtection;code;licenseprotection.dll;

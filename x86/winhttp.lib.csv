@@ -24,6 +24,7 @@ WinHttpDetectAutoProxyConfigUrl;code;WINHTTP.dll;_WinHttpDetectAutoProxyConfigUr
 WinHttpFreeProxyResult;code;WINHTTP.dll;_WinHttpFreeProxyResult@4
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;_WinHttpFreeProxyResultEx@4
 WinHttpFreeProxySettings;code;WINHTTP.dll;_WinHttpFreeProxySettings@4
+WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;_WinHttpFreeQueryConnectionGroupResult@4
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;_WinHttpGetDefaultProxyConfiguration@4
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;_WinHttpGetIEProxyConfigForCurrentUser@4
 WinHttpGetProxyForUrl;code;WINHTTP.dll;_WinHttpGetProxyForUrl@16
@@ -38,6 +39,7 @@ WinHttpOpen;code;WINHTTP.dll;_WinHttpOpen@20
 WinHttpOpenRequest;code;WINHTTP.dll;_WinHttpOpenRequest@28
 WinHttpProbeConnectivity;code;WINHTTP.dll;_WinHttpProbeConnectivity@24
 WinHttpQueryAuthSchemes;code;WINHTTP.dll;_WinHttpQueryAuthSchemes@16
+WinHttpQueryConnectionGroup;code;WINHTTP.dll;_WinHttpQueryConnectionGroup@20
 WinHttpQueryDataAvailable;code;WINHTTP.dll;_WinHttpQueryDataAvailable@8
 WinHttpQueryHeaders;code;WINHTTP.dll;_WinHttpQueryHeaders@24
 WinHttpQueryHeadersEx;code;WINHTTP.dll;_WinHttpQueryHeadersEx@44

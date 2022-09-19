@@ -87,6 +87,7 @@ DnsFlushResolverCacheEntry_W;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_W@4
 DnsFree;code;DNSAPI.dll;_DnsFree@8
 DnsFreeAdaptersInfo;code;DNSAPI.dll;_DnsFreeAdaptersInfo@8
 DnsFreeConfigStructure;code;DNSAPI.dll;_DnsFreeConfigStructure@8
+DnsFreeCustomServers;code;DNSAPI.dll;_DnsFreeCustomServers@8
 DnsFreeNrptRule;code;DNSAPI.dll;_DnsFreeNrptRule@4
 DnsFreeNrptRuleNamesList;code;DNSAPI.dll;_DnsFreeNrptRuleNamesList@8
 DnsFreePolicyConfig;code;DNSAPI.dll;_DnsFreePolicyConfig@4
@@ -95,6 +96,7 @@ DnsFreeWellKnownServerProperty;code;DNSAPI.dll;_DnsFreeWellKnownServerProperty@4
 DnsFreeWellKnownServers;code;DNSAPI.dll;_DnsFreeWellKnownServers@8
 DnsGetAdaptersInfo;code;DNSAPI.dll;_DnsGetAdaptersInfo@24
 DnsGetApplicationIdentifier;code;DNSAPI.dll;_DnsGetApplicationIdentifier@12
+DnsGetApplicationSettings;code;DNSAPI.dll;_DnsGetApplicationSettings@12
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
 DnsGetCacheDataTableEx;code;DNSAPI.dll;_DnsGetCacheDataTableEx@12
@@ -133,6 +135,7 @@ DnsNameCopy;code;DNSAPI.dll;_DnsNameCopy@24
 DnsNameCopyAllocate;code;DNSAPI.dll;_DnsNameCopyAllocate@16
 DnsNetworkInfo_CreateFromFAZ;code;DNSAPI.dll;_DnsNetworkInfo_CreateFromFAZ@20
 DnsNetworkInformation_CreateFromFAZ;code;DNSAPI.dll;_DnsNetworkInformation_CreateFromFAZ@16
+DnsNotifyProxyConfigChangePrivate;code;DNSAPI.dll;_DnsNotifyProxyConfigChangePrivate@0
 DnsNotifyResolver;code;DNSAPI.dll;_DnsNotifyResolver@8
 DnsNotifyResolverClusterIp;code;DNSAPI.dll;_DnsNotifyResolverClusterIp@8
 DnsNotifyResolverEx;code;DNSAPI.dll;_DnsNotifyResolverEx@16
@@ -179,6 +182,7 @@ DnsServiceRegister;code;DNSAPI.dll;_DnsServiceRegister@8
 DnsServiceRegisterCancel;code;DNSAPI.dll;_DnsServiceRegisterCancel@4
 DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
+DnsSetApplicationSettings;code;DNSAPI.dll;_DnsSetApplicationSettings@12
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
 DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
 DnsSetInterfaceSettings;code;DNSAPI.dll;_DnsSetInterfaceSettings@20

@@ -368,6 +368,7 @@ RpcBindingInqAuthInfoA;code;RPCRT4.dll;_RpcBindingInqAuthInfoA@24
 RpcBindingInqAuthInfoExA;code;RPCRT4.dll;_RpcBindingInqAuthInfoExA@32
 RpcBindingInqAuthInfoExW;code;RPCRT4.dll;_RpcBindingInqAuthInfoExW@32
 RpcBindingInqAuthInfoW;code;RPCRT4.dll;_RpcBindingInqAuthInfoW@24
+RpcBindingInqMaxCalls;code;RPCRT4.dll;_RpcBindingInqMaxCalls@8
 RpcBindingInqObject;code;RPCRT4.dll;_RpcBindingInqObject@8
 RpcBindingInqOption;code;RPCRT4.dll;_RpcBindingInqOption@12
 RpcBindingReset;code;RPCRT4.dll;_RpcBindingReset@4

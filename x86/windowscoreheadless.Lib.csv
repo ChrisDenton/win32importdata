@@ -674,6 +674,7 @@ WinHttpQueryOption;code;WINHTTP.dll;_WinHttpQueryOption@16
 WinHttpQueryHeadersEx;code;WINHTTP.dll;_WinHttpQueryHeadersEx@44
 WinHttpQueryHeaders;code;WINHTTP.dll;_WinHttpQueryHeaders@24
 WinHttpQueryDataAvailable;code;WINHTTP.dll;_WinHttpQueryDataAvailable@8
+WinHttpQueryConnectionGroup;code;WINHTTP.dll;_WinHttpQueryConnectionGroup@20
 WinHttpQueryAuthSchemes;code;WINHTTP.dll;_WinHttpQueryAuthSchemes@16
 WinHttpProbeConnectivity;code;WINHTTP.dll;_WinHttpProbeConnectivity@24
 WinHttpOpenRequest;code;WINHTTP.dll;_WinHttpOpenRequest@28
@@ -688,6 +689,7 @@ WinHttpGetProxyForUrlEx;code;WINHTTP.dll;_WinHttpGetProxyForUrlEx@16
 WinHttpGetProxyForUrl;code;WINHTTP.dll;_WinHttpGetProxyForUrl@16
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;_WinHttpGetIEProxyConfigForCurrentUser@4
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;_WinHttpGetDefaultProxyConfiguration@4
+WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;_WinHttpFreeQueryConnectionGroupResult@4
 WinHttpFreeProxySettings;code;WINHTTP.dll;_WinHttpFreeProxySettings@4
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;_WinHttpFreeProxyResultEx@4
 WinHttpFreeProxyResult;code;WINHTTP.dll;_WinHttpFreeProxyResult@4
@@ -3030,6 +3032,7 @@ RpcBindingServerFromClient;code;RPCRT4.dll;_RpcBindingServerFromClient@8
 RpcBindingReset;code;RPCRT4.dll;_RpcBindingReset@4
 RpcBindingInqOption;code;RPCRT4.dll;_RpcBindingInqOption@12
 RpcBindingInqObject;code;RPCRT4.dll;_RpcBindingInqObject@8
+RpcBindingInqMaxCalls;code;RPCRT4.dll;_RpcBindingInqMaxCalls@8
 RpcBindingInqAuthInfoW;code;RPCRT4.dll;_RpcBindingInqAuthInfoW@24
 RpcBindingInqAuthInfoExW;code;RPCRT4.dll;_RpcBindingInqAuthInfoExW@32
 RpcBindingInqAuthInfoExA;code;RPCRT4.dll;_RpcBindingInqAuthInfoExA@32
@@ -4464,7 +4467,9 @@ NetApiBufferReallocate;code;netutils.dll;_NetApiBufferReallocate@12
 NetApiBufferFree;code;netutils.dll;_NetApiBufferFree@4
 NetApiBufferAllocate;code;netutils.dll;_NetApiBufferAllocate@8
 SslVerifySignature;code;ncrypt.dll;_SslVerifySignature@28
+SslUnprotectSessionTicket;code;ncrypt.dll;_SslUnprotectSessionTicket@28
 SslSignHash;code;ncrypt.dll;_SslSignHash@32
+SslProtectSessionTicket;code;ncrypt.dll;_SslProtectSessionTicket@28
 SslOpenProvider;code;ncrypt.dll;_SslOpenProvider@12
 SslOpenPrivateKey;code;ncrypt.dll;_SslOpenPrivateKey@16
 SslLookupCipherSuiteInfo;code;ncrypt.dll;_SslLookupCipherSuiteInfo@24
@@ -4473,6 +4478,7 @@ SslIncrementProviderReferenceCount;code;ncrypt.dll;_SslIncrementProviderReferenc
 SslImportMasterKey;code;ncrypt.dll;_SslImportMasterKey@36
 SslImportKey;code;ncrypt.dll;_SslImportKey@24
 SslHashHandshake;code;ncrypt.dll;_SslHashHandshake@20
+SslGetSessionTicketProtectionHeaderSize;code;ncrypt.dll;_SslGetSessionTicketProtectionHeaderSize@16
 SslGetProviderProperty;code;ncrypt.dll;_SslGetProviderProperty@24
 SslGetKeyProperty;code;ncrypt.dll;_SslGetKeyProperty@20
 SslGetCipherSuitePRFHashAlgorithm;code;ncrypt.dll;_SslGetCipherSuitePRFHashAlgorithm@24
@@ -4499,6 +4505,7 @@ SslEnumCipherSuitesEx;code;ncrypt.dll;_SslEnumCipherSuitesEx@20
 SslEnumCipherSuites;code;ncrypt.dll;_SslEnumCipherSuites@20
 SslEncryptPacket;code;ncrypt.dll;_SslEncryptPacket@44
 SslDuplicateTranscriptHash;code;ncrypt.dll;_SslDuplicateTranscriptHash@16
+SslDeriveSessionTicketKey;code;ncrypt.dll;_SslDeriveSessionTicketKey@32
 SslDecryptPacket;code;ncrypt.dll;_SslDecryptPacket@40
 SslDecrementProviderReferenceCount;code;ncrypt.dll;_SslDecrementProviderReferenceCount@4
 SslCreateHandshakeHash;code;ncrypt.dll;_SslCreateHandshakeHash@20
@@ -4636,6 +4643,7 @@ _InternalGetPS2ColorRenderingDictionary2@24;code;mscms.dll;200
 InternalGetPS2ColorRenderingDictionary;code;mscms.dll;_InternalGetPS2ColorRenderingDictionary@20
 _InternalGetDeviceGammaCapability@4;code;mscms.dll;206
 InternalGetDeviceConfig;code;mscms.dll;_InternalGetDeviceConfig@24
+_InternalGetChromaticAdaptationMatrixForDisplay@16;code;mscms.dll;250
 _InternalGetAppliedGDIGammaRamp@8;code;mscms.dll;207
 _InternalGetAppliedGammaRamp@8;code;mscms.dll;205
 InstallColorProfileW;code;mscms.dll;_InstallColorProfileW@8
@@ -4694,16 +4702,6 @@ ColorCplHasSystemWideAssociationListChanged;code;mscms.dll;_ColorCplHasSystemWid
 ColorCplGetProfileProperties;code;mscms.dll;_ColorCplGetProfileProperties@8
 ColorCplGetDefaultRenderingIntentScope;code;mscms.dll;_ColorCplGetDefaultRenderingIntentScope@4
 ColorCplGetDefaultProfileScope;code;mscms.dll;_ColorCplGetDefaultProfileScope@16
-_ColorAdapterUpdateDisplayGamma@20;code;mscms.dll;212
-_ColorAdapterUpdateDeviceProfile@16;code;mscms.dll;213
-_ColorAdapterUnregisterOEMColorService@4;code;mscms.dll;219
-_ColorAdapterRegisterOEMColorService@4;code;mscms.dll;218
-_ColorAdapterGetSystemModifyWhitePointCaps@8;code;mscms.dll;210
-_ColorAdapterGetDisplayTransformData@20;code;mscms.dll;214
-_ColorAdapterGetDisplayTargetWhitePoint@24;code;mscms.dll;215
-_ColorAdapterGetDisplayProfile@24;code;mscms.dll;216
-_ColorAdapterGetDisplayCurrentStateID@16;code;mscms.dll;211
-_ColorAdapterGetCurrentProfileCalibration@24;code;mscms.dll;217
 CloseDisplay;code;mscms.dll;_CloseDisplay@4
 CloseColorProfile;code;mscms.dll;_CloseColorProfile@4
 CheckColors;code;mscms.dll;_CheckColors@20
@@ -5343,7 +5341,7 @@ _GetEndpointGuidFromEndpointId@8;code;MMDevAPI.DLL;8
 _GetClassFromEndpointId@4;code;MMDevAPI.DLL;7
 _GetCategoryPath@16;code;MMDevAPI.DLL;32
 _GenerateMediaEvent@8;code;MMDevAPI.DLL;12
-_FlushDeviceTopologyCache@0;code;MMDevAPI.DLL;15
+_FlushDeviceTopologyCache@4;code;MMDevAPI.DLL;15
 _CleanupDeviceAPI@0;code;MMDevAPI.DLL;2
 _AETraceOutputDebugString;code;MMDevAPI.DLL;13
 _ActivateAudioInterfaceAsync@20;code;MMDevAPI.DLL;17
@@ -5489,6 +5487,7 @@ TzSpecificLocalTimeToSystemTimeEx;code;KERNEL32.dll;_TzSpecificLocalTimeToSystem
 TzSpecificLocalTimeToSystemTime;code;KERNEL32.dll;_TzSpecificLocalTimeToSystemTime@12
 TrySubmitThreadpoolCallback;code;KERNEL32.dll;_TrySubmitThreadpoolCallback@12
 TryEnterCriticalSection;code;KERNEL32.dll;_TryEnterCriticalSection@4
+TryCreatePackageDependency;code;KERNEL32.dll;_TryCreatePackageDependency@36
 TryAcquireSRWLockShared;code;KERNEL32.dll;_TryAcquireSRWLockShared@4
 TryAcquireSRWLockExclusive;code;KERNEL32.dll;_TryAcquireSRWLockExclusive@4
 TransmitCommChar;code;KERNEL32.dll;_TransmitCommChar@8
@@ -5678,6 +5677,7 @@ ReplaceFileA;code;KERNEL32.dll;_ReplaceFileA@24
 ReOpenFile;code;KERNEL32.dll;_ReOpenFile@16
 RemoveVectoredExceptionHandler;code;KERNEL32.dll;_RemoveVectoredExceptionHandler@4
 RemoveVectoredContinueHandler;code;KERNEL32.dll;_RemoveVectoredContinueHandler@4
+RemovePackageDependency;code;KERNEL32.dll;_RemovePackageDependency@4
 RemoveLocalAlternateComputerNameW;code;KERNEL32.dll;_RemoveLocalAlternateComputerNameW@8
 RemoveDllDirectory;code;KERNEL32.dll;_RemoveDllDirectory@4
 RemoveDirectoryW;code;KERNEL32.dll;_RemoveDirectoryW@4
@@ -6085,6 +6085,7 @@ GetStartupInfoA;code;KERNEL32.dll;_GetStartupInfoA@4
 GetStagedPackagePathByFullName;code;KERNEL32.dll;_GetStagedPackagePathByFullName@12
 GetShortPathNameW;code;KERNEL32.dll;_GetShortPathNameW@12
 GetShortPathNameA;code;KERNEL32.dll;_GetShortPathNameA@12
+GetResolvedPackageFullNameForPackageDependency;code;KERNEL32.dll;_GetResolvedPackageFullNameForPackageDependency@8
 GetQueuedCompletionStatusEx;code;KERNEL32.dll;_GetQueuedCompletionStatusEx@24
 GetQueuedCompletionStatus;code;KERNEL32.dll;_GetQueuedCompletionStatus@20
 GetProfileStringW;code;KERNEL32.dll;_GetProfileStringW@20
@@ -6168,6 +6169,7 @@ GetMemoryErrorHandlingCapabilities;code;KERNEL32.dll;_GetMemoryErrorHandlingCapa
 GetMaximumProcessorGroupCount;code;KERNEL32.dll;_GetMaximumProcessorGroupCount@0
 GetMaximumProcessorCount;code;KERNEL32.dll;_GetMaximumProcessorCount@4
 GetMailslotInfo;code;KERNEL32.dll;_GetMailslotInfo@20
+GetMachineTypeAttributes;code;KERNEL32.dll;_GetMachineTypeAttributes@8
 GetLongPathNameW;code;KERNEL32.dll;_GetLongPathNameW@12
 GetLongPathNameTransactedW;code;KERNEL32.dll;_GetLongPathNameTransactedW@16
 GetLongPathNameA;code;KERNEL32.dll;_GetLongPathNameA@12
@@ -6183,6 +6185,7 @@ GetLocaleInfoA;code;KERNEL32.dll;_GetLocaleInfoA@16
 GetLastError;code;KERNEL32.dll;_GetLastError@0
 GetLargestConsoleWindowSize;code;KERNEL32.dll;_GetLargestConsoleWindowSize@4
 GetLargePageMinimum;code;KERNEL32.dll;_GetLargePageMinimum@0
+GetIdForPackageDependencyContext;code;KERNEL32.dll;_GetIdForPackageDependencyContext@8
 GetHandleInformation;code;KERNEL32.dll;_GetHandleInformation@8
 GetGeoInfoW;code;KERNEL32.dll;_GetGeoInfoW@20
 GetGeoInfoEx;code;KERNEL32.dll;_GetGeoInfoEx@16
@@ -6467,6 +6470,7 @@ DeleteTimerQueueEx;code;KERNEL32.dll;_DeleteTimerQueueEx@8
 DeleteTimerQueue;code;KERNEL32.dll;_DeleteTimerQueue@4
 DeleteSynchronizationBarrier;code;KERNEL32.dll;_DeleteSynchronizationBarrier@4
 DeleteProcThreadAttributeList;code;KERNEL32.dll;_DeleteProcThreadAttributeList@4
+DeletePackageDependency;code;KERNEL32.dll;_DeletePackageDependency@4
 DeleteFileW;code;KERNEL32.dll;_DeleteFileW@4
 DeleteFileTransactedW;code;KERNEL32.dll;_DeleteFileTransactedW@8
 DeleteFileA;code;KERNEL32.dll;_DeleteFileA@4
@@ -6638,6 +6642,7 @@ AddSIDToBoundaryDescriptor;code;KERNEL32.dll;_AddSIDToBoundaryDescriptor@8
 AddScopedPolicyIDAce;code;KERNEL32.dll;_AddScopedPolicyIDAce@20
 AddResourceAttributeAce;code;KERNEL32.dll;_AddResourceAttributeAce@28
 AddRefActCtx;code;KERNEL32.dll;_AddRefActCtx@4
+AddPackageDependency;code;KERNEL32.dll;_AddPackageDependency@20
 AddLocalAlternateComputerNameW;code;KERNEL32.dll;_AddLocalAlternateComputerNameW@8
 AddLocalAlternateComputerNameA;code;KERNEL32.dll;_AddLocalAlternateComputerNameA@8
 AddDllDirectory;code;KERNEL32.dll;_AddDllDirectory@4
@@ -6695,6 +6700,7 @@ NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
 NotifyRouteChange;code;IPHLPAPI.DLL;_NotifyRouteChange@8
 NotifyNetworkConnectivityHintChange;code;IPHLPAPI.DLL;_NotifyNetworkConnectivityHintChange@16
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
+NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
 NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NhpAllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_NhpAllocateAndGetInterfaceInfoFromStack@20
@@ -6845,7 +6851,9 @@ GetIpAddrTable;code;IPHLPAPI.DLL;_GetIpAddrTable@12
 GetInvertedIfStackTable;code;IPHLPAPI.DLL;_GetInvertedIfStackTable@4
 GetInterfaceSupportedTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceSupportedTimestampCapabilities@8
 GetInterfaceInfo;code;IPHLPAPI.DLL;_GetInterfaceInfo@8
+GetInterfaceHardwareTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceHardwareTimestampCapabilities@8
 GetInterfaceDnsSettings;code;IPHLPAPI.DLL;_GetInterfaceDnsSettings@20
+GetInterfaceCurrentTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceCurrentTimestampCapabilities@8
 GetInterfaceCompartmentId;code;IPHLPAPI.DLL;_GetInterfaceCompartmentId@4
 GetInterfaceActiveTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceActiveTimestampCapabilities@8
 GetIfTable2Ex;code;IPHLPAPI.DLL;_GetIfTable2Ex@8
@@ -6935,6 +6943,7 @@ CloseCompartment;code;IPHLPAPI.DLL;_CloseCompartment@4
 CaptureInterfaceHardwareCrossTimestamp;code;IPHLPAPI.DLL;_CaptureInterfaceHardwareCrossTimestamp@8
 CancelMibChangeNotify2;code;IPHLPAPI.DLL;_CancelMibChangeNotify2@4
 CancelIPChangeNotify;code;IPHLPAPI.DLL;_CancelIPChangeNotify@4
+CancelIfTimestampConfigChange;code;IPHLPAPI.DLL;_CancelIfTimestampConfigChange@4
 AllocateAndGetIpAddrTableFromStack;code;IPHLPAPI.DLL;_AllocateAndGetIpAddrTableFromStack@16
 AllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_AllocateAndGetInterfaceInfoFromStack@20
 AddIPAddress;code;IPHLPAPI.DLL;_AddIPAddress@20
@@ -6967,9 +6976,11 @@ HidP_SetUsageValue;code;HID.DLL;_HidP_SetUsageValue@32
 HidP_SetUsages;code;HID.DLL;_HidP_SetUsages@32
 HidP_SetScaledUsageValue;code;HID.DLL;_HidP_SetScaledUsageValue@32
 HidP_SetData;code;HID.DLL;_HidP_SetData@24
+HidP_SetButtonArray;code;HID.DLL;_HidP_SetButtonArray@36
 HidP_MaxUsageListLength;code;HID.DLL;_HidP_MaxUsageListLength@12
 HidP_MaxDataListLength;code;HID.DLL;_HidP_MaxDataListLength@8
 HidP_InitializeReportForID;code;HID.DLL;_HidP_InitializeReportForID@20
+HidP_GetVersionInternal;code;HID.DLL;_HidP_GetVersionInternal@4
 HidP_GetValueCaps;code;HID.DLL;_HidP_GetValueCaps@16
 HidP_GetUsageValueArray;code;HID.DLL;_HidP_GetUsageValueArray@36
 HidP_GetUsageValue;code;HID.DLL;_HidP_GetUsageValue@32
@@ -6983,6 +6994,7 @@ HidP_GetExtendedAttributes;code;HID.DLL;_HidP_GetExtendedAttributes@20
 HidP_GetData;code;HID.DLL;_HidP_GetData@24
 HidP_GetCaps;code;HID.DLL;_HidP_GetCaps@8
 HidP_GetButtonCaps;code;HID.DLL;_HidP_GetButtonCaps@16
+HidP_GetButtonArray;code;HID.DLL;_HidP_GetButtonArray@36
 HidD_SetOutputReport;code;HID.DLL;_HidD_SetOutputReport@12
 HidD_SetNumInputBuffers;code;HID.DLL;_HidD_SetNumInputBuffers@8
 HidD_SetFeature;code;HID.DLL;_HidD_SetFeature@12
@@ -7399,6 +7411,7 @@ DnsSetNrptRule;code;DNSAPI.dll;_DnsSetNrptRule@12
 DnsSetInterfaceSettings;code;DNSAPI.dll;_DnsSetInterfaceSettings@20
 DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
+DnsSetApplicationSettings;code;DNSAPI.dll;_DnsSetApplicationSettings@12
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
 DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceRegisterCancel;code;DNSAPI.dll;_DnsServiceRegisterCancel@4
@@ -7445,6 +7458,7 @@ DnsQuery_A;code;DNSAPI.dll;_DnsQuery_A@24
 DnsNotifyResolverEx;code;DNSAPI.dll;_DnsNotifyResolverEx@16
 DnsNotifyResolverClusterIp;code;DNSAPI.dll;_DnsNotifyResolverClusterIp@8
 DnsNotifyResolver;code;DNSAPI.dll;_DnsNotifyResolver@8
+DnsNotifyProxyConfigChangePrivate;code;DNSAPI.dll;_DnsNotifyProxyConfigChangePrivate@0
 DnsNetworkInformation_CreateFromFAZ;code;DNSAPI.dll;_DnsNetworkInformation_CreateFromFAZ@16
 DnsNetworkInfo_CreateFromFAZ;code;DNSAPI.dll;_DnsNetworkInfo_CreateFromFAZ@20
 DnsNameCopyAllocate;code;DNSAPI.dll;_DnsNameCopyAllocate@16
@@ -7488,6 +7502,7 @@ DnsGetDnsServerList;code;DNSAPI.dll;_DnsGetDnsServerList@4
 DnsGetCacheDataTableEx;code;DNSAPI.dll;_DnsGetCacheDataTableEx@12
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
+DnsGetApplicationSettings;code;DNSAPI.dll;_DnsGetApplicationSettings@12
 DnsGetApplicationIdentifier;code;DNSAPI.dll;_DnsGetApplicationIdentifier@12
 DnsGetAdaptersInfo;code;DNSAPI.dll;_DnsGetAdaptersInfo@24
 DnsFreeWellKnownServers;code;DNSAPI.dll;_DnsFreeWellKnownServers@8
@@ -7496,6 +7511,7 @@ DnsFreeProxyName;code;DNSAPI.dll;_DnsFreeProxyName@4
 DnsFreePolicyConfig;code;DNSAPI.dll;_DnsFreePolicyConfig@4
 DnsFreeNrptRuleNamesList;code;DNSAPI.dll;_DnsFreeNrptRuleNamesList@8
 DnsFreeNrptRule;code;DNSAPI.dll;_DnsFreeNrptRule@4
+DnsFreeCustomServers;code;DNSAPI.dll;_DnsFreeCustomServers@8
 DnsFreeConfigStructure;code;DNSAPI.dll;_DnsFreeConfigStructure@8
 DnsFreeAdaptersInfo;code;DNSAPI.dll;_DnsFreeAdaptersInfo@8
 DnsFree;code;DNSAPI.dll;_DnsFree@8
@@ -8400,6 +8416,8 @@ IsProcessInIsolatedContainer;code;api-ms-win-security-isolatedcontainer-l1-1-0.d
 DeriveCapabilitySidsFromName;code;api-ms-win-security-base-l1-2-2.dll;_DeriveCapabilitySidsFromName@20
 RoIsApiContractPresent;code;api-ms-win-ro-typeresolution-l1-1-1.dll;_RoIsApiContractPresent@16
 RoIsApiContractMajorVersionPresent;code;api-ms-win-ro-typeresolution-l1-1-1.dll;_RoIsApiContractMajorVersionPresent@12
+RoCreatePropertySetSerializer;code;api-ms-win-ro-typeresolution-l1-1-1.dll;_RoCreatePropertySetSerializer@4
+RoCreateNonAgilePropertySet;code;api-ms-win-ro-typeresolution-l1-1-1.dll;_RoCreateNonAgilePropertySet@4
 RoResolveNamespace;code;api-ms-win-ro-typeresolution-l1-1-0.dll;_RoResolveNamespace@32
 RoParseTypeName;code;api-ms-win-ro-typeresolution-l1-1-0.dll;_RoParseTypeName@12
 RoGetMetaDataFile;code;api-ms-win-ro-typeresolution-l1-1-0.dll;_RoGetMetaDataFile@20
@@ -8628,6 +8646,18 @@ OpenFileMappingFromApp;code;api-ms-win-core-memory-l1-1-3.dll;_OpenFileMappingFr
 IdnToUnicode;code;api-ms-win-core-localization-l1-2-0.dll;_IdnToUnicode@20
 IdnToAscii;code;api-ms-win-core-localization-l1-2-0.dll;_IdnToAscii@20
 QueryOptionalDelayLoadedAPI;code;api-ms-win-core-libraryloader-l2-1-0.dll;_QueryOptionalDelayLoadedAPI@16
+SubmitIoRing;code;api-ms-win-core-ioring-l1-1-0.dll;_SubmitIoRing@16
+SetIoRingCompletionEvent;code;api-ms-win-core-ioring-l1-1-0.dll;_SetIoRingCompletionEvent@8
+QueryIoRingCapabilities;code;api-ms-win-core-ioring-l1-1-0.dll;_QueryIoRingCapabilities@4
+PopIoRingCompletion;code;api-ms-win-core-ioring-l1-1-0.dll;_PopIoRingCompletion@8
+IsIoRingOpSupported;code;api-ms-win-core-ioring-l1-1-0.dll;_IsIoRingOpSupported@8
+GetIoRingInfo;code;api-ms-win-core-ioring-l1-1-0.dll;_GetIoRingInfo@8
+CreateIoRing;code;api-ms-win-core-ioring-l1-1-0.dll;_CreateIoRing@24
+CloseIoRing;code;api-ms-win-core-ioring-l1-1-0.dll;_CloseIoRing@4
+BuildIoRingRegisterFileHandles;code;api-ms-win-core-ioring-l1-1-0.dll;_BuildIoRingRegisterFileHandles@16
+BuildIoRingRegisterBuffers;code;api-ms-win-core-ioring-l1-1-0.dll;_BuildIoRingRegisterBuffers@16
+BuildIoRingReadFile;code;api-ms-win-core-ioring-l1-1-0.dll;_BuildIoRingReadFile@44
+BuildIoRingCancelRequest;code;api-ms-win-core-ioring-l1-1-0.dll;_BuildIoRingCancelRequest@20
 CompareObjectHandles;code;api-ms-win-core-handle-l1-1-0.dll;_CompareObjectHandles@8
 SetFileAttributesFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_SetFileAttributesFromAppW@8
 ReplaceFileFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_ReplaceFileFromAppW@24

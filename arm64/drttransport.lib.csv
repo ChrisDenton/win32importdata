@@ -1,3 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+DrtCreateIpv6UdpTransport;code;drttransport.dll;#DrtCreateIpv6UdpTransport
+DrtDeleteIpv6UdpTransport;code;drttransport.dll;#DrtDeleteIpv6UdpTransport
 DrtCreateIpv6UdpTransport;code;drttransport.dll;
 DrtDeleteIpv6UdpTransport;code;drttransport.dll;

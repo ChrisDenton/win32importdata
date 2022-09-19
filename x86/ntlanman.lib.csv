@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 ?NPEnumResource@@YGKPAXPAI01@Z (unsigned long __stdcall NPEnumResource(void *,unsigned int *,void *,unsigned int *));code;NTLANMAN.dll;34
 ?NPGetConnection@@YGKPAG0PAI@Z (unsigned long __stdcall NPGetConnection(unsigned short *,unsigned short *,unsigned int *));code;NTLANMAN.dll;12
+?NPGetPersistentUseOptionsForConnection2@@YGKPAU_NETRESOURCEW@@PAEK1PAK@Z (unsigned long __stdcall NPGetPersistentUseOptionsForConnection2(struct _NETRESOURCEW *,unsigned char *,unsigned long,unsigned char *,unsigned long *));code;NTLANMAN.dll;58
 ?NPGetReconnectFlags@@YGKPAGPAE@Z (unsigned long __stdcall NPGetReconnectFlags(unsigned short *,unsigned char *));code;NTLANMAN.dll;53
 ?NPOpenEnum@@YGKIIIPAU_NETRESOURCEW@@PAPAX@Z (unsigned long __stdcall NPOpenEnum(unsigned int,unsigned int,unsigned int,struct _NETRESOURCEW *,void * *));code;NTLANMAN.dll;33
 DllMain;code;NTLANMAN.dll;_DllMain@12

@@ -1,4 +1,44 @@
 Name;Type;DLL;SymbolOrOrdinal
+PeerGraphAddRecord;code;P2PGRAPH.dll;#PeerGraphAddRecord
+PeerGraphClose;code;P2PGRAPH.dll;#PeerGraphClose
+PeerGraphCloseDirectConnection;code;P2PGRAPH.dll;#PeerGraphCloseDirectConnection
+PeerGraphConnect;code;P2PGRAPH.dll;#PeerGraphConnect
+PeerGraphCreate;code;P2PGRAPH.dll;#PeerGraphCreate
+PeerGraphDelete;code;P2PGRAPH.dll;#PeerGraphDelete
+PeerGraphDeleteRecord;code;P2PGRAPH.dll;#PeerGraphDeleteRecord
+PeerGraphEndEnumeration;code;P2PGRAPH.dll;#PeerGraphEndEnumeration
+PeerGraphEnumConnections;code;P2PGRAPH.dll;#PeerGraphEnumConnections
+PeerGraphEnumNodes;code;P2PGRAPH.dll;#PeerGraphEnumNodes
+PeerGraphEnumRecords;code;P2PGRAPH.dll;#PeerGraphEnumRecords
+PeerGraphExportDatabase;code;P2PGRAPH.dll;#PeerGraphExportDatabase
+PeerGraphFreeData;code;P2PGRAPH.dll;#PeerGraphFreeData
+PeerGraphGetEventData;code;P2PGRAPH.dll;#PeerGraphGetEventData
+PeerGraphGetItemCount;code;P2PGRAPH.dll;#PeerGraphGetItemCount
+PeerGraphGetNextItem;code;P2PGRAPH.dll;#PeerGraphGetNextItem
+PeerGraphGetNodeInfo;code;P2PGRAPH.dll;#PeerGraphGetNodeInfo
+PeerGraphGetProperties;code;P2PGRAPH.dll;#PeerGraphGetProperties
+PeerGraphGetRecord;code;P2PGRAPH.dll;#PeerGraphGetRecord
+PeerGraphGetStatus;code;P2PGRAPH.dll;#PeerGraphGetStatus
+PeerGraphImportDatabase;code;P2PGRAPH.dll;#PeerGraphImportDatabase
+PeerGraphListen;code;P2PGRAPH.dll;#PeerGraphListen
+PeerGraphOpen;code;P2PGRAPH.dll;#PeerGraphOpen
+PeerGraphOpenDirectConnection;code;P2PGRAPH.dll;#PeerGraphOpenDirectConnection
+PeerGraphPeerTimeToUniversalTime;code;P2PGRAPH.dll;#PeerGraphPeerTimeToUniversalTime
+PeerGraphRegisterEvent;code;P2PGRAPH.dll;#PeerGraphRegisterEvent
+PeerGraphSearchRecords;code;P2PGRAPH.dll;#PeerGraphSearchRecords
+PeerGraphSendData;code;P2PGRAPH.dll;#PeerGraphSendData
+PeerGraphSetNodeAttributes;code;P2PGRAPH.dll;#PeerGraphSetNodeAttributes
+PeerGraphSetPresence;code;P2PGRAPH.dll;#PeerGraphSetPresence
+PeerGraphSetProperties;code;P2PGRAPH.dll;#PeerGraphSetProperties
+PeerGraphShutdown;code;P2PGRAPH.dll;#PeerGraphShutdown
+PeerGraphStartup;code;P2PGRAPH.dll;#PeerGraphStartup
+PeerGraphSuspendTimers;code;P2PGRAPH.dll;#PeerGraphSuspendTimers
+PeerGraphUniversalTimeToPeerTime;code;P2PGRAPH.dll;#PeerGraphUniversalTimeToPeerTime
+PeerGraphUnregisterEvent;code;P2PGRAPH.dll;#PeerGraphUnregisterEvent
+PeerGraphUpdateRecord;code;P2PGRAPH.dll;#PeerGraphUpdateRecord
+PeerGraphValidateDeferredRecords;code;P2PGRAPH.dll;#PeerGraphValidateDeferredRecords
+PeerGraphForceStopPresencePrivate;code;P2PGRAPH.dll;?PeerGraphForceStopPresencePrivate@@$$hYAJPEAXH@Z (long __cdecl PeerGraphForceStopPresencePrivate(void *,int))
+pMemoryHelper;data;P2PGRAPH.dll;?pMemoryHelper@@3PEAU_DEBUG_MEMORY_CONTROL_BLOCK@@EA (struct _DEBUG_MEMORY_CONTROL_BLOCK * pMemoryHelper)
 PeerGraphForceStopPresencePrivate;code;P2PGRAPH.dll;?PeerGraphForceStopPresencePrivate@@YAJPEAXH@Z (long __cdecl PeerGraphForceStopPresencePrivate(void *,int))
 pMemoryHelper;data;P2PGRAPH.dll;?pMemoryHelper@@3PEAU_DEBUG_MEMORY_CONTROL_BLOCK@@EA (struct _DEBUG_MEMORY_CONTROL_BLOCK * pMemoryHelper)
 PeerGraphAddRecord;code;P2PGRAPH.dll;

@@ -1,4 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
+GetObjectContext;code;mtxex.dll;#GetObjectContext
+MTSCreateActivity;code;mtxex.dll;#MTSCreateActivity
+SafeRef;code;mtxex.dll;#SafeRef
 GetObjectContext;code;mtxex.dll;
 MTSCreateActivity;code;mtxex.dll;
 SafeRef;code;mtxex.dll;

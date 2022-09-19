@@ -375,6 +375,7 @@ RpcBindingInqAuthInfoA;code;RPCRT4.dll;
 RpcBindingInqAuthInfoExA;code;RPCRT4.dll;
 RpcBindingInqAuthInfoExW;code;RPCRT4.dll;
 RpcBindingInqAuthInfoW;code;RPCRT4.dll;
+RpcBindingInqMaxCalls;code;RPCRT4.dll;
 RpcBindingInqObject;code;RPCRT4.dll;
 RpcBindingInqOption;code;RPCRT4.dll;
 RpcBindingReset;code;RPCRT4.dll;

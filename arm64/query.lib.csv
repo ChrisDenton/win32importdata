@@ -1,4 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+BindIFilterFromStorage;code;query.dll;#BindIFilterFromStorage
+BindIFilterFromStream;code;query.dll;#BindIFilterFromStream
+LoadIFilter;code;query.dll;#LoadIFilter
+LoadIFilterEx;code;query.dll;#LoadIFilterEx
+LoadBinaryFilter;code;query.dll;?LoadBinaryFilter@@$$hYAJPEB_WPEAPEAUIFilter@@@Z (long __cdecl LoadBinaryFilter(wchar_t const *,struct IFilter * *))
+LoadTextFilter;code;query.dll;?LoadTextFilter@@$$hYAJPEB_WPEAPEAUIFilter@@@Z (long __cdecl LoadTextFilter(wchar_t const *,struct IFilter * *))
 LoadBinaryFilter;code;query.dll;?LoadBinaryFilter@@YAJPEB_WPEAPEAUIFilter@@@Z (long __cdecl LoadBinaryFilter(wchar_t const *,struct IFilter * *))
 LoadTextFilter;code;query.dll;?LoadTextFilter@@YAJPEB_WPEAPEAUIFilter@@@Z (long __cdecl LoadTextFilter(wchar_t const *,struct IFilter * *))
 BindIFilterFromStorage;code;query.dll;

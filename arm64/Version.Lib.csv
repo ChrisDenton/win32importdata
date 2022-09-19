@@ -1,4 +1,16 @@
 Name;Type;DLL;SymbolOrOrdinal
+GetFileVersionInfoA;code;VERSION.dll;#GetFileVersionInfoA
+GetFileVersionInfoExW;code;VERSION.dll;#GetFileVersionInfoExW
+GetFileVersionInfoSizeA;code;VERSION.dll;#GetFileVersionInfoSizeA
+GetFileVersionInfoSizeExW;code;VERSION.dll;#GetFileVersionInfoSizeExW
+GetFileVersionInfoSizeW;code;VERSION.dll;#GetFileVersionInfoSizeW
+GetFileVersionInfoW;code;VERSION.dll;#GetFileVersionInfoW
+VerFindFileA;code;VERSION.dll;#VerFindFileA
+VerFindFileW;code;VERSION.dll;#VerFindFileW
+VerInstallFileA;code;VERSION.dll;#VerInstallFileA
+VerInstallFileW;code;VERSION.dll;#VerInstallFileW
+VerQueryValueA;code;VERSION.dll;#VerQueryValueA
+VerQueryValueW;code;VERSION.dll;#VerQueryValueW
 GetFileVersionInfoA;code;VERSION.dll;
 GetFileVersionInfoExW;code;VERSION.dll;
 GetFileVersionInfoSizeA;code;VERSION.dll;

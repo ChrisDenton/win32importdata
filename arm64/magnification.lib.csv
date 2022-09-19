@@ -1,4 +1,25 @@
 Name;Type;DLL;SymbolOrOrdinal
+MagGetColorEffect;code;MAGNIFICATION.dll;#MagGetColorEffect
+MagGetFullscreenColorEffect;code;MAGNIFICATION.dll;#MagGetFullscreenColorEffect
+MagGetFullscreenTransform;code;MAGNIFICATION.dll;#MagGetFullscreenTransform
+MagGetImageScalingCallback;code;MAGNIFICATION.dll;#MagGetImageScalingCallback
+MagGetInputTransform;code;MAGNIFICATION.dll;#MagGetInputTransform
+MagGetWindowFilterList;code;MAGNIFICATION.dll;#MagGetWindowFilterList
+MagGetWindowSource;code;MAGNIFICATION.dll;#MagGetWindowSource
+MagGetWindowTransform;code;MAGNIFICATION.dll;#MagGetWindowTransform
+MagInitialize;code;MAGNIFICATION.dll;#MagInitialize
+MagSetColorEffect;code;MAGNIFICATION.dll;#MagSetColorEffect
+MagSetFullscreenColorEffect;code;MAGNIFICATION.dll;#MagSetFullscreenColorEffect
+MagSetFullscreenTransform;code;MAGNIFICATION.dll;#MagSetFullscreenTransform
+MagSetImageScalingCallback;code;MAGNIFICATION.dll;#MagSetImageScalingCallback
+MagSetInputTransform;code;MAGNIFICATION.dll;#MagSetInputTransform
+MagSetWindowFilterList;code;MAGNIFICATION.dll;#MagSetWindowFilterList
+MagSetWindowSource;code;MAGNIFICATION.dll;#MagSetWindowSource
+MagSetWindowTransform;code;MAGNIFICATION.dll;#MagSetWindowTransform
+MagShowSystemCursor;code;MAGNIFICATION.dll;#MagShowSystemCursor
+MagUninitialize;code;MAGNIFICATION.dll;#MagUninitialize
+MagSetFullscreenUseBitmapSmoothing;code;MAGNIFICATION.dll;?MagSetFullscreenUseBitmapSmoothing@@$$hYAHH@Z (int __cdecl MagSetFullscreenUseBitmapSmoothing(int))
+MagSetLensUseBitmapSmoothing;code;MAGNIFICATION.dll;?MagSetLensUseBitmapSmoothing@@$$hYAHPEAUHWND__@@H@Z (int __cdecl MagSetLensUseBitmapSmoothing(struct HWND__ *,int))
 MagSetFullscreenUseBitmapSmoothing;code;MAGNIFICATION.dll;?MagSetFullscreenUseBitmapSmoothing@@YAHH@Z (int __cdecl MagSetFullscreenUseBitmapSmoothing(int))
 MagSetLensUseBitmapSmoothing;code;MAGNIFICATION.dll;?MagSetLensUseBitmapSmoothing@@YAHPEAUHWND__@@H@Z (int __cdecl MagSetLensUseBitmapSmoothing(struct HWND__ *,int))
 MagGetColorEffect;code;MAGNIFICATION.dll;

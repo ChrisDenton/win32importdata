@@ -104,6 +104,7 @@ SslCreateEphemeralKey;code;ncrypt.dll;_SslCreateEphemeralKey@36
 SslCreateHandshakeHash;code;ncrypt.dll;_SslCreateHandshakeHash@20
 SslDecrementProviderReferenceCount;code;ncrypt.dll;_SslDecrementProviderReferenceCount@4
 SslDecryptPacket;code;ncrypt.dll;_SslDecryptPacket@40
+SslDeriveSessionTicketKey;code;ncrypt.dll;_SslDeriveSessionTicketKey@32
 SslDuplicateTranscriptHash;code;ncrypt.dll;_SslDuplicateTranscriptHash@16
 SslEncryptPacket;code;ncrypt.dll;_SslEncryptPacket@44
 SslEnumCipherSuites;code;ncrypt.dll;_SslEnumCipherSuites@20
@@ -130,6 +131,7 @@ SslGenerateSessionKeys;code;ncrypt.dll;_SslGenerateSessionKeys@24
 SslGetCipherSuitePRFHashAlgorithm;code;ncrypt.dll;_SslGetCipherSuitePRFHashAlgorithm@24
 SslGetKeyProperty;code;ncrypt.dll;_SslGetKeyProperty@20
 SslGetProviderProperty;code;ncrypt.dll;_SslGetProviderProperty@24
+SslGetSessionTicketProtectionHeaderSize;code;ncrypt.dll;_SslGetSessionTicketProtectionHeaderSize@16
 SslHashHandshake;code;ncrypt.dll;_SslHashHandshake@20
 SslImportKey;code;ncrypt.dll;_SslImportKey@24
 SslImportMasterKey;code;ncrypt.dll;_SslImportMasterKey@36
@@ -138,5 +140,7 @@ SslLookupCipherLengths;code;ncrypt.dll;_SslLookupCipherLengths@28
 SslLookupCipherSuiteInfo;code;ncrypt.dll;_SslLookupCipherSuiteInfo@24
 SslOpenPrivateKey;code;ncrypt.dll;_SslOpenPrivateKey@16
 SslOpenProvider;code;ncrypt.dll;_SslOpenProvider@12
+SslProtectSessionTicket;code;ncrypt.dll;_SslProtectSessionTicket@28
 SslSignHash;code;ncrypt.dll;_SslSignHash@32
+SslUnprotectSessionTicket;code;ncrypt.dll;_SslUnprotectSessionTicket@28
 SslVerifySignature;code;ncrypt.dll;_SslVerifySignature@28

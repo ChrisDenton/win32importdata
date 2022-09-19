@@ -1,3 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+SetupColorMatchingA;code;ICMUI.DLL;#SetupColorMatchingA
+SetupColorMatchingW;code;ICMUI.DLL;#SetupColorMatchingW
 SetupColorMatchingA;code;ICMUI.DLL;
 SetupColorMatchingW;code;ICMUI.DLL;

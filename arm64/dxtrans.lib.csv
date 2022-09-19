@@ -1,4 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+?DXConstOverArray@@YAXPEAVDXPMSAMPLE@@AEBV1@K@Z;code;dxtrans.dll;?DXConstOverArray@@$$hYAXPEAVDXPMSAMPLE@@AEBV1@K@Z (void __cdecl DXConstOverArray(class DXPMSAMPLE *,class DXPMSAMPLE const &,unsigned long))
+?DXConstUnderArray@@YAXPEAVDXPMSAMPLE@@AEBV1@K@Z;code;dxtrans.dll;?DXConstUnderArray@@$$hYAXPEAVDXPMSAMPLE@@AEBV1@K@Z (void __cdecl DXConstUnderArray(class DXPMSAMPLE *,class DXPMSAMPLE const &,unsigned long))
+?DXDitherArray@@YAXPEBUDXDITHERDESC@@@Z;code;dxtrans.dll;?DXDitherArray@@$$hYAXPEBUDXDITHERDESC@@@Z (void __cdecl DXDitherArray(struct DXDITHERDESC const *))
+?DXLinearInterpolateArray@@YAXPEBVDXBASESAMPLE@@PEAUDXLIMAPINFO@@PEAV1@K@Z;code;dxtrans.dll;?DXLinearInterpolateArray@@$$hYAXPEBVDXBASESAMPLE@@PEAUDXLIMAPINFO@@PEAV1@K@Z (void __cdecl DXLinearInterpolateArray(class DXBASESAMPLE const *,struct DXLIMAPINFO *,class DXBASESAMPLE *,unsigned long))
+?DXOverArray@@YAXPEAVDXPMSAMPLE@@PEBV1@K@Z;code;dxtrans.dll;?DXOverArray@@$$hYAXPEAVDXPMSAMPLE@@PEBV1@K@Z (void __cdecl DXOverArray(class DXPMSAMPLE *,class DXPMSAMPLE const *,unsigned long))
+?DXOverArrayMMX@@YAXPEAVDXPMSAMPLE@@PEBV1@K@Z;code;dxtrans.dll;?DXOverArrayMMX@@$$hYAXPEAVDXPMSAMPLE@@PEBV1@K@Z (void __cdecl DXOverArrayMMX(class DXPMSAMPLE *,class DXPMSAMPLE const *,unsigned long))
 ?DXConstOverArray@@YAXPEAVDXPMSAMPLE@@AEBV1@K@Z;code;dxtrans.dll;
 ?DXConstUnderArray@@YAXPEAVDXPMSAMPLE@@AEBV1@K@Z;code;dxtrans.dll;
 ?DXDitherArray@@YAXPEBUDXDITHERDESC@@@Z;code;dxtrans.dll;

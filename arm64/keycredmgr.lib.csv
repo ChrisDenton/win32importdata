@@ -1,4 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
+KeyCredentialManagerFreeInformation;code;KeyCredMgr.dll;#KeyCredentialManagerFreeInformation
+KeyCredentialManagerGetInformation;code;KeyCredMgr.dll;#KeyCredentialManagerGetInformation
+KeyCredentialManagerGetOperationErrorStates;code;KeyCredMgr.dll;#KeyCredentialManagerGetOperationErrorStates
+KeyCredentialManagerShowUIOperation;code;KeyCredMgr.dll;#KeyCredentialManagerShowUIOperation
 KeyCredentialManagerFreeInformation;code;KeyCredMgr.dll;
 KeyCredentialManagerGetInformation;code;KeyCredMgr.dll;
 KeyCredentialManagerGetOperationErrorStates;code;KeyCredMgr.dll;

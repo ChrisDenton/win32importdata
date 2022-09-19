@@ -1,4 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
+DoMsCtfMonitor;code;MsCtfMonitor.DLL;#DoMsCtfMonitor
+InitLocalMsCtfMonitor;code;MsCtfMonitor.DLL;#InitLocalMsCtfMonitor
+UninitLocalMsCtfMonitor;code;MsCtfMonitor.DLL;#UninitLocalMsCtfMonitor
 DoMsCtfMonitor;code;MsCtfMonitor.DLL;
 InitLocalMsCtfMonitor;code;MsCtfMonitor.DLL;
 UninitLocalMsCtfMonitor;code;MsCtfMonitor.DLL;

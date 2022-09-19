@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 ChangeEntryType;code;RASAPI32.dll;
 ClosePhonebookFile;code;RASAPI32.dll;
+ComputeHashFromEntryName;code;RASAPI32.dll;
 CopyToPbport;code;RASAPI32.dll;
 CreateEntryNode;code;RASAPI32.dll;
 CreateLinkNode;code;RASAPI32.dll;
@@ -142,6 +143,7 @@ RasQueryRedialOnLinkFailure;code;RASAPI32.dll;
 RasQuerySharedAutoDial;code;RASAPI32.dll;
 RasQuerySharedConnection;code;RASAPI32.dll;
 RasRegisterEntryChangeNotification;code;RASAPI32.dll;
+RasRemoveToastNotification;code;RASAPI32.dll;
 RasRenameEntryA;code;RASAPI32.dll;
 RasRenameEntryW;code;RASAPI32.dll;
 RasRestoreDefaultLegacyProxySettings;code;RASAPI32.dll;
@@ -177,6 +179,7 @@ RasSetPerConnectionProxy;code;RASAPI32.dll;
 RasSetSharedAutoDial;code;RASAPI32.dll;
 RasSetSubEntryPropertiesA;code;RASAPI32.dll;
 RasSetSubEntryPropertiesW;code;RASAPI32.dll;
+RasShowToastNotificationEx;code;RASAPI32.dll;
 RasTriggerConnection;code;RASAPI32.dll;
 RasTriggerConnectionEx;code;RASAPI32.dll;
 RasTriggerDisconnection;code;RASAPI32.dll;

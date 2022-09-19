@@ -3,6 +3,8 @@ SymAllocDiaString;code;imagehlp.dll;?SymAllocDiaString@@YGPAGPBG@Z (unsigned sho
 SymFreeDiaString;code;imagehlp.dll;?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;imagehlp.dll;?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
 SymGetDiaSource;code;imagehlp.dll;?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+SymRegisterGetSourcePathPartCallback;code;imagehlp.dll;?SymRegisterGetSourcePathPartCallback@@YGXP6GJPBGPAPAG@ZPAP6GJ01@Z@Z (void __stdcall SymRegisterGetSourcePathPartCallback(long (__stdcall*)(unsigned short const *,unsigned short * *),long (__stdcall**)(unsigned short const *,unsigned short * *)))
+SymRegisterSourceFileUrlListCallback;code;imagehlp.dll;?SymRegisterSourceFileUrlListCallback@@YGXP6GJPAX_KPBG22PAPAUtagSAFEARRAY@@@ZPAP6GJ012223@Z@Z (void __stdcall SymRegisterSourceFileUrlListCallback(long (__stdcall*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__stdcall**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;imagehlp.dll;?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 BindImage;code;imagehlp.dll;_BindImage@12
 BindImageEx;code;imagehlp.dll;_BindImageEx@20
@@ -101,7 +103,11 @@ SymGetModuleInfoW;code;imagehlp.dll;_SymGetModuleInfoW@12
 SymGetOptions;code;imagehlp.dll;_SymGetOptions@0
 SymGetSearchPath;code;imagehlp.dll;_SymGetSearchPath@12
 SymGetSourceFileChecksumW;code;imagehlp.dll;_SymGetSourceFileChecksumW@32
+SymGetSourceFileFromTokenByTokenName;code;imagehlp.dll;_SymGetSourceFileFromTokenByTokenName@24
+SymGetSourceFileFromTokenByTokenNameW;code;imagehlp.dll;_SymGetSourceFileFromTokenByTokenNameW@24
 SymGetSourceFileFromTokenW;code;imagehlp.dll;_SymGetSourceFileFromTokenW@20
+SymGetSourceFileTokenByTokenName;code;imagehlp.dll;_SymGetSourceFileTokenByTokenName@32
+SymGetSourceFileTokenByTokenNameW;code;imagehlp.dll;_SymGetSourceFileTokenByTokenNameW@32
 SymGetSourceFileTokenW;code;imagehlp.dll;_SymGetSourceFileTokenW@24
 SymGetSourceVarFromTokenW;code;imagehlp.dll;_SymGetSourceVarFromTokenW@24
 SymGetSymFromAddr64;code;imagehlp.dll;_SymGetSymFromAddr64@20

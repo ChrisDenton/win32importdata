@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+?SetThreadCursorCreationScaling@@YAKK@Z (unsigned long __cdecl SetThreadCursorCreationScaling(unsigned long));code;USER32.dll;2079
 ActivateKeyboardLayout;code;USER32.dll;
 AddClipboardFormatListener;code;USER32.dll;
 AdjustWindowRect;code;USER32.dll;
@@ -711,6 +712,7 @@ SetWindowsHookA;code;USER32.dll;
 SetWindowsHookExA;code;USER32.dll;
 SetWindowsHookExW;code;USER32.dll;
 SetWindowsHookW;code;USER32.dll;
+ShellMigrateWindow;code;USER32.dll;2664
 ShellSetWindowPos;code;USER32.dll;
 ShowCaret;code;USER32.dll;
 ShowCursor;code;USER32.dll;

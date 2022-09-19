@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 ApplyDeltaA;code;msdelta.dll;_ApplyDeltaA@20
 ApplyDeltaB;code;msdelta.dll;_ApplyDeltaB@36
+ApplyDeltaGetReverseB;code;msdelta.dll;_ApplyDeltaGetReverseB@44
 ApplyDeltaProvidedB;code;msdelta.dll;_ApplyDeltaProvidedB@40
 ApplyDeltaW;code;msdelta.dll;_ApplyDeltaW@20
 CreateDeltaA;code;msdelta.dll;_CreateDeltaA@64

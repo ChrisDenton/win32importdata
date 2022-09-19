@@ -1,4 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreateXmlReader;code;XmlLite.dll;#CreateXmlReader
+CreateXmlReaderInputWithEncodingCodePage;code;XmlLite.dll;#CreateXmlReaderInputWithEncodingCodePage
+CreateXmlReaderInputWithEncodingName;code;XmlLite.dll;#CreateXmlReaderInputWithEncodingName
+CreateXmlWriter;code;XmlLite.dll;#CreateXmlWriter
+CreateXmlWriterOutputWithEncodingCodePage;code;XmlLite.dll;#CreateXmlWriterOutputWithEncodingCodePage
+CreateXmlWriterOutputWithEncodingName;code;XmlLite.dll;#CreateXmlWriterOutputWithEncodingName
 CreateXmlReader;code;XmlLite.dll;
 CreateXmlReaderInputWithEncodingCodePage;code;XmlLite.dll;
 CreateXmlReaderInputWithEncodingName;code;XmlLite.dll;

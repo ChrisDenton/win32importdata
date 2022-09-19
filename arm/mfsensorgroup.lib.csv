@@ -1,7 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+MFCreateCameraOcclusionStateMonitor;code;MFSENSORGROUP.dll;
 MFCreateRelativePanelWatcher;code;MFSENSORGROUP.dll;
 MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;
 MFCreateSensorGroup;code;MFSENSORGROUP.dll;
 MFCreateSensorProfile;code;MFSENSORGROUP.dll;
 MFCreateSensorProfileCollection;code;MFSENSORGROUP.dll;
 MFCreateSensorStream;code;MFSENSORGROUP.dll;
+MFCreateVirtualCamera;code;MFSENSORGROUP.dll;
+MFIsVirtualCameraTypeSupported;code;MFSENSORGROUP.dll;

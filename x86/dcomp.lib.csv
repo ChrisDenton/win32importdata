@@ -1,7 +1,13 @@
 Name;Type;DLL;SymbolOrOrdinal
+_CreatePresentationFactory@12;code;dcomp.dll;2005
 DCompositionAttachMouseDragToHwnd;code;dcomp.dll;_DCompositionAttachMouseDragToHwnd@12
 DCompositionAttachMouseWheelToHwnd;code;dcomp.dll;_DCompositionAttachMouseWheelToHwnd@12
+_DCompositionBoostCompositorClock@4;code;dcomp.dll;1103
 DCompositionCreateDevice2;code;dcomp.dll;_DCompositionCreateDevice2@12
 DCompositionCreateDevice3;code;dcomp.dll;_DCompositionCreateDevice3@12
 DCompositionCreateDevice;code;dcomp.dll;_DCompositionCreateDevice@12
 DCompositionCreateSurfaceHandle;code;dcomp.dll;_DCompositionCreateSurfaceHandle@12
+_DCompositionGetFrameId@8;code;dcomp.dll;1100
+_DCompositionGetStatistics@24;code;dcomp.dll;1101
+_DCompositionGetTargetStatistics@16;code;dcomp.dll;1102
+_DCompositionWaitForCompositorClock@12;code;dcomp.dll;1104

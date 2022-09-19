@@ -29,6 +29,7 @@ MFCreateAudioMediaType;code;MFPlat.DLL;
 MFCreateCollection;code;MFPlat.DLL;
 MFCreateContentDecryptorContext;code;MFPlat.DLL;
 MFCreateContentProtectionDevice;code;MFPlat.DLL;
+MFCreateD3D12SynchronizationObject;code;MFPlat.DLL;
 MFCreateDXGIDeviceManager;code;MFPlat.DLL;
 MFCreateDXGISurfaceBuffer;code;MFPlat.DLL;
 MFCreateDXSurfaceBuffer;code;MFPlat.DLL;

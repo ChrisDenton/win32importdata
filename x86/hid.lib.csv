@@ -19,6 +19,7 @@ HidD_SetConfiguration;code;HID.DLL;_HidD_SetConfiguration@12
 HidD_SetFeature;code;HID.DLL;_HidD_SetFeature@12
 HidD_SetNumInputBuffers;code;HID.DLL;_HidD_SetNumInputBuffers@8
 HidD_SetOutputReport;code;HID.DLL;_HidD_SetOutputReport@12
+HidP_GetButtonArray;code;HID.DLL;_HidP_GetButtonArray@36
 HidP_GetButtonCaps;code;HID.DLL;_HidP_GetButtonCaps@16
 HidP_GetCaps;code;HID.DLL;_HidP_GetCaps@8
 HidP_GetData;code;HID.DLL;_HidP_GetData@24
@@ -32,9 +33,11 @@ HidP_GetUsageValueArray;code;HID.DLL;_HidP_GetUsageValueArray@36
 HidP_GetUsages;code;HID.DLL;_HidP_GetUsages@32
 HidP_GetUsagesEx;code;HID.DLL;_HidP_GetUsagesEx@28
 HidP_GetValueCaps;code;HID.DLL;_HidP_GetValueCaps@16
+HidP_GetVersionInternal;code;HID.DLL;_HidP_GetVersionInternal@4
 HidP_InitializeReportForID;code;HID.DLL;_HidP_InitializeReportForID@20
 HidP_MaxDataListLength;code;HID.DLL;_HidP_MaxDataListLength@8
 HidP_MaxUsageListLength;code;HID.DLL;_HidP_MaxUsageListLength@12
+HidP_SetButtonArray;code;HID.DLL;_HidP_SetButtonArray@36
 HidP_SetData;code;HID.DLL;_HidP_SetData@24
 HidP_SetScaledUsageValue;code;HID.DLL;_HidP_SetScaledUsageValue@32
 HidP_SetUsageValue;code;HID.DLL;_HidP_SetUsageValue@32

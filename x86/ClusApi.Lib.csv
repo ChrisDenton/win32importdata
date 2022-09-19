@@ -66,6 +66,7 @@ ClusterGetFaultDomainObject;code;CLUSAPI.dll;_ClusterGetFaultDomainObject@16
 ClusterGetFaultDomainObjects;code;CLUSAPI.dll;_ClusterGetFaultDomainObjects@20
 ClusterGetFaultDomainState;code;CLUSAPI.dll;_ClusterGetFaultDomainState@16
 ClusterGetFaultDomainXML;code;CLUSAPI.dll;_ClusterGetFaultDomainXML@12
+ClusterGetMaximumAccessForToken;code;CLUSAPI.dll;_ClusterGetMaximumAccessForToken@12
 ClusterGetPlacementScore;code;CLUSAPI.dll;_ClusterGetPlacementScore@24
 ClusterGroupCloseEnum;code;CLUSAPI.dll;_ClusterGroupCloseEnum@4
 ClusterGroupCloseEnumEx;code;CLUSAPI.dll;_ClusterGroupCloseEnumEx@4
@@ -171,6 +172,12 @@ ClusterSharedVolumeSetSnapshotState;code;CLUSAPI.dll;_ClusterSharedVolumeSetSnap
 ClusterStmFindDisk;code;CLUSAPI.dll;_ClusterStmFindDisk@24
 ClusterUpgradeFunctionalLevel;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevel@16
 ClusterUpgradeFunctionalLevelEx;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevelEx@20
+ClusterWprAddMarker;code;CLUSAPI.dll;_ClusterWprAddMarker@36
+ClusterWprCancel;code;CLUSAPI.dll;_ClusterWprCancel@32
+ClusterWprCaptureState;code;CLUSAPI.dll;_ClusterWprCaptureState@36
+ClusterWprFlush;code;CLUSAPI.dll;_ClusterWprFlush@36
+ClusterWprStart;code;CLUSAPI.dll;_ClusterWprStart@64
+ClusterWprStop;code;CLUSAPI.dll;_ClusterWprStop@36
 CreateCluster;code;CLUSAPI.dll;_CreateCluster@12
 CreateClusterAvailabilitySet;code;CLUSAPI.dll;_CreateClusterAvailabilitySet@12
 CreateClusterGroup;code;CLUSAPI.dll;_CreateClusterGroup@8
