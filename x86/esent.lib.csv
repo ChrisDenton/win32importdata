@@ -221,6 +221,7 @@ JetGotoPosition;code;ESENT.dll;_JetGotoPosition@12
 JetGotoSecondaryIndexBookmark;code;ESENT.dll;_JetGotoSecondaryIndexBookmark@28
 JetGrowDatabase;code;ESENT.dll;_JetGrowDatabase@16
 JetIdle;code;ESENT.dll;_JetIdle@8
+JetIndexRecordCount2;code;ESENT.dll;_JetIndexRecordCount2@20
 JetIndexRecordCount;code;ESENT.dll;_JetIndexRecordCount@16
 JetInit2;code;ESENT.dll;_JetInit2@8
 JetInit3;code;ESENT.dll;_JetInit3@12

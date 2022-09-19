@@ -222,6 +222,7 @@ JetGotoSecondaryIndexBookmark;code;ESENT.dll;
 JetGrowDatabase;code;ESENT.dll;
 JetIdle;code;ESENT.dll;
 JetIndexRecordCount;code;ESENT.dll;
+JetIndexRecordCount2;code;ESENT.dll;
 JetInit;code;ESENT.dll;
 JetInit2;code;ESENT.dll;
 JetInit3;code;ESENT.dll;

@@ -1,6 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
-FreeInterfaceContextTable;code;OnDemandConnRouteHelper.DLL;?FreeInterfaceContextTable@@YAXPEAU_NET_INTERFACE_CONTEXT_TABLE@@@Z (void __cdecl FreeInterfaceContextTable(struct _NET_INTERFACE_CONTEXT_TABLE *))
-GetInterfaceContextTableForHostName;code;OnDemandConnRouteHelper.DLL;?GetInterfaceContextTableForHostName@@YAJPEBG0KPEAEKPEAPEAU_NET_INTERFACE_CONTEXT_TABLE@@@Z (long __cdecl GetInterfaceContextTableForHostName(unsigned short const *,unsigned short const *,unsigned long,unsigned char *,unsigned long,struct _NET_INTERFACE_CONTEXT_TABLE * *))
+FreeInterfaceContextTable;code;OnDemandConnRouteHelper.DLL;
+GetInterfaceContextTableForHostName;code;OnDemandConnRouteHelper.DLL;
 OnDemandAddRouteRequest;code;OnDemandConnRouteHelper.DLL;
 OnDemandGetRoutingHint;code;OnDemandConnRouteHelper.DLL;
 OnDemandRegisterNotification;code;OnDemandConnRouteHelper.DLL;

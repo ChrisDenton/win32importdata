@@ -49,6 +49,7 @@ DirTransactControl;code;NTDSA.dll;
 DoAssert;code;NTDSA.dll;
 DoLogEventAndTrace;code;NTDSA.dll;
 DoLogEventW;code;NTDSA.dll;
+DoLogMsgOverride;code;NTDSA.dll;
 DoLogOverride;code;NTDSA.dll;
 DoLogUnhandledError;code;NTDSA.dll;
 DoLogUnhandledError2;code;NTDSA.dll;

@@ -73,7 +73,7 @@ DnsGetPrimaryDomainName_A;code;DNSAPI.dll;_DnsGetPrimaryDomainName_A@0
 DnsGetProxyInfoPrivate;code;DNSAPI.dll;_DnsGetProxyInfoPrivate@16
 DnsGetProxyInformation;code;DNSAPI.dll;_DnsGetProxyInformation@20
 DnsGetQueryRetryTimeouts;code;DNSAPI.dll;_DnsGetQueryRetryTimeouts@24
-DnsGlobals;code;DNSAPI.dll;_DnsGlobals
+DnsGlobals;data;DNSAPI.dll;_DnsGlobals
 DnsIpv6AddressToString;code;DNSAPI.dll;_DnsIpv6AddressToString@8
 DnsIpv6StringToAddress;code;DNSAPI.dll;_DnsIpv6StringToAddress@12
 DnsIsStringCountValidForTextType;code;DNSAPI.dll;_DnsIsStringCountValidForTextType@8

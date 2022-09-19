@@ -157,6 +157,7 @@ ClusterStmFindDisk;code;CLUSAPI.dll;
 ClusterUpgradeFunctionalLevel;code;CLUSAPI.dll;
 ClusterUpgradeFunctionalLevelEx;code;CLUSAPI.dll;
 CreateCluster;code;CLUSAPI.dll;
+CreateClusterAvailabilitySet;code;CLUSAPI.dll;
 CreateClusterGroup;code;CLUSAPI.dll;
 CreateClusterGroupEx;code;CLUSAPI.dll;
 CreateClusterGroupSet;code;CLUSAPI.dll;

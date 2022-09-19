@@ -11,6 +11,7 @@ WlanCloseHandle;code;wlanapi.dll;_WlanCloseHandle@8
 WlanConnect;code;wlanapi.dll;_WlanConnect@16
 WlanConnectEx;code;wlanapi.dll;_WlanConnectEx@16
 WlanDeleteProfile;code;wlanapi.dll;_WlanDeleteProfile@16
+WlanDeviceServiceCommand;code;wlanapi.dll;_WlanDeviceServiceCommand@36
 WlanDisconnect;code;wlanapi.dll;_WlanDisconnect@12
 WlanEnumInterfaces;code;wlanapi.dll;_WlanEnumInterfaces@12
 WlanExtractPsdIEDataList;code;wlanapi.dll;_WlanExtractPsdIEDataList@24
@@ -24,6 +25,7 @@ WlanGetProfile;code;wlanapi.dll;_WlanGetProfile@28
 WlanGetProfileCustomUserData;code;wlanapi.dll;_WlanGetProfileCustomUserData@24
 WlanGetProfileList;code;wlanapi.dll;_WlanGetProfileList@16
 WlanGetSecuritySettings;code;wlanapi.dll;_WlanGetSecuritySettings@20
+WlanGetSupportedDeviceServices;code;wlanapi.dll;_WlanGetSupportedDeviceServices@12
 WlanHostedNetworkForceStart;code;wlanapi.dll;_WlanHostedNetworkForceStart@12
 WlanHostedNetworkForceStop;code;wlanapi.dll;_WlanHostedNetworkForceStop@12
 WlanHostedNetworkInitSettings;code;wlanapi.dll;_WlanHostedNetworkInitSettings@12
@@ -37,6 +39,7 @@ WlanHostedNetworkStartUsing;code;wlanapi.dll;_WlanHostedNetworkStartUsing@12
 WlanHostedNetworkStopUsing;code;wlanapi.dll;_WlanHostedNetworkStopUsing@12
 WlanIhvControl;code;wlanapi.dll;_WlanIhvControl@32
 WlanOpenHandle;code;wlanapi.dll;_WlanOpenHandle@16
+WlanPrivateQuery11adPairedConfig;code;wlanapi.dll;_WlanPrivateQuery11adPairedConfig@12
 WlanPrivateQueryInterface;code;wlanapi.dll;_WlanPrivateQueryInterface@20
 WlanPrivateSetInterface;code;wlanapi.dll;_WlanPrivateSetInterface@20
 WlanQueryAutoConfigParameter;code;wlanapi.dll;_WlanQueryAutoConfigParameter@24

@@ -91,6 +91,7 @@ sqlite3_errmsg16;code;winsqlite3.dll;_sqlite3_errmsg16@4
 sqlite3_errmsg;code;winsqlite3.dll;_sqlite3_errmsg@4
 sqlite3_errstr;code;winsqlite3.dll;_sqlite3_errstr@4
 sqlite3_exec;code;winsqlite3.dll;_sqlite3_exec@20
+sqlite3_expanded_sql;code;winsqlite3.dll;_sqlite3_expanded_sql@4
 sqlite3_expired;code;winsqlite3.dll;_sqlite3_expired@4
 sqlite3_extended_errcode;code;winsqlite3.dll;_sqlite3_extended_errcode@4
 sqlite3_extended_result_codes;code;winsqlite3.dll;_sqlite3_extended_result_codes@8
@@ -191,6 +192,7 @@ sqlite3_thread_cleanup;code;winsqlite3.dll;_sqlite3_thread_cleanup@0
 sqlite3_threadsafe;code;winsqlite3.dll;_sqlite3_threadsafe@0
 sqlite3_total_changes;code;winsqlite3.dll;_sqlite3_total_changes@4
 sqlite3_trace;code;winsqlite3.dll;_sqlite3_trace@12
+sqlite3_trace_v2;code;winsqlite3.dll;_sqlite3_trace_v2@16
 sqlite3_transfer_bindings;code;winsqlite3.dll;_sqlite3_transfer_bindings@8
 sqlite3_update_hook;code;winsqlite3.dll;_sqlite3_update_hook@12
 sqlite3_uri_boolean;code;winsqlite3.dll;_sqlite3_uri_boolean@12
@@ -226,7 +228,11 @@ sqlite3_wal_checkpoint_v2;code;winsqlite3.dll;_sqlite3_wal_checkpoint_v2@20
 sqlite3_wal_hook;code;winsqlite3.dll;_sqlite3_wal_hook@12
 sqlite3_win32_is_nt;code;winsqlite3.dll;_sqlite3_win32_is_nt@0
 sqlite3_win32_mbcs_to_utf8;code;winsqlite3.dll;_sqlite3_win32_mbcs_to_utf8@4
+sqlite3_win32_mbcs_to_utf8_v2;code;winsqlite3.dll;_sqlite3_win32_mbcs_to_utf8_v2@8
 sqlite3_win32_set_directory;code;winsqlite3.dll;_sqlite3_win32_set_directory@8
 sqlite3_win32_sleep;code;winsqlite3.dll;_sqlite3_win32_sleep@4
+sqlite3_win32_unicode_to_utf8;code;winsqlite3.dll;_sqlite3_win32_unicode_to_utf8@4
 sqlite3_win32_utf8_to_mbcs;code;winsqlite3.dll;_sqlite3_win32_utf8_to_mbcs@4
+sqlite3_win32_utf8_to_mbcs_v2;code;winsqlite3.dll;_sqlite3_win32_utf8_to_mbcs_v2@8
+sqlite3_win32_utf8_to_unicode;code;winsqlite3.dll;_sqlite3_win32_utf8_to_unicode@4
 sqlite3_win32_write_debug;code;winsqlite3.dll;_sqlite3_win32_write_debug@8

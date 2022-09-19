@@ -46,6 +46,9 @@ MFCreateMediaType;code;MFPlat.DLL;_MFCreateMediaType@4
 MFCreateMediaTypeFromProperties;code;MFPlat.DLL;_MFCreateMediaTypeFromProperties@8
 MFCreateMediaTypeFromRepresentation;code;MFPlat.DLL;_MFCreateMediaTypeFromRepresentation@24
 MFCreateMemoryBuffer;code;MFPlat.DLL;_MFCreateMemoryBuffer@8
+MFCreateMuxStreamAttributes;code;MFPlat.DLL;_MFCreateMuxStreamAttributes@8
+MFCreateMuxStreamMediaType;code;MFPlat.DLL;_MFCreateMuxStreamMediaType@8
+MFCreateMuxStreamSample;code;MFPlat.DLL;_MFCreateMuxStreamSample@8
 MFCreatePresentationDescriptor;code;MFPlat.DLL;_MFCreatePresentationDescriptor@12
 MFCreatePropertiesFromMediaType;code;MFPlat.DLL;_MFCreatePropertiesFromMediaType@12
 MFCreateSample;code;MFPlat.DLL;_MFCreateSample@4

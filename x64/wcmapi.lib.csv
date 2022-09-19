@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-DusmSetAttributionMapping;code;wcmapi.dll;
 WcmBeginIgnoreProfileList;code;wcmapi.dll;
 WcmCancelOnDemandRequest;code;wcmapi.dll;
 WcmCloseHandle;code;wcmapi.dll;

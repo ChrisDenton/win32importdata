@@ -186,7 +186,6 @@ SHELL32_CreateAlternateStreamFileName;code;SHELL32.dll;
 SHELL32_CreateConfirmationInterrupt;code;SHELL32.dll;
 SHELL32_CreateConflictInterrupt;code;SHELL32.dll;
 SHELL32_CreateDefaultOperationDataProvider;code;SHELL32.dll;
-SHELL32_CreateExtrinsicPropertyStore;code;SHELL32.dll;
 SHELL32_CreateFileFolderContextMenu;code;SHELL32.dll;
 SHELL32_CreateLinkInfoW;code;SHELL32.dll;
 SHELL32_CreatePlaceholderFile;code;SHELL32.dll;

@@ -14,6 +14,8 @@ FwpiVpnTriggerRemoveSecurityDescriptor;code;fwpuclnt.dll;_FwpiVpnTriggerRemoveSe
 FwpiVpnTriggerResetNrptTriggering;code;fwpuclnt.dll;_FwpiVpnTriggerResetNrptTriggering@4
 FwpiVpnTriggerSetStateDisconnected;code;fwpuclnt.dll;_FwpiVpnTriggerSetStateDisconnected@8
 FwpiVpnTriggerUninitializeNrptTriggering;code;fwpuclnt.dll;_FwpiVpnTriggerUninitializeNrptTriggering@4
+FwpmBitmapIndexFree0;code;fwpuclnt.dll;_FwpmBitmapIndexFree0@12
+FwpmBitmapIndexGet0;code;fwpuclnt.dll;_FwpmBitmapIndexGet0@12
 FwpmCalloutAdd0;code;fwpuclnt.dll;_FwpmCalloutAdd0@16
 FwpmCalloutCreateEnumHandle0;code;fwpuclnt.dll;_FwpmCalloutCreateEnumHandle0@12
 FwpmCalloutDeleteById0;code;fwpuclnt.dll;_FwpmCalloutDeleteById0@8

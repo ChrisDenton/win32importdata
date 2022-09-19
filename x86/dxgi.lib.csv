@@ -3,6 +3,7 @@ DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YGXP6GXPBD@Z@Z (void __stdcall D
 PIXBeginCapture;code;dxgi.dll;?PIXBeginCapture@@YGJIPAX@Z (long __stdcall PIXBeginCapture(unsigned int,void *))
 PIXEndCapture;code;dxgi.dll;?PIXEndCapture@@YGJH@Z (long __stdcall PIXEndCapture(int))
 PIXGetCaptureState;code;dxgi.dll;?PIXGetCaptureState@@YGIXZ (unsigned int __stdcall PIXGetCaptureState(void))
+UpdateHMDEmulationStatus;code;dxgi.dll;?UpdateHMDEmulationStatus@@YGJ_N@Z (long __stdcall UpdateHMDEmulationStatus(bool))
 CreateDXGIFactory1;code;dxgi.dll;_CreateDXGIFactory1@8
 CreateDXGIFactory2;code;dxgi.dll;_CreateDXGIFactory2@12
 CreateDXGIFactory;code;dxgi.dll;_CreateDXGIFactory@8

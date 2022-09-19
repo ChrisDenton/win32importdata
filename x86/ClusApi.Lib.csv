@@ -40,7 +40,7 @@ ClusterControl;code;CLUSAPI.dll;_ClusterControl@32
 ClusterCreateClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterCreateClusterStorageEnclosure@52
 ClusterCreateFaultDomain;code;CLUSAPI.dll;_ClusterCreateFaultDomain@28
 ClusterCreateFaultDomainFromXML;code;CLUSAPI.dll;_ClusterCreateFaultDomainFromXML@12
-ClusterCreateVMReservation;code;CLUSAPI.dll;_ClusterCreateVMReservation@20
+ClusterCreateVMReservation;code;CLUSAPI.dll;_ClusterCreateVMReservation@24
 ClusterEnum;code;CLUSAPI.dll;_ClusterEnum@20
 ClusterEnumEx;code;CLUSAPI.dll;_ClusterEnumEx@16
 ClusterFreeMemory;code;CLUSAPI.dll;_ClusterFreeMemory@4
@@ -54,7 +54,7 @@ ClusterGetEnumCountEx;code;CLUSAPI.dll;_ClusterGetEnumCountEx@4
 ClusterGetFaultDomainObject;code;CLUSAPI.dll;_ClusterGetFaultDomainObject@16
 ClusterGetFaultDomainObjects;code;CLUSAPI.dll;_ClusterGetFaultDomainObjects@20
 ClusterGetFaultDomainXML;code;CLUSAPI.dll;_ClusterGetFaultDomainXML@12
-ClusterGetPlacementScore;code;CLUSAPI.dll;_ClusterGetPlacementScore@20
+ClusterGetPlacementScore;code;CLUSAPI.dll;_ClusterGetPlacementScore@24
 ClusterGroupCloseEnum;code;CLUSAPI.dll;_ClusterGroupCloseEnum@4
 ClusterGroupCloseEnumEx;code;CLUSAPI.dll;_ClusterGroupCloseEnumEx@4
 ClusterGroupControl;code;CLUSAPI.dll;_ClusterGroupControl@32
@@ -157,6 +157,7 @@ ClusterStmFindDisk;code;CLUSAPI.dll;_ClusterStmFindDisk@24
 ClusterUpgradeFunctionalLevel;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevel@16
 ClusterUpgradeFunctionalLevelEx;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevelEx@20
 CreateCluster;code;CLUSAPI.dll;_CreateCluster@12
+CreateClusterAvailabilitySet;code;CLUSAPI.dll;_CreateClusterAvailabilitySet@12
 CreateClusterGroup;code;CLUSAPI.dll;_CreateClusterGroup@8
 CreateClusterGroupEx;code;CLUSAPI.dll;_CreateClusterGroupEx@12
 CreateClusterGroupSet;code;CLUSAPI.dll;_CreateClusterGroupSet@8

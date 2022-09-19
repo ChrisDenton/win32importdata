@@ -51,6 +51,7 @@ DirTransactControl;code;NTDSA.dll;_DirTransactControl@4
 DoAssert;code;NTDSA.dll;_DoAssert@12
 DoLogEventAndTrace;code;NTDSA.dll;_DoLogEventAndTrace@4
 DoLogEventW;code;NTDSA.dll;_DoLogEventW@36
+DoLogMsgOverride;code;NTDSA.dll;_DoLogMsgOverride@4
 DoLogOverride;code;NTDSA.dll;_DoLogOverride@8
 DsCanRODCHostNdncForNetLogon;code;NTDSA.dll;_DsCanRODCHostNdncForNetLogon@12
 DsChangeBootOptions;code;NTDSA.dll;_DsChangeBootOptions@16

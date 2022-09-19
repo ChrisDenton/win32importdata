@@ -12,3 +12,5 @@ D2D1MakeSkewMatrix;code;d2d1.dll;3
 D2D1SinCos;code;d2d1.dll;9
 D2D1Tan;code;d2d1.dll;10
 D2D1Vec3Length;code;d2d1.dll;11
+D2DTkCreateAlgorithmFactory;code;d2d1.dll;15
+D2DTkCreateOn12Device;code;d2d1.dll;14

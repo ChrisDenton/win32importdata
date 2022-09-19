@@ -633,6 +633,7 @@ GetTempFileNameW;code;KERNEL32.dll;_GetTempFileNameW@16
 GetTempPathA;code;KERNEL32.dll;_GetTempPathA@8
 GetTempPathW;code;KERNEL32.dll;_GetTempPathW@8
 GetThreadContext;code;KERNEL32.dll;_GetThreadContext@8
+GetThreadDescription;code;KERNEL32.dll;_GetThreadDescription@8
 GetThreadErrorMode;code;KERNEL32.dll;_GetThreadErrorMode@0
 GetThreadGroupAffinity;code;KERNEL32.dll;_GetThreadGroupAffinity@8
 GetThreadIOPendingFlag;code;KERNEL32.dll;_GetThreadIOPendingFlag@8
@@ -1111,6 +1112,7 @@ SetTapeParameters;code;KERNEL32.dll;_SetTapeParameters@12
 SetTapePosition;code;KERNEL32.dll;_SetTapePosition@24
 SetThreadAffinityMask;code;KERNEL32.dll;_SetThreadAffinityMask@8
 SetThreadContext;code;KERNEL32.dll;_SetThreadContext@8
+SetThreadDescription;code;KERNEL32.dll;_SetThreadDescription@8
 SetThreadErrorMode;code;KERNEL32.dll;_SetThreadErrorMode@8
 SetThreadExecutionState;code;KERNEL32.dll;_SetThreadExecutionState@4
 SetThreadGroupAffinity;code;KERNEL32.dll;_SetThreadGroupAffinity@12
@@ -1223,10 +1225,16 @@ WaitNamedPipeW;code;KERNEL32.dll;_WaitNamedPipeW@8
 WakeAllConditionVariable;code;KERNEL32.dll;_WakeAllConditionVariable@4
 WakeConditionVariable;code;KERNEL32.dll;_WakeConditionVariable@4
 WerGetFlags;code;KERNEL32.dll;_WerGetFlags@8
+WerRegisterAdditionalProcess;code;KERNEL32.dll;_WerRegisterAdditionalProcess@8
+WerRegisterCustomMetadata;code;KERNEL32.dll;_WerRegisterCustomMetadata@8
+WerRegisterExcludedMemoryBlock;code;KERNEL32.dll;_WerRegisterExcludedMemoryBlock@8
 WerRegisterFile;code;KERNEL32.dll;_WerRegisterFile@12
 WerRegisterMemoryBlock;code;KERNEL32.dll;_WerRegisterMemoryBlock@8
 WerRegisterRuntimeExceptionModule;code;KERNEL32.dll;_WerRegisterRuntimeExceptionModule@8
 WerSetFlags;code;KERNEL32.dll;_WerSetFlags@4
+WerUnregisterAdditionalProcess;code;KERNEL32.dll;_WerUnregisterAdditionalProcess@4
+WerUnregisterCustomMetadata;code;KERNEL32.dll;_WerUnregisterCustomMetadata@4
+WerUnregisterExcludedMemoryBlock;code;KERNEL32.dll;_WerUnregisterExcludedMemoryBlock@4
 WerUnregisterFile;code;KERNEL32.dll;_WerUnregisterFile@4
 WerUnregisterMemoryBlock;code;KERNEL32.dll;_WerUnregisterMemoryBlock@4
 WerUnregisterRuntimeExceptionModule;code;KERNEL32.dll;_WerUnregisterRuntimeExceptionModule@8

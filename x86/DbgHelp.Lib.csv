@@ -133,6 +133,8 @@ SymGetScopeW;code;dbghelp.dll;_SymGetScopeW@20
 SymGetSearchPath;code;dbghelp.dll;_SymGetSearchPath@12
 SymGetSearchPathW;code;dbghelp.dll;_SymGetSearchPathW@12
 SymGetSourceFile;code;dbghelp.dll;_SymGetSourceFile@28
+SymGetSourceFileChecksum;code;dbghelp.dll;_SymGetSourceFileChecksum@32
+SymGetSourceFileChecksumW;code;dbghelp.dll;_SymGetSourceFileChecksumW@32
 SymGetSourceFileFromToken;code;dbghelp.dll;_SymGetSourceFileFromToken@20
 SymGetSourceFileFromTokenW;code;dbghelp.dll;_SymGetSourceFileFromTokenW@20
 SymGetSourceFileToken;code;dbghelp.dll;_SymGetSourceFileToken@24

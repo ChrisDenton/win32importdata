@@ -1,7 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
 AreDvdCodecsEnabled;code;CompPkgSup.DLL;_AreDvdCodecsEnabled@0
+GetMediaComponentPackageInfo;code;CompPkgSup.DLL;_GetMediaComponentPackageInfo@12
+GetMediaExtensionCommunicationFactory;code;CompPkgSup.DLL;_GetMediaExtensionCommunicationFactory@4
 GetServerForPMP;code;CompPkgSup.DLL;_GetServerForPMP@8
 InstantiateComponentFromPackage;code;CompPkgSup.DLL;_InstantiateComponentFromPackage@12
+IsMediaBehaviorEnabled;code;CompPkgSup.DLL;_IsMediaBehaviorEnabled@16
 RegisterServerForPMP;code;CompPkgSup.DLL;_RegisterServerForPMP@12
 RequireNetworkDuringMediaTaskCompletion;code;CompPkgSup.DLL;_RequireNetworkDuringMediaTaskCompletion@8
 UnregisterServerForPMP;code;CompPkgSup.DLL;_UnregisterServerForPMP@4

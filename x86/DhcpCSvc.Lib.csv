@@ -24,9 +24,9 @@ DhcpGetFallbackParams;code;dhcpcsvc.DLL;_DhcpGetFallbackParams@8
 DhcpGetNotificationStatus;code;dhcpcsvc.DLL;_DhcpGetNotificationStatus@8
 DhcpGetOriginalSubnetMask;code;dhcpcsvc.DLL;_DhcpGetOriginalSubnetMask@8
 DhcpGetTraceArray;code;dhcpcsvc.DLL;_DhcpGetTraceArray@4
-DhcpGlobalIsShuttingDown;code;dhcpcsvc.DLL;_DhcpGlobalIsShuttingDown
-DhcpGlobalServiceSyncEvent;code;dhcpcsvc.DLL;_DhcpGlobalServiceSyncEvent
-DhcpGlobalTerminateEvent;code;dhcpcsvc.DLL;_DhcpGlobalTerminateEvent
+DhcpGlobalIsShuttingDown;data;dhcpcsvc.DLL;_DhcpGlobalIsShuttingDown
+DhcpGlobalServiceSyncEvent;data;dhcpcsvc.DLL;_DhcpGlobalServiceSyncEvent
+DhcpGlobalTerminateEvent;data;dhcpcsvc.DLL;_DhcpGlobalTerminateEvent
 DhcpHandlePnPEvent;code;dhcpcsvc.DLL;_DhcpHandlePnPEvent@20
 DhcpIsEnabled;code;dhcpcsvc.DLL;_DhcpIsEnabled@8
 DhcpLeaseIpAddress;code;dhcpcsvc.DLL;_DhcpLeaseIpAddress@24

@@ -79,11 +79,13 @@ GetFriendlyIfIndex;code;IPHLPAPI.DLL;_GetFriendlyIfIndex@4
 GetIcmpStatistics;code;IPHLPAPI.DLL;_GetIcmpStatistics@4
 GetIcmpStatisticsEx;code;IPHLPAPI.DLL;_GetIcmpStatisticsEx@8
 GetIfEntry2;code;IPHLPAPI.DLL;_GetIfEntry2@4
+GetIfEntry2Ex;code;IPHLPAPI.DLL;_GetIfEntry2Ex@8
 GetIfEntry;code;IPHLPAPI.DLL;_GetIfEntry@4
 GetIfStackTable;code;IPHLPAPI.DLL;_GetIfStackTable@4
 GetIfTable2;code;IPHLPAPI.DLL;_GetIfTable2@4
 GetIfTable2Ex;code;IPHLPAPI.DLL;_GetIfTable2Ex@8
 GetIfTable;code;IPHLPAPI.DLL;_GetIfTable@12
+GetInterfaceCompartmentId;code;IPHLPAPI.DLL;_GetInterfaceCompartmentId@4
 GetInterfaceInfo;code;IPHLPAPI.DLL;_GetInterfaceInfo@8
 GetInvertedIfStackTable;code;IPHLPAPI.DLL;_GetInvertedIfStackTable@4
 GetIpAddrTable;code;IPHLPAPI.DLL;_GetIpAddrTable@12

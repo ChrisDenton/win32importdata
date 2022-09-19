@@ -136,6 +136,8 @@ SymGetScopeW;code;dbghelp.dll;
 SymGetSearchPath;code;dbghelp.dll;
 SymGetSearchPathW;code;dbghelp.dll;
 SymGetSourceFile;code;dbghelp.dll;
+SymGetSourceFileChecksum;code;dbghelp.dll;
+SymGetSourceFileChecksumW;code;dbghelp.dll;
 SymGetSourceFileFromToken;code;dbghelp.dll;
 SymGetSourceFileFromTokenW;code;dbghelp.dll;
 SymGetSourceFileToken;code;dbghelp.dll;

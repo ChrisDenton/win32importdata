@@ -62,7 +62,7 @@ DnsGetPrimaryDomainName_A;code;DNSAPI.dll;
 DnsGetProxyInfoPrivate;code;DNSAPI.dll;
 DnsGetProxyInformation;code;DNSAPI.dll;
 DnsGetQueryRetryTimeouts;code;DNSAPI.dll;
-DnsGlobals;code;DNSAPI.dll;
+DnsGlobals;data;DNSAPI.dll;
 DnsIpv6AddressToString;code;DNSAPI.dll;
 DnsIpv6StringToAddress;code;DNSAPI.dll;
 DnsIsAMailboxType;code;DNSAPI.dll;

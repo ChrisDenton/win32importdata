@@ -271,6 +271,8 @@ GetDC;code;USER32.dll;_GetDC@4
 GetDCEx;code;USER32.dll;_GetDCEx@12
 GetDesktopWindow;code;USER32.dll;_GetDesktopWindow@0
 GetDialogBaseUnits;code;USER32.dll;_GetDialogBaseUnits@0
+GetDialogControlDpiChangeBehavior;code;USER32.dll;_GetDialogControlDpiChangeBehavior@4
+GetDialogDpiChangeBehavior;code;USER32.dll;_GetDialogDpiChangeBehavior@4
 GetDisplayAutoRotationPreferences;code;USER32.dll;_GetDisplayAutoRotationPreferences@4
 GetDisplayConfigBufferSizes;code;USER32.dll;_GetDisplayConfigBufferSizes@12
 GetDlgCtrlID;code;USER32.dll;_GetDlgCtrlID@4
@@ -621,6 +623,8 @@ SetCursor;code;USER32.dll;_SetCursor@4
 SetCursorPos;code;USER32.dll;_SetCursorPos@8
 SetDebugErrorLevel;code;USER32.dll;_SetDebugErrorLevel@4
 SetDeskWallpaper;code;USER32.dll;_SetDeskWallpaper@4
+SetDialogControlDpiChangeBehavior;code;USER32.dll;_SetDialogControlDpiChangeBehavior@12
+SetDialogDpiChangeBehavior;code;USER32.dll;_SetDialogDpiChangeBehavior@12
 SetDisplayAutoRotationPreferences;code;USER32.dll;_SetDisplayAutoRotationPreferences@4
 SetDisplayConfig;code;USER32.dll;_SetDisplayConfig@20
 SetDlgItemInt;code;USER32.dll;_SetDlgItemInt@16
@@ -646,6 +650,7 @@ SetParent;code;USER32.dll;_SetParent@8
 SetPhysicalCursorPos;code;USER32.dll;_SetPhysicalCursorPos@8
 SetProcessDPIAware;code;USER32.dll;_SetProcessDPIAware@0
 SetProcessDefaultLayout;code;USER32.dll;_SetProcessDefaultLayout@4
+SetProcessDpiAwarenessContext;code;USER32.dll;_SetProcessDpiAwarenessContext@4
 SetProcessRestrictionExemption;code;USER32.dll;_SetProcessRestrictionExemption@4
 SetProcessWindowStation;code;USER32.dll;_SetProcessWindowStation@4
 SetPropA;code;USER32.dll;_SetPropA@12

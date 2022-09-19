@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+JsInitializeJITServer;code;chakra.dll;?JsInitializeJITServer@@YAJPAU_GUID@@PAX1@Z (long __cdecl JsInitializeJITServer(struct _GUID *,void *,void *))
 MemProtectHeapAddRootSection;code;chakra.dll;?MemProtectHeapAddRootSection@@YAXPAXPAUMemProtectHeapRootSection@@@Z (void __cdecl MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))
 MemProtectHeapCollect;code;chakra.dll;?MemProtectHeapCollect@@YAJPAXW4MemProtectHeapCollectFlags@@@Z (long __cdecl MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))
 MemProtectHeapCreate;code;chakra.dll;?MemProtectHeapCreate@@YAJPAPAXW4MemProtectHeapCreateFlags@@@Z (long __cdecl MemProtectHeapCreate(void * *,enum MemProtectHeapCreateFlags))
@@ -54,7 +55,6 @@ JsDoubleToNumber;code;chakra.dll;
 JsEnableRuntimeExecution;code;chakra.dll;
 JsEnumerateHeap;code;chakra.dll;
 JsEquals;code;chakra.dll;
-JsExperimentalApiRunModule;code;chakra.dll;
 JsGetAndClearException;code;chakra.dll;
 JsGetArrayBufferStorage;code;chakra.dll;
 JsGetContextData;code;chakra.dll;

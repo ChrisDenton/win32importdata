@@ -9,6 +9,7 @@ DeviceMode;code;WINSPOOL.DRV;?DeviceMode@@YGXPAUHWND__@@PAXPAD2@Z (void __stdcal
 DocumentEvent;code;WINSPOOL.DRV;?DocumentEvent@@YGHPAXPAUHDC__@@HK0K0@Z (int __stdcall DocumentEvent(void *,struct HDC__ *,int,unsigned long,void *,unsigned long,void *))
 ?FindCompatibleDriver@@YGJPBG0PAGKPAK1K22@Z (long __stdcall FindCompatibleDriver(unsigned short const *,unsigned short const *,unsigned short *,unsigned long,unsigned long *,unsigned short *,unsigned long,unsigned long *,unsigned long *));code;WINSPOOL.DRV;252
 ?FlushBuffer2@@YGHPAX@Z (int __stdcall FlushBuffer2(void *));code;WINSPOOL.DRV;255
+?GetWorkFlowSourceLibraryHandle@@YGPAUHINSTANCE__@@PAX@Z (struct HINSTANCE__ * __stdcall GetWorkFlowSourceLibraryHandle(void *));code;WINSPOOL.DRV;362
 ?InternalGetPrinterDriverA@@YGHPAXPADKPAEKPAK@Z (int __stdcall InternalGetPrinterDriverA(void *,char *,unsigned long,unsigned char *,unsigned long,unsigned long *));code;WINSPOOL.DRV;233
 ?InternalGetPrinterDriverW@@YGHPAXPAGKPAEKPAK@Z (int __stdcall InternalGetPrinterDriverW(void *,unsigned short *,unsigned long,unsigned char *,unsigned long,unsigned long *));code;WINSPOOL.DRV;234
 ?PrintUIDocumentDefaults@@YGXPAUHWND__@@PBGHJ@Z (void __stdcall PrintUIDocumentDefaults(struct HWND__ *,unsigned short const *,int,long));code;WINSPOOL.DRV;221
@@ -172,6 +173,7 @@ InstallPrinterDriverFromPackageA;code;WINSPOOL.DRV;_InstallPrinterDriverFromPack
 InstallPrinterDriverFromPackageW;code;WINSPOOL.DRV;_InstallPrinterDriverFromPackageW@20
 IsValidDevmodeA;code;WINSPOOL.DRV;_IsValidDevmodeA@8
 IsValidDevmodeW;code;WINSPOOL.DRV;_IsValidDevmodeW@8
+_IsWorkflowAssociated@4;code;WINSPOOL.DRV;361
 _LoadPrinterDriver@4;code;WINSPOOL.DRV;212
 OpenPrinter2A;code;WINSPOOL.DRV;_OpenPrinter2A@16
 OpenPrinter2W;code;WINSPOOL.DRV;_OpenPrinter2W@16

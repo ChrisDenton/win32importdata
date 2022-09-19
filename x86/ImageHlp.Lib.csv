@@ -96,6 +96,7 @@ SymGetModuleInfoW64;code;imagehlp.dll;_SymGetModuleInfoW64@16
 SymGetModuleInfoW;code;imagehlp.dll;_SymGetModuleInfoW@12
 SymGetOptions;code;imagehlp.dll;_SymGetOptions@0
 SymGetSearchPath;code;imagehlp.dll;_SymGetSearchPath@12
+SymGetSourceFileChecksumW;code;imagehlp.dll;_SymGetSourceFileChecksumW@32
 SymGetSourceFileFromTokenW;code;imagehlp.dll;_SymGetSourceFileFromTokenW@20
 SymGetSourceFileTokenW;code;imagehlp.dll;_SymGetSourceFileTokenW@24
 SymGetSourceVarFromTokenW;code;imagehlp.dll;_SymGetSourceVarFromTokenW@24

@@ -9,6 +9,10 @@ GetDeviceDefaultPrintTicketThunk;code;prntvpt.dll;
 GetDeviceNamespacesThunk;code;prntvpt.dll;
 GetPrintCapabilitiesThunk;code;prntvpt.dll;
 GetPrintCapabilitiesThunk2;code;prntvpt.dll;
+GetPrintDeviceCapabilitiesThunk;code;prntvpt.dll;
+GetPrintDeviceCapabilitiesThunk2;code;prntvpt.dll;
+GetPrintDeviceResourcesThunk;code;prntvpt.dll;
+GetPrintDeviceResourcesThunk2;code;prntvpt.dll;
 GetSchemaVersionThunk;code;prntvpt.dll;
 MergeAndValidatePrintTicketThunk;code;prntvpt.dll;
 MergeAndValidatePrintTicketThunk2;code;prntvpt.dll;
@@ -16,6 +20,8 @@ PTCloseProvider;code;prntvpt.dll;4
 PTConvertDevModeToPrintTicket;code;prntvpt.dll;9
 PTConvertPrintTicketToDevMode;code;prntvpt.dll;8
 PTGetPrintCapabilities;code;prntvpt.dll;6
+PTGetPrintDeviceCapabilities;code;prntvpt.dll;11
+PTGetPrintDeviceResources;code;prntvpt.dll;12
 PTMergeAndValidatePrintTicket;code;prntvpt.dll;7
 PTOpenProvider;code;prntvpt.dll;2
 PTOpenProviderEx;code;prntvpt.dll;3

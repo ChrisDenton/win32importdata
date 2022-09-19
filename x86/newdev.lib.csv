@@ -5,7 +5,10 @@ DiInstallDriverA;code;newdev.dll;_DiInstallDriverA@16
 DiInstallDriverW;code;newdev.dll;_DiInstallDriverW@16
 DiRollbackDriver;code;newdev.dll;_DiRollbackDriver@20
 DiShowUpdateDevice;code;newdev.dll;_DiShowUpdateDevice@20
+DiShowUpdateDriver;code;newdev.dll;_DiShowUpdateDriver@16
 DiUninstallDevice;code;newdev.dll;_DiUninstallDevice@20
+DiUninstallDriverA;code;newdev.dll;_DiUninstallDriverA@16
+DiUninstallDriverW;code;newdev.dll;_DiUninstallDriverW@16
 GetInternetPolicies;code;newdev.dll;_GetInternetPolicies@16
 InstallNewDevice;code;newdev.dll;_InstallNewDevice@12
 InstallSelectedDriver;code;newdev.dll;_InstallSelectedDriver@20

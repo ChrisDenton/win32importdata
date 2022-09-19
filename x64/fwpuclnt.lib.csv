@@ -14,6 +14,8 @@ FwpiVpnTriggerRemoveSecurityDescriptor;code;fwpuclnt.dll;
 FwpiVpnTriggerResetNrptTriggering;code;fwpuclnt.dll;
 FwpiVpnTriggerSetStateDisconnected;code;fwpuclnt.dll;
 FwpiVpnTriggerUninitializeNrptTriggering;code;fwpuclnt.dll;
+FwpmBitmapIndexFree0;code;fwpuclnt.dll;
+FwpmBitmapIndexGet0;code;fwpuclnt.dll;
 FwpmCalloutAdd0;code;fwpuclnt.dll;
 FwpmCalloutCreateEnumHandle0;code;fwpuclnt.dll;
 FwpmCalloutDeleteById0;code;fwpuclnt.dll;

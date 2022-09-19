@@ -9,10 +9,10 @@ NdrFullPointerFree;code;RPCRT4.dll;?NdrFullPointerFree@@YAHPAU_FULL_PTR_XLAT_TAB
 NdrFullPointerInsertRefId;code;RPCRT4.dll;?NdrFullPointerInsertRefId@@YAXPAU_FULL_PTR_XLAT_TABLES@@KPAX@Z (void __cdecl NdrFullPointerInsertRefId(struct _FULL_PTR_XLAT_TABLES *,unsigned long,void *))
 NdrFullPointerQueryPointer;code;RPCRT4.dll;?NdrFullPointerQueryPointer@@YAHPAU_FULL_PTR_XLAT_TABLES@@PAXEPAK@Z (int __cdecl NdrFullPointerQueryPointer(struct _FULL_PTR_XLAT_TABLES *,void *,unsigned char,unsigned long *))
 NdrFullPointerQueryRefId;code;RPCRT4.dll;?NdrFullPointerQueryRefId@@YAHPAU_FULL_PTR_XLAT_TABLES@@KEPAPAX@Z (int __cdecl NdrFullPointerQueryRefId(struct _FULL_PTR_XLAT_TABLES *,unsigned long,unsigned char,void * *))
-pfnFreeRoutines;code;RPCRT4.dll;?pfnFreeRoutines@@3QBQ6AXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__cdecl*const * const pfnFreeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnMarshallRoutines;code;RPCRT4.dll;?pfnMarshallRoutines@@3QBQ6APAEPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (unsigned char * (__cdecl*const * const pfnMarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnSizeRoutines;code;RPCRT4.dll;?pfnSizeRoutines@@3QBQ6AXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__cdecl*const * const pfnSizeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnUnmarshallRoutines;code;RPCRT4.dll;?pfnUnmarshallRoutines@@3QBQ6APAEPAU_MIDL_STUB_MESSAGE@@PAPAEPBEE@ZB (unsigned char * (__cdecl*const * const pfnUnmarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char * *,unsigned char const *,unsigned char))
+pfnFreeRoutines;data;RPCRT4.dll;?pfnFreeRoutines@@3QBQ6AXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__cdecl*const * const pfnFreeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnMarshallRoutines;data;RPCRT4.dll;?pfnMarshallRoutines@@3QBQ6APAEPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (unsigned char * (__cdecl*const * const pfnMarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnSizeRoutines;data;RPCRT4.dll;?pfnSizeRoutines@@3QBQ6AXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__cdecl*const * const pfnSizeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnUnmarshallRoutines;data;RPCRT4.dll;?pfnUnmarshallRoutines@@3QBQ6APAEPAU_MIDL_STUB_MESSAGE@@PAPAEPBEE@ZB (unsigned char * (__cdecl*const * const pfnUnmarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char * *,unsigned char const *,unsigned char))
 CStdStubBuffer_AddRef;code;RPCRT4.dll;
 CStdStubBuffer_Connect;code;RPCRT4.dll;
 CStdStubBuffer_CountRefs;code;RPCRT4.dll;
@@ -305,7 +305,7 @@ NdrStubForwardingFunction;code;RPCRT4.dll;
 NdrStubGetBuffer;code;RPCRT4.dll;
 NdrStubInitialize;code;RPCRT4.dll;
 NdrStubInitializeMarshall;code;RPCRT4.dll;
-NdrTypeFlags;code;RPCRT4.dll;
+NdrTypeFlags;data;RPCRT4.dll;
 NdrTypeFree;code;RPCRT4.dll;
 NdrTypeMarshall;code;RPCRT4.dll;
 NdrTypeSize;code;RPCRT4.dll;
@@ -436,6 +436,7 @@ RpcRevertToSelfEx;code;RPCRT4.dll;
 RpcServerCompleteSecurityCallback;code;RPCRT4.dll;
 RpcServerInqBindingHandle;code;RPCRT4.dll;
 RpcServerInqBindings;code;RPCRT4.dll;
+RpcServerInqBindingsEx;code;RPCRT4.dll;
 RpcServerInqCallAttributesA;code;RPCRT4.dll;
 RpcServerInqCallAttributesW;code;RPCRT4.dll;
 RpcServerInqDefaultPrincNameA;code;RPCRT4.dll;
@@ -507,9 +508,9 @@ RpcStringFreeA;code;RPCRT4.dll;
 RpcStringFreeW;code;RPCRT4.dll;
 RpcTestCancel;code;RPCRT4.dll;
 RpcUserFree;code;RPCRT4.dll;
-SimpleTypeAlignment;code;RPCRT4.dll;
-SimpleTypeBufferSize;code;RPCRT4.dll;
-SimpleTypeMemorySize;code;RPCRT4.dll;
+SimpleTypeAlignment;data;RPCRT4.dll;
+SimpleTypeBufferSize;data;RPCRT4.dll;
+SimpleTypeMemorySize;data;RPCRT4.dll;
 TowerConstruct;code;RPCRT4.dll;
 TowerExplode;code;RPCRT4.dll;
 UuidCompare;code;RPCRT4.dll;

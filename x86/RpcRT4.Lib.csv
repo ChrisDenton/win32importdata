@@ -9,10 +9,10 @@ NdrFullPointerFree;code;RPCRT4.dll;?NdrFullPointerFree@@YGHPAU_FULL_PTR_XLAT_TAB
 NdrFullPointerInsertRefId;code;RPCRT4.dll;?NdrFullPointerInsertRefId@@YGXPAU_FULL_PTR_XLAT_TABLES@@KPAX@Z (void __stdcall NdrFullPointerInsertRefId(struct _FULL_PTR_XLAT_TABLES *,unsigned long,void *))
 NdrFullPointerQueryPointer;code;RPCRT4.dll;?NdrFullPointerQueryPointer@@YGHPAU_FULL_PTR_XLAT_TABLES@@PAXEPAK@Z (int __stdcall NdrFullPointerQueryPointer(struct _FULL_PTR_XLAT_TABLES *,void *,unsigned char,unsigned long *))
 NdrFullPointerQueryRefId;code;RPCRT4.dll;?NdrFullPointerQueryRefId@@YGHPAU_FULL_PTR_XLAT_TABLES@@KEPAPAX@Z (int __stdcall NdrFullPointerQueryRefId(struct _FULL_PTR_XLAT_TABLES *,unsigned long,unsigned char,void * *))
-pfnFreeRoutines;code;RPCRT4.dll;?pfnFreeRoutines@@3QBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnFreeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnMarshallRoutines;code;RPCRT4.dll;?pfnMarshallRoutines@@3QBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (unsigned char * (__stdcall*const * const pfnMarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnSizeRoutines;code;RPCRT4.dll;?pfnSizeRoutines@@3QBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnSizeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnUnmarshallRoutines;code;RPCRT4.dll;?pfnUnmarshallRoutines@@3QBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAPAEPBEE@ZB (unsigned char * (__stdcall*const * const pfnUnmarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char * *,unsigned char const *,unsigned char))
+pfnFreeRoutines;data;RPCRT4.dll;?pfnFreeRoutines@@3QBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnFreeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnMarshallRoutines;data;RPCRT4.dll;?pfnMarshallRoutines@@3QBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (unsigned char * (__stdcall*const * const pfnMarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnSizeRoutines;data;RPCRT4.dll;?pfnSizeRoutines@@3QBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnSizeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnUnmarshallRoutines;data;RPCRT4.dll;?pfnUnmarshallRoutines@@3QBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAPAEPBEE@ZB (unsigned char * (__stdcall*const * const pfnUnmarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char * *,unsigned char const *,unsigned char))
 CStdStubBuffer_AddRef;code;RPCRT4.dll;_CStdStubBuffer_AddRef@4
 CStdStubBuffer_Connect;code;RPCRT4.dll;_CStdStubBuffer_Connect@8
 CStdStubBuffer_CountRefs;code;RPCRT4.dll;_CStdStubBuffer_CountRefs@4
@@ -314,7 +314,7 @@ NdrStubForwardingFunction;code;RPCRT4.dll;_NdrStubForwardingFunction@16
 NdrStubGetBuffer;code;RPCRT4.dll;_NdrStubGetBuffer@12
 NdrStubInitialize;code;RPCRT4.dll;_NdrStubInitialize@16
 NdrStubInitializeMarshall;code;RPCRT4.dll;_NdrStubInitializeMarshall@12
-NdrTypeFlags;code;RPCRT4.dll;_NdrTypeFlags
+NdrTypeFlags;data;RPCRT4.dll;_NdrTypeFlags
 NdrTypeFree;code;RPCRT4.dll;_NdrTypeFree@12
 NdrTypeMarshall;code;RPCRT4.dll;_NdrTypeMarshall@12
 NdrTypeSize;code;RPCRT4.dll;_NdrTypeSize@12
@@ -445,6 +445,7 @@ RpcRevertToSelfEx;code;RPCRT4.dll;_RpcRevertToSelfEx@4
 RpcServerCompleteSecurityCallback;code;RPCRT4.dll;_RpcServerCompleteSecurityCallback@8
 RpcServerInqBindingHandle;code;RPCRT4.dll;_RpcServerInqBindingHandle@4
 RpcServerInqBindings;code;RPCRT4.dll;_RpcServerInqBindings@4
+RpcServerInqBindingsEx;code;RPCRT4.dll;_RpcServerInqBindingsEx@8
 RpcServerInqCallAttributesA;code;RPCRT4.dll;_RpcServerInqCallAttributesA@8
 RpcServerInqCallAttributesW;code;RPCRT4.dll;_RpcServerInqCallAttributesW@8
 RpcServerInqDefaultPrincNameA;code;RPCRT4.dll;_RpcServerInqDefaultPrincNameA@8
@@ -516,9 +517,9 @@ RpcStringFreeA;code;RPCRT4.dll;_RpcStringFreeA@4
 RpcStringFreeW;code;RPCRT4.dll;_RpcStringFreeW@4
 RpcTestCancel;code;RPCRT4.dll;_RpcTestCancel@0
 RpcUserFree;code;RPCRT4.dll;_RpcUserFree@8
-SimpleTypeAlignment;code;RPCRT4.dll;_SimpleTypeAlignment
-SimpleTypeBufferSize;code;RPCRT4.dll;_SimpleTypeBufferSize
-SimpleTypeMemorySize;code;RPCRT4.dll;_SimpleTypeMemorySize
+SimpleTypeAlignment;data;RPCRT4.dll;_SimpleTypeAlignment
+SimpleTypeBufferSize;data;RPCRT4.dll;_SimpleTypeBufferSize
+SimpleTypeMemorySize;data;RPCRT4.dll;_SimpleTypeMemorySize
 TowerConstruct;code;RPCRT4.dll;_TowerConstruct@24
 TowerExplode;code;RPCRT4.dll;_TowerExplode@24
 UuidCompare;code;RPCRT4.dll;_UuidCompare@12

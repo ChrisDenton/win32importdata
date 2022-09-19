@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+OPMXboxEnableHDCP;code;OPMXbox.dll;
+OPMXboxGetHDCPStatus;code;OPMXbox.dll;
+OPMXboxGetHDCPStatusAndType;code;OPMXbox.dll;

@@ -6,6 +6,7 @@ EapHostPeerFreeEapError;code;eappprxy.dll;_EapHostPeerFreeEapError@4
 EapHostPeerFreeRuntimeMemory;code;eappprxy.dll;_EapHostPeerFreeRuntimeMemory@4
 EapHostPeerGetAuthStatus;code;eappprxy.dll;_EapHostPeerGetAuthStatus@20
 EapHostPeerGetDataToUnplumbCredentials;code;eappprxy.dll;_EapHostPeerGetDataToUnplumbCredentials@20
+EapHostPeerGetEncryptedPassword;code;eappprxy.dll;_EapHostPeerGetEncryptedPassword@12
 EapHostPeerGetIdentity;code;eappprxy.dll;_EapHostPeerGetIdentity@68
 EapHostPeerGetResponseAttributes;code;eappprxy.dll;_EapHostPeerGetResponseAttributes@12
 EapHostPeerGetResult;code;eappprxy.dll;_EapHostPeerGetResult@16

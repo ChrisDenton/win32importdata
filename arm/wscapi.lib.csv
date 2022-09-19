@@ -1,6 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
+wscLaunchAdminMakeDefaultUI;code;WSCAPI.dll;?wscLaunchAdminMakeDefaultUI@@YAJPBG@Z (long __cdecl wscLaunchAdminMakeDefaultUI(unsigned short const *))
 wscShowAMSCN;code;WSCAPI.dll;?wscShowAMSCN@@YAJKPAK@Z (long __cdecl wscShowAMSCN(unsigned long,unsigned long *))
+CLSID_WSCDefaultProduct;code;WSCAPI.dll;
 CLSID_WSCProductList;code;WSCAPI.dll;
+IID_IWSCDefaultProduct;code;WSCAPI.dll;
 IID_IWSCProductList;code;WSCAPI.dll;
 IID_IWscProduct;code;WSCAPI.dll;
 LIBID_wscAPILib;code;WSCAPI.dll;
@@ -23,12 +26,14 @@ wscIeSettingsFix;code;WSCAPI.dll;
 wscInitiateOfflineCleaning;code;WSCAPI.dll;
 wscIsDefenderAntivirusSupported;code;WSCAPI.dll;
 wscLuaSettingsFix;code;WSCAPI.dll;
+wscMakeDefaultProductRequest;code;WSCAPI.dll;
 wscNotifyUserForNearExpiration;code;WSCAPI.dll;
 wscOverrideComponentStatus;code;WSCAPI.dll;
 wscPing;code;WSCAPI.dll;
 wscProductInfoFree;code;WSCAPI.dll;
 wscRegisterChangeNotification;code;WSCAPI.dll;
 wscRegisterSecurityProduct;code;WSCAPI.dll;
+wscSetDefaultProduct;code;WSCAPI.dll;
 wscUnRegisterChangeNotification;code;WSCAPI.dll;
 wscUnregisterSecurityProduct;code;WSCAPI.dll;
 wscUpdateProductStatus;code;WSCAPI.dll;

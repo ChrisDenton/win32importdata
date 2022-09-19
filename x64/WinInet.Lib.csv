@@ -166,6 +166,7 @@ InternetConfirmZoneCrossingA;code;WININET.dll;
 InternetConfirmZoneCrossingW;code;WININET.dll;
 InternetConnectA;code;WININET.dll;
 InternetConnectW;code;WININET.dll;
+InternetConvertUrlFromWireToWideChar;code;WININET.dll;
 InternetCrackUrlA;code;WININET.dll;
 InternetCrackUrlW;code;WININET.dll;
 InternetCreateUrlA;code;WININET.dll;

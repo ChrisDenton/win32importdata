@@ -17,12 +17,15 @@ EdpDplUserUnlockStart;code;FeClient.dll;_EdpDplUserUnlockStart@20
 EdpFree;code;FeClient.dll;_EdpFree@4
 EdpGetContainerIdentity;code;FeClient.dll;_EdpGetContainerIdentity@8
 EdpGetCredServiceState;code;FeClient.dll;_EdpGetCredServiceState@36
+EdpPurgeAppLearningEvents;code;FeClient.dll;_EdpPurgeAppLearningEvents@0
 EdpQueryCredServiceInfo;code;FeClient.dll;_EdpQueryCredServiceInfo@20
 EdpQueryDplEnforcedPolicyOwnerIds;code;FeClient.dll;_EdpQueryDplEnforcedPolicyOwnerIds@8
 EdpQueryRevokedPolicyOwnerIds;code;FeClient.dll;_EdpQueryRevokedPolicyOwnerIds@12
 EdpRmsClearKeys;code;FeClient.dll;_EdpRmsClearKeys@0
 EdpSetCredServiceInfo;code;FeClient.dll;_EdpSetCredServiceInfo@20
+EdpUnprotectFile;code;FeClient.dll;_EdpUnprotectFile@8
 EfsClientCloseFileRaw;code;FeClient.dll;_EfsClientCloseFileRaw@4
+EfsClientCopyFileRaw;code;FeClient.dll;_EfsClientCopyFileRaw@8
 EfsClientDecryptFile;code;FeClient.dll;_EfsClientDecryptFile@8
 EfsClientDuplicateEncryptionInfo;code;FeClient.dll;_EfsClientDuplicateEncryptionInfo@20
 EfsClientEncryptFileEx;code;FeClient.dll;_EfsClientEncryptFileEx@8

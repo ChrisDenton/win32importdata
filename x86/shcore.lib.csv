@@ -1,9 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
-GetFeatureEnabledState;code;api-ms-win-core-featurestaging-l1-1-0.dll;_GetFeatureEnabledState@8
-RecordFeatureError;code;api-ms-win-core-featurestaging-l1-1-0.dll;_RecordFeatureError@8
-RecordFeatureUsage;code;api-ms-win-core-featurestaging-l1-1-0.dll;_RecordFeatureUsage@16
-SubscribeFeatureStateChangeNotification;code;api-ms-win-core-featurestaging-l1-1-0.dll;_SubscribeFeatureStateChangeNotification@12
-UnsubscribeFeatureStateChangeNotification;code;api-ms-win-core-featurestaging-l1-1-0.dll;_UnsubscribeFeatureStateChangeNotification@4
+CreateRandomAccessStreamOnFile;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateRandomAccessStreamOnFile@16
+CreateRandomAccessStreamOverStream;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateRandomAccessStreamOverStream@16
+CreateStreamOverRandomAccessStream;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateStreamOverRandomAccessStream@12
 GetDpiForMonitor;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetDpiForMonitor@16
 GetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetProcessDpiAwareness@8
 GetScaleFactorForDevice;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetScaleFactorForDevice@4
@@ -14,6 +12,9 @@ RevokeScaleChangeNotifications;code;api-ms-win-shcore-scaling-l1-1-1.dll;_Revoke
 SetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-1.dll;_SetProcessDpiAwareness@4
 UnregisterScaleChangeEvent;code;api-ms-win-shcore-scaling-l1-1-1.dll;_UnregisterScaleChangeEvent@4
 GetDpiForShellUIComponent;code;api-ms-win-shcore-scaling-l1-1-2.dll;_GetDpiForShellUIComponent@4
-CreateRandomAccessStreamOnFile;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateRandomAccessStreamOnFile@16
-CreateRandomAccessStreamOverStream;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateRandomAccessStreamOverStream@16
-CreateStreamOverRandomAccessStream;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateStreamOverRandomAccessStream@12
+GetFeatureEnabledState;code;api-ms-win-core-featurestaging-l1-1-1.dll;_GetFeatureEnabledState@8
+GetFeatureVariant;code;api-ms-win-core-featurestaging-l1-1-1.dll;_GetFeatureVariant@16
+RecordFeatureError;code;api-ms-win-core-featurestaging-l1-1-1.dll;_RecordFeatureError@8
+RecordFeatureUsage;code;api-ms-win-core-featurestaging-l1-1-1.dll;_RecordFeatureUsage@16
+SubscribeFeatureStateChangeNotification;code;api-ms-win-core-featurestaging-l1-1-1.dll;_SubscribeFeatureStateChangeNotification@12
+UnsubscribeFeatureStateChangeNotification;code;api-ms-win-core-featurestaging-l1-1-1.dll;_UnsubscribeFeatureStateChangeNotification@4
