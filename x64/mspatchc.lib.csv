@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreatePatchFileA;code;mspatchc.dll;
+CreatePatchFileByHandles;code;mspatchc.dll;
+CreatePatchFileByHandlesEx;code;mspatchc.dll;
+CreatePatchFileExA;code;mspatchc.dll;
+CreatePatchFileExW;code;mspatchc.dll;
+CreatePatchFileW;code;mspatchc.dll;
+ExtractPatchHeaderToFileA;code;mspatchc.dll;
+ExtractPatchHeaderToFileByHandles;code;mspatchc.dll;
+ExtractPatchHeaderToFileW;code;mspatchc.dll;
+GetFilePatchSignatureA;code;mspatchc.dll;
+GetFilePatchSignatureByBuffer;code;mspatchc.dll;
+GetFilePatchSignatureByHandle;code;mspatchc.dll;
+GetFilePatchSignatureW;code;mspatchc.dll;
+NormalizeFileForPatchSignature;code;mspatchc.dll;

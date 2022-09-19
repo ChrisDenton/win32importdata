@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+BrowseForGPO;code;GPEDIT.DLL;_BrowseForGPO@4
+CreateGPOLink;code;GPEDIT.DLL;_CreateGPOLink@12
+_CreateRSOPQuery@8;code;GPEDIT.DLL;100
+DeleteAllGPOLinks;code;GPEDIT.DLL;_DeleteAllGPOLinks@4
+DeleteGPOLink;code;GPEDIT.DLL;_DeleteGPOLink@8
+ExportRSoPData;code;GPEDIT.DLL;_ExportRSoPData@8
+_FreeRSOPQuery@4;code;GPEDIT.DLL;101
+_FreeRSOPQueryResults@8;code;GPEDIT.DLL;102
+ImportRSoPData;code;GPEDIT.DLL;_ImportRSoPData@8
+_RunRSOPQuery@12;code;GPEDIT.DLL;103
+_SetSysvolSecurityFromDSSecurity@12;code;GPEDIT.DLL;104

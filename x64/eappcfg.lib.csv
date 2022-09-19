@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+EapHostPeerConfigBlob2Xml;code;eappcfg.dll;
+EapHostPeerConfigXml2Blob;code;eappcfg.dll;
+EapHostPeerCredentialsXml2Blob;code;eappcfg.dll;
+EapHostPeerFreeErrorMemory;code;eappcfg.dll;
+EapHostPeerFreeMemory;code;eappcfg.dll;
+EapHostPeerGetMethodProperties;code;eappcfg.dll;
+EapHostPeerGetMethods;code;eappcfg.dll;
+EapHostPeerInvokeConfigUI;code;eappcfg.dll;
+EapHostPeerInvokeIdentityUI;code;eappcfg.dll;
+EapHostPeerInvokeInteractiveUI;code;eappcfg.dll;
+EapHostPeerQueryCredentialInputFields;code;eappcfg.dll;
+EapHostPeerQueryInteractiveUIInputFields;code;eappcfg.dll;
+EapHostPeerQueryUIBlobFromInteractiveUIInputFields;code;eappcfg.dll;
+EapHostPeerQueryUserBlobFromCredentialInputFields;code;eappcfg.dll;

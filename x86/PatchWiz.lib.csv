@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+UiCreatePatchPackageA;code;patchwiz.dll;?UiCreatePatchPackageA@@YGIPBD00PAUHWND__@@0H@Z (unsigned int __stdcall UiCreatePatchPackageA(char const *,char const *,char const *,struct HWND__ *,char const *,int))
+UiCreatePatchPackageExA;code;patchwiz.dll;?UiCreatePatchPackageExA@@YGIPBD00PAUHWND__@@0HKK@Z (unsigned int __stdcall UiCreatePatchPackageExA(char const *,char const *,char const *,struct HWND__ *,char const *,int,unsigned long,unsigned long))
+UiCreatePatchPackageExW;code;patchwiz.dll;?UiCreatePatchPackageExW@@YGIPBG00PAUHWND__@@0HKK@Z (unsigned int __stdcall UiCreatePatchPackageExW(unsigned short const *,unsigned short const *,unsigned short const *,struct HWND__ *,unsigned short const *,int,unsigned long,unsigned long))
+UiCreatePatchPackageW;code;patchwiz.dll;?UiCreatePatchPackageW@@YGIPBG00PAUHWND__@@0H@Z (unsigned int __stdcall UiCreatePatchPackageW(unsigned short const *,unsigned short const *,unsigned short const *,struct HWND__ *,unsigned short const *,int))

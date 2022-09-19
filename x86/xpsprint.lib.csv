@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+?StartXpsPrintJobInternal@@YGJPB_W00PAX1PAEIPAPAUIXpsPrintJob@@PAPAUIXpsPrintJobStream@@4P6GXPAUIStream@@W4EPrintTicketScope@@HH@Z@Z (long __stdcall StartXpsPrintJobInternal(wchar_t const *,wchar_t const *,wchar_t const *,void *,void *,unsigned char *,unsigned int,struct IXpsPrintJob * *,struct IXpsPrintJobStream * *,struct IXpsPrintJobStream * *,void (__stdcall*)(struct IStream *,enum EPrintTicketScope,int,int)));code;XPSPRINT.DLL;3
+DllMain;code;XPSPRINT.DLL;_DllMain@12
+StartXpsPrintJob;code;XPSPRINT.DLL;_StartXpsPrintJob@40

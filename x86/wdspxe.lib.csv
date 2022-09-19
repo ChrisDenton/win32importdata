@@ -1,0 +1,24 @@
+Name;Type;DLL;SymbolOrOrdinal
+WdsProviderInitialize;code;WDSPXE.dll;?WdsProviderInitialize@@YGKPAX@Z (unsigned long __stdcall WdsProviderInitialize(void *))
+PxeAsyncRecvDone;code;WDSPXE.dll;_PxeAsyncRecvDone@8
+PxeDhcpAppendOption;code;WDSPXE.dll;_PxeDhcpAppendOption@24
+PxeDhcpAppendOptionRaw;code;WDSPXE.dll;_PxeDhcpAppendOptionRaw@20
+PxeDhcpGetOptionValue;code;WDSPXE.dll;_PxeDhcpGetOptionValue@24
+PxeDhcpGetVendorOptionValue;code;WDSPXE.dll;_PxeDhcpGetVendorOptionValue@24
+PxeDhcpInitialize;code;WDSPXE.dll;_PxeDhcpInitialize@20
+PxeDhcpIsValid;code;WDSPXE.dll;_PxeDhcpIsValid@16
+PxeGetServerInfo;code;WDSPXE.dll;_PxeGetServerInfo@12
+PxePacketAllocate;code;WDSPXE.dll;_PxePacketAllocate@12
+PxePacketFree;code;WDSPXE.dll;_PxePacketFree@12
+PxeProviderEnumClose;code;WDSPXE.dll;_PxeProviderEnumClose@4
+PxeProviderEnumFirst;code;WDSPXE.dll;_PxeProviderEnumFirst@4
+PxeProviderEnumNext;code;WDSPXE.dll;_PxeProviderEnumNext@8
+PxeProviderFreeInfo;code;WDSPXE.dll;_PxeProviderFreeInfo@4
+PxeProviderQueryIndex;code;WDSPXE.dll;_PxeProviderQueryIndex@8
+PxeProviderRegister;code;WDSPXE.dll;_PxeProviderRegister@20
+PxeProviderSetAttribute;code;WDSPXE.dll;_PxeProviderSetAttribute@16
+PxeProviderUnRegister;code;WDSPXE.dll;_PxeProviderUnRegister@4
+PxeRegisterCallback;code;WDSPXE.dll;_PxeRegisterCallback@16
+PxeSendReply;code;WDSPXE.dll;_PxeSendReply@16
+PxeTrace;code;WDSPXE.dll;_PxeTrace
+PxeTraceV;code;WDSPXE.dll;_PxeTraceV@16

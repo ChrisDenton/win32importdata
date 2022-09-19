@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+PstAcquirePrivateKey;code;certpoleng.dll;_PstAcquirePrivateKey@4
+PstGetCertificates;code;certpoleng.dll;_PstGetCertificates@24
+PstGetTrustAnchors;code;certpoleng.dll;_PstGetTrustAnchors@16
+PstGetUserNameForCertificate;code;certpoleng.dll;_PstGetUserNameForCertificate@8
+PstMapCertificate;code;certpoleng.dll;_PstMapCertificate@12
+PstValidate;code;certpoleng.dll;_PstValidate@24

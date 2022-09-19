@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+EapHostPeerBeginSession;code;eappprxy.dll;
+EapHostPeerClearConnection;code;eappprxy.dll;
+EapHostPeerEndSession;code;eappprxy.dll;
+EapHostPeerFreeEapError;code;eappprxy.dll;
+EapHostPeerFreeRuntimeMemory;code;eappprxy.dll;
+EapHostPeerGetAuthStatus;code;eappprxy.dll;
+EapHostPeerGetIdentity;code;eappprxy.dll;
+EapHostPeerGetResponseAttributes;code;eappprxy.dll;
+EapHostPeerGetResult;code;eappprxy.dll;
+EapHostPeerGetSendPacket;code;eappprxy.dll;
+EapHostPeerGetUIContext;code;eappprxy.dll;
+EapHostPeerInitialize;code;eappprxy.dll;
+EapHostPeerProcessReceivedPacket;code;eappprxy.dll;
+EapHostPeerSetResponseAttributes;code;eappprxy.dll;
+EapHostPeerSetUIContext;code;eappprxy.dll;
+EapHostPeerUninitialize;code;eappprxy.dll;

@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+??0BUFFER@@QAE@I@Z;code;STI.dll;
+??0BUFFER_CHAIN@@QAE@XZ;code;STI.dll;
+??0BUFFER_CHAIN_ITEM@@QAE@I@Z;code;STI.dll;
+??1BUFFER@@QAE@XZ;code;STI.dll;
+??1BUFFER_CHAIN@@QAE@XZ;code;STI.dll;
+??1BUFFER_CHAIN_ITEM@@QAE@XZ;code;STI.dll;
+??_FBUFFER@@QAEXXZ;code;STI.dll;
+??_FBUFFER_CHAIN_ITEM@@QAEXXZ;code;STI.dll;
+?QueryPtr@BUFFER@@QBEPAXXZ;code;STI.dll;
+?QuerySize@BUFFER@@QBEIXZ;code;STI.dll;
+?QueryUsed@BUFFER_CHAIN_ITEM@@QBEKXZ;code;STI.dll;
+?SetUsed@BUFFER_CHAIN_ITEM@@QAEXK@Z;code;STI.dll;
+MigrateRegisteredSTIAppsForWIAEvents;code;STI.dll;_MigrateRegisteredSTIAppsForWIAEvents@16
+SelectDeviceDialog2;code;STI.dll;_SelectDeviceDialog2@4
+StiCreateInstance;code;STI.dll;_StiCreateInstance@16
+StiCreateInstanceW;code;STI.dll;_StiCreateInstanceW@16

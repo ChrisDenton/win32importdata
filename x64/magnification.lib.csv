@@ -1,0 +1,13 @@
+Name;Type;DLL;SymbolOrOrdinal
+MagGetColorEffect;code;MAGNIFICATION.dll;
+MagGetImageScalingCallback;code;MAGNIFICATION.dll;
+MagGetWindowFilterList;code;MAGNIFICATION.dll;
+MagGetWindowSource;code;MAGNIFICATION.dll;
+MagGetWindowTransform;code;MAGNIFICATION.dll;
+MagInitialize;code;MAGNIFICATION.dll;
+MagSetColorEffect;code;MAGNIFICATION.dll;
+MagSetImageScalingCallback;code;MAGNIFICATION.dll;
+MagSetWindowFilterList;code;MAGNIFICATION.dll;
+MagSetWindowSource;code;MAGNIFICATION.dll;
+MagSetWindowTransform;code;MAGNIFICATION.dll;
+MagUninitialize;code;MAGNIFICATION.dll;

@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+AddERExcludedApplicationA;code;faultrep.dll;?AddERExcludedApplicationA@@YAHPEBD@Z (int __cdecl AddERExcludedApplicationA(char const *))
+AddERExcludedApplicationW;code;faultrep.dll;?AddERExcludedApplicationW@@YAHPEBG@Z (int __cdecl AddERExcludedApplicationW(unsigned short const *))
+CheckPerUserCrossProcessThrottle;code;faultrep.dll;?CheckPerUserCrossProcessThrottle@@YAJPEAH@Z (long __cdecl CheckPerUserCrossProcessThrottle(int *))
+ReportFault;code;faultrep.dll;?ReportFault@@YA?AW4tagEFaultRepRetVal@@PEAU_EXCEPTION_POINTERS@@K@Z (enum tagEFaultRepRetVal __cdecl ReportFault(struct _EXCEPTION_POINTERS *,unsigned long))
+UpdatePerUserLastCrossProcessCollectionTime;code;faultrep.dll;?UpdatePerUserLastCrossProcessCollectionTime@@YAJXZ (long __cdecl UpdatePerUserLastCrossProcessCollectionTime(void))
+WerReportHang;code;faultrep.dll;?WerReportHang@@YAJPEAUHWND__@@PEBG@Z (long __cdecl WerReportHang(struct HWND__ *,unsigned short const *))
+CancelHangReporting;code;faultrep.dll;
+ReportHang;code;faultrep.dll;
+WerpInitiateCrashReporting;code;faultrep.dll;

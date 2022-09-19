@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+?DtcGetTransactionManager@@YAJPAD0ABU_GUID@@KGPAXPAPAX@Z (long __cdecl DtcGetTransactionManager(char *,char *,struct _GUID const &,unsigned long,unsigned short,void *,void * *));code;XOLEHLP.dll;5
+?FreezeLocalTransactionManagers@@YGJKK@Z (long __stdcall FreezeLocalTransactionManagers(unsigned long,unsigned long));code;XOLEHLP.dll;8
+?GetDtcLocaleResourceHandle@@YAPAUHINSTANCE__@@XZ (struct HINSTANCE__ * __cdecl GetDtcLocaleResourceHandle(void));code;XOLEHLP.dll;4
+?ThawLocalTransactionManagers@@YGJXZ (long __stdcall ThawLocalTransactionManagers(void));code;XOLEHLP.dll;9
+_DtcGetTransactionManagerC;code;XOLEHLP.dll;7
+DtcGetTransactionManagerEx;code;XOLEHLP.dll;_DtcGetTransactionManagerEx
+DtcGetTransactionManagerExA;code;XOLEHLP.dll;_DtcGetTransactionManagerExA
+DtcGetTransactionManagerExW;code;XOLEHLP.dll;_DtcGetTransactionManagerExW

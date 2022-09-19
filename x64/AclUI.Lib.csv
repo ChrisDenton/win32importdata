@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateSecurityPage;code;ACLUI.dll;1
+EditSecurity;code;ACLUI.dll;2
+EditSecurityAdvanced;code;ACLUI.dll;3
+IID_ISecurityInformation;code;ACLUI.dll;16

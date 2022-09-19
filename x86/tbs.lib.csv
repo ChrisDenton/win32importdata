@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+Tbsi_Context_Create;code;tbs.dll;_Tbsi_Context_Create@8
+Tbsi_Get_TCG_Log;code;tbs.dll;_Tbsi_Get_TCG_Log@12
+Tbsi_Physical_Presence_Command;code;tbs.dll;_Tbsi_Physical_Presence_Command@20
+Tbsip_Cancel_Commands;code;tbs.dll;_Tbsip_Cancel_Commands@4
+Tbsip_Context_Close;code;tbs.dll;_Tbsip_Context_Close@4
+Tbsip_Submit_Command;code;tbs.dll;_Tbsip_Submit_Command@28
