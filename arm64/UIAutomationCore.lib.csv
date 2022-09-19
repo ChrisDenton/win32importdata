@@ -82,6 +82,7 @@ UiaProviderFromIAccessible;code;UIAutomationCore.DLL;
 UiaRaiseAsyncContentLoadedEvent;code;UIAutomationCore.DLL;
 UiaRaiseAutomationEvent;code;UIAutomationCore.DLL;
 UiaRaiseAutomationPropertyChangedEvent;code;UIAutomationCore.DLL;
+UiaRaiseChangesEvent;code;UIAutomationCore.DLL;
 UiaRaiseStructureChangedEvent;code;UIAutomationCore.DLL;
 UiaRaiseTextEditTextChangedEvent;code;UIAutomationCore.DLL;
 UiaRegisterProviderCallback;code;UIAutomationCore.DLL;

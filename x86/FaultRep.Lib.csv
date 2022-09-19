@@ -11,5 +11,5 @@ ReportFault;code;faultrep.dll;_ReportFault@8
 ReportHang;code;faultrep.dll;_ReportHang@8
 WerReportHang;code;faultrep.dll;_WerReportHang@8
 WerpGetDebugger;code;faultrep.dll;_WerpGetDebugger@8
-WerpInitiateCrashReporting;code;faultrep.dll;_WerpInitiateCrashReporting@28
+WerpInitiateCrashReporting;code;faultrep.dll;_WerpInitiateCrashReporting@32
 WerpLaunchAeDebug;code;faultrep.dll;_WerpLaunchAeDebug@20

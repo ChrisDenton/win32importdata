@@ -10,7 +10,7 @@ GetInternetPolicies;code;newdev.dll;_GetInternetPolicies@16
 InstallNewDevice;code;newdev.dll;_InstallNewDevice@12
 InstallSelectedDriver;code;newdev.dll;_InstallSelectedDriver@20
 InstallWindowsUpdateDriver;code;newdev.dll;_InstallWindowsUpdateDriver@28
-InstallWindowsUpdateDriverEx;code;newdev.dll;_InstallWindowsUpdateDriverEx@32
+InstallWindowsUpdateDriverEx;code;newdev.dll;_InstallWindowsUpdateDriverEx@36
 InstallWindowsUpdateDrivers;code;newdev.dll;_InstallWindowsUpdateDrivers@24
 QueryWindowsUpdateDriverStatus;code;newdev.dll;_QueryWindowsUpdateDriverStatus@20
 SetInternetPolicies;code;newdev.dll;_SetInternetPolicies@8

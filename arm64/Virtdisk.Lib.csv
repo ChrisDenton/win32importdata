@@ -21,6 +21,7 @@ MirrorVirtualDisk;code;VirtDisk.dll;
 ModifyVhdSet;code;VirtDisk.dll;
 OpenVirtualDisk;code;VirtDisk.dll;
 QueryChangesVirtualDisk;code;VirtDisk.dll;
+RawSCSIVirtualDisk;code;VirtDisk.dll;
 ResizeVirtualDisk;code;VirtDisk.dll;
 SetVirtualDiskInformation;code;VirtDisk.dll;
 SetVirtualDiskMetadata;code;VirtDisk.dll;

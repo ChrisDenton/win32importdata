@@ -1,4 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+IntPstGetCertificate;code;certpoleng.dll;
+IntPstGetNameIdentifierForCertificate;code;certpoleng.dll;
+IntPstGetTrustAnchors;code;certpoleng.dll;
+IntPstMapCertificateToProvider;code;certpoleng.dll;
+IntPstMapUserCredsToProvider;code;certpoleng.dll;
+IntPstValidate;code;certpoleng.dll;
 PstAcquirePrivateKey;code;certpoleng.dll;
 PstGetCertificateChain;code;certpoleng.dll;
 PstGetCertificates;code;certpoleng.dll;

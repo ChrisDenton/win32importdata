@@ -9,9 +9,12 @@ SrpDisablePermissiveModeFileEncryption;code;srpapi.dll;_SrpDisablePermissiveMode
 SrpDoesPolicyAllowAppExecution;code;srpapi.dll;_SrpDoesPolicyAllowAppExecution@8
 SrpEnablePermissiveModeFileEncryption;code;srpapi.dll;_SrpEnablePermissiveModeFileEncryption@4
 SrpGetAllowedEnterprises;code;srpapi.dll;_SrpGetAllowedEnterprises@12
+SrpGetAppxFqbnFromPackageFullName;code;srpapi.dll;_SrpGetAppxFqbnFromPackageFullName@8
 SrpGetEnterpriseIds;code;srpapi.dll;_SrpGetEnterpriseIds@16
-SrpGetProcessUniqueIdFromToken;code;srpapi.dll;_SrpGetProcessUniqueIdFromToken@8
+SrpGetEnterprisePolicy;code;srpapi.dll;_SrpGetEnterprisePolicy@8
 SrpInheritEnterpriseContext;code;srpapi.dll;_SrpInheritEnterpriseContext@16
+SrpInheritOriginClaim;code;srpapi.dll;_SrpInheritOriginClaim@12
 SrpIsAllowed;code;srpapi.dll;_SrpIsAllowed@4
+SrpIsTokenService;code;srpapi.dll;_SrpIsTokenService@8
 SrpRestoreEnterpriseContext;code;srpapi.dll;_SrpRestoreEnterpriseContext@4
 SrpSetTokenEnterpriseId;code;srpapi.dll;_SrpSetTokenEnterpriseId@8

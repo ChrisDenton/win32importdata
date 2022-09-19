@@ -456,9 +456,10 @@ LockResource;code;api-ms-win-core-libraryloader-l1-2-0.dll;_LockResource@4
 RemoveDllDirectory;code;api-ms-win-core-libraryloader-l1-2-0.dll;_RemoveDllDirectory@4
 SetDefaultDllDirectories;code;api-ms-win-core-libraryloader-l1-2-0.dll;_SetDefaultDllDirectories@4
 SizeofResource;code;api-ms-win-core-libraryloader-l1-2-0.dll;_SizeofResource@8
-FindResourceW;code;api-ms-win-core-libraryloader-l1-2-1.dll;_FindResourceW@12
-LoadLibraryA;code;api-ms-win-core-libraryloader-l1-2-1.dll;_LoadLibraryA@4
-LoadLibraryW;code;api-ms-win-core-libraryloader-l1-2-1.dll;_LoadLibraryW@4
+EnumResourceNamesW;code;api-ms-win-core-libraryloader-l1-2-2.dll;_EnumResourceNamesW@16
+FindResourceW;code;api-ms-win-core-libraryloader-l1-2-2.dll;_FindResourceW@12
+LoadLibraryA;code;api-ms-win-core-libraryloader-l1-2-2.dll;_LoadLibraryA@4
+LoadLibraryW;code;api-ms-win-core-libraryloader-l1-2-2.dll;_LoadLibraryW@4
 LoadPackagedLibrary;code;api-ms-win-core-libraryloader-l2-1-0.dll;_LoadPackagedLibrary@8
 QueryOptionalDelayLoadedAPI;code;api-ms-win-core-libraryloader-l2-1-0.dll;_QueryOptionalDelayLoadedAPI@16
 ConvertDefaultLocale;code;api-ms-win-core-localization-l1-2-1.dll;_ConvertDefaultLocale@4
@@ -578,10 +579,11 @@ VirtualQuery;code;api-ms-win-core-memory-l1-1-2.dll;_VirtualQuery@12
 VirtualQueryEx;code;api-ms-win-core-memory-l1-1-2.dll;_VirtualQueryEx@16
 VirtualUnlock;code;api-ms-win-core-memory-l1-1-2.dll;_VirtualUnlock@8
 WriteProcessMemory;code;api-ms-win-core-memory-l1-1-2.dll;_WriteProcessMemory@20
-OpenFileMappingFromApp;code;api-ms-win-core-memory-l1-1-3.dll;_OpenFileMappingFromApp@12
-SetProcessValidCallTargets;code;api-ms-win-core-memory-l1-1-3.dll;_SetProcessValidCallTargets@20
-VirtualAllocFromApp;code;api-ms-win-core-memory-l1-1-3.dll;_VirtualAllocFromApp@16
-VirtualProtectFromApp;code;api-ms-win-core-memory-l1-1-3.dll;_VirtualProtectFromApp@16
+OpenFileMappingFromApp;code;api-ms-win-core-memory-l1-1-4.dll;_OpenFileMappingFromApp@12
+QueryVirtualMemoryInformation;code;api-ms-win-core-memory-l1-1-4.dll;_QueryVirtualMemoryInformation@24
+SetProcessValidCallTargets;code;api-ms-win-core-memory-l1-1-4.dll;_SetProcessValidCallTargets@20
+VirtualAllocFromApp;code;api-ms-win-core-memory-l1-1-4.dll;_VirtualAllocFromApp@16
+VirtualProtectFromApp;code;api-ms-win-core-memory-l1-1-4.dll;_VirtualProtectFromApp@16
 ConnectNamedPipe;code;api-ms-win-core-namedpipe-l1-2-0.dll;_ConnectNamedPipe@8
 CreateNamedPipeW;code;api-ms-win-core-namedpipe-l1-2-0.dll;_CreateNamedPipeW@32
 CreatePipe;code;api-ms-win-core-namedpipe-l1-2-0.dll;_CreatePipe@16
@@ -732,11 +734,13 @@ GetProcessDefaultCpuSets;code;api-ms-win-core-processthreads-l1-1-3.dll;_GetProc
 GetProcessInformation;code;api-ms-win-core-processthreads-l1-1-3.dll;_GetProcessInformation@16
 GetProcessShutdownParameters;code;api-ms-win-core-processthreads-l1-1-3.dll;_GetProcessShutdownParameters@8
 GetSystemCpuSetInformation;code;api-ms-win-core-processthreads-l1-1-3.dll;_GetSystemCpuSetInformation@20
+GetThreadDescription;code;api-ms-win-core-processthreads-l1-1-3.dll;_GetThreadDescription@8
 GetThreadSelectedCpuSets;code;api-ms-win-core-processthreads-l1-1-3.dll;_GetThreadSelectedCpuSets@16
 QueryProtectedPolicy;code;api-ms-win-core-processthreads-l1-1-3.dll;_QueryProtectedPolicy@8
 SetProcessDefaultCpuSets;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetProcessDefaultCpuSets@12
 SetProcessInformation;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetProcessInformation@16
 SetProtectedPolicy;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetProtectedPolicy@12
+SetThreadDescription;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetThreadDescription@8
 SetThreadIdealProcessor;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetThreadIdealProcessor@8
 SetThreadSelectedCpuSets;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetThreadSelectedCpuSets@12
 GetProcessGroupAffinity;code;api-ms-win-core-processtopology-l1-2-0.dll;_GetProcessGroupAffinity@12
@@ -963,6 +967,7 @@ SetComputerNameExA;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameExA@8
 SetComputerNameW;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameW@4
 GetNumaHighestNodeNumber;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaHighestNodeNumber@4
 GetNumaNodeProcessorMaskEx;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaNodeProcessorMaskEx@8
+GetNumaProximityNodeEx;code;api-ms-win-core-systemtopology-l1-1-1.dll;_GetNumaProximityNodeEx@8
 CallbackMayRunLong;code;api-ms-win-core-threadpool-l1-2-0.dll;_CallbackMayRunLong@4
 CancelThreadpoolIo;code;api-ms-win-core-threadpool-l1-2-0.dll;_CancelThreadpoolIo@4
 CloseThreadpool;code;api-ms-win-core-threadpool-l1-2-0.dll;_CloseThreadpool@4
@@ -1085,6 +1090,8 @@ GetSystemWow64Directory2A;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64D
 GetSystemWow64Directory2W;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64Directory2W@12
 GetSystemWow64DirectoryA;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64DirectoryA@8
 GetSystemWow64DirectoryW;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64DirectoryW@8
+IsWow64Process2;code;api-ms-win-core-wow64-l1-1-1.dll;_IsWow64Process2@12
+Wow64SetThreadDefaultGuestMachine;code;api-ms-win-core-wow64-l1-1-1.dll;_Wow64SetThreadDefaultGuestMachine@4
 RtlCopyContext;code;api-ms-win-core-xstate-l1-1-1.dll;_RtlCopyContext@12
 RtlCopyExtendedContext;code;api-ms-win-core-xstate-l1-1-1.dll;_RtlCopyExtendedContext@12
 RtlGetEnabledExtendedFeatures;code;api-ms-win-core-xstate-l1-1-1.dll;_RtlGetEnabledExtendedFeatures@8
@@ -1296,6 +1303,7 @@ SetSecurityDescriptorOwner;code;api-ms-win-security-base-l1-2-0.dll;_SetSecurity
 SetSecurityDescriptorRMControl;code;api-ms-win-security-base-l1-2-0.dll;_SetSecurityDescriptorRMControl@8
 SetSecurityDescriptorSacl;code;api-ms-win-security-base-l1-2-0.dll;_SetSecurityDescriptorSacl@16
 SetTokenInformation;code;api-ms-win-security-base-l1-2-0.dll;_SetTokenInformation@16
+CveEventWrite;code;api-ms-win-security-base-l1-2-1.dll;_CveEventWrite@8
 CredDeleteA;code;api-ms-win-security-credentials-l1-1-0.dll;_CredDeleteA@12
 CredDeleteW;code;api-ms-win-security-credentials-l1-1-0.dll;_CredDeleteW@12
 CredEnumerateA;code;api-ms-win-security-credentials-l1-1-0.dll;_CredEnumerateA@16
@@ -1821,6 +1829,7 @@ DnsDhcpSrvRegisterHostAddrEx;code;DNSAPI.dll;_DnsDhcpSrvRegisterHostAddrEx@4
 DnsDhcpSrvRegisterHostName;code;DNSAPI.dll;_DnsDhcpSrvRegisterHostName@48
 DnsDhcpSrvRegisterHostNameEx;code;DNSAPI.dll;_DnsDhcpSrvRegisterHostNameEx@60
 DnsDhcpSrvRegisterInit;code;DNSAPI.dll;_DnsDhcpSrvRegisterInit@8
+DnsDhcpSrvRegisterInitEx;code;DNSAPI.dll;_DnsDhcpSrvRegisterInitEx@12
 DnsDhcpSrvRegisterInitialize;code;DNSAPI.dll;_DnsDhcpSrvRegisterInitialize@4
 DnsDhcpSrvRegisterTerm;code;DNSAPI.dll;_DnsDhcpSrvRegisterTerm@0
 DnsDisableIdnEncoding;code;DNSAPI.dll;_DnsDisableIdnEncoding@8
@@ -1978,7 +1987,7 @@ HostsFile_ReadLine;code;DNSAPI.dll;_HostsFile_ReadLine@4
 IpHelp_IsAddrOnLink;code;DNSAPI.dll;_IpHelp_IsAddrOnLink@4
 Local_GetRecordsForLocalName;code;DNSAPI.dll;_Local_GetRecordsForLocalName@8
 Local_GetRecordsForLocalNameEx;code;DNSAPI.dll;_Local_GetRecordsForLocalNameEx@20
-NetInfo_Build;code;DNSAPI.dll;_NetInfo_Build@4
+NetInfo_Build;code;DNSAPI.dll;_NetInfo_Build@8
 NetInfo_Clean;code;DNSAPI.dll;_NetInfo_Clean@8
 NetInfo_Copy;code;DNSAPI.dll;_NetInfo_Copy@4
 NetInfo_CopyNetworkIndex;code;DNSAPI.dll;_NetInfo_CopyNetworkIndex@8
@@ -2024,6 +2033,7 @@ Socket_TcpListen;code;DNSAPI.dll;_Socket_TcpListen@4
 Trace_Reset;code;DNSAPI.dll;_Trace_Reset@0
 Update_ReplaceAddressRecordsW;code;DNSAPI.dll;_Update_ReplaceAddressRecordsW@20
 Util_IsIp6Running;code;DNSAPI.dll;_Util_IsIp6Running@0
+Util_IsRunningOnXboxOne;code;DNSAPI.dll;_Util_IsRunningOnXboxOne@0
 DsCrackSpn2A;code;DSPARSE.dll;_DsCrackSpn2A@36
 DsCrackSpn2W;code;DSPARSE.dll;_DsCrackSpn2W@36
 DsCrackSpn3W;code;DSPARSE.dll;_DsCrackSpn3W@44
@@ -2119,6 +2129,7 @@ GetBestRoute2;code;IPHLPAPI.DLL;_GetBestRoute2@28
 GetBestRoute;code;IPHLPAPI.DLL;_GetBestRoute@12
 GetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentId@0
 GetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentScope@8
+GetDefaultCompartmentId;code;IPHLPAPI.DLL;_GetDefaultCompartmentId@0
 GetExtendedTcpTable;code;IPHLPAPI.DLL;_GetExtendedTcpTable@24
 GetExtendedUdpTable;code;IPHLPAPI.DLL;_GetExtendedUdpTable@24
 GetFriendlyIfIndex;code;IPHLPAPI.DLL;_GetFriendlyIfIndex@4
@@ -2562,6 +2573,7 @@ _RegisterTypeLib@12;code;OLEAUT32.dll;163
 _RegisterTypeLibForUser@12;code;OLEAUT32.dll;442
 _RevokeActiveObject@8;code;OLEAUT32.dll;34
 _SafeArrayAccessData@8;code;OLEAUT32.dll;23
+SafeArrayAddRef;code;OLEAUT32.dll;_SafeArrayAddRef@8
 _SafeArrayAllocData@4;code;OLEAUT32.dll;37
 _SafeArrayAllocDescriptor@8;code;OLEAUT32.dll;36
 _SafeArrayAllocDescriptorEx@12;code;OLEAUT32.dll;41
@@ -2586,6 +2598,8 @@ _SafeArrayLock@4;code;OLEAUT32.dll;21
 _SafeArrayPtrOfIndex@12;code;OLEAUT32.dll;148
 _SafeArrayPutElement@12;code;OLEAUT32.dll;26
 _SafeArrayRedim@8;code;OLEAUT32.dll;40
+SafeArrayReleaseData;code;OLEAUT32.dll;_SafeArrayReleaseData@4
+SafeArrayReleaseDescriptor;code;OLEAUT32.dll;_SafeArrayReleaseDescriptor@4
 _SafeArraySetIID@8;code;OLEAUT32.dll;57
 _SafeArraySetRecordInfo@8;code;OLEAUT32.dll;44
 _SafeArrayUnaccessData@4;code;OLEAUT32.dll;24
@@ -2593,12 +2607,14 @@ _SafeArrayUnlock@4;code;OLEAUT32.dll;22
 _SetErrorInfo@8;code;OLEAUT32.dll;201
 _SetOaNoCache;code;OLEAUT32.dll;327
 _SetVarConversionLocaleSetting@4;code;OLEAUT32.dll;325
+SysAddRefString;code;OLEAUT32.dll;_SysAddRefString@4
 _SysAllocString@4;code;OLEAUT32.dll;2
 _SysAllocStringByteLen@8;code;OLEAUT32.dll;150
 _SysAllocStringLen@8;code;OLEAUT32.dll;4
 _SysFreeString@4;code;OLEAUT32.dll;6
 _SysReAllocString@8;code;OLEAUT32.dll;3
 _SysReAllocStringLen@12;code;OLEAUT32.dll;5
+SysReleaseString;code;OLEAUT32.dll;_SysReleaseString@4
 _SysStringByteLen@4;code;OLEAUT32.dll;149
 _SysStringLen@4;code;OLEAUT32.dll;7
 _SystemTimeToVariantTime@8;code;OLEAUT32.dll;184
@@ -3016,6 +3032,7 @@ I_RpcSessionStrictContextHandle;code;RPCRT4.dll;_I_RpcSessionStrictContextHandle
 I_RpcSetDCOMAppId;code;RPCRT4.dll;_I_RpcSetDCOMAppId@4
 I_RpcSsDontSerializeContext;code;RPCRT4.dll;_I_RpcSsDontSerializeContext@0
 I_RpcSystemFunction001;code;RPCRT4.dll;_I_RpcSystemFunction001@12
+I_RpcSystemHandleTypeSpecificWork;code;RPCRT4.dll;_I_RpcSystemHandleTypeSpecificWork@16
 I_RpcTransConnectionAllocatePacket;code;RPCRT4.dll;_I_RpcTransConnectionAllocatePacket@8
 I_RpcTransConnectionFreePacket;code;RPCRT4.dll;_I_RpcTransConnectionFreePacket@8
 I_RpcTransConnectionReallocPacket;code;RPCRT4.dll;_I_RpcTransConnectionReallocPacket@16
@@ -3683,7 +3700,7 @@ RsopResetPolicySettingStatus;code;USERENV.dll;_RsopResetPolicySettingStatus@12
 RsopSetPolicySettingStatus;code;USERENV.dll;_RsopSetPolicySettingStatus@20
 UnloadUserProfile;code;USERENV.dll;_UnloadUserProfile@8
 UnregisterGPNotification;code;USERENV.dll;_UnregisterGPNotification@4
-_UpdateAppContainerProfile@24;code;USERENV.dll;210
+_UpdateAppContainerProfile@28;code;USERENV.dll;210
 WaitForMachinePolicyForegroundProcessing;code;USERENV.dll;_WaitForMachinePolicyForegroundProcessing@0
 WaitForUserPolicyForegroundProcessing;code;USERENV.dll;_WaitForUserPolicyForegroundProcessing@0
 WebSocketAbortHandle;code;websocket.dll;_WebSocketAbortHandle@4

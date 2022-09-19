@@ -22,7 +22,6 @@ MFCopyImage;code;MFPlat.DLL;_MFCopyImage@24
 MFCreate2DMediaBuffer;code;MFPlat.DLL;_MFCreate2DMediaBuffer@20
 MFCreateAMMediaTypeFromMFMediaType;code;MFPlat.DLL;_MFCreateAMMediaTypeFromMFMediaType@24
 MFCreateAlignedMemoryBuffer;code;MFPlat.DLL;_MFCreateAlignedMemoryBuffer@12
-MFCreateAlignedSharedMemoryBuffer;code;MFPlat.DLL;_MFCreateAlignedSharedMemoryBuffer@20
 MFCreateAsyncResult;code;MFPlat.DLL;_MFCreateAsyncResult@16
 MFCreateAttributes;code;MFPlat.DLL;_MFCreateAttributes@8
 MFCreateAudioMediaType;code;MFPlat.DLL;_MFCreateAudioMediaType@8
@@ -127,6 +126,7 @@ MFSerializePresentationDescriptor;code;MFPlat.DLL;_MFSerializePresentationDescri
 MFShutdown;code;MFPlat.DLL;_MFShutdown@0
 MFStartup;code;MFPlat.DLL;_MFStartup@8
 MFStreamDescriptorProtectMediaType;code;MFPlat.DLL;_MFStreamDescriptorProtectMediaType@8
+MFTEnum2;code;MFPlat.DLL;_MFTEnum2@40
 MFTEnum;code;MFPlat.DLL;_MFTEnum@40
 MFTEnumEx;code;MFPlat.DLL;_MFTEnumEx@36
 MFTGetInfo;code;MFPlat.DLL;_MFTGetInfo@40

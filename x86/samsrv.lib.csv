@@ -117,7 +117,7 @@ SampAuditAccountEnableDisableChange;code;SAMSRV.dll;_SampAuditAccountEnableDisab
 SampAuditAccountNameChange;code;SAMSRV.dll;_SampAuditAccountNameChange@12
 SampAuditAnyEvent;code;SAMSRV.dll;_SampAuditAnyEvent@56
 SampAuditGroupTypeChange;code;SAMSRV.dll;_SampAuditGroupTypeChange@20
-SampAuditSidHistory;code;SAMSRV.dll;_SampAuditSidHistory@8
+SampAuditSidHistory;code;SAMSRV.dll;_SampAuditSidHistory@12
 SampBuildDsNameFromSid;code;SAMSRV.dll;_SampBuildDsNameFromSid@8
 SampBuildSamProtection;code;SAMSRV.dll;_SampBuildSamProtection@40
 SampCalculateLmAndNtOwfPasswords;code;SAMSRV.dll;_SampCalculateLmAndNtOwfPasswords@16

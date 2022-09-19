@@ -22,6 +22,7 @@ GetPhysicalMonitorsFromHMONITOR;code;dxva2.dll;
 GetPhysicalMonitorsFromIDirect3DDevice9;code;dxva2.dll;
 GetTimingReport;code;dxva2.dll;
 GetVCPFeatureAndVCPFeatureReply;code;dxva2.dll;
+OPMGetVideoOutputForTarget;code;dxva2.dll;
 OPMGetVideoOutputsFromHMONITOR;code;dxva2.dll;
 OPMGetVideoOutputsFromIDirect3DDevice9Object;code;dxva2.dll;
 RestoreMonitorFactoryColorDefaults;code;dxva2.dll;

@@ -2,7 +2,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0CVssJetWriter@@QAA@XZ;code;VSSAPI.DLL;
 ??1CVssJetWriter@@UAA@XZ;code;VSSAPI.DLL;
 ?AreComponentsSelected@CVssJetWriter@@IBA_NXZ;code;VSSAPI.DLL;
-?CreateVssSnapshotSetDescription@@YAJU_GUID@@JPAPAVIVssSnapshotSetDescription@@@Z;code;VSSAPI.DLL;
 ?GetBackupType@CVssJetWriter@@IBA?AW4_VSS_BACKUP_TYPE@@XZ;code;VSSAPI.DLL;
 ?GetContext@CVssJetWriter@@IBAJXZ;code;VSSAPI.DLL;
 ?GetCurrentLevel@CVssJetWriter@@IBA?AW4_VSS_APPLICATION_LEVEL@@XZ;code;VSSAPI.DLL;
@@ -15,7 +14,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ?IsBootableSystemStateBackedUp@CVssJetWriter@@IBA_NXZ;code;VSSAPI.DLL;
 ?IsPartialFileSupportEnabled@CVssJetWriter@@IBA_NXZ;code;VSSAPI.DLL;
 ?IsPathAffected@CVssJetWriter@@IBA_NPBG@Z;code;VSSAPI.DLL;
-?LoadVssSnapshotSetDescription@@YAJPBGPAPAVIVssSnapshotSetDescription@@U_GUID@@@Z;code;VSSAPI.DLL;
 ?OnAbortBegin@CVssJetWriter@@UAAXXZ;code;VSSAPI.DLL;
 ?OnAbortEnd@CVssJetWriter@@UAAXXZ;code;VSSAPI.DLL;
 ?OnBackupCompleteBegin@CVssJetWriter@@UAA_NPAVIVssWriterComponents@@@Z;code;VSSAPI.DLL;
@@ -39,9 +37,11 @@ Name;Type;DLL;SymbolOrOrdinal
 CreateVssBackupComponentsInternal;code;VSSAPI.DLL;
 CreateVssExamineWriterMetadataInternal;code;VSSAPI.DLL;
 CreateVssExpressWriterInternal;code;VSSAPI.DLL;
+CreateVssSnapshotSetDescription;code;VSSAPI.DLL;
 CreateWriter;code;VSSAPI.DLL;
 CreateWriterEx;code;VSSAPI.DLL;
 GetProviderMgmtInterfaceInternal;code;VSSAPI.DLL;
 IsVolumeSnapshottedInternal;code;VSSAPI.DLL;
+LoadVssSnapshotSetDescription;code;VSSAPI.DLL;
 ShouldBlockRevertInternal;code;VSSAPI.DLL;
 VssFreeSnapshotPropertiesInternal;code;VSSAPI.DLL;

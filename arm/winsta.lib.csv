@@ -90,6 +90,7 @@ WinStationOpenServerExA;code;WINSTA.dll;
 WinStationOpenServerExW;code;WINSTA.dll;
 WinStationOpenServerW;code;WINSTA.dll;
 WinStationPreCreateGlassReplacementSession;code;WINSTA.dll;
+WinStationPreCreateGlassReplacementSessionEx;code;WINSTA.dll;
 WinStationQueryAllowConcurrentConnections;code;WINSTA.dll;
 WinStationQueryCurrentSessionInformation;code;WINSTA.dll;
 WinStationQueryEnforcementCore;code;WINSTA.dll;

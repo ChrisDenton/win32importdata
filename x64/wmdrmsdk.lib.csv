@@ -1,6 +1,0 @@
-Name;Type;DLL;SymbolOrOrdinal
-MFWMDRMOutputTrustAuthority_CreateInstance;code;WMDRMSDK.DLL;
-WMDRMCreateProvider;code;WMDRMSDK.DLL;
-WMDRMShutdown;code;WMDRMSDK.DLL;
-WMDRMStartup;code;WMDRMSDK.DLL;
-_WMDRMCreateProvider;code;WMDRMSDK.DLL;

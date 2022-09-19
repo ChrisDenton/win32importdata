@@ -54,6 +54,7 @@ JsDoubleToNumber;code;chakra.dll;_JsDoubleToNumber@12
 JsEnableRuntimeExecution;code;chakra.dll;_JsEnableRuntimeExecution@4
 JsEnumerateHeap;code;chakra.dll;_JsEnumerateHeap@4
 JsEquals;code;chakra.dll;_JsEquals@12
+JsExperimentalApiRunModule;code;chakra.dll;_JsExperimentalApiRunModule@16
 JsGetAndClearException;code;chakra.dll;_JsGetAndClearException@4
 JsGetArrayBufferStorage;code;chakra.dll;_JsGetArrayBufferStorage@12
 JsGetContextData;code;chakra.dll;_JsGetContextData@8
@@ -101,6 +102,7 @@ JsNumberToDouble;code;chakra.dll;_JsNumberToDouble@8
 JsNumberToInt;code;chakra.dll;_JsNumberToInt@8
 JsObjectToInspectable;code;chakra.dll;_JsObjectToInspectable@8
 JsParseScript;code;chakra.dll;_JsParseScript@16
+JsParseScriptWithAttributes;code;chakra.dll;_JsParseScriptWithAttributes@20
 JsParseSerializedScript;code;chakra.dll;_JsParseSerializedScript@20
 JsParseSerializedScriptWithCallback;code;chakra.dll;_JsParseSerializedScriptWithCallback@24
 JsPointerToString;code;chakra.dll;_JsPointerToString@12

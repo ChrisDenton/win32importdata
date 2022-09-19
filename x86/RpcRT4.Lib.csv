@@ -113,6 +113,7 @@ I_RpcSessionStrictContextHandle;code;RPCRT4.dll;_I_RpcSessionStrictContextHandle
 I_RpcSetDCOMAppId;code;RPCRT4.dll;_I_RpcSetDCOMAppId@4
 I_RpcSsDontSerializeContext;code;RPCRT4.dll;_I_RpcSsDontSerializeContext@0
 I_RpcSystemFunction001;code;RPCRT4.dll;_I_RpcSystemFunction001@12
+I_RpcSystemHandleTypeSpecificWork;code;RPCRT4.dll;_I_RpcSystemHandleTypeSpecificWork@16
 I_RpcTransConnectionAllocatePacket;code;RPCRT4.dll;_I_RpcTransConnectionAllocatePacket@8
 I_RpcTransConnectionFreePacket;code;RPCRT4.dll;_I_RpcTransConnectionFreePacket@8
 I_RpcTransConnectionReallocPacket;code;RPCRT4.dll;_I_RpcTransConnectionReallocPacket@16

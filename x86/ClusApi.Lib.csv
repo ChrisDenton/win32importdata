@@ -6,6 +6,9 @@ CCHlpCreateClusterNameInAD;code;CLUSAPI.dll;?CCHlpCreateClusterNameInAD@@YGKPB_W
 CCHlpGetClusterServiceSecret;code;CLUSAPI.dll;?CCHlpGetClusterServiceSecret@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetClusterServiceSecret(wchar_t const *,wchar_t * *))
 CCHlpGetDNSHostLabel;code;CLUSAPI.dll;?CCHlpGetDNSHostLabel@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetDNSHostLabel(wchar_t const *,wchar_t * *))
 CCHlpRestoreClusterVirtualObjectToInitialState;code;CLUSAPI.dll;?CCHlpRestoreClusterVirtualObjectToInitialState@@YGKPA_W00H@Z (unsigned long __stdcall CCHlpRestoreClusterVirtualObjectToInitialState(wchar_t *,wchar_t *,wchar_t *,int))
+AddClusterGroupDependency;code;CLUSAPI.dll;_AddClusterGroupDependency@8
+AddClusterGroupSetDependency;code;CLUSAPI.dll;_AddClusterGroupSetDependency@8
+AddClusterGroupToGroupSetDependency;code;CLUSAPI.dll;_AddClusterGroupToGroupSetDependency@8
 AddClusterNode;code;CLUSAPI.dll;_AddClusterNode@16
 AddClusterResourceDependency;code;CLUSAPI.dll;_AddClusterResourceDependency@8
 AddClusterResourceNode;code;CLUSAPI.dll;_AddClusterResourceNode@8
@@ -16,6 +19,7 @@ CancelClusterGroupOperation;code;CLUSAPI.dll;_CancelClusterGroupOperation@8
 ChangeClusterResourceGroup;code;CLUSAPI.dll;_ChangeClusterResourceGroup@8
 CloseCluster;code;CLUSAPI.dll;_CloseCluster@4
 CloseClusterGroup;code;CLUSAPI.dll;_CloseClusterGroup@4
+CloseClusterGroupSet;code;CLUSAPI.dll;_CloseClusterGroupSet@4
 CloseClusterNetInterface;code;CLUSAPI.dll;_CloseClusterNetInterface@4
 CloseClusterNetwork;code;CLUSAPI.dll;_CloseClusterNetwork@4
 CloseClusterNode;code;CLUSAPI.dll;_CloseClusterNode@4
@@ -28,16 +32,29 @@ CluGetDriveInfo;code;CLUSAPI.dll;_CluGetDriveInfo@16
 CluGetFaultDomainObject;code;CLUSAPI.dll;_CluGetFaultDomainObject@16
 CluGetFaultDomainObjects;code;CLUSAPI.dll;_CluGetFaultDomainObjects@12
 CluRemoveFaultDomainObject;code;CLUSAPI.dll;_CluRemoveFaultDomainObject@12
+ClusterAddGroupToGroupSet;code;CLUSAPI.dll;_ClusterAddGroupToGroupSet@8
 ClusterCaptureLiveDump;code;CLUSAPI.dll;_ClusterCaptureLiveDump@100
 ClusterCloseEnum;code;CLUSAPI.dll;_ClusterCloseEnum@4
 ClusterCloseEnumEx;code;CLUSAPI.dll;_ClusterCloseEnumEx@4
 ClusterControl;code;CLUSAPI.dll;_ClusterControl@32
+ClusterCreateClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterCreateClusterStorageEnclosure@52
+ClusterCreateFaultDomain;code;CLUSAPI.dll;_ClusterCreateFaultDomain@28
+ClusterCreateFaultDomainFromXML;code;CLUSAPI.dll;_ClusterCreateFaultDomainFromXML@12
+ClusterCreateVMReservation;code;CLUSAPI.dll;_ClusterCreateVMReservation@20
 ClusterEnum;code;CLUSAPI.dll;_ClusterEnum@20
 ClusterEnumEx;code;CLUSAPI.dll;_ClusterEnumEx@16
 ClusterFreeMemory;code;CLUSAPI.dll;_ClusterFreeMemory@4
 ClusterFreeMrrResponse;code;CLUSAPI.dll;_ClusterFreeMrrResponse@4
+ClusterFreeVMReservation;code;CLUSAPI.dll;_ClusterFreeVMReservation@12
+ClusterGetClusterStorageEnclosureObject;code;CLUSAPI.dll;_ClusterGetClusterStorageEnclosureObject@16
+ClusterGetClusterStorageEnclosureObjects;code;CLUSAPI.dll;_ClusterGetClusterStorageEnclosureObjects@20
+ClusterGetDriveInfo;code;CLUSAPI.dll;_ClusterGetDriveInfo@20
 ClusterGetEnumCount;code;CLUSAPI.dll;_ClusterGetEnumCount@4
 ClusterGetEnumCountEx;code;CLUSAPI.dll;_ClusterGetEnumCountEx@4
+ClusterGetFaultDomainObject;code;CLUSAPI.dll;_ClusterGetFaultDomainObject@16
+ClusterGetFaultDomainObjects;code;CLUSAPI.dll;_ClusterGetFaultDomainObjects@20
+ClusterGetFaultDomainXML;code;CLUSAPI.dll;_ClusterGetFaultDomainXML@12
+ClusterGetPlacementScore;code;CLUSAPI.dll;_ClusterGetPlacementScore@20
 ClusterGroupCloseEnum;code;CLUSAPI.dll;_ClusterGroupCloseEnum@4
 ClusterGroupCloseEnumEx;code;CLUSAPI.dll;_ClusterGroupCloseEnumEx@4
 ClusterGroupControl;code;CLUSAPI.dll;_ClusterGroupControl@32
@@ -47,11 +64,23 @@ ClusterGroupGetEnumCount;code;CLUSAPI.dll;_ClusterGroupGetEnumCount@4
 ClusterGroupGetEnumCountEx;code;CLUSAPI.dll;_ClusterGroupGetEnumCountEx@4
 ClusterGroupOpenEnum;code;CLUSAPI.dll;_ClusterGroupOpenEnum@8
 ClusterGroupOpenEnumEx;code;CLUSAPI.dll;_ClusterGroupOpenEnumEx@24
+ClusterGroupSetCloseEnum;code;CLUSAPI.dll;_ClusterGroupSetCloseEnum@4
+ClusterGroupSetControl;code;CLUSAPI.dll;_ClusterGroupSetControl@32
+ClusterGroupSetEnum;code;CLUSAPI.dll;_ClusterGroupSetEnum@16
+ClusterGroupSetGetEnumCount;code;CLUSAPI.dll;_ClusterGroupSetGetEnumCount@4
+ClusterGroupSetOpenEnum;code;CLUSAPI.dll;_ClusterGroupSetOpenEnum@4
+ClusterNetInterfaceCloseEnum;code;CLUSAPI.dll;_ClusterNetInterfaceCloseEnum@4
 ClusterNetInterfaceControl;code;CLUSAPI.dll;_ClusterNetInterfaceControl@32
+ClusterNetInterfaceEnum;code;CLUSAPI.dll;_ClusterNetInterfaceEnum@16
+ClusterNetInterfaceOpenEnum;code;CLUSAPI.dll;_ClusterNetInterfaceOpenEnum@12
 ClusterNetworkCloseEnum;code;CLUSAPI.dll;_ClusterNetworkCloseEnum@4
 ClusterNetworkControl;code;CLUSAPI.dll;_ClusterNetworkControl@32
 ClusterNetworkEnum;code;CLUSAPI.dll;_ClusterNetworkEnum@20
 ClusterNetworkGetEnumCount;code;CLUSAPI.dll;_ClusterNetworkGetEnumCount@4
+ClusterNetworkHealthFreeInterfaceConnections;code;CLUSAPI.dll;_ClusterNetworkHealthFreeInterfaceConnections@4
+ClusterNetworkHealthFreeNodeConnections;code;CLUSAPI.dll;_ClusterNetworkHealthFreeNodeConnections@4
+ClusterNetworkHealthGetInterfaceConnections;code;CLUSAPI.dll;_ClusterNetworkHealthGetInterfaceConnections@12
+ClusterNetworkHealthGetNodeConnections;code;CLUSAPI.dll;_ClusterNetworkHealthGetNodeConnections@12
 ClusterNetworkOpenEnum;code;CLUSAPI.dll;_ClusterNetworkOpenEnum@8
 ClusterNodeCloseEnum;code;CLUSAPI.dll;_ClusterNodeCloseEnum@4
 ClusterNodeCloseEnumEx;code;CLUSAPI.dll;_ClusterNodeCloseEnumEx@4
@@ -97,6 +126,9 @@ ClusterRegSetKeySecurity;code;CLUSAPI.dll;_ClusterRegSetKeySecurity@12
 ClusterRegSetValue;code;CLUSAPI.dll;_ClusterRegSetValue@20
 ClusterRegSetValueForceSync;code;CLUSAPI.dll;_ClusterRegSetValueForceSync@20
 ClusterRegSyncDatabase;code;CLUSAPI.dll;_ClusterRegSyncDatabase@8
+ClusterRemoveClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterRemoveClusterStorageEnclosure@12
+ClusterRemoveFaultDomain;code;CLUSAPI.dll;_ClusterRemoveFaultDomain@12
+ClusterRemoveGroupFromGroupSet;code;CLUSAPI.dll;_ClusterRemoveGroupFromGroupSet@4
 ClusterResourceCloseEnum;code;CLUSAPI.dll;_ClusterResourceCloseEnum@4
 ClusterResourceCloseEnumEx;code;CLUSAPI.dll;_ClusterResourceCloseEnumEx@4
 ClusterResourceControl;code;CLUSAPI.dll;_ClusterResourceControl@32
@@ -116,6 +148,9 @@ ClusterResourceTypeOpenEnum;code;CLUSAPI.dll;_ClusterResourceTypeOpenEnum@12
 ClusterSendReceiveMrr;code;CLUSAPI.dll;_ClusterSendReceiveMrr@40
 ClusterSendReceiveMrrAsUser;code;CLUSAPI.dll;_ClusterSendReceiveMrrAsUser@40
 ClusterSetAccountAccess;code;CLUSAPI.dll;_ClusterSetAccountAccess@16
+ClusterSetClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterSetClusterStorageEnclosure@44
+ClusterSetFaultDomain;code;CLUSAPI.dll;_ClusterSetFaultDomain@28
+ClusterSetNodeFaultDomain;code;CLUSAPI.dll;_ClusterSetNodeFaultDomain@12
 ClusterSharedVolumeClearBackupState;code;CLUSAPI.dll;_ClusterSharedVolumeClearBackupState@4
 ClusterSharedVolumeSetSnapshotState;code;CLUSAPI.dll;_ClusterSharedVolumeSetSnapshotState@24
 ClusterStmFindDisk;code;CLUSAPI.dll;_ClusterStmFindDisk@24
@@ -124,6 +159,7 @@ ClusterUpgradeFunctionalLevelEx;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevelE
 CreateCluster;code;CLUSAPI.dll;_CreateCluster@12
 CreateClusterGroup;code;CLUSAPI.dll;_CreateClusterGroup@8
 CreateClusterGroupEx;code;CLUSAPI.dll;_CreateClusterGroupEx@12
+CreateClusterGroupSet;code;CLUSAPI.dll;_CreateClusterGroupSet@8
 CreateClusterManagementPoint;code;CLUSAPI.dll;_CreateClusterManagementPoint@20
 CreateClusterNameAccount;code;CLUSAPI.dll;_CreateClusterNameAccount@16
 CreateClusterNotifyPort;code;CLUSAPI.dll;_CreateClusterNotifyPort@16
@@ -132,6 +168,7 @@ CreateClusterResource;code;CLUSAPI.dll;_CreateClusterResource@16
 CreateClusterResourceType;code;CLUSAPI.dll;_CreateClusterResourceType@24
 CreateClusterResourceWithId;code;CLUSAPI.dll;_CreateClusterResourceWithId@20
 DeleteClusterGroup;code;CLUSAPI.dll;_DeleteClusterGroup@4
+DeleteClusterGroupSet;code;CLUSAPI.dll;_DeleteClusterGroupSet@4
 DeleteClusterResource;code;CLUSAPI.dll;_DeleteClusterResource@4
 DeleteClusterResourceType;code;CLUSAPI.dll;_DeleteClusterResourceType@8
 DestroyCluster;code;CLUSAPI.dll;_DestroyCluster@16
@@ -139,6 +176,11 @@ DestroyClusterGroup;code;CLUSAPI.dll;_DestroyClusterGroup@4
 EvictClusterNode;code;CLUSAPI.dll;_EvictClusterNode@4
 EvictClusterNodeEx;code;CLUSAPI.dll;_EvictClusterNodeEx@12
 FailClusterResource;code;CLUSAPI.dll;_FailClusterResource@4
+FreeClusFaultDomainInfo;code;CLUSAPI.dll;_FreeClusFaultDomainInfo@4
+FreeClusFaultDomainInfoArray;code;CLUSAPI.dll;_FreeClusFaultDomainInfoArray@4
+FreeClusFaultDomainXML;code;CLUSAPI.dll;_FreeClusFaultDomainXML@4
+FreeClusStorageEnclosureInfo;code;CLUSAPI.dll;_FreeClusStorageEnclosureInfo@4
+FreeClusStorageEnclosureInfoArray;code;CLUSAPI.dll;_FreeClusStorageEnclosureInfoArray@4
 GetClusterFromGroup;code;CLUSAPI.dll;_GetClusterFromGroup@4
 GetClusterFromNetInterface;code;CLUSAPI.dll;_GetClusterFromNetInterface@4
 GetClusterFromNetwork;code;CLUSAPI.dll;_GetClusterFromNetwork@4
@@ -168,6 +210,10 @@ GetClusterResourceTypeKey;code;CLUSAPI.dll;_GetClusterResourceTypeKey@12
 GetClusterSharedVolumeNameForFile;code;CLUSAPI.dll;_GetClusterSharedVolumeNameForFile@24
 GetNodeClusterState;code;CLUSAPI.dll;_GetNodeClusterState@8
 GetNotifyEventHandle;code;CLUSAPI.dll;_GetNotifyEventHandle@8
+InitializeClusFaultDomainInfo;code;CLUSAPI.dll;_InitializeClusFaultDomainInfo@4
+InitializeClusFaultDomainInfoArray;code;CLUSAPI.dll;_InitializeClusFaultDomainInfoArray@4
+InitializeClusStorageEnclosureInfo;code;CLUSAPI.dll;_InitializeClusStorageEnclosureInfo@4
+InitializeClusStorageEnclosureInfoArray;code;CLUSAPI.dll;_InitializeClusStorageEnclosureInfoArray@4
 IsFileOnClusterSharedVolume;code;CLUSAPI.dll;_IsFileOnClusterSharedVolume@8
 MoveClusterGroup;code;CLUSAPI.dll;_MoveClusterGroup@8
 MoveClusterGroupEx;code;CLUSAPI.dll;_MoveClusterGroupEx@20
@@ -184,6 +230,7 @@ OpenClusterEx2;code;CLUSAPI.dll;_OpenClusterEx2@16
 OpenClusterEx;code;CLUSAPI.dll;_OpenClusterEx@12
 OpenClusterGroup;code;CLUSAPI.dll;_OpenClusterGroup@8
 OpenClusterGroupEx;code;CLUSAPI.dll;_OpenClusterGroupEx@16
+OpenClusterGroupSet;code;CLUSAPI.dll;_OpenClusterGroupSet@8
 OpenClusterNetInterface;code;CLUSAPI.dll;_OpenClusterNetInterface@8
 OpenClusterNetInterfaceEx;code;CLUSAPI.dll;_OpenClusterNetInterfaceEx@16
 OpenClusterNetwork;code;CLUSAPI.dll;_OpenClusterNetwork@8
@@ -197,6 +244,9 @@ PauseClusterNodeEx;code;CLUSAPI.dll;_PauseClusterNodeEx@16
 RegisterClusterNotify;code;CLUSAPI.dll;_RegisterClusterNotify@16
 RegisterClusterNotifyV2;code;CLUSAPI.dll;_RegisterClusterNotifyV2@28
 RegisterClusterResourceTypeNotifyV2;code;CLUSAPI.dll;_RegisterClusterResourceTypeNotifyV2@24
+RemoveClusterGroupDependency;code;CLUSAPI.dll;_RemoveClusterGroupDependency@8
+RemoveClusterGroupSetDependency;code;CLUSAPI.dll;_RemoveClusterGroupSetDependency@8
+RemoveClusterGroupToGroupSetDependency;code;CLUSAPI.dll;_RemoveClusterGroupToGroupSetDependency@8
 RemoveClusterResourceDependency;code;CLUSAPI.dll;_RemoveClusterResourceDependency@8
 RemoveClusterResourceNode;code;CLUSAPI.dll;_RemoveClusterResourceNode@8
 RemoveResourceFromClusterSharedVolumes;code;CLUSAPI.dll;_RemoveResourceFromClusterSharedVolumes@4
@@ -206,6 +256,7 @@ ResumeClusterNode;code;CLUSAPI.dll;_ResumeClusterNode@4
 ResumeClusterNodeEx;code;CLUSAPI.dll;_ResumeClusterNodeEx@12
 SetClusterGroupName;code;CLUSAPI.dll;_SetClusterGroupName@8
 SetClusterGroupNodeList;code;CLUSAPI.dll;_SetClusterGroupNodeList@12
+SetClusterGroupSetDependencyExpression;code;CLUSAPI.dll;_SetClusterGroupSetDependencyExpression@8
 SetClusterName;code;CLUSAPI.dll;_SetClusterName@8
 SetClusterNetworkName;code;CLUSAPI.dll;_SetClusterNetworkName@8
 SetClusterNetworkPriorityOrder;code;CLUSAPI.dll;_SetClusterNetworkPriorityOrder@12
@@ -213,3 +264,4 @@ SetClusterQuorumResource;code;CLUSAPI.dll;_SetClusterQuorumResource@12
 SetClusterResourceDependencyExpression;code;CLUSAPI.dll;_SetClusterResourceDependencyExpression@8
 SetClusterResourceName;code;CLUSAPI.dll;_SetClusterResourceName@8
 SetClusterServiceAccountPassword;code;CLUSAPI.dll;_SetClusterServiceAccountPassword@20
+SetGroupDependencyExpression;code;CLUSAPI.dll;_SetGroupDependencyExpression@8

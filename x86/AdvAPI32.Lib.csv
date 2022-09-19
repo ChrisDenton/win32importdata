@@ -215,6 +215,7 @@ CryptSignHashA;code;ADVAPI32.dll;_CryptSignHashA@24
 CryptSignHashW;code;ADVAPI32.dll;_CryptSignHashW@24
 CryptVerifySignatureA;code;ADVAPI32.dll;_CryptVerifySignatureA@24
 CryptVerifySignatureW;code;ADVAPI32.dll;_CryptVerifySignatureW@24
+CveEventWrite;code;ADVAPI32.dll;_CveEventWrite@8
 DecryptFileA;code;ADVAPI32.dll;_DecryptFileA@8
 DecryptFileW;code;ADVAPI32.dll;_DecryptFileW@8
 DeleteAce;code;ADVAPI32.dll;_DeleteAce@8
@@ -265,7 +266,6 @@ EnumerateTraceGuidsEx;code;ADVAPI32.dll;_EnumerateTraceGuidsEx@24
 EqualDomainSid;code;ADVAPI32.dll;_EqualDomainSid@12
 EqualPrefixSid;code;ADVAPI32.dll;_EqualPrefixSid@8
 EqualSid;code;ADVAPI32.dll;_EqualSid@8
-EtwLogSysConfigExtension;code;ADVAPI32.dll;_EtwLogSysConfigExtension@8
 EventAccessControl;code;ADVAPI32.dll;_EventAccessControl@20
 EventAccessQuery;code;ADVAPI32.dll;_EventAccessQuery@12
 EventAccessRemove;code;ADVAPI32.dll;_EventAccessRemove@4

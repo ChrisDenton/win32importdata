@@ -6,6 +6,7 @@ BRUSHOBJ_ulGetBrushColor;code;GDI32.dll;_BRUSHOBJ_ulGetBrushColor@4
 CLIPOBJ_bEnum;code;GDI32.dll;_CLIPOBJ_bEnum@12
 CLIPOBJ_cEnumStart;code;GDI32.dll;_CLIPOBJ_cEnumStart@20
 CLIPOBJ_ppoGetPath;code;GDI32.dll;_CLIPOBJ_ppoGetPath@4
+DxTrimNotificationListHead;data;GDI32.dll;_DxTrimNotificationListHead
 EngAcquireSemaphore;code;GDI32.dll;_EngAcquireSemaphore@4
 EngAlphaBlend;code;GDI32.dll;_EngAlphaBlend@28
 EngAssociateSurface;code;GDI32.dll;_EngAssociateSurface@12
@@ -60,8 +61,11 @@ FONTOBJ_pifi;code;GDI32.dll;_FONTOBJ_pifi@4
 FONTOBJ_pvTrueTypeFontFile;code;GDI32.dll;_FONTOBJ_pvTrueTypeFontFile@8
 FONTOBJ_pxoGetXform;code;GDI32.dll;_FONTOBJ_pxoGetXform@4
 FONTOBJ_vGetInfo;code;GDI32.dll;_FONTOBJ_vGetInfo@12
+GdiBatchLimit;data;GDI32.dll;_GdiBatchLimit
 HT_Get8BPPFormatPalette;code;GDI32.dll;_HT_Get8BPPFormatPalette@16
 HT_Get8BPPMaskPalette;code;GDI32.dll;_HT_Get8BPPMaskPalette@24
+LpkEditControl;data;GDI32.dll;_LpkEditControl
+LpkpEditControlSize;data;GDI32.dll;_LpkpEditControlSize
 PATHOBJ_bEnum;code;GDI32.dll;_PATHOBJ_bEnum@8
 PATHOBJ_bEnumClipLines;code;GDI32.dll;_PATHOBJ_bEnumClipLines@12
 PATHOBJ_vEnumStart;code;GDI32.dll;_PATHOBJ_vEnumStart@4
@@ -78,3 +82,11 @@ XLATEOBJ_cGetPalette;code;GDI32.dll;_XLATEOBJ_cGetPalette@16
 XLATEOBJ_hGetColorTransform;code;GDI32.dll;_XLATEOBJ_hGetColorTransform@4
 XLATEOBJ_iXlate;code;GDI32.dll;_XLATEOBJ_iXlate@8
 XLATEOBJ_piVector;code;GDI32.dll;_XLATEOBJ_piVector@4
+fpClosePrinter;data;GDI32.dll;_fpClosePrinter
+gMaxGdiHandleCount;data;GDI32.dll;_gMaxGdiHandleCount
+gW32PID;data;GDI32.dll;_gW32PID
+ghICM;data;GDI32.dll;_ghICM
+pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps
+pGdiSharedHandleTable;data;GDI32.dll;_pGdiSharedHandleTable
+pGdiSharedMemory;data;GDI32.dll;_pGdiSharedMemory
+semDxTrimNotification;data;GDI32.dll;_semDxTrimNotification

@@ -545,6 +545,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0CWSManResourceNoResourceUri@@QAE@H@Z;code;WsmSvc.DLL;
 ??0CWSManSecurityUI@@QAE@XZ;code;WsmSvc.DLL;
 ??0CWinRSPluginConfigCache@@AAE@XZ;code;WsmSvc.DLL;
+??0ChildLifeTimeManager@@QAE@ABV0@@Z;code;WsmSvc.DLL;
 ??0ChildLifeTimeManager@@QAE@XZ;code;WsmSvc.DLL;
 ??0CircularBufferFormatter@@QAE@XZ;code;WsmSvc.DLL;
 ??0ConfigRegistry@@IAE@XZ;code;WsmSvc.DLL;
@@ -580,6 +581,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0ShareLock@@QAE@AAVFastLock@@@Z;code;WsmSvc.DLL;
 ??0SoapSemanticConverter@@QAE@XZ;code;WsmSvc.DLL;
 ??0TSTRBUFFER@@QAE@XZ;code;WsmSvc.DLL;
+??0UserAuthzRecord@@QAE@$$QAV0@@Z;code;WsmSvc.DLL;
 ??0UserAuthzRecord@@QAE@ABV0@@Z;code;WsmSvc.DLL;
 ??0UserAuthzRecord@@QAE@XZ;code;WsmSvc.DLL;
 ??0UserRecord@@QAE@XZ;code;WsmSvc.DLL;
@@ -1302,9 +1304,13 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4?$AutoRelease@VUserRecord@@@@QAEAAV0@PAVUserRecord@@@Z;code;WsmSvc.DLL;
 ??4?$AutoRelease@VWSManHttpListener@@@@QAEAAV0@PAVWSManHttpListener@@@Z;code;WsmSvc.DLL;
 ??4?$AutoReleaseEx@VShell@Client@WSMan@@@@QAEAAV0@PAVShell@Client@WSMan@@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@K@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@K@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@PAU_FWXML_ELEMENT@@@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@PAU_FWXML_ELEMENT@@@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@PBG@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@PBG@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@_K@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@_K@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
 ??4?$SimpleQueue@T_LARGE_INTEGER@@@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4AutoBstr@@QAEAAV0@PAG@Z;code;WsmSvc.DLL;
@@ -1326,21 +1332,30 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4ChildLifeTimeManager@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4ConfigRegistry@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4EtwCorrelationHelper@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4EventLog@@QAEAAV0@$$QAV0@@Z;code;WsmSvc.DLL;
 ??4EventLog@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4ExtendedSemantic@@QAEAAV0@$$QAV0@@Z;code;WsmSvc.DLL;
 ??4ExtendedSemantic@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4FastLock@@QAEAAV0@$$QAV0@@Z;code;WsmSvc.DLL;
 ??4FastLock@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4Fragment@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4Fragment@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
 ??4IConfigChangeObserver@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4ILifeTimeMgmt@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4IWSManGroupPolicyObserver@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4IWSManGroupPolicyPublisher@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4Locale@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4NotUnderstandSoapHeader@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4NotUnderstandSoapHeader@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
+??4PacketFormatter@@QAEAAV0@$$QAV0@@Z;code;WsmSvc.DLL;
 ??4PacketFormatter@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??4RBUFFER@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4SBUFFER@@QAEAAV0@$$QAV0@@Z;code;WsmSvc.DLL;
 ??4SBUFFER@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4SessionId@PacketParser@@QAEAAV01@$$QAV01@@Z;code;WsmSvc.DLL;
 ??4SessionId@PacketParser@@QAEAAV01@ABV01@@Z;code;WsmSvc.DLL;
 ??4SoapSemanticConverter@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
+??4UserAuthzRecord@@QAEAAV0@$$QAV0@@Z;code;WsmSvc.DLL;
 ??4UserAuthzRecord@@QAEAAV0@ABV0@@Z;code;WsmSvc.DLL;
 ??6BufferFormatter@@UAEAAV0@AAVBufferFormatterDataFormatDWORD@@@Z;code;WsmSvc.DLL;
 ??6BufferFormatter@@UAEAAV0@AAVBufferFormatterDataFormatULONGLONG@@@Z;code;WsmSvc.DLL;
@@ -1993,7 +2008,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ?ClearKeys@CWSManResourceNoResourceUri@@QAEHXZ;code;WsmSvc.DLL;
 ?ClearOptions@CWSManResourceNoResourceUri@@QAEHXZ;code;WsmSvc.DLL;
 ?ClearRegistryKeys@ConfigRegistry@@IAEHPAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?ClearSubKeys@@YGHPAUHKEY__@@PAVIRequestContext@@@Z;code;WsmSvc.DLL;
+ClearSubKeys;code;WsmSvc.DLL;?ClearSubKeys@@YGHPAUHKEY__@@PAVIRequestContext@@@Z (int __stdcall ClearSubKeys(struct HKEY__ *,class IRequestContext *))
 ?CompleteWithErrorContext@CRequestContext@@QAEXPAU_WSMAN_PLUGIN_REQUEST@@@Z;code;WsmSvc.DLL;
 ?Confirm@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
 ?Copy@TSTRBUFFER@@QAEJPBG@Z;code;WsmSvc.DLL;
@@ -2198,7 +2213,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?Down@?$LoaderSerializer@VSubscriptionManager@@$01@@AAEJXZ;code;WsmSvc.DLL;
 ?DropData@CircularBufferFormatter@@QAEXK@Z;code;WsmSvc.DLL;
 ?DuplicateCurrentToken@CSecurity@@SGHPAPAXKPAU_SECURITY_ATTRIBUTES@@W4_SECURITY_IMPERSONATION_LEVEL@@W4_TOKEN_TYPE@@H@Z;code;WsmSvc.DLL;
-?EnableAllPrivileges@@YGHPAPAE@Z;code;WsmSvc.DLL;
+EnableAllPrivileges;code;WsmSvc.DLL;?EnableAllPrivileges@@YGHPAPAE@Z (int __stdcall EnableAllPrivileges(unsigned char * *))
 ?Encode@PacketFormatter@@QBEKPAPAVPacket@@@Z;code;WsmSvc.DLL;
 ?Encode@PacketFormatter@@QBEKPBGKPAEKPAPAEPAK_N@Z;code;WsmSvc.DLL;
 ?EndOfStream@PacketParser@@QAEXK@Z;code;WsmSvc.DLL;
@@ -2470,7 +2485,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?GetSecurityDescriptor@CConfigManager@@QAEHPAVIRequestContext@@W4ConfigSetting@@PAPAXPAW4WSManConfigSource@@@Z;code;WsmSvc.DLL;
 ?GetSelectorSetXml@PacketParser@@QAEABV?$PacketElement@PAU_FWXML_ELEMENT@@@1@XZ;code;WsmSvc.DLL;
 ?GetSequenceId@PacketParser@@QBEABV?$PacketElement@_K@1@XZ;code;WsmSvc.DLL;
-?GetServiceCatalog@@YGPAVCatalog@@XZ;code;WsmSvc.DLL;
+GetServiceCatalog;code;WsmSvc.DLL;?GetServiceCatalog@@YGPAVCatalog@@XZ (class Catalog * __stdcall GetServiceCatalog(void))
 ?GetSessionId@PacketParser@@QBEABV?$PacketElement@PBG@1@XZ;code;WsmSvc.DLL;
 ?GetSessionIdGuid@PacketParser@@QAEAAU_GUID@@XZ;code;WsmSvc.DLL;
 ?GetSessionIdGuid@SessionId@PacketParser@@QAEAAU_GUID@@XZ;code;WsmSvc.DLL;
@@ -2510,7 +2525,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?GrowBuffer@CircularBufferFormatter@@UAEKK@Z;code;WsmSvc.DLL;
 ?GrowBuffer@CircularBufferFormatter@@UAEKXZ;code;WsmSvc.DLL;
 ?HandleAutoConfiguredListener@CConfigManager@@QAEHPAVIRequestContext@@PAVLISTENER_IDENTITY@@@Z;code;WsmSvc.DLL;
-?HandleMigration@@YGHPAVWSManMigrationContext@@@Z;code;WsmSvc.DLL;
+HandleMigration;code;WsmSvc.DLL;?HandleMigration@@YGHPAVWSManMigrationContext@@@Z (int __stdcall HandleMigration(class WSManMigrationContext *))
 ?HasFaultXML@CRequestContext@@QBEHXZ;code;WsmSvc.DLL;
 ?HasHtmlError@CRequestContext@@ABEHXZ;code;WsmSvc.DLL;
 ?HasOption@CWSManResourceNoResourceUri@@QAEHPBG@Z;code;WsmSvc.DLL;
@@ -2628,7 +2643,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?IsPolicyControlledSetting@CConfigManager@@QAEHPAVIRequestContext@@W4ConfigSetting@@PAH@Z;code;WsmSvc.DLL;
 ?IsRobustConnectionPacket@PacketParser@@QBEHXZ;code;WsmSvc.DLL;
 ?IsStreamingEvent@SoapSemanticConverter@@QAE_NPAU_FWXML_ELEMENT@@PAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?IsStringNullOrEmpty@@YGHPBG@Z;code;WsmSvc.DLL;
+IsStringNullOrEmpty;code;WsmSvc.DLL;?IsStringNullOrEmpty@@YGHPBG@Z (int __stdcall IsStringNullOrEmpty(unsigned short const *))
 ?IsValid@?$SafeMap@PAVCListenerOperation@@UEmpty@@V?$SafeSet_Iterator@PAVCListenerOperation@@@@@@QBE_NXZ;code;WsmSvc.DLL;
 ?IsValid@?$SafeMap@UPluginKey@@KV?$SafeMap_Iterator@UPluginKey@@K@@@@QBE_NXZ;code;WsmSvc.DLL;
 ?IsValid@?$SafeMap@VStringKeyCI@@KV?$SafeMap_Iterator@VStringKeyCI@@K@@@@QBE_NXZ;code;WsmSvc.DLL;
@@ -2860,7 +2875,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?Me@?$AutoCleanup@VAutoRegKey@@PAUHKEY__@@@@AAEAAVAutoRegKey@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoSecurityDescriptor@@PAX@@AAEAAVAutoSecurityDescriptor@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoWaitHandle@@PAX@@AAEAAVAutoWaitHandle@@XZ;code;WsmSvc.DLL;
-?MoveSettingsToMigrationKey@@YGHPAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
+MoveSettingsToMigrationKey;code;WsmSvc.DLL;?MoveSettingsToMigrationKey@@YGHPAVIRequestContext@@_N@Z (int __stdcall MoveSettingsToMigrationKey(class IRequestContext *,bool))
 ?NUM_BOMS@PacketFormatter@@0HB;data;WsmSvc.DLL;
 ?NUM_CHARSETS@PacketFormatter@@0HB;data;WsmSvc.DLL;
 ?Next@TSTRBUFFER@@QBEPBGPBG@Z;code;WsmSvc.DLL;
@@ -2920,9 +2935,9 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?PostError@CServiceConfigCache@@EAEXK@Z;code;WsmSvc.DLL;
 ?PrepareToCommitWithSize@BufferFormatter@@UAEKK@Z;code;WsmSvc.DLL;
 ?PrepareToCommitWithSize@CircularBufferFormatter@@UAEKK@Z;code;WsmSvc.DLL;
-?PrintHandleTrace@@YGXPAX@Z;code;WsmSvc.DLL;
-?PrintReleaseTrace@@YGXPAXJ@Z;code;WsmSvc.DLL;
-?PrintUnregisterWaitTrace@@YGXPAX@Z;code;WsmSvc.DLL;
+PrintHandleTrace;code;WsmSvc.DLL;?PrintHandleTrace@@YGXPAX@Z (void __stdcall PrintHandleTrace(void *))
+PrintReleaseTrace;code;WsmSvc.DLL;?PrintReleaseTrace@@YGXPAXJ@Z (void __stdcall PrintReleaseTrace(void *,long))
+PrintUnregisterWaitTrace;code;WsmSvc.DLL;?PrintUnregisterWaitTrace@@YGXPAX@Z (void __stdcall PrintUnregisterWaitTrace(void *))
 ?ProcessContext@CErrorContext@@UAEHHPAKPAU_WSMAN_FAULT_OBJECT@@@Z;code;WsmSvc.DLL;
 ?ProcessContext@CErrorContext@@UAEHHPAU_WSMAN_ERROR@@@Z;code;WsmSvc.DLL;
 ?ProcessContext@CRequestContext@@QAEHHPAU_WSMAN_ENUMERATOR_RESULT@@@Z;code;WsmSvc.DLL;
@@ -3253,9 +3268,10 @@ RegisterModule;code;WsmSvc.DLL;?RegisterModule@@YGJKPAVIHttpModuleRegistrationIn
 ?Remove@?$SafeMap@_KPAVSendPacketArgs@RobustConnectionBuffer@@V?$SafeMap_Iterator@_KPAVSendPacketArgs@RobustConnectionBuffer@@@@@@QAE_NAB_K@Z;code;WsmSvc.DLL;
 ?RemoveAll@CBaseConfigCache@@KGXPAVFastLock@@AAV?$AutoRelease@VCConfigCacheMap@CBaseConfigCache@@@@@Z;code;WsmSvc.DLL;
 ?RemoveFromMap@CBaseConfigCache@@AAEHXZ;code;WsmSvc.DLL;
-?RemoveHttpsBinding@@YGXPBG@Z;code;WsmSvc.DLL;
-?RemoveHttpsCertificate@@YGXPBG0@Z;code;WsmSvc.DLL;
+RemoveHttpsBinding;code;WsmSvc.DLL;?RemoveHttpsBinding@@YGXPBG@Z (void __stdcall RemoveHttpsBinding(unsigned short const *))
+RemoveHttpsCertificate;code;WsmSvc.DLL;?RemoveHttpsCertificate@@YGXPBG0@Z (void __stdcall RemoveHttpsCertificate(unsigned short const *,unsigned short const *))
 ?RemoveObserver@CServiceConfigCache@@AAEHPAVIServiceConfigObserver@@@Z;code;WsmSvc.DLL;
+RemovePluginXmlNewAttrForThresholdOrGreater;code;WsmSvc.DLL;?RemovePluginXmlNewAttrForThresholdOrGreater@@YGHPAVIRequestContext@@@Z (int __stdcall RemovePluginXmlNewAttrForThresholdOrGreater(class IRequestContext *))
 ?ReportEventW@EventLog@@SGXGKGPAPBG@Z;code;WsmSvc.DLL;
 ?Reset@?$PacketElement@K@PacketParser@@QAEX_N@Z;code;WsmSvc.DLL;
 ?Reset@?$PacketElement@PAU_FWXML_ELEMENT@@@PacketParser@@QAEX_N@Z;code;WsmSvc.DLL;
@@ -3287,14 +3303,14 @@ RegisterModule;code;WsmSvc.DLL;?RegisterModule@@YGJKPAVIHttpModuleRegistrationIn
 ?Resize@RBUFFER@@QAEHI@Z;code;WsmSvc.DLL;
 ?Resize@RBUFFER@@QAEHII@Z;code;WsmSvc.DLL;
 ?ResizeOptionList@CWSManResourceNoResourceUri@@IAE_NIAAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?RestoreAllPrivileges@@YGHPAU_TOKEN_PRIVILEGES@@@Z;code;WsmSvc.DLL;
+RestoreAllPrivileges;code;WsmSvc.DLL;?RestoreAllPrivileges@@YGHPAU_TOKEN_PRIVILEGES@@@Z (int __stdcall RestoreAllPrivileges(struct _TOKEN_PRIVILEGES *))
 ?RetrieveCertMappingIdentity@CConfigManager@@AAEHPAUHKEY__@@PAVCERTMAPPING_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RetrieveListenerIdentity@CConfigManager@@AAEHPAUHKEY__@@PAGPAPAGPAVLISTENER_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RetrieveShellUriIdentity@CConfigManager@@AAEHPAUHKEY__@@PAVSHELLURI_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RetrieveTableIdentity@CConfigManager@@AAEHPAUHKEY__@@PAVWSMANCONFIGTABLE_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RevertToSelf@CSecurity@@SGHXZ;code;WsmSvc.DLL;
 ?RtlSecureZeroMemory@XmlReader@@QAEXXZ;code;WsmSvc.DLL;
-?SafeStringToUI64@@YGJPBGEHPA_KPAVIRequestContext@@K@Z;code;WsmSvc.DLL;
+SafeStringToUI64;code;WsmSvc.DLL;?SafeStringToUI64@@YGJPBGEHPA_KPAVIRequestContext@@K@Z (long __stdcall SafeStringToUI64(unsigned short const *,unsigned char,int,unsigned __int64 *,class IRequestContext *,unsigned long))
 ?SetBOM@PacketFormatter@@QAE_NPAVPacket@@@Z;code;WsmSvc.DLL;
 ?SetBOM@PacketFormatter@@QAE_NPBEK@Z;code;WsmSvc.DLL;
 ?SetCIM_Error@CErrorContext@@UAEXXZ;code;WsmSvc.DLL;
@@ -3428,27 +3444,27 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YGHXZ (int __stdcall StopS
 ?StoreDataFromResourceLocator@CWSManResource@@AAEHPAVIRequestContext@@PAU_WSMAN_RESOURCE_LOCATOR@@@Z;code;WsmSvc.DLL;
 ?StoreExpansion@CResourceAlias@@AAEXPBGPAU_ALIAS_INFORMATION@@@Z;code;WsmSvc.DLL;
 ?StreamingOutput@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
-?StringCchEndsWithCI@@YGHPBG0@Z;code;WsmSvc.DLL;
-?StringCchEquals@@YGHPBG0@Z;code;WsmSvc.DLL;
-?StringCchEqualsCI@@YGHPBG0@Z;code;WsmSvc.DLL;
-?StringCchStartsWith@@YGHPBG0@Z;code;WsmSvc.DLL;
-?StringCchStartsWithCI@@YGHPBG0@Z;code;WsmSvc.DLL;
+StringCchEndsWithCI;code;WsmSvc.DLL;?StringCchEndsWithCI@@YGHPBG0@Z (int __stdcall StringCchEndsWithCI(unsigned short const *,unsigned short const *))
+StringCchEquals;code;WsmSvc.DLL;?StringCchEquals@@YGHPBG0@Z (int __stdcall StringCchEquals(unsigned short const *,unsigned short const *))
+StringCchEqualsCI;code;WsmSvc.DLL;?StringCchEqualsCI@@YGHPBG0@Z (int __stdcall StringCchEqualsCI(unsigned short const *,unsigned short const *))
+StringCchStartsWith;code;WsmSvc.DLL;?StringCchStartsWith@@YGHPBG0@Z (int __stdcall StringCchStartsWith(unsigned short const *,unsigned short const *))
+StringCchStartsWithCI;code;WsmSvc.DLL;?StringCchStartsWithCI@@YGHPBG0@Z (int __stdcall StringCchStartsWithCI(unsigned short const *,unsigned short const *))
 ?StringConcatenate@CWSManResourceNoResourceUri@@IAEHAAPAGAAKKPAG@Z;code;WsmSvc.DLL;
-?StringIsBlank@@YGHPBG@Z;code;WsmSvc.DLL;
+StringIsBlank;code;WsmSvc.DLL;?StringIsBlank@@YGHPBG@Z (int __stdcall StringIsBlank(unsigned short const *))
 ?StringToDword@@YGHPBDPAK@Z;code;WsmSvc.DLL;
 ?StringToDword@@YGHPBGPAK@Z;code;WsmSvc.DLL;
-?StringTrimWhitespace@@YGPAGPAG@Z;code;WsmSvc.DLL;
+StringTrimWhitespace;code;WsmSvc.DLL;?StringTrimWhitespace@@YGPAGPAG@Z (unsigned short * __stdcall StringTrimWhitespace(unsigned short *))
 ?Subscribe@CWSManGroupPolicyManager@@UAEHPAVIRequestContext@@PAVIWSManGroupPolicyObserver@@H@Z;code;WsmSvc.DLL;
 ?TruncateAt@TSTRBUFFER@@QAEXI@Z;code;WsmSvc.DLL;
 ?TryAcquire@CWSManCriticalSection@@QAEHXZ;code;WsmSvc.DLL;
 ?UnSubscribe@CWSManGroupPolicyManager@@UAEHPAVIRequestContext@@PAVIWSManGroupPolicyObserver@@@Z;code;WsmSvc.DLL;
-?UninstallMigration@@YGHPAVIRequestContext@@@Z;code;WsmSvc.DLL;
+UninstallMigration;code;WsmSvc.DLL;?UninstallMigration@@YGHPAVIRequestContext@@@Z (int __stdcall UninstallMigration(class IRequestContext *))
 ?UnregisterChild@ChildLifeTimeManager@@QAEXXZ;code;WsmSvc.DLL;
 ?UnregisterPolicyNotification@CWSManGroupPolicyManager@@AAEHXZ;code;WsmSvc.DLL;
 ?Up@?$LoaderSerializer@VSubscriptionManager@@$01@@AAEJXZ;code;WsmSvc.DLL;
 ?UpdateCredentialsInCredmanStore@CConfigManager@@SGHPAVIRequestContext@@PAG1@Z;code;WsmSvc.DLL;
-?UpdateHttpsBinding@@YGHPAVIRequestContext@@PBG1PAH@Z;code;WsmSvc.DLL;
-?UpdateHttpsCertificate@@YGHPAVIRequestContext@@PBG11PAHHU_GUID@@@Z;code;WsmSvc.DLL;
+UpdateHttpsBinding;code;WsmSvc.DLL;?UpdateHttpsBinding@@YGHPAVIRequestContext@@PBG1PAH@Z (int __stdcall UpdateHttpsBinding(class IRequestContext *,unsigned short const *,unsigned short const *,int *))
+UpdateHttpsCertificate;code;WsmSvc.DLL;?UpdateHttpsCertificate@@YGHPAVIRequestContext@@PBG11PAHHU_GUID@@@Z (int __stdcall UpdateHttpsCertificate(class IRequestContext *,unsigned short const *,unsigned short const *,unsigned short const *,int *,int,struct _GUID))
 ?UpdateKey@CWSManResourceNoResourceUri@@QAEHPAVIRequestContext@@PBG1@Z;code;WsmSvc.DLL;
 ?Uri@CResourceAlias@@QAEPBGXZ;code;WsmSvc.DLL;
 ?UseClientToken@UserRecord@@QAE_NXZ;code;WsmSvc.DLL;
@@ -3469,9 +3485,9 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YGHXZ (int __stdcall StopS
 ?ValidateUrlPrefix@ConfigRegistry@@IAEHPAVIRequestContext@@PBG@Z;code;WsmSvc.DLL;
 ?Verbose@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
 ?VerifyState@RBUFFER@@IBEXXZ;code;WsmSvc.DLL;
-?WSManError@@YGXPBGK0KPAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?WSManMemoryOperation@@YGHW4WSMANMEMOPERATION@@PAXKK@Z;code;WsmSvc.DLL;
-?WSManPostThreadMessageW@@YGHKIIJ@Z;code;WsmSvc.DLL;
+WSManError;code;WsmSvc.DLL;?WSManError@@YGXPBGK0KPAVIRequestContext@@@Z (void __stdcall WSManError(unsigned short const *,unsigned long,unsigned short const *,unsigned long,class IRequestContext *))
+WSManMemoryOperation;code;WsmSvc.DLL;?WSManMemoryOperation@@YGHW4WSMANMEMOPERATION@@PAXKK@Z (int __stdcall WSManMemoryOperation(enum WSMANMEMOPERATION,void *,unsigned long,unsigned long))
+WSManPostThreadMessageW;code;WsmSvc.DLL;?WSManPostThreadMessageW@@YGHKIIJ@Z (int __stdcall WSManPostThreadMessageW(unsigned long,unsigned int,unsigned int,long))
 ?WaitForAllChildrenToUnregister@ChildLifeTimeManager@@QAEXK@Z;code;WsmSvc.DLL;
 ?WaitForConditionVar@CWSManCriticalSectionWithConditionVar@@QAEKK@Z;code;WsmSvc.DLL;
 ?WaitForMore@PacketParser@@UAE_NXZ;code;WsmSvc.DLL;
@@ -3482,7 +3498,7 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YGHXZ (int __stdcall StopS
 ?Warning@EventLog@@SGXKPBG@Z;code;WsmSvc.DLL;
 ?Warning@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
 ?WatchForChanges@CServiceConfigCache@@QAEPAVCServiceWatcher@1@PAVIRequestContext@@PAVIServiceConfigObserver@@@Z;code;WsmSvc.DLL;
-?WrapperCoSetProxyBlanket@@YGJPAUIUnknown@@KKPAGKKPAXKW4BehaviourForNoInterfaceError@@@Z;code;WsmSvc.DLL;
+WrapperCoSetProxyBlanket;code;WsmSvc.DLL;?WrapperCoSetProxyBlanket@@YGJPAUIUnknown@@KKPAGKKPAXKW4BehaviourForNoInterfaceError@@@Z (long __stdcall WrapperCoSetProxyBlanket(struct IUnknown *,unsigned long,unsigned long,unsigned short *,unsigned long,unsigned long,void *,unsigned long,enum BehaviourForNoInterfaceError))
 ?Write@EventHandler@WSMan@@SGXABU_EVENT_DESCRIPTOR@@KPAU_EVENT_DATA_DESCRIPTOR@@@Z;code;WsmSvc.DLL;
 ?WriteCredentialsToCredmanStore@CConfigManager@@SGHPAVIRequestContext@@PAG1H@Z;code;WsmSvc.DLL;
 ?WriteSoapA@EventHandler@WSMan@@SGXABU_EVENT_DESCRIPTOR@@PBDK@Z;code;WsmSvc.DLL;

@@ -74,6 +74,8 @@ WerpSetReportInformation;code;wer.dll;?WerpSetReportInformation@@YGJPAXPBU_WER_R
 WerpSetReportNamespaceParameter;code;wer.dll;?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetReportNamespaceParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
 WerpSetReportTime;code;wer.dll;?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpSetReportTime(void *,struct _FILETIME *))
 WerpSetReportUploadContextToken;code;wer.dll;?WerpSetReportUploadContextToken@@YGJPAX0@Z (long __stdcall WerpSetReportUploadContextToken(void *,void *))
+WerpSetTelemetryAppParams;code;wer.dll;?WerpSetTelemetryAppParams@@YGJPAXPBU_GUID@@PBG2@Z (long __stdcall WerpSetTelemetryAppParams(void *,struct _GUID const *,unsigned short const *,unsigned short const *))
+WerpSetTelemetryKernelParams;code;wer.dll;?WerpSetTelemetryKernelParams@@YGJPAXK@Z (long __stdcall WerpSetTelemetryKernelParams(void *,unsigned long))
 WerpSetTimedTask;code;wer.dll;?WerpSetTimedTask@@YGJH@Z (long __stdcall WerpSetTimedTask(int))
 WerpShowUpsellUI;code;wer.dll;?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z (long __stdcall WerpShowUpsellUI(struct HWND__ *,int *))
 WerpStitchedMinidumpVmPostReadCallback;code;wer.dll;?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z (long __stdcall WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))

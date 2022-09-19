@@ -32,12 +32,6 @@ DsRoleFreeMemory;code;NETAPI32.dll;_DsRoleFreeMemory@4
 DsRoleGetPrimaryDomainInformation;code;NETAPI32.dll;_DsRoleGetPrimaryDomainInformation@12
 DsValidateSubnetNameA;code;NETAPI32.dll;_DsValidateSubnetNameA@4
 DsValidateSubnetNameW;code;NETAPI32.dll;_DsValidateSubnetNameW@4
-I_BrowserDebugTrace;code;NETAPI32.dll;_I_BrowserDebugTrace@8
-I_BrowserQueryOtherDomains;code;NETAPI32.dll;_I_BrowserQueryOtherDomains@16
-I_BrowserQueryStatistics;code;NETAPI32.dll;_I_BrowserQueryStatistics@8
-I_BrowserResetNetlogonState;code;NETAPI32.dll;_I_BrowserResetNetlogonState@4
-I_BrowserResetStatistics;code;NETAPI32.dll;_I_BrowserResetStatistics@4
-I_BrowserServerEnum;code;NETAPI32.dll;_I_BrowserServerEnum@44
 I_NetLogonControl2;code;NETAPI32.dll;_I_NetLogonControl2@20
 I_NetServerPasswordGet;code;NETAPI32.dll;_I_NetServerPasswordGet@28
 I_NetServerPasswordSet2;code;NETAPI32.dll;_I_NetServerPasswordSet2@28

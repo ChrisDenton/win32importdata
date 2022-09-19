@@ -68,6 +68,6 @@ RsopResetPolicySettingStatus;code;USERENV.dll;_RsopResetPolicySettingStatus@12
 RsopSetPolicySettingStatus;code;USERENV.dll;_RsopSetPolicySettingStatus@20
 UnloadUserProfile;code;USERENV.dll;_UnloadUserProfile@8
 UnregisterGPNotification;code;USERENV.dll;_UnregisterGPNotification@4
-_UpdateAppContainerProfile@24;code;USERENV.dll;210
+_UpdateAppContainerProfile@28;code;USERENV.dll;210
 WaitForMachinePolicyForegroundProcessing;code;USERENV.dll;_WaitForMachinePolicyForegroundProcessing@0
 WaitForUserPolicyForegroundProcessing;code;USERENV.dll;_WaitForUserPolicyForegroundProcessing@0

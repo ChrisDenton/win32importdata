@@ -1,6 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
 ClusWorkerStart;code;RESUTILS.dll;?ClusWorkerStart@@YAKPAU_WORK_CONTEXT@@@Z (unsigned long __cdecl ClusWorkerStart(struct _WORK_CONTEXT *))
 CloseClusterCryptProvider;code;RESUTILS.dll;
+ClusAddClusterHealthFault;code;RESUTILS.dll;
+ClusGetClusterHealthFaults;code;RESUTILS.dll;
+ClusRemoveClusterHealthFault;code;RESUTILS.dll;
 ClusWorkerCheckTerminate;code;RESUTILS.dll;
 ClusWorkerCreate;code;RESUTILS.dll;
 ClusWorkerTerminate;code;RESUTILS.dll;
@@ -20,6 +23,10 @@ CreateClusterStorageSpacesClustering;code;RESUTILS.dll;
 CreateClusterStorageSpacesResourceLocator;code;RESUTILS.dll;
 CreateClusterStorageSpacesSubProvider;code;RESUTILS.dll;
 FreeClusterCrypt;code;RESUTILS.dll;
+FreeClusterHealthFault;code;RESUTILS.dll;
+FreeClusterHealthFaultArray;code;RESUTILS.dll;
+InitializeClusterHealthFault;code;RESUTILS.dll;
+InitializeClusterHealthFaultArray;code;RESUTILS.dll;
 OpenClusterCryptProvider;code;RESUTILS.dll;
 ResUtilAddUnknownProperties;code;RESUTILS.dll;
 ResUtilCreateDirectoryTree;code;RESUTILS.dll;

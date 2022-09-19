@@ -12,6 +12,7 @@ LsaApLogonUserEx2;code;msv1_0.dll;_LsaApLogonUserEx2@64
 Msv1_0ExportSubAuthenticationRoutine;code;msv1_0.dll;_Msv1_0ExportSubAuthenticationRoutine@40
 Msv1_0SubAuthenticationPresent;code;msv1_0.dll;_Msv1_0SubAuthenticationPresent@4
 MsvGetLogonAttemptCount;code;msv1_0.dll;_MsvGetLogonAttemptCount@0
+MsvIsIpAddressLocal;code;msv1_0.dll;_MsvIsIpAddressLocal@12
 MsvSamLogoff;code;msv1_0.dll;_MsvSamLogoff@12
 MsvSamValidate;code;msv1_0.dll;_MsvSamValidate@52
 MsvValidateTarget;code;msv1_0.dll;_MsvValidateTarget@12

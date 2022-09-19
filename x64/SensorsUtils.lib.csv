@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+AddMillisecondsToFileTime;code;SensorsUtilsV2.dll;
 CollectionsListAllocateBufferAndSerialize;code;SensorsUtilsV2.dll;
 CollectionsListCopyAndMarshall;code;SensorsUtilsV2.dll;
 CollectionsListDeserializeFromBuffer;code;SensorsUtilsV2.dll;
@@ -17,6 +18,7 @@ ConvertCollectionToLightSensorData;code;SensorsUtilsV2.dll;
 ConvertCollectionToMagnetometerData;code;SensorsUtilsV2.dll;
 ConvertCollectionToOrientationData;code;SensorsUtilsV2.dll;
 ConvertCollectionToProximitySensorData;code;SensorsUtilsV2.dll;
+ConvertFloat3DDataToCollection;code;SensorsUtilsV2.dll;
 ConvertGyroscopeDataToCollection;code;SensorsUtilsV2.dll;
 ConvertLightSensorDataToCollection;code;SensorsUtilsV2.dll;
 ConvertMagnetometerDataToCollection;code;SensorsUtilsV2.dll;
@@ -24,7 +26,10 @@ ConvertOrientationDataToCollection;code;SensorsUtilsV2.dll;
 ConvertProximitySensorDataToCollection;code;SensorsUtilsV2.dll;
 ConvertSimpleOrientationDataToCollection;code;SensorsUtilsV2.dll;
 EvaluateActivityThresholds;code;SensorsUtilsV2.dll;
+GetFileTimeDifference;code;SensorsUtilsV2.dll;
+GetFileTimeFromTimeStamp;code;SensorsUtilsV2.dll;
 GetPerformanceTime;code;SensorsUtilsV2.dll;
+GetTimeStampFromFileTime;code;SensorsUtilsV2.dll;
 InitPropVariantFromFloat;code;SensorsUtilsV2.dll;
 IsCollectionListSame;code;SensorsUtilsV2.dll;
 IsKeyPresentInCollectionList;code;SensorsUtilsV2.dll;

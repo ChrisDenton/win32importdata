@@ -545,6 +545,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0CWSManResourceNoResourceUri@@QEAA@H@Z;code;WsmSvc.DLL;
 ??0CWSManSecurityUI@@QEAA@XZ;code;WsmSvc.DLL;
 ??0CWinRSPluginConfigCache@@AEAA@XZ;code;WsmSvc.DLL;
+??0ChildLifeTimeManager@@QEAA@AEBV0@@Z;code;WsmSvc.DLL;
 ??0ChildLifeTimeManager@@QEAA@XZ;code;WsmSvc.DLL;
 ??0CircularBufferFormatter@@QEAA@XZ;code;WsmSvc.DLL;
 ??0ConfigRegistry@@IEAA@XZ;code;WsmSvc.DLL;
@@ -580,6 +581,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0ShareLock@@QEAA@AEAVFastLock@@@Z;code;WsmSvc.DLL;
 ??0SoapSemanticConverter@@QEAA@XZ;code;WsmSvc.DLL;
 ??0TSTRBUFFER@@QEAA@XZ;code;WsmSvc.DLL;
+??0UserAuthzRecord@@QEAA@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??0UserAuthzRecord@@QEAA@AEBV0@@Z;code;WsmSvc.DLL;
 ??0UserAuthzRecord@@QEAA@XZ;code;WsmSvc.DLL;
 ??0UserRecord@@QEAA@XZ;code;WsmSvc.DLL;
@@ -1302,9 +1304,13 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4?$AutoRelease@VUserRecord@@@@QEAAAEAV0@PEAVUserRecord@@@Z;code;WsmSvc.DLL;
 ??4?$AutoRelease@VWSManHttpListener@@@@QEAAAEAV0@PEAVWSManHttpListener@@@Z;code;WsmSvc.DLL;
 ??4?$AutoReleaseEx@VShell@Client@WSMan@@@@QEAAAEAV0@PEAVShell@Client@WSMan@@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@K@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@K@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@PEAU_FWXML_ELEMENT@@@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@PEAU_FWXML_ELEMENT@@@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@PEBG@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@PEBG@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
+??4?$PacketElement@_K@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4?$PacketElement@_K@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
 ??4?$SimpleQueue@T_LARGE_INTEGER@@@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4AutoBstr@@QEAAAEAV0@PEAG@Z;code;WsmSvc.DLL;
@@ -1326,21 +1332,30 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4ChildLifeTimeManager@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4ConfigRegistry@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4EtwCorrelationHelper@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4EventLog@@QEAAAEAV0@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??4EventLog@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4ExtendedSemantic@@QEAAAEAV0@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??4ExtendedSemantic@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4FastLock@@QEAAAEAV0@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??4FastLock@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4Fragment@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4Fragment@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
 ??4IConfigChangeObserver@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4ILifeTimeMgmt@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4IWSManGroupPolicyObserver@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4IWSManGroupPolicyPublisher@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4Locale@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4NotUnderstandSoapHeader@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4NotUnderstandSoapHeader@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
+??4PacketFormatter@@QEAAAEAV0@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??4PacketFormatter@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??4RBUFFER@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4SBUFFER@@QEAAAEAV0@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??4SBUFFER@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4SessionId@PacketParser@@QEAAAEAV01@$$QEAV01@@Z;code;WsmSvc.DLL;
 ??4SessionId@PacketParser@@QEAAAEAV01@AEBV01@@Z;code;WsmSvc.DLL;
 ??4SoapSemanticConverter@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
+??4UserAuthzRecord@@QEAAAEAV0@$$QEAV0@@Z;code;WsmSvc.DLL;
 ??4UserAuthzRecord@@QEAAAEAV0@AEBV0@@Z;code;WsmSvc.DLL;
 ??6BufferFormatter@@UEAAAEAV0@AEAVBufferFormatterDataFormatDWORD@@@Z;code;WsmSvc.DLL;
 ??6BufferFormatter@@UEAAAEAV0@AEAVBufferFormatterDataFormatULONGLONG@@@Z;code;WsmSvc.DLL;
@@ -1993,7 +2008,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ?ClearKeys@CWSManResourceNoResourceUri@@QEAAHXZ;code;WsmSvc.DLL;
 ?ClearOptions@CWSManResourceNoResourceUri@@QEAAHXZ;code;WsmSvc.DLL;
 ?ClearRegistryKeys@ConfigRegistry@@IEAAHPEAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?ClearSubKeys@@YAHPEAUHKEY__@@PEAVIRequestContext@@@Z;code;WsmSvc.DLL;
+ClearSubKeys;code;WsmSvc.DLL;?ClearSubKeys@@YAHPEAUHKEY__@@PEAVIRequestContext@@@Z (int __cdecl ClearSubKeys(struct HKEY__ *,class IRequestContext *))
 ?CompleteWithErrorContext@CRequestContext@@QEAAXPEAU_WSMAN_PLUGIN_REQUEST@@@Z;code;WsmSvc.DLL;
 ?Confirm@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
 ?Copy@TSTRBUFFER@@QEAAJPEBG@Z;code;WsmSvc.DLL;
@@ -2198,7 +2213,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?Down@?$LoaderSerializer@VSubscriptionManager@@$01@@AEAAJXZ;code;WsmSvc.DLL;
 ?DropData@CircularBufferFormatter@@QEAAXK@Z;code;WsmSvc.DLL;
 ?DuplicateCurrentToken@CSecurity@@SAHPEAPEAXKPEAU_SECURITY_ATTRIBUTES@@W4_SECURITY_IMPERSONATION_LEVEL@@W4_TOKEN_TYPE@@H@Z;code;WsmSvc.DLL;
-?EnableAllPrivileges@@YAHPEAPEAE@Z;code;WsmSvc.DLL;
+EnableAllPrivileges;code;WsmSvc.DLL;?EnableAllPrivileges@@YAHPEAPEAE@Z (int __cdecl EnableAllPrivileges(unsigned char * *))
 ?Encode@PacketFormatter@@QEBAKPEAPEAVPacket@@@Z;code;WsmSvc.DLL;
 ?Encode@PacketFormatter@@QEBAKPEBGKPEAEKPEAPEAEPEAK_N@Z;code;WsmSvc.DLL;
 ?EndOfStream@PacketParser@@QEAAXK@Z;code;WsmSvc.DLL;
@@ -2470,7 +2485,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?GetSecurityDescriptor@CConfigManager@@QEAAHPEAVIRequestContext@@W4ConfigSetting@@PEAPEAXPEAW4WSManConfigSource@@@Z;code;WsmSvc.DLL;
 ?GetSelectorSetXml@PacketParser@@QEAAAEBV?$PacketElement@PEAU_FWXML_ELEMENT@@@1@XZ;code;WsmSvc.DLL;
 ?GetSequenceId@PacketParser@@QEBAAEBV?$PacketElement@_K@1@XZ;code;WsmSvc.DLL;
-?GetServiceCatalog@@YAPEAVCatalog@@XZ;code;WsmSvc.DLL;
+GetServiceCatalog;code;WsmSvc.DLL;?GetServiceCatalog@@YAPEAVCatalog@@XZ (class Catalog * __cdecl GetServiceCatalog(void))
 ?GetSessionId@PacketParser@@QEBAAEBV?$PacketElement@PEBG@1@XZ;code;WsmSvc.DLL;
 ?GetSessionIdGuid@PacketParser@@QEAAAEAU_GUID@@XZ;code;WsmSvc.DLL;
 ?GetSessionIdGuid@SessionId@PacketParser@@QEAAAEAU_GUID@@XZ;code;WsmSvc.DLL;
@@ -2510,7 +2525,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?GrowBuffer@CircularBufferFormatter@@UEAAKK@Z;code;WsmSvc.DLL;
 ?GrowBuffer@CircularBufferFormatter@@UEAAKXZ;code;WsmSvc.DLL;
 ?HandleAutoConfiguredListener@CConfigManager@@QEAAHPEAVIRequestContext@@PEAVLISTENER_IDENTITY@@@Z;code;WsmSvc.DLL;
-?HandleMigration@@YAHPEAVWSManMigrationContext@@@Z;code;WsmSvc.DLL;
+HandleMigration;code;WsmSvc.DLL;?HandleMigration@@YAHPEAVWSManMigrationContext@@@Z (int __cdecl HandleMigration(class WSManMigrationContext *))
 ?HasFaultXML@CRequestContext@@QEBAHXZ;code;WsmSvc.DLL;
 ?HasHtmlError@CRequestContext@@AEBAHXZ;code;WsmSvc.DLL;
 ?HasOption@CWSManResourceNoResourceUri@@QEAAHPEBG@Z;code;WsmSvc.DLL;
@@ -2628,7 +2643,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?IsPolicyControlledSetting@CConfigManager@@QEAAHPEAVIRequestContext@@W4ConfigSetting@@PEAH@Z;code;WsmSvc.DLL;
 ?IsRobustConnectionPacket@PacketParser@@QEBAHXZ;code;WsmSvc.DLL;
 ?IsStreamingEvent@SoapSemanticConverter@@QEAA_NPEAU_FWXML_ELEMENT@@PEAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?IsStringNullOrEmpty@@YAHPEBG@Z;code;WsmSvc.DLL;
+IsStringNullOrEmpty;code;WsmSvc.DLL;?IsStringNullOrEmpty@@YAHPEBG@Z (int __cdecl IsStringNullOrEmpty(unsigned short const *))
 ?IsValid@?$SafeMap@PEAVCListenerOperation@@UEmpty@@V?$SafeSet_Iterator@PEAVCListenerOperation@@@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsValid@?$SafeMap@UPluginKey@@KV?$SafeMap_Iterator@UPluginKey@@K@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsValid@?$SafeMap@VStringKeyCI@@KV?$SafeMap_Iterator@VStringKeyCI@@K@@@@QEBA_NXZ;code;WsmSvc.DLL;
@@ -2860,7 +2875,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?Me@?$AutoCleanup@VAutoRegKey@@PEAUHKEY__@@@@AEAAAEAVAutoRegKey@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoSecurityDescriptor@@PEAX@@AEAAAEAVAutoSecurityDescriptor@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoWaitHandle@@PEAX@@AEAAAEAVAutoWaitHandle@@XZ;code;WsmSvc.DLL;
-?MoveSettingsToMigrationKey@@YAHPEAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
+MoveSettingsToMigrationKey;code;WsmSvc.DLL;?MoveSettingsToMigrationKey@@YAHPEAVIRequestContext@@_N@Z (int __cdecl MoveSettingsToMigrationKey(class IRequestContext *,bool))
 ?NUM_BOMS@PacketFormatter@@0HB;data;WsmSvc.DLL;
 ?NUM_CHARSETS@PacketFormatter@@0HB;data;WsmSvc.DLL;
 ?Next@TSTRBUFFER@@QEBAPEBGPEBG@Z;code;WsmSvc.DLL;
@@ -2920,9 +2935,9 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?PostError@CServiceConfigCache@@EEAAXK@Z;code;WsmSvc.DLL;
 ?PrepareToCommitWithSize@BufferFormatter@@UEAAKK@Z;code;WsmSvc.DLL;
 ?PrepareToCommitWithSize@CircularBufferFormatter@@UEAAKK@Z;code;WsmSvc.DLL;
-?PrintHandleTrace@@YAXPEAX@Z;code;WsmSvc.DLL;
-?PrintReleaseTrace@@YAXPEAXJ@Z;code;WsmSvc.DLL;
-?PrintUnregisterWaitTrace@@YAXPEAX@Z;code;WsmSvc.DLL;
+PrintHandleTrace;code;WsmSvc.DLL;?PrintHandleTrace@@YAXPEAX@Z (void __cdecl PrintHandleTrace(void *))
+PrintReleaseTrace;code;WsmSvc.DLL;?PrintReleaseTrace@@YAXPEAXJ@Z (void __cdecl PrintReleaseTrace(void *,long))
+PrintUnregisterWaitTrace;code;WsmSvc.DLL;?PrintUnregisterWaitTrace@@YAXPEAX@Z (void __cdecl PrintUnregisterWaitTrace(void *))
 ?ProcessContext@CErrorContext@@UEAAHHPEAKPEAU_WSMAN_FAULT_OBJECT@@@Z;code;WsmSvc.DLL;
 ?ProcessContext@CErrorContext@@UEAAHHPEAU_WSMAN_ERROR@@@Z;code;WsmSvc.DLL;
 ?ProcessContext@CRequestContext@@QEAAHHPEAU_WSMAN_ENUMERATOR_RESULT@@@Z;code;WsmSvc.DLL;
@@ -3253,9 +3268,10 @@ RegisterModule;code;WsmSvc.DLL;?RegisterModule@@YAJKPEAVIHttpModuleRegistrationI
 ?Remove@?$SafeMap@_KPEAVSendPacketArgs@RobustConnectionBuffer@@V?$SafeMap_Iterator@_KPEAVSendPacketArgs@RobustConnectionBuffer@@@@@@QEAA_NAEB_K@Z;code;WsmSvc.DLL;
 ?RemoveAll@CBaseConfigCache@@KAXPEAVFastLock@@AEAV?$AutoRelease@VCConfigCacheMap@CBaseConfigCache@@@@@Z;code;WsmSvc.DLL;
 ?RemoveFromMap@CBaseConfigCache@@AEAAHXZ;code;WsmSvc.DLL;
-?RemoveHttpsBinding@@YAXPEBG@Z;code;WsmSvc.DLL;
-?RemoveHttpsCertificate@@YAXPEBG0@Z;code;WsmSvc.DLL;
+RemoveHttpsBinding;code;WsmSvc.DLL;?RemoveHttpsBinding@@YAXPEBG@Z (void __cdecl RemoveHttpsBinding(unsigned short const *))
+RemoveHttpsCertificate;code;WsmSvc.DLL;?RemoveHttpsCertificate@@YAXPEBG0@Z (void __cdecl RemoveHttpsCertificate(unsigned short const *,unsigned short const *))
 ?RemoveObserver@CServiceConfigCache@@AEAAHPEAVIServiceConfigObserver@@@Z;code;WsmSvc.DLL;
+RemovePluginXmlNewAttrForThresholdOrGreater;code;WsmSvc.DLL;?RemovePluginXmlNewAttrForThresholdOrGreater@@YAHPEAVIRequestContext@@@Z (int __cdecl RemovePluginXmlNewAttrForThresholdOrGreater(class IRequestContext *))
 ?ReportEventW@EventLog@@SAXGKGPEAPEBG@Z;code;WsmSvc.DLL;
 ?Reset@?$PacketElement@K@PacketParser@@QEAAX_N@Z;code;WsmSvc.DLL;
 ?Reset@?$PacketElement@PEAU_FWXML_ELEMENT@@@PacketParser@@QEAAX_N@Z;code;WsmSvc.DLL;
@@ -3287,14 +3303,14 @@ RegisterModule;code;WsmSvc.DLL;?RegisterModule@@YAJKPEAVIHttpModuleRegistrationI
 ?Resize@RBUFFER@@QEAAHI@Z;code;WsmSvc.DLL;
 ?Resize@RBUFFER@@QEAAHII@Z;code;WsmSvc.DLL;
 ?ResizeOptionList@CWSManResourceNoResourceUri@@IEAA_NIAEAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?RestoreAllPrivileges@@YAHPEAU_TOKEN_PRIVILEGES@@@Z;code;WsmSvc.DLL;
+RestoreAllPrivileges;code;WsmSvc.DLL;?RestoreAllPrivileges@@YAHPEAU_TOKEN_PRIVILEGES@@@Z (int __cdecl RestoreAllPrivileges(struct _TOKEN_PRIVILEGES *))
 ?RetrieveCertMappingIdentity@CConfigManager@@AEAAHPEAUHKEY__@@PEAVCERTMAPPING_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RetrieveListenerIdentity@CConfigManager@@AEAAHPEAUHKEY__@@PEAGPEAPEAGPEAVLISTENER_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RetrieveShellUriIdentity@CConfigManager@@AEAAHPEAUHKEY__@@PEAVSHELLURI_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RetrieveTableIdentity@CConfigManager@@AEAAHPEAUHKEY__@@PEAVWSMANCONFIGTABLE_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?RevertToSelf@CSecurity@@SAHXZ;code;WsmSvc.DLL;
 ?RtlSecureZeroMemory@XmlReader@@QEAAXXZ;code;WsmSvc.DLL;
-?SafeStringToUI64@@YAJPEBGEHPEA_KPEAVIRequestContext@@K@Z;code;WsmSvc.DLL;
+SafeStringToUI64;code;WsmSvc.DLL;?SafeStringToUI64@@YAJPEBGEHPEA_KPEAVIRequestContext@@K@Z (long __cdecl SafeStringToUI64(unsigned short const *,unsigned char,int,unsigned __int64 *,class IRequestContext *,unsigned long))
 ?SetBOM@PacketFormatter@@QEAA_NPEAVPacket@@@Z;code;WsmSvc.DLL;
 ?SetBOM@PacketFormatter@@QEAA_NPEBEK@Z;code;WsmSvc.DLL;
 ?SetCIM_Error@CErrorContext@@UEAAXXZ;code;WsmSvc.DLL;
@@ -3428,27 +3444,27 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YAHXZ (int __cdecl StopSoa
 ?StoreDataFromResourceLocator@CWSManResource@@AEAAHPEAVIRequestContext@@PEAU_WSMAN_RESOURCE_LOCATOR@@@Z;code;WsmSvc.DLL;
 ?StoreExpansion@CResourceAlias@@AEAAXPEBGPEAU_ALIAS_INFORMATION@@@Z;code;WsmSvc.DLL;
 ?StreamingOutput@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
-?StringCchEndsWithCI@@YAHPEBG0@Z;code;WsmSvc.DLL;
-?StringCchEquals@@YAHPEBG0@Z;code;WsmSvc.DLL;
-?StringCchEqualsCI@@YAHPEBG0@Z;code;WsmSvc.DLL;
-?StringCchStartsWith@@YAHPEBG0@Z;code;WsmSvc.DLL;
-?StringCchStartsWithCI@@YAHPEBG0@Z;code;WsmSvc.DLL;
+StringCchEndsWithCI;code;WsmSvc.DLL;?StringCchEndsWithCI@@YAHPEBG0@Z (int __cdecl StringCchEndsWithCI(unsigned short const *,unsigned short const *))
+StringCchEquals;code;WsmSvc.DLL;?StringCchEquals@@YAHPEBG0@Z (int __cdecl StringCchEquals(unsigned short const *,unsigned short const *))
+StringCchEqualsCI;code;WsmSvc.DLL;?StringCchEqualsCI@@YAHPEBG0@Z (int __cdecl StringCchEqualsCI(unsigned short const *,unsigned short const *))
+StringCchStartsWith;code;WsmSvc.DLL;?StringCchStartsWith@@YAHPEBG0@Z (int __cdecl StringCchStartsWith(unsigned short const *,unsigned short const *))
+StringCchStartsWithCI;code;WsmSvc.DLL;?StringCchStartsWithCI@@YAHPEBG0@Z (int __cdecl StringCchStartsWithCI(unsigned short const *,unsigned short const *))
 ?StringConcatenate@CWSManResourceNoResourceUri@@IEAAHAEAPEAGAEAKKPEAG@Z;code;WsmSvc.DLL;
-?StringIsBlank@@YAHPEBG@Z;code;WsmSvc.DLL;
+StringIsBlank;code;WsmSvc.DLL;?StringIsBlank@@YAHPEBG@Z (int __cdecl StringIsBlank(unsigned short const *))
 ?StringToDword@@YAHPEBDPEAK@Z;code;WsmSvc.DLL;
 ?StringToDword@@YAHPEBGPEAK@Z;code;WsmSvc.DLL;
-?StringTrimWhitespace@@YAPEAGPEAG@Z;code;WsmSvc.DLL;
+StringTrimWhitespace;code;WsmSvc.DLL;?StringTrimWhitespace@@YAPEAGPEAG@Z (unsigned short * __cdecl StringTrimWhitespace(unsigned short *))
 ?Subscribe@CWSManGroupPolicyManager@@UEAAHPEAVIRequestContext@@PEAVIWSManGroupPolicyObserver@@H@Z;code;WsmSvc.DLL;
 ?TruncateAt@TSTRBUFFER@@QEAAXI@Z;code;WsmSvc.DLL;
 ?TryAcquire@CWSManCriticalSection@@QEAAHXZ;code;WsmSvc.DLL;
 ?UnSubscribe@CWSManGroupPolicyManager@@UEAAHPEAVIRequestContext@@PEAVIWSManGroupPolicyObserver@@@Z;code;WsmSvc.DLL;
-?UninstallMigration@@YAHPEAVIRequestContext@@@Z;code;WsmSvc.DLL;
+UninstallMigration;code;WsmSvc.DLL;?UninstallMigration@@YAHPEAVIRequestContext@@@Z (int __cdecl UninstallMigration(class IRequestContext *))
 ?UnregisterChild@ChildLifeTimeManager@@QEAAXXZ;code;WsmSvc.DLL;
 ?UnregisterPolicyNotification@CWSManGroupPolicyManager@@AEAAHXZ;code;WsmSvc.DLL;
 ?Up@?$LoaderSerializer@VSubscriptionManager@@$01@@AEAAJXZ;code;WsmSvc.DLL;
 ?UpdateCredentialsInCredmanStore@CConfigManager@@SAHPEAVIRequestContext@@PEAG1@Z;code;WsmSvc.DLL;
-?UpdateHttpsBinding@@YAHPEAVIRequestContext@@PEBG1PEAH@Z;code;WsmSvc.DLL;
-?UpdateHttpsCertificate@@YAHPEAVIRequestContext@@PEBG11PEAHHU_GUID@@@Z;code;WsmSvc.DLL;
+UpdateHttpsBinding;code;WsmSvc.DLL;?UpdateHttpsBinding@@YAHPEAVIRequestContext@@PEBG1PEAH@Z (int __cdecl UpdateHttpsBinding(class IRequestContext *,unsigned short const *,unsigned short const *,int *))
+UpdateHttpsCertificate;code;WsmSvc.DLL;?UpdateHttpsCertificate@@YAHPEAVIRequestContext@@PEBG11PEAHHU_GUID@@@Z (int __cdecl UpdateHttpsCertificate(class IRequestContext *,unsigned short const *,unsigned short const *,unsigned short const *,int *,int,struct _GUID))
 ?UpdateKey@CWSManResourceNoResourceUri@@QEAAHPEAVIRequestContext@@PEBG1@Z;code;WsmSvc.DLL;
 ?Uri@CResourceAlias@@QEAAPEBGXZ;code;WsmSvc.DLL;
 ?UseClientToken@UserRecord@@QEAA_NXZ;code;WsmSvc.DLL;
@@ -3469,9 +3485,9 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YAHXZ (int __cdecl StopSoa
 ?ValidateUrlPrefix@ConfigRegistry@@IEAAHPEAVIRequestContext@@PEBG@Z;code;WsmSvc.DLL;
 ?Verbose@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
 ?VerifyState@RBUFFER@@IEBAXXZ;code;WsmSvc.DLL;
-?WSManError@@YAXPEBGK0KPEAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?WSManMemoryOperation@@YAHW4WSMANMEMOPERATION@@PEAXKK@Z;code;WsmSvc.DLL;
-?WSManPostThreadMessageW@@YAHKI_K_J@Z;code;WsmSvc.DLL;
+WSManError;code;WsmSvc.DLL;?WSManError@@YAXPEBGK0KPEAVIRequestContext@@@Z (void __cdecl WSManError(unsigned short const *,unsigned long,unsigned short const *,unsigned long,class IRequestContext *))
+WSManMemoryOperation;code;WsmSvc.DLL;?WSManMemoryOperation@@YAHW4WSMANMEMOPERATION@@PEAXKK@Z (int __cdecl WSManMemoryOperation(enum WSMANMEMOPERATION,void *,unsigned long,unsigned long))
+WSManPostThreadMessageW;code;WsmSvc.DLL;?WSManPostThreadMessageW@@YAHKI_K_J@Z (int __cdecl WSManPostThreadMessageW(unsigned long,unsigned int,unsigned __int64,__int64))
 ?WaitForAllChildrenToUnregister@ChildLifeTimeManager@@QEAAXK@Z;code;WsmSvc.DLL;
 ?WaitForConditionVar@CWSManCriticalSectionWithConditionVar@@QEAAKK@Z;code;WsmSvc.DLL;
 ?WaitForMore@PacketParser@@UEAA_NXZ;code;WsmSvc.DLL;
@@ -3482,7 +3498,7 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YAHXZ (int __cdecl StopSoa
 ?Warning@EventLog@@SAXKPEBG@Z;code;WsmSvc.DLL;
 ?Warning@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
 ?WatchForChanges@CServiceConfigCache@@QEAAPEAVCServiceWatcher@1@PEAVIRequestContext@@PEAVIServiceConfigObserver@@@Z;code;WsmSvc.DLL;
-?WrapperCoSetProxyBlanket@@YAJPEAUIUnknown@@KKPEAGKKPEAXKW4BehaviourForNoInterfaceError@@@Z;code;WsmSvc.DLL;
+WrapperCoSetProxyBlanket;code;WsmSvc.DLL;?WrapperCoSetProxyBlanket@@YAJPEAUIUnknown@@KKPEAGKKPEAXKW4BehaviourForNoInterfaceError@@@Z (long __cdecl WrapperCoSetProxyBlanket(struct IUnknown *,unsigned long,unsigned long,unsigned short *,unsigned long,unsigned long,void *,unsigned long,enum BehaviourForNoInterfaceError))
 ?Write@EventHandler@WSMan@@SAXAEBU_EVENT_DESCRIPTOR@@KPEAU_EVENT_DATA_DESCRIPTOR@@@Z;code;WsmSvc.DLL;
 ?WriteCredentialsToCredmanStore@CConfigManager@@SAHPEAVIRequestContext@@PEAG1H@Z;code;WsmSvc.DLL;
 ?WriteSoapA@EventHandler@WSMan@@SAXAEBU_EVENT_DESCRIPTOR@@PEBDK@Z;code;WsmSvc.DLL;

@@ -24,6 +24,7 @@ RtwqRegisterPlatformWithMMCSS;code;RTWorkQ.DLL;
 RtwqRemovePeriodicCallback;code;RTWorkQ.DLL;
 RtwqScheduleWorkItem;code;RTWorkQ.DLL;
 RtwqSetDeadline;code;RTWorkQ.DLL;
+RtwqSetDeadline2;code;RTWorkQ.DLL;
 RtwqSetLongRunning;code;RTWorkQ.DLL;
 RtwqShutdown;code;RTWorkQ.DLL;
 RtwqStartup;code;RTWorkQ.DLL;

@@ -3,11 +3,13 @@ ActivateKeyboardLayout;code;USER32.dll;_ActivateKeyboardLayout@8
 AddClipboardFormatListener;code;USER32.dll;_AddClipboardFormatListener@4
 AdjustWindowRect;code;USER32.dll;_AdjustWindowRect@12
 AdjustWindowRectEx;code;USER32.dll;_AdjustWindowRectEx@16
+AdjustWindowRectExForDpi;code;USER32.dll;_AdjustWindowRectExForDpi@20
 AllowSetForegroundWindow;code;USER32.dll;_AllowSetForegroundWindow@4
 AnimateWindow;code;USER32.dll;_AnimateWindow@12
 AnyPopup;code;USER32.dll;_AnyPopup@0
 AppendMenuA;code;USER32.dll;_AppendMenuA@16
 AppendMenuW;code;USER32.dll;_AppendMenuW@16
+AreDpiAwarenessContextsEqual;code;USER32.dll;_AreDpiAwarenessContextsEqual@8
 ArrangeIconicWindows;code;USER32.dll;_ArrangeIconicWindows@4
 AttachThreadInput;code;USER32.dll;_AttachThreadInput@12
 BeginDeferWindowPos;code;USER32.dll;_BeginDeferWindowPos@4
@@ -188,6 +190,7 @@ EditWndProc;code;USER32.dll;_EditWndProc@16
 EmptyClipboard;code;USER32.dll;_EmptyClipboard@0
 EnableMenuItem;code;USER32.dll;_EnableMenuItem@12
 EnableMouseInPointer;code;USER32.dll;_EnableMouseInPointer@4
+EnableNonClientDpiScaling;code;USER32.dll;_EnableNonClientDpiScaling@4
 EnableScrollBar;code;USER32.dll;_EnableScrollBar@12
 EnableSessionForMMCSS;code;USER32.dll;_EnableSessionForMMCSS@4
 EnableWindow;code;USER32.dll;_EnableWindow@8
@@ -237,6 +240,7 @@ GetAltTabInfoW;code;USER32.dll;_GetAltTabInfoW@20
 GetAncestor;code;USER32.dll;_GetAncestor@8
 GetAsyncKeyState;code;USER32.dll;_GetAsyncKeyState@4
 GetAutoRotationState;code;USER32.dll;_GetAutoRotationState@4
+GetAwarenessFromDpiAwarenessContext;code;USER32.dll;_GetAwarenessFromDpiAwarenessContext@4
 GetCIMSSM;code;USER32.dll;_GetCIMSSM@4
 GetCapture;code;USER32.dll;_GetCapture@0
 GetCaretBlinkTime;code;USER32.dll;_GetCaretBlinkTime@0
@@ -275,6 +279,8 @@ GetDlgItemInt;code;USER32.dll;_GetDlgItemInt@16
 GetDlgItemTextA;code;USER32.dll;_GetDlgItemTextA@16
 GetDlgItemTextW;code;USER32.dll;_GetDlgItemTextW@16
 GetDoubleClickTime;code;USER32.dll;_GetDoubleClickTime@0
+GetDpiForSystem;code;USER32.dll;_GetDpiForSystem@0
+GetDpiForWindow;code;USER32.dll;_GetDpiForWindow@4
 GetFocus;code;USER32.dll;_GetFocus@0
 GetForegroundWindow;code;USER32.dll;_GetForegroundWindow@0
 GetGUIThreadInfo;code;USER32.dll;_GetGUIThreadInfo@8
@@ -372,9 +378,11 @@ GetSysColor;code;USER32.dll;_GetSysColor@4
 GetSysColorBrush;code;USER32.dll;_GetSysColorBrush@4
 GetSystemMenu;code;USER32.dll;_GetSystemMenu@8
 GetSystemMetrics;code;USER32.dll;_GetSystemMetrics@4
+GetSystemMetricsForDpi;code;USER32.dll;_GetSystemMetricsForDpi@8
 GetTabbedTextExtentA;code;USER32.dll;_GetTabbedTextExtentA@20
 GetTabbedTextExtentW;code;USER32.dll;_GetTabbedTextExtentW@20
 GetThreadDesktop;code;USER32.dll;_GetThreadDesktop@4
+GetThreadDpiAwarenessContext;code;USER32.dll;_GetThreadDpiAwarenessContext@0
 GetTitleBarInfo;code;USER32.dll;_GetTitleBarInfo@8
 GetTopWindow;code;USER32.dll;_GetTopWindow@4
 GetTouchInputInfo;code;USER32.dll;_GetTouchInputInfo@16
@@ -389,6 +397,7 @@ GetWindow;code;USER32.dll;_GetWindow@8
 GetWindowContextHelpId;code;USER32.dll;_GetWindowContextHelpId@4
 GetWindowDC;code;USER32.dll;_GetWindowDC@4
 GetWindowDisplayAffinity;code;USER32.dll;_GetWindowDisplayAffinity@8
+GetWindowDpiAwarenessContext;code;USER32.dll;_GetWindowDpiAwarenessContext@4
 GetWindowFeedbackSetting;code;USER32.dll;_GetWindowFeedbackSetting@20
 GetWindowInfo;code;USER32.dll;_GetWindowInfo@8
 GetWindowLongA;code;USER32.dll;_GetWindowLongA@8
@@ -420,6 +429,7 @@ ImpersonateDdeClientWindow;code;USER32.dll;_ImpersonateDdeClientWindow@8
 InSendMessage;code;USER32.dll;_InSendMessage@0
 InSendMessageEx;code;USER32.dll;_InSendMessageEx@4
 InflateRect;code;USER32.dll;_InflateRect@12
+InheritWindowMonitor;code;USER32.dll;_InheritWindowMonitor@8
 InitializeTouchInjection;code;USER32.dll;_InitializeTouchInjection@8
 InjectTouchInput;code;USER32.dll;_InjectTouchInput@8
 InsertMenuA;code;USER32.dll;_InsertMenuA@20
@@ -455,9 +465,9 @@ IsMouseInPointerEnabled;code;USER32.dll;_IsMouseInPointerEnabled@0
 IsProcessDPIAware;code;USER32.dll;_IsProcessDPIAware@0
 IsRectEmpty;code;USER32.dll;_IsRectEmpty@4
 IsTouchWindow;code;USER32.dll;_IsTouchWindow@8
+IsValidDpiAwarenessContext;code;USER32.dll;_IsValidDpiAwarenessContext@4
 IsWinEventHookInstalled;code;USER32.dll;_IsWinEventHookInstalled@4
 IsWindow;code;USER32.dll;_IsWindow@4
-IsWindowBroadcastingDpiToChildren;code;USER32.dll;_IsWindowBroadcastingDpiToChildren@4
 IsWindowEnabled;code;USER32.dll;_IsWindowEnabled@4
 IsWindowUnicode;code;USER32.dll;_IsWindowUnicode@4
 IsWindowVisible;code;USER32.dll;_IsWindowVisible@4
@@ -649,6 +659,7 @@ SetShellWindow;code;USER32.dll;_SetShellWindow@4
 SetSysColors;code;USER32.dll;_SetSysColors@12
 SetSystemCursor;code;USER32.dll;_SetSystemCursor@8
 SetThreadDesktop;code;USER32.dll;_SetThreadDesktop@4
+SetThreadDpiAwarenessContext;code;USER32.dll;_SetThreadDpiAwarenessContext@4
 SetTimer;code;USER32.dll;_SetTimer@16
 SetUserObjectInformationA;code;USER32.dll;_SetUserObjectInformationA@16
 SetUserObjectInformationW;code;USER32.dll;_SetUserObjectInformationW@16
@@ -686,6 +697,7 @@ SwapMouseButton;code;USER32.dll;_SwapMouseButton@4
 SwitchDesktop;code;USER32.dll;_SwitchDesktop@4
 SwitchToThisWindow;code;USER32.dll;_SwitchToThisWindow@8
 SystemParametersInfoA;code;USER32.dll;_SystemParametersInfoA@16
+SystemParametersInfoForDpi;code;USER32.dll;_SystemParametersInfoForDpi@20
 SystemParametersInfoW;code;USER32.dll;_SystemParametersInfoW@16
 TabbedTextOutA;code;USER32.dll;_TabbedTextOutA@32
 TabbedTextOutW;code;USER32.dll;_TabbedTextOutW@32

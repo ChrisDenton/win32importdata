@@ -67,4 +67,6 @@ SceSvcSetInformationTemplate;code;SCECLI.dll;_SceSvcSetInformationTemplate@16
 SceSvcUpdateInfo;code;SCECLI.dll;_SceSvcUpdateInfo@12
 SceUpdateObjectInfo;code;SCECLI.dll;_SceUpdateObjectInfo@36
 SceUpdateSecurityProfile;code;SCECLI.dll;_SceUpdateSecurityProfile@16
+SceWrapperExportSecurityProfile;code;SCECLI.dll;_SceWrapperExportSecurityProfile@4
+SceWrapperImportSecurityProfile;code;SCECLI.dll;_SceWrapperImportSecurityProfile@4
 SceWriteSecurityProfileInfo;code;SCECLI.dll;_SceWriteSecurityProfileInfo@16

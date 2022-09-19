@@ -38,6 +38,7 @@ PowerDeterminePlatformRole;code;POWRPROF.dll;
 PowerDeterminePlatformRoleEx;code;POWRPROF.dll;
 PowerDuplicateScheme;code;POWRPROF.dll;
 PowerEnumerate;code;POWRPROF.dll;
+PowerGeneralizePlatformSettings;code;POWRPROF.dll;
 PowerGetActiveScheme;code;POWRPROF.dll;
 PowerImportPowerScheme;code;POWRPROF.dll;
 PowerIsSettingRangeDefined;code;POWRPROF.dll;

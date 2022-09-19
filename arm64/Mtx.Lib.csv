@@ -1,4 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-GetObjectContext;code;mtxex.dll;?GetObjectContext@@YAJPEAPEAUIObjectContext@@@Z (long __cdecl GetObjectContext(struct IObjectContext * *))
-SafeRef;code;mtxex.dll;?SafeRef@CViperASObject@@UEAAJUtagVARIANT@@PEAU2@@Z (public: virtual long __cdecl CViperASObject::SafeRef(struct tagVARIANT,struct tagVARIANT *))
+GetObjectContext;code;mtxex.dll;
 MTSCreateActivity;code;mtxex.dll;
+SafeRef;code;mtxex.dll;

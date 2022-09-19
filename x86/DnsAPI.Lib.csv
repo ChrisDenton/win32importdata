@@ -47,6 +47,7 @@ DnsDhcpSrvRegisterHostAddrEx;code;DNSAPI.dll;_DnsDhcpSrvRegisterHostAddrEx@4
 DnsDhcpSrvRegisterHostName;code;DNSAPI.dll;_DnsDhcpSrvRegisterHostName@48
 DnsDhcpSrvRegisterHostNameEx;code;DNSAPI.dll;_DnsDhcpSrvRegisterHostNameEx@60
 DnsDhcpSrvRegisterInit;code;DNSAPI.dll;_DnsDhcpSrvRegisterInit@8
+DnsDhcpSrvRegisterInitEx;code;DNSAPI.dll;_DnsDhcpSrvRegisterInitEx@12
 DnsDhcpSrvRegisterInitialize;code;DNSAPI.dll;_DnsDhcpSrvRegisterInitialize@4
 DnsDhcpSrvRegisterTerm;code;DNSAPI.dll;_DnsDhcpSrvRegisterTerm@0
 DnsDisableIdnEncoding;code;DNSAPI.dll;_DnsDisableIdnEncoding@8
@@ -204,7 +205,7 @@ HostsFile_ReadLine;code;DNSAPI.dll;_HostsFile_ReadLine@4
 IpHelp_IsAddrOnLink;code;DNSAPI.dll;_IpHelp_IsAddrOnLink@4
 Local_GetRecordsForLocalName;code;DNSAPI.dll;_Local_GetRecordsForLocalName@8
 Local_GetRecordsForLocalNameEx;code;DNSAPI.dll;_Local_GetRecordsForLocalNameEx@20
-NetInfo_Build;code;DNSAPI.dll;_NetInfo_Build@4
+NetInfo_Build;code;DNSAPI.dll;_NetInfo_Build@8
 NetInfo_Clean;code;DNSAPI.dll;_NetInfo_Clean@8
 NetInfo_Copy;code;DNSAPI.dll;_NetInfo_Copy@4
 NetInfo_CopyNetworkIndex;code;DNSAPI.dll;_NetInfo_CopyNetworkIndex@8
@@ -250,3 +251,4 @@ Socket_TcpListen;code;DNSAPI.dll;_Socket_TcpListen@4
 Trace_Reset;code;DNSAPI.dll;_Trace_Reset@0
 Update_ReplaceAddressRecordsW;code;DNSAPI.dll;_Update_ReplaceAddressRecordsW@20
 Util_IsIp6Running;code;DNSAPI.dll;_Util_IsIp6Running@0
+Util_IsRunningOnXboxOne;code;DNSAPI.dll;_Util_IsRunningOnXboxOne@0

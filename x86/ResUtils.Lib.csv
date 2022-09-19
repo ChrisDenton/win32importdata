@@ -1,6 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
 ClusWorkerStart;code;RESUTILS.dll;?ClusWorkerStart@@YGKPAU_WORK_CONTEXT@@@Z (unsigned long __stdcall ClusWorkerStart(struct _WORK_CONTEXT *))
 CloseClusterCryptProvider;code;RESUTILS.dll;_CloseClusterCryptProvider@4
+ClusAddClusterHealthFault;code;RESUTILS.dll;_ClusAddClusterHealthFault@12
+ClusGetClusterHealthFaults;code;RESUTILS.dll;_ClusGetClusterHealthFaults@12
+ClusRemoveClusterHealthFault;code;RESUTILS.dll;_ClusRemoveClusterHealthFault@12
 ClusWorkerCheckTerminate;code;RESUTILS.dll;_ClusWorkerCheckTerminate@4
 ClusWorkerCreate;code;RESUTILS.dll;_ClusWorkerCreate@12
 ClusWorkerTerminate;code;RESUTILS.dll;_ClusWorkerTerminate@4
@@ -20,6 +23,10 @@ CreateClusterStorageSpacesClustering;code;RESUTILS.dll;_CreateClusterStorageSpac
 CreateClusterStorageSpacesResourceLocator;code;RESUTILS.dll;_CreateClusterStorageSpacesResourceLocator@4
 CreateClusterStorageSpacesSubProvider;code;RESUTILS.dll;_CreateClusterStorageSpacesSubProvider@8
 FreeClusterCrypt;code;RESUTILS.dll;_FreeClusterCrypt@4
+FreeClusterHealthFault;code;RESUTILS.dll;_FreeClusterHealthFault@4
+FreeClusterHealthFaultArray;code;RESUTILS.dll;_FreeClusterHealthFaultArray@4
+InitializeClusterHealthFault;code;RESUTILS.dll;_InitializeClusterHealthFault@4
+InitializeClusterHealthFaultArray;code;RESUTILS.dll;_InitializeClusterHealthFaultArray@4
 OpenClusterCryptProvider;code;RESUTILS.dll;_OpenClusterCryptProvider@16
 ResUtilAddUnknownProperties;code;RESUTILS.dll;_ResUtilAddUnknownProperties@24
 ResUtilCreateDirectoryTree;code;RESUTILS.dll;_ResUtilCreateDirectoryTree@4

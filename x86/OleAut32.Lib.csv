@@ -54,6 +54,7 @@ _RegisterTypeLib@12;code;OLEAUT32.dll;163
 _RegisterTypeLibForUser@12;code;OLEAUT32.dll;442
 _RevokeActiveObject@8;code;OLEAUT32.dll;34
 _SafeArrayAccessData@8;code;OLEAUT32.dll;23
+SafeArrayAddRef;code;OLEAUT32.dll;_SafeArrayAddRef@8
 _SafeArrayAllocData@4;code;OLEAUT32.dll;37
 _SafeArrayAllocDescriptor@8;code;OLEAUT32.dll;36
 _SafeArrayAllocDescriptorEx@12;code;OLEAUT32.dll;41
@@ -78,6 +79,8 @@ _SafeArrayLock@4;code;OLEAUT32.dll;21
 _SafeArrayPtrOfIndex@12;code;OLEAUT32.dll;148
 _SafeArrayPutElement@12;code;OLEAUT32.dll;26
 _SafeArrayRedim@8;code;OLEAUT32.dll;40
+SafeArrayReleaseData;code;OLEAUT32.dll;_SafeArrayReleaseData@4
+SafeArrayReleaseDescriptor;code;OLEAUT32.dll;_SafeArrayReleaseDescriptor@4
 _SafeArraySetIID@8;code;OLEAUT32.dll;57
 _SafeArraySetRecordInfo@8;code;OLEAUT32.dll;44
 _SafeArrayUnaccessData@4;code;OLEAUT32.dll;24
@@ -85,12 +88,14 @@ _SafeArrayUnlock@4;code;OLEAUT32.dll;22
 _SetErrorInfo@8;code;OLEAUT32.dll;201
 _SetOaNoCache;code;OLEAUT32.dll;327
 _SetVarConversionLocaleSetting@4;code;OLEAUT32.dll;325
+SysAddRefString;code;OLEAUT32.dll;_SysAddRefString@4
 _SysAllocString@4;code;OLEAUT32.dll;2
 _SysAllocStringByteLen@8;code;OLEAUT32.dll;150
 _SysAllocStringLen@8;code;OLEAUT32.dll;4
 _SysFreeString@4;code;OLEAUT32.dll;6
 _SysReAllocString@8;code;OLEAUT32.dll;3
 _SysReAllocStringLen@12;code;OLEAUT32.dll;5
+SysReleaseString;code;OLEAUT32.dll;_SysReleaseString@4
 _SysStringByteLen@4;code;OLEAUT32.dll;149
 _SysStringLen@4;code;OLEAUT32.dll;7
 _SystemTimeToVariantTime@8;code;OLEAUT32.dll;184

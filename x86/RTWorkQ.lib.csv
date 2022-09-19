@@ -23,6 +23,7 @@ RtwqRegisterPlatformEvents;code;RTWorkQ.DLL;_RtwqRegisterPlatformEvents@4
 RtwqRegisterPlatformWithMMCSS;code;RTWorkQ.DLL;_RtwqRegisterPlatformWithMMCSS@12
 RtwqRemovePeriodicCallback;code;RTWorkQ.DLL;_RtwqRemovePeriodicCallback@4
 RtwqScheduleWorkItem;code;RTWorkQ.DLL;_RtwqScheduleWorkItem@16
+RtwqSetDeadline2;code;RTWorkQ.DLL;_RtwqSetDeadline2@24
 RtwqSetDeadline;code;RTWorkQ.DLL;_RtwqSetDeadline@16
 RtwqSetLongRunning;code;RTWorkQ.DLL;_RtwqSetLongRunning@8
 RtwqShutdown;code;RTWorkQ.DLL;_RtwqShutdown@0

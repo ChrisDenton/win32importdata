@@ -79,6 +79,7 @@ D3DKMTChangeVideoMemoryReservation;code;GDI32.dll;_D3DKMTChangeVideoMemoryReserv
 D3DKMTCheckExclusiveOwnership;code;GDI32.dll;_D3DKMTCheckExclusiveOwnership@0
 D3DKMTCheckMonitorPowerState;code;GDI32.dll;_D3DKMTCheckMonitorPowerState@4
 D3DKMTCheckMultiPlaneOverlaySupport2;code;GDI32.dll;_D3DKMTCheckMultiPlaneOverlaySupport2@4
+D3DKMTCheckMultiPlaneOverlaySupport3;code;GDI32.dll;_D3DKMTCheckMultiPlaneOverlaySupport3@4
 D3DKMTCheckMultiPlaneOverlaySupport;code;GDI32.dll;_D3DKMTCheckMultiPlaneOverlaySupport@4
 D3DKMTCheckOcclusion;code;GDI32.dll;_D3DKMTCheckOcclusion@4
 D3DKMTCheckSharedResourceAccess;code;GDI32.dll;_D3DKMTCheckSharedResourceAccess@4
@@ -171,10 +172,13 @@ D3DKMTPinDirectFlipResources;code;GDI32.dll;_D3DKMTPinDirectFlipResources@4
 D3DKMTPollDisplayChildren;code;GDI32.dll;_D3DKMTPollDisplayChildren@4
 D3DKMTPresent;code;GDI32.dll;_D3DKMTPresent@4
 D3DKMTPresentMultiPlaneOverlay2;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay2@4
+D3DKMTPresentMultiPlaneOverlay3;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay3@4
 D3DKMTPresentMultiPlaneOverlay;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay@4
 D3DKMTQueryAdapterInfo;code;GDI32.dll;_D3DKMTQueryAdapterInfo@4
 D3DKMTQueryAllocationResidency;code;GDI32.dll;_D3DKMTQueryAllocationResidency@4
 D3DKMTQueryClockCalibration;code;GDI32.dll;_D3DKMTQueryClockCalibration@4
+D3DKMTQueryFSEBlock;code;GDI32.dll;_D3DKMTQueryFSEBlock@4
+D3DKMTQueryProcessOfferInfo;code;GDI32.dll;_D3DKMTQueryProcessOfferInfo@4
 D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName;code;GDI32.dll;_D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName@4
 D3DKMTQueryResourceInfo;code;GDI32.dll;_D3DKMTQueryResourceInfo@4
 D3DKMTQueryResourceInfoFromNtHandle;code;GDI32.dll;_D3DKMTQueryResourceInfoFromNtHandle@4
@@ -196,6 +200,7 @@ D3DKMTSetContextSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextSchedulingPri
 D3DKMTSetDisplayMode;code;GDI32.dll;_D3DKMTSetDisplayMode@4
 D3DKMTSetDisplayPrivateDriverFormat;code;GDI32.dll;_D3DKMTSetDisplayPrivateDriverFormat@4
 D3DKMTSetDodIndirectSwapchain;code;GDI32.dll;_D3DKMTSetDodIndirectSwapchain@4
+D3DKMTSetFSEBlock;code;GDI32.dll;_D3DKMTSetFSEBlock@4
 D3DKMTSetGammaRamp;code;GDI32.dll;_D3DKMTSetGammaRamp@4
 D3DKMTSetHwProtectionTeardownRecovery;code;GDI32.dll;_D3DKMTSetHwProtectionTeardownRecovery@4
 D3DKMTSetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityClass@8
@@ -215,10 +220,12 @@ D3DKMTSignalSynchronizationObjectFromCpu;code;GDI32.dll;_D3DKMTSignalSynchroniza
 D3DKMTSignalSynchronizationObjectFromGpu2;code;GDI32.dll;_D3DKMTSignalSynchronizationObjectFromGpu2@4
 D3DKMTSignalSynchronizationObjectFromGpu;code;GDI32.dll;_D3DKMTSignalSynchronizationObjectFromGpu@4
 D3DKMTSubmitCommand;code;GDI32.dll;_D3DKMTSubmitCommand@4
+D3DKMTTrimProcessCommitment;code;GDI32.dll;_D3DKMTTrimProcessCommitment@4
 D3DKMTUnlock2;code;GDI32.dll;_D3DKMTUnlock2@4
 D3DKMTUnlock;code;GDI32.dll;_D3DKMTUnlock@4
 D3DKMTUnpinDirectFlipResources;code;GDI32.dll;_D3DKMTUnpinDirectFlipResources@4
 D3DKMTUnregisterTrimNotification;code;GDI32.dll;_D3DKMTUnregisterTrimNotification@4
+D3DKMTUpdateAllocationProperty;code;GDI32.dll;_D3DKMTUpdateAllocationProperty@4
 D3DKMTUpdateGpuVirtualAddress;code;GDI32.dll;_D3DKMTUpdateGpuVirtualAddress@4
 D3DKMTUpdateOverlay;code;GDI32.dll;_D3DKMTUpdateOverlay@4
 D3DKMTWaitForIdle;code;GDI32.dll;_D3DKMTWaitForIdle@4
@@ -238,6 +245,7 @@ DescribePixelFormat;code;GDI32.dll;_DescribePixelFormat@16
 DeviceCapabilitiesExA;code;GDI32.dll;_DeviceCapabilitiesExA@24
 DeviceCapabilitiesExW;code;GDI32.dll;_DeviceCapabilitiesExW@24
 DrawEscape;code;GDI32.dll;_DrawEscape@16
+DxTrimNotificationListHead;data;GDI32.dll;_DxTrimNotificationListHead
 Ellipse;code;GDI32.dll;_Ellipse@20
 EnableEUDC;code;GDI32.dll;_EnableEUDC@4
 EndDoc;code;GDI32.dll;_EndDoc@4
@@ -273,8 +281,10 @@ FixBrushOrgEx;code;GDI32.dll;_FixBrushOrgEx@16
 FlattenPath;code;GDI32.dll;_FlattenPath@4
 FloodFill;code;GDI32.dll;_FloodFill@16
 FrameRgn;code;GDI32.dll;_FrameRgn@20
+Gdi32DllInitialize;code;GDI32.dll;_Gdi32DllInitialize@12
 GdiAlphaBlend;code;GDI32.dll;_GdiAlphaBlend@44
 GdiArtificialDecrementDriver;code;GDI32.dll;_GdiArtificialDecrementDriver@8
+GdiBatchLimit;data;GDI32.dll;_GdiBatchLimit
 GdiComment;code;GDI32.dll;_GdiComment@12
 GdiDeleteSpoolFileHandle;code;GDI32.dll;_GdiDeleteSpoolFileHandle@4
 GdiEndDocEMF;code;GDI32.dll;_GdiEndDocEMF@4
@@ -416,7 +426,10 @@ InvertRgn;code;GDI32.dll;_InvertRgn@8
 LPtoDP;code;GDI32.dll;_LPtoDP@12
 LineDDA;code;GDI32.dll;_LineDDA@24
 LineTo;code;GDI32.dll;_LineTo@12
+LpkEditControl;code;GDI32.dll;_LpkEditControl
+LpkpEditControlSize;data;GDI32.dll;_LpkpEditControlSize
 MaskBlt;code;GDI32.dll;_MaskBlt@48
+ModerncoreGdiInit;code;GDI32.dll;_ModerncoreGdiInit@0
 ModifyWorldTransform;code;GDI32.dll;_ModifyWorldTransform@12
 MoveToEx;code;GDI32.dll;_MoveToEx@16
 OffsetClipRgn;code;GDI32.dll;_OffsetClipRgn@12
@@ -533,4 +546,12 @@ UpdateColors;code;GDI32.dll;_UpdateColors@4
 UpdateICMRegKeyA;code;GDI32.dll;_UpdateICMRegKeyA@16
 UpdateICMRegKeyW;code;GDI32.dll;_UpdateICMRegKeyW@16
 WidenPath;code;GDI32.dll;_WidenPath@4
+fpClosePrinter;data;GDI32.dll;_fpClosePrinter
+gMaxGdiHandleCount;data;GDI32.dll;_gMaxGdiHandleCount
+gW32PID;data;GDI32.dll;_gW32PID
 gdiPlaySpoolStream;code;GDI32.dll;_gdiPlaySpoolStream@24
+ghICM;data;GDI32.dll;_ghICM
+pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps
+pGdiSharedHandleTable;data;GDI32.dll;_pGdiSharedHandleTable
+pGdiSharedMemory;data;GDI32.dll;_pGdiSharedMemory
+semDxTrimNotification;data;GDI32.dll;_semDxTrimNotification

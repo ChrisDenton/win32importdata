@@ -29,4 +29,3 @@ WSLicenseUninstallLicense;code;WSClient.dll;
 WSNotifyOOBECompletion;code;WSClient.dll;
 WSNotifyPackageInstalled;code;WSClient.dll;
 WSTriggerOOBEFileValidation;code;WSClient.dll;
-g_bPrintFromClientDLL;data;WSClient.dll;

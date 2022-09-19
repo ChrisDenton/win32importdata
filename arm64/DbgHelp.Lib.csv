@@ -1,6 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
 SymFreeDiaString;code;dbghelp.dll;?SymFreeDiaString@@YAXPEAG@Z (void __cdecl SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;dbghelp.dll;?SymGetDiaSession@@YAHPEAX_KPEAPEAUIDiaSession@@@Z (int __cdecl SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+SymGetLineFromAddrEx;code;dbghelp.dll;?SymGetLineFromAddrEx@@YAHPEAX_KPEBGPEAKPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromAddrEx(void *,unsigned __int64,unsigned short const *,unsigned long *,struct _IMAGEHLP_LINE64 *))
+SymGetLineFromNameEx;code;dbghelp.dll;?SymGetLineFromNameEx@@YAHPEAXPEBD1KPEBGPEAJPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromNameEx(void *,char const *,char const *,unsigned long,unsigned short const *,long *,struct _IMAGEHLP_LINE64 *))
+SymGetLineNextEx;code;dbghelp.dll;?SymGetLineNextEx@@YAHPEAXPEBGPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineNextEx(void *,unsigned short const *,struct _IMAGEHLP_LINE64 *))
+SymGetLinePrevEx;code;dbghelp.dll;?SymGetLinePrevEx@@YAHPEAXPEBGPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLinePrevEx(void *,unsigned short const *,struct _IMAGEHLP_LINE64 *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YAX_KK@Z (void __cdecl _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;
 DbgHelpCreateUserDumpW;code;dbghelp.dll;

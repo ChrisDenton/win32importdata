@@ -1,6 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
 RasHandleDiagnostics;code;RASDLG.dll;?RasHandleDiagnostics@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall RasHandleDiagnostics(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
-DwTerminalDlg;code;RASDLG.dll;_DwTerminalDlg@20
 GetRasDialOutProtocols;code;RASDLG.dll;_GetRasDialOutProtocols@0
 RasAutodialQueryDlgA;code;RASDLG.dll;_RasAutodialQueryDlgA@20
 RasAutodialQueryDlgW;code;RASDLG.dll;_RasAutodialQueryDlgW@20

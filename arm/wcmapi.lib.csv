@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+DusmSetAttributionMapping;code;wcmapi.dll;
 WcmBeginIgnoreProfileList;code;wcmapi.dll;
 WcmCancelOnDemandRequest;code;wcmapi.dll;
 WcmCloseHandle;code;wcmapi.dll;
@@ -12,6 +13,7 @@ WcmExitNetQuiet;code;wcmapi.dll;
 WcmFreeMemory;code;wcmapi.dll;
 WcmGetInterfaceToken;code;wcmapi.dll;
 WcmGetProfileList;code;wcmapi.dll;
+WcmGetProfileListByPurpose;code;wcmapi.dll;
 WcmGetProfileListForInterfaceGuid;code;wcmapi.dll;
 WcmOpenHandle;code;wcmapi.dll;
 WcmOpenOnDemandRequestHandle;code;wcmapi.dll;

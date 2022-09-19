@@ -1,4 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
+GetFeatureEnabledState;code;api-ms-win-core-featurestaging-l1-1-0.dll;
+RecordFeatureError;code;api-ms-win-core-featurestaging-l1-1-0.dll;
+RecordFeatureUsage;code;api-ms-win-core-featurestaging-l1-1-0.dll;
+SubscribeFeatureStateChangeNotification;code;api-ms-win-core-featurestaging-l1-1-0.dll;
+UnsubscribeFeatureStateChangeNotification;code;api-ms-win-core-featurestaging-l1-1-0.dll;
 GetDpiForMonitor;code;api-ms-win-shcore-scaling-l1-1-2.dll;
 GetDpiForShellUIComponent;code;api-ms-win-shcore-scaling-l1-1-2.dll;
 GetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-2.dll;

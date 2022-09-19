@@ -97,12 +97,14 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4ParsedObjectPath@@QAAAAU0@ABU0@@Z;code;framedynos.dll;
 ??4Provider@@QAAAAV0@ABV0@@Z;code;framedynos.dll;
 ??4ProviderLog@@QAAAAV0@ABV0@@Z;code;framedynos.dll;
+??4WBEMTime@@QAAAAV0@$$QAV0@@Z;code;framedynos.dll;
 ??4WBEMTime@@QAAAAV0@ABV0@@Z;code;framedynos.dll;
 ??4WBEMTime@@QAAABV0@ABJ@Z;code;framedynos.dll;
 ??4WBEMTime@@QAAABV0@ABU_FILETIME@@@Z;code;framedynos.dll;
 ??4WBEMTime@@QAAABV0@ABU_SYSTEMTIME@@@Z;code;framedynos.dll;
 ??4WBEMTime@@QAAABV0@ABUtm@@@Z;code;framedynos.dll;
 ??4WBEMTime@@QAAABV0@QAG@Z;code;framedynos.dll;
+??4WBEMTimeSpan@@QAAAAV0@$$QAV0@@Z;code;framedynos.dll;
 ??4WBEMTimeSpan@@QAAAAV0@ABV0@@Z;code;framedynos.dll;
 ??4WBEMTimeSpan@@QAAABV0@ABJ@Z;code;framedynos.dll;
 ??4WBEMTimeSpan@@QAAABV0@ABU_FILETIME@@@Z;code;framedynos.dll;

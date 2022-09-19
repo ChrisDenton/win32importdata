@@ -7,6 +7,7 @@ GenerateMediaEvent;code;MMDevAPI.DLL;12
 GetClassFromEndpointId;code;MMDevAPI.DLL;7
 GetEndpointGuidFromEndpointId;code;MMDevAPI.DLL;8
 GetEndpointIdFromDeviceInterfaceId;code;MMDevAPI.DLL;18
+GetNeverSetAsDefaultProperty;code;MMDevAPI.DLL;16
 GetSessionIdFromEndpointId;code;MMDevAPI.DLL;9
 InitializeDeviceAPI;code;MMDevAPI.DLL;3
 MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4

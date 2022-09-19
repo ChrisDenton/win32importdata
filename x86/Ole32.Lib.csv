@@ -337,6 +337,7 @@ OleDuplicateData;code;ole32.dll;_OleDuplicateData@12
 OleFlushClipboard;code;ole32.dll;_OleFlushClipboard@0
 OleGetAutoConvert;code;ole32.dll;_OleGetAutoConvert@8
 OleGetClipboard;code;ole32.dll;_OleGetClipboard@4
+OleGetClipboardWithEnterpriseInfo;code;ole32.dll;_OleGetClipboardWithEnterpriseInfo@20
 OleGetIconOfClass;code;ole32.dll;_OleGetIconOfClass@12
 OleGetIconOfFile;code;ole32.dll;_OleGetIconOfFile@8
 OleIconToCursorExt;code;ole32.dll;_OleIconToCursorExt@8

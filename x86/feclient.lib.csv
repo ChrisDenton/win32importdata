@@ -1,5 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 EfsUtilGetCurrentKey;code;FeClient.dll;
+EdpAllowFileAccessForProcess;code;FeClient.dll;_EdpAllowFileAccessForProcess@12
 EdpContainerizeFile;code;FeClient.dll;_EdpContainerizeFile@20
 EdpCredentialCreate;code;FeClient.dll;_EdpCredentialCreate@16
 EdpCredentialDelete;code;FeClient.dll;_EdpCredentialDelete@20
@@ -7,6 +8,7 @@ EdpCredentialExists;code;FeClient.dll;_EdpCredentialExists@16
 EdpCredentialQuery;code;FeClient.dll;_EdpCredentialQuery@16
 EdpDecontainerizeFile;code;FeClient.dll;_EdpDecontainerizeFile@12
 EdpDplPolicyEnabledForUser;code;FeClient.dll;_EdpDplPolicyEnabledForUser@8
+EdpDplStartCredServiceIfDplEnabledForUser;code;FeClient.dll;_EdpDplStartCredServiceIfDplEnabledForUser@4
 EdpDplUpgradePinInfo;code;FeClient.dll;_EdpDplUpgradePinInfo@16
 EdpDplUpgradeVerifyUser;code;FeClient.dll;_EdpDplUpgradeVerifyUser@16
 EdpDplUserCredentialsSet;code;FeClient.dll;_EdpDplUserCredentialsSet@16
@@ -25,8 +27,10 @@ EfsClientDecryptFile;code;FeClient.dll;_EfsClientDecryptFile@8
 EfsClientDuplicateEncryptionInfo;code;FeClient.dll;_EfsClientDuplicateEncryptionInfo@20
 EfsClientEncryptFileEx;code;FeClient.dll;_EfsClientEncryptFileEx@8
 EfsClientFileEncryptionStatus;code;FeClient.dll;_EfsClientFileEncryptionStatus@8
+EfsClientFreeKeyInfo;code;FeClient.dll;_EfsClientFreeKeyInfo@4
 EfsClientFreeProtectorList;code;FeClient.dll;_EfsClientFreeProtectorList@4
 EfsClientGetEncryptedFileVersion;code;FeClient.dll;_EfsClientGetEncryptedFileVersion@12
+EfsClientGetKeyInfo;code;FeClient.dll;_EfsClientGetKeyInfo@12
 EfsClientOpenFileRaw;code;FeClient.dll;_EfsClientOpenFileRaw@12
 EfsClientQueryProtectors;code;FeClient.dll;_EfsClientQueryProtectors@8
 EfsClientReadFileRaw;code;FeClient.dll;_EfsClientReadFileRaw@12

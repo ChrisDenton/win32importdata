@@ -272,7 +272,8 @@ JetPatchDatabasePagesA;code;ESENT.dll;_JetPatchDatabasePagesA@28
 JetPatchDatabasePagesW;code;ESENT.dll;_JetPatchDatabasePagesW@28
 JetPrepareToCommitTransaction;code;ESENT.dll;_JetPrepareToCommitTransaction@16
 JetPrepareUpdate;code;ESENT.dll;_JetPrepareUpdate@12
-JetPrereadIndexRange;code;ESENT.dll;_JetPrereadIndexRange@24
+JetPrereadColumnsByReference;code;ESENT.dll;_JetPrereadColumnsByReference@36
+JetPrereadIndexRange;code;ESENT.dll;_JetPrereadIndexRange@28
 JetPrereadIndexRanges;code;ESENT.dll;_JetPrereadIndexRanges@32
 JetPrereadKeys;code;ESENT.dll;_JetPrereadKeys@28
 JetPrereadTablesW;code;ESENT.dll;_JetPrereadTablesW@20
@@ -301,6 +302,8 @@ JetRestoreInstanceA;code;ESENT.dll;_JetRestoreInstanceA@16
 JetRestoreInstanceW;code;ESENT.dll;_JetRestoreInstanceW@16
 JetRestoreW;code;ESENT.dll;_JetRestoreW@8
 JetRetrieveColumn;code;ESENT.dll;_JetRetrieveColumn@32
+JetRetrieveColumnByReference;code;ESENT.dll;_JetRetrieveColumnByReference@36
+JetRetrieveColumnFromRecordStream;code;ESENT.dll;_JetRetrieveColumnFromRecordStream@28
 JetRetrieveColumns;code;ESENT.dll;_JetRetrieveColumns@16
 JetRetrieveKey;code;ESENT.dll;_JetRetrieveKey@24
 JetRetrieveTaggedColumnList;code;ESENT.dll;_JetRetrieveTaggedColumnList@28
@@ -349,6 +352,7 @@ JetStopBackupInstance;code;ESENT.dll;_JetStopBackupInstance@4
 JetStopService;code;ESENT.dll;_JetStopService@0
 JetStopServiceInstance2;code;ESENT.dll;_JetStopServiceInstance2@8
 JetStopServiceInstance;code;ESENT.dll;_JetStopServiceInstance@4
+JetStreamRecords;code;ESENT.dll;_JetStreamRecords@32
 JetTerm2;code;ESENT.dll;_JetTerm2@8
 JetTerm;code;ESENT.dll;_JetTerm@4
 JetTestHook;code;ESENT.dll;_JetTestHook@8

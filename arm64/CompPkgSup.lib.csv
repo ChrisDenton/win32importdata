@@ -3,4 +3,5 @@ AreDvdCodecsEnabled;code;CompPkgSup.DLL;
 GetServerForPMP;code;CompPkgSup.DLL;
 InstantiateComponentFromPackage;code;CompPkgSup.DLL;
 RegisterServerForPMP;code;CompPkgSup.DLL;
+RequireNetworkDuringMediaTaskCompletion;code;CompPkgSup.DLL;
 UnregisterServerForPMP;code;CompPkgSup.DLL;

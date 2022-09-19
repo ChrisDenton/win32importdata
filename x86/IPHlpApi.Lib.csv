@@ -72,6 +72,7 @@ GetBestRoute2;code;IPHLPAPI.DLL;_GetBestRoute2@28
 GetBestRoute;code;IPHLPAPI.DLL;_GetBestRoute@12
 GetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentId@0
 GetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentScope@8
+GetDefaultCompartmentId;code;IPHLPAPI.DLL;_GetDefaultCompartmentId@0
 GetExtendedTcpTable;code;IPHLPAPI.DLL;_GetExtendedTcpTable@24
 GetExtendedUdpTable;code;IPHLPAPI.DLL;_GetExtendedUdpTable@24
 GetFriendlyIfIndex;code;IPHLPAPI.DLL;_GetFriendlyIfIndex@4

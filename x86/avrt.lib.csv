@@ -16,6 +16,6 @@ AvSetMmThreadCharacteristicsA;code;AVRT.dll;_AvSetMmThreadCharacteristicsA@8
 AvSetMmThreadCharacteristicsW;code;AVRT.dll;_AvSetMmThreadCharacteristicsW@8
 AvSetMmThreadPriority;code;AVRT.dll;_AvSetMmThreadPriority@8
 AvSetMultimediaMode;code;AVRT.dll;_AvSetMultimediaMode@8
-AvTaskIndexYield;code;AVRT.dll;_AvTaskIndexYield@8
+AvTaskIndexYield;code;AVRT.dll;_AvTaskIndexYield@12
 AvTaskIndexYieldCancel;code;AVRT.dll;_AvTaskIndexYieldCancel@4
 AvThreadOpenTaskIndex;code;AVRT.dll;_AvThreadOpenTaskIndex@4

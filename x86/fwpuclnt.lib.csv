@@ -79,8 +79,10 @@ FwpmNetEventDestroyEnumHandle0;code;fwpuclnt.dll;_FwpmNetEventDestroyEnumHandle0
 FwpmNetEventEnum0;code;fwpuclnt.dll;_FwpmNetEventEnum0@20
 FwpmNetEventEnum1;code;fwpuclnt.dll;_FwpmNetEventEnum1@20
 FwpmNetEventEnum2;code;fwpuclnt.dll;_FwpmNetEventEnum2@20
+FwpmNetEventEnum3;code;fwpuclnt.dll;_FwpmNetEventEnum3@20
 FwpmNetEventSubscribe0;code;fwpuclnt.dll;_FwpmNetEventSubscribe0@20
 FwpmNetEventSubscribe1;code;fwpuclnt.dll;_FwpmNetEventSubscribe1@20
+FwpmNetEventSubscribe2;code;fwpuclnt.dll;_FwpmNetEventSubscribe2@20
 FwpmNetEventSubscriptionsGet0;code;fwpuclnt.dll;_FwpmNetEventSubscriptionsGet0@12
 FwpmNetEventUnsubscribe0;code;fwpuclnt.dll;_FwpmNetEventUnsubscribe0@8
 FwpmNetEventsGetSecurityInfo0;code;fwpuclnt.dll;_FwpmNetEventsGetSecurityInfo0@28
