@@ -43,7 +43,6 @@ BuildCommDCBW;code;KERNEL32.dll;_BuildCommDCBW@8
 CallNamedPipeA;code;KERNEL32.dll;_CallNamedPipeA@28
 CallNamedPipeW;code;KERNEL32.dll;_CallNamedPipeW@28
 CallbackMayRunLong;code;KERNEL32.dll;_CallbackMayRunLong@4
-CalloutOnFiberStack;code;KERNEL32.dll;_CalloutOnFiberStack@12
 CancelDeviceWakeupRequest;code;KERNEL32.dll;_CancelDeviceWakeupRequest@4
 CancelIo;code;KERNEL32.dll;_CancelIo@4
 CancelIoEx;code;KERNEL32.dll;_CancelIoEx@8
@@ -105,6 +104,7 @@ CreateDirectoryExW;code;KERNEL32.dll;_CreateDirectoryExW@12
 CreateDirectoryTransactedA;code;KERNEL32.dll;_CreateDirectoryTransactedA@16
 CreateDirectoryTransactedW;code;KERNEL32.dll;_CreateDirectoryTransactedW@16
 CreateDirectoryW;code;KERNEL32.dll;_CreateDirectoryW@8
+CreateEnclave;code;KERNEL32.dll;_CreateEnclave@32
 CreateEventA;code;KERNEL32.dll;_CreateEventA@16
 CreateEventExA;code;KERNEL32.dll;_CreateEventExA@16
 CreateEventExW;code;KERNEL32.dll;_CreateEventExW@16
@@ -721,6 +721,7 @@ InitializeContext;code;KERNEL32.dll;_InitializeContext@16
 InitializeCriticalSection;code;KERNEL32.dll;_InitializeCriticalSection@4
 InitializeCriticalSectionAndSpinCount;code;KERNEL32.dll;_InitializeCriticalSectionAndSpinCount@8
 InitializeCriticalSectionEx;code;KERNEL32.dll;_InitializeCriticalSectionEx@12
+InitializeEnclave;code;KERNEL32.dll;_InitializeEnclave@20
 InitializeProcThreadAttributeList;code;KERNEL32.dll;_InitializeProcThreadAttributeList@16
 InitializeSListHead;code;KERNEL32.dll;_InitializeSListHead@4
 InitializeSRWLock;code;KERNEL32.dll;_InitializeSRWLock@4
@@ -746,6 +747,7 @@ IsBadWritePtr;code;KERNEL32.dll;_IsBadWritePtr@8
 IsDBCSLeadByte;code;KERNEL32.dll;_IsDBCSLeadByte@4
 IsDBCSLeadByteEx;code;KERNEL32.dll;_IsDBCSLeadByteEx@8
 IsDebuggerPresent;code;KERNEL32.dll;_IsDebuggerPresent@0
+IsEnclaveTypeSupported;code;KERNEL32.dll;_IsEnclaveTypeSupported@4
 IsNLSDefinedString;code;KERNEL32.dll;_IsNLSDefinedString@20
 IsNativeVhdBoot;code;KERNEL32.dll;_IsNativeVhdBoot@4
 IsNormalizedString;code;KERNEL32.dll;_IsNormalizedString@12
@@ -795,6 +797,7 @@ LCMapStringW;code;KERNEL32.dll;_LCMapStringW@24
 LeaveCriticalSection;code;KERNEL32.dll;_LeaveCriticalSection@4
 LeaveCriticalSectionWhenCallbackReturns;code;KERNEL32.dll;_LeaveCriticalSectionWhenCallbackReturns@8
 LoadAppInitDlls;code;KERNEL32.dll;_LoadAppInitDlls@0
+LoadEnclaveData;code;KERNEL32.dll;_LoadEnclaveData@36
 LoadLibraryA;code;KERNEL32.dll;_LoadLibraryA@4
 LoadLibraryExA;code;KERNEL32.dll;_LoadLibraryExA@12
 LoadLibraryExW;code;KERNEL32.dll;_LoadLibraryExW@12

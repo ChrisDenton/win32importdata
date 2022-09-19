@@ -177,8 +177,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0?$AutoCleanup@VAutoChainContext@@PEBU_CERT_CHAIN_CONTEXT@@@@QEAA@XZ;code;WsmSvc.DLL;
 ??0?$AutoCleanup@VAutoCoTaskMemFree@@PEAX@@QEAA@PEAX@Z;code;WsmSvc.DLL;
 ??0?$AutoCleanup@VAutoCoTaskMemFree@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
-??0?$AutoCleanup@VAutoEnvironmentBlock@@PEAX@@QEAA@PEAX@Z;code;WsmSvc.DLL;
-??0?$AutoCleanup@VAutoEnvironmentBlock@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
 ??0?$AutoCleanup@VAutoFwXmlCloseParser@@PEAX@@QEAA@PEAX@Z;code;WsmSvc.DLL;
 ??0?$AutoCleanup@VAutoFwXmlCloseParser@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
 ??0?$AutoCleanup@VAutoHandle@@PEAX@@QEAA@PEAX@Z;code;WsmSvc.DLL;
@@ -506,8 +504,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0AutoChainContext@@QEAA@XZ;code;WsmSvc.DLL;
 ??0AutoCoTaskMemFree@@QEAA@PEAX@Z;code;WsmSvc.DLL;
 ??0AutoCoTaskMemFree@@QEAA@XZ;code;WsmSvc.DLL;
-??0AutoEnvironmentBlock@@QEAA@PEAX@Z;code;WsmSvc.DLL;
-??0AutoEnvironmentBlock@@QEAA@XZ;code;WsmSvc.DLL;
 ??0AutoFwXmlCloseParser@@QEAA@PEAX@Z;code;WsmSvc.DLL;
 ??0AutoFwXmlCloseParser@@QEAA@XZ;code;WsmSvc.DLL;
 ??0AutoHandle@@QEAA@PEAX@Z;code;WsmSvc.DLL;
@@ -754,7 +750,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1?$AutoCleanup@VAutoCertContext@@PEBU_CERT_CONTEXT@@@@QEAA@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@VAutoChainContext@@PEBU_CERT_CHAIN_CONTEXT@@@@QEAA@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@VAutoCoTaskMemFree@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
-??1?$AutoCleanup@VAutoEnvironmentBlock@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@VAutoFwXmlCloseParser@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@VAutoHandle@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@VAutoImpersonateUser@@PEAX@@QEAA@XZ;code;WsmSvc.DLL;
@@ -1067,7 +1062,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1AutoCertContext@@QEAA@XZ;code;WsmSvc.DLL;
 ??1AutoChainContext@@QEAA@XZ;code;WsmSvc.DLL;
 ??1AutoCoTaskMemFree@@QEAA@XZ;code;WsmSvc.DLL;
-??1AutoEnvironmentBlock@@QEAA@XZ;code;WsmSvc.DLL;
 ??1AutoFwXmlCloseParser@@QEAA@XZ;code;WsmSvc.DLL;
 ??1AutoHandle@@QEAA@XZ;code;WsmSvc.DLL;
 ??1AutoImpersonateUser@@QEAA@XZ;code;WsmSvc.DLL;
@@ -1211,7 +1205,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4?$AutoCleanup@VAutoCertContext@@PEBU_CERT_CONTEXT@@@@QEAAAEAVAutoCertContext@@PEBU_CERT_CONTEXT@@@Z;code;WsmSvc.DLL;
 ??4?$AutoCleanup@VAutoChainContext@@PEBU_CERT_CHAIN_CONTEXT@@@@QEAAAEAVAutoChainContext@@PEBU_CERT_CHAIN_CONTEXT@@@Z;code;WsmSvc.DLL;
 ??4?$AutoCleanup@VAutoCoTaskMemFree@@PEAX@@QEAAAEAVAutoCoTaskMemFree@@PEAX@Z;code;WsmSvc.DLL;
-??4?$AutoCleanup@VAutoEnvironmentBlock@@PEAX@@QEAAAEAVAutoEnvironmentBlock@@PEAX@Z;code;WsmSvc.DLL;
 ??4?$AutoCleanup@VAutoFwXmlCloseParser@@PEAX@@QEAAAEAVAutoFwXmlCloseParser@@PEAX@Z;code;WsmSvc.DLL;
 ??4?$AutoCleanup@VAutoHandle@@PEAX@@QEAAAEAVAutoHandle@@PEAX@Z;code;WsmSvc.DLL;
 ??4?$AutoCleanup@VAutoImpersonateUser@@PEAX@@QEAAAEAVAutoImpersonateUser@@PEAX@Z;code;WsmSvc.DLL;
@@ -1319,7 +1312,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??4AutoCertContext@@QEAAAEAV0@PEBU_CERT_CONTEXT@@@Z;code;WsmSvc.DLL;
 ??4AutoChainContext@@QEAAAEAV0@PEBU_CERT_CHAIN_CONTEXT@@@Z;code;WsmSvc.DLL;
 ??4AutoCoTaskMemFree@@QEAAAEAV0@PEAX@Z;code;WsmSvc.DLL;
-??4AutoEnvironmentBlock@@QEAAAEAV0@PEAX@Z;code;WsmSvc.DLL;
 ??4AutoFwXmlCloseParser@@QEAAAEAV0@PEAX@Z;code;WsmSvc.DLL;
 ??4AutoHandle@@QEAAAEAV0@PEAX@Z;code;WsmSvc.DLL;
 ??4AutoImpersonateUser@@QEAAAEAV0@PEAX@Z;code;WsmSvc.DLL;
@@ -2857,7 +2849,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YAPEAXPEAUHWND__@@PEAK1PEAJ@Z (v
 ?Me@?$AutoCleanup@VAutoCertContext@@PEBU_CERT_CONTEXT@@@@AEAAAEAVAutoCertContext@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoChainContext@@PEBU_CERT_CHAIN_CONTEXT@@@@AEAAAEAVAutoChainContext@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoCoTaskMemFree@@PEAX@@AEAAAEAVAutoCoTaskMemFree@@XZ;code;WsmSvc.DLL;
-?Me@?$AutoCleanup@VAutoEnvironmentBlock@@PEAX@@AEAAAEAVAutoEnvironmentBlock@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoFwXmlCloseParser@@PEAX@@AEAAAEAVAutoFwXmlCloseParser@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoHandle@@PEAX@@AEAAAEAVAutoHandle@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@VAutoImpersonateUser@@PEAX@@AEAAAEAVAutoImpersonateUser@@XZ;code;WsmSvc.DLL;
@@ -3240,7 +3231,6 @@ RegisterModule;code;WsmSvc.DLL;?RegisterModule@@YAJKPEAVIHttpModuleRegistrationI
 ?ReleasePtr@?$AutoCleanup@VAutoCertContext@@PEBU_CERT_CONTEXT@@@@AEAAXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@VAutoChainContext@@PEBU_CERT_CHAIN_CONTEXT@@@@AEAAXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@VAutoCoTaskMemFree@@PEAX@@AEAAXXZ;code;WsmSvc.DLL;
-?ReleasePtr@?$AutoCleanup@VAutoEnvironmentBlock@@PEAX@@AEAAXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@VAutoFwXmlCloseParser@@PEAX@@AEAAXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@VAutoHandle@@PEAX@@AEAAXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@VAutoImpersonateUser@@PEAX@@AEAAXXZ;code;WsmSvc.DLL;
@@ -3506,6 +3496,7 @@ StopSoapProcessor;code;WsmSvc.DLL;?StopSoapProcessor@@YAHXZ (int __cdecl StopSoa
 ?empty@?$SimpleQueue@T_LARGE_INTEGER@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?front@?$SimpleQueue@T_LARGE_INTEGER@@@@QEBA?BT_LARGE_INTEGER@@XZ;code;WsmSvc.DLL;
 ?g_Resources@Locale@@0V?$Loader@VResources@Locale@@$0A@@@A;data;WsmSvc.DLL;
+?isValid@?$SafeSet@PEAVCListenerOperation@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?pop@?$SimpleQueue@T_LARGE_INTEGER@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?push@?$SimpleQueue@T_LARGE_INTEGER@@@@QEAAKT_LARGE_INTEGER@@@Z;code;WsmSvc.DLL;
 ?s_cacheMap@CClientConfigCache@@0V?$AutoRelease@VCConfigCacheMap@CBaseConfigCache@@@@A;data;WsmSvc.DLL;

@@ -229,6 +229,7 @@ NtContinue;code;ntdll.dll;_NtContinue@8
 NtCreateDebugObject;code;ntdll.dll;_NtCreateDebugObject@16
 NtCreateDirectoryObject;code;ntdll.dll;_NtCreateDirectoryObject@12
 NtCreateDirectoryObjectEx;code;ntdll.dll;_NtCreateDirectoryObjectEx@20
+NtCreateEnclave;code;ntdll.dll;_NtCreateEnclave@36
 NtCreateEnlistment;code;ntdll.dll;_NtCreateEnlistment@32
 NtCreateEvent;code;ntdll.dll;_NtCreateEvent@20
 NtCreateEventPair;code;ntdll.dll;_NtCreateEventPair@12
@@ -245,7 +246,7 @@ NtCreateMailslotFile;code;ntdll.dll;_NtCreateMailslotFile@32
 NtCreateMutant;code;ntdll.dll;_NtCreateMutant@16
 NtCreateNamedPipeFile;code;ntdll.dll;_NtCreateNamedPipeFile@56
 NtCreatePagingFile;code;ntdll.dll;_NtCreatePagingFile@16
-NtCreatePartition;code;ntdll.dll;_NtCreatePartition@20
+NtCreatePartition;code;ntdll.dll;_NtCreatePartition@16
 NtCreatePort;code;ntdll.dll;_NtCreatePort@20
 NtCreatePrivateNamespace;code;ntdll.dll;_NtCreatePrivateNamespace@16
 NtCreateProcess;code;ntdll.dll;_NtCreateProcess@32
@@ -330,6 +331,7 @@ NtGetWriteWatch;code;ntdll.dll;_NtGetWriteWatch@28
 NtImpersonateAnonymousToken;code;ntdll.dll;_NtImpersonateAnonymousToken@4
 NtImpersonateClientOfPort;code;ntdll.dll;_NtImpersonateClientOfPort@8
 NtImpersonateThread;code;ntdll.dll;_NtImpersonateThread@12
+NtInitializeEnclave;code;ntdll.dll;_NtInitializeEnclave@20
 NtInitializeNlsFiles;code;ntdll.dll;_NtInitializeNlsFiles@12
 NtInitializeRegistry;code;ntdll.dll;_NtInitializeRegistry@4
 NtInitiatePowerAction;code;ntdll.dll;_NtInitiatePowerAction@16
@@ -338,6 +340,7 @@ NtIsSystemResumeAutomatic;code;ntdll.dll;_NtIsSystemResumeAutomatic@0
 NtIsUILanguageComitted;code;ntdll.dll;_NtIsUILanguageComitted@0
 NtListenPort;code;ntdll.dll;_NtListenPort@8
 NtLoadDriver;code;ntdll.dll;_NtLoadDriver@4
+NtLoadEnclaveData;code;ntdll.dll;_NtLoadEnclaveData@36
 NtLoadKey2;code;ntdll.dll;_NtLoadKey2@12
 NtLoadKey;code;ntdll.dll;_NtLoadKey@8
 NtLoadKeyEx;code;ntdll.dll;_NtLoadKeyEx@32
@@ -916,6 +919,7 @@ RtlGetCurrentDirectory_U;code;ntdll.dll;_RtlGetCurrentDirectory_U@8
 RtlGetCurrentPeb;code;ntdll.dll;_RtlGetCurrentPeb@0
 RtlGetCurrentProcessorNumber;code;ntdll.dll;_RtlGetCurrentProcessorNumber@0
 RtlGetCurrentProcessorNumberEx;code;ntdll.dll;_RtlGetCurrentProcessorNumberEx@4
+RtlGetCurrentServiceSessionId;code;ntdll.dll;_RtlGetCurrentServiceSessionId@0
 RtlGetCurrentTransaction;code;ntdll.dll;_RtlGetCurrentTransaction@0
 RtlGetDaclSecurityDescriptor;code;ntdll.dll;_RtlGetDaclSecurityDescriptor@16
 RtlGetDeviceFamilyInfoEnum;code;ntdll.dll;_RtlGetDeviceFamilyInfoEnum@12
@@ -1351,6 +1355,7 @@ RtlWnfDllUnloadCallback;code;ntdll.dll;_RtlWnfDllUnloadCallback@4
 RtlWow64CallFunction64;code;ntdll.dll;_RtlWow64CallFunction64@28
 RtlWow64EnableFsRedirection;code;ntdll.dll;_RtlWow64EnableFsRedirection@4
 RtlWow64EnableFsRedirectionEx;code;ntdll.dll;_RtlWow64EnableFsRedirectionEx@8
+RtlWow64GetCurrentMachine;code;ntdll.dll;_RtlWow64GetCurrentMachine@0
 RtlWriteRegistryValue;code;ntdll.dll;_RtlWriteRegistryValue@24
 RtlZeroMemory;code;ntdll.dll;_RtlZeroMemory@8
 RtlZombifyActivationContext;code;ntdll.dll;_RtlZombifyActivationContext@4
@@ -1552,6 +1557,7 @@ ZwContinue;code;ntdll.dll;_ZwContinue@8
 ZwCreateDebugObject;code;ntdll.dll;_ZwCreateDebugObject@16
 ZwCreateDirectoryObject;code;ntdll.dll;_ZwCreateDirectoryObject@12
 ZwCreateDirectoryObjectEx;code;ntdll.dll;_ZwCreateDirectoryObjectEx@20
+ZwCreateEnclave;code;ntdll.dll;_ZwCreateEnclave@36
 ZwCreateEnlistment;code;ntdll.dll;_ZwCreateEnlistment@32
 ZwCreateEvent;code;ntdll.dll;_ZwCreateEvent@20
 ZwCreateEventPair;code;ntdll.dll;_ZwCreateEventPair@12
@@ -1568,7 +1574,7 @@ ZwCreateMailslotFile;code;ntdll.dll;_ZwCreateMailslotFile@32
 ZwCreateMutant;code;ntdll.dll;_ZwCreateMutant@16
 ZwCreateNamedPipeFile;code;ntdll.dll;_ZwCreateNamedPipeFile@56
 ZwCreatePagingFile;code;ntdll.dll;_ZwCreatePagingFile@16
-ZwCreatePartition;code;ntdll.dll;_ZwCreatePartition@20
+ZwCreatePartition;code;ntdll.dll;_ZwCreatePartition@16
 ZwCreatePort;code;ntdll.dll;_ZwCreatePort@20
 ZwCreatePrivateNamespace;code;ntdll.dll;_ZwCreatePrivateNamespace@16
 ZwCreateProcess;code;ntdll.dll;_ZwCreateProcess@32
@@ -1651,6 +1657,7 @@ ZwGetWriteWatch;code;ntdll.dll;_ZwGetWriteWatch@28
 ZwImpersonateAnonymousToken;code;ntdll.dll;_ZwImpersonateAnonymousToken@4
 ZwImpersonateClientOfPort;code;ntdll.dll;_ZwImpersonateClientOfPort@8
 ZwImpersonateThread;code;ntdll.dll;_ZwImpersonateThread@12
+ZwInitializeEnclave;code;ntdll.dll;_ZwInitializeEnclave@20
 ZwInitializeNlsFiles;code;ntdll.dll;_ZwInitializeNlsFiles@12
 ZwInitializeRegistry;code;ntdll.dll;_ZwInitializeRegistry@4
 ZwInitiatePowerAction;code;ntdll.dll;_ZwInitiatePowerAction@16
@@ -1659,6 +1666,7 @@ ZwIsSystemResumeAutomatic;code;ntdll.dll;_ZwIsSystemResumeAutomatic@0
 ZwIsUILanguageComitted;code;ntdll.dll;_ZwIsUILanguageComitted@0
 ZwListenPort;code;ntdll.dll;_ZwListenPort@8
 ZwLoadDriver;code;ntdll.dll;_ZwLoadDriver@4
+ZwLoadEnclaveData;code;ntdll.dll;_ZwLoadEnclaveData@36
 ZwLoadKey2;code;ntdll.dll;_ZwLoadKey2@12
 ZwLoadKey;code;ntdll.dll;_ZwLoadKey@8
 ZwLoadKeyEx;code;ntdll.dll;_ZwLoadKeyEx@32

@@ -32,8 +32,8 @@ JsCreateArrayBuffer;code;chakra.dll;_JsCreateArrayBuffer@8
 JsCreateContext;code;chakra.dll;_JsCreateContext@8
 JsCreateDataView;code;chakra.dll;_JsCreateDataView@16
 JsCreateError;code;chakra.dll;_JsCreateError@8
+JsCreateExternalArrayBuffer;code;chakra.dll;_JsCreateExternalArrayBuffer@20
 JsCreateExternalObject;code;chakra.dll;_JsCreateExternalObject@12
-JsCreateExternalType;code;chakra.dll;_JsCreateExternalType@8
 JsCreateFunction;code;chakra.dll;_JsCreateFunction@12
 JsCreateNamedFunction;code;chakra.dll;_JsCreateNamedFunction@16
 JsCreateObject;code;chakra.dll;_JsCreateObject@4
@@ -44,7 +44,6 @@ JsCreateSymbol;code;chakra.dll;_JsCreateSymbol@8
 JsCreateSyntaxError;code;chakra.dll;_JsCreateSyntaxError@8
 JsCreateTypeError;code;chakra.dll;_JsCreateTypeError@8
 JsCreateTypedArray;code;chakra.dll;_JsCreateTypedArray@20
-JsCreateTypedExternalObject;code;chakra.dll;_JsCreateTypedExternalObject@12
 JsCreateURIError;code;chakra.dll;_JsCreateURIError@8
 JsDefineProperty;code;chakra.dll;_JsDefineProperty@16
 JsDeleteIndexedProperty;code;chakra.dll;_JsDeleteIndexedProperty@8
@@ -57,12 +56,12 @@ JsEnumerateHeap;code;chakra.dll;_JsEnumerateHeap@4
 JsEquals;code;chakra.dll;_JsEquals@12
 JsGetAndClearException;code;chakra.dll;_JsGetAndClearException@4
 JsGetArrayBufferStorage;code;chakra.dll;_JsGetArrayBufferStorage@12
+JsGetContextData;code;chakra.dll;_JsGetContextData@8
+JsGetContextOfObject;code;chakra.dll;_JsGetContextOfObject@8
 JsGetCurrentContext;code;chakra.dll;_JsGetCurrentContext@4
 JsGetDataViewStorage;code;chakra.dll;_JsGetDataViewStorage@12
-JsGetDefaultTypeDescription;code;chakra.dll;_JsGetDefaultTypeDescription@4
 JsGetExtensionAllowed;code;chakra.dll;_JsGetExtensionAllowed@8
 JsGetExternalData;code;chakra.dll;_JsGetExternalData@8
-JsGetExternalType;code;chakra.dll;_JsGetExternalType@8
 JsGetFalseValue;code;chakra.dll;_JsGetFalseValue@4
 JsGetGlobalObject;code;chakra.dll;_JsGetGlobalObject@4
 JsGetIndexedPropertiesExternalData;code;chakra.dll;_JsGetIndexedPropertiesExternalData@16
@@ -83,6 +82,7 @@ JsGetRuntimeMemoryUsage;code;chakra.dll;_JsGetRuntimeMemoryUsage@8
 JsGetStringLength;code;chakra.dll;_JsGetStringLength@8
 JsGetSymbolFromPropertyId;code;chakra.dll;_JsGetSymbolFromPropertyId@8
 JsGetTrueValue;code;chakra.dll;_JsGetTrueValue@4
+JsGetTypedArrayInfo;code;chakra.dll;_JsGetTypedArrayInfo@20
 JsGetTypedArrayStorage;code;chakra.dll;_JsGetTypedArrayStorage@20
 JsGetUndefinedValue;code;chakra.dll;_JsGetUndefinedValue@4
 JsGetValueType;code;chakra.dll;_JsGetValueType@8
@@ -93,6 +93,7 @@ JsHasIndexedProperty;code;chakra.dll;_JsHasIndexedProperty@12
 JsHasProperty;code;chakra.dll;_JsHasProperty@12
 JsIdle;code;chakra.dll;_JsIdle@4
 JsInspectableToObject;code;chakra.dll;_JsInspectableToObject@8
+JsInstanceOf;code;chakra.dll;_JsInstanceOf@12
 JsIntToNumber;code;chakra.dll;_JsIntToNumber@8
 JsIsEnumeratingHeap;code;chakra.dll;_JsIsEnumeratingHeap@4
 JsIsRuntimeExecutionDisabled;code;chakra.dll;_JsIsRuntimeExecutionDisabled@8
@@ -101,13 +102,16 @@ JsNumberToInt;code;chakra.dll;_JsNumberToInt@8
 JsObjectToInspectable;code;chakra.dll;_JsObjectToInspectable@8
 JsParseScript;code;chakra.dll;_JsParseScript@16
 JsParseSerializedScript;code;chakra.dll;_JsParseSerializedScript@20
+JsParseSerializedScriptWithCallback;code;chakra.dll;_JsParseSerializedScriptWithCallback@24
 JsPointerToString;code;chakra.dll;_JsPointerToString@12
 JsPreventExtension;code;chakra.dll;_JsPreventExtension@4
 _JsProjectWinRTNamespace@4;code;chakra.dll;400
 JsRelease;code;chakra.dll;_JsRelease@8
 JsRunScript;code;chakra.dll;_JsRunScript@16
 JsRunSerializedScript;code;chakra.dll;_JsRunSerializedScript@20
+JsRunSerializedScriptWithCallback;code;chakra.dll;_JsRunSerializedScriptWithCallback@24
 JsSerializeScript;code;chakra.dll;_JsSerializeScript@12
+JsSetContextData;code;chakra.dll;_JsSetContextData@8
 JsSetCurrentContext;code;chakra.dll;_JsSetCurrentContext@4
 JsSetException;code;chakra.dll;_JsSetException@4
 JsSetExternalData;code;chakra.dll;_JsSetExternalData@8

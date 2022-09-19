@@ -1,5 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 AddVirtualDiskParent;code;VirtDisk.dll;
+ApplySnapshotVhdSet;code;VirtDisk.dll;
 AttachVirtualDisk;code;VirtDisk.dll;
 BreakMirrorVirtualDisk;code;VirtDisk.dll;
 CompactVirtualDisk;code;VirtDisk.dll;

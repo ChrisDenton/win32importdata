@@ -4,6 +4,8 @@ CloseClusterCryptProvider;code;RESUTILS.dll;
 ClusWorkerCheckTerminate;code;RESUTILS.dll;
 ClusWorkerCreate;code;RESUTILS.dll;
 ClusWorkerTerminate;code;RESUTILS.dll;
+ClusWorkerTerminateEx;code;RESUTILS.dll;
+ClusWorkersTerminate;code;RESUTILS.dll;
 ClusterClearBackupStateForSharedVolume;code;RESUTILS.dll;
 ClusterDecrypt;code;RESUTILS.dll;
 ClusterEncrypt;code;RESUTILS.dll;

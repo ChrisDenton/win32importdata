@@ -562,6 +562,7 @@ RegisterDeviceNotificationW;code;USER32.dll;_RegisterDeviceNotificationW@12
 RegisterHotKey;code;USER32.dll;_RegisterHotKey@16
 RegisterPointerDeviceNotifications;code;USER32.dll;_RegisterPointerDeviceNotifications@8
 RegisterPointerInputTarget;code;USER32.dll;_RegisterPointerInputTarget@8
+RegisterPointerInputTargetEx;code;USER32.dll;_RegisterPointerInputTargetEx@12
 RegisterPowerSettingNotification;code;USER32.dll;_RegisterPowerSettingNotification@12
 RegisterRawInputDevices;code;USER32.dll;_RegisterRawInputDevices@12
 RegisterShellHookWindow;code;USER32.dll;_RegisterShellHookWindow@4
@@ -713,6 +714,7 @@ UnregisterClassW;code;USER32.dll;_UnregisterClassW@8
 UnregisterDeviceNotification;code;USER32.dll;_UnregisterDeviceNotification@4
 UnregisterHotKey;code;USER32.dll;_UnregisterHotKey@8
 UnregisterPointerInputTarget;code;USER32.dll;_UnregisterPointerInputTarget@8
+UnregisterPointerInputTargetEx;code;USER32.dll;_UnregisterPointerInputTargetEx@8
 UnregisterPowerSettingNotification;code;USER32.dll;_UnregisterPowerSettingNotification@4
 UnregisterSuspendResumeNotification;code;USER32.dll;_UnregisterSuspendResumeNotification@4
 UnregisterTouchWindow;code;USER32.dll;_UnregisterTouchWindow@4

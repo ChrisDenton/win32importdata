@@ -11,5 +11,7 @@ EnterpriseDataGetStatus;code;efswrt.dll;
 EnterpriseDataProtect;code;efswrt.dll;
 EnterpriseDataRevoke;code;efswrt.dll;
 FreeIdentityProtectorList;code;efswrt.dll;
+GetEnterpriseActionForCopy;code;efswrt.dll;
+ProtectFileToEnterpriseIdentity;code;efswrt.dll;
 ProtectFileToIdentity;code;efswrt.dll;
 QueryIdentityProtectors;code;efswrt.dll;

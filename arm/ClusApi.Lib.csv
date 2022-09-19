@@ -115,6 +115,7 @@ ClusterResourceTypeGetEnumCount;code;CLUSAPI.dll;
 ClusterResourceTypeOpenEnum;code;CLUSAPI.dll;
 ClusterSendReceiveMrr;code;CLUSAPI.dll;
 ClusterSendReceiveMrrAsUser;code;CLUSAPI.dll;
+ClusterSetAccountAccess;code;CLUSAPI.dll;
 ClusterSharedVolumeClearBackupState;code;CLUSAPI.dll;
 ClusterSharedVolumeSetSnapshotState;code;CLUSAPI.dll;
 ClusterStmFindDisk;code;CLUSAPI.dll;

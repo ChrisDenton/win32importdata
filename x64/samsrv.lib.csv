@@ -75,6 +75,8 @@ SamIQueryCapabilities;code;SAMSRV.dll;
 SamIQueryRealmList;code;SAMSRV.dll;
 SamIQueryServerRole;code;SAMSRV.dll;
 SamIQueryServerRole2;code;SAMSRV.dll;
+SamIRandomizeStoredPassword;code;SAMSRV.dll;
+SamIRandomizeStoredPasswordWithoutExpirationCheck;code;SAMSRV.dll;
 SamIRemoveDSNameFromAlias;code;SAMSRV.dll;
 SamIReplaceDownlevelDatabase;code;SAMSRV.dll;
 SamIReplicateAccountData;code;SAMSRV.dll;

@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+TokenBindingDeleteAllBindings;code;TOKENBINDING.dll;_TokenBindingDeleteAllBindings@0
 TokenBindingDeleteBinding;code;TOKENBINDING.dll;_TokenBindingDeleteBinding@4
 TokenBindingGenerateBinding;code;TOKENBINDING.dll;_TokenBindingGenerateBinding@40
 TokenBindingGenerateMessage;code;TOKENBINDING.dll;_TokenBindingGenerateMessage@20

@@ -114,6 +114,7 @@ D3DKMTEnumAdapters;code;GDI32.dll;_D3DKMTEnumAdapters@4
 D3DKMTEscape;code;GDI32.dll;_D3DKMTEscape@4
 D3DKMTEvict;code;GDI32.dll;_D3DKMTEvict@4
 D3DKMTFlipOverlay;code;GDI32.dll;_D3DKMTFlipOverlay@4
+D3DKMTFlushHeapTransitions;code;GDI32.dll;_D3DKMTFlushHeapTransitions@4
 D3DKMTFreeGpuVirtualAddress;code;GDI32.dll;_D3DKMTFreeGpuVirtualAddress@4
 D3DKMTGetCachedHybridQueryValue;code;GDI32.dll;_D3DKMTGetCachedHybridQueryValue@4
 D3DKMTGetContextInProcessSchedulingPriority;code;GDI32.dll;_D3DKMTGetContextInProcessSchedulingPriority@4
@@ -142,7 +143,6 @@ D3DKMTMarkDeviceAsError;code;GDI32.dll;_D3DKMTMarkDeviceAsError@4
 D3DKMTNetDispGetNextChunkInfo;code;GDI32.dll;_D3DKMTNetDispGetNextChunkInfo@28
 D3DKMTNetDispQueryMiracastDisplayDeviceStatus;code;GDI32.dll;_D3DKMTNetDispQueryMiracastDisplayDeviceStatus@8
 D3DKMTNetDispQueryMiracastDisplayDeviceSupport;code;GDI32.dll;_D3DKMTNetDispQueryMiracastDisplayDeviceSupport@4
-D3DKMTNetDispStartMiracastDisplayDevice2;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDevice2@12
 D3DKMTNetDispStartMiracastDisplayDeviceEx;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDeviceEx@4
 D3DKMTNetDispStopMiracastDisplayDevice;code;GDI32.dll;_D3DKMTNetDispStopMiracastDisplayDevice@8
 D3DKMTNetDispStopSessions;code;GDI32.dll;_D3DKMTNetDispStopSessions@4
@@ -197,6 +197,7 @@ D3DKMTSetDisplayMode;code;GDI32.dll;_D3DKMTSetDisplayMode@4
 D3DKMTSetDisplayPrivateDriverFormat;code;GDI32.dll;_D3DKMTSetDisplayPrivateDriverFormat@4
 D3DKMTSetDodIndirectSwapchain;code;GDI32.dll;_D3DKMTSetDodIndirectSwapchain@4
 D3DKMTSetGammaRamp;code;GDI32.dll;_D3DKMTSetGammaRamp@4
+D3DKMTSetHwProtectionTeardownRecovery;code;GDI32.dll;_D3DKMTSetHwProtectionTeardownRecovery@4
 D3DKMTSetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityClass@8
 D3DKMTSetQueuedLimit;code;GDI32.dll;_D3DKMTSetQueuedLimit@4
 D3DKMTSetStablePowerState;code;GDI32.dll;_D3DKMTSetStablePowerState@4

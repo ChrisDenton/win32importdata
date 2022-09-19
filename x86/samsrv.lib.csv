@@ -75,6 +75,8 @@ SamIQueryCapabilities;code;SAMSRV.dll;_SamIQueryCapabilities@0
 SamIQueryRealmList;code;SAMSRV.dll;_SamIQueryRealmList@8
 SamIQueryServerRole2;code;SAMSRV.dll;_SamIQueryServerRole2@8
 SamIQueryServerRole;code;SAMSRV.dll;_SamIQueryServerRole@8
+SamIRandomizeStoredPassword;code;SAMSRV.dll;_SamIRandomizeStoredPassword@4
+SamIRandomizeStoredPasswordWithoutExpirationCheck;code;SAMSRV.dll;_SamIRandomizeStoredPasswordWithoutExpirationCheck@4
 SamIRemoveDSNameFromAlias;code;SAMSRV.dll;_SamIRemoveDSNameFromAlias@12
 SamIReplaceDownlevelDatabase;code;SAMSRV.dll;_SamIReplaceDownlevelDatabase@12
 SamIReplicateAccountData;code;SAMSRV.dll;_SamIReplicateAccountData@12
@@ -113,7 +115,7 @@ SampApplyDomainUpdatesForAllDomains;code;SAMSRV.dll;_SampApplyDomainUpdatesForAl
 SampAssignPrimaryGroup;code;SAMSRV.dll;_SampAssignPrimaryGroup@8
 SampAuditAccountEnableDisableChange;code;SAMSRV.dll;_SampAuditAccountEnableDisableChange@16
 SampAuditAccountNameChange;code;SAMSRV.dll;_SampAuditAccountNameChange@12
-SampAuditAnyEvent;code;SAMSRV.dll;_SampAuditAnyEvent@48
+SampAuditAnyEvent;code;SAMSRV.dll;_SampAuditAnyEvent@56
 SampAuditGroupTypeChange;code;SAMSRV.dll;_SampAuditGroupTypeChange@20
 SampAuditSidHistory;code;SAMSRV.dll;_SampAuditSidHistory@8
 SampBuildDsNameFromSid;code;SAMSRV.dll;_SampBuildDsNameFromSid@8
@@ -153,7 +155,7 @@ SampDsIsRunning;code;SAMSRV.dll;_SampDsIsRunning@0
 SampDsMakeAttrBlock;code;SAMSRV.dll;_SampDsMakeAttrBlock@20
 SampDsSetBuiltinDomainPolicy;code;SAMSRV.dll;_SampDsSetBuiltinDomainPolicy@4
 SampDsSetDomainPolicy;code;SAMSRV.dll;_SampDsSetDomainPolicy@8
-SampDsSetPasswordUser;code;SAMSRV.dll;_SampDsSetPasswordUser@16
+SampDsSetPasswordUser;code;SAMSRV.dll;_SampDsSetPasswordUser@20
 SampDsUpdateContextAttributes;code;SAMSRV.dll;_SampDsUpdateContextAttributes@20
 SampDuplicateGroupInfo;code;SAMSRV.dll;_SampDuplicateGroupInfo@12
 SampDuplicateMachineInfo;code;SAMSRV.dll;_SampDuplicateMachineInfo@12

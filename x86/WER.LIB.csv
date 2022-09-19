@@ -104,6 +104,14 @@ WerReportCreate;code;wer.dll;_WerReportCreate@16
 WerReportSetParameter;code;wer.dll;_WerReportSetParameter@16
 WerReportSetUIOption;code;wer.dll;_WerReportSetUIOption@12
 WerReportSubmit;code;wer.dll;_WerReportSubmit@16
+WerStoreClose;code;wer.dll;_WerStoreClose@4
+WerStoreGetFirstReportKey;code;wer.dll;_WerStoreGetFirstReportKey@8
+WerStoreGetNextReportKey;code;wer.dll;_WerStoreGetNextReportKey@8
+WerStoreGetReportCount;code;wer.dll;_WerStoreGetReportCount@8
+WerStoreGetSizeOnDisk;code;wer.dll;_WerStoreGetSizeOnDisk@8
+WerStoreOpen;code;wer.dll;_WerStoreOpen@8
+WerStoreQueryReportMetadataV1;code;wer.dll;_WerStoreQueryReportMetadataV1@12
+WerStoreUploadReport;code;wer.dll;_WerStoreUploadReport@16
 WerpAddFile;code;wer.dll;_WerpAddFile@24
 WerpAddFileBuffer;code;wer.dll;_WerpAddFileBuffer@28
 WerpAddFileCallback;code;wer.dll;_WerpAddFileCallback@28

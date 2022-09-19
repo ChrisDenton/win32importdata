@@ -115,6 +115,7 @@ ClusterResourceTypeGetEnumCount;code;CLUSAPI.dll;_ClusterResourceTypeGetEnumCoun
 ClusterResourceTypeOpenEnum;code;CLUSAPI.dll;_ClusterResourceTypeOpenEnum@12
 ClusterSendReceiveMrr;code;CLUSAPI.dll;_ClusterSendReceiveMrr@40
 ClusterSendReceiveMrrAsUser;code;CLUSAPI.dll;_ClusterSendReceiveMrrAsUser@40
+ClusterSetAccountAccess;code;CLUSAPI.dll;_ClusterSetAccountAccess@16
 ClusterSharedVolumeClearBackupState;code;CLUSAPI.dll;_ClusterSharedVolumeClearBackupState@4
 ClusterSharedVolumeSetSnapshotState;code;CLUSAPI.dll;_ClusterSharedVolumeSetSnapshotState@24
 ClusterStmFindDisk;code;CLUSAPI.dll;_ClusterStmFindDisk@24

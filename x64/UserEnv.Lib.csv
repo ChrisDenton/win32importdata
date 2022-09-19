@@ -50,6 +50,7 @@ GetUserProfileDirectoryA;code;USERENV.dll;
 GetUserProfileDirectoryForUserSidW;code;USERENV.dll;217
 GetUserProfileDirectoryW;code;USERENV.dll;
 HasPolicyForegroundProcessingCompleted;code;USERENV.dll;
+IsAppContainerProfilePresentInternal;code;USERENV.dll;218
 LeaveCriticalPolicySection;code;USERENV.dll;
 LoadUserProfileA;code;USERENV.dll;
 LoadUserProfileW;code;USERENV.dll;

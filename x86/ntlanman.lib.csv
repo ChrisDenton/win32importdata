@@ -21,3 +21,4 @@ QueryAppInstanceVersion;code;NTLANMAN.dll;_QueryAppInstanceVersion@16
 RegisterAppInstance;code;NTLANMAN.dll;_RegisterAppInstance@12
 RegisterAppInstanceVersion;code;NTLANMAN.dll;_RegisterAppInstanceVersion@20
 ResetAllAppInstanceVersions;code;NTLANMAN.dll;_ResetAllAppInstanceVersions@0
+SetAppInstanceCsvFlags;code;NTLANMAN.dll;_SetAppInstanceCsvFlags@12

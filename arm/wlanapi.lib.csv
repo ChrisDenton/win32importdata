@@ -59,3 +59,4 @@ WlanSetProfileListForOffload;code;wlanapi.dll;
 WlanSetProfilePosition;code;wlanapi.dll;
 WlanSetPsdIEDataList;code;wlanapi.dll;
 WlanSetSecuritySettings;code;wlanapi.dll;
+WlanUpdateBasicProfileSecurity;code;wlanapi.dll;

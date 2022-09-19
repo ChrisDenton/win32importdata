@@ -1,8 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+EdpContainerizeFile;code;FeClient.dll;
 EdpCredentialCreate;code;FeClient.dll;
 EdpCredentialDelete;code;FeClient.dll;
 EdpCredentialExists;code;FeClient.dll;
 EdpCredentialQuery;code;FeClient.dll;
+EdpDecontainerizeFile;code;FeClient.dll;
 EdpDplPolicyEnabledForUser;code;FeClient.dll;
 EdpDplUpgradePinInfo;code;FeClient.dll;
 EdpDplUpgradeVerifyUser;code;FeClient.dll;
@@ -10,9 +12,13 @@ EdpDplUserCredentialsSet;code;FeClient.dll;
 EdpDplUserUnlockComplete;code;FeClient.dll;
 EdpDplUserUnlockStart;code;FeClient.dll;
 EdpFree;code;FeClient.dll;
+EdpGetContainerIdentity;code;FeClient.dll;
 EdpGetCredServiceState;code;FeClient.dll;
+EdpQueryCredServiceInfo;code;FeClient.dll;
 EdpQueryDplEnforcedPolicyOwnerIds;code;FeClient.dll;
 EdpQueryRevokedPolicyOwnerIds;code;FeClient.dll;
+EdpRmsClearKeys;code;FeClient.dll;
+EdpSetCredServiceInfo;code;FeClient.dll;
 EfsClientCloseFileRaw;code;FeClient.dll;
 EfsClientDecryptFile;code;FeClient.dll;
 EfsClientDuplicateEncryptionInfo;code;FeClient.dll;

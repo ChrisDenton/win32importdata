@@ -7,11 +7,12 @@ DDMGetAddressesFromPhonebook;code;RASAPI32.dll;_DDMGetAddressesFromPhonebook@16
 DDMGetEapInfo;code;RASAPI32.dll;_DDMGetEapInfo@20
 DDMGetEapUserIdentityW;code;RASAPI32.dll;_DDMGetEapUserIdentityW@20
 DDMGetPhoneBookContext;code;RASAPI32.dll;_DDMGetPhoneBookContext@12
-DDMGetPhonebookInfo;code;RASAPI32.dll;_DDMGetPhonebookInfo@76
+DDMGetPhonebookInfo;code;RASAPI32.dll;_DDMGetPhonebookInfo@84
 DDMGetProtocolStartParams;code;RASAPI32.dll;_DDMGetProtocolStartParams@32
 DDMGetRasDialParams;code;RASAPI32.dll;_DDMGetRasDialParams@4
 DDMGetRasDialingParams;code;RASAPI32.dll;_DDMGetRasDialingParams@40
 DDMGetTunnelEndpoints;code;RASAPI32.dll;_DDMGetTunnelEndpoints@16
+DDMRasPbkEntryCleanup;code;RASAPI32.dll;_DDMRasPbkEntryCleanup@4
 DDMUpdateProtocolConfigInfoFromEntry;code;RASAPI32.dll;_DDMUpdateProtocolConfigInfoFromEntry@12
 DwCloneEntry;code;RASAPI32.dll;_DwCloneEntry@12
 DwEnumEntryDetails;code;RASAPI32.dll;_DwEnumEntryDetails@16
@@ -106,6 +107,7 @@ RasScriptInit;code;RASAPI32.dll;_RasScriptInit@28
 RasScriptReceive;code;RASAPI32.dll;_RasScriptReceive@12
 RasScriptSend;code;RASAPI32.dll;_RasScriptSend@12
 RasScriptTerm;code;RASAPI32.dll;_RasScriptTerm@4
+RasSetAutoTriggerProfile;code;RASAPI32.dll;_RasSetAutoTriggerProfile@24
 RasSetAutodialAddressA;code;RASAPI32.dll;_RasSetAutodialAddressA@20
 RasSetAutodialAddressW;code;RASAPI32.dll;_RasSetAutodialAddressW@20
 RasSetAutodialEnableA;code;RASAPI32.dll;_RasSetAutodialEnableA@8
@@ -137,5 +139,4 @@ RasUpdateConnection;code;RASAPI32.dll;_RasUpdateConnection@8
 RasValidateEntryNameA;code;RASAPI32.dll;_RasValidateEntryNameA@8
 RasValidateEntryNameW;code;RASAPI32.dll;_RasValidateEntryNameW@8
 RasWriteSharedPbkOptions;code;RASAPI32.dll;_RasWriteSharedPbkOptions@16
-ResolveIpAddress;code;RASAPI32.dll;_ResolveIpAddress@8
 UnInitializeRAS;code;RASAPI32.dll;_UnInitializeRAS@0

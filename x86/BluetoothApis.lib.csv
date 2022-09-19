@@ -86,7 +86,7 @@ BthpIsRadioSoftwareEnabled;code;BluetoothApis.dll;_BthpIsRadioSoftwareEnabled@4
 BthpIsTopOfServiceGroup;code;BluetoothApis.dll;_BthpIsTopOfServiceGroup@24
 BthpMapStatusToErr;code;BluetoothApis.dll;_BthpMapStatusToErr@4
 BthpNextRecord;code;BluetoothApis.dll;_BthpNextRecord@8
-BthpRegisterForAuthentication;code;BluetoothApis.dll;_BthpRegisterForAuthentication@32
+BthpRegisterForAuthentication;code;BluetoothApis.dll;_BthpRegisterForAuthentication@28
 BthpSetServiceState;code;BluetoothApis.dll;_BthpSetServiceState@36
 BthpSetServiceStateEx;code;BluetoothApis.dll;_BthpSetServiceStateEx@40
 BthpTranspose16Bits;code;BluetoothApis.dll;_BthpTranspose16Bits@4

@@ -56,6 +56,7 @@ JetCreateDatabaseW;code;ESENT.dll;_JetCreateDatabaseW@20
 JetCreateDatabaseWithStreaming;code;ESENT.dll;_JetCreateDatabaseWithStreaming@28
 JetCreateDatabaseWithStreamingA;code;ESENT.dll;_JetCreateDatabaseWithStreamingA@28
 JetCreateDatabaseWithStreamingW;code;ESENT.dll;_JetCreateDatabaseWithStreamingW@28
+JetCreateEncryptionKey;code;ESENT.dll;_JetCreateEncryptionKey@16
 JetCreateIndex2;code;ESENT.dll;_JetCreateIndex2@16
 JetCreateIndex2A;code;ESENT.dll;_JetCreateIndex2A@16
 JetCreateIndex2W;code;ESENT.dll;_JetCreateIndex2W@16
@@ -81,6 +82,8 @@ JetCreateTableColumnIndex3A;code;ESENT.dll;_JetCreateTableColumnIndex3A@12
 JetCreateTableColumnIndex3W;code;ESENT.dll;_JetCreateTableColumnIndex3W@12
 JetCreateTableColumnIndex4A;code;ESENT.dll;_JetCreateTableColumnIndex4A@12
 JetCreateTableColumnIndex4W;code;ESENT.dll;_JetCreateTableColumnIndex4W@12
+JetCreateTableColumnIndex5A;code;ESENT.dll;_JetCreateTableColumnIndex5A@12
+JetCreateTableColumnIndex5W;code;ESENT.dll;_JetCreateTableColumnIndex5W@12
 JetCreateTableColumnIndex;code;ESENT.dll;_JetCreateTableColumnIndex@12
 JetCreateTableColumnIndexA;code;ESENT.dll;_JetCreateTableColumnIndexA@12
 JetCreateTableColumnIndexW;code;ESENT.dll;_JetCreateTableColumnIndexW@12
@@ -333,6 +336,9 @@ JetSetSessionParameter;code;ESENT.dll;_JetSetSessionParameter@16
 JetSetSystemParameter;code;ESENT.dll;_JetSetSystemParameter@20
 JetSetSystemParameterA;code;ESENT.dll;_JetSetSystemParameterA@20
 JetSetSystemParameterW;code;ESENT.dll;_JetSetSystemParameterW@20
+JetSetTableInfo;code;ESENT.dll;_JetSetTableInfo@20
+JetSetTableInfoA;code;ESENT.dll;_JetSetTableInfoA@20
+JetSetTableInfoW;code;ESENT.dll;_JetSetTableInfoW@20
 JetSetTableSequential;code;ESENT.dll;_JetSetTableSequential@12
 JetSnapshotStart;code;ESENT.dll;_JetSnapshotStart@12
 JetSnapshotStartA;code;ESENT.dll;_JetSnapshotStartA@12

@@ -592,8 +592,9 @@ PeekNamedPipe;code;api-ms-win-core-namedpipe-l1-2-0.dll;_PeekNamedPipe@24
 SetNamedPipeHandleState;code;api-ms-win-core-namedpipe-l1-2-0.dll;_SetNamedPipeHandleState@16
 TransactNamedPipe;code;api-ms-win-core-namedpipe-l1-2-0.dll;_TransactNamedPipe@28
 WaitNamedPipeW;code;api-ms-win-core-namedpipe-l1-2-0.dll;_WaitNamedPipeW@8
-GetNamedPipeHandleStateW;code;api-ms-win-core-namedpipe-l1-2-1.dll;_GetNamedPipeHandleStateW@28
-GetNamedPipeInfo;code;api-ms-win-core-namedpipe-l1-2-1.dll;_GetNamedPipeInfo@20
+CallNamedPipeW;code;api-ms-win-core-namedpipe-l1-2-2.dll;_CallNamedPipeW@28
+GetNamedPipeHandleStateW;code;api-ms-win-core-namedpipe-l1-2-2.dll;_GetNamedPipeHandleStateW@28
+GetNamedPipeInfo;code;api-ms-win-core-namedpipe-l1-2-2.dll;_GetNamedPipeInfo@20
 AddSIDToBoundaryDescriptor;code;api-ms-win-core-namespace-l1-1-0.dll;_AddSIDToBoundaryDescriptor@8
 ClosePrivateNamespace;code;api-ms-win-core-namespace-l1-1-0.dll;_ClosePrivateNamespace@8
 CreateBoundaryDescriptorW;code;api-ms-win-core-namespace-l1-1-0.dll;_CreateBoundaryDescriptorW@8
@@ -1080,6 +1081,8 @@ WindowsInspectString2;code;api-ms-win-core-winrt-string-l1-1-1.dll;_WindowsInspe
 IsWow64Process;code;api-ms-win-core-wow64-l1-1-0.dll;_IsWow64Process@8
 Wow64DisableWow64FsRedirection;code;api-ms-win-core-wow64-l1-1-0.dll;_Wow64DisableWow64FsRedirection@4
 Wow64RevertWow64FsRedirection;code;api-ms-win-core-wow64-l1-1-0.dll;_Wow64RevertWow64FsRedirection@4
+GetSystemWow64Directory2A;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64Directory2A@12
+GetSystemWow64Directory2W;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64Directory2W@12
 GetSystemWow64DirectoryA;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64DirectoryA@8
 GetSystemWow64DirectoryW;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64DirectoryW@8
 RtlCopyContext;code;api-ms-win-core-xstate-l1-1-1.dll;_RtlCopyContext@12
@@ -1807,7 +1810,7 @@ DnsCopyStringEx;code;DNSAPI.dll;_DnsCopyStringEx@20
 DnsCreateReverseNameStringForIpAddress;code;DNSAPI.dll;_DnsCreateReverseNameStringForIpAddress@4
 DnsCreateStandardDnsNameCopy;code;DNSAPI.dll;_DnsCreateStandardDnsNameCopy@12
 DnsCreateStringCopy;code;DNSAPI.dll;_DnsCreateStringCopy@8
-DnsDeRegisterLocal;code;DNSAPI.dll;_DnsDeRegisterLocal@4
+DnsDeRegisterLocal;code;DNSAPI.dll;_DnsDeRegisterLocal@8
 DnsDhcpRegisterAddrs;code;DNSAPI.dll;_DnsDhcpRegisterAddrs@4
 DnsDhcpRegisterHostAddrs;code;DNSAPI.dll;_DnsDhcpRegisterHostAddrs@40
 DnsDhcpRegisterInit;code;DNSAPI.dll;_DnsDhcpRegisterInit@0
@@ -1886,7 +1889,7 @@ DnsRecordSetDetach;code;DNSAPI.dll;_DnsRecordSetDetach@4
 DnsRecordStringForType;code;DNSAPI.dll;_DnsRecordStringForType@4
 DnsRecordStringForWritableType;code;DNSAPI.dll;_DnsRecordStringForWritableType@4
 DnsRecordTypeForName;code;DNSAPI.dll;_DnsRecordTypeForName@8
-DnsRegisterLocal;code;DNSAPI.dll;_DnsRegisterLocal@12
+DnsRegisterLocal;code;DNSAPI.dll;_DnsRegisterLocal@16
 DnsReleaseContextHandle;code;DNSAPI.dll;_DnsReleaseContextHandle@4
 DnsRemoveRegistrations;code;DNSAPI.dll;_DnsRemoveRegistrations@0
 DnsReplaceRecordSetA;code;DNSAPI.dll;_DnsReplaceRecordSetA@20
@@ -2034,6 +2037,7 @@ DsIsMangledDnA;code;DSPARSE.dll;_DsIsMangledDnA@8
 DsIsMangledDnW;code;DSPARSE.dll;_DsIsMangledDnW@8
 DsIsMangledRdnValueA;code;DSPARSE.dll;_DsIsMangledRdnValueA@12
 DsIsMangledRdnValueW;code;DSPARSE.dll;_DsIsMangledRdnValueW@12
+DsMakeSpn2W;code;DSPARSE.dll;_DsMakeSpn2W@32
 DsMakeSpnA;code;DSPARSE.dll;_DsMakeSpnA@28
 DsMakeSpnW;code;DSPARSE.dll;_DsMakeSpnW@28
 DsQuoteRdnValueA;code;DSPARSE.dll;_DsQuoteRdnValueA@16
@@ -3661,6 +3665,7 @@ GetUserProfileDirectoryA;code;USERENV.dll;_GetUserProfileDirectoryA@12
 _GetUserProfileDirectoryForUserSidW@12;code;USERENV.dll;217
 GetUserProfileDirectoryW;code;USERENV.dll;_GetUserProfileDirectoryW@12
 HasPolicyForegroundProcessingCompleted;code;USERENV.dll;_HasPolicyForegroundProcessingCompleted@20
+_IsAppContainerProfilePresentInternal@12;code;USERENV.dll;218
 LeaveCriticalPolicySection;code;USERENV.dll;_LeaveCriticalPolicySection@4
 LoadUserProfileA;code;USERENV.dll;_LoadUserProfileA@8
 LoadUserProfileW;code;USERENV.dll;_LoadUserProfileW@8

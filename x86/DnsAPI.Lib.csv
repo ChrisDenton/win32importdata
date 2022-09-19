@@ -36,7 +36,7 @@ DnsCopyStringEx;code;DNSAPI.dll;_DnsCopyStringEx@20
 DnsCreateReverseNameStringForIpAddress;code;DNSAPI.dll;_DnsCreateReverseNameStringForIpAddress@4
 DnsCreateStandardDnsNameCopy;code;DNSAPI.dll;_DnsCreateStandardDnsNameCopy@12
 DnsCreateStringCopy;code;DNSAPI.dll;_DnsCreateStringCopy@8
-DnsDeRegisterLocal;code;DNSAPI.dll;_DnsDeRegisterLocal@4
+DnsDeRegisterLocal;code;DNSAPI.dll;_DnsDeRegisterLocal@8
 DnsDhcpRegisterAddrs;code;DNSAPI.dll;_DnsDhcpRegisterAddrs@4
 DnsDhcpRegisterHostAddrs;code;DNSAPI.dll;_DnsDhcpRegisterHostAddrs@40
 DnsDhcpRegisterInit;code;DNSAPI.dll;_DnsDhcpRegisterInit@0
@@ -115,7 +115,7 @@ DnsRecordSetDetach;code;DNSAPI.dll;_DnsRecordSetDetach@4
 DnsRecordStringForType;code;DNSAPI.dll;_DnsRecordStringForType@4
 DnsRecordStringForWritableType;code;DNSAPI.dll;_DnsRecordStringForWritableType@4
 DnsRecordTypeForName;code;DNSAPI.dll;_DnsRecordTypeForName@8
-DnsRegisterLocal;code;DNSAPI.dll;_DnsRegisterLocal@12
+DnsRegisterLocal;code;DNSAPI.dll;_DnsRegisterLocal@16
 DnsReleaseContextHandle;code;DNSAPI.dll;_DnsReleaseContextHandle@4
 DnsRemoveRegistrations;code;DNSAPI.dll;_DnsRemoveRegistrations@0
 DnsReplaceRecordSetA;code;DNSAPI.dll;_DnsReplaceRecordSetA@20
