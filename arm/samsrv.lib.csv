@@ -306,6 +306,7 @@ SamrEnumerateUsersInDomain;code;SAMSRV.dll;
 SamrEnumerateUsersInDomain2;code;SAMSRV.dll;
 SamrGetAliasMembership;code;SAMSRV.dll;
 SamrGetGroupsForUser;code;SAMSRV.dll;
+SamrGetMembersInAlias;code;SAMSRV.dll;
 SamrLookupIdsInDomain;code;SAMSRV.dll;
 SamrLookupNamesInDomain;code;SAMSRV.dll;
 SamrLookupNamesInDomain2;code;SAMSRV.dll;

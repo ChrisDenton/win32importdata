@@ -306,6 +306,7 @@ SamrEnumerateUsersInDomain2;code;SAMSRV.dll;_SamrEnumerateUsersInDomain2@28
 SamrEnumerateUsersInDomain;code;SAMSRV.dll;_SamrEnumerateUsersInDomain@24
 SamrGetAliasMembership;code;SAMSRV.dll;_SamrGetAliasMembership@12
 SamrGetGroupsForUser;code;SAMSRV.dll;_SamrGetGroupsForUser@8
+SamrGetMembersInAlias;code;SAMSRV.dll;_SamrGetMembersInAlias@8
 SamrLookupIdsInDomain;code;SAMSRV.dll;_SamrLookupIdsInDomain@20
 SamrLookupNamesInDomain2;code;SAMSRV.dll;_SamrLookupNamesInDomain2@20
 SamrLookupNamesInDomain;code;SAMSRV.dll;_SamrLookupNamesInDomain@20

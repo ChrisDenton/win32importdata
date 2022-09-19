@@ -1,45 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
-BeginCacheTransaction;code;query.dll;?BeginCacheTransaction@@YAJPEA_KPEBG11@Z (long __cdecl BeginCacheTransaction(unsigned __int64 *,unsigned short const *,unsigned short const *,unsigned short const *))
-CIBuildQueryNode;code;query.dll;?CIBuildQueryNode@@YAJPEBGGPEBUtagPROPVARIANT@@PEAPEAUtagDBCOMMANDTREE@@KPEBUtagCIPROPERTYDEF@@K@Z (long __cdecl CIBuildQueryNode(unsigned short const *,unsigned short,struct tagPROPVARIANT const *,struct tagDBCOMMANDTREE * *,unsigned long,struct tagCIPROPERTYDEF const *,unsigned long))
-CIBuildQueryTree;code;query.dll;?CIBuildQueryTree@@YAJPEBUtagDBCOMMANDTREE@@GKPEBQEBU1@PEAPEAU1@@Z (long __cdecl CIBuildQueryTree(struct tagDBCOMMANDTREE const *,unsigned short,unsigned long,struct tagDBCOMMANDTREE const * const *,struct tagDBCOMMANDTREE * *))
-CICreateCommand;code;query.dll;?CICreateCommand@@YAJPEAPEAUIUnknown@@PEAU1@AEBU_GUID@@PEBG3@Z (long __cdecl CICreateCommand(struct IUnknown * *,struct IUnknown *,struct _GUID const &,unsigned short const *,unsigned short const *))
-CIGetGlobalPropertyList;code;query.dll;?CIGetGlobalPropertyList@@YAJPEAPEAX@Z (long __cdecl CIGetGlobalPropertyList(void * *))
-CIMakeICommand;code;query.dll;?CIMakeICommand@@YAJPEAPEAUICommand@@KPEBKPEBQEBG22@Z (long __cdecl CIMakeICommand(struct ICommand * *,unsigned long,unsigned long const *,unsigned short const * const *,unsigned short const * const *,unsigned short const * const *))
-CIRestrictionToFullTree;code;query.dll;?CIRestrictionToFullTree@@YAJPEBUtagDBCOMMANDTREE@@PEBG11PEAPEAU1@KPEAUtagCIPROPERTYDEF@@K@Z (long __cdecl CIRestrictionToFullTree(struct tagDBCOMMANDTREE const *,unsigned short const *,unsigned short const *,unsigned short const *,struct tagDBCOMMANDTREE * *,unsigned long,struct tagCIPROPERTYDEF *,unsigned long))
-CIState;code;query.dll;?CIState@@YAJPEBG0PEAX@Z (long __cdecl CIState(unsigned short const *,unsigned short const *,void *))
-CITextToFullTree;code;query.dll;?CITextToFullTree@@YAJPEBG000PEAPEAUtagDBCOMMANDTREE@@KPEAUtagCIPROPERTYDEF@@K@Z (long __cdecl CITextToFullTree(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,struct tagDBCOMMANDTREE * *,unsigned long,struct tagCIPROPERTYDEF *,unsigned long))
-CITextToFullTreeEx;code;query.dll;?CITextToFullTreeEx@@YAJPEBGK000PEAPEAUtagDBCOMMANDTREE@@KPEAUtagCIPROPERTYDEF@@K@Z (long __cdecl CITextToFullTreeEx(unsigned short const *,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,struct tagDBCOMMANDTREE * *,unsigned long,struct tagCIPROPERTYDEF *,unsigned long))
-CITextToSelectTree;code;query.dll;?CITextToSelectTree@@YAJPEBGPEAPEAUtagDBCOMMANDTREE@@KPEAUtagCIPROPERTYDEF@@K@Z (long __cdecl CITextToSelectTree(unsigned short const *,struct tagDBCOMMANDTREE * *,unsigned long,struct tagCIPROPERTYDEF *,unsigned long))
-CITextToSelectTreeEx;code;query.dll;?CITextToSelectTreeEx@@YAJPEBGKPEAPEAUtagDBCOMMANDTREE@@KPEAUtagCIPROPERTYDEF@@K@Z (long __cdecl CITextToSelectTreeEx(unsigned short const *,unsigned long,struct tagDBCOMMANDTREE * *,unsigned long,struct tagCIPROPERTYDEF *,unsigned long))
-CiCreateSecurityDescriptor;code;query.dll;?CiCreateSecurityDescriptor@@YAXQEBXKPEAU_SID@@1AEAH@Z (void __cdecl CiCreateSecurityDescriptor(void const * const,unsigned long,struct _SID *,struct _SID *,int &))
-CiSvcMain;code;query.dll;?CiSvcMain@@YAXKPEAPEAG@Z (void __cdecl CiSvcMain(unsigned long,unsigned short * *))
-CollectCIISAPIPerformanceData;code;query.dll;?CollectCIISAPIPerformanceData@@YAKPEAGPEAPEAXPEAK2@Z (unsigned long __cdecl CollectCIISAPIPerformanceData(unsigned short *,void * *,unsigned long *,unsigned long *))
-CollectCIPerformanceData;code;query.dll;?CollectCIPerformanceData@@YAKPEAGPEAPEAXPEAK2@Z (unsigned long __cdecl CollectCIPerformanceData(unsigned short *,void * *,unsigned long *,unsigned long *))
-CollectFILTERPerformanceData;code;query.dll;?CollectFILTERPerformanceData@@YAKPEAGPEAPEAXPEAK2@Z (unsigned long __cdecl CollectFILTERPerformanceData(unsigned short *,void * *,unsigned long *,unsigned long *))
-DoneCIISAPIPerformanceData;code;query.dll;?DoneCIISAPIPerformanceData@@YAKXZ (unsigned long __cdecl DoneCIISAPIPerformanceData(void))
-DoneCIPerformanceData;code;query.dll;?DoneCIPerformanceData@@YAKXZ (unsigned long __cdecl DoneCIPerformanceData(void))
-DoneFILTERPerformanceData;code;query.dll;?DoneFILTERPerformanceData@@YAKXZ (unsigned long __cdecl DoneFILTERPerformanceData(void))
-EndCacheTransaction;code;query.dll;?EndCacheTransaction@@YAJ_KHPEBG11@Z (long __cdecl EndCacheTransaction(unsigned __int64,int,unsigned short const *,unsigned short const *,unsigned short const *))
-FsCiShutdown;code;query.dll;?FsCiShutdown@@YAJXZ (long __cdecl FsCiShutdown(void))
-InitializeCIISAPIPerformanceData;code;query.dll;?InitializeCIISAPIPerformanceData@@YAKPEAG@Z (unsigned long __cdecl InitializeCIISAPIPerformanceData(unsigned short *))
-InitializeCIPerformanceData;code;query.dll;?InitializeCIPerformanceData@@YAKPEAG@Z (unsigned long __cdecl InitializeCIPerformanceData(unsigned short *))
-InitializeFILTERPerformanceData;code;query.dll;?InitializeFILTERPerformanceData@@YAKPEAG@Z (unsigned long __cdecl InitializeFILTERPerformanceData(unsigned short *))
 LoadBinaryFilter;code;query.dll;?LoadBinaryFilter@@YAJPEBGPEAPEAUIFilter@@@Z (long __cdecl LoadBinaryFilter(unsigned short const *,struct IFilter * *))
 LoadTextFilter;code;query.dll;?LoadTextFilter@@YAJPEBGPEAPEAUIFilter@@@Z (long __cdecl LoadTextFilter(unsigned short const *,struct IFilter * *))
-SetCatalogState;code;query.dll;?SetCatalogState@@YAJPEBG0KPEAK@Z (long __cdecl SetCatalogState(unsigned short const *,unsigned short const *,unsigned long,unsigned long *))
-SetupCache;code;query.dll;?SetupCache@@YAJPEBUtagFULLPROPSPEC@@KK_KPEBG22@Z (long __cdecl SetupCache(struct tagFULLPROPSPEC const *,unsigned long,unsigned long,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *))
-SetupCacheEx;code;query.dll;?SetupCacheEx@@YAJPEBUtagFULLPROPSPEC@@KK_KHKPEBG22@Z (long __cdecl SetupCacheEx(struct tagFULLPROPSPEC const *,unsigned long,unsigned long,unsigned __int64,int,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *))
-SvcEntry_CiSvc;code;query.dll;?SvcEntry_CiSvc@@YAXKPEAPEAGPEAX1@Z (void __cdecl SvcEntry_CiSvc(unsigned long,unsigned short * *,void *,void *))
 BindIFilterFromStorage;code;query.dll;
 BindIFilterFromStream;code;query.dll;
-CIRevertToSelf;code;query.dll;
-CIShutdown;code;query.dll;
-InternalBindIFilterFromDocCLSID;code;query.dll;
-InternalBindIFilterFromFileName;code;query.dll;
-InternalBindIFilterFromStorage;code;query.dll;
-InternalBindIFilterFromStream;code;query.dll;
 LoadIFilter;code;query.dll;
 LoadIFilterEx;code;query.dll;
-LocateCatalogs;code;query.dll;
-LocateCatalogsA;code;query.dll;
-LocateCatalogsW;code;query.dll;

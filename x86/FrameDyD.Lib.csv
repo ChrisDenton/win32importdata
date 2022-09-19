@@ -178,7 +178,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ?AllocSysString@CHString@@QBEPAGXZ;code;framedyd.dll;
 ?Append@CHPtrArray@@QAEHABV1@@Z;code;framedyd.dll;
 ?Append@CHStringArray@@QAEHABV1@@Z;code;framedyd.dll;
-?AssertValid@CHPtrArray@@QBEXXZ;code;framedyd.dll;
 ?AssignCopy@CHString@@IAEXHPBG@Z;code;framedyd.dll;
 ?BeginRead@CThreadBase@@QAEHK@Z;code;framedyd.dll;
 ?BeginWrite@CThreadBase@@QAEHK@Z;code;framedyd.dll;
@@ -567,7 +566,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ?keyref@CObjectPathParser@@AAEHXZ;code;framedyd.dll;
 ?keyref_list@CObjectPathParser@@AAEHXZ;code;framedyd.dll;
 ?keyref_term@CObjectPathParser@@AAEHXZ;code;framedyd.dll;
-?m_beenInitted@ProviderLog@@0_NA;data;framedyd.dll;
 ?m_csFlushPtrs@CWbemProviderGlue@@0VCCritSec@@A;data;framedyd.dll;
 ?m_csStatusObject@CWbemProviderGlue@@0VCCritSec@@A;data;framedyd.dll;
 ?m_pStatusObject@CWbemProviderGlue@@0PAUIWbemClassObject@@A;data;framedyd.dll;

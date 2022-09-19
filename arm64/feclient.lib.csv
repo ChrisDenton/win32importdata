@@ -1,4 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
+DpQueryUserProtectorDescriptor;code;FeClient.dll;
+DpQueryUserProtectorDescriptorInfo;code;FeClient.dll;
 EdpAllowFileAccessForProcess;code;FeClient.dll;
 EdpContainerizeFile;code;FeClient.dll;
 EdpCredentialCreate;code;FeClient.dll;

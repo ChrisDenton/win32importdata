@@ -283,9 +283,11 @@ GetDlgItemInt;code;USER32.dll;_GetDlgItemInt@16
 GetDlgItemTextA;code;USER32.dll;_GetDlgItemTextA@16
 GetDlgItemTextW;code;USER32.dll;_GetDlgItemTextW@16
 GetDoubleClickTime;code;USER32.dll;_GetDoubleClickTime@0
+GetDpiAwarenessContextForProcess;code;USER32.dll;_GetDpiAwarenessContextForProcess@4
 GetDpiForSystem;code;USER32.dll;_GetDpiForSystem@0
 GetDpiForWindow;code;USER32.dll;_GetDpiForWindow@4
 GetDpiFromDpiAwarenessContext;code;USER32.dll;_GetDpiFromDpiAwarenessContext@4
+GetExtendedPointerDeviceProperty;code;USER32.dll;_GetExtendedPointerDeviceProperty@8
 GetFocus;code;USER32.dll;_GetFocus@0
 GetForegroundWindow;code;USER32.dll;_GetForegroundWindow@0
 GetGUIThreadInfo;code;USER32.dll;_GetGUIThreadInfo@8

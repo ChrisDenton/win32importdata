@@ -19,7 +19,9 @@ TdhGetWppMessage;code;tdh.dll;_TdhGetWppMessage@16
 TdhGetWppProperty;code;tdh.dll;_TdhGetWppProperty@20
 TdhLoadManifest;code;tdh.dll;_TdhLoadManifest@4
 TdhLoadManifestFromBinary;code;tdh.dll;_TdhLoadManifestFromBinary@4
+TdhLoadManifestFromMemory;code;tdh.dll;_TdhLoadManifestFromMemory@8
 TdhOpenDecodingHandle;code;tdh.dll;_TdhOpenDecodingHandle@4
 TdhQueryProviderFieldInformation;code;tdh.dll;_TdhQueryProviderFieldInformation@24
 TdhSetDecodingParameter;code;tdh.dll;_TdhSetDecodingParameter@8
 TdhUnloadManifest;code;tdh.dll;_TdhUnloadManifest@4
+TdhUnloadManifestFromMemory;code;tdh.dll;_TdhUnloadManifestFromMemory@8

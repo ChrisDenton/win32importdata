@@ -2684,6 +2684,7 @@ SetComputerNameExA;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameExA@8
 SetComputerNameW;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameW@4
 GetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_GetSystemTimeAdjustmentPrecise@12
 SetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_SetSystemTimeAdjustmentPrecise@12
+GetSystemLeapSecondInformation;code;api-ms-win-core-sysinfo-l1-2-5.dll;_GetSystemLeapSecondInformation@8
 CallbackMayRunLong;code;api-ms-win-core-threadpool-l1-2-0.dll;_CallbackMayRunLong@4
 CancelThreadpoolIo;code;api-ms-win-core-threadpool-l1-2-0.dll;_CancelThreadpoolIo@4
 CloseThreadpool;code;api-ms-win-core-threadpool-l1-2-0.dll;_CloseThreadpool@4
@@ -3003,6 +3004,8 @@ DnsAsyncRegisterHostAddrs;code;DNSAPI.dll;_DnsAsyncRegisterHostAddrs@40
 DnsAsyncRegisterInit;code;DNSAPI.dll;_DnsAsyncRegisterInit@4
 DnsAsyncRegisterTerm;code;DNSAPI.dll;_DnsAsyncRegisterTerm@0
 DnsCancelQuery;code;DNSAPI.dll;_DnsCancelQuery@4
+DnsCheckNrptRuleIntegrity;code;DNSAPI.dll;_DnsCheckNrptRuleIntegrity@4
+DnsCheckNrptRules;code;DNSAPI.dll;_DnsCheckNrptRules@12
 DnsConnectionDeletePolicyEntries;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntries@4
 DnsConnectionDeletePolicyEntriesPrivate;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntriesPrivate@8
 DnsConnectionDeleteProxyInfo;code;DNSAPI.dll;_DnsConnectionDeleteProxyInfo@8
@@ -3049,6 +3052,7 @@ DnsFlushResolverCacheEntry_W;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_W@4
 DnsFree;code;DNSAPI.dll;_DnsFree@8
 DnsFreeAdaptersInfo;code;DNSAPI.dll;_DnsFreeAdaptersInfo@8
 DnsFreeConfigStructure;code;DNSAPI.dll;_DnsFreeConfigStructure@8
+DnsFreeNrptRule;code;DNSAPI.dll;_DnsFreeNrptRule@4
 DnsFreeNrptRuleNamesList;code;DNSAPI.dll;_DnsFreeNrptRuleNamesList@8
 DnsFreePolicyConfig;code;DNSAPI.dll;_DnsFreePolicyConfig@4
 DnsFreeProxyName;code;DNSAPI.dll;_DnsFreeProxyName@4
@@ -3056,7 +3060,9 @@ DnsGetAdaptersInfo;code;DNSAPI.dll;_DnsGetAdaptersInfo@24
 DnsGetApplicationIdentifier;code;DNSAPI.dll;_DnsGetApplicationIdentifier@12
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
+DnsGetCacheDataTableEx;code;DNSAPI.dll;_DnsGetCacheDataTableEx@12
 DnsGetDnsServerList;code;DNSAPI.dll;_DnsGetDnsServerList@4
+DnsGetInterfaceSettings;code;DNSAPI.dll;_DnsGetInterfaceSettings@20
 DnsGetLastFailedUpdateInfo;code;DNSAPI.dll;_DnsGetLastFailedUpdateInfo@4
 DnsGetNrptRuleNamesList;code;DNSAPI.dll;_DnsGetNrptRuleNamesList@8
 DnsGetPolicyTableInfo;code;DNSAPI.dll;_DnsGetPolicyTableInfo@16
@@ -3065,6 +3071,7 @@ DnsGetPrimaryDomainName_A;code;DNSAPI.dll;_DnsGetPrimaryDomainName_A@0
 DnsGetProxyInfoPrivate;code;DNSAPI.dll;_DnsGetProxyInfoPrivate@16
 DnsGetProxyInformation;code;DNSAPI.dll;_DnsGetProxyInformation@20
 DnsGetQueryRetryTimeouts;code;DNSAPI.dll;_DnsGetQueryRetryTimeouts@24
+DnsGetSettings;code;DNSAPI.dll;_DnsGetSettings@4
 DnsGlobals;data;DNSAPI.dll;_DnsGlobals
 DnsIpv6AddressToString;code;DNSAPI.dll;_DnsIpv6AddressToString@8
 DnsIpv6StringToAddress;code;DNSAPI.dll;_DnsIpv6StringToAddress@12
@@ -3117,6 +3124,7 @@ DnsReplaceRecordSetUTF8;code;DNSAPI.dll;_DnsReplaceRecordSetUTF8@20
 DnsReplaceRecordSetW;code;DNSAPI.dll;_DnsReplaceRecordSetW@20
 DnsResetQueryRetryTimeouts;code;DNSAPI.dll;_DnsResetQueryRetryTimeouts@16
 DnsResolverOp;code;DNSAPI.dll;_DnsResolverOp@12
+DnsResolverQueryHvsi;code;DNSAPI.dll;_DnsResolverQueryHvsi@32
 DnsScreenLocalAddrsForRegistration;code;DNSAPI.dll;_DnsScreenLocalAddrsForRegistration@12
 DnsServiceBrowse;code;DNSAPI.dll;_DnsServiceBrowse@8
 DnsServiceBrowseCancel;code;DNSAPI.dll;_DnsServiceBrowseCancel@4
@@ -3130,8 +3138,11 @@ DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
 DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
+DnsSetInterfaceSettings;code;DNSAPI.dll;_DnsSetInterfaceSettings@20
 DnsSetNrptRule;code;DNSAPI.dll;_DnsSetNrptRule@12
+DnsSetNrptRules;code;DNSAPI.dll;_DnsSetNrptRules@16
 DnsSetQueryRetryTimeouts;code;DNSAPI.dll;_DnsSetQueryRetryTimeouts@24
+DnsSetSettings;code;DNSAPI.dll;_DnsSetSettings@4
 DnsStartMulticastQuery;code;DNSAPI.dll;_DnsStartMulticastQuery@8
 DnsStopMulticastQuery;code;DNSAPI.dll;_DnsStopMulticastQuery@4
 DnsStringCopyAllocateEx;code;DNSAPI.dll;_DnsStringCopyAllocateEx@16
@@ -3247,6 +3258,7 @@ Trace_Reset;code;DNSAPI.dll;_Trace_Reset@0
 Update_ReplaceAddressRecordsW;code;DNSAPI.dll;_Update_ReplaceAddressRecordsW@20
 Util_IsIp6Running;code;DNSAPI.dll;_Util_IsIp6Running@0
 Util_IsRunningOnXboxOne;code;DNSAPI.dll;_Util_IsRunningOnXboxOne@0
+WriteDnsNrptRulesToRegistry;code;DNSAPI.dll;_WriteDnsNrptRulesToRegistry@16
 AddIPAddress;code;IPHLPAPI.DLL;_AddIPAddress@20
 AllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_AllocateAndGetInterfaceInfoFromStack@20
 AllocateAndGetIpAddrTableFromStack;code;IPHLPAPI.DLL;_AllocateAndGetIpAddrTableFromStack@16
@@ -3670,7 +3682,9 @@ I_RpcServerIsClientDisconnected;code;RPCRT4.dll;_I_RpcServerIsClientDisconnected
 I_RpcServerRegisterForwardFunction;code;RPCRT4.dll;_I_RpcServerRegisterForwardFunction@4
 I_RpcServerSetAddressChangeFn;code;RPCRT4.dll;_I_RpcServerSetAddressChangeFn@4
 I_RpcServerStartService;code;RPCRT4.dll;_I_RpcServerStartService@12
+I_RpcServerSubscribeForDisconnectNotification2;code;RPCRT4.dll;_I_RpcServerSubscribeForDisconnectNotification2@12
 I_RpcServerSubscribeForDisconnectNotification;code;RPCRT4.dll;_I_RpcServerSubscribeForDisconnectNotification@8
+I_RpcServerUnsubscribeForDisconnectNotification;code;RPCRT4.dll;_I_RpcServerUnsubscribeForDisconnectNotification@20
 I_RpcServerUseProtseq2A;code;RPCRT4.dll;_I_RpcServerUseProtseq2A@20
 I_RpcServerUseProtseq2W;code;RPCRT4.dll;_I_RpcServerUseProtseq2W@20
 I_RpcServerUseProtseqEp2A;code;RPCRT4.dll;_I_RpcServerUseProtseqEp2A@24

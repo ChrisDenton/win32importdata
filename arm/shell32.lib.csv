@@ -169,6 +169,7 @@ SHELL32_CMountPoint_IsAutoRunDriveAndEnabledByPolicy;code;SHELL32.dll;
 SHELL32_CMountPoint_ProcessAutoRunFile;code;SHELL32.dll;
 SHELL32_CMountPoint_WantAutorunUI;code;SHELL32.dll;
 SHELL32_CMountPoint_WantAutorunUIGetReady;code;SHELL32.dll;
+SHELL32_CNetFolderUI_CreateInstance;code;SHELL32.dll;
 SHELL32_CPL_CategoryIdArrayFromVariant;code;SHELL32.dll;
 SHELL32_CPL_IsLegacyCanonicalNameListedUnderKey;code;SHELL32.dll;
 SHELL32_CPL_ModifyWowDisplayName;code;SHELL32.dll;
@@ -391,6 +392,7 @@ Shell_NotifyIconA;code;SHELL32.dll;
 Shell_NotifyIconGetRect;code;SHELL32.dll;
 Shell_NotifyIconW;code;SHELL32.dll;
 SignalFileOpen;code;SHELL32.dll;103
+StateRepoNewMenuCache_RebuildCacheAsync;code;SHELL32.dll;
 StgMakeUniqueName;code;SHELL32.dll;682
 UsersLibrariesFolderUI_CreateInstance;code;SHELL32.dll;
 WOWShellExecute;code;SHELL32.dll;

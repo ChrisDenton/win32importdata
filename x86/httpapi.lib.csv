@@ -13,8 +13,10 @@ HttpCreateServerSession;code;HTTPAPI.dll;_HttpCreateServerSession@12
 HttpCreateUrlGroup;code;HTTPAPI.dll;_HttpCreateUrlGroup@16
 HttpDeclarePush;code;HTTPAPI.dll;_HttpDeclarePush@28
 HttpDelegateRequest;code;HTTPAPI.dll;_HttpDelegateRequest@24
+HttpDelegateRequestEx;code;HTTPAPI.dll;_HttpDelegateRequestEx@32
 HttpDeleteServiceConfiguration;code;HTTPAPI.dll;_HttpDeleteServiceConfiguration@20
 HttpEvaluateRequest;code;HTTPAPI.dll;_HttpEvaluateRequest@16
+HttpFindUrlGroupId;code;HTTPAPI.dll;_HttpFindUrlGroupId@12
 HttpFlushResponseCache;code;HTTPAPI.dll;_HttpFlushResponseCache@16
 HttpGetCounters;code;HTTPAPI.dll;_HttpGetCounters@24
 HttpGetExtension;code;HTTPAPI.dll;_HttpGetExtension@16

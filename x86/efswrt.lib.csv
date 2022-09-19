@@ -1,5 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
-CdplGetFileProtectionLevel;code;efswrt.dll;_CdplGetFileProtectionLevel@12
+CdplGetFileProtectionLevel;code;efswrt.dll;_CdplGetFileProtectionLevel@8
 CdplIsAppAllowedToRun;code;efswrt.dll;_CdplIsAppAllowedToRun@8
 CdplIsAppDataProtectionSupported;code;efswrt.dll;_CdplIsAppDataProtectionSupported@16
 CdplIsSupported;code;efswrt.dll;_CdplIsSupported@4

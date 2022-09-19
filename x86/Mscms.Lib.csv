@@ -70,6 +70,7 @@ GetStandardColorSpaceProfileA;code;mscms.dll;_GetStandardColorSpaceProfileA@16
 GetStandardColorSpaceProfileW;code;mscms.dll;_GetStandardColorSpaceProfileW@16
 InstallColorProfileA;code;mscms.dll;_InstallColorProfileA@8
 InstallColorProfileW;code;mscms.dll;_InstallColorProfileW@8
+_InternalGetAppliedGDIGammaRamp@8;code;mscms.dll;207
 _InternalGetAppliedGammaRamp@8;code;mscms.dll;205
 InternalGetDeviceConfig;code;mscms.dll;_InternalGetDeviceConfig@24
 _InternalGetDeviceGammaCapability@4;code;mscms.dll;206
@@ -82,6 +83,7 @@ _InternalGetPS2PreviewCRD2@32;code;mscms.dll;201
 InternalGetPS2PreviewCRD;code;mscms.dll;_InternalGetPS2PreviewCRD@24
 InternalRefreshCalibration;code;mscms.dll;_InternalRefreshCalibration@8
 InternalSetDeviceConfig;code;mscms.dll;_InternalSetDeviceConfig@24
+_InternalSetDeviceGDIGammaRamp@12;code;mscms.dll;208
 _InternalSetDeviceGammaRamp@12;code;mscms.dll;203
 _InternalSetDeviceTemperature@16;code;mscms.dll;204
 InternalWcsAssociateColorProfileWithDevice;code;mscms.dll;_InternalWcsAssociateColorProfileWithDevice@20

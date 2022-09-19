@@ -90,12 +90,14 @@ CryptXmlOpenToEncode;code;CRYPTXML.dll;
 CryptXmlSetHMACSecret;code;CRYPTXML.dll;
 CryptXmlSign;code;CRYPTXML.dll;
 CryptXmlVerifySignature;code;CRYPTXML.dll;
+SymAllocDiaString;code;dbghelp.dll;?SymAllocDiaString@@YAPEAGPEBG@Z (unsigned short * __cdecl SymAllocDiaString(unsigned short const *))
 SymFreeDiaString;code;dbghelp.dll;?SymFreeDiaString@@YAXPEAG@Z (void __cdecl SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;dbghelp.dll;?SymGetDiaSession@@YAHPEAX_KPEAPEAUIDiaSession@@@Z (int __cdecl SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
 SymGetLineFromAddrEx;code;dbghelp.dll;?SymGetLineFromAddrEx@@YAHPEAX_KPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAKPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromAddrEx(void *,unsigned __int64,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,unsigned long *,struct _IMAGEHLP_LINE64 *))
 SymGetLineFromNameEx;code;dbghelp.dll;?SymGetLineFromNameEx@@YAHPEAXPEBD1KPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAJPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromNameEx(void *,char const *,char const *,unsigned long,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,long *,struct _IMAGEHLP_LINE64 *))
 SymGetLineNextEx;code;dbghelp.dll;?SymGetLineNextEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineNextEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
 SymGetLinePrevEx;code;dbghelp.dll;?SymGetLinePrevEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLinePrevEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
+SymSetDiaSession;code;dbghelp.dll;?SymSetDiaSession@@YAHPEAX_KPEAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YAX_KK@Z (void __cdecl _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;
 DbgHelpCreateUserDumpW;code;dbghelp.dll;
@@ -1711,8 +1713,10 @@ HttpCreateServerSession;code;HTTPAPI.dll;
 HttpCreateUrlGroup;code;HTTPAPI.dll;
 HttpDeclarePush;code;HTTPAPI.dll;
 HttpDelegateRequest;code;HTTPAPI.dll;
+HttpDelegateRequestEx;code;HTTPAPI.dll;
 HttpDeleteServiceConfiguration;code;HTTPAPI.dll;
 HttpEvaluateRequest;code;HTTPAPI.dll;
+HttpFindUrlGroupId;code;HTTPAPI.dll;
 HttpFlushResponseCache;code;HTTPAPI.dll;
 HttpGetCounters;code;HTTPAPI.dll;
 HttpGetExtension;code;HTTPAPI.dll;
@@ -2125,17 +2129,6 @@ RegisterAppInstance;code;NTLANMAN.dll;
 RegisterAppInstanceVersion;code;NTLANMAN.dll;
 ResetAllAppInstanceVersions;code;NTLANMAN.dll;
 SetAppInstanceCsvFlags;code;NTLANMAN.dll;
-PdhVbAddCounter;code;pdh.dll;?PdhVbAddCounter@@YAKPEAXPEBDPEAPEAX@Z (unsigned long __cdecl PdhVbAddCounter(void *,char const *,void * *))
-PdhVbCreateCounterPathList;code;pdh.dll;?PdhVbCreateCounterPathList@@YAKKPEBD@Z (unsigned long __cdecl PdhVbCreateCounterPathList(unsigned long,char const *))
-PdhVbGetCounterPathElements;code;pdh.dll;?PdhVbGetCounterPathElements@@YAKPEBDPEAD1111K@Z (unsigned long __cdecl PdhVbGetCounterPathElements(char const *,char *,char *,char *,char *,char *,unsigned long))
-PdhVbGetCounterPathFromList;code;pdh.dll;?PdhVbGetCounterPathFromList@@YAKKPEADK@Z (unsigned long __cdecl PdhVbGetCounterPathFromList(unsigned long,char *,unsigned long))
-PdhVbGetDoubleCounterValue;code;pdh.dll;?PdhVbGetDoubleCounterValue@@YANPEAXPEAK@Z (double __cdecl PdhVbGetDoubleCounterValue(void *,unsigned long *))
-PdhVbGetLogFileSize;code;pdh.dll;?PdhVbGetLogFileSize@@YAKPEAXPEAJ@Z (unsigned long __cdecl PdhVbGetLogFileSize(void *,long *))
-PdhVbGetOneCounterPath;code;pdh.dll;?PdhVbGetOneCounterPath@@YAKPEADKKPEBD@Z (unsigned long __cdecl PdhVbGetOneCounterPath(char *,unsigned long,unsigned long,char const *))
-PdhVbIsGoodStatus;code;pdh.dll;?PdhVbIsGoodStatus@@YAKJ@Z (unsigned long __cdecl PdhVbIsGoodStatus(long))
-PdhVbOpenLog;code;pdh.dll;?PdhVbOpenLog@@YAKPEBDKPEAKPEAXK0PEAPEAX@Z (unsigned long __cdecl PdhVbOpenLog(char const *,unsigned long,unsigned long *,void *,unsigned long,char const *,void * *))
-PdhVbOpenQuery;code;pdh.dll;?PdhVbOpenQuery@@YAKPEAPEAX@Z (unsigned long __cdecl PdhVbOpenQuery(void * *))
-PdhVbUpdateLog;code;pdh.dll;?PdhVbUpdateLog@@YAKPEAXPEBD@Z (unsigned long __cdecl PdhVbUpdateLog(void *,char const *))
 PdhAddCounterA;code;pdh.dll;
 PdhAddCounterW;code;pdh.dll;
 PdhAddEnglishCounterA;code;pdh.dll;
@@ -2233,6 +2226,17 @@ PdhValidatePathA;code;pdh.dll;
 PdhValidatePathExA;code;pdh.dll;
 PdhValidatePathExW;code;pdh.dll;
 PdhValidatePathW;code;pdh.dll;
+PdhVbAddCounter;code;pdh.dll;
+PdhVbCreateCounterPathList;code;pdh.dll;
+PdhVbGetCounterPathElements;code;pdh.dll;
+PdhVbGetCounterPathFromList;code;pdh.dll;
+PdhVbGetDoubleCounterValue;code;pdh.dll;
+PdhVbGetLogFileSize;code;pdh.dll;
+PdhVbGetOneCounterPath;code;pdh.dll;
+PdhVbIsGoodStatus;code;pdh.dll;
+PdhVbOpenLog;code;pdh.dll;
+PdhVbOpenQuery;code;pdh.dll;
+PdhVbUpdateLog;code;pdh.dll;
 PdhVerifySQLDBA;code;pdh.dll;
 PdhVerifySQLDBW;code;pdh.dll;
 SnmpSvcAddrIsIpx;code;snmpapi.dll;
@@ -2575,7 +2579,6 @@ WerpOpenMachineArchive;code;wer.dll;?WerpOpenMachineArchive@@YAJPEAPEAX@Z (long 
 WerpOpenMachineQueue;code;wer.dll;?WerpOpenMachineQueue@@YAJPEAPEAX@Z (long __cdecl WerpOpenMachineQueue(void * *))
 WerpPromptUser;code;wer.dll;?WerpPromptUser@@YAJPEAXPEAUHWND__@@PEAU_WER_USER_PROMPT_INPUT@@PEAH@Z (long __cdecl WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))
 WerpPruneStore;code;wer.dll;?WerpPruneStore@@YAJPEAX@Z (long __cdecl WerpPruneStore(void *))
-WerpQueueHasBypassPowerReports;code;wer.dll;?WerpQueueHasBypassPowerReports@@YAJPEAH@Z (long __cdecl WerpQueueHasBypassPowerReports(int *))
 WerpReportCancel;code;wer.dll;?WerpReportCancel@@YAJPEAX@Z (long __cdecl WerpReportCancel(void *))
 WerpReportSprintfParameter;code;wer.dll;?WerpReportSprintfParameter@@YAJPEAXKPEAUHINSTANCE__@@IPEBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))
 WerpReserveMachineQueueReportDir;code;wer.dll;?WerpReserveMachineQueueReportDir@@YAJPEAXPEAGK@Z (long __cdecl WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))
@@ -2596,7 +2599,6 @@ WerpSetReportUploadContextToken;code;wer.dll;?WerpSetReportUploadContextToken@@Y
 WerpSetTelemetryAppParams;code;wer.dll;?WerpSetTelemetryAppParams@@YAJPEAXPEBU_WER_TELEMETRY_APP_PARAMS@@@Z (long __cdecl WerpSetTelemetryAppParams(void *,struct _WER_TELEMETRY_APP_PARAMS const *))
 WerpSetTelemetryKernelParams;code;wer.dll;?WerpSetTelemetryKernelParams@@YAJPEAXK@Z (long __cdecl WerpSetTelemetryKernelParams(void *,unsigned long))
 WerpSetTelemetryServiceParams;code;wer.dll;?WerpSetTelemetryServiceParams@@YAJPEAXPEBG1H@Z (long __cdecl WerpSetTelemetryServiceParams(void *,unsigned short const *,unsigned short const *,int))
-WerpSetTimedTask;code;wer.dll;?WerpSetTimedTask@@YAJHH@Z (long __cdecl WerpSetTimedTask(int,int))
 WerpShowUpsellUI;code;wer.dll;?WerpShowUpsellUI@@YAJPEAUHWND__@@PEAH@Z (long __cdecl WerpShowUpsellUI(struct HWND__ *,int *))
 WerpStitchedMinidumpVmPostReadCallback;code;wer.dll;?WerpStitchedMinidumpVmPostReadCallback@@YAJPEAU_WERP_STITCHED_DUMP_WRITER@@PEAK_KPEAXKKJ@Z (long __cdecl WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))
 WerpStitchedMinidumpVmPreReadCallback;code;wer.dll;?WerpStitchedMinidumpVmPreReadCallback@@YAJPEAU_WERP_STITCHED_DUMP_WRITER@@PEAK_KPEAXK@Z (long __cdecl WerpStitchedMinidumpVmPreReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long))
@@ -2658,9 +2660,11 @@ WerpLoadReport;code;wer.dll;
 WerpSetAuxiliaryArchivePath;code;wer.dll;
 WerpSetCallBack;code;wer.dll;
 WerpSetDefaultUserConsent;code;wer.dll;
+WerpSetExitListeners;code;wer.dll;
 WerpSetIntegratorReportId;code;wer.dll;
 WerpSetIptEnabled;code;wer.dll;
 WerpSetReportOption;code;wer.dll;
+WerpSetTtdStatus;code;wer.dll;
 EvtIntSysprepCleanup;code;wevtapi.dll;?EvtIntSysprepCleanup@@YAKXZ (unsigned long __cdecl EvtIntSysprepCleanup(void))
 EvtArchiveExportedLog;code;wevtapi.dll;
 EvtCancel;code;wevtapi.dll;

@@ -1,6 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
 ApplyGuestMemoryFix;code;VmSavedStateDumpProvider.dll;
 ApplyPendingSavedStateFileReplayLog;code;VmSavedStateDumpProvider.dll;
+ForceArchitecture;code;VmSavedStateDumpProvider.dll;
+ForcePagingMode;code;VmSavedStateDumpProvider.dll;
 GetArchitecture;code;VmSavedStateDumpProvider.dll;
 GetGuestPhysicalMemoryChunks;code;VmSavedStateDumpProvider.dll;
 GetGuestRawSavedMemorySize;code;VmSavedStateDumpProvider.dll;
@@ -10,10 +12,14 @@ GetVpCount;code;VmSavedStateDumpProvider.dll;
 GetWindowsCrashDumpHeader;code;VmSavedStateDumpProvider.dll;
 GuestPhysicalAddressToRawSavedMemoryOffset;code;VmSavedStateDumpProvider.dll;
 GuestVirtualAddressToPhysicalAddress;code;VmSavedStateDumpProvider.dll;
+InKernelSpace;code;VmSavedStateDumpProvider.dll;
 LoadSavedStateFile;code;VmSavedStateDumpProvider.dll;
 LoadSavedStateFiles;code;VmSavedStateDumpProvider.dll;
 LocateSavedStateFiles;code;VmSavedStateDumpProvider.dll;
 ReadGuestPhysicalAddress;code;VmSavedStateDumpProvider.dll;
 ReadGuestRawSavedMemory;code;VmSavedStateDumpProvider.dll;
 ReleaseSavedStateFiles;code;VmSavedStateDumpProvider.dll;
+SetDebugVerboseHandler;code;VmSavedStateDumpProvider.dll;
+SetErrorVerboseHandler;code;VmSavedStateDumpProvider.dll;
+SetInfoVerboseHandler;code;VmSavedStateDumpProvider.dll;
 WriteWindowsCrashDumpFile;code;VmSavedStateDumpProvider.dll;

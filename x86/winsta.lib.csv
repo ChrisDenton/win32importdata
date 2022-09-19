@@ -7,6 +7,7 @@ ServerGetInternetConnectorStatus;code;WINSTA.dll;_ServerGetInternetConnectorStat
 ServerLicensingClose;code;WINSTA.dll;_ServerLicensingClose@4
 ServerLicensingDeactivateCurrentPolicy;code;WINSTA.dll;_ServerLicensingDeactivateCurrentPolicy@4
 ServerLicensingFreePolicyInformation;code;WINSTA.dll;_ServerLicensingFreePolicyInformation@4
+ServerLicensingGetAadInfo;code;WINSTA.dll;_ServerLicensingGetAadInfo@16
 ServerLicensingGetAvailablePolicyIds;code;WINSTA.dll;_ServerLicensingGetAvailablePolicyIds@12
 ServerLicensingGetPolicy;code;WINSTA.dll;_ServerLicensingGetPolicy@8
 ServerLicensingGetPolicyInformationA;code;WINSTA.dll;_ServerLicensingGetPolicyInformationA@16
@@ -14,6 +15,7 @@ ServerLicensingGetPolicyInformationW;code;WINSTA.dll;_ServerLicensingGetPolicyIn
 ServerLicensingLoadPolicy;code;WINSTA.dll;_ServerLicensingLoadPolicy@8
 ServerLicensingOpenA;code;WINSTA.dll;_ServerLicensingOpenA@4
 ServerLicensingOpenW;code;WINSTA.dll;_ServerLicensingOpenW@4
+ServerLicensingSetAadInfo;code;WINSTA.dll;_ServerLicensingSetAadInfo@16
 ServerLicensingSetPolicy;code;WINSTA.dll;_ServerLicensingSetPolicy@12
 ServerLicensingUnloadPolicy;code;WINSTA.dll;_ServerLicensingUnloadPolicy@8
 ServerQueryInetConnectorInformationA;code;WINSTA.dll;_ServerQueryInetConnectorInformationA@16

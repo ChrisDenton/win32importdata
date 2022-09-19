@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-?DiscoverEndpoint@@YGJPBG0PAW4MDMAuthPolicy@@PAPAG22@Z (long __stdcall DiscoverEndpoint(unsigned short const *,unsigned short const *,enum MDMAuthPolicy *,unsigned short * *,unsigned short * *,unsigned short * *));code;MDMRegistration.DLL;1
 ?FindDiscoveryService@@YGJPBGPAPBGPAH@Z (long __stdcall FindDiscoveryService(unsigned short const *,unsigned short const * *,int *));code;MDMRegistration.DLL;2
 DiscoverManagementService;code;MDMRegistration.DLL;_DiscoverManagementService@8
 DiscoverManagementServiceEx;code;MDMRegistration.DLL;_DiscoverManagementServiceEx@12
@@ -7,7 +6,9 @@ GetDeviceRegistrationInfo;code;MDMRegistration.DLL;_GetDeviceRegistrationInfo@8
 GetManagementAppHyperlink;code;MDMRegistration.DLL;_GetManagementAppHyperlink@8
 IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;_IsDeviceRegisteredWithManagement@12
 IsManagementRegistrationAllowed;code;MDMRegistration.DLL;_IsManagementRegistrationAllowed@4
+IsMdmUxWithoutAadAllowed;code;MDMRegistration.DLL;_IsMdmUxWithoutAadAllowed@4
 RegisterDeviceWithManagement;code;MDMRegistration.DLL;_RegisterDeviceWithManagement@12
 RegisterDeviceWithManagementUsingAADCredentials;code;MDMRegistration.DLL;_RegisterDeviceWithManagementUsingAADCredentials@4
+RegisterDeviceWithManagementUsingAADDeviceCredentials;code;MDMRegistration.DLL;_RegisterDeviceWithManagementUsingAADDeviceCredentials@0
 SetManagedExternally;code;MDMRegistration.DLL;_SetManagedExternally@4
 UnregisterDeviceWithManagement;code;MDMRegistration.DLL;_UnregisterDeviceWithManagement@4

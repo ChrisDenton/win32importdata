@@ -1,5 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 EfsUtilGetCurrentKey;code;FeClient.dll;
+DpQueryUserProtectorDescriptor;code;FeClient.dll;_DpQueryUserProtectorDescriptor@16
+DpQueryUserProtectorDescriptorInfo;code;FeClient.dll;_DpQueryUserProtectorDescriptorInfo@16
 EdpAllowFileAccessForProcess;code;FeClient.dll;_EdpAllowFileAccessForProcess@12
 EdpContainerizeFile;code;FeClient.dll;_EdpContainerizeFile@20
 EdpCredentialCreate;code;FeClient.dll;_EdpCredentialCreate@16

@@ -9,6 +9,7 @@ DhcpDeRegisterOptions;code;dhcpcsvc.DLL;
 DhcpDeRegisterParamChange;code;dhcpcsvc.DLL;
 DhcpDelPersistentRequestParams;code;dhcpcsvc.DLL;
 DhcpEnableDhcp;code;dhcpcsvc.DLL;
+DhcpEnableDhcpAdvanced;code;dhcpcsvc.DLL;
 DhcpEnableTracing;code;dhcpcsvc.DLL;
 DhcpEnumClasses;code;dhcpcsvc.DLL;
 DhcpEnumInterfaces;code;dhcpcsvc.DLL;

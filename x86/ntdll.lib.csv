@@ -245,6 +245,7 @@ NtCompressKey;code;ntdll.dll;_NtCompressKey@4
 NtConnectPort;code;ntdll.dll;_NtConnectPort@32
 NtContinue;code;ntdll.dll;_NtContinue@8
 NtConvertBetweenAuxiliaryCounterAndPerformanceCounter;code;ntdll.dll;_NtConvertBetweenAuxiliaryCounterAndPerformanceCounter@16
+NtCreateCrossVmEvent;code;ntdll.dll;_NtCreateCrossVmEvent@24
 NtCreateDebugObject;code;ntdll.dll;_NtCreateDebugObject@16
 NtCreateDirectoryObject;code;ntdll.dll;_NtCreateDirectoryObject@12
 NtCreateDirectoryObjectEx;code;ntdll.dll;_NtCreateDirectoryObjectEx@20
@@ -747,6 +748,7 @@ RtlComputeImportTableHash;code;ntdll.dll;_RtlComputeImportTableHash@12
 RtlComputePrivatizedDllName_U;code;ntdll.dll;_RtlComputePrivatizedDllName_U@12
 RtlConnectToSm;code;ntdll.dll;_RtlConnectToSm@16
 RtlConsoleMultiByteToUnicodeN;code;ntdll.dll;_RtlConsoleMultiByteToUnicodeN@24
+RtlConstructCrossVmEventPath;code;ntdll.dll;_RtlConstructCrossVmEventPath@12
 RtlContractHashTable;code;ntdll.dll;_RtlContractHashTable@4
 RtlConvertDeviceFamilyInfoToString;code;ntdll.dll;_RtlConvertDeviceFamilyInfoToString@16
 RtlConvertExclusiveToShared;code;ntdll.dll;_RtlConvertExclusiveToShared@4
@@ -851,6 +853,7 @@ RtlDisableThreadProfiling;code;ntdll.dll;_RtlDisableThreadProfiling@4
 RtlDllShutdownInProgress;code;ntdll.dll;_RtlDllShutdownInProgress@0
 RtlDnsHostNameToComputerName;code;ntdll.dll;_RtlDnsHostNameToComputerName@12
 RtlDoesFileExists_U;code;ntdll.dll;_RtlDoesFileExists_U@4
+RtlDoesNameContainWildCards;code;ntdll.dll;_RtlDoesNameContainWildCards@4
 RtlDosApplyFileIsolationRedirection_Ustr;code;ntdll.dll;_RtlDosApplyFileIsolationRedirection_Ustr@36
 RtlDosLongPathNameToNtPathName_U_WithStatus;code;ntdll.dll;_RtlDosLongPathNameToNtPathName_U_WithStatus@16
 RtlDosLongPathNameToRelativeNtPathName_U_WithStatus;code;ntdll.dll;_RtlDosLongPathNameToRelativeNtPathName_U_WithStatus@16
@@ -933,6 +936,8 @@ RtlFirstEntrySList;code;ntdll.dll;_RtlFirstEntrySList@4
 RtlFirstFreeAce;code;ntdll.dll;_RtlFirstFreeAce@8
 RtlFlsAlloc;code;ntdll.dll;_RtlFlsAlloc@8
 RtlFlsFree;code;ntdll.dll;_RtlFlsFree@4
+RtlFlsGetValue;code;ntdll.dll;_RtlFlsGetValue@8
+RtlFlsSetValue;code;ntdll.dll;_RtlFlsSetValue@8
 RtlFlushSecureMemoryCache;code;ntdll.dll;_RtlFlushSecureMemoryCache@8
 RtlFormatCurrentUserKeyPath;code;ntdll.dll;_RtlFormatCurrentUserKeyPath@4
 RtlFormatMessage;code;ntdll.dll;_RtlFormatMessage@36
@@ -1201,7 +1206,7 @@ RtlPinAtomInAtomTable;code;ntdll.dll;_RtlPinAtomInAtomTable@8
 RtlPopFrame;code;ntdll.dll;_RtlPopFrame@4
 RtlPrefixString;code;ntdll.dll;_RtlPrefixString@12
 RtlPrefixUnicodeString;code;ntdll.dll;_RtlPrefixUnicodeString@12
-RtlProcessFlsData;code;ntdll.dll;_RtlProcessFlsData@4
+RtlProcessFlsData;code;ntdll.dll;_RtlProcessFlsData@8
 RtlPublishWnfStateData;code;ntdll.dll;_RtlPublishWnfStateData@24
 RtlPushFrame;code;ntdll.dll;_RtlPushFrame@4
 RtlQueryActivationContextApplicationSettings;code;ntdll.dll;_RtlQueryActivationContextApplicationSettings@28
@@ -1657,6 +1662,7 @@ ZwCompressKey;code;ntdll.dll;_ZwCompressKey@4
 ZwConnectPort;code;ntdll.dll;_ZwConnectPort@32
 ZwContinue;code;ntdll.dll;_ZwContinue@8
 ZwConvertBetweenAuxiliaryCounterAndPerformanceCounter;code;ntdll.dll;_ZwConvertBetweenAuxiliaryCounterAndPerformanceCounter@16
+ZwCreateCrossVmEvent;code;ntdll.dll;_ZwCreateCrossVmEvent@24
 ZwCreateDebugObject;code;ntdll.dll;_ZwCreateDebugObject@16
 ZwCreateDirectoryObject;code;ntdll.dll;_ZwCreateDirectoryObject@12
 ZwCreateDirectoryObjectEx;code;ntdll.dll;_ZwCreateDirectoryObjectEx@20

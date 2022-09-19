@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+DMLCreateDevice;code;directml.dll;1

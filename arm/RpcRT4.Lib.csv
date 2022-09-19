@@ -105,6 +105,8 @@ I_RpcServerRegisterForwardFunction;code;RPCRT4.dll;
 I_RpcServerSetAddressChangeFn;code;RPCRT4.dll;
 I_RpcServerStartService;code;RPCRT4.dll;
 I_RpcServerSubscribeForDisconnectNotification;code;RPCRT4.dll;
+I_RpcServerSubscribeForDisconnectNotification2;code;RPCRT4.dll;
+I_RpcServerUnsubscribeForDisconnectNotification;code;RPCRT4.dll;
 I_RpcServerUseProtseq2A;code;RPCRT4.dll;
 I_RpcServerUseProtseq2W;code;RPCRT4.dll;
 I_RpcServerUseProtseqEp2A;code;RPCRT4.dll;

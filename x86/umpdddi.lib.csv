@@ -6,7 +6,6 @@ BRUSHOBJ_ulGetBrushColor;code;GDI32.dll;_BRUSHOBJ_ulGetBrushColor@4
 CLIPOBJ_bEnum;code;GDI32.dll;_CLIPOBJ_bEnum@12
 CLIPOBJ_cEnumStart;code;GDI32.dll;_CLIPOBJ_cEnumStart@20
 CLIPOBJ_ppoGetPath;code;GDI32.dll;_CLIPOBJ_ppoGetPath@4
-DxTrimNotificationListHead;data;GDI32.dll;_DxTrimNotificationListHead
 EngAcquireSemaphore;code;GDI32.dll;_EngAcquireSemaphore@4
 EngAlphaBlend;code;GDI32.dll;_EngAlphaBlend@28
 EngAssociateSurface;code;GDI32.dll;_EngAssociateSurface@12
@@ -90,4 +89,3 @@ ghICM;data;GDI32.dll;_ghICM
 pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps
 pGdiSharedHandleTable;data;GDI32.dll;_pGdiSharedHandleTable
 pGdiSharedMemory;data;GDI32.dll;_pGdiSharedMemory
-semDxTrimNotification;data;GDI32.dll;_semDxTrimNotification

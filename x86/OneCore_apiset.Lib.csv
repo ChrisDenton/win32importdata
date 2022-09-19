@@ -310,6 +310,8 @@ DebugActiveProcess;code;api-ms-win-core-debug-l1-1-1.dll;_DebugActiveProcess@4
 DebugActiveProcessStop;code;api-ms-win-core-debug-l1-1-1.dll;_DebugActiveProcessStop@4
 WaitForDebugEvent;code;api-ms-win-core-debug-l1-1-1.dll;_WaitForDebugEvent@8
 WaitForDebugEventEx;code;api-ms-win-core-debug-l1-1-2.dll;_WaitForDebugEventEx@8
+MiniDumpReadDumpStream;code;api-ms-win-core-debug-minidump-l1-1-0.dll;_MiniDumpReadDumpStream@20
+MiniDumpWriteDump;code;api-ms-win-core-debug-minidump-l1-1-0.dll;_MiniDumpWriteDump@28
 DelayLoadFailureHook;code;api-ms-win-core-delayload-l1-1-0.dll;_DelayLoadFailureHook@8
 ResolveDelayLoadedAPI;code;api-ms-win-core-delayload-l1-1-1.dll;_ResolveDelayLoadedAPI@24
 ResolveDelayLoadsFromDll;code;api-ms-win-core-delayload-l1-1-1.dll;_ResolveDelayLoadsFromDll@12
@@ -1362,6 +1364,7 @@ SetComputerNameExA;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameExA@8
 SetComputerNameW;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameW@4
 GetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_GetSystemTimeAdjustmentPrecise@12
 SetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_SetSystemTimeAdjustmentPrecise@12
+GetSystemLeapSecondInformation;code;api-ms-win-core-sysinfo-l1-2-5.dll;_GetSystemLeapSecondInformation@8
 GetNumaHighestNodeNumber;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaHighestNodeNumber@4
 GetNumaNodeProcessorMaskEx;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaNodeProcessorMaskEx@8
 GetNumaProximityNodeEx;code;api-ms-win-core-systemtopology-l1-1-1.dll;_GetNumaProximityNodeEx@8
@@ -1727,6 +1730,8 @@ TdhGetPropertySize;code;api-ms-win-eventing-tdh-l1-1-0.dll;_TdhGetPropertySize@2
 TdhLoadManifest;code;api-ms-win-eventing-tdh-l1-1-0.dll;_TdhLoadManifest@4
 TdhQueryProviderFieldInformation;code;api-ms-win-eventing-tdh-l1-1-0.dll;_TdhQueryProviderFieldInformation@24
 TdhUnloadManifest;code;api-ms-win-eventing-tdh-l1-1-0.dll;_TdhUnloadManifest@4
+TdhLoadManifestFromMemory;code;api-ms-win-eventing-tdh-l1-1-1.dll;_TdhLoadManifestFromMemory@8
+TdhUnloadManifestFromMemory;code;api-ms-win-eventing-tdh-l1-1-1.dll;_TdhUnloadManifestFromMemory@8
 GetGamingDeviceModelInformation;code;api-ms-win-gaming-deviceinformation-l1-1-0.dll;_GetGamingDeviceModelInformation@4
 timeBeginPeriod;code;api-ms-win-mm-time-l1-1-0.dll;_timeBeginPeriod@4
 timeEndPeriod;code;api-ms-win-mm-time-l1-1-0.dll;_timeEndPeriod@4
@@ -1951,6 +1956,7 @@ CryptSignHashW;code;api-ms-win-security-cryptoapi-l1-1-0.dll;_CryptSignHashW@24
 CryptVerifySignatureA;code;api-ms-win-security-cryptoapi-l1-1-0.dll;_CryptVerifySignatureA@24
 CryptVerifySignatureW;code;api-ms-win-security-cryptoapi-l1-1-0.dll;_CryptVerifySignatureW@24
 IsProcessInIsolatedContainer;code;api-ms-win-security-isolatedcontainer-l1-1-0.dll;_IsProcessInIsolatedContainer@4
+IsProcessInWDAGContainer;code;api-ms-win-security-isolatedcontainer-l1-1-1.dll;_IsProcessInWDAGContainer@8
 LookupAccountNameA;code;api-ms-win-security-lsalookup-ansi-l2-1-0.dll;_LookupAccountNameA@28
 LookupAccountSidA;code;api-ms-win-security-lsalookup-ansi-l2-1-0.dll;_LookupAccountSidA@28
 LookupPrivilegeDisplayNameA;code;api-ms-win-security-lsalookup-ansi-l2-1-0.dll;_LookupPrivilegeDisplayNameA@20
@@ -2570,6 +2576,8 @@ DnsAsyncRegisterHostAddrs;code;DNSAPI.dll;_DnsAsyncRegisterHostAddrs@40
 DnsAsyncRegisterInit;code;DNSAPI.dll;_DnsAsyncRegisterInit@4
 DnsAsyncRegisterTerm;code;DNSAPI.dll;_DnsAsyncRegisterTerm@0
 DnsCancelQuery;code;DNSAPI.dll;_DnsCancelQuery@4
+DnsCheckNrptRuleIntegrity;code;DNSAPI.dll;_DnsCheckNrptRuleIntegrity@4
+DnsCheckNrptRules;code;DNSAPI.dll;_DnsCheckNrptRules@12
 DnsConnectionDeletePolicyEntries;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntries@4
 DnsConnectionDeletePolicyEntriesPrivate;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntriesPrivate@8
 DnsConnectionDeleteProxyInfo;code;DNSAPI.dll;_DnsConnectionDeleteProxyInfo@8
@@ -2616,6 +2624,7 @@ DnsFlushResolverCacheEntry_W;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_W@4
 DnsFree;code;DNSAPI.dll;_DnsFree@8
 DnsFreeAdaptersInfo;code;DNSAPI.dll;_DnsFreeAdaptersInfo@8
 DnsFreeConfigStructure;code;DNSAPI.dll;_DnsFreeConfigStructure@8
+DnsFreeNrptRule;code;DNSAPI.dll;_DnsFreeNrptRule@4
 DnsFreeNrptRuleNamesList;code;DNSAPI.dll;_DnsFreeNrptRuleNamesList@8
 DnsFreePolicyConfig;code;DNSAPI.dll;_DnsFreePolicyConfig@4
 DnsFreeProxyName;code;DNSAPI.dll;_DnsFreeProxyName@4
@@ -2623,8 +2632,10 @@ DnsGetAdaptersInfo;code;DNSAPI.dll;_DnsGetAdaptersInfo@24
 DnsGetApplicationIdentifier;code;DNSAPI.dll;_DnsGetApplicationIdentifier@12
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
+DnsGetCacheDataTableEx;code;DNSAPI.dll;_DnsGetCacheDataTableEx@12
 DnsGetDnsServerList;code;DNSAPI.dll;_DnsGetDnsServerList@4
 DnsGetDomainName;code;DNSAPI.dll;@DnsGetDomainName@4
+DnsGetInterfaceSettings;code;DNSAPI.dll;_DnsGetInterfaceSettings@20
 DnsGetLastFailedUpdateInfo;code;DNSAPI.dll;_DnsGetLastFailedUpdateInfo@4
 DnsGetNrptRuleNamesList;code;DNSAPI.dll;_DnsGetNrptRuleNamesList@8
 DnsGetPolicyTableInfo;code;DNSAPI.dll;_DnsGetPolicyTableInfo@16
@@ -2633,6 +2644,7 @@ DnsGetPrimaryDomainName_A;code;DNSAPI.dll;_DnsGetPrimaryDomainName_A@0
 DnsGetProxyInfoPrivate;code;DNSAPI.dll;_DnsGetProxyInfoPrivate@16
 DnsGetProxyInformation;code;DNSAPI.dll;_DnsGetProxyInformation@20
 DnsGetQueryRetryTimeouts;code;DNSAPI.dll;_DnsGetQueryRetryTimeouts@24
+DnsGetSettings;code;DNSAPI.dll;_DnsGetSettings@4
 DnsGlobals;data;DNSAPI.dll;_DnsGlobals
 DnsIpv6AddressToString;code;DNSAPI.dll;_DnsIpv6AddressToString@8
 DnsIpv6StringToAddress;code;DNSAPI.dll;_DnsIpv6StringToAddress@12
@@ -2689,6 +2701,7 @@ DnsReplaceRecordSetUTF8;code;DNSAPI.dll;_DnsReplaceRecordSetUTF8@20
 DnsReplaceRecordSetW;code;DNSAPI.dll;_DnsReplaceRecordSetW@20
 DnsResetQueryRetryTimeouts;code;DNSAPI.dll;_DnsResetQueryRetryTimeouts@16
 DnsResolverOp;code;DNSAPI.dll;_DnsResolverOp@12
+DnsResolverQueryHvsi;code;DNSAPI.dll;_DnsResolverQueryHvsi@32
 DnsScreenLocalAddrsForRegistration;code;DNSAPI.dll;_DnsScreenLocalAddrsForRegistration@12
 DnsServiceBrowse;code;DNSAPI.dll;_DnsServiceBrowse@8
 DnsServiceBrowseCancel;code;DNSAPI.dll;_DnsServiceBrowseCancel@4
@@ -2702,8 +2715,11 @@ DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
 DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
+DnsSetInterfaceSettings;code;DNSAPI.dll;_DnsSetInterfaceSettings@20
 DnsSetNrptRule;code;DNSAPI.dll;_DnsSetNrptRule@12
+DnsSetNrptRules;code;DNSAPI.dll;_DnsSetNrptRules@16
 DnsSetQueryRetryTimeouts;code;DNSAPI.dll;_DnsSetQueryRetryTimeouts@24
+DnsSetSettings;code;DNSAPI.dll;_DnsSetSettings@4
 DnsStartMulticastQuery;code;DNSAPI.dll;_DnsStartMulticastQuery@8
 DnsStatusString;code;DNSAPI.dll;@DnsStatusString@4
 DnsStopMulticastQuery;code;DNSAPI.dll;_DnsStopMulticastQuery@4
@@ -2786,6 +2802,7 @@ Trace_Reset;code;DNSAPI.dll;_Trace_Reset@0
 Update_ReplaceAddressRecordsW;code;DNSAPI.dll;_Update_ReplaceAddressRecordsW@20
 Util_IsIp6Running;code;DNSAPI.dll;_Util_IsIp6Running@0
 Util_IsRunningOnXboxOne;code;DNSAPI.dll;_Util_IsRunningOnXboxOne@0
+WriteDnsNrptRulesToRegistry;code;DNSAPI.dll;_WriteDnsNrptRulesToRegistry@16
 DsCrackSpn2A;code;DSPARSE.dll;_DsCrackSpn2A@36
 DsCrackSpn2W;code;DSPARSE.dll;_DsCrackSpn2W@36
 DsCrackSpn3W;code;DSPARSE.dll;_DsCrackSpn3W@44
@@ -3923,7 +3940,9 @@ I_RpcServerRegisterForwardFunction;code;RPCRT4.dll;_I_RpcServerRegisterForwardFu
 I_RpcServerSetAddressChangeFn;code;RPCRT4.dll;_I_RpcServerSetAddressChangeFn@4
 I_RpcServerStartService;code;RPCRT4.dll;_I_RpcServerStartService@12
 I_RpcServerSubscribeForDisconnectNotification;code;RPCRT4.dll;_I_RpcServerSubscribeForDisconnectNotification@8
+I_RpcServerSubscribeForDisconnectNotification2;code;RPCRT4.dll;_I_RpcServerSubscribeForDisconnectNotification2@12
 I_RpcServerTurnOnOffKeepalives;code;RPCRT4.dll;?I_RpcServerTurnOnOffKeepalives@@YGJPAXHKK@Z (long __stdcall I_RpcServerTurnOnOffKeepalives(void *,int,unsigned long,unsigned long))
+I_RpcServerUnsubscribeForDisconnectNotification;code;RPCRT4.dll;_I_RpcServerUnsubscribeForDisconnectNotification@20
 I_RpcServerUseProtseq2A;code;RPCRT4.dll;_I_RpcServerUseProtseq2A@20
 I_RpcServerUseProtseq2W;code;RPCRT4.dll;_I_RpcServerUseProtseq2W@20
 I_RpcServerUseProtseqEp2A;code;RPCRT4.dll;_I_RpcServerUseProtseqEp2A@24
@@ -4548,6 +4567,7 @@ TokenBindingDeleteAllBindings;code;TOKENBINDING.dll;_TokenBindingDeleteAllBindin
 TokenBindingDeleteBinding;code;TOKENBINDING.dll;_TokenBindingDeleteBinding@4
 TokenBindingGenerateBinding;code;TOKENBINDING.dll;_TokenBindingGenerateBinding@40
 TokenBindingGenerateID;code;TOKENBINDING.dll;_TokenBindingGenerateID@16
+TokenBindingGenerateIDForUri;code;TOKENBINDING.dll;_TokenBindingGenerateIDForUri@12
 TokenBindingGenerateMessage;code;TOKENBINDING.dll;_TokenBindingGenerateMessage@20
 TokenBindingGetHighestSupportedVersion;code;TOKENBINDING.dll;_TokenBindingGetHighestSupportedVersion@8
 TokenBindingGetKeyTypesClient;code;TOKENBINDING.dll;_TokenBindingGetKeyTypesClient@4

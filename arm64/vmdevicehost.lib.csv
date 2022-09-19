@@ -5,5 +5,7 @@ HdvDeliverGuestInterrupt;code;vmdevicehost.dll;
 HdvDestroyGuestMemoryAperture;code;vmdevicehost.dll;
 HdvInitializeDeviceHost;code;vmdevicehost.dll;
 HdvReadGuestMemory;code;vmdevicehost.dll;
+HdvRegisterDoorbellPage;code;vmdevicehost.dll;
 HdvTeardownDeviceHost;code;vmdevicehost.dll;
+HdvUnregisterDoorbellPage;code;vmdevicehost.dll;
 HdvWriteGuestMemory;code;vmdevicehost.dll;

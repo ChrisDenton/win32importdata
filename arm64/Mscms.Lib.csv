@@ -70,6 +70,7 @@ GetStandardColorSpaceProfileA;code;mscms.dll;
 GetStandardColorSpaceProfileW;code;mscms.dll;
 InstallColorProfileA;code;mscms.dll;
 InstallColorProfileW;code;mscms.dll;
+InternalGetAppliedGDIGammaRamp;code;mscms.dll;207
 InternalGetAppliedGammaRamp;code;mscms.dll;205
 InternalGetDeviceConfig;code;mscms.dll;
 InternalGetDeviceGammaCapability;code;mscms.dll;206
@@ -82,6 +83,7 @@ InternalGetPS2PreviewCRD;code;mscms.dll;
 InternalGetPS2PreviewCRD2;code;mscms.dll;201
 InternalRefreshCalibration;code;mscms.dll;
 InternalSetDeviceConfig;code;mscms.dll;
+InternalSetDeviceGDIGammaRamp;code;mscms.dll;208
 InternalSetDeviceGammaRamp;code;mscms.dll;203
 InternalSetDeviceTemperature;code;mscms.dll;204
 InternalWcsAssociateColorProfileWithDevice;code;mscms.dll;

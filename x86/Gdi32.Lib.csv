@@ -170,9 +170,10 @@ D3DKMTMarkDeviceAsError;code;GDI32.dll;_D3DKMTMarkDeviceAsError@4
 D3DKMTNetDispGetNextChunkInfo;code;GDI32.dll;_D3DKMTNetDispGetNextChunkInfo@28
 D3DKMTNetDispQueryMiracastDisplayDeviceStatus;code;GDI32.dll;_D3DKMTNetDispQueryMiracastDisplayDeviceStatus@8
 D3DKMTNetDispQueryMiracastDisplayDeviceSupport;code;GDI32.dll;_D3DKMTNetDispQueryMiracastDisplayDeviceSupport@4
+D3DKMTNetDispStartMiracastDisplayDevice2;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDevice2@12
+D3DKMTNetDispStartMiracastDisplayDevice;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDevice@8
 D3DKMTNetDispStartMiracastDisplayDeviceEx;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDeviceEx@4
 D3DKMTNetDispStopMiracastDisplayDevice;code;GDI32.dll;_D3DKMTNetDispStopMiracastDisplayDevice@8
-D3DKMTNetDispStopSessions;code;GDI32.dll;_D3DKMTNetDispStopSessions@4
 D3DKMTOfferAllocations;code;GDI32.dll;_D3DKMTOfferAllocations@4
 D3DKMTOpenAdapterFromDeviceName;code;GDI32.dll;_D3DKMTOpenAdapterFromDeviceName@4
 D3DKMTOpenAdapterFromGdiDisplayName;code;GDI32.dll;_D3DKMTOpenAdapterFromGdiDisplayName@4
@@ -294,7 +295,6 @@ DescribePixelFormat;code;GDI32.dll;_DescribePixelFormat@16
 DeviceCapabilitiesExA;code;GDI32.dll;_DeviceCapabilitiesExA@24
 DeviceCapabilitiesExW;code;GDI32.dll;_DeviceCapabilitiesExW@24
 DrawEscape;code;GDI32.dll;_DrawEscape@16
-DxTrimNotificationListHead;data;GDI32.dll;_DxTrimNotificationListHead
 Ellipse;code;GDI32.dll;_Ellipse@20
 EnableEUDC;code;GDI32.dll;_EnableEUDC@4
 EndDoc;code;GDI32.dll;_EndDoc@4
@@ -604,4 +604,3 @@ ghICM;data;GDI32.dll;_ghICM
 pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps
 pGdiSharedHandleTable;data;GDI32.dll;_pGdiSharedHandleTable
 pGdiSharedMemory;data;GDI32.dll;_pGdiSharedMemory
-semDxTrimNotification;data;GDI32.dll;_semDxTrimNotification

@@ -29,6 +29,7 @@ SslEmptyCacheW;code;SCHANNEL.dll;_SslEmptyCacheW@8
 SslFreeCertificate;code;SCHANNEL.dll;_SslFreeCertificate@4
 SslFreeCustomBuffer;code;SCHANNEL.dll;_SslFreeCustomBuffer@16
 SslGenerateRandomBits;code;SCHANNEL.dll;_SslGenerateRandomBits@8
+SslGetExtensions;code;SCHANNEL.dll;_SslGetExtensions@24
 SslGetMaximumKeySize;code;SCHANNEL.dll;_SslGetMaximumKeySize@4
 SslGetServerIdentity;code;SCHANNEL.dll;_SslGetServerIdentity@20
 SslLoadCertificate;code;SCHANNEL.dll;_SslLoadCertificate@12

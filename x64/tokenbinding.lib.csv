@@ -3,6 +3,7 @@ TokenBindingDeleteAllBindings;code;TOKENBINDING.dll;
 TokenBindingDeleteBinding;code;TOKENBINDING.dll;
 TokenBindingGenerateBinding;code;TOKENBINDING.dll;
 TokenBindingGenerateID;code;TOKENBINDING.dll;
+TokenBindingGenerateIDForUri;code;TOKENBINDING.dll;
 TokenBindingGenerateMessage;code;TOKENBINDING.dll;
 TokenBindingGetHighestSupportedVersion;code;TOKENBINDING.dll;
 TokenBindingGetKeyTypesClient;code;TOKENBINDING.dll;
