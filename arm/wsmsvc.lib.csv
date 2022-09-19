@@ -3496,6 +3496,7 @@ WrapperCoSetProxyBlanket;code;WsmSvc.DLL;?WrapperCoSetProxyBlanket@@YAJPAUIUnkno
 ?front@?$SimpleQueue@T_LARGE_INTEGER@@@@QBA?BT_LARGE_INTEGER@@XZ;code;WsmSvc.DLL;
 ?g_Resources@Locale@@0V?$Loader@VResources@Locale@@$0A@@@A;data;WsmSvc.DLL;
 ?isValid@?$SafeSet@PAVCListenerOperation@@@@QBA_NXZ;code;WsmSvc.DLL;
+?m_migContext@ConfigRegistry@@2PAVWSManMigrationContext@@A;data;WsmSvc.DLL;
 ?pop@?$SimpleQueue@T_LARGE_INTEGER@@@@QAAXXZ;code;WsmSvc.DLL;
 ?push@?$SimpleQueue@T_LARGE_INTEGER@@@@QAAKT_LARGE_INTEGER@@@Z;code;WsmSvc.DLL;
 ?s_cacheMap@CClientConfigCache@@0V?$AutoRelease@VCConfigCacheMap@CBaseConfigCache@@@@A;data;WsmSvc.DLL;

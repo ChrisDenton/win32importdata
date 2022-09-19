@@ -10,6 +10,8 @@ MFCreateAudioRenderer;code;MFCORE.dll;
 MFCreateAudioRendererActivate;code;MFCORE.dll;
 MFCreateDeviceSource;code;MFCORE.dll;
 MFCreateDeviceSourceActivate;code;MFCORE.dll;
+MFCreateExtendedCameraIntrinsicModel;code;MFCORE.dll;
+MFCreateExtendedCameraIntrinsics;code;MFCORE.dll;
 MFCreateMediaProcessor;code;MFCORE.dll;
 MFCreateMediaSession;code;MFCORE.dll;
 MFCreatePMPHost;code;MFCORE.dll;

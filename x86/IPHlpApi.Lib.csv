@@ -3,7 +3,9 @@ AddIPAddress;code;IPHLPAPI.DLL;_AddIPAddress@20
 AllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_AllocateAndGetInterfaceInfoFromStack@20
 AllocateAndGetIpAddrTableFromStack;code;IPHLPAPI.DLL;_AllocateAndGetIpAddrTableFromStack@16
 CancelIPChangeNotify;code;IPHLPAPI.DLL;_CancelIPChangeNotify@4
+CancelIfTimestampConfigChange;code;IPHLPAPI.DLL;_CancelIfTimestampConfigChange@4
 CancelMibChangeNotify2;code;IPHLPAPI.DLL;_CancelMibChangeNotify2@4
+CaptureInterfaceHardwareCrossTimestamp;code;IPHLPAPI.DLL;_CaptureInterfaceHardwareCrossTimestamp@8
 CloseCompartment;code;IPHLPAPI.DLL;_CloseCompartment@4
 CloseGetIPPhysicalInterfaceForDestination;code;IPHLPAPI.DLL;_CloseGetIPPhysicalInterfaceForDestination@4
 ConvertCompartmentGuidToId;code;IPHLPAPI.DLL;_ConvertCompartmentGuidToId@8
@@ -59,6 +61,8 @@ EnableRouter;code;IPHLPAPI.DLL;_EnableRouter@8
 FlushIpNetTable2;code;IPHLPAPI.DLL;_FlushIpNetTable2@8
 FlushIpNetTable;code;IPHLPAPI.DLL;_FlushIpNetTable@4
 FlushIpPathTable;code;IPHLPAPI.DLL;_FlushIpPathTable@4
+FreeDnsSettings;code;IPHLPAPI.DLL;_FreeDnsSettings@4
+FreeInterfaceDnsSettings;code;IPHLPAPI.DLL;_FreeInterfaceDnsSettings@4
 FreeMibTable;code;IPHLPAPI.DLL;_FreeMibTable@4
 GetAdapterIndex;code;IPHLPAPI.DLL;_GetAdapterIndex@8
 GetAdapterOrderMap;code;IPHLPAPI.DLL;_GetAdapterOrderMap@0
@@ -73,6 +77,7 @@ GetBestRoute;code;IPHLPAPI.DLL;_GetBestRoute@12
 GetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentId@0
 GetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentScope@8
 GetDefaultCompartmentId;code;IPHLPAPI.DLL;_GetDefaultCompartmentId@0
+GetDnsSettings;code;IPHLPAPI.DLL;_GetDnsSettings@4
 GetExtendedTcpTable;code;IPHLPAPI.DLL;_GetExtendedTcpTable@24
 GetExtendedUdpTable;code;IPHLPAPI.DLL;_GetExtendedUdpTable@24
 GetFriendlyIfIndex;code;IPHLPAPI.DLL;_GetFriendlyIfIndex@4
@@ -86,6 +91,9 @@ GetIfTable2;code;IPHLPAPI.DLL;_GetIfTable2@4
 GetIfTable2Ex;code;IPHLPAPI.DLL;_GetIfTable2Ex@8
 GetIfTable;code;IPHLPAPI.DLL;_GetIfTable@12
 GetInterfaceCompartmentId;code;IPHLPAPI.DLL;_GetInterfaceCompartmentId@4
+GetInterfaceCurrentTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceCurrentTimestampCapabilities@8
+GetInterfaceDnsSettings;code;IPHLPAPI.DLL;_GetInterfaceDnsSettings@20
+GetInterfaceHardwareTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceHardwareTimestampCapabilities@8
 GetInterfaceInfo;code;IPHLPAPI.DLL;_GetInterfaceInfo@8
 GetInvertedIfStackTable;code;IPHLPAPI.DLL;_GetInvertedIfStackTable@4
 GetIpAddrTable;code;IPHLPAPI.DLL;_GetIpAddrTable@12
@@ -226,6 +234,7 @@ NhGetInterfaceNameFromGuid;code;IPHLPAPI.DLL;_NhGetInterfaceNameFromGuid@20
 NhpAllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_NhpAllocateAndGetInterfaceInfoFromStack@20
 NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
+NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
 NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
 NotifyRouteChange;code;IPHLPAPI.DLL;_NotifyRouteChange@8
@@ -257,7 +266,9 @@ SendARP;code;IPHLPAPI.DLL;_SendARP@16
 SetAdapterIpAddress;code;IPHLPAPI.DLL;_SetAdapterIpAddress@20
 SetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_SetCurrentThreadCompartmentId@4
 SetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_SetCurrentThreadCompartmentScope@4
+SetDnsSettings;code;IPHLPAPI.DLL;_SetDnsSettings@4
 SetIfEntry;code;IPHLPAPI.DLL;_SetIfEntry@4
+SetInterfaceDnsSettings;code;IPHLPAPI.DLL;_SetInterfaceDnsSettings@20
 SetIpForwardEntry2;code;IPHLPAPI.DLL;_SetIpForwardEntry2@4
 SetIpForwardEntry;code;IPHLPAPI.DLL;_SetIpForwardEntry@4
 SetIpInterfaceEntry;code;IPHLPAPI.DLL;_SetIpInterfaceEntry@4

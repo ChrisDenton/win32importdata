@@ -10,6 +10,8 @@ MFCreateAudioRenderer;code;MFCORE.dll;_MFCreateAudioRenderer@8
 MFCreateAudioRendererActivate;code;MFCORE.dll;_MFCreateAudioRendererActivate@4
 MFCreateDeviceSource;code;MFCORE.dll;_MFCreateDeviceSource@8
 MFCreateDeviceSourceActivate;code;MFCORE.dll;_MFCreateDeviceSourceActivate@8
+MFCreateExtendedCameraIntrinsicModel;code;MFCORE.dll;_MFCreateExtendedCameraIntrinsicModel@8
+MFCreateExtendedCameraIntrinsics;code;MFCORE.dll;_MFCreateExtendedCameraIntrinsics@4
 MFCreateMediaProcessor;code;MFCORE.dll;_MFCreateMediaProcessor@4
 MFCreateMediaSession;code;MFCORE.dll;_MFCreateMediaSession@8
 MFCreatePMPHost;code;MFCORE.dll;_MFCreatePMPHost@12

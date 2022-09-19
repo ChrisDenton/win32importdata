@@ -4,6 +4,7 @@ TokenBindingDeleteBinding;code;TOKENBINDING.dll;
 TokenBindingGenerateBinding;code;TOKENBINDING.dll;
 TokenBindingGenerateID;code;TOKENBINDING.dll;
 TokenBindingGenerateMessage;code;TOKENBINDING.dll;
+TokenBindingGetHighestSupportedVersion;code;TOKENBINDING.dll;
 TokenBindingGetKeyTypesClient;code;TOKENBINDING.dll;
 TokenBindingGetKeyTypesServer;code;TOKENBINDING.dll;
 TokenBindingVerifyMessage;code;TOKENBINDING.dll;

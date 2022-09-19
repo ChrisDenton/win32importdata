@@ -1,11 +1,12 @@
 Name;Type;DLL;SymbolOrOrdinal
-CfAbortHydration;code;CLDAPI.dll;
+CfAbortOperation;code;CLDAPI.dll;
 CfCloseAppPolicy;code;CLDAPI.dll;
 CfCloseHandle;code;CLDAPI.dll;
 CfConnectSyncRoot;code;CLDAPI.dll;
 CfConvertToPlaceholder;code;CLDAPI.dll;
 CfCreatePlaceholders;code;CLDAPI.dll;
 CfDehydratePlaceholder;code;CLDAPI.dll;
+CfDehydratePlaceholderEx;code;CLDAPI.dll;
 CfDisconnectSyncRoot;code;CLDAPI.dll;
 CfEnumAppPolicy;code;CLDAPI.dll;
 CfExecute;code;CLDAPI.dll;
@@ -33,6 +34,7 @@ CfRegisterSyncRoot;code;CLDAPI.dll;
 CfReleaseProtectedHandle;code;CLDAPI.dll;
 CfReleaseTransferKey;code;CLDAPI.dll;
 CfReportProviderProgress;code;CLDAPI.dll;
+CfReportProviderProgress2;code;CLDAPI.dll;
 CfReportSyncStatus;code;CLDAPI.dll;
 CfRetrieveProperties;code;CLDAPI.dll;
 CfRevertPlaceholder;code;CLDAPI.dll;

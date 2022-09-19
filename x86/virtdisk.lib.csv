@@ -4,12 +4,14 @@ ApplySnapshotVhdSet;code;VirtDisk.dll;_ApplySnapshotVhdSet@12
 AttachVirtualDisk;code;VirtDisk.dll;_AttachVirtualDisk@24
 BreakMirrorVirtualDisk;code;VirtDisk.dll;_BreakMirrorVirtualDisk@4
 CompactVirtualDisk;code;VirtDisk.dll;_CompactVirtualDisk@16
+CompleteForkVirtualDisk;code;VirtDisk.dll;_CompleteForkVirtualDisk@4
 CreateVirtualDisk;code;VirtDisk.dll;_CreateVirtualDisk@36
 DeleteSnapshotVhdSet;code;VirtDisk.dll;_DeleteSnapshotVhdSet@12
 DeleteVirtualDiskMetadata;code;VirtDisk.dll;_DeleteVirtualDiskMetadata@8
 DetachVirtualDisk;code;VirtDisk.dll;_DetachVirtualDisk@12
 EnumerateVirtualDiskMetadata;code;VirtDisk.dll;_EnumerateVirtualDiskMetadata@12
 ExpandVirtualDisk;code;VirtDisk.dll;_ExpandVirtualDisk@16
+ForkVirtualDisk;code;VirtDisk.dll;_ForkVirtualDisk@16
 GetAllAttachedVirtualDiskPhysicalPaths;code;VirtDisk.dll;_GetAllAttachedVirtualDiskPhysicalPaths@8
 GetStorageDependencyInformation;code;VirtDisk.dll;_GetStorageDependencyInformation@20
 GetVirtualDiskInformation;code;VirtDisk.dll;_GetVirtualDiskInformation@16

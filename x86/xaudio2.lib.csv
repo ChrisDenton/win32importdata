@@ -6,3 +6,5 @@ _CreateFX;code;XAudio2_9.dll;4
 _X3DAudioCalculate;code;XAudio2_9.dll;5
 _X3DAudioInitialize;code;XAudio2_9.dll;6
 _XAudio2Create@12;code;XAudio2_9.dll;1
+_XAudio2CreateV2_9@12;code;XAudio2_9.dll;8
+_XAudio2CreateWithVersionInfo@16;code;XAudio2_9.dll;9

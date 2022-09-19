@@ -15,7 +15,7 @@ AddClusterResourceNode;code;CLUSAPI.dll;_AddClusterResourceNode@8
 AddClusterStorageNode;code;CLUSAPI.dll;_AddClusterStorageNode@24
 AddCrossClusterGroupSetDependency;code;CLUSAPI.dll;_AddCrossClusterGroupSetDependency@12
 AddResourceToClusterSharedVolumes;code;CLUSAPI.dll;_AddResourceToClusterSharedVolumes@4
-AddResourceToClusterSharedVolumesEx;code;CLUSAPI.dll;_AddResourceToClusterSharedVolumesEx@8
+AddResourceToClusterSharedVolumesEx;code;CLUSAPI.dll;_AddResourceToClusterSharedVolumesEx@12
 BackupClusterDatabase;code;CLUSAPI.dll;_BackupClusterDatabase@8
 CanResourceBeDependent;code;CLUSAPI.dll;_CanResourceBeDependent@8
 CancelClusterGroupOperation;code;CLUSAPI.dll;_CancelClusterGroupOperation@8
@@ -36,6 +36,7 @@ CluGetFaultDomainObject;code;CLUSAPI.dll;_CluGetFaultDomainObject@16
 CluGetFaultDomainObjects;code;CLUSAPI.dll;_CluGetFaultDomainObjects@12
 CluRemoveFaultDomainObject;code;CLUSAPI.dll;_CluRemoveFaultDomainObject@12
 ClusterAddGroupToGroupSet;code;CLUSAPI.dll;_ClusterAddGroupToGroupSet@8
+ClusterAddGroupToGroupSetWithDomains;code;CLUSAPI.dll;_ClusterAddGroupToGroupSetWithDomains@16
 ClusterCaptureLiveDump;code;CLUSAPI.dll;_ClusterCaptureLiveDump@100
 ClusterChangeVMSettings;code;CLUSAPI.dll;_ClusterChangeVMSettings@12
 ClusterCloseEnum;code;CLUSAPI.dll;_ClusterCloseEnum@4
@@ -45,6 +46,7 @@ ClusterCreateClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterCreateClusterStora
 ClusterCreateFaultDomain;code;CLUSAPI.dll;_ClusterCreateFaultDomain@28
 ClusterCreateFaultDomainFromXML;code;CLUSAPI.dll;_ClusterCreateFaultDomainFromXML@12
 ClusterCreateVMReservation;code;CLUSAPI.dll;_ClusterCreateVMReservation@24
+ClusterCreateVMReservationWithDomains;code;CLUSAPI.dll;_ClusterCreateVMReservationWithDomains@32
 ClusterEnum;code;CLUSAPI.dll;_ClusterEnum@20
 ClusterEnumEx;code;CLUSAPI.dll;_ClusterEnumEx@16
 ClusterFreeMemory;code;CLUSAPI.dll;_ClusterFreeMemory@4
@@ -219,6 +221,7 @@ GetClusterResourceNetworkName;code;CLUSAPI.dll;_GetClusterResourceNetworkName@12
 GetClusterResourceState;code;CLUSAPI.dll;_GetClusterResourceState@20
 GetClusterResourceTypeKey;code;CLUSAPI.dll;_GetClusterResourceTypeKey@12
 GetClusterSharedVolumeNameForFile;code;CLUSAPI.dll;_GetClusterSharedVolumeNameForFile@24
+GetNodeCloudTypeDW;code;CLUSAPI.dll;_GetNodeCloudTypeDW@8
 GetNodeClusterState;code;CLUSAPI.dll;_GetNodeClusterState@8
 GetNotifyEventHandle;code;CLUSAPI.dll;_GetNotifyEventHandle@8
 InitializeClusFaultDomainInfo;code;CLUSAPI.dll;_InitializeClusFaultDomainInfo@4

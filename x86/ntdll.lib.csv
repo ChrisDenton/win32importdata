@@ -121,6 +121,7 @@ LdrGetProcedureAddressEx;code;ntdll.dll;_LdrGetProcedureAddressEx@20
 LdrGetProcedureAddressForCaller;code;ntdll.dll;_LdrGetProcedureAddressForCaller@24
 LdrInitShimEngineDynamic;code;ntdll.dll;_LdrInitShimEngineDynamic@8
 LdrInitializeEnclave;code;ntdll.dll;_LdrInitializeEnclave@20
+LdrIsModuleSxsRedirected;code;ntdll.dll;_LdrIsModuleSxsRedirected@4
 LdrLoadAlternateResourceModule;code;ntdll.dll;_LdrLoadAlternateResourceModule@16
 LdrLoadAlternateResourceModuleEx;code;ntdll.dll;_LdrLoadAlternateResourceModuleEx@20
 LdrLoadDll;code;ntdll.dll;_LdrLoadDll@16
@@ -274,6 +275,7 @@ NtCreateProfileEx;code;ntdll.dll;_NtCreateProfileEx@40
 NtCreateRegistryTransaction;code;ntdll.dll;_NtCreateRegistryTransaction@16
 NtCreateResourceManager;code;ntdll.dll;_NtCreateResourceManager@28
 NtCreateSection;code;ntdll.dll;_NtCreateSection@28
+NtCreateSectionEx;code;ntdll.dll;_NtCreateSectionEx@36
 NtCreateSemaphore;code;ntdll.dll;_NtCreateSemaphore@20
 NtCreateSymbolicLinkObject;code;ntdll.dll;_NtCreateSymbolicLinkObject@16
 NtCreateThread;code;ntdll.dll;_NtCreateThread@32
@@ -360,7 +362,6 @@ NtIsUILanguageComitted;code;ntdll.dll;_NtIsUILanguageComitted@0
 NtListenPort;code;ntdll.dll;_NtListenPort@8
 NtLoadDriver;code;ntdll.dll;_NtLoadDriver@4
 NtLoadEnclaveData;code;ntdll.dll;_NtLoadEnclaveData@36
-NtLoadHotPatch;code;ntdll.dll;_NtLoadHotPatch@8
 NtLoadKey2;code;ntdll.dll;_NtLoadKey2@12
 NtLoadKey;code;ntdll.dll;_NtLoadKey@8
 NtLoadKeyEx;code;ntdll.dll;_NtLoadKeyEx@32
@@ -370,6 +371,7 @@ NtLockRegistryKey;code;ntdll.dll;_NtLockRegistryKey@4
 NtLockVirtualMemory;code;ntdll.dll;_NtLockVirtualMemory@16
 NtMakePermanentObject;code;ntdll.dll;_NtMakePermanentObject@4
 NtMakeTemporaryObject;code;ntdll.dll;_NtMakeTemporaryObject@4
+NtManageHotPatch;code;ntdll.dll;_NtManageHotPatch@16
 NtManagePartition;code;ntdll.dll;_NtManagePartition@20
 NtMapCMFModule;code;ntdll.dll;_NtMapCMFModule@24
 NtMapUserPhysicalPages;code;ntdll.dll;_NtMapUserPhysicalPages@12
@@ -783,6 +785,7 @@ RtlCreateMemoryBlockLookaside;code;ntdll.dll;_RtlCreateMemoryBlockLookaside@20
 RtlCreateMemoryZone;code;ntdll.dll;_RtlCreateMemoryZone@12
 RtlCreateProcessParameters;code;ntdll.dll;_RtlCreateProcessParameters@40
 RtlCreateProcessParametersEx;code;ntdll.dll;_RtlCreateProcessParametersEx@44
+RtlCreateProcessParametersWithTemplate;code;ntdll.dll;_RtlCreateProcessParametersWithTemplate@12
 RtlCreateProcessReflection;code;ntdll.dll;_RtlCreateProcessReflection@24
 RtlCreateQueryDebugBuffer;code;ntdll.dll;_RtlCreateQueryDebugBuffer@8
 RtlCreateRegistryKey;code;ntdll.dll;_RtlCreateRegistryKey@8
@@ -969,6 +972,7 @@ RtlGetElementGenericTable;code;ntdll.dll;_RtlGetElementGenericTable@8
 RtlGetElementGenericTableAvl;code;ntdll.dll;_RtlGetElementGenericTableAvl@8
 RtlGetEnabledExtendedFeatures;code;ntdll.dll;_RtlGetEnabledExtendedFeatures@8
 RtlGetExePath;code;ntdll.dll;_RtlGetExePath@8
+RtlGetExtendedContextLength2;code;ntdll.dll;_RtlGetExtendedContextLength2@16
 RtlGetExtendedContextLength;code;ntdll.dll;_RtlGetExtendedContextLength@8
 RtlGetExtendedFeaturesMask;code;ntdll.dll;_RtlGetExtendedFeaturesMask@4
 RtlGetFileMUIPath;code;ntdll.dll;_RtlGetFileMUIPath@28
@@ -1050,6 +1054,7 @@ RtlInitializeCriticalSection;code;ntdll.dll;_RtlInitializeCriticalSection@4
 RtlInitializeCriticalSectionAndSpinCount;code;ntdll.dll;_RtlInitializeCriticalSectionAndSpinCount@8
 RtlInitializeCriticalSectionEx;code;ntdll.dll;_RtlInitializeCriticalSectionEx@12
 RtlInitializeExceptionChain;code;ntdll.dll;_RtlInitializeExceptionChain@4
+RtlInitializeExtendedContext2;code;ntdll.dll;_RtlInitializeExtendedContext2@20
 RtlInitializeExtendedContext;code;ntdll.dll;_RtlInitializeExtendedContext@12
 RtlInitializeGenericTable;code;ntdll.dll;_RtlInitializeGenericTable@20
 RtlInitializeGenericTableAvl;code;ntdll.dll;_RtlInitializeGenericTableAvl@20
@@ -1444,9 +1449,6 @@ RtlWow64GetEquivalentMachineCHPE;code;ntdll.dll;_RtlWow64GetEquivalentMachineCHP
 RtlWow64GetProcessMachines;code;ntdll.dll;_RtlWow64GetProcessMachines@12
 RtlWow64GetSharedInfoProcess;code;ntdll.dll;_RtlWow64GetSharedInfoProcess@12
 RtlWow64IsWowGuestMachineSupported;code;ntdll.dll;_RtlWow64IsWowGuestMachineSupported@8
-RtlWow64PopAllCrossProcessWork;code;ntdll.dll;_RtlWow64PopAllCrossProcessWork@4
-RtlWow64PopCrossProcessWork;code;ntdll.dll;_RtlWow64PopCrossProcessWork@4
-RtlWow64PushCrossProcessWork;code;ntdll.dll;_RtlWow64PushCrossProcessWork@8
 RtlWriteRegistryValue;code;ntdll.dll;_RtlWriteRegistryValue@24
 RtlZeroMemory;code;ntdll.dll;_RtlZeroMemory@8
 RtlZombifyActivationContext;code;ntdll.dll;_RtlZombifyActivationContext@4
@@ -1485,6 +1487,8 @@ RtlpRefreshCachedUILanguage;code;ntdll.dll;_RtlpRefreshCachedUILanguage@8
 RtlpSetInstallLanguage;code;ntdll.dll;_RtlpSetInstallLanguage@8
 RtlpSetPreferredUILanguages;code;ntdll.dll;_RtlpSetPreferredUILanguages@12
 RtlpSetUserPreferredUILanguages;code;ntdll.dll;_RtlpSetUserPreferredUILanguages@12
+RtlpTimeFieldsToTime;code;ntdll.dll;_RtlpTimeFieldsToTime@12
+RtlpTimeToTimeFields;code;ntdll.dll;_RtlpTimeToTimeFields@12
 RtlpUnWaitCriticalSection;code;ntdll.dll;_RtlpUnWaitCriticalSection@4
 RtlpVerifyAndCommitUILanguageSettings;code;ntdll.dll;_RtlpVerifyAndCommitUILanguageSettings@4
 RtlpWaitForCriticalSection;code;ntdll.dll;_RtlpWaitForCriticalSection@4
@@ -1683,6 +1687,7 @@ ZwCreateProfileEx;code;ntdll.dll;_ZwCreateProfileEx@40
 ZwCreateRegistryTransaction;code;ntdll.dll;_ZwCreateRegistryTransaction@16
 ZwCreateResourceManager;code;ntdll.dll;_ZwCreateResourceManager@28
 ZwCreateSection;code;ntdll.dll;_ZwCreateSection@28
+ZwCreateSectionEx;code;ntdll.dll;_ZwCreateSectionEx@36
 ZwCreateSemaphore;code;ntdll.dll;_ZwCreateSemaphore@20
 ZwCreateSymbolicLinkObject;code;ntdll.dll;_ZwCreateSymbolicLinkObject@16
 ZwCreateThread;code;ntdll.dll;_ZwCreateThread@32
@@ -1767,7 +1772,6 @@ ZwIsUILanguageComitted;code;ntdll.dll;_ZwIsUILanguageComitted@0
 ZwListenPort;code;ntdll.dll;_ZwListenPort@8
 ZwLoadDriver;code;ntdll.dll;_ZwLoadDriver@4
 ZwLoadEnclaveData;code;ntdll.dll;_ZwLoadEnclaveData@36
-ZwLoadHotPatch;code;ntdll.dll;_ZwLoadHotPatch@8
 ZwLoadKey2;code;ntdll.dll;_ZwLoadKey2@12
 ZwLoadKey;code;ntdll.dll;_ZwLoadKey@8
 ZwLoadKeyEx;code;ntdll.dll;_ZwLoadKeyEx@32
@@ -1777,6 +1781,7 @@ ZwLockRegistryKey;code;ntdll.dll;_ZwLockRegistryKey@4
 ZwLockVirtualMemory;code;ntdll.dll;_ZwLockVirtualMemory@16
 ZwMakePermanentObject;code;ntdll.dll;_ZwMakePermanentObject@4
 ZwMakeTemporaryObject;code;ntdll.dll;_ZwMakeTemporaryObject@4
+ZwManageHotPatch;code;ntdll.dll;_ZwManageHotPatch@16
 ZwManagePartition;code;ntdll.dll;_ZwManagePartition@20
 ZwMapCMFModule;code;ntdll.dll;_ZwMapCMFModule@24
 ZwMapUserPhysicalPages;code;ntdll.dll;_ZwMapUserPhysicalPages@12

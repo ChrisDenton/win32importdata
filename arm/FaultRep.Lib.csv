@@ -10,6 +10,7 @@ ReportActivationHang;code;faultrep.dll;1
 ReportCoreHang;code;faultrep.dll;
 ReportFault;code;faultrep.dll;
 ReportHang;code;faultrep.dll;
+ReportNavigationHang;code;faultrep.dll;2
 WerReportHang;code;faultrep.dll;
 WerpGetDebugger;code;faultrep.dll;
 WerpInitiateCrashReporting;code;faultrep.dll;

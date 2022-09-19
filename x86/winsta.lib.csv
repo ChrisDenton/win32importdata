@@ -32,6 +32,7 @@ WinStationConnectAndLockDesktop;code;WINSTA.dll;_WinStationConnectAndLockDesktop
 WinStationConnectCallback;code;WINSTA.dll;_WinStationConnectCallback@20
 WinStationConnectEx;code;WINSTA.dll;_WinStationConnectEx@8
 WinStationConnectW;code;WINSTA.dll;_WinStationConnectW@20
+WinStationConsumeCacheSession;code;WINSTA.dll;_WinStationConsumeCacheSession@0
 WinStationCreateChildSessionTransport;code;WINSTA.dll;_WinStationCreateChildSessionTransport@8
 WinStationDisconnect;code;WINSTA.dll;_WinStationDisconnect@12
 WinStationEnableChildSessions;code;WINSTA.dll;_WinStationEnableChildSessions@4
@@ -76,6 +77,7 @@ WinStationGetUserCertificates;code;WINSTA.dll;_WinStationGetUserCertificates@4
 WinStationGetUserCredentials;code;WINSTA.dll;_WinStationGetUserCredentials@4
 WinStationGetUserProfile;code;WINSTA.dll;_WinStationGetUserProfile@16
 WinStationInstallLicense;code;WINSTA.dll;_WinStationInstallLicense@12
+WinStationIsBoundToCacheTerminal;code;WINSTA.dll;_WinStationIsBoundToCacheTerminal@4
 WinStationIsChildSessionsEnabled;code;WINSTA.dll;_WinStationIsChildSessionsEnabled@4
 WinStationIsCurrentSessionRemoteable;code;WINSTA.dll;_WinStationIsCurrentSessionRemoteable@4
 WinStationIsHelpAssistantSession;code;WINSTA.dll;_WinStationIsHelpAssistantSession@8

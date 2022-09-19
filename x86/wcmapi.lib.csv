@@ -5,6 +5,7 @@ WcmCancelOnDemandRequest;code;wcmapi.dll;_WcmCancelOnDemandRequest@4
 WcmCheckCapabilityStatus;code;wcmapi.dll;_WcmCheckCapabilityStatus@0
 WcmCloseHandle;code;wcmapi.dll;_WcmCloseHandle@8
 WcmCloseOnDemandRequestHandle;code;wcmapi.dll;_WcmCloseOnDemandRequestHandle@4
+WcmDeleteProxyInformation;code;wcmapi.dll;_WcmDeleteProxyInformation@12
 WcmDeprovisionCapability;code;wcmapi.dll;_WcmDeprovisionCapability@8
 WcmEndIgnoreProfileList;code;wcmapi.dll;_WcmEndIgnoreProfileList@4
 WcmEnterConnectedStandby;code;wcmapi.dll;_WcmEnterConnectedStandby@0
@@ -34,5 +35,6 @@ WcmSetOperatorDataplanStatus;code;wcmapi.dll;_WcmSetOperatorDataplanStatus@12
 WcmSetParameter;code;wcmapi.dll;_WcmSetParameter@28
 WcmSetProfileList;code;wcmapi.dll;_WcmSetProfileList@16
 WcmSetProperty;code;wcmapi.dll;_WcmSetProperty@24
+WcmSetProxyInformation;code;wcmapi.dll;_WcmSetProxyInformation@16
 WcmStartOnDemandRequest;code;wcmapi.dll;_WcmStartOnDemandRequest@4
 WcmUpdateCapabilityAccess;code;wcmapi.dll;_WcmUpdateCapabilityAccess@12

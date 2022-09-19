@@ -12,6 +12,7 @@ WTHelperCertFindIssuerCertificate;code;WINTRUST.dll;?WTHelperCertFindIssuerCerti
 AddPersonalTrustDBPages;code;WINTRUST.dll;
 CatalogCompactHashDatabase;code;WINTRUST.dll;
 ConfigCiFinalPolicy;code;WINTRUST.dll;
+ConfigCiPackageFamilyNameCheck;code;WINTRUST.dll;
 CryptCATAdminAcquireContext;code;WINTRUST.dll;
 CryptCATAdminAcquireContext2;code;WINTRUST.dll;
 CryptCATAdminAddCatalog;code;WINTRUST.dll;

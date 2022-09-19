@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+WinHttpPacJsWorkerMain;code;WINHTTP.dll;?WinHttpPacJsWorkerMain@@YAKPEBG0@Z (unsigned long __cdecl WinHttpPacJsWorkerMain(unsigned short const *,unsigned short const *))
 SvchostPushServiceGlobals;code;WINHTTP.dll;
 WinHttpAddRequestHeaders;code;WINHTTP.dll;
 WinHttpAutoProxySvcMain;code;WINHTTP.dll;

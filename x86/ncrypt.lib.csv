@@ -106,10 +106,17 @@ SslDecrementProviderReferenceCount;code;ncrypt.dll;_SslDecrementProviderReferenc
 SslDecryptPacket;code;ncrypt.dll;_SslDecryptPacket@40
 SslEncryptPacket;code;ncrypt.dll;_SslEncryptPacket@44
 SslEnumCipherSuites;code;ncrypt.dll;_SslEnumCipherSuites@20
+SslEnumCipherSuitesEx;code;ncrypt.dll;_SslEnumCipherSuitesEx@20
 SslEnumEccCurves;code;ncrypt.dll;_SslEnumEccCurves@16
 SslEnumProtocolProviders;code;ncrypt.dll;_SslEnumProtocolProviders@12
+SslExpandExporterMasterKey;code;ncrypt.dll;_SslExpandExporterMasterKey@24
+SslExpandTrafficKeys;code;ncrypt.dll;_SslExpandTrafficKeys@28
+SslExpandWriteKey;code;ncrypt.dll;_SslExpandWriteKey@20
 SslExportKey;code;ncrypt.dll;_SslExportKey@28
 SslExportKeyingMaterial;code;ncrypt.dll;_SslExportKeyingMaterial@40
+SslExtractEarlyKey;code;ncrypt.dll;_SslExtractEarlyKey@28
+SslExtractHandshakeKey;code;ncrypt.dll;_SslExtractHandshakeKey@28
+SslExtractMasterKey;code;ncrypt.dll;_SslExtractMasterKey@20
 SslFreeBuffer;code;ncrypt.dll;_SslFreeBuffer@4
 SslFreeObject;code;ncrypt.dll;_SslFreeObject@8
 SslGenerateMasterKey;code;ncrypt.dll;_SslGenerateMasterKey@44

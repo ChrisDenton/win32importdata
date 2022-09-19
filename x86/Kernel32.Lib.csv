@@ -72,6 +72,7 @@ ClearCommError;code;KERNEL32.dll;_ClearCommError@12
 CloseHandle;code;KERNEL32.dll;_CloseHandle@4
 ClosePackageInfo;code;KERNEL32.dll;_ClosePackageInfo@4
 ClosePrivateNamespace;code;KERNEL32.dll;_ClosePrivateNamespace@8
+ClosePseudoConsole;code;KERNEL32.dll;_ClosePseudoConsole@4
 CloseState;code;KERNEL32.dll;_CloseState@4
 CloseThreadpool;code;KERNEL32.dll;_CloseThreadpool@4
 CloseThreadpoolCleanupGroup;code;KERNEL32.dll;_CloseThreadpoolCleanupGroup@4
@@ -151,6 +152,7 @@ CreatePrivateNamespaceA;code;KERNEL32.dll;_CreatePrivateNamespaceA@12
 CreatePrivateNamespaceW;code;KERNEL32.dll;_CreatePrivateNamespaceW@12
 CreateProcessA;code;KERNEL32.dll;_CreateProcessA@40
 CreateProcessW;code;KERNEL32.dll;_CreateProcessW@40
+CreatePseudoConsole;code;KERNEL32.dll;_CreatePseudoConsole@20
 CreateRemoteThread;code;KERNEL32.dll;_CreateRemoteThread@28
 CreateRemoteThreadEx;code;KERNEL32.dll;_CreateRemoteThreadEx@32
 CreateSemaphoreA;code;KERNEL32.dll;_CreateSemaphoreA@16
@@ -437,6 +439,8 @@ GetDiskFreeSpaceA;code;KERNEL32.dll;_GetDiskFreeSpaceA@20
 GetDiskFreeSpaceExA;code;KERNEL32.dll;_GetDiskFreeSpaceExA@16
 GetDiskFreeSpaceExW;code;KERNEL32.dll;_GetDiskFreeSpaceExW@16
 GetDiskFreeSpaceW;code;KERNEL32.dll;_GetDiskFreeSpaceW@20
+GetDiskSpaceInformationA;code;KERNEL32.dll;_GetDiskSpaceInformationA@8
+GetDiskSpaceInformationW;code;KERNEL32.dll;_GetDiskSpaceInformationW@8
 GetDllDirectoryA;code;KERNEL32.dll;_GetDllDirectoryA@8
 GetDllDirectoryW;code;KERNEL32.dll;_GetDllDirectoryW@8
 GetDriveTypeA;code;KERNEL32.dll;_GetDriveTypeA@4
@@ -729,6 +733,7 @@ InitOnceComplete;code;KERNEL32.dll;_InitOnceComplete@12
 InitOnceExecuteOnce;code;KERNEL32.dll;_InitOnceExecuteOnce@16
 InitOnceInitialize;code;KERNEL32.dll;_InitOnceInitialize@4
 InitializeConditionVariable;code;KERNEL32.dll;_InitializeConditionVariable@4
+InitializeContext2;code;KERNEL32.dll;_InitializeContext2@24
 InitializeContext;code;KERNEL32.dll;_InitializeContext@16
 InitializeCriticalSection;code;KERNEL32.dll;_InitializeCriticalSection@4
 InitializeCriticalSectionAndSpinCount;code;KERNEL32.dll;_InitializeCriticalSectionAndSpinCount@8
@@ -824,6 +829,7 @@ LoadStringBaseW;code;KERNEL32.dll;_LoadStringBaseW@16
 LocalAlloc;code;KERNEL32.dll;_LocalAlloc@8
 LocalCompact;code;KERNEL32.dll;_LocalCompact@4
 LocalFileTimeToFileTime;code;KERNEL32.dll;_LocalFileTimeToFileTime@8
+LocalFileTimeToLocalSystemTime;code;KERNEL32.dll;_LocalFileTimeToLocalSystemTime@12
 LocalFlags;code;KERNEL32.dll;_LocalFlags@4
 LocalFree;code;KERNEL32.dll;_LocalFree@4
 LocalHandle;code;KERNEL32.dll;_LocalHandle@4
@@ -831,6 +837,7 @@ LocalLock;code;KERNEL32.dll;_LocalLock@4
 LocalReAlloc;code;KERNEL32.dll;_LocalReAlloc@12
 LocalShrink;code;KERNEL32.dll;_LocalShrink@8
 LocalSize;code;KERNEL32.dll;_LocalSize@4
+LocalSystemTimeToLocalFileTime;code;KERNEL32.dll;_LocalSystemTimeToLocalFileTime@12
 LocalUnlock;code;KERNEL32.dll;_LocalUnlock@4
 LocaleNameToLCID;code;KERNEL32.dll;_LocaleNameToLCID@8
 LocateXStateFeature;code;KERNEL32.dll;_LocateXStateFeature@12
@@ -997,6 +1004,7 @@ RequestDeviceWakeup;code;KERNEL32.dll;_RequestDeviceWakeup@4
 RequestWakeupLatency;code;KERNEL32.dll;_RequestWakeupLatency@4
 ResetEvent;code;KERNEL32.dll;_ResetEvent@4
 ResetWriteWatch;code;KERNEL32.dll;_ResetWriteWatch@8
+ResizePseudoConsole;code;KERNEL32.dll;_ResizePseudoConsole@8
 ResolveDelayLoadedAPI;code;KERNEL32.dll;_ResolveDelayLoadedAPI@24
 ResolveDelayLoadsFromDll;code;KERNEL32.dll;_ResolveDelayLoadsFromDll@12
 ResolveLocaleName;code;KERNEL32.dll;_ResolveLocaleName@12

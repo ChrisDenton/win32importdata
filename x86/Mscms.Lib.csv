@@ -28,6 +28,12 @@ ColorCplResetSystemWideAssociationListChangedWarning;code;mscms.dll;_ColorCplRes
 ColorCplSaveAssociationList;code;mscms.dll;_ColorCplSaveAssociationList@20
 ColorCplSetUsePerUserProfiles;code;mscms.dll;_ColorCplSetUsePerUserProfiles@12
 ColorCplUninitialize;code;mscms.dll;_ColorCplUninitialize@0
+_ColorProfileAddDisplayAssociation@28;code;mscms.dll;230
+_ColorProfileGetDisplayDefault@28;code;mscms.dll;234
+_ColorProfileGetDisplayList@24;code;mscms.dll;233
+_ColorProfileGetDisplayUserScope@16;code;mscms.dll;235
+_ColorProfileRemoveDisplayAssociation@24;code;mscms.dll;231
+_ColorProfileSetDisplayDefaultAssociation@28;code;mscms.dll;232
 ConvertColorNameToIndex;code;mscms.dll;_ConvertColorNameToIndex@16
 ConvertIndexToColorName;code;mscms.dll;_ConvertIndexToColorName@16
 CreateColorTransformA;code;mscms.dll;_CreateColorTransformA@16

@@ -322,6 +322,7 @@ GetXStateFeaturesMask;code;api-ms-win-core-xstate-l2-1-0.dll;_GetXStateFeaturesM
 InitializeContext;code;api-ms-win-core-xstate-l2-1-0.dll;_InitializeContext@16
 LocateXStateFeature;code;api-ms-win-core-xstate-l2-1-0.dll;_LocateXStateFeature@12
 SetXStateFeaturesMask;code;api-ms-win-core-xstate-l2-1-0.dll;_SetXStateFeaturesMask@12
+InitializeContext2;code;api-ms-win-core-xstate-l2-1-1.dll;_InitializeContext2@24
 CM_Delete_Class_Key;code;api-ms-win-devices-config-l1-1-1.dll;_CM_Delete_Class_Key@8
 CM_Delete_DevNode_Key;code;api-ms-win-devices-config-l1-1-1.dll;_CM_Delete_DevNode_Key@12
 CM_Delete_Device_Interface_KeyW;code;api-ms-win-devices-config-l1-1-1.dll;_CM_Delete_Device_Interface_KeyW@8
@@ -415,6 +416,8 @@ PowerSettingRegisterNotification;code;api-ms-win-power-setting-l1-1-0.dll;_Power
 PowerSettingUnregisterNotification;code;api-ms-win-power-setting-l1-1-0.dll;_PowerSettingUnregisterNotification@4
 PowerWriteACValueIndex;code;api-ms-win-power-setting-l1-1-0.dll;_PowerWriteACValueIndex@20
 PowerWriteDCValueIndex;code;api-ms-win-power-setting-l1-1-0.dll;_PowerWriteDCValueIndex@20
+PowerRegisterForEffectivePowerModeNotifications;code;api-ms-win-power-setting-l1-1-1.dll;_PowerRegisterForEffectivePowerModeNotifications@16
+PowerUnregisterFromEffectivePowerModeNotifications;code;api-ms-win-power-setting-l1-1-1.dll;_PowerUnregisterFromEffectivePowerModeNotifications@4
 CStdAsyncStubBuffer2_Connect;code;api-ms-win-core-com-midlproxystub-l1-1-0.dll;_CStdAsyncStubBuffer2_Connect@8
 CStdAsyncStubBuffer2_Disconnect;code;api-ms-win-core-com-midlproxystub-l1-1-0.dll;_CStdAsyncStubBuffer2_Disconnect@4
 CStdAsyncStubBuffer2_Release;code;api-ms-win-core-com-midlproxystub-l1-1-0.dll;_CStdAsyncStubBuffer2_Release@4
@@ -1049,10 +1052,17 @@ SslDecrementProviderReferenceCount;code;ncrypt.dll;_SslDecrementProviderReferenc
 SslDecryptPacket;code;ncrypt.dll;_SslDecryptPacket@40
 SslEncryptPacket;code;ncrypt.dll;_SslEncryptPacket@44
 SslEnumCipherSuites;code;ncrypt.dll;_SslEnumCipherSuites@20
+SslEnumCipherSuitesEx;code;ncrypt.dll;_SslEnumCipherSuitesEx@20
 SslEnumEccCurves;code;ncrypt.dll;_SslEnumEccCurves@16
 SslEnumProtocolProviders;code;ncrypt.dll;_SslEnumProtocolProviders@12
+SslExpandExporterMasterKey;code;ncrypt.dll;_SslExpandExporterMasterKey@24
+SslExpandTrafficKeys;code;ncrypt.dll;_SslExpandTrafficKeys@28
+SslExpandWriteKey;code;ncrypt.dll;_SslExpandWriteKey@20
 SslExportKey;code;ncrypt.dll;_SslExportKey@28
 SslExportKeyingMaterial;code;ncrypt.dll;_SslExportKeyingMaterial@40
+SslExtractEarlyKey;code;ncrypt.dll;_SslExtractEarlyKey@28
+SslExtractHandshakeKey;code;ncrypt.dll;_SslExtractHandshakeKey@28
+SslExtractMasterKey;code;ncrypt.dll;_SslExtractMasterKey@20
 SslFreeBuffer;code;ncrypt.dll;_SslFreeBuffer@4
 SslFreeObject;code;ncrypt.dll;_SslFreeObject@8
 SslGenerateMasterKey;code;ncrypt.dll;_SslGenerateMasterKey@44
@@ -1649,6 +1659,7 @@ WebSocketGetAction;code;websocket.dll;_WebSocketGetAction@32
 WebSocketGetGlobalProperty;code;websocket.dll;_WebSocketGetGlobalProperty@12
 WebSocketReceive;code;websocket.dll;_WebSocketReceive@12
 WebSocketSend;code;websocket.dll;_WebSocketSend@16
+WinHttpPacJsWorkerMain;code;WINHTTP.dll;?WinHttpPacJsWorkerMain@@YGKPBG0@Z (unsigned long __stdcall WinHttpPacJsWorkerMain(unsigned short const *,unsigned short const *))
 WinHttpAddRequestHeaders;code;WINHTTP.dll;_WinHttpAddRequestHeaders@16
 WinHttpAutoProxySvcMain;code;WINHTTP.dll;_WinHttpAutoProxySvcMain@8
 WinHttpCheckPlatform;code;WINHTTP.dll;_WinHttpCheckPlatform@0
@@ -2016,6 +2027,9 @@ AttachConsole;code;api-ms-win-core-console-l1-2-0.dll;_AttachConsole@4
 FreeConsole;code;api-ms-win-core-console-l1-2-0.dll;_FreeConsole@0
 PeekConsoleInputA;code;api-ms-win-core-console-l1-2-0.dll;_PeekConsoleInputA@16
 PeekConsoleInputW;code;api-ms-win-core-console-l1-2-0.dll;_PeekConsoleInputW@16
+ClosePseudoConsole;code;api-ms-win-core-console-l1-2-1.dll;_ClosePseudoConsole@4
+CreatePseudoConsole;code;api-ms-win-core-console-l1-2-1.dll;_CreatePseudoConsole@20
+ResizePseudoConsole;code;api-ms-win-core-console-l1-2-1.dll;_ResizePseudoConsole@8
 GetDateFormatA;code;api-ms-win-core-datetime-l1-1-0.dll;_GetDateFormatA@24
 GetDateFormatW;code;api-ms-win-core-datetime-l1-1-0.dll;_GetDateFormatW@24
 GetTimeFormatA;code;api-ms-win-core-datetime-l1-1-0.dll;_GetTimeFormatA@24
@@ -2148,6 +2162,8 @@ GetTempPathA;code;api-ms-win-core-file-l1-2-2.dll;_GetTempPathA@8
 GetVolumeInformationA;code;api-ms-win-core-file-l1-2-2.dll;_GetVolumeInformationA@32
 SetFileApisToANSI;code;api-ms-win-core-file-l1-2-2.dll;_SetFileApisToANSI@0
 SetFileApisToOEM;code;api-ms-win-core-file-l1-2-2.dll;_SetFileApisToOEM@0
+GetDiskSpaceInformationA;code;api-ms-win-core-file-l1-2-3.dll;_GetDiskSpaceInformationA@8
+GetDiskSpaceInformationW;code;api-ms-win-core-file-l1-2-3.dll;_GetDiskSpaceInformationW@8
 CloseHandle;code;api-ms-win-core-handle-l1-1-0.dll;_CloseHandle@4
 CompareObjectHandles;code;api-ms-win-core-handle-l1-1-0.dll;_CompareObjectHandles@8
 DuplicateHandle;code;api-ms-win-core-handle-l1-1-0.dll;_DuplicateHandle@28
@@ -2354,6 +2370,8 @@ MapViewOfFile3;code;api-ms-win-core-memory-l1-1-6.dll;_MapViewOfFile3@40
 MapViewOfFile3FromApp;code;api-ms-win-core-memory-l1-1-6.dll;_MapViewOfFile3FromApp@40
 VirtualAlloc2;code;api-ms-win-core-memory-l1-1-6.dll;_VirtualAlloc2@28
 VirtualAlloc2FromApp;code;api-ms-win-core-memory-l1-1-6.dll;_VirtualAlloc2FromApp@28
+CreateFileMapping2;code;api-ms-win-core-memory-l1-1-7.dll;_CreateFileMapping2@40
+SetProcessValidCallTargetsForMappedView;code;api-ms-win-core-memory-l1-1-7.dll;_SetProcessValidCallTargetsForMappedView@32
 ConnectNamedPipe;code;api-ms-win-core-namedpipe-l1-1-0.dll;_ConnectNamedPipe@8
 CreateNamedPipeW;code;api-ms-win-core-namedpipe-l1-1-0.dll;_CreateNamedPipeW@32
 CreatePipe;code;api-ms-win-core-namedpipe-l1-1-0.dll;_CreatePipe@16
@@ -2716,6 +2734,8 @@ SystemTimeToTzSpecificLocalTime;code;api-ms-win-core-timezone-l1-1-0.dll;_System
 SystemTimeToTzSpecificLocalTimeEx;code;api-ms-win-core-timezone-l1-1-0.dll;_SystemTimeToTzSpecificLocalTimeEx@12
 TzSpecificLocalTimeToSystemTime;code;api-ms-win-core-timezone-l1-1-0.dll;_TzSpecificLocalTimeToSystemTime@12
 TzSpecificLocalTimeToSystemTimeEx;code;api-ms-win-core-timezone-l1-1-0.dll;_TzSpecificLocalTimeToSystemTimeEx@12
+LocalFileTimeToLocalSystemTime;code;api-ms-win-core-timezone-l1-1-1.dll;_LocalFileTimeToLocalSystemTime@12
+LocalSystemTimeToLocalFileTime;code;api-ms-win-core-timezone-l1-1-1.dll;_LocalSystemTimeToLocalFileTime@12
 Beep;code;api-ms-win-core-util-l1-1-0.dll;_Beep@8
 DecodePointer;code;api-ms-win-core-util-l1-1-0.dll;_DecodePointer@4
 DecodeSystemPointer;code;api-ms-win-core-util-l1-1-0.dll;_DecodeSystemPointer@4
@@ -2743,6 +2763,8 @@ RtlLocateLegacyContext;code;api-ms-win-core-xstate-l1-1-0.dll;_RtlLocateLegacyCo
 RtlSetExtendedFeaturesMask;code;api-ms-win-core-xstate-l1-1-0.dll;_RtlSetExtendedFeaturesMask@12
 RtlCopyContext;code;api-ms-win-core-xstate-l1-1-1.dll;_RtlCopyContext@12
 RtlLocateExtendedFeature2;code;api-ms-win-core-xstate-l1-1-2.dll;_RtlLocateExtendedFeature2@16
+RtlGetExtendedContextLength2;code;api-ms-win-core-xstate-l1-1-3.dll;_RtlGetExtendedContextLength2@16
+RtlInitializeExtendedContext2;code;api-ms-win-core-xstate-l1-1-3.dll;_RtlInitializeExtendedContext2@20
 CloseTrace;code;api-ms-win-eventing-consumer-l1-1-0.dll;_CloseTrace@8
 OpenTraceW;code;api-ms-win-eventing-consumer-l1-1-0.dll;_OpenTraceW@4
 ProcessTrace;code;api-ms-win-eventing-consumer-l1-1-0.dll;_ProcessTrace@16
@@ -2905,6 +2927,7 @@ QueryServiceDynamicInformation;code;api-ms-win-service-core-l1-1-1.dll;_QuerySer
 GetServiceDisplayNameW;code;api-ms-win-service-core-l1-1-2.dll;_GetServiceDisplayNameW@16
 GetServiceKeyNameW;code;api-ms-win-service-core-l1-1-2.dll;_GetServiceKeyNameW@16
 GetServiceRegistryStateKey;code;api-ms-win-service-core-l1-1-3.dll;_GetServiceRegistryStateKey@16
+GetServiceDirectory;code;api-ms-win-service-core-l1-1-4.dll;_GetServiceDirectory@20
 CloseServiceHandle;code;api-ms-win-service-management-l1-1-0.dll;_CloseServiceHandle@4
 ControlServiceExW;code;api-ms-win-service-management-l1-1-0.dll;_ControlServiceExW@16
 CreateServiceW;code;api-ms-win-service-management-l1-1-0.dll;_CreateServiceW@52
@@ -3024,14 +3047,18 @@ DnsFlushResolverCacheEntry_A;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_A@4
 DnsFlushResolverCacheEntry_UTF8;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_UTF8@4
 DnsFlushResolverCacheEntry_W;code;DNSAPI.dll;_DnsFlushResolverCacheEntry_W@4
 DnsFree;code;DNSAPI.dll;_DnsFree@8
+DnsFreeAdaptersInfo;code;DNSAPI.dll;_DnsFreeAdaptersInfo@8
 DnsFreeConfigStructure;code;DNSAPI.dll;_DnsFreeConfigStructure@8
+DnsFreeNrptRuleNamesList;code;DNSAPI.dll;_DnsFreeNrptRuleNamesList@8
 DnsFreePolicyConfig;code;DNSAPI.dll;_DnsFreePolicyConfig@4
 DnsFreeProxyName;code;DNSAPI.dll;_DnsFreeProxyName@4
+DnsGetAdaptersInfo;code;DNSAPI.dll;_DnsGetAdaptersInfo@24
 DnsGetApplicationIdentifier;code;DNSAPI.dll;_DnsGetApplicationIdentifier@12
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
 DnsGetDnsServerList;code;DNSAPI.dll;_DnsGetDnsServerList@4
 DnsGetLastFailedUpdateInfo;code;DNSAPI.dll;_DnsGetLastFailedUpdateInfo@4
+DnsGetNrptRuleNamesList;code;DNSAPI.dll;_DnsGetNrptRuleNamesList@8
 DnsGetPolicyTableInfo;code;DNSAPI.dll;_DnsGetPolicyTableInfo@16
 DnsGetPolicyTableInfoPrivate;code;DNSAPI.dll;_DnsGetPolicyTableInfoPrivate@16
 DnsGetPrimaryDomainName_A;code;DNSAPI.dll;_DnsGetPrimaryDomainName_A@0
@@ -3083,6 +3110,7 @@ DnsRecordStringForWritableType;code;DNSAPI.dll;_DnsRecordStringForWritableType@4
 DnsRecordTypeForName;code;DNSAPI.dll;_DnsRecordTypeForName@8
 DnsRegisterLocal;code;DNSAPI.dll;_DnsRegisterLocal@16
 DnsReleaseContextHandle;code;DNSAPI.dll;_DnsReleaseContextHandle@4
+DnsRemoveNrptRule;code;DNSAPI.dll;_DnsRemoveNrptRule@4
 DnsRemoveRegistrations;code;DNSAPI.dll;_DnsRemoveRegistrations@0
 DnsReplaceRecordSetA;code;DNSAPI.dll;_DnsReplaceRecordSetA@20
 DnsReplaceRecordSetUTF8;code;DNSAPI.dll;_DnsReplaceRecordSetUTF8@20
@@ -3102,6 +3130,7 @@ DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
 DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
+DnsSetNrptRule;code;DNSAPI.dll;_DnsSetNrptRule@12
 DnsSetQueryRetryTimeouts;code;DNSAPI.dll;_DnsSetQueryRetryTimeouts@24
 DnsStartMulticastQuery;code;DNSAPI.dll;_DnsStartMulticastQuery@8
 DnsStopMulticastQuery;code;DNSAPI.dll;_DnsStopMulticastQuery@4
@@ -3222,7 +3251,9 @@ AddIPAddress;code;IPHLPAPI.DLL;_AddIPAddress@20
 AllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_AllocateAndGetInterfaceInfoFromStack@20
 AllocateAndGetIpAddrTableFromStack;code;IPHLPAPI.DLL;_AllocateAndGetIpAddrTableFromStack@16
 CancelIPChangeNotify;code;IPHLPAPI.DLL;_CancelIPChangeNotify@4
+CancelIfTimestampConfigChange;code;IPHLPAPI.DLL;_CancelIfTimestampConfigChange@4
 CancelMibChangeNotify2;code;IPHLPAPI.DLL;_CancelMibChangeNotify2@4
+CaptureInterfaceHardwareCrossTimestamp;code;IPHLPAPI.DLL;_CaptureInterfaceHardwareCrossTimestamp@8
 CloseCompartment;code;IPHLPAPI.DLL;_CloseCompartment@4
 CloseGetIPPhysicalInterfaceForDestination;code;IPHLPAPI.DLL;_CloseGetIPPhysicalInterfaceForDestination@4
 ConvertCompartmentGuidToId;code;IPHLPAPI.DLL;_ConvertCompartmentGuidToId@8
@@ -3278,6 +3309,8 @@ EnableRouter;code;IPHLPAPI.DLL;_EnableRouter@8
 FlushIpNetTable2;code;IPHLPAPI.DLL;_FlushIpNetTable2@8
 FlushIpNetTable;code;IPHLPAPI.DLL;_FlushIpNetTable@4
 FlushIpPathTable;code;IPHLPAPI.DLL;_FlushIpPathTable@4
+FreeDnsSettings;code;IPHLPAPI.DLL;_FreeDnsSettings@4
+FreeInterfaceDnsSettings;code;IPHLPAPI.DLL;_FreeInterfaceDnsSettings@4
 FreeMibTable;code;IPHLPAPI.DLL;_FreeMibTable@4
 GetAdapterIndex;code;IPHLPAPI.DLL;_GetAdapterIndex@8
 GetAdapterOrderMap;code;IPHLPAPI.DLL;_GetAdapterOrderMap@0
@@ -3292,6 +3325,7 @@ GetBestRoute;code;IPHLPAPI.DLL;_GetBestRoute@12
 GetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentId@0
 GetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentScope@8
 GetDefaultCompartmentId;code;IPHLPAPI.DLL;_GetDefaultCompartmentId@0
+GetDnsSettings;code;IPHLPAPI.DLL;_GetDnsSettings@4
 GetExtendedTcpTable;code;IPHLPAPI.DLL;_GetExtendedTcpTable@24
 GetExtendedUdpTable;code;IPHLPAPI.DLL;_GetExtendedUdpTable@24
 GetFriendlyIfIndex;code;IPHLPAPI.DLL;_GetFriendlyIfIndex@4
@@ -3305,6 +3339,9 @@ GetIfTable2;code;IPHLPAPI.DLL;_GetIfTable2@4
 GetIfTable2Ex;code;IPHLPAPI.DLL;_GetIfTable2Ex@8
 GetIfTable;code;IPHLPAPI.DLL;_GetIfTable@12
 GetInterfaceCompartmentId;code;IPHLPAPI.DLL;_GetInterfaceCompartmentId@4
+GetInterfaceCurrentTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceCurrentTimestampCapabilities@8
+GetInterfaceDnsSettings;code;IPHLPAPI.DLL;_GetInterfaceDnsSettings@20
+GetInterfaceHardwareTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceHardwareTimestampCapabilities@8
 GetInterfaceInfo;code;IPHLPAPI.DLL;_GetInterfaceInfo@8
 GetInvertedIfStackTable;code;IPHLPAPI.DLL;_GetInvertedIfStackTable@4
 GetIpAddrTable;code;IPHLPAPI.DLL;_GetIpAddrTable@12
@@ -3445,6 +3482,7 @@ NhGetInterfaceNameFromGuid;code;IPHLPAPI.DLL;_NhGetInterfaceNameFromGuid@20
 NhpAllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_NhpAllocateAndGetInterfaceInfoFromStack@20
 NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
+NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
 NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
 NotifyRouteChange;code;IPHLPAPI.DLL;_NotifyRouteChange@8
@@ -3476,7 +3514,9 @@ SendARP;code;IPHLPAPI.DLL;_SendARP@16
 SetAdapterIpAddress;code;IPHLPAPI.DLL;_SetAdapterIpAddress@20
 SetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_SetCurrentThreadCompartmentId@4
 SetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_SetCurrentThreadCompartmentScope@4
+SetDnsSettings;code;IPHLPAPI.DLL;_SetDnsSettings@4
 SetIfEntry;code;IPHLPAPI.DLL;_SetIfEntry@4
+SetInterfaceDnsSettings;code;IPHLPAPI.DLL;_SetInterfaceDnsSettings@20
 SetIpForwardEntry2;code;IPHLPAPI.DLL;_SetIpForwardEntry2@4
 SetIpForwardEntry;code;IPHLPAPI.DLL;_SetIpForwardEntry@4
 SetIpInterfaceEntry;code;IPHLPAPI.DLL;_SetIpInterfaceEntry@4

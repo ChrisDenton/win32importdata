@@ -212,6 +212,7 @@ sqlite3_value_dup;code;winsqlite3.dll;_sqlite3_value_dup@4
 sqlite3_value_free;code;winsqlite3.dll;_sqlite3_value_free@4
 sqlite3_value_int64;code;winsqlite3.dll;_sqlite3_value_int64@4
 sqlite3_value_int;code;winsqlite3.dll;_sqlite3_value_int@4
+sqlite3_value_nochange;code;winsqlite3.dll;_sqlite3_value_nochange@4
 sqlite3_value_numeric_type;code;winsqlite3.dll;_sqlite3_value_numeric_type@4
 sqlite3_value_pointer;code;winsqlite3.dll;_sqlite3_value_pointer@8
 sqlite3_value_subtype;code;winsqlite3.dll;_sqlite3_value_subtype@4
@@ -226,7 +227,9 @@ sqlite3_vfs_register;code;winsqlite3.dll;_sqlite3_vfs_register@8
 sqlite3_vfs_unregister;code;winsqlite3.dll;_sqlite3_vfs_unregister@4
 sqlite3_vmprintf;code;winsqlite3.dll;_sqlite3_vmprintf@8
 sqlite3_vsnprintf;code;winsqlite3.dll;_sqlite3_vsnprintf@16
+sqlite3_vtab_collation;code;winsqlite3.dll;_sqlite3_vtab_collation@8
 sqlite3_vtab_config;code;winsqlite3.dll;_sqlite3_vtab_config
+sqlite3_vtab_nochange;code;winsqlite3.dll;_sqlite3_vtab_nochange@4
 sqlite3_vtab_on_conflict;code;winsqlite3.dll;_sqlite3_vtab_on_conflict@4
 sqlite3_wal_autocheckpoint;code;winsqlite3.dll;_sqlite3_wal_autocheckpoint@8
 sqlite3_wal_checkpoint;code;winsqlite3.dll;_sqlite3_wal_checkpoint@8
@@ -235,6 +238,8 @@ sqlite3_wal_hook;code;winsqlite3.dll;_sqlite3_wal_hook@12
 sqlite3_win32_is_nt;code;winsqlite3.dll;_sqlite3_win32_is_nt@0
 sqlite3_win32_mbcs_to_utf8;code;winsqlite3.dll;_sqlite3_win32_mbcs_to_utf8@4
 sqlite3_win32_mbcs_to_utf8_v2;code;winsqlite3.dll;_sqlite3_win32_mbcs_to_utf8_v2@8
+sqlite3_win32_set_directory16;code;winsqlite3.dll;_sqlite3_win32_set_directory16@8
+sqlite3_win32_set_directory8;code;winsqlite3.dll;_sqlite3_win32_set_directory8@8
 sqlite3_win32_set_directory;code;winsqlite3.dll;_sqlite3_win32_set_directory@8
 sqlite3_win32_sleep;code;winsqlite3.dll;_sqlite3_win32_sleep@4
 sqlite3_win32_unicode_to_utf8;code;winsqlite3.dll;_sqlite3_win32_unicode_to_utf8@4

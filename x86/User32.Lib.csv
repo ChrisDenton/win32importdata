@@ -1,6 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-CreatePalmRejectionDelayZone;code;USER32.dll;?CreatePalmRejectionDelayZone@@YGJPAUIInspectable@@PBUtagRECT@@PAK@Z (long __stdcall CreatePalmRejectionDelayZone(struct IInspectable *,struct tagRECT const *,unsigned long *))
-DestroyPalmRejectionDelayZone;code;USER32.dll;?DestroyPalmRejectionDelayZone@@YGJK@Z (long __stdcall DestroyPalmRejectionDelayZone(unsigned long))
 ActivateKeyboardLayout;code;USER32.dll;_ActivateKeyboardLayout@8
 AddClipboardFormatListener;code;USER32.dll;_AddClipboardFormatListener@4
 AdjustWindowRect;code;USER32.dll;_AdjustWindowRect@12
@@ -100,6 +98,7 @@ CreateMDIWindowA;code;USER32.dll;_CreateMDIWindowA@40
 CreateMDIWindowW;code;USER32.dll;_CreateMDIWindowW@40
 CreateMenu;code;USER32.dll;_CreateMenu@0
 CreatePopupMenu;code;USER32.dll;_CreatePopupMenu@0
+CreateSyntheticPointerDevice;code;USER32.dll;_CreateSyntheticPointerDevice@12
 CreateWindowExA;code;USER32.dll;_CreateWindowExA@48
 CreateWindowExW;code;USER32.dll;_CreateWindowExW@48
 CreateWindowStationA;code;USER32.dll;_CreateWindowStationA@16
@@ -153,6 +152,7 @@ DestroyCaret;code;USER32.dll;_DestroyCaret@0
 DestroyCursor;code;USER32.dll;_DestroyCursor@4
 DestroyIcon;code;USER32.dll;_DestroyIcon@4
 DestroyMenu;code;USER32.dll;_DestroyMenu@4
+DestroySyntheticPointerDevice;code;USER32.dll;_DestroySyntheticPointerDevice@4
 DestroyWindow;code;USER32.dll;_DestroyWindow@4
 DialogBoxIndirectParamA;code;USER32.dll;_DialogBoxIndirectParamA@20
 DialogBoxIndirectParamW;code;USER32.dll;_DialogBoxIndirectParamW@20
@@ -439,6 +439,7 @@ InSendMessageEx;code;USER32.dll;_InSendMessageEx@4
 InflateRect;code;USER32.dll;_InflateRect@12
 InheritWindowMonitor;code;USER32.dll;_InheritWindowMonitor@8
 InitializeTouchInjection;code;USER32.dll;_InitializeTouchInjection@8
+InjectSyntheticPointerInput;code;USER32.dll;_InjectSyntheticPointerInput@12
 InjectTouchInput;code;USER32.dll;_InjectTouchInput@8
 InsertMenuA;code;USER32.dll;_InsertMenuA@20
 InsertMenuItemA;code;USER32.dll;_InsertMenuItemA@16

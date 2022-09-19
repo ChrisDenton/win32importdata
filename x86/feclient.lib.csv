@@ -1,8 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 EfsUtilGetCurrentKey;code;FeClient.dll;
 EdpAllowFileAccessForProcess;code;FeClient.dll;_EdpAllowFileAccessForProcess@12
-EdpConsumerCredentialCreate;code;FeClient.dll;_EdpConsumerCredentialCreate@12
-EdpConsumerCredentialQuery;code;FeClient.dll;_EdpConsumerCredentialQuery@12
 EdpContainerizeFile;code;FeClient.dll;_EdpContainerizeFile@20
 EdpCredentialCreate;code;FeClient.dll;_EdpCredentialCreate@16
 EdpCredentialDelete;code;FeClient.dll;_EdpCredentialDelete@20
@@ -45,6 +43,10 @@ EfsClientReadFileRaw;code;FeClient.dll;_EfsClientReadFileRaw@12
 EfsClientWriteFileRaw;code;FeClient.dll;_EfsClientWriteFileRaw@12
 EfsClientWriteFileWithHeaderRaw;code;FeClient.dll;_EfsClientWriteFileWithHeaderRaw@32
 EfsReprotectFile;code;FeClient.dll;_EfsReprotectFile@8
+EfsValidateTokenForConsumer;code;FeClient.dll;_EfsValidateTokenForConsumer@8
+EfsValidateUserForConsumer;code;FeClient.dll;_EfsValidateUserForConsumer@8
+FeClClearCaches;code;FeClient.dll;_FeClClearCaches@0
+FeClQueryInfo;code;FeClient.dll;_FeClQueryInfo@16
 FeClientInitialize;code;FeClient.dll;_FeClientInitialize@8
 GetLockSessionUnwrappedKey;code;FeClient.dll;_GetLockSessionUnwrappedKey@28
 GetLockSessionWrappedKey;code;FeClient.dll;_GetLockSessionWrappedKey@28

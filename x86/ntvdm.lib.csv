@@ -10,6 +10,8 @@ DpmiSetIncrementalAlloc;code;ntvdm.exe;_DpmiSetIncrementalAlloc@4
 ExpLdt;data;ntvdm.exe;_ExpLdt
 FlatAddress;data;ntvdm.exe;_FlatAddress
 GetDOSAppName;code;ntvdm.exe;_GetDOSAppName@4
+InitialVdmDbgFlags;data;ntvdm.exe;_InitialVdmDbgFlags
+InitialVdmTibFlags;data;ntvdm.exe;_InitialVdmTibFlags
 IsCdRomFile;code;ntvdm.exe;_IsCdRomFile@4
 MGetVdmPointer;code;ntvdm.exe;_MGetVdmPointer@12
 RedirectLongFileName;code;ntvdm.exe;_RedirectLongFileName@12

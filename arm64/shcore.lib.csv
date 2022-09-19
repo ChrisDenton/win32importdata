@@ -8,6 +8,7 @@ RevokeScaleChangeNotifications;code;api-ms-win-shcore-scaling-l1-1-0.dll;
 GetDpiForMonitor;code;api-ms-win-shcore-scaling-l1-1-1.dll;
 GetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-1.dll;
 GetScaleFactorForMonitor;code;api-ms-win-shcore-scaling-l1-1-1.dll;
+GetScaleFactorForWindow;code;api-ms-win-shcore-scaling-l1-1-1.dll;244
 RegisterScaleChangeEvent;code;api-ms-win-shcore-scaling-l1-1-1.dll;
 SetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-1.dll;
 UnregisterScaleChangeEvent;code;api-ms-win-shcore-scaling-l1-1-1.dll;

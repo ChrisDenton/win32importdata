@@ -15,6 +15,7 @@ CLSIDFromString;code;api-ms-win-core-com-l1-1-0.dll;
 CoCreateFreeThreadedMarshaler;code;api-ms-win-core-com-l1-1-0.dll;
 CoCreateGuid;code;api-ms-win-core-com-l1-1-0.dll;
 CoCreateInstanceFromApp;code;api-ms-win-core-com-l1-1-0.dll;
+CoDecrementMTAUsage;code;api-ms-win-core-com-l1-1-0.dll;
 CoDisconnectObject;code;api-ms-win-core-com-l1-1-0.dll;
 CoFreeUnusedLibraries;code;api-ms-win-core-com-l1-1-0.dll;
 CoFreeUnusedLibrariesEx;code;api-ms-win-core-com-l1-1-0.dll;
@@ -25,6 +26,7 @@ CoGetInterfaceAndReleaseStream;code;api-ms-win-core-com-l1-1-0.dll;
 CoGetMarshalSizeMax;code;api-ms-win-core-com-l1-1-0.dll;
 CoGetObjectContext;code;api-ms-win-core-com-l1-1-0.dll;
 CoGetStandardMarshal;code;api-ms-win-core-com-l1-1-0.dll;
+CoIncrementMTAUsage;code;api-ms-win-core-com-l1-1-0.dll;
 CoInitializeEx;code;api-ms-win-core-com-l1-1-0.dll;
 CoInitializeSecurity;code;api-ms-win-core-com-l1-1-0.dll;
 CoMarshalInterface;code;api-ms-win-core-com-l1-1-0.dll;
@@ -407,6 +409,7 @@ QueryDepthSList;code;api-ms-win-core-interlocked-l1-1-0.dll;
 InterlockedPushListSListEx;code;api-ms-win-core-interlocked-l1-2-0.dll;
 CancelIoEx;code;api-ms-win-core-io-l1-1-0.dll;
 CreateIoCompletionPort;code;api-ms-win-core-io-l1-1-0.dll;
+DeviceIoControl;code;api-ms-win-core-io-l1-1-0.dll;
 GetOverlappedResult;code;api-ms-win-core-io-l1-1-0.dll;
 GetQueuedCompletionStatus;code;api-ms-win-core-io-l1-1-0.dll;
 GetQueuedCompletionStatusEx;code;api-ms-win-core-io-l1-1-0.dll;
@@ -498,6 +501,7 @@ UnmapViewOfFile2;code;api-ms-win-core-memory-l1-1-5.dll;
 VirtualUnlockEx;code;api-ms-win-core-memory-l1-1-5.dll;
 MapViewOfFile3FromApp;code;api-ms-win-core-memory-l1-1-6.dll;
 VirtualAlloc2FromApp;code;api-ms-win-core-memory-l1-1-6.dll;
+SetProcessValidCallTargetsForMappedView;code;api-ms-win-core-memory-l1-1-7.dll;
 GetNamedPipeClientComputerNameA;code;api-ms-win-core-namedpipe-ansi-l1-1-0.dll;
 GetNamedPipeHandleStateA;code;api-ms-win-core-namedpipe-ansi-l1-1-0.dll;
 WaitNamedPipeA;code;api-ms-win-core-namedpipe-ansi-l1-1-0.dll;
@@ -571,6 +575,7 @@ SetStdHandleEx;code;api-ms-win-core-processenvironment-l1-1-0.dll;
 CreateProcessA;code;api-ms-win-core-processthreads-l1-1-0.dll;
 CreateProcessW;code;api-ms-win-core-processthreads-l1-1-0.dll;
 CreateThread;code;api-ms-win-core-processthreads-l1-1-0.dll;
+ExitProcess;code;api-ms-win-core-processthreads-l1-1-0.dll;
 ExitThread;code;api-ms-win-core-processthreads-l1-1-0.dll;
 FlushProcessWriteBuffers;code;api-ms-win-core-processthreads-l1-1-0.dll;
 GetCurrentProcess;code;api-ms-win-core-processthreads-l1-1-0.dll;
@@ -613,6 +618,7 @@ IsProcessorFeaturePresent;code;api-ms-win-core-processthreads-l1-1-1.dll;
 OpenProcess;code;api-ms-win-core-processthreads-l1-1-1.dll;
 SetThreadIdealProcessorEx;code;api-ms-win-core-processthreads-l1-1-1.dll;
 GetProcessPriorityBoost;code;api-ms-win-core-processthreads-l1-1-2.dll;
+GetSystemTimes;code;api-ms-win-core-processthreads-l1-1-2.dll;
 SetProcessPriorityBoost;code;api-ms-win-core-processthreads-l1-1-2.dll;
 SetThreadInformation;code;api-ms-win-core-processthreads-l1-1-2.dll;
 GetProcessDefaultCpuSets;code;api-ms-win-core-processthreads-l1-1-3.dll;
@@ -651,6 +657,7 @@ RtlLookupFunctionEntry;code;api-ms-win-core-rtlsupport-l1-1-0.dll;
 RtlPcToFileHeader;code;api-ms-win-core-rtlsupport-l1-1-0.dll;
 RtlUnwind;code;api-ms-win-core-rtlsupport-l1-1-0.dll;
 RtlUnwindEx;code;api-ms-win-core-rtlsupport-l1-1-0.dll;
+RtlVirtualUnwind;code;api-ms-win-core-rtlsupport-l1-1-0.dll;
 SLQueryLicenseValueFromApp;code;api-ms-win-core-slapi-l1-1-0.dll;
 SLQueryLicenseValueFromApp2;code;api-ms-win-core-slapi-l1-1-0.dll;
 CompareStringEx;code;api-ms-win-core-string-l1-1-0.dll;
@@ -738,6 +745,7 @@ GetVersionExW;code;api-ms-win-core-sysinfo-l1-1-0.dll;
 GlobalMemoryStatusEx;code;api-ms-win-core-sysinfo-l1-1-0.dll;
 EnumSystemFirmwareTables;code;api-ms-win-core-sysinfo-l1-2-0.dll;
 GetNativeSystemInfo;code;api-ms-win-core-sysinfo-l1-2-0.dll;
+GetProductInfo;code;api-ms-win-core-sysinfo-l1-2-0.dll;
 GetSystemFirmwareTable;code;api-ms-win-core-sysinfo-l1-2-0.dll;
 GetSystemTimePreciseAsFileTime;code;api-ms-win-core-sysinfo-l1-2-0.dll;
 GetIntegratedDisplaySize;code;api-ms-win-core-sysinfo-l1-2-3.dll;
@@ -789,6 +797,8 @@ SystemTimeToTzSpecificLocalTime;code;api-ms-win-core-timezone-l1-1-0.dll;
 SystemTimeToTzSpecificLocalTimeEx;code;api-ms-win-core-timezone-l1-1-0.dll;
 TzSpecificLocalTimeToSystemTime;code;api-ms-win-core-timezone-l1-1-0.dll;
 TzSpecificLocalTimeToSystemTimeEx;code;api-ms-win-core-timezone-l1-1-0.dll;
+LocalFileTimeToLocalSystemTime;code;api-ms-win-core-timezone-l1-1-1.dll;
+LocalSystemTimeToLocalFileTime;code;api-ms-win-core-timezone-l1-1-1.dll;
 GetAcceptLanguagesA;code;api-ms-win-core-url-l1-1-0.dll;
 GetAcceptLanguagesW;code;api-ms-win-core-url-l1-1-0.dll;
 Beep;code;api-ms-win-core-util-l1-1-0.dll;
@@ -872,6 +882,13 @@ GetEnabledXStateFeatures;code;api-ms-win-core-xstate-l2-1-0.dll;
 GetXStateFeaturesMask;code;api-ms-win-core-xstate-l2-1-0.dll;
 InitializeContext;code;api-ms-win-core-xstate-l2-1-0.dll;
 LocateXStateFeature;code;api-ms-win-core-xstate-l2-1-0.dll;
+CM_Get_Device_Interface_List_SizeW;code;api-ms-win-devices-config-l1-1-1.dll;
+CM_Get_Device_Interface_ListW;code;api-ms-win-devices-config-l1-1-1.dll;
+CM_MapCrToWin32Err;code;api-ms-win-devices-config-l1-1-1.dll;
+CM_Register_Notification;code;api-ms-win-devices-config-l1-1-1.dll;
+CM_Unregister_Notification;code;api-ms-win-devices-config-l1-1-1.dll;
+CM_Get_Device_Interface_List_SizeA;code;api-ms-win-devices-config-l1-1-2.dll;
+CM_Get_Device_Interface_ListA;code;api-ms-win-devices-config-l1-1-2.dll;
 GetTraceEnableFlags;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;
 GetTraceEnableLevel;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;
 GetTraceLoggerHandle;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;
@@ -891,6 +908,8 @@ EnableTraceEx;code;api-ms-win-eventing-legacy-l1-1-0.dll;
 FlushTraceW;code;api-ms-win-eventing-legacy-l1-1-0.dll;
 QueryTraceW;code;api-ms-win-eventing-legacy-l1-1-0.dll;
 EventActivityIdControl;code;api-ms-win-eventing-provider-l1-1-0.dll;
+EventEnabled;code;api-ms-win-eventing-provider-l1-1-0.dll;
+EventProviderEnabled;code;api-ms-win-eventing-provider-l1-1-0.dll;
 EventRegister;code;api-ms-win-eventing-provider-l1-1-0.dll;
 EventSetInformation;code;api-ms-win-eventing-provider-l1-1-0.dll;
 EventUnregister;code;api-ms-win-eventing-provider-l1-1-0.dll;
@@ -902,10 +921,6 @@ GetGamingDeviceModelInformation;code;api-ms-win-gaming-deviceinformation-l1-1-0.
 GetExpandedResourceExclusiveCpuCount;code;api-ms-win-gaming-expandedresources-l1-1-0.dll;
 HasExpandedResources;code;api-ms-win-gaming-expandedresources-l1-1-0.dll;
 ReleaseExclusiveCpuSets;code;api-ms-win-gaming-expandedresources-l1-1-0.dll;
-EnableActiveGameMonitoring;code;api-ms-win-gaming-gamemonitor-l1-1-0.dll;
-ReportGameActivity;code;api-ms-win-gaming-gamemonitor-l1-1-0.dll;
-SetGameActivityCorrelationId;code;api-ms-win-gaming-gamemonitor-l1-1-0.dll;
-GetGameMonitoringPermissionState;code;api-ms-win-gaming-gamemonitor-l1-1-1.dll;
 ProcessPendingGameUI;code;api-ms-win-gaming-tcui-l1-1-0.dll;
 ShowChangeFriendRelationshipUI;code;api-ms-win-gaming-tcui-l1-1-0.dll;
 ShowGameInviteUI;code;api-ms-win-gaming-tcui-l1-1-0.dll;
@@ -935,6 +950,8 @@ ShowUserSettingsUIForUser;code;api-ms-win-gaming-tcui-l1-1-4.dll;
 RoGetMetaDataFile;code;api-ms-win-ro-typeresolution-l1-1-0.dll;
 RoParseTypeName;code;api-ms-win-ro-typeresolution-l1-1-0.dll;
 RoResolveNamespace;code;api-ms-win-ro-typeresolution-l1-1-0.dll;
+RoIsApiContractMajorVersionPresent;code;api-ms-win-ro-typeresolution-l1-1-1.dll;
+RoIsApiContractPresent;code;api-ms-win-ro-typeresolution-l1-1-1.dll;
 AddAccessAllowedAce;code;api-ms-win-security-base-l1-1-0.dll;
 AddAccessAllowedAceEx;code;api-ms-win-security-base-l1-1-0.dll;
 AddAce;code;api-ms-win-security-base-l1-1-0.dll;
@@ -1026,6 +1043,11 @@ LookupAccountSidW;code;api-ms-win-security-lsalookup-l2-1-0.dll;
 LookupPrivilegeDisplayNameW;code;api-ms-win-security-lsalookup-l2-1-0.dll;
 LookupPrivilegeNameW;code;api-ms-win-security-lsalookup-l2-1-0.dll;
 LookupPrivilegeValueW;code;api-ms-win-security-lsalookup-l2-1-0.dll;
+LsaClose;code;api-ms-win-security-lsapolicy-l1-1-0.dll;
+LsaFreeMemory;code;api-ms-win-security-lsapolicy-l1-1-0.dll;
+LsaLookupNames2;code;api-ms-win-security-lsapolicy-l1-1-0.dll;
+LsaLookupSids;code;api-ms-win-security-lsapolicy-l1-1-0.dll;
+LsaOpenPolicy;code;api-ms-win-security-lsapolicy-l1-1-0.dll;
 GetExplicitEntriesFromAclA;code;api-ms-win-security-provider-ansi-l1-1-0.dll;
 GetNamedSecurityInfoA;code;api-ms-win-security-provider-ansi-l1-1-0.dll;
 SetEntriesInAclA;code;api-ms-win-security-provider-ansi-l1-1-0.dll;
@@ -2175,6 +2197,22 @@ AllJoynEventSelect;code;MSAJApi.dll;
 AllJoynReceiveFromBus;code;MSAJApi.dll;
 AllJoynSendToBus;code;MSAJApi.dll;
 QCC_StatusText;code;MSAJApi.dll;
+ColorAdapterGetCurrentProfileCalibration;code;mscms.dll;217
+ColorAdapterGetDisplayCurrentStateID;code;mscms.dll;211
+ColorAdapterGetDisplayProfile;code;mscms.dll;216
+ColorAdapterGetDisplayTargetWhitePoint;code;mscms.dll;215
+ColorAdapterGetDisplayTransformData;code;mscms.dll;214
+ColorAdapterGetSystemModifyWhitePointCaps;code;mscms.dll;210
+ColorAdapterRegisterOEMColorService;code;mscms.dll;218
+ColorAdapterUnregisterOEMColorService;code;mscms.dll;219
+ColorProfileAddDisplayAssociation;code;mscms.dll;230
+ColorProfileGetDisplayDefault;code;mscms.dll;234
+ColorProfileGetDisplayList;code;mscms.dll;233
+ColorProfileGetDisplayUserScope;code;mscms.dll;235
+ColorProfileRemoveDisplayAssociation;code;mscms.dll;231
+ColorProfileSetDisplayDefaultAssociation;code;mscms.dll;232
+InstallColorProfileA;code;mscms.dll;
+InstallColorProfileW;code;mscms.dll;
 AcceptEx;code;MSWSOCK.dll;
 GetAcceptExSockaddrs;code;MSWSOCK.dll;
 TransmitFile;code;MSWSOCK.dll;
@@ -3066,6 +3104,7 @@ WsWriteXmlBuffer;code;webservices.dll;
 WsWriteXmlBufferToBytes;code;webservices.dll;
 WsWriteXmlnsAttribute;code;webservices.dll;
 WsXmlStringEquals;code;webservices.dll;
+MLCreateOperatorRegistry;code;Windows.AI.MachineLearning.dll;
 PdfCreateRenderer;code;Windows.Data.Pdf.dll;
 SetSocketMediaStreamingMode;code;Windows.Networking.dll;
 WICConvertBitmapSource;code;WindowsCodecs.dll;

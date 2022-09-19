@@ -89,10 +89,12 @@ FwpmNetEventEnum1;code;fwpuclnt.dll;_FwpmNetEventEnum1@20
 FwpmNetEventEnum2;code;fwpuclnt.dll;_FwpmNetEventEnum2@20
 FwpmNetEventEnum3;code;fwpuclnt.dll;_FwpmNetEventEnum3@20
 FwpmNetEventEnum4;code;fwpuclnt.dll;_FwpmNetEventEnum4@20
+FwpmNetEventEnum5;code;fwpuclnt.dll;_FwpmNetEventEnum5@20
 FwpmNetEventSubscribe0;code;fwpuclnt.dll;_FwpmNetEventSubscribe0@20
 FwpmNetEventSubscribe1;code;fwpuclnt.dll;_FwpmNetEventSubscribe1@20
 FwpmNetEventSubscribe2;code;fwpuclnt.dll;_FwpmNetEventSubscribe2@20
 FwpmNetEventSubscribe3;code;fwpuclnt.dll;_FwpmNetEventSubscribe3@20
+FwpmNetEventSubscribe4;code;fwpuclnt.dll;_FwpmNetEventSubscribe4@20
 FwpmNetEventSubscriptionsGet0;code;fwpuclnt.dll;_FwpmNetEventSubscriptionsGet0@12
 FwpmNetEventUnsubscribe0;code;fwpuclnt.dll;_FwpmNetEventUnsubscribe0@8
 FwpmNetEventsGetSecurityInfo0;code;fwpuclnt.dll;_FwpmNetEventsGetSecurityInfo0@28

@@ -1,6 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+CdplGetFileProtectionLevel;code;efswrt.dll;
+CdplIsAppAllowedToRun;code;efswrt.dll;
 CdplIsAppDataProtectionSupported;code;efswrt.dll;
+CdplIsSupported;code;efswrt.dll;
 CdplProtectFileToLevel;code;efswrt.dll;
+CdplProtectFileToLevelWithResult;code;efswrt.dll;
 CdplProtectSecretToLevel;code;efswrt.dll;
 CdplUnprotectSecret;code;efswrt.dll;
 DpmBufferFree;code;efswrt.dll;

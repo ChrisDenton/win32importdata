@@ -31,6 +31,7 @@ EvaluateActivityThresholds;code;SensorsUtilsV2.dll;_EvaluateActivityThresholds@1
 GetFileTimeDifference;code;SensorsUtilsV2.dll;_GetFileTimeDifference@12
 GetFileTimeFromTimeStamp;code;SensorsUtilsV2.dll;_GetFileTimeFromTimeStamp@8
 GetPerformanceTime;code;SensorsUtilsV2.dll;_GetPerformanceTime@4
+GetSetting;code;SensorsUtilsV2.dll;_GetSetting@8
 GetTimeStampFromFileTime;code;SensorsUtilsV2.dll;_GetTimeStampFromFileTime@8
 InitPropVariantFromCLSIDArray;code;SensorsUtilsV2.dll;_InitPropVariantFromCLSIDArray@12
 InitPropVariantFromFloat;code;SensorsUtilsV2.dll;_InitPropVariantFromFloat@8

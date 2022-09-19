@@ -1,6 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-CreatePalmRejectionDelayZone;code;USER32.dll;?CreatePalmRejectionDelayZone@@YAJPEAUIInspectable@@PEBUtagRECT@@PEAK@Z (long __cdecl CreatePalmRejectionDelayZone(struct IInspectable *,struct tagRECT const *,unsigned long *))
-DestroyPalmRejectionDelayZone;code;USER32.dll;?DestroyPalmRejectionDelayZone@@YAJK@Z (long __cdecl DestroyPalmRejectionDelayZone(unsigned long))
 ActivateKeyboardLayout;code;USER32.dll;
 AddClipboardFormatListener;code;USER32.dll;
 AdjustWindowRect;code;USER32.dll;
@@ -100,6 +98,7 @@ CreateMDIWindowA;code;USER32.dll;
 CreateMDIWindowW;code;USER32.dll;
 CreateMenu;code;USER32.dll;
 CreatePopupMenu;code;USER32.dll;
+CreateSyntheticPointerDevice;code;USER32.dll;
 CreateWindowExA;code;USER32.dll;
 CreateWindowExW;code;USER32.dll;
 CreateWindowStationA;code;USER32.dll;
@@ -153,6 +152,7 @@ DestroyCaret;code;USER32.dll;
 DestroyCursor;code;USER32.dll;
 DestroyIcon;code;USER32.dll;
 DestroyMenu;code;USER32.dll;
+DestroySyntheticPointerDevice;code;USER32.dll;
 DestroyWindow;code;USER32.dll;
 DialogBoxIndirectParamA;code;USER32.dll;
 DialogBoxIndirectParamW;code;USER32.dll;
@@ -443,6 +443,7 @@ InSendMessageEx;code;USER32.dll;
 InflateRect;code;USER32.dll;
 InheritWindowMonitor;code;USER32.dll;
 InitializeTouchInjection;code;USER32.dll;
+InjectSyntheticPointerInput;code;USER32.dll;
 InjectTouchInput;code;USER32.dll;
 InsertMenuA;code;USER32.dll;
 InsertMenuItemA;code;USER32.dll;

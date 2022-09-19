@@ -1,6 +1,12 @@
 Name;Type;DLL;SymbolOrOrdinal
+DpxCheckJobExists;code;dpx.dll;_DpxCheckJobExists@8
+DpxCheckJobExistsEx;code;dpx.dll;_DpxCheckJobExistsEx@12
+DpxDeleteJob;code;dpx.dll;_DpxDeleteJob@4
+DpxDeleteJobEx;code;dpx.dll;_DpxDeleteJobEx@8
 DpxFreeMemory;code;dpx.dll;_DpxFreeMemory@4
 DpxNewJob;code;dpx.dll;_DpxNewJob@8
 DpxNewJobEx;code;dpx.dll;_DpxNewJobEx@12
 DpxRestoreJob;code;dpx.dll;_DpxRestoreJob@8
 DpxRestoreJobEx;code;dpx.dll;_DpxRestoreJobEx@12
+DpxRestoreOrNewJob;code;dpx.dll;_DpxRestoreOrNewJob@12
+DpxRestoreOrNewJobEx;code;dpx.dll;_DpxRestoreOrNewJobEx@16

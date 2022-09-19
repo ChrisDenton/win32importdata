@@ -1,6 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreateChakraEngine;code;chakra.dll;?CreateChakraEngine@@YAPEAVChakraEngine@@XZ (class ChakraEngine * __cdecl CreateChakraEngine(void))
 DumpDiagInfo;code;chakra.dll;?DumpDiagInfo@@YAXPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (void __cdecl DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+JsDiscardBackgroundParse;code;chakra.dll;?JsDiscardBackgroundParse@@YA_NKPEAX@Z (bool __cdecl JsDiscardBackgroundParse(unsigned long,void *))
 JsInitializeJITServer;code;chakra.dll;?JsInitializeJITServer@@YAJPEAU_GUID@@PEAX1@Z (long __cdecl JsInitializeJITServer(struct _GUID *,void *,void *))
+JsQueueBackgroundParse;code;chakra.dll;?JsQueueBackgroundParse@@YAJPEAUScriptContents@JsStaticAPI@@PEAK@Z (long __cdecl JsQueueBackgroundParse(struct JsStaticAPI::ScriptContents *,unsigned long *))
 MemProtectHeapAddRootSection;code;chakra.dll;?MemProtectHeapAddRootSection@@YAXPEAXPEAUMemProtectHeapRootSection@@@Z (void __cdecl MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))
 MemProtectHeapCollect;code;chakra.dll;?MemProtectHeapCollect@@YAJPEAXW4MemProtectHeapCollectFlags@@@Z (long __cdecl MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))
 MemProtectHeapCreate;code;chakra.dll;?MemProtectHeapCreate@@YAJPEAPEAXW4MemProtectHeapCreateFlags@@@Z (long __cdecl MemProtectHeapCreate(void * *,enum MemProtectHeapCreateFlags))

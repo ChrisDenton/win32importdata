@@ -1,4 +1,15 @@
 Name;Type;DLL;SymbolOrOrdinal
+PdhVbAddCounter;code;pdh.dll;?PdhVbAddCounter@@YGKPAXPBDPAPAX@Z (unsigned long __stdcall PdhVbAddCounter(void *,char const *,void * *))
+PdhVbCreateCounterPathList;code;pdh.dll;?PdhVbCreateCounterPathList@@YGKKPBD@Z (unsigned long __stdcall PdhVbCreateCounterPathList(unsigned long,char const *))
+PdhVbGetCounterPathElements;code;pdh.dll;?PdhVbGetCounterPathElements@@YGKPBDPAD1111K@Z (unsigned long __stdcall PdhVbGetCounterPathElements(char const *,char *,char *,char *,char *,char *,unsigned long))
+PdhVbGetCounterPathFromList;code;pdh.dll;?PdhVbGetCounterPathFromList@@YGKKPADK@Z (unsigned long __stdcall PdhVbGetCounterPathFromList(unsigned long,char *,unsigned long))
+PdhVbGetDoubleCounterValue;code;pdh.dll;?PdhVbGetDoubleCounterValue@@YGNPAXPAK@Z (double __stdcall PdhVbGetDoubleCounterValue(void *,unsigned long *))
+PdhVbGetLogFileSize;code;pdh.dll;?PdhVbGetLogFileSize@@YGKPAXPAJ@Z (unsigned long __stdcall PdhVbGetLogFileSize(void *,long *))
+PdhVbGetOneCounterPath;code;pdh.dll;?PdhVbGetOneCounterPath@@YGKPADKKPBD@Z (unsigned long __stdcall PdhVbGetOneCounterPath(char *,unsigned long,unsigned long,char const *))
+PdhVbIsGoodStatus;code;pdh.dll;?PdhVbIsGoodStatus@@YGKJ@Z (unsigned long __stdcall PdhVbIsGoodStatus(long))
+PdhVbOpenLog;code;pdh.dll;?PdhVbOpenLog@@YGKPBDKPAKPAXK0PAPAX@Z (unsigned long __stdcall PdhVbOpenLog(char const *,unsigned long,unsigned long *,void *,unsigned long,char const *,void * *))
+PdhVbOpenQuery;code;pdh.dll;?PdhVbOpenQuery@@YGKPAPAX@Z (unsigned long __stdcall PdhVbOpenQuery(void * *))
+PdhVbUpdateLog;code;pdh.dll;?PdhVbUpdateLog@@YGKPAXPBD@Z (unsigned long __stdcall PdhVbUpdateLog(void *,char const *))
 PdhAddCounterA;code;pdh.dll;_PdhAddCounterA@16
 PdhAddCounterW;code;pdh.dll;_PdhAddCounterW@16
 PdhAddEnglishCounterA;code;pdh.dll;_PdhAddEnglishCounterA@16
@@ -96,16 +107,5 @@ PdhValidatePathA;code;pdh.dll;_PdhValidatePathA@4
 PdhValidatePathExA;code;pdh.dll;_PdhValidatePathExA@8
 PdhValidatePathExW;code;pdh.dll;_PdhValidatePathExW@8
 PdhValidatePathW;code;pdh.dll;_PdhValidatePathW@4
-PdhVbAddCounter;code;pdh.dll;_PdhVbAddCounter@12
-PdhVbCreateCounterPathList;code;pdh.dll;_PdhVbCreateCounterPathList@8
-PdhVbGetCounterPathElements;code;pdh.dll;_PdhVbGetCounterPathElements@28
-PdhVbGetCounterPathFromList;code;pdh.dll;_PdhVbGetCounterPathFromList@12
-PdhVbGetDoubleCounterValue;code;pdh.dll;_PdhVbGetDoubleCounterValue@8
-PdhVbGetLogFileSize;code;pdh.dll;_PdhVbGetLogFileSize@8
-PdhVbGetOneCounterPath;code;pdh.dll;_PdhVbGetOneCounterPath@16
-PdhVbIsGoodStatus;code;pdh.dll;_PdhVbIsGoodStatus@4
-PdhVbOpenLog;code;pdh.dll;_PdhVbOpenLog@28
-PdhVbOpenQuery;code;pdh.dll;_PdhVbOpenQuery@4
-PdhVbUpdateLog;code;pdh.dll;_PdhVbUpdateLog@8
 PdhVerifySQLDBA;code;pdh.dll;_PdhVerifySQLDBA@4
 PdhVerifySQLDBW;code;pdh.dll;_PdhVerifySQLDBW@4
