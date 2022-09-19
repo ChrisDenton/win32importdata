@@ -37,6 +37,7 @@ CluGetFaultDomainObjects;code;CLUSAPI.dll;
 CluRemoveFaultDomainObject;code;CLUSAPI.dll;
 ClusterAddGroupToGroupSet;code;CLUSAPI.dll;
 ClusterCaptureLiveDump;code;CLUSAPI.dll;
+ClusterChangeVMSettings;code;CLUSAPI.dll;
 ClusterCloseEnum;code;CLUSAPI.dll;
 ClusterCloseEnumEx;code;CLUSAPI.dll;
 ClusterControl;code;CLUSAPI.dll;

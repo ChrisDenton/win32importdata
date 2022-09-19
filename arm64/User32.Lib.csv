@@ -1,4 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreatePalmRejectionDelayZone;code;USER32.dll;?CreatePalmRejectionDelayZone@@YAJPEAUIInspectable@@PEBUtagRECT@@PEAK@Z (long __cdecl CreatePalmRejectionDelayZone(struct IInspectable *,struct tagRECT const *,unsigned long *))
+DestroyPalmRejectionDelayZone;code;USER32.dll;?DestroyPalmRejectionDelayZone@@YAJK@Z (long __cdecl DestroyPalmRejectionDelayZone(unsigned long))
 ActivateKeyboardLayout;code;USER32.dll;
 AddClipboardFormatListener;code;USER32.dll;
 AdjustWindowRect;code;USER32.dll;
@@ -285,6 +287,7 @@ GetDlgItemTextW;code;USER32.dll;
 GetDoubleClickTime;code;USER32.dll;
 GetDpiForSystem;code;USER32.dll;
 GetDpiForWindow;code;USER32.dll;
+GetDpiFromDpiAwarenessContext;code;USER32.dll;
 GetFocus;code;USER32.dll;
 GetForegroundWindow;code;USER32.dll;
 GetGUIThreadInfo;code;USER32.dll;
@@ -380,6 +383,7 @@ GetShellWindow;code;USER32.dll;
 GetSubMenu;code;USER32.dll;
 GetSysColor;code;USER32.dll;
 GetSysColorBrush;code;USER32.dll;
+GetSystemDpiForProcess;code;USER32.dll;
 GetSystemMenu;code;USER32.dll;
 GetSystemMetrics;code;USER32.dll;
 GetSystemMetricsForDpi;code;USER32.dll;
@@ -387,6 +391,7 @@ GetTabbedTextExtentA;code;USER32.dll;
 GetTabbedTextExtentW;code;USER32.dll;
 GetThreadDesktop;code;USER32.dll;
 GetThreadDpiAwarenessContext;code;USER32.dll;
+GetThreadDpiHostingBehavior;code;USER32.dll;
 GetTitleBarInfo;code;USER32.dll;
 GetTopWindow;code;USER32.dll;
 GetTouchInputInfo;code;USER32.dll;
@@ -402,6 +407,7 @@ GetWindowContextHelpId;code;USER32.dll;
 GetWindowDC;code;USER32.dll;
 GetWindowDisplayAffinity;code;USER32.dll;
 GetWindowDpiAwarenessContext;code;USER32.dll;
+GetWindowDpiHostingBehavior;code;USER32.dll;
 GetWindowFeedbackSetting;code;USER32.dll;
 GetWindowInfo;code;USER32.dll;
 GetWindowLongA;code;USER32.dll;
@@ -671,6 +677,7 @@ SetSysColors;code;USER32.dll;
 SetSystemCursor;code;USER32.dll;
 SetThreadDesktop;code;USER32.dll;
 SetThreadDpiAwarenessContext;code;USER32.dll;
+SetThreadDpiHostingBehavior;code;USER32.dll;
 SetTimer;code;USER32.dll;
 SetUserObjectInformationA;code;USER32.dll;
 SetUserObjectInformationW;code;USER32.dll;

@@ -11,5 +11,6 @@ DXGID3D10CreateDevice;code;dxgi.dll;
 DXGID3D10CreateLayeredDevice;code;dxgi.dll;
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;
 DXGID3D10RegisterLayers;code;dxgi.dll;
+DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;
 DXGIGetDebugInterface1;code;dxgi.dll;
 DXGIReportAdapterConfiguration;code;dxgi.dll;

@@ -69,7 +69,7 @@ EditStreamSetInfoW;code;AVIFIL32.dll;_EditStreamSetInfoW@12
 EditStreamSetName;code;AVIFIL32.dll;_EditStreamSetName@8
 EditStreamSetNameA;code;AVIFIL32.dll;_EditStreamSetNameA@8
 EditStreamSetNameW;code;AVIFIL32.dll;_EditStreamSetNameW@8
-IID_IAVIEditStream;code;AVIFIL32.dll;_IID_IAVIEditStream
-IID_IAVIFile;code;AVIFIL32.dll;_IID_IAVIFile
-IID_IAVIStream;code;AVIFIL32.dll;_IID_IAVIStream
-IID_IGetFrame;code;AVIFIL32.dll;_IID_IGetFrame
+IID_IAVIEditStream;data;AVIFIL32.dll;_IID_IAVIEditStream
+IID_IAVIFile;data;AVIFIL32.dll;_IID_IAVIFile
+IID_IAVIStream;data;AVIFIL32.dll;_IID_IAVIStream
+IID_IGetFrame;data;AVIFIL32.dll;_IID_IGetFrame

@@ -10,6 +10,7 @@ CfDisconnectSyncRoot;code;CLDAPI.dll;_CfDisconnectSyncRoot@8
 CfEnumAppPolicy;code;CLDAPI.dll;_CfEnumAppPolicy@32
 CfExecute;code;CLDAPI.dll;_CfExecute@8
 CfGetCorrelationVector;code;CLDAPI.dll;_CfGetCorrelationVector@8
+CfGetLastSyncStatus;code;CLDAPI.dll;_CfGetLastSyncStatus@16
 CfGetPlaceholderInfo;code;CLDAPI.dll;_CfGetPlaceholderInfo@20
 CfGetPlaceholderRangeInfo;code;CLDAPI.dll;_CfGetPlaceholderRangeInfo@36
 CfGetPlaceholderStateFromAttributeTag;code;CLDAPI.dll;_CfGetPlaceholderStateFromAttributeTag@8
@@ -32,6 +33,7 @@ CfRegisterSyncRoot;code;CLDAPI.dll;_CfRegisterSyncRoot@16
 CfReleaseProtectedHandle;code;CLDAPI.dll;_CfReleaseProtectedHandle@4
 CfReleaseTransferKey;code;CLDAPI.dll;_CfReleaseTransferKey@8
 CfReportProviderProgress;code;CLDAPI.dll;_CfReportProviderProgress@32
+CfReportSyncStatus;code;CLDAPI.dll;_CfReportSyncStatus@8
 CfRetrieveProperties;code;CLDAPI.dll;_CfRetrieveProperties@12
 CfRevertPlaceholder;code;CLDAPI.dll;_CfRevertPlaceholder@12
 CfSetAppPolicy;code;CLDAPI.dll;_CfSetAppPolicy@16

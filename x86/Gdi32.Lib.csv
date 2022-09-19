@@ -144,7 +144,8 @@ D3DKMTGetOverlayState;code;GDI32.dll;_D3DKMTGetOverlayState@4
 D3DKMTGetPostCompositionCaps;code;GDI32.dll;_D3DKMTGetPostCompositionCaps@4
 D3DKMTGetPresentHistory;code;GDI32.dll;_D3DKMTGetPresentHistory@4
 D3DKMTGetPresentQueueEvent;code;GDI32.dll;_D3DKMTGetPresentQueueEvent@8
-D3DKMTGetProcessDeviceLostSupport;code;GDI32.dll;_D3DKMTGetProcessDeviceLostSupport@4
+D3DKMTGetProcessDeviceRemovalSupport;code;GDI32.dll;_D3DKMTGetProcessDeviceRemovalSupport@4
+D3DKMTGetProcessList;code;GDI32.dll;_D3DKMTGetProcessList@4
 D3DKMTGetProcessSchedulingPriorityBand;code;GDI32.dll;_D3DKMTGetProcessSchedulingPriorityBand@4
 D3DKMTGetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTGetProcessSchedulingPriorityClass@8
 D3DKMTGetResourcePresentPrivateDriverData;code;GDI32.dll;_D3DKMTGetResourcePresentPrivateDriverData@4
@@ -172,8 +173,10 @@ D3DKMTOpenAdapterFromDeviceName;code;GDI32.dll;_D3DKMTOpenAdapterFromDeviceName@
 D3DKMTOpenAdapterFromGdiDisplayName;code;GDI32.dll;_D3DKMTOpenAdapterFromGdiDisplayName@4
 D3DKMTOpenAdapterFromHdc;code;GDI32.dll;_D3DKMTOpenAdapterFromHdc@4
 D3DKMTOpenAdapterFromLuid;code;GDI32.dll;_D3DKMTOpenAdapterFromLuid@4
+D3DKMTOpenBundleObjectNtHandleFromName;code;GDI32.dll;_D3DKMTOpenBundleObjectNtHandleFromName@4
 D3DKMTOpenKeyedMutex2;code;GDI32.dll;_D3DKMTOpenKeyedMutex2@4
 D3DKMTOpenKeyedMutex;code;GDI32.dll;_D3DKMTOpenKeyedMutex@4
+D3DKMTOpenKeyedMutexFromNtHandle;code;GDI32.dll;_D3DKMTOpenKeyedMutexFromNtHandle@4
 D3DKMTOpenNtHandleFromName;code;GDI32.dll;_D3DKMTOpenNtHandleFromName@4
 D3DKMTOpenProtectedSessionFromNtHandle;code;GDI32.dll;_D3DKMTOpenProtectedSessionFromNtHandle@4
 D3DKMTOpenResource2;code;GDI32.dll;_D3DKMTOpenResource2@4
@@ -212,6 +215,7 @@ D3DKMTQueryVideoMemoryInfo;code;GDI32.dll;_D3DKMTQueryVideoMemoryInfo@4
 D3DKMTReclaimAllocations2;code;GDI32.dll;_D3DKMTReclaimAllocations2@4
 D3DKMTReclaimAllocations;code;GDI32.dll;_D3DKMTReclaimAllocations@4
 D3DKMTRegisterTrimNotification;code;GDI32.dll;_D3DKMTRegisterTrimNotification@4
+D3DKMTRegisterVailProcess;code;GDI32.dll;_D3DKMTRegisterVailProcess@4
 D3DKMTReleaseKeyedMutex2;code;GDI32.dll;_D3DKMTReleaseKeyedMutex2@4
 D3DKMTReleaseKeyedMutex;code;GDI32.dll;_D3DKMTReleaseKeyedMutex@4
 D3DKMTReleaseProcessVidPnSourceOwners;code;GDI32.dll;_D3DKMTReleaseProcessVidPnSourceOwners@4
@@ -222,7 +226,6 @@ D3DKMTReserveGpuVirtualAddress;code;GDI32.dll;_D3DKMTReserveGpuVirtualAddress@4
 D3DKMTSetAllocationPriority;code;GDI32.dll;_D3DKMTSetAllocationPriority@4
 D3DKMTSetContextInProcessSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextInProcessSchedulingPriority@4
 D3DKMTSetContextSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextSchedulingPriority@4
-D3DKMTSetDeviceLostSupport;code;GDI32.dll;_D3DKMTSetDeviceLostSupport@4
 D3DKMTSetDisplayMode;code;GDI32.dll;_D3DKMTSetDisplayMode@4
 D3DKMTSetDisplayPrivateDriverFormat;code;GDI32.dll;_D3DKMTSetDisplayPrivateDriverFormat@4
 D3DKMTSetDodIndirectSwapchain;code;GDI32.dll;_D3DKMTSetDodIndirectSwapchain@4
@@ -231,6 +234,7 @@ D3DKMTSetGammaRamp;code;GDI32.dll;_D3DKMTSetGammaRamp@4
 D3DKMTSetHwProtectionTeardownRecovery;code;GDI32.dll;_D3DKMTSetHwProtectionTeardownRecovery@4
 D3DKMTSetMemoryBudgetTarget;code;GDI32.dll;_D3DKMTSetMemoryBudgetTarget@4
 D3DKMTSetMonitorColorSpaceTransform;code;GDI32.dll;_D3DKMTSetMonitorColorSpaceTransform@4
+D3DKMTSetProcessDeviceRemovalSupport;code;GDI32.dll;_D3DKMTSetProcessDeviceRemovalSupport@4
 D3DKMTSetProcessSchedulingPriorityBand;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityBand@4
 D3DKMTSetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityClass@8
 D3DKMTSetQueuedLimit;code;GDI32.dll;_D3DKMTSetQueuedLimit@4
@@ -263,6 +267,9 @@ D3DKMTUnregisterTrimNotification;code;GDI32.dll;_D3DKMTUnregisterTrimNotificatio
 D3DKMTUpdateAllocationProperty;code;GDI32.dll;_D3DKMTUpdateAllocationProperty@4
 D3DKMTUpdateGpuVirtualAddress;code;GDI32.dll;_D3DKMTUpdateGpuVirtualAddress@4
 D3DKMTUpdateOverlay;code;GDI32.dll;_D3DKMTUpdateOverlay@4
+D3DKMTVailConnect;code;GDI32.dll;_D3DKMTVailConnect@0
+D3DKMTVailDisconnect;code;GDI32.dll;_D3DKMTVailDisconnect@0
+D3DKMTVailPromoteCompositionSurface;code;GDI32.dll;_D3DKMTVailPromoteCompositionSurface@8
 D3DKMTWaitForIdle;code;GDI32.dll;_D3DKMTWaitForIdle@4
 D3DKMTWaitForSynchronizationObject2;code;GDI32.dll;_D3DKMTWaitForSynchronizationObject2@4
 D3DKMTWaitForSynchronizationObject;code;GDI32.dll;_D3DKMTWaitForSynchronizationObject@4

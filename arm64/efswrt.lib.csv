@@ -1,4 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
+CdplIsAppDataProtectionSupported;code;efswrt.dll;
+CdplProtectFileToLevel;code;efswrt.dll;
+CdplProtectSecretToLevel;code;efswrt.dll;
+CdplUnprotectSecret;code;efswrt.dll;
 DpmBufferFree;code;efswrt.dll;
 DpmProtectSecretToIdentity;code;efswrt.dll;
 DpmStreamClose;code;efswrt.dll;
@@ -15,5 +19,6 @@ GetEnterpriseActionForCopy;code;efswrt.dll;
 GetEnterpriseIdForNetworkPath;code;efswrt.dll;
 ProtectFileToEnterpriseIdentity;code;efswrt.dll;
 ProtectFileToIdentity;code;efswrt.dll;
+ProtectOrReprotectFileToIdentity;code;efswrt.dll;
 QueryIdentityProtectors;code;efswrt.dll;
 UnprotectFile;code;efswrt.dll;

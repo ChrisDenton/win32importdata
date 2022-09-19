@@ -122,6 +122,7 @@ HttpEndRequestA;code;WININET.dll;
 HttpEndRequestW;code;WININET.dll;
 HttpGetServerCredentials;code;WININET.dll;
 HttpGetTunnelSocket;code;WININET.dll;
+HttpIndicatePageLoadComplete;code;WININET.dll;
 HttpIsHostHstsEnabled;code;WININET.dll;
 HttpOpenDependencyHandle;code;WININET.dll;
 HttpOpenRequestA;code;WININET.dll;

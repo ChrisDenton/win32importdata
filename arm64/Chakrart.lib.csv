@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+DumpDiagInfo;code;chakra.dll;?DumpDiagInfo@@YAXPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (void __cdecl DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))
 JsInitializeJITServer;code;chakra.dll;?JsInitializeJITServer@@YAJPEAU_GUID@@PEAX1@Z (long __cdecl JsInitializeJITServer(struct _GUID *,void *,void *))
 MemProtectHeapAddRootSection;code;chakra.dll;?MemProtectHeapAddRootSection@@YAXPEAXPEAUMemProtectHeapRootSection@@@Z (void __cdecl MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))
 MemProtectHeapCollect;code;chakra.dll;?MemProtectHeapCollect@@YAJPEAXW4MemProtectHeapCollectFlags@@@Z (long __cdecl MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))
@@ -18,6 +19,18 @@ MemProtectHeapRootReallocLeaf;code;chakra.dll;?MemProtectHeapRootReallocLeaf@@YA
 MemProtectHeapSynchronizeWithCollector;code;chakra.dll;?MemProtectHeapSynchronizeWithCollector@@YAJPEAX@Z (long __cdecl MemProtectHeapSynchronizeWithCollector(void *))
 MemProtectHeapUnprotectCurrentThread;code;chakra.dll;?MemProtectHeapUnprotectCurrentThread@@YAJPEAX@Z (long __cdecl MemProtectHeapUnprotectCurrentThread(void *))
 MemProtectHeapUnrootAndZero;code;chakra.dll;?MemProtectHeapUnrootAndZero@@YAJPEAX0@Z (long __cdecl MemProtectHeapUnrootAndZero(void *,void *))
+RecyclerNativeHeapAddExternalMemoryUsage;code;chakra.dll;?RecyclerNativeHeapAddExternalMemoryUsage@@YAXPEAX_K@Z (void __cdecl RecyclerNativeHeapAddExternalMemoryUsage(void *,unsigned __int64))
+RecyclerNativeHeapAllocLeaf;code;chakra.dll;?RecyclerNativeHeapAllocLeaf@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocLeaf(void *,unsigned __int64))
+RecyclerNativeHeapAllocLeafFinalized;code;chakra.dll;?RecyclerNativeHeapAllocLeafFinalized@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocLeafFinalized(void *,unsigned __int64))
+RecyclerNativeHeapAllocTraced;code;chakra.dll;?RecyclerNativeHeapAllocTraced@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocTraced(void *,unsigned __int64))
+RecyclerNativeHeapAllocTracedFinalized;code;chakra.dll;?RecyclerNativeHeapAllocTracedFinalized@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocTracedFinalized(void *,unsigned __int64))
+RecyclerNativeHeapCollectGarbageInThread;code;chakra.dll;?RecyclerNativeHeapCollectGarbageInThread@@YAXPEAX_N@Z (void __cdecl RecyclerNativeHeapCollectGarbageInThread(void *,bool))
+RecyclerNativeHeapCreateWeakReference;code;chakra.dll;?RecyclerNativeHeapCreateWeakReference@@YAJPEAX0PEAPEAX@Z (long __cdecl RecyclerNativeHeapCreateWeakReference(void *,void *,void * *))
+RecyclerNativeHeapGetRealAddressFromInterior;code;chakra.dll;?RecyclerNativeHeapGetRealAddressFromInterior@@YAPEAXPEAX0@Z (void * __cdecl RecyclerNativeHeapGetRealAddressFromInterior(void *,void *))
+RecyclerNativeHeapGetStrongReference;code;chakra.dll;?RecyclerNativeHeapGetStrongReference@@YAPEAXPEAX0@Z (void * __cdecl RecyclerNativeHeapGetStrongReference(void *,void *))
+RecyclerNativeHeapHasWeakReferenceCleanupOccurred;code;chakra.dll;?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YA_NPEAXPEA_K@Z (bool __cdecl RecyclerNativeHeapHasWeakReferenceCleanupOccurred(void *,unsigned __int64 *))
+RecyclerNativeHeapRootAddRef;code;chakra.dll;?RecyclerNativeHeapRootAddRef@@YAJPEAX0PEAI@Z (long __cdecl RecyclerNativeHeapRootAddRef(void *,void *,unsigned int *))
+RecyclerNativeHeapRootRelease;code;chakra.dll;?RecyclerNativeHeapRootRelease@@YAXPEAX0PEAI@Z (void __cdecl RecyclerNativeHeapRootRelease(void *,void *,unsigned int *))
 JsAddRef;code;chakra.dll;
 JsBoolToBoolean;code;chakra.dll;
 JsBooleanToBool;code;chakra.dll;
@@ -43,6 +56,7 @@ JsCreateReferenceError;code;chakra.dll;
 JsCreateRuntime;code;chakra.dll;
 JsCreateSymbol;code;chakra.dll;
 JsCreateSyntaxError;code;chakra.dll;
+JsCreateThreadService;code;chakra.dll;
 JsCreateTypeError;code;chakra.dll;
 JsCreateTypedArray;code;chakra.dll;
 JsCreateURIError;code;chakra.dll;

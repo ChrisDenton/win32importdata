@@ -12,6 +12,7 @@ DwmGetCompositionTimingInfo;code;dwmapi.dll;
 DwmGetGraphicsStreamClient;code;dwmapi.dll;
 DwmGetGraphicsStreamTransformHint;code;dwmapi.dll;
 DwmGetTransportAttributes;code;dwmapi.dll;
+DwmGetUnmetTabRequirements;code;dwmapi.dll;
 DwmGetWindowAttribute;code;dwmapi.dll;
 DwmInvalidateIconicBitmaps;code;dwmapi.dll;
 DwmIsCompositionEnabled;code;dwmapi.dll;

@@ -60,6 +60,7 @@ GlobalFindAtomW;code;api-ms-win-core-atoms-l1-1-0.dll;_GlobalFindAtomW@4
 GlobalGetAtomNameA;code;api-ms-win-core-atoms-l1-1-0.dll;_GlobalGetAtomNameA@12
 GlobalGetAtomNameW;code;api-ms-win-core-atoms-l1-1-0.dll;_GlobalGetAtomNameW@12
 InitAtomTable;code;api-ms-win-core-atoms-l1-1-0.dll;_InitAtomTable@4
+RaiseCustomSystemEventTrigger;code;api-ms-win-core-backgroundtask-l1-1-0.dll;_RaiseCustomSystemEventTrigger@4
 AdjustCalendarDate;code;api-ms-win-core-calendar-l1-1-0.dll;_AdjustCalendarDate@12
 ConvertCalDateTimeToSystemTime;code;api-ms-win-core-calendar-l1-1-0.dll;_ConvertCalDateTimeToSystemTime@8
 ConvertSystemTimeToCalDateTime;code;api-ms-win-core-calendar-l1-1-0.dll;_ConvertSystemTimeToCalDateTime@12
@@ -264,13 +265,12 @@ SetupComm;code;api-ms-win-core-comm-l1-1-0.dll;_SetupComm@12
 TransmitCommChar;code;api-ms-win-core-comm-l1-1-0.dll;_TransmitCommChar@8
 WaitCommEvent;code;api-ms-win-core-comm-l1-1-0.dll;_WaitCommEvent@12
 OpenCommPort;code;api-ms-win-core-comm-l1-1-1.dll;_OpenCommPort@12
-GetConsoleTitleA;code;api-ms-win-core-console-ansi-l2-1-0.dll;_GetConsoleTitleA@8
+GetCommPorts;code;api-ms-win-core-comm-l1-1-2.dll;_GetCommPorts@12
 AllocConsole;code;api-ms-win-core-console-l1-1-0.dll;_AllocConsole@0
 GetConsoleCP;code;api-ms-win-core-console-l1-1-0.dll;_GetConsoleCP@0
 GetConsoleMode;code;api-ms-win-core-console-l1-1-0.dll;_GetConsoleMode@8
 GetConsoleOutputCP;code;api-ms-win-core-console-l1-1-0.dll;_GetConsoleOutputCP@0
 GetNumberOfConsoleInputEvents;code;api-ms-win-core-console-l1-1-0.dll;_GetNumberOfConsoleInputEvents@8
-PeekConsoleInputA;code;api-ms-win-core-console-l1-1-0.dll;_PeekConsoleInputA@16
 ReadConsoleA;code;api-ms-win-core-console-l1-1-0.dll;_ReadConsoleA@20
 ReadConsoleInputA;code;api-ms-win-core-console-l1-1-0.dll;_ReadConsoleInputA@16
 ReadConsoleInputW;code;api-ms-win-core-console-l1-1-0.dll;_ReadConsoleInputW@16
@@ -279,20 +279,20 @@ SetConsoleCtrlHandler;code;api-ms-win-core-console-l1-1-0.dll;_SetConsoleCtrlHan
 SetConsoleMode;code;api-ms-win-core-console-l1-1-0.dll;_SetConsoleMode@8
 WriteConsoleA;code;api-ms-win-core-console-l1-1-0.dll;_WriteConsoleA@20
 WriteConsoleW;code;api-ms-win-core-console-l1-1-0.dll;_WriteConsoleW@20
-AttachConsole;code;api-ms-win-core-console-l2-1-0.dll;_AttachConsole@4
+AttachConsole;code;api-ms-win-core-console-l1-2-0.dll;_AttachConsole@4
+FreeConsole;code;api-ms-win-core-console-l1-2-0.dll;_FreeConsole@0
+PeekConsoleInputA;code;api-ms-win-core-console-l1-2-0.dll;_PeekConsoleInputA@16
+PeekConsoleInputW;code;api-ms-win-core-console-l1-2-0.dll;_PeekConsoleInputW@16
 CreateConsoleScreenBuffer;code;api-ms-win-core-console-l2-1-0.dll;_CreateConsoleScreenBuffer@20
 FillConsoleOutputAttribute;code;api-ms-win-core-console-l2-1-0.dll;_FillConsoleOutputAttribute@20
 FillConsoleOutputCharacterA;code;api-ms-win-core-console-l2-1-0.dll;_FillConsoleOutputCharacterA@20
 FillConsoleOutputCharacterW;code;api-ms-win-core-console-l2-1-0.dll;_FillConsoleOutputCharacterW@20
 FlushConsoleInputBuffer;code;api-ms-win-core-console-l2-1-0.dll;_FlushConsoleInputBuffer@4
-FreeConsole;code;api-ms-win-core-console-l2-1-0.dll;_FreeConsole@0
 GenerateConsoleCtrlEvent;code;api-ms-win-core-console-l2-1-0.dll;_GenerateConsoleCtrlEvent@8
 GetConsoleCursorInfo;code;api-ms-win-core-console-l2-1-0.dll;_GetConsoleCursorInfo@8
 GetConsoleScreenBufferInfo;code;api-ms-win-core-console-l2-1-0.dll;_GetConsoleScreenBufferInfo@8
 GetConsoleScreenBufferInfoEx;code;api-ms-win-core-console-l2-1-0.dll;_GetConsoleScreenBufferInfoEx@8
-GetConsoleTitleW;code;api-ms-win-core-console-l2-1-0.dll;_GetConsoleTitleW@8
 GetLargestConsoleWindowSize;code;api-ms-win-core-console-l2-1-0.dll;_GetLargestConsoleWindowSize@4
-PeekConsoleInputW;code;api-ms-win-core-console-l2-1-0.dll;_PeekConsoleInputW@16
 ReadConsoleOutputA;code;api-ms-win-core-console-l2-1-0.dll;_ReadConsoleOutputA@20
 ReadConsoleOutputAttribute;code;api-ms-win-core-console-l2-1-0.dll;_ReadConsoleOutputAttribute@20
 ReadConsoleOutputCharacterA;code;api-ms-win-core-console-l2-1-0.dll;_ReadConsoleOutputCharacterA@20
@@ -308,7 +308,6 @@ SetConsoleOutputCP;code;api-ms-win-core-console-l2-1-0.dll;_SetConsoleOutputCP@4
 SetConsoleScreenBufferInfoEx;code;api-ms-win-core-console-l2-1-0.dll;_SetConsoleScreenBufferInfoEx@8
 SetConsoleScreenBufferSize;code;api-ms-win-core-console-l2-1-0.dll;_SetConsoleScreenBufferSize@8
 SetConsoleTextAttribute;code;api-ms-win-core-console-l2-1-0.dll;_SetConsoleTextAttribute@8
-SetConsoleTitleW;code;api-ms-win-core-console-l2-1-0.dll;_SetConsoleTitleW@4
 SetConsoleWindowInfo;code;api-ms-win-core-console-l2-1-0.dll;_SetConsoleWindowInfo@12
 WriteConsoleInputA;code;api-ms-win-core-console-l2-1-0.dll;_WriteConsoleInputA@16
 WriteConsoleInputW;code;api-ms-win-core-console-l2-1-0.dll;_WriteConsoleInputW@16
@@ -317,7 +316,44 @@ WriteConsoleOutputAttribute;code;api-ms-win-core-console-l2-1-0.dll;_WriteConsol
 WriteConsoleOutputCharacterA;code;api-ms-win-core-console-l2-1-0.dll;_WriteConsoleOutputCharacterA@20
 WriteConsoleOutputCharacterW;code;api-ms-win-core-console-l2-1-0.dll;_WriteConsoleOutputCharacterW@20
 WriteConsoleOutputW;code;api-ms-win-core-console-l2-1-0.dll;_WriteConsoleOutputW@20
-GetConsoleProcessList;code;api-ms-win-core-console-l3-1-0.dll;_GetConsoleProcessList@8
+GetConsoleOriginalTitleA;code;api-ms-win-core-console-l2-2-0.dll;_GetConsoleOriginalTitleA@8
+GetConsoleOriginalTitleW;code;api-ms-win-core-console-l2-2-0.dll;_GetConsoleOriginalTitleW@8
+GetConsoleTitleA;code;api-ms-win-core-console-l2-2-0.dll;_GetConsoleTitleA@8
+GetConsoleTitleW;code;api-ms-win-core-console-l2-2-0.dll;_GetConsoleTitleW@8
+SetConsoleTitleA;code;api-ms-win-core-console-l2-2-0.dll;_SetConsoleTitleA@4
+SetConsoleTitleW;code;api-ms-win-core-console-l2-2-0.dll;_SetConsoleTitleW@4
+AddConsoleAliasA;code;api-ms-win-core-console-l3-2-0.dll;_AddConsoleAliasA@12
+AddConsoleAliasW;code;api-ms-win-core-console-l3-2-0.dll;_AddConsoleAliasW@12
+ExpungeConsoleCommandHistoryA;code;api-ms-win-core-console-l3-2-0.dll;_ExpungeConsoleCommandHistoryA@4
+ExpungeConsoleCommandHistoryW;code;api-ms-win-core-console-l3-2-0.dll;_ExpungeConsoleCommandHistoryW@4
+GetConsoleAliasA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasA@16
+GetConsoleAliasesA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasesA@12
+GetConsoleAliasesLengthA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasesLengthA@4
+GetConsoleAliasesLengthW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasesLengthW@4
+GetConsoleAliasesW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasesW@12
+GetConsoleAliasExesA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasExesA@8
+GetConsoleAliasExesLengthA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasExesLengthA@0
+GetConsoleAliasExesLengthW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasExesLengthW@0
+GetConsoleAliasExesW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasExesW@8
+GetConsoleAliasW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleAliasW@16
+GetConsoleCommandHistoryA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleCommandHistoryA@12
+GetConsoleCommandHistoryLengthA;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleCommandHistoryLengthA@4
+GetConsoleCommandHistoryLengthW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleCommandHistoryLengthW@4
+GetConsoleCommandHistoryW;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleCommandHistoryW@12
+GetConsoleDisplayMode;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleDisplayMode@4
+GetConsoleFontSize;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleFontSize@8
+GetConsoleHistoryInfo;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleHistoryInfo@4
+GetConsoleProcessList;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleProcessList@8
+GetConsoleSelectionInfo;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleSelectionInfo@4
+GetConsoleWindow;code;api-ms-win-core-console-l3-2-0.dll;_GetConsoleWindow@0
+GetCurrentConsoleFont;code;api-ms-win-core-console-l3-2-0.dll;_GetCurrentConsoleFont@12
+GetCurrentConsoleFontEx;code;api-ms-win-core-console-l3-2-0.dll;_GetCurrentConsoleFontEx@12
+GetNumberOfConsoleMouseButtons;code;api-ms-win-core-console-l3-2-0.dll;_GetNumberOfConsoleMouseButtons@4
+SetConsoleDisplayMode;code;api-ms-win-core-console-l3-2-0.dll;_SetConsoleDisplayMode@12
+SetConsoleHistoryInfo;code;api-ms-win-core-console-l3-2-0.dll;_SetConsoleHistoryInfo@4
+SetConsoleNumberOfCommandsA;code;api-ms-win-core-console-l3-2-0.dll;_SetConsoleNumberOfCommandsA@8
+SetConsoleNumberOfCommandsW;code;api-ms-win-core-console-l3-2-0.dll;_SetConsoleNumberOfCommandsW@8
+SetCurrentConsoleFontEx;code;api-ms-win-core-console-l3-2-0.dll;_SetCurrentConsoleFontEx@12
 GetDateFormatA;code;api-ms-win-core-datetime-l1-1-0.dll;_GetDateFormatA@24
 GetDateFormatW;code;api-ms-win-core-datetime-l1-1-0.dll;_GetDateFormatW@24
 GetTimeFormatA;code;api-ms-win-core-datetime-l1-1-0.dll;_GetTimeFormatA@24
@@ -397,6 +433,17 @@ CreateDirectoryExA;code;api-ms-win-core-file-ansi-l2-1-0.dll;_CreateDirectoryExA
 CreateSymbolicLinkA;code;api-ms-win-core-file-ansi-l2-1-0.dll;_CreateSymbolicLinkA@12
 MoveFileWithProgressA;code;api-ms-win-core-file-ansi-l2-1-0.dll;_MoveFileWithProgressA@20
 ReplaceFileA;code;api-ms-win-core-file-ansi-l2-1-0.dll;_ReplaceFileA@24
+CopyFileFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_CopyFileFromAppW@12
+CreateDirectoryFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_CreateDirectoryFromAppW@8
+CreateFile2FromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_CreateFile2FromAppW@20
+CreateFileFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_CreateFileFromAppW@28
+DeleteFileFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_DeleteFileFromAppW@4
+FindFirstFileExFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_FindFirstFileExFromAppW@24
+GetFileAttributesExFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_GetFileAttributesExFromAppW@12
+MoveFileFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_MoveFileFromAppW@8
+RemoveDirectoryFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_RemoveDirectoryFromAppW@4
+ReplaceFileFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_ReplaceFileFromAppW@24
+SetFileAttributesFromAppW;code;api-ms-win-core-file-fromapp-l1-1-0.dll;_SetFileAttributesFromAppW@8
 CompareFileTime;code;api-ms-win-core-file-l1-1-0.dll;_CompareFileTime@8
 CreateDirectoryA;code;api-ms-win-core-file-l1-1-0.dll;_CreateDirectoryA@8
 CreateDirectoryW;code;api-ms-win-core-file-l1-1-0.dll;_CreateDirectoryW@8
@@ -504,8 +551,12 @@ OpenFileById;code;api-ms-win-core-file-l2-1-1.dll;_OpenFileById@24
 CopyFileW;code;api-ms-win-core-file-l2-1-2.dll;_CopyFileW@12
 CreateHardLinkA;code;api-ms-win-core-file-l2-1-2.dll;_CreateHardLinkA@12
 ReadDirectoryChangesExW;code;api-ms-win-core-file-l2-1-3.dll;_ReadDirectoryChangesExW@36
+GetFirmwareEnvironmentVariableA;code;api-ms-win-core-firmware-l1-1-0.dll;_GetFirmwareEnvironmentVariableA@16
+GetFirmwareEnvironmentVariableExA;code;api-ms-win-core-firmware-l1-1-0.dll;_GetFirmwareEnvironmentVariableExA@20
 GetFirmwareEnvironmentVariableExW;code;api-ms-win-core-firmware-l1-1-0.dll;_GetFirmwareEnvironmentVariableExW@20
 GetFirmwareEnvironmentVariableW;code;api-ms-win-core-firmware-l1-1-0.dll;_GetFirmwareEnvironmentVariableW@16
+SetFirmwareEnvironmentVariableA;code;api-ms-win-core-firmware-l1-1-0.dll;_SetFirmwareEnvironmentVariableA@16
+SetFirmwareEnvironmentVariableExA;code;api-ms-win-core-firmware-l1-1-0.dll;_SetFirmwareEnvironmentVariableExA@20
 SetFirmwareEnvironmentVariableExW;code;api-ms-win-core-firmware-l1-1-0.dll;_SetFirmwareEnvironmentVariableExW@20
 SetFirmwareEnvironmentVariableW;code;api-ms-win-core-firmware-l1-1-0.dll;_SetFirmwareEnvironmentVariableW@16
 CloseHandle;code;api-ms-win-core-handle-l1-1-0.dll;_CloseHandle@4
@@ -602,7 +653,6 @@ FindResourceA;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_FindResourceA@12
 FindResourceExA;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_FindResourceExA@16
 GetComputerNameA;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_GetComputerNameA@8
 GetComputerNameW;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_GetComputerNameW@8
-GetConsoleWindow;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_GetConsoleWindow@0
 GetMaximumProcessorGroupCount;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_GetMaximumProcessorGroupCount@0
 GetNamedPipeClientProcessId;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_GetNamedPipeClientProcessId@8
 GetNamedPipeServerProcessId;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_GetNamedPipeServerProcessId@8
@@ -618,7 +668,6 @@ MoveFileW;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_MoveFileW@8
 OpenFile;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_OpenFile@12
 PulseEvent;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_PulseEvent@4
 RegisterWaitForSingleObject;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_RegisterWaitForSingleObject@24
-SetConsoleTitleA;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_SetConsoleTitleA@4
 SetFileCompletionNotificationModes;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_SetFileCompletionNotificationModes@8
 SetHandleCount;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_SetHandleCount@4
 SetMailslotInfo;code;api-ms-win-core-kernel32-legacy-l1-1-0.dll;_SetMailslotInfo@8
@@ -664,6 +713,7 @@ SetFileAttributesTransactedW;code;api-ms-win-core-kernel32-legacy-l1-1-3.dll;_Se
 GetMailslotInfo;code;api-ms-win-core-kernel32-legacy-l1-1-4.dll;_GetMailslotInfo@20
 GetDllDirectoryW;code;api-ms-win-core-kernel32-legacy-l1-1-5.dll;_GetDllDirectoryW@8
 SetThreadExecutionState;code;api-ms-win-core-kernel32-legacy-l1-1-5.dll;_SetThreadExecutionState@4
+GetDevicePowerState;code;api-ms-win-core-kernel32-legacy-l1-1-6.dll;_GetDevicePowerState@8
 GetMaximumProcessorCount;code;api-ms-win-core-kernel32-legacy-l1-1-6.dll;_GetMaximumProcessorCount@4
 MulDiv;code;api-ms-win-core-largeinteger-l1-1-0.dll;_MulDiv@12
 AddDllDirectory;code;api-ms-win-core-libraryloader-l1-2-0.dll;_AddDllDirectory@4
@@ -781,6 +831,10 @@ VerLanguageNameW;code;api-ms-win-core-localization-l1-2-0.dll;_VerLanguageNameW@
 EnumSystemLocalesEx;code;api-ms-win-core-localization-l1-2-1.dll;_EnumSystemLocalesEx@16
 GetSystemDefaultLocaleName;code;api-ms-win-core-localization-l1-2-2.dll;_GetSystemDefaultLocaleName@8
 LCIDToLocaleName;code;api-ms-win-core-localization-l1-2-2.dll;_LCIDToLocaleName@16
+EnumSystemGeoNames;code;api-ms-win-core-localization-l1-2-3.dll;_EnumSystemGeoNames@12
+GetGeoInfoEx;code;api-ms-win-core-localization-l1-2-3.dll;_GetGeoInfoEx@16
+GetUserDefaultGeoName;code;api-ms-win-core-localization-l1-2-3.dll;_GetUserDefaultGeoName@8
+SetUserGeoName;code;api-ms-win-core-localization-l1-2-3.dll;_SetUserGeoName@4
 EnumCalendarInfoExEx;code;api-ms-win-core-localization-l2-1-0.dll;_EnumCalendarInfoExEx@24
 EnumCalendarInfoExW;code;api-ms-win-core-localization-l2-1-0.dll;_EnumCalendarInfoExW@16
 EnumCalendarInfoW;code;api-ms-win-core-localization-l2-1-0.dll;_EnumCalendarInfoW@16
@@ -851,6 +905,11 @@ VirtualProtectFromApp;code;api-ms-win-core-memory-l1-1-3.dll;_VirtualProtectFrom
 QueryVirtualMemoryInformation;code;api-ms-win-core-memory-l1-1-4.dll;_QueryVirtualMemoryInformation@24
 MapViewOfFileNuma2;code;api-ms-win-core-memory-l1-1-5.dll;_MapViewOfFileNuma2@36
 UnmapViewOfFile2;code;api-ms-win-core-memory-l1-1-5.dll;_UnmapViewOfFile2@12
+VirtualUnlockEx;code;api-ms-win-core-memory-l1-1-5.dll;_VirtualUnlockEx@12
+MapViewOfFile3;code;api-ms-win-core-memory-l1-1-6.dll;_MapViewOfFile3@40
+MapViewOfFile3FromApp;code;api-ms-win-core-memory-l1-1-6.dll;_MapViewOfFile3FromApp@40
+VirtualAlloc2;code;api-ms-win-core-memory-l1-1-6.dll;_VirtualAlloc2@28
+VirtualAlloc2FromApp;code;api-ms-win-core-memory-l1-1-6.dll;_VirtualAlloc2FromApp@28
 GetNamedPipeClientComputerNameA;code;api-ms-win-core-namedpipe-ansi-l1-1-0.dll;_GetNamedPipeClientComputerNameA@12
 GetNamedPipeHandleStateA;code;api-ms-win-core-namedpipe-ansi-l1-1-0.dll;_GetNamedPipeHandleStateA@28
 WaitNamedPipeA;code;api-ms-win-core-namedpipe-ansi-l1-1-0.dll;_WaitNamedPipeA@8
@@ -1372,6 +1431,8 @@ GetOsManufacturingMode;code;api-ms-win-core-sysinfo-l1-2-3.dll;_GetOsManufacturi
 SetComputerNameA;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameA@4
 SetComputerNameExA;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameExA@8
 SetComputerNameW;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameW@4
+GetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_GetSystemTimeAdjustmentPrecise@12
+SetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_SetSystemTimeAdjustmentPrecise@12
 GetNumaHighestNodeNumber;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaHighestNodeNumber@4
 GetNumaNodeProcessorMaskEx;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaNodeProcessorMaskEx@8
 GetNumaProximityNodeEx;code;api-ms-win-core-systemtopology-l1-1-1.dll;_GetNumaProximityNodeEx@8
@@ -1844,16 +1905,24 @@ D3DKMTDispMgrCreate;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDispMgrCreate@4
 D3DKMTDispMgrSourceOperation;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDispMgrSourceOperation@4
 D3DKMTDispMgrTargetOperation;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDispMgrTargetOperation@4
 D3DKMTExtractBundleObject;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTExtractBundleObject@4
-D3DKMTGetProcessDeviceLostSupport;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTGetProcessDeviceLostSupport@4
+D3DKMTGetProcessDeviceRemovalSupport;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTGetProcessDeviceRemovalSupport@4
+D3DKMTGetProcessList;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTGetProcessList@4
+D3DKMTOpenBundleObjectNtHandleFromName;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTOpenBundleObjectNtHandleFromName@4
+D3DKMTOpenKeyedMutexFromNtHandle;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTOpenKeyedMutexFromNtHandle@4
 D3DKMTOpenProtectedSessionFromNtHandle;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTOpenProtectedSessionFromNtHandle@4
 D3DKMTPresentRedirected;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTPresentRedirected@4
 D3DKMTQueryProtectedSessionInfoFromNtHandle;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTQueryProtectedSessionInfoFromNtHandle@4
 D3DKMTQueryProtectedSessionStatus;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTQueryProtectedSessionStatus@4
+D3DKMTRegisterVailProcess;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTRegisterVailProcess@4
 D3DKMTRemoveSurfaceFromSwapChain;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTRemoveSurfaceFromSwapChain@4
-D3DKMTSetDeviceLostSupport;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetDeviceLostSupport@4
 D3DKMTSetMonitorColorSpaceTransform;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetMonitorColorSpaceTransform@4
+D3DKMTSetProcessDeviceRemovalSupport;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetProcessDeviceRemovalSupport@4
 D3DKMTSetVidPnSourceOwner2;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetVidPnSourceOwner2@4
+D3DKMTSubmitPresentBltToHwQueue;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSubmitPresentBltToHwQueue@4
 D3DKMTUnOrderedPresentSwapChain;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTUnOrderedPresentSwapChain@4
+D3DKMTVailConnect;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTVailConnect@0
+D3DKMTVailDisconnect;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTVailDisconnect@0
+D3DKMTVailPromoteCompositionSurface;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTVailPromoteCompositionSurface@8
 _DrvQueryMonitorUniqueness@0;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;1016
 GetTraceEnableFlags;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;_GetTraceEnableFlags@8
 GetTraceEnableLevel;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;_GetTraceEnableLevel@8
@@ -2361,6 +2430,7 @@ EnumServicesStatusExW;code;api-ms-win-service-core-l1-1-1.dll;_EnumServicesStatu
 QueryServiceDynamicInformation;code;api-ms-win-service-core-l1-1-1.dll;_QueryServiceDynamicInformation@12
 GetServiceDisplayNameW;code;api-ms-win-service-core-l1-1-2.dll;_GetServiceDisplayNameW@16
 GetServiceKeyNameW;code;api-ms-win-service-core-l1-1-2.dll;_GetServiceKeyNameW@16
+GetServiceRegistryStateKey;code;api-ms-win-service-core-l1-1-3.dll;_GetServiceRegistryStateKey@16
 CloseServiceHandle;code;api-ms-win-service-management-l1-1-0.dll;_CloseServiceHandle@4
 ControlServiceExW;code;api-ms-win-service-management-l1-1-0.dll;_ControlServiceExW@16
 CreateServiceW;code;api-ms-win-service-management-l1-1-0.dll;_CreateServiceW@52
@@ -2392,6 +2462,9 @@ RegisterServiceCtrlHandlerExA;code;api-ms-win-service-winsvc-l1-1-0.dll;_Registe
 RegisterServiceCtrlHandlerW;code;api-ms-win-service-winsvc-l1-1-0.dll;_RegisterServiceCtrlHandlerW@8
 StartServiceA;code;api-ms-win-service-winsvc-l1-1-0.dll;_StartServiceA@12
 StartServiceCtrlDispatcherA;code;api-ms-win-service-winsvc-l1-1-0.dll;_StartServiceCtrlDispatcherA@4
+CommandLineToArgvW;code;api-ms-win-shcore-obsolete-l1-1-0.dll;_CommandLineToArgvW@8
+SHStrDupA;code;api-ms-win-shcore-obsolete-l1-1-0.dll;_SHStrDupA@8
+SHStrDupW;code;api-ms-win-shcore-obsolete-l1-1-0.dll;_SHStrDupW@8
 _PathBuildRootA@8;code;api-ms-win-shcore-path-l1-1-0.dll;173
 _PathBuildRootW@8;code;api-ms-win-shcore-path-l1-1-0.dll;172
 _PathIsNetworkPathA@4;code;api-ms-win-shcore-path-l1-1-0.dll;171
@@ -2586,6 +2659,7 @@ _ResetCompressor@4;code;Cabinet.dll;34
 _ResetDecompressor@4;code;Cabinet.dll;44
 _SetCompressorInformation@16;code;Cabinet.dll;31
 _SetDecompressorInformation@16;code;Cabinet.dll;41
+DumpDiagInfo;code;chakra.dll;?DumpDiagInfo@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))
 JsAddRef;code;chakra.dll;_JsAddRef@8
 JsBooleanToBool;code;chakra.dll;_JsBooleanToBool@8
 JsBoolToBoolean;code;chakra.dll;_JsBoolToBoolean@8
@@ -2611,6 +2685,7 @@ JsCreateReferenceError;code;chakra.dll;_JsCreateReferenceError@8
 JsCreateRuntime;code;chakra.dll;_JsCreateRuntime@12
 JsCreateSymbol;code;chakra.dll;_JsCreateSymbol@8
 JsCreateSyntaxError;code;chakra.dll;_JsCreateSyntaxError@8
+JsCreateThreadService;code;chakra.dll;_JsCreateThreadService@8
 JsCreateTypedArray;code;chakra.dll;_JsCreateTypedArray@20
 JsCreateTypeError;code;chakra.dll;_JsCreateTypeError@8
 JsCreateURIError;code;chakra.dll;_JsCreateURIError@8
@@ -2724,9 +2799,22 @@ MemProtectHeapRootReallocLeaf;code;chakra.dll;?MemProtectHeapRootReallocLeaf@@YG
 MemProtectHeapSynchronizeWithCollector;code;chakra.dll;?MemProtectHeapSynchronizeWithCollector@@YGJPAX@Z (long __stdcall MemProtectHeapSynchronizeWithCollector(void *))
 MemProtectHeapUnprotectCurrentThread;code;chakra.dll;?MemProtectHeapUnprotectCurrentThread@@YGJPAX@Z (long __stdcall MemProtectHeapUnprotectCurrentThread(void *))
 MemProtectHeapUnrootAndZero;code;chakra.dll;?MemProtectHeapUnrootAndZero@@YGJPAX0@Z (long __stdcall MemProtectHeapUnrootAndZero(void *,void *))
+RecyclerNativeHeapAddExternalMemoryUsage;code;chakra.dll;?RecyclerNativeHeapAddExternalMemoryUsage@@YGXPAXI@Z (void __stdcall RecyclerNativeHeapAddExternalMemoryUsage(void *,unsigned int))
+RecyclerNativeHeapAllocLeaf;code;chakra.dll;?RecyclerNativeHeapAllocLeaf@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeaf(void *,unsigned int))
+RecyclerNativeHeapAllocLeafFinalized;code;chakra.dll;?RecyclerNativeHeapAllocLeafFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeafFinalized(void *,unsigned int))
+RecyclerNativeHeapAllocTraced;code;chakra.dll;?RecyclerNativeHeapAllocTraced@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTraced(void *,unsigned int))
+RecyclerNativeHeapAllocTracedFinalized;code;chakra.dll;?RecyclerNativeHeapAllocTracedFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTracedFinalized(void *,unsigned int))
+RecyclerNativeHeapCollectGarbageInThread;code;chakra.dll;?RecyclerNativeHeapCollectGarbageInThread@@YGXPAX_N@Z (void __stdcall RecyclerNativeHeapCollectGarbageInThread(void *,bool))
+RecyclerNativeHeapCreateWeakReference;code;chakra.dll;?RecyclerNativeHeapCreateWeakReference@@YGJPAX0PAPAX@Z (long __stdcall RecyclerNativeHeapCreateWeakReference(void *,void *,void * *))
+RecyclerNativeHeapGetRealAddressFromInterior;code;chakra.dll;?RecyclerNativeHeapGetRealAddressFromInterior@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetRealAddressFromInterior(void *,void *))
+RecyclerNativeHeapGetStrongReference;code;chakra.dll;?RecyclerNativeHeapGetStrongReference@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetStrongReference(void *,void *))
+RecyclerNativeHeapHasWeakReferenceCleanupOccurred;code;chakra.dll;?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YG_NPAXPAI@Z (bool __stdcall RecyclerNativeHeapHasWeakReferenceCleanupOccurred(void *,unsigned int *))
+RecyclerNativeHeapRootAddRef;code;chakra.dll;?RecyclerNativeHeapRootAddRef@@YGJPAX0PAI@Z (long __stdcall RecyclerNativeHeapRootAddRef(void *,void *,unsigned int *))
+RecyclerNativeHeapRootRelease;code;chakra.dll;?RecyclerNativeHeapRootRelease@@YGXPAX0PAI@Z (void __stdcall RecyclerNativeHeapRootRelease(void *,void *,unsigned int *))
 CoreUICallComputeMaximumMessageSize;code;CoreMessaging.dll;_CoreUICallComputeMaximumMessageSize
 CoreUICallCreateConversationHost;code;CoreMessaging.dll;_CoreUICallCreateConversationHost
 CoreUICallCreateEndpointHost;code;CoreMessaging.dll;_CoreUICallCreateEndpointHost
+CoreUICallCreateEndpointHostWithSendPriority;code;CoreMessaging.dll;_CoreUICallCreateEndpointHostWithSendPriority
 CoreUICallReceive;code;CoreMessaging.dll;_CoreUICallReceive
 CoreUICallSend;code;CoreMessaging.dll;_CoreUICallSend
 CoreUIConfigureTestHost;code;CoreMessaging.dll;_CoreUIConfigureTestHost@0
@@ -2742,6 +2830,7 @@ CoreUIOpenExisting;code;CoreMessaging.dll;_CoreUIOpenExisting@4
 CoreUIRouteToTestRegistrar;code;CoreMessaging.dll;_CoreUIRouteToTestRegistrar@16
 CreateDispatcherQueueController;code;CoreMessaging.dll;_CreateDispatcherQueueController@16
 CreateDispatcherQueueForCurrentThread;code;CoreMessaging.dll;_CreateDispatcherQueueForCurrentThread@4
+GetDispatcherQueueForCurrentThread;code;CoreMessaging.dll;_GetDispatcherQueueForCurrentThread@4
 InitializeServices;code;CoreMessaging.dll;_InitializeServices@20
 MsgBlobCreateShared;code;CoreMessaging.dll;_MsgBlobCreateShared@12
 MsgBlobCreateStack;code;CoreMessaging.dll;_MsgBlobCreateStack@16
@@ -3372,6 +3461,7 @@ DnsServiceRegisterCancel;code;DNSAPI.dll;_DnsServiceRegisterCancel@4
 DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
 DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
+DnsSetConfigValue;code;DNSAPI.dll;_DnsSetConfigValue@20
 DnsSetQueryRetryTimeouts;code;DNSAPI.dll;_DnsSetQueryRetryTimeouts@24
 DnsStartMulticastQuery;code;DNSAPI.dll;_DnsStartMulticastQuery@8
 DnsStatusString;code;DNSAPI.dll;@DnsStatusString@4
@@ -3485,6 +3575,7 @@ DXGID3D10CreateDevice;code;dxgi.dll;_DXGID3D10CreateDevice@24
 DXGID3D10CreateLayeredDevice;code;dxgi.dll;_DXGID3D10CreateLayeredDevice@20
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;_DXGID3D10GetLayeredDeviceSize@8
 DXGID3D10RegisterLayers;code;dxgi.dll;_DXGID3D10RegisterLayers@8
+DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;_DXGIDeclareAdapterRemovalSupport@0
 DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YGXP6GXPBD@Z@Z (void __stdcall DXGIDumpJournal(void (__stdcall*)(char const *)))
 DXGIGetDebugInterface1;code;dxgi.dll;_DXGIGetDebugInterface1@12
 DXGIReportAdapterConfiguration;code;dxgi.dll;_DXGIReportAdapterConfiguration@4
@@ -3503,6 +3594,9 @@ JetAttachDatabase;code;ESENT.dll;_JetAttachDatabase@12
 JetAttachDatabase2;code;ESENT.dll;_JetAttachDatabase2@16
 JetAttachDatabase2A;code;ESENT.dll;_JetAttachDatabase2A@16
 JetAttachDatabase2W;code;ESENT.dll;_JetAttachDatabase2W@16
+JetAttachDatabase3;code;ESENT.dll;_JetAttachDatabase3@20
+JetAttachDatabase3A;code;ESENT.dll;_JetAttachDatabase3A@20
+JetAttachDatabase3W;code;ESENT.dll;_JetAttachDatabase3W@20
 JetAttachDatabaseA;code;ESENT.dll;_JetAttachDatabaseA@12
 JetAttachDatabaseW;code;ESENT.dll;_JetAttachDatabaseW@12
 JetAttachDatabaseWithStreaming;code;ESENT.dll;_JetAttachDatabaseWithStreaming@24
@@ -3545,6 +3639,9 @@ JetCreateDatabase;code;ESENT.dll;_JetCreateDatabase@20
 JetCreateDatabase2;code;ESENT.dll;_JetCreateDatabase2@20
 JetCreateDatabase2A;code;ESENT.dll;_JetCreateDatabase2A@20
 JetCreateDatabase2W;code;ESENT.dll;_JetCreateDatabase2W@20
+JetCreateDatabase3;code;ESENT.dll;_JetCreateDatabase3@24
+JetCreateDatabase3A;code;ESENT.dll;_JetCreateDatabase3A@24
+JetCreateDatabase3W;code;ESENT.dll;_JetCreateDatabase3W@24
 JetCreateDatabaseA;code;ESENT.dll;_JetCreateDatabaseA@20
 JetCreateDatabaseW;code;ESENT.dll;_JetCreateDatabaseW@20
 JetCreateDatabaseWithStreaming;code;ESENT.dll;_JetCreateDatabaseWithStreaming@28
@@ -3737,9 +3834,9 @@ JetOpenFileA;code;ESENT.dll;_JetOpenFileA@16
 JetOpenFileInstance;code;ESENT.dll;_JetOpenFileInstance@20
 JetOpenFileInstanceA;code;ESENT.dll;_JetOpenFileInstanceA@20
 JetOpenFileInstanceW;code;ESENT.dll;_JetOpenFileInstanceW@20
-JetOpenFileSectionInstance;code;ESENT.dll;_JetOpenFileSectionInstance@28
-JetOpenFileSectionInstanceA;code;ESENT.dll;_JetOpenFileSectionInstanceA@28
-JetOpenFileSectionInstanceW;code;ESENT.dll;_JetOpenFileSectionInstanceW@28
+JetOpenFileSectionInstance;code;ESENT.dll;_JetOpenFileSectionInstance@36
+JetOpenFileSectionInstanceA;code;ESENT.dll;_JetOpenFileSectionInstanceA@36
+JetOpenFileSectionInstanceW;code;ESENT.dll;_JetOpenFileSectionInstanceW@36
 JetOpenFileW;code;ESENT.dll;_JetOpenFileW@16
 JetOpenTable;code;ESENT.dll;_JetOpenTable@28
 JetOpenTableA;code;ESENT.dll;_JetOpenTableA@28
@@ -3864,13 +3961,6 @@ rgEDBGGlobals;data;ESENT.dll;_rgEDBGGlobals
 CreateIUriBuilder;code;ext-ms-win-core-iuri-l1-1-0.dll;_CreateIUriBuilder@16
 CreateUri;code;ext-ms-win-core-iuri-l1-1-0.dll;_CreateUri@16
 CreateUriWithFragment;code;ext-ms-win-core-iuri-l1-1-0.dll;_CreateUriWithFragment@20
-XInputEnable;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputEnable@4
-XInputGetAudioDeviceIds;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputGetAudioDeviceIds@20
-XInputGetBatteryInformation;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputGetBatteryInformation@12
-XInputGetCapabilities;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputGetCapabilities@12
-XInputGetKeystroke;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputGetKeystroke@12
-XInputGetState;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputGetState@8
-XInputSetState;code;ext-ms-win-gaming-xinput-l1-1-0.dll;_XInputSetState@8
 WFDLowPrivIsWfdSupportedInt;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WFDLowPrivIsWfdSupportedInt@4
 WlanCloseHandle;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanCloseHandle@8
 WlanDeleteProfile;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanDeleteProfile@16
@@ -4573,6 +4663,8 @@ MFCreateSourceReaderFromMediaSource;code;MFReadWrite.dll;_MFCreateSourceReaderFr
 MFCreateSourceReaderFromURL;code;MFReadWrite.dll;_MFCreateSourceReaderFromURL@12
 MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;_MFCreateSensorActivityMonitor@8
 MFCreateSensorGroup;code;MFSENSORGROUP.dll;_MFCreateSensorGroup@8
+MFCreateSensorProfile;code;MFSENSORGROUP.dll;_MFCreateSensorProfile@16
+MFCreateSensorProfileCollection;code;MFSENSORGROUP.dll;_MFCreateSensorProfileCollection@4
 MFCreateSensorStream;code;MFSENSORGROUP.dll;_MFCreateSensorStream@16
 _ActivateAudioInterfaceAsync@20;code;MMDevAPI.DLL;17
 _AETraceOutputDebugString;code;MMDevAPI.DLL;13
@@ -6774,7 +6866,7 @@ LegacyIAccessiblePattern_Select;code;UIAutomationCore.DLL;_LegacyIAccessiblePatt
 LegacyIAccessiblePattern_SetValue;code;UIAutomationCore.DLL;_LegacyIAccessiblePattern_SetValue@8
 MultipleViewPattern_GetViewName;code;UIAutomationCore.DLL;_MultipleViewPattern_GetViewName@12
 MultipleViewPattern_SetCurrentView;code;UIAutomationCore.DLL;_MultipleViewPattern_SetCurrentView@8
-PostTestCheckForLeaks;code;UIAutomationCore.DLL;_PostTestCheckForLeaks@4
+PostTestCheckForLeaks;code;UIAutomationCore.DLL;_PostTestCheckForLeaks@8
 RangeValuePattern_SetValue;code;UIAutomationCore.DLL;_RangeValuePattern_SetValue@12
 ScrollItemPattern_ScrollIntoView;code;UIAutomationCore.DLL;_ScrollItemPattern_ScrollIntoView@4
 ScrollPattern_Scroll;code;UIAutomationCore.DLL;_ScrollPattern_Scroll@12
@@ -7877,6 +7969,13 @@ _CreateFX;code;XAudio2_9.dll;4
 _X3DAudioCalculate;code;XAudio2_9.dll;5
 _X3DAudioInitialize;code;XAudio2_9.dll;6
 _XAudio2Create@12;code;XAudio2_9.dll;1
+XInputEnable;code;XINPUTUAP.dll;_XInputEnable@4
+XInputGetAudioDeviceIds;code;XINPUTUAP.dll;_XInputGetAudioDeviceIds@20
+XInputGetBatteryInformation;code;XINPUTUAP.dll;_XInputGetBatteryInformation@12
+XInputGetCapabilities;code;XINPUTUAP.dll;_XInputGetCapabilities@12
+XInputGetKeystroke;code;XINPUTUAP.dll;_XInputGetKeystroke@12
+XInputGetState;code;XINPUTUAP.dll;_XInputGetState@8
+XInputSetState;code;XINPUTUAP.dll;_XInputSetState@8
 CreateXmlReader;code;XmlLite.dll;_CreateXmlReader@12
 CreateXmlReaderInputWithEncodingCodePage;code;XmlLite.dll;_CreateXmlReaderInputWithEncodingCodePage@24
 CreateXmlReaderInputWithEncodingName;code;XmlLite.dll;_CreateXmlReaderInputWithEncodingName@24

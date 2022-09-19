@@ -8,6 +8,9 @@ JetAddColumnW;code;ESENT.dll;_JetAddColumnW@28
 JetAttachDatabase2;code;ESENT.dll;_JetAttachDatabase2@16
 JetAttachDatabase2A;code;ESENT.dll;_JetAttachDatabase2A@16
 JetAttachDatabase2W;code;ESENT.dll;_JetAttachDatabase2W@16
+JetAttachDatabase3;code;ESENT.dll;_JetAttachDatabase3@20
+JetAttachDatabase3A;code;ESENT.dll;_JetAttachDatabase3A@20
+JetAttachDatabase3W;code;ESENT.dll;_JetAttachDatabase3W@20
 JetAttachDatabase;code;ESENT.dll;_JetAttachDatabase@12
 JetAttachDatabaseA;code;ESENT.dll;_JetAttachDatabaseA@12
 JetAttachDatabaseW;code;ESENT.dll;_JetAttachDatabaseW@12
@@ -50,6 +53,9 @@ JetConvertDDLW;code;ESENT.dll;_JetConvertDDLW@20
 JetCreateDatabase2;code;ESENT.dll;_JetCreateDatabase2@20
 JetCreateDatabase2A;code;ESENT.dll;_JetCreateDatabase2A@20
 JetCreateDatabase2W;code;ESENT.dll;_JetCreateDatabase2W@20
+JetCreateDatabase3;code;ESENT.dll;_JetCreateDatabase3@24
+JetCreateDatabase3A;code;ESENT.dll;_JetCreateDatabase3A@24
+JetCreateDatabase3W;code;ESENT.dll;_JetCreateDatabase3W@24
 JetCreateDatabase;code;ESENT.dll;_JetCreateDatabase@20
 JetCreateDatabaseA;code;ESENT.dll;_JetCreateDatabaseA@20
 JetCreateDatabaseW;code;ESENT.dll;_JetCreateDatabaseW@20
@@ -256,9 +262,9 @@ JetOpenFileA;code;ESENT.dll;_JetOpenFileA@16
 JetOpenFileInstance;code;ESENT.dll;_JetOpenFileInstance@20
 JetOpenFileInstanceA;code;ESENT.dll;_JetOpenFileInstanceA@20
 JetOpenFileInstanceW;code;ESENT.dll;_JetOpenFileInstanceW@20
-JetOpenFileSectionInstance;code;ESENT.dll;_JetOpenFileSectionInstance@28
-JetOpenFileSectionInstanceA;code;ESENT.dll;_JetOpenFileSectionInstanceA@28
-JetOpenFileSectionInstanceW;code;ESENT.dll;_JetOpenFileSectionInstanceW@28
+JetOpenFileSectionInstance;code;ESENT.dll;_JetOpenFileSectionInstance@36
+JetOpenFileSectionInstanceA;code;ESENT.dll;_JetOpenFileSectionInstanceA@36
+JetOpenFileSectionInstanceW;code;ESENT.dll;_JetOpenFileSectionInstanceW@36
 JetOpenFileW;code;ESENT.dll;_JetOpenFileW@16
 JetOpenTable;code;ESENT.dll;_JetOpenTable@28
 JetOpenTableA;code;ESENT.dll;_JetOpenTableA@28

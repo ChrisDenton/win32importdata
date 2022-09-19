@@ -1,5 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 EdpAllowFileAccessForProcess;code;FeClient.dll;
+EdpConsumerCredentialCreate;code;FeClient.dll;
+EdpConsumerCredentialQuery;code;FeClient.dll;
 EdpContainerizeFile;code;FeClient.dll;
 EdpCredentialCreate;code;FeClient.dll;
 EdpCredentialDelete;code;FeClient.dll;
@@ -16,6 +18,8 @@ EdpDplUserUnlockStart;code;FeClient.dll;
 EdpFree;code;FeClient.dll;
 EdpGetContainerIdentity;code;FeClient.dll;
 EdpGetCredServiceState;code;FeClient.dll;
+EdpIsConsumerDataProtectionEnforced;code;FeClient.dll;
+EdpIsConsumerDataProtectionSupported;code;FeClient.dll;
 EdpPurgeAppLearningEvents;code;FeClient.dll;
 EdpQueryCredServiceInfo;code;FeClient.dll;
 EdpQueryDplEnforcedPolicyOwnerIds;code;FeClient.dll;
@@ -39,6 +43,7 @@ EfsClientQueryProtectors;code;FeClient.dll;
 EfsClientReadFileRaw;code;FeClient.dll;
 EfsClientWriteFileRaw;code;FeClient.dll;
 EfsClientWriteFileWithHeaderRaw;code;FeClient.dll;
+EfsReprotectFile;code;FeClient.dll;
 EfsUtilGetCurrentKey;code;FeClient.dll;
 FeClientInitialize;code;FeClient.dll;
 GetLockSessionUnwrappedKey;code;FeClient.dll;

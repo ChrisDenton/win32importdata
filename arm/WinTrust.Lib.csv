@@ -59,6 +59,7 @@ DriverCleanupPolicy;code;WINTRUST.dll;
 DriverFinalPolicy;code;WINTRUST.dll;
 DriverInitializePolicy;code;WINTRUST.dll;
 FindCertsByIssuer;code;WINTRUST.dll;
+GetAuthenticodeSha256Hash;code;WINTRUST.dll;
 HTTPSFinalProv;code;WINTRUST.dll;
 IsCatalogFile;code;WINTRUST.dll;
 MsCatConstructHashTag;code;WINTRUST.dll;

@@ -556,4 +556,4 @@ SetupVerifyInfFileW;code;SETUPAPI.dll;_SetupVerifyInfFileW@12
 SetupWriteTextLog;code;SETUPAPI.dll;_SetupWriteTextLog
 SetupWriteTextLogError;code;SETUPAPI.dll;_SetupWriteTextLogError
 SetupWriteTextLogInfLine;code;SETUPAPI.dll;_SetupWriteTextLogInfLine@20
-pSetupDiCrimsonLogDeviceInstall;code;SETUPAPI.dll;_pSetupDiCrimsonLogDeviceInstall@24
+pSetupDiCrimsonLogDeviceInstall;code;SETUPAPI.dll;_pSetupDiCrimsonLogDeviceInstall@28

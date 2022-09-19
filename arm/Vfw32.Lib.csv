@@ -1,8 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
-IID_IGetFrame;code;AVIFIL32.dll;
-IID_IAVIStream;code;AVIFIL32.dll;
-IID_IAVIFile;code;AVIFIL32.dll;
-IID_IAVIEditStream;code;AVIFIL32.dll;
+IID_IGetFrame;data;AVIFIL32.dll;
+IID_IAVIStream;data;AVIFIL32.dll;
+IID_IAVIFile;data;AVIFIL32.dll;
+IID_IAVIEditStream;data;AVIFIL32.dll;
 EditStreamSetNameW;code;AVIFIL32.dll;
 EditStreamSetNameA;code;AVIFIL32.dll;
 EditStreamSetName;code;AVIFIL32.dll;

@@ -83,6 +83,7 @@ RasGetErrorStringW;code;RASAPI32.dll;_RasGetErrorStringW@12
 RasGetHport;code;RASAPI32.dll;_RasGetHport@4
 RasGetLinkStatistics;code;RASAPI32.dll;_RasGetLinkStatistics@12
 RasGetNapStatus;code;RASAPI32.dll;_RasGetNapStatus@8
+RasGetPCscf;code;RASAPI32.dll;_RasGetPCscf@4
 RasGetPbkPath;code;RASAPI32.dll;_RasGetPbkPath@16
 RasGetProjectionInfoA;code;RASAPI32.dll;_RasGetProjectionInfoA@16
 RasGetProjectionInfoEx;code;RASAPI32.dll;_RasGetProjectionInfoEx@12
@@ -104,6 +105,12 @@ RasQuerySharedConnection;code;RASAPI32.dll;_RasQuerySharedConnection@4
 RasRegisterEntryChangeNotification;code;RASAPI32.dll;_RasRegisterEntryChangeNotification@24
 RasRenameEntryA;code;RASAPI32.dll;_RasRenameEntryA@12
 RasRenameEntryW;code;RASAPI32.dll;_RasRenameEntryW@12
+RasScriptExecute;code;RASAPI32.dll;_RasScriptExecute@20
+RasScriptGetIpAddress;code;RASAPI32.dll;_RasScriptGetIpAddress@8
+RasScriptInit;code;RASAPI32.dll;_RasScriptInit@28
+RasScriptReceive;code;RASAPI32.dll;_RasScriptReceive@12
+RasScriptSend;code;RASAPI32.dll;_RasScriptSend@12
+RasScriptTerm;code;RASAPI32.dll;_RasScriptTerm@4
 RasSetAutoTriggerProfile;code;RASAPI32.dll;_RasSetAutoTriggerProfile@24
 RasSetAutoTriggerProfileEx;code;RASAPI32.dll;_RasSetAutoTriggerProfileEx@28
 RasSetAutodialAddressA;code;RASAPI32.dll;_RasSetAutodialAddressA@20

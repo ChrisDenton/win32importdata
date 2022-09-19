@@ -1,4 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
+CreatePalmRejectionDelayZone;code;USER32.dll;?CreatePalmRejectionDelayZone@@YGJPAUIInspectable@@PBUtagRECT@@PAK@Z (long __stdcall CreatePalmRejectionDelayZone(struct IInspectable *,struct tagRECT const *,unsigned long *))
+DestroyPalmRejectionDelayZone;code;USER32.dll;?DestroyPalmRejectionDelayZone@@YGJK@Z (long __stdcall DestroyPalmRejectionDelayZone(unsigned long))
 ActivateKeyboardLayout;code;USER32.dll;_ActivateKeyboardLayout@8
 AddClipboardFormatListener;code;USER32.dll;_AddClipboardFormatListener@4
 AdjustWindowRect;code;USER32.dll;_AdjustWindowRect@12
@@ -283,6 +285,7 @@ GetDlgItemTextW;code;USER32.dll;_GetDlgItemTextW@16
 GetDoubleClickTime;code;USER32.dll;_GetDoubleClickTime@0
 GetDpiForSystem;code;USER32.dll;_GetDpiForSystem@0
 GetDpiForWindow;code;USER32.dll;_GetDpiForWindow@4
+GetDpiFromDpiAwarenessContext;code;USER32.dll;_GetDpiFromDpiAwarenessContext@4
 GetFocus;code;USER32.dll;_GetFocus@0
 GetForegroundWindow;code;USER32.dll;_GetForegroundWindow@0
 GetGUIThreadInfo;code;USER32.dll;_GetGUIThreadInfo@8
@@ -378,6 +381,7 @@ GetShellWindow;code;USER32.dll;_GetShellWindow@0
 GetSubMenu;code;USER32.dll;_GetSubMenu@8
 GetSysColor;code;USER32.dll;_GetSysColor@4
 GetSysColorBrush;code;USER32.dll;_GetSysColorBrush@4
+GetSystemDpiForProcess;code;USER32.dll;_GetSystemDpiForProcess@4
 GetSystemMenu;code;USER32.dll;_GetSystemMenu@8
 GetSystemMetrics;code;USER32.dll;_GetSystemMetrics@4
 GetSystemMetricsForDpi;code;USER32.dll;_GetSystemMetricsForDpi@8
@@ -385,6 +389,7 @@ GetTabbedTextExtentA;code;USER32.dll;_GetTabbedTextExtentA@20
 GetTabbedTextExtentW;code;USER32.dll;_GetTabbedTextExtentW@20
 GetThreadDesktop;code;USER32.dll;_GetThreadDesktop@4
 GetThreadDpiAwarenessContext;code;USER32.dll;_GetThreadDpiAwarenessContext@0
+GetThreadDpiHostingBehavior;code;USER32.dll;_GetThreadDpiHostingBehavior@0
 GetTitleBarInfo;code;USER32.dll;_GetTitleBarInfo@8
 GetTopWindow;code;USER32.dll;_GetTopWindow@4
 GetTouchInputInfo;code;USER32.dll;_GetTouchInputInfo@16
@@ -400,6 +405,7 @@ GetWindowContextHelpId;code;USER32.dll;_GetWindowContextHelpId@4
 GetWindowDC;code;USER32.dll;_GetWindowDC@4
 GetWindowDisplayAffinity;code;USER32.dll;_GetWindowDisplayAffinity@8
 GetWindowDpiAwarenessContext;code;USER32.dll;_GetWindowDpiAwarenessContext@4
+GetWindowDpiHostingBehavior;code;USER32.dll;_GetWindowDpiHostingBehavior@4
 GetWindowFeedbackSetting;code;USER32.dll;_GetWindowFeedbackSetting@20
 GetWindowInfo;code;USER32.dll;_GetWindowInfo@8
 GetWindowLongA;code;USER32.dll;_GetWindowLongA@8
@@ -665,6 +671,7 @@ SetSysColors;code;USER32.dll;_SetSysColors@12
 SetSystemCursor;code;USER32.dll;_SetSystemCursor@8
 SetThreadDesktop;code;USER32.dll;_SetThreadDesktop@4
 SetThreadDpiAwarenessContext;code;USER32.dll;_SetThreadDpiAwarenessContext@4
+SetThreadDpiHostingBehavior;code;USER32.dll;_SetThreadDpiHostingBehavior@4
 SetTimer;code;USER32.dll;_SetTimer@16
 SetUserObjectInformationA;code;USER32.dll;_SetUserObjectInformationA@16
 SetUserObjectInformationW;code;USER32.dll;_SetUserObjectInformationW@16

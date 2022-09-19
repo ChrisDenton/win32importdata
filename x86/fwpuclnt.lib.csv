@@ -88,9 +88,11 @@ FwpmNetEventEnum0;code;fwpuclnt.dll;_FwpmNetEventEnum0@20
 FwpmNetEventEnum1;code;fwpuclnt.dll;_FwpmNetEventEnum1@20
 FwpmNetEventEnum2;code;fwpuclnt.dll;_FwpmNetEventEnum2@20
 FwpmNetEventEnum3;code;fwpuclnt.dll;_FwpmNetEventEnum3@20
+FwpmNetEventEnum4;code;fwpuclnt.dll;_FwpmNetEventEnum4@20
 FwpmNetEventSubscribe0;code;fwpuclnt.dll;_FwpmNetEventSubscribe0@20
 FwpmNetEventSubscribe1;code;fwpuclnt.dll;_FwpmNetEventSubscribe1@20
 FwpmNetEventSubscribe2;code;fwpuclnt.dll;_FwpmNetEventSubscribe2@20
+FwpmNetEventSubscribe3;code;fwpuclnt.dll;_FwpmNetEventSubscribe3@20
 FwpmNetEventSubscriptionsGet0;code;fwpuclnt.dll;_FwpmNetEventSubscriptionsGet0@12
 FwpmNetEventUnsubscribe0;code;fwpuclnt.dll;_FwpmNetEventUnsubscribe0@8
 FwpmNetEventsGetSecurityInfo0;code;fwpuclnt.dll;_FwpmNetEventsGetSecurityInfo0@28
@@ -201,10 +203,10 @@ IPsecKeyModuleUpdateAcquire0;code;fwpuclnt.dll;_IPsecKeyModuleUpdateAcquire0@20
 IPsecKeyNotification0;code;fwpuclnt.dll;_IPsecKeyNotification0@12
 IPsecSaContextAddInbound0;code;fwpuclnt.dll;_IPsecSaContextAddInbound0@16
 IPsecSaContextAddInbound1;code;fwpuclnt.dll;_IPsecSaContextAddInbound1@16
-IPsecSaContextAddInboundAndTrackConnection;code;fwpuclnt.dll;_IPsecSaContextAddInboundAndTrackConnection@24
+IPsecSaContextAddInboundAndTrackConnection;code;fwpuclnt.dll;_IPsecSaContextAddInboundAndTrackConnection@28
 IPsecSaContextAddOutbound0;code;fwpuclnt.dll;_IPsecSaContextAddOutbound0@16
 IPsecSaContextAddOutbound1;code;fwpuclnt.dll;_IPsecSaContextAddOutbound1@16
-IPsecSaContextAddOutboundAndTrackConnection;code;fwpuclnt.dll;_IPsecSaContextAddOutboundAndTrackConnection@24
+IPsecSaContextAddOutboundAndTrackConnection;code;fwpuclnt.dll;_IPsecSaContextAddOutboundAndTrackConnection@28
 IPsecSaContextCreate0;code;fwpuclnt.dll;_IPsecSaContextCreate0@16
 IPsecSaContextCreate1;code;fwpuclnt.dll;_IPsecSaContextCreate1@20
 IPsecSaContextCreateEnumHandle0;code;fwpuclnt.dll;_IPsecSaContextCreateEnumHandle0@12

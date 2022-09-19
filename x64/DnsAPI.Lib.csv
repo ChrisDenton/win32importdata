@@ -146,6 +146,7 @@ DnsServiceRegisterCancel;code;DNSAPI.dll;
 DnsServiceResolve;code;DNSAPI.dll;
 DnsServiceResolveCancel;code;DNSAPI.dll;
 DnsSetConfigDword;code;DNSAPI.dll;
+DnsSetConfigValue;code;DNSAPI.dll;
 DnsSetQueryRetryTimeouts;code;DNSAPI.dll;
 DnsStartMulticastQuery;code;DNSAPI.dll;
 DnsStatusString;code;DNSAPI.dll;

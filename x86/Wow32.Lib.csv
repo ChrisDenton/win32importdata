@@ -13,6 +13,7 @@ WOWCallback16;code;wow32.dll;_WOWCallback16@8
 WOWCallback16Ex;code;wow32.dll;_WOWCallback16Ex@20
 WOWDirectedYield16;code;wow32.dll;_WOWDirectedYield16@4
 WOWFreeMetafile;code;wow32.dll;_WOWFreeMetafile@4
+WOWGetLastAppPointer;code;wow32.dll;_WOWGetLastAppPointer@0
 WOWGetVDMPointer;code;wow32.dll;_WOWGetVDMPointer@12
 WOWGetVDMPointerFix;code;wow32.dll;_WOWGetVDMPointerFix@12
 WOWGetVDMPointerUnfix;code;wow32.dll;_WOWGetVDMPointerUnfix@4

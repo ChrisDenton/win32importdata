@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+DumpDiagInfo;code;chakra.dll;?DumpDiagInfo@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))
 JsInitializeJITServer;code;chakra.dll;?JsInitializeJITServer@@YGJPAU_GUID@@PAX1@Z (long __stdcall JsInitializeJITServer(struct _GUID *,void *,void *))
 MemProtectHeapAddRootSection;code;chakra.dll;?MemProtectHeapAddRootSection@@YGXPAXPAUMemProtectHeapRootSection@@@Z (void __stdcall MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))
 MemProtectHeapCollect;code;chakra.dll;?MemProtectHeapCollect@@YGJPAXW4MemProtectHeapCollectFlags@@@Z (long __stdcall MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))
@@ -18,6 +19,18 @@ MemProtectHeapRootReallocLeaf;code;chakra.dll;?MemProtectHeapRootReallocLeaf@@YG
 MemProtectHeapSynchronizeWithCollector;code;chakra.dll;?MemProtectHeapSynchronizeWithCollector@@YGJPAX@Z (long __stdcall MemProtectHeapSynchronizeWithCollector(void *))
 MemProtectHeapUnprotectCurrentThread;code;chakra.dll;?MemProtectHeapUnprotectCurrentThread@@YGJPAX@Z (long __stdcall MemProtectHeapUnprotectCurrentThread(void *))
 MemProtectHeapUnrootAndZero;code;chakra.dll;?MemProtectHeapUnrootAndZero@@YGJPAX0@Z (long __stdcall MemProtectHeapUnrootAndZero(void *,void *))
+RecyclerNativeHeapAddExternalMemoryUsage;code;chakra.dll;?RecyclerNativeHeapAddExternalMemoryUsage@@YGXPAXI@Z (void __stdcall RecyclerNativeHeapAddExternalMemoryUsage(void *,unsigned int))
+RecyclerNativeHeapAllocLeaf;code;chakra.dll;?RecyclerNativeHeapAllocLeaf@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeaf(void *,unsigned int))
+RecyclerNativeHeapAllocLeafFinalized;code;chakra.dll;?RecyclerNativeHeapAllocLeafFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeafFinalized(void *,unsigned int))
+RecyclerNativeHeapAllocTraced;code;chakra.dll;?RecyclerNativeHeapAllocTraced@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTraced(void *,unsigned int))
+RecyclerNativeHeapAllocTracedFinalized;code;chakra.dll;?RecyclerNativeHeapAllocTracedFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTracedFinalized(void *,unsigned int))
+RecyclerNativeHeapCollectGarbageInThread;code;chakra.dll;?RecyclerNativeHeapCollectGarbageInThread@@YGXPAX_N@Z (void __stdcall RecyclerNativeHeapCollectGarbageInThread(void *,bool))
+RecyclerNativeHeapCreateWeakReference;code;chakra.dll;?RecyclerNativeHeapCreateWeakReference@@YGJPAX0PAPAX@Z (long __stdcall RecyclerNativeHeapCreateWeakReference(void *,void *,void * *))
+RecyclerNativeHeapGetRealAddressFromInterior;code;chakra.dll;?RecyclerNativeHeapGetRealAddressFromInterior@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetRealAddressFromInterior(void *,void *))
+RecyclerNativeHeapGetStrongReference;code;chakra.dll;?RecyclerNativeHeapGetStrongReference@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetStrongReference(void *,void *))
+RecyclerNativeHeapHasWeakReferenceCleanupOccurred;code;chakra.dll;?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YG_NPAXPAI@Z (bool __stdcall RecyclerNativeHeapHasWeakReferenceCleanupOccurred(void *,unsigned int *))
+RecyclerNativeHeapRootAddRef;code;chakra.dll;?RecyclerNativeHeapRootAddRef@@YGJPAX0PAI@Z (long __stdcall RecyclerNativeHeapRootAddRef(void *,void *,unsigned int *))
+RecyclerNativeHeapRootRelease;code;chakra.dll;?RecyclerNativeHeapRootRelease@@YGXPAX0PAI@Z (void __stdcall RecyclerNativeHeapRootRelease(void *,void *,unsigned int *))
 JsAddRef;code;chakra.dll;_JsAddRef@8
 JsBoolToBoolean;code;chakra.dll;_JsBoolToBoolean@8
 JsBooleanToBool;code;chakra.dll;_JsBooleanToBool@8
@@ -43,6 +56,7 @@ JsCreateReferenceError;code;chakra.dll;_JsCreateReferenceError@8
 JsCreateRuntime;code;chakra.dll;_JsCreateRuntime@12
 JsCreateSymbol;code;chakra.dll;_JsCreateSymbol@8
 JsCreateSyntaxError;code;chakra.dll;_JsCreateSyntaxError@8
+JsCreateThreadService;code;chakra.dll;_JsCreateThreadService@8
 JsCreateTypeError;code;chakra.dll;_JsCreateTypeError@8
 JsCreateTypedArray;code;chakra.dll;_JsCreateTypedArray@20
 JsCreateURIError;code;chakra.dll;_JsCreateURIError@8

@@ -17,6 +17,7 @@ HttpDeleteServiceConfiguration;code;HTTPAPI.dll;
 HttpEvaluateRequest;code;HTTPAPI.dll;
 HttpFlushResponseCache;code;HTTPAPI.dll;
 HttpGetCounters;code;HTTPAPI.dll;
+HttpGetExtension;code;HTTPAPI.dll;
 HttpInitialize;code;HTTPAPI.dll;
 HttpPrepareUrl;code;HTTPAPI.dll;
 HttpQueryRequestProperty;code;HTTPAPI.dll;

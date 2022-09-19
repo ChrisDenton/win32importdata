@@ -7,7 +7,8 @@ SceNotifyPolicyDelta;code;SCECLI.dll;?SceNotifyPolicyDelta@@YGJW4_SECURITY_DB_TY
 SceOpenPolicy;code;SCECLI.dll;?SceOpenPolicy@@YGJXZ (long __stdcall SceOpenPolicy(void))
 SceProcessSecurityPolicyGPO;code;SCECLI.dll;?SceProcessSecurityPolicyGPO@@YGKKPAXPAUHKEY__@@PAU_GROUP_POLICY_OBJECTW@@2IPAHP6GKHPAG@Z@Z (unsigned long __stdcall SceProcessSecurityPolicyGPO(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned int,int *,unsigned long (__stdcall*)(int,unsigned short *)))
 SceProcessSecurityPolicyGPOEx;code;SCECLI.dll;?SceProcessSecurityPolicyGPOEx@@YGKKPAXPAUHKEY__@@PAU_GROUP_POLICY_OBJECTW@@2IPAHP6GKHPAG@ZPAUIWbemServices@@PAJ@Z (unsigned long __stdcall SceProcessSecurityPolicyGPOEx(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned int,int *,unsigned long (__stdcall*)(int,unsigned short *),struct IWbemServices *,long *))
-SceSysPrep;code;SCECLI.dll;?SceSysPrep@@YGKXZ (unsigned long __stdcall SceSysPrep(void))
+SceSysPrep;code;SCECLI.dll;?SceSysPrep@@YGKH@Z (unsigned long __stdcall SceSysPrep(int))
+SceSysPrepOffline;code;SCECLI.dll;?SceSysPrepOffline@@YGKPAU_SYSPREP_OS_OFFLINE@@@Z (unsigned long __stdcall SceSysPrepOffline(struct _SYSPREP_OS_OFFLINE *))
 SceAddToNameList;code;SCECLI.dll;_SceAddToNameList@12
 SceAddToNameStatusList;code;SCECLI.dll;_SceAddToNameStatusList@16
 SceAddToObjectList;code;SCECLI.dll;_SceAddToObjectList@24

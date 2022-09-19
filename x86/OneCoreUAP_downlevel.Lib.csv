@@ -618,6 +618,7 @@ UpdateTraceW;code;ADVAPI32.dll;_UpdateTraceW@16
 WaitServiceState;code;ADVAPI32.dll;_WaitServiceState@16
 WriteEncryptedFileRaw;code;ADVAPI32.dll;_WriteEncryptedFileRaw@12
 ApphelpCheckShellObject;code;APPHELP.dll;_ApphelpCheckShellObject@12
+SdbGetKnownSafeLayers;code;APPHELP.dll;_SdbGetKnownSafeLayers@12
 SE_COM_AddHook;code;APPHELP.dll;_SE_COM_AddHook@20
 SE_COM_AddServer;code;APPHELP.dll;_SE_COM_AddServer@8
 SE_COM_Lookup;code;APPHELP.dll;_SE_COM_Lookup@12
@@ -975,6 +976,8 @@ AcquireSRWLockShared;code;KERNEL32.dll;_AcquireSRWLockShared@4
 ActivateActCtx;code;KERNEL32.dll;_ActivateActCtx@8
 AddAtomA;code;KERNEL32.dll;_AddAtomA@4
 AddAtomW;code;KERNEL32.dll;_AddAtomW@4
+AddConsoleAliasA;code;KERNEL32.dll;_AddConsoleAliasA@12
+AddConsoleAliasW;code;KERNEL32.dll;_AddConsoleAliasW@12
 AddDllDirectory;code;KERNEL32.dll;_AddDllDirectory@4
 AddLocalAlternateComputerNameA;code;KERNEL32.dll;_AddLocalAlternateComputerNameA@8
 AddLocalAlternateComputerNameW;code;KERNEL32.dll;_AddLocalAlternateComputerNameW@8
@@ -1312,13 +1315,29 @@ GetComputerNameA;code;KERNEL32.dll;_GetComputerNameA@8
 GetComputerNameExA;code;KERNEL32.dll;_GetComputerNameExA@12
 GetComputerNameExW;code;KERNEL32.dll;_GetComputerNameExW@12
 GetComputerNameW;code;KERNEL32.dll;_GetComputerNameW@8
+GetConsoleAliasA;code;KERNEL32.dll;_GetConsoleAliasA@16
+GetConsoleAliasesA;code;KERNEL32.dll;_GetConsoleAliasesA@12
+GetConsoleAliasesLengthA;code;KERNEL32.dll;_GetConsoleAliasesLengthA@4
+GetConsoleAliasesLengthW;code;KERNEL32.dll;_GetConsoleAliasesLengthW@4
+GetConsoleAliasesW;code;KERNEL32.dll;_GetConsoleAliasesW@12
+GetConsoleAliasExesA;code;KERNEL32.dll;_GetConsoleAliasExesA@8
+GetConsoleAliasExesLengthA;code;KERNEL32.dll;_GetConsoleAliasExesLengthA@0
+GetConsoleAliasExesLengthW;code;KERNEL32.dll;_GetConsoleAliasExesLengthW@0
+GetConsoleAliasExesW;code;KERNEL32.dll;_GetConsoleAliasExesW@8
+GetConsoleAliasW;code;KERNEL32.dll;_GetConsoleAliasW@16
 GetConsoleCP;code;KERNEL32.dll;_GetConsoleCP@0
 GetConsoleCursorInfo;code;KERNEL32.dll;_GetConsoleCursorInfo@8
+GetConsoleDisplayMode;code;KERNEL32.dll;_GetConsoleDisplayMode@4
+GetConsoleFontSize;code;KERNEL32.dll;_GetConsoleFontSize@8
+GetConsoleHistoryInfo;code;KERNEL32.dll;_GetConsoleHistoryInfo@4
 GetConsoleMode;code;KERNEL32.dll;_GetConsoleMode@8
+GetConsoleOriginalTitleA;code;KERNEL32.dll;_GetConsoleOriginalTitleA@8
+GetConsoleOriginalTitleW;code;KERNEL32.dll;_GetConsoleOriginalTitleW@8
 GetConsoleOutputCP;code;KERNEL32.dll;_GetConsoleOutputCP@0
 GetConsoleProcessList;code;KERNEL32.dll;_GetConsoleProcessList@8
 GetConsoleScreenBufferInfo;code;KERNEL32.dll;_GetConsoleScreenBufferInfo@8
 GetConsoleScreenBufferInfoEx;code;KERNEL32.dll;_GetConsoleScreenBufferInfoEx@8
+GetConsoleSelectionInfo;code;KERNEL32.dll;_GetConsoleSelectionInfo@4
 GetConsoleTitleA;code;KERNEL32.dll;_GetConsoleTitleA@8
 GetConsoleTitleW;code;KERNEL32.dll;_GetConsoleTitleW@8
 GetConsoleWindow;code;KERNEL32.dll;_GetConsoleWindow@0
@@ -1330,6 +1349,8 @@ GetCurrencyFormatEx;code;KERNEL32.dll;_GetCurrencyFormatEx@24
 GetCurrencyFormatW;code;KERNEL32.dll;_GetCurrencyFormatW@24
 GetCurrentActCtx;code;KERNEL32.dll;_GetCurrentActCtx@4
 GetCurrentApplicationUserModelId;code;KERNEL32.dll;_GetCurrentApplicationUserModelId@8
+GetCurrentConsoleFont;code;KERNEL32.dll;_GetCurrentConsoleFont@12
+GetCurrentConsoleFontEx;code;KERNEL32.dll;_GetCurrentConsoleFontEx@12
 GetCurrentDirectoryA;code;KERNEL32.dll;_GetCurrentDirectoryA@8
 GetCurrentDirectoryW;code;KERNEL32.dll;_GetCurrentDirectoryW@8
 GetCurrentPackageFamilyName;code;KERNEL32.dll;_GetCurrentPackageFamilyName@8
@@ -1347,6 +1368,7 @@ GetCurrentThreadStackLimits;code;KERNEL32.dll;_GetCurrentThreadStackLimits@8
 GetDateFormatA;code;KERNEL32.dll;_GetDateFormatA@24
 GetDateFormatEx;code;KERNEL32.dll;_GetDateFormatEx@28
 GetDateFormatW;code;KERNEL32.dll;_GetDateFormatW@24
+GetDevicePowerState;code;KERNEL32.dll;_GetDevicePowerState@8
 GetDiskFreeSpaceA;code;KERNEL32.dll;_GetDiskFreeSpaceA@20
 GetDiskFreeSpaceExA;code;KERNEL32.dll;_GetDiskFreeSpaceExA@16
 GetDiskFreeSpaceExW;code;KERNEL32.dll;_GetDiskFreeSpaceExW@16
@@ -1383,6 +1405,8 @@ GetFileTime;code;KERNEL32.dll;_GetFileTime@16
 GetFileType;code;KERNEL32.dll;_GetFileType@4
 GetFinalPathNameByHandleA;code;KERNEL32.dll;_GetFinalPathNameByHandleA@16
 GetFinalPathNameByHandleW;code;KERNEL32.dll;_GetFinalPathNameByHandleW@16
+GetFirmwareEnvironmentVariableA;code;KERNEL32.dll;_GetFirmwareEnvironmentVariableA@16
+GetFirmwareEnvironmentVariableExA;code;KERNEL32.dll;_GetFirmwareEnvironmentVariableExA@20
 GetFirmwareEnvironmentVariableExW;code;KERNEL32.dll;_GetFirmwareEnvironmentVariableExW@20
 GetFirmwareEnvironmentVariableW;code;KERNEL32.dll;_GetFirmwareEnvironmentVariableW@16
 GetFirmwareType;code;KERNEL32.dll;_GetFirmwareType@4
@@ -1437,6 +1461,7 @@ GetNumberFormatA;code;KERNEL32.dll;_GetNumberFormatA@24
 GetNumberFormatEx;code;KERNEL32.dll;_GetNumberFormatEx@24
 GetNumberFormatW;code;KERNEL32.dll;_GetNumberFormatW@24
 GetNumberOfConsoleInputEvents;code;KERNEL32.dll;_GetNumberOfConsoleInputEvents@8
+GetNumberOfConsoleMouseButtons;code;KERNEL32.dll;_GetNumberOfConsoleMouseButtons@4
 GetOEMCP;code;KERNEL32.dll;_GetOEMCP@0
 GetOverlappedResult;code;KERNEL32.dll;_GetOverlappedResult@16
 GetOverlappedResultEx;code;KERNEL32.dll;_GetOverlappedResultEx@20
@@ -1919,6 +1944,8 @@ SetConsoleCP;code;KERNEL32.dll;_SetConsoleCP@4
 SetConsoleCtrlHandler;code;KERNEL32.dll;_SetConsoleCtrlHandler@8
 SetConsoleCursorInfo;code;KERNEL32.dll;_SetConsoleCursorInfo@8
 SetConsoleCursorPosition;code;KERNEL32.dll;_SetConsoleCursorPosition@8
+SetConsoleDisplayMode;code;KERNEL32.dll;_SetConsoleDisplayMode@12
+SetConsoleHistoryInfo;code;KERNEL32.dll;_SetConsoleHistoryInfo@4
 SetConsoleMode;code;KERNEL32.dll;_SetConsoleMode@8
 SetConsoleOutputCP;code;KERNEL32.dll;_SetConsoleOutputCP@4
 SetConsoleScreenBufferInfoEx;code;KERNEL32.dll;_SetConsoleScreenBufferInfoEx@8
@@ -1928,6 +1955,7 @@ SetConsoleTitleA;code;KERNEL32.dll;_SetConsoleTitleA@4
 SetConsoleTitleW;code;KERNEL32.dll;_SetConsoleTitleW@4
 SetConsoleWindowInfo;code;KERNEL32.dll;_SetConsoleWindowInfo@12
 SetCriticalSectionSpinCount;code;KERNEL32.dll;_SetCriticalSectionSpinCount@8
+SetCurrentConsoleFontEx;code;KERNEL32.dll;_SetCurrentConsoleFontEx@12
 SetCurrentDirectoryA;code;KERNEL32.dll;_SetCurrentDirectoryA@4
 SetCurrentDirectoryW;code;KERNEL32.dll;_SetCurrentDirectoryW@4
 SetDefaultDllDirectories;code;KERNEL32.dll;_SetDefaultDllDirectories@4
@@ -1955,6 +1983,7 @@ SetFilePointerEx;code;KERNEL32.dll;_SetFilePointerEx@20
 SetFileTime;code;KERNEL32.dll;_SetFileTime@16
 SetFileValidData;code;KERNEL32.dll;_SetFileValidData@12
 SetFirmwareEnvironmentVariableA;code;KERNEL32.dll;_SetFirmwareEnvironmentVariableA@16
+SetFirmwareEnvironmentVariableExA;code;KERNEL32.dll;_SetFirmwareEnvironmentVariableExA@20
 SetFirmwareEnvironmentVariableExW;code;KERNEL32.dll;_SetFirmwareEnvironmentVariableExW@20
 SetFirmwareEnvironmentVariableW;code;KERNEL32.dll;_SetFirmwareEnvironmentVariableW@16
 SetHandleCount;code;KERNEL32.dll;_SetHandleCount@4

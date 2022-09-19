@@ -10,6 +10,7 @@ Tbsi_FilterLog;code;tbs.dll;_Tbsi_FilterLog@24
 Tbsi_GetDeviceInfo;code;tbs.dll;_Tbsi_GetDeviceInfo@8
 Tbsi_Get_OwnerAuth;code;tbs.dll;_Tbsi_Get_OwnerAuth@16
 Tbsi_Get_TCG_Log;code;tbs.dll;_Tbsi_Get_TCG_Log@12
+Tbsi_Get_TCG_Log_Ex;code;tbs.dll;_Tbsi_Get_TCG_Log_Ex@12
 Tbsi_Physical_Presence_Command;code;tbs.dll;_Tbsi_Physical_Presence_Command@20
 Tbsi_Revoke_Attestation;code;tbs.dll;_Tbsi_Revoke_Attestation@0
 Tbsi_ShaHash;code;tbs.dll;_Tbsi_ShaHash@32
@@ -17,4 +18,5 @@ Tbsip_Cancel_Commands;code;tbs.dll;_Tbsip_Cancel_Commands@4
 Tbsip_Context_Close;code;tbs.dll;_Tbsip_Context_Close@4
 Tbsip_Submit_Command;code;tbs.dll;_Tbsip_Submit_Command@28
 Tbsip_Submit_Command_NonBlocking;code;tbs.dll;_Tbsip_Submit_Command_NonBlocking@28
+Tbsip_TestInterruptInformation;code;tbs.dll;_Tbsip_TestInterruptInformation@4
 Tbsip_TestMorBit;code;tbs.dll;_Tbsip_TestMorBit@4

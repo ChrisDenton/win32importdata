@@ -2,6 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 CoreUICallComputeMaximumMessageSize;code;CoreMessaging.dll;
 CoreUICallCreateConversationHost;code;CoreMessaging.dll;
 CoreUICallCreateEndpointHost;code;CoreMessaging.dll;
+CoreUICallCreateEndpointHostWithSendPriority;code;CoreMessaging.dll;
 CoreUICallReceive;code;CoreMessaging.dll;
 CoreUICallSend;code;CoreMessaging.dll;
 CoreUIConfigureTestHost;code;CoreMessaging.dll;
@@ -17,6 +18,7 @@ CoreUIOpenExisting;code;CoreMessaging.dll;
 CoreUIRouteToTestRegistrar;code;CoreMessaging.dll;
 CreateDispatcherQueueController;code;CoreMessaging.dll;
 CreateDispatcherQueueForCurrentThread;code;CoreMessaging.dll;
+GetDispatcherQueueForCurrentThread;code;CoreMessaging.dll;
 InitializeServices;code;CoreMessaging.dll;
 MsgBlobCreateShared;code;CoreMessaging.dll;
 MsgBlobCreateStack;code;CoreMessaging.dll;

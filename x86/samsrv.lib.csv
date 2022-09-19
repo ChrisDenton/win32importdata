@@ -132,6 +132,7 @@ SampCompareDisplayStrings;code;SAMSRV.dll;_SampCompareDisplayStrings@12
 SampComputePasswordExpired;code;SAMSRV.dll;_SampComputePasswordExpired@8
 SampConnect;code;SAMSRV.dll;_SampConnect@36
 SampConvertUiListToApiList;code;SAMSRV.dll;_SampConvertUiListToApiList@12
+SampCopyUserSupplementalCredentialsForDCPromo;code;SAMSRV.dll;_SampCopyUserSupplementalCredentialsForDCPromo@12
 SampCreateAccountContext2;code;SAMSRV.dll;_SampCreateAccountContext2@56
 SampCreateAliasInDomain;code;SAMSRV.dll;_SampCreateAliasInDomain@32
 SampCreateContextEx;code;SAMSRV.dll;_SampCreateContextEx@36
@@ -241,6 +242,7 @@ SampPasswordChangeNotifyWorker;code;SAMSRV.dll;_SampPasswordChangeNotifyWorker@1
 SampPositionOfHighestBit;code;SAMSRV.dll;_SampPositionOfHighestBit@4
 SampQueryCapabilities;code;SAMSRV.dll;_SampQueryCapabilities@8
 SampQueryInformationUserInternal;code;SAMSRV.dll;_SampQueryInformationUserInternal@24
+SampQueryUserSupplementalCredentialsRegistry;code;SAMSRV.dll;_SampQueryUserSupplementalCredentialsRegistry@8
 SampReadExtendedAttributes;code;SAMSRV.dll;_SampReadExtendedAttributes@16
 SampRecordSystemSchemaVerisonInRegistry;code;SAMSRV.dll;_SampRecordSystemSchemaVerisonInRegistry@0
 SampReferenceContext;code;SAMSRV.dll;_SampReferenceContext@4

@@ -7,7 +7,8 @@ SceNotifyPolicyDelta;code;SCECLI.dll;?SceNotifyPolicyDelta@@YAJW4_SECURITY_DB_TY
 SceOpenPolicy;code;SCECLI.dll;?SceOpenPolicy@@YAJXZ (long __cdecl SceOpenPolicy(void))
 SceProcessSecurityPolicyGPO;code;SCECLI.dll;?SceProcessSecurityPolicyGPO@@YAKKPAXPAUHKEY__@@PAU_GROUP_POLICY_OBJECTW@@2IPAHP6AKHPAG@Z@Z (unsigned long __cdecl SceProcessSecurityPolicyGPO(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned int,int *,unsigned long (__cdecl*)(int,unsigned short *)))
 SceProcessSecurityPolicyGPOEx;code;SCECLI.dll;?SceProcessSecurityPolicyGPOEx@@YAKKPAXPAUHKEY__@@PAU_GROUP_POLICY_OBJECTW@@2IPAHP6AKHPAG@ZPAUIWbemServices@@PAJ@Z (unsigned long __cdecl SceProcessSecurityPolicyGPOEx(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned int,int *,unsigned long (__cdecl*)(int,unsigned short *),struct IWbemServices *,long *))
-SceSysPrep;code;SCECLI.dll;?SceSysPrep@@YAKXZ (unsigned long __cdecl SceSysPrep(void))
+SceSysPrep;code;SCECLI.dll;?SceSysPrep@@YAKH@Z (unsigned long __cdecl SceSysPrep(int))
+SceSysPrepOffline;code;SCECLI.dll;?SceSysPrepOffline@@YAKPAU_SYSPREP_OS_OFFLINE@@@Z (unsigned long __cdecl SceSysPrepOffline(struct _SYSPREP_OS_OFFLINE *))
 SceAddToNameList;code;SCECLI.dll;
 SceAddToNameStatusList;code;SCECLI.dll;
 SceAddToObjectList;code;SCECLI.dll;

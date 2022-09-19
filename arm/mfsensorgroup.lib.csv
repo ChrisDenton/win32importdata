@@ -1,4 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;
 MFCreateSensorGroup;code;MFSENSORGROUP.dll;
+MFCreateSensorProfile;code;MFSENSORGROUP.dll;
+MFCreateSensorProfileCollection;code;MFSENSORGROUP.dll;
 MFCreateSensorStream;code;MFSENSORGROUP.dll;

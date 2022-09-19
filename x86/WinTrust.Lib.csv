@@ -59,6 +59,7 @@ DriverCleanupPolicy;code;WINTRUST.dll;_DriverCleanupPolicy@4
 DriverFinalPolicy;code;WINTRUST.dll;_DriverFinalPolicy@4
 DriverInitializePolicy;code;WINTRUST.dll;_DriverInitializePolicy@4
 FindCertsByIssuer;code;WINTRUST.dll;_FindCertsByIssuer@28
+GetAuthenticodeSha256Hash;code;WINTRUST.dll;_GetAuthenticodeSha256Hash@12
 HTTPSFinalProv;code;WINTRUST.dll;_HTTPSFinalProv@4
 IsCatalogFile;code;WINTRUST.dll;_IsCatalogFile@8
 MsCatConstructHashTag;code;WINTRUST.dll;_MsCatConstructHashTag@12

@@ -39,9 +39,11 @@ WlanHostedNetworkStartUsing;code;wlanapi.dll;_WlanHostedNetworkStartUsing@12
 WlanHostedNetworkStopUsing;code;wlanapi.dll;_WlanHostedNetworkStopUsing@12
 WlanIhvControl;code;wlanapi.dll;_WlanIhvControl@32
 WlanOpenHandle;code;wlanapi.dll;_WlanOpenHandle@16
+WlanPrivateDeleteProfile;code;wlanapi.dll;_WlanPrivateDeleteProfile@20
 WlanPrivateQuery11adPairedConfig;code;wlanapi.dll;_WlanPrivateQuery11adPairedConfig@12
 WlanPrivateQueryInterface;code;wlanapi.dll;_WlanPrivateQueryInterface@20
 WlanPrivateSetInterface;code;wlanapi.dll;_WlanPrivateSetInterface@20
+WlanPrivateSetProfile;code;wlanapi.dll;_WlanPrivateSetProfile@36
 WlanQueryAutoConfigParameter;code;wlanapi.dll;_WlanQueryAutoConfigParameter@24
 WlanQueryInterface;code;wlanapi.dll;_WlanQueryInterface@28
 WlanReasonCodeToString;code;wlanapi.dll;_WlanReasonCodeToString@16

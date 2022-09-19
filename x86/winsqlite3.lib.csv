@@ -16,6 +16,7 @@ sqlite3_bind_null;code;winsqlite3.dll;_sqlite3_bind_null@8
 sqlite3_bind_parameter_count;code;winsqlite3.dll;_sqlite3_bind_parameter_count@4
 sqlite3_bind_parameter_index;code;winsqlite3.dll;_sqlite3_bind_parameter_index@8
 sqlite3_bind_parameter_name;code;winsqlite3.dll;_sqlite3_bind_parameter_name@8
+sqlite3_bind_pointer;code;winsqlite3.dll;_sqlite3_bind_pointer@20
 sqlite3_bind_text16;code;winsqlite3.dll;_sqlite3_bind_text16@20
 sqlite3_bind_text64;code;winsqlite3.dll;_sqlite3_bind_text64@28
 sqlite3_bind_text;code;winsqlite3.dll;_sqlite3_bind_text@20
@@ -132,8 +133,10 @@ sqlite3_os_init;code;winsqlite3.dll;_sqlite3_os_init@0
 sqlite3_overload_function;code;winsqlite3.dll;_sqlite3_overload_function@12
 sqlite3_prepare16;code;winsqlite3.dll;_sqlite3_prepare16@20
 sqlite3_prepare16_v2;code;winsqlite3.dll;_sqlite3_prepare16_v2@20
+sqlite3_prepare16_v3;code;winsqlite3.dll;_sqlite3_prepare16_v3@24
 sqlite3_prepare;code;winsqlite3.dll;_sqlite3_prepare@20
 sqlite3_prepare_v2;code;winsqlite3.dll;_sqlite3_prepare_v2@20
+sqlite3_prepare_v3;code;winsqlite3.dll;_sqlite3_prepare_v3@24
 sqlite3_profile;code;winsqlite3.dll;_sqlite3_profile@12
 sqlite3_progress_handler;code;winsqlite3.dll;_sqlite3_progress_handler@16
 sqlite3_randomness;code;winsqlite3.dll;_sqlite3_randomness@8
@@ -153,6 +156,7 @@ sqlite3_result_error_toobig;code;winsqlite3.dll;_sqlite3_result_error_toobig@4
 sqlite3_result_int64;code;winsqlite3.dll;_sqlite3_result_int64@12
 sqlite3_result_int;code;winsqlite3.dll;_sqlite3_result_int@8
 sqlite3_result_null;code;winsqlite3.dll;_sqlite3_result_null@4
+sqlite3_result_pointer;code;winsqlite3.dll;_sqlite3_result_pointer@16
 sqlite3_result_subtype;code;winsqlite3.dll;_sqlite3_result_subtype@8
 sqlite3_result_text16;code;winsqlite3.dll;_sqlite3_result_text16@16
 sqlite3_result_text16be;code;winsqlite3.dll;_sqlite3_result_text16be@16
@@ -209,6 +213,7 @@ sqlite3_value_free;code;winsqlite3.dll;_sqlite3_value_free@4
 sqlite3_value_int64;code;winsqlite3.dll;_sqlite3_value_int64@4
 sqlite3_value_int;code;winsqlite3.dll;_sqlite3_value_int@4
 sqlite3_value_numeric_type;code;winsqlite3.dll;_sqlite3_value_numeric_type@4
+sqlite3_value_pointer;code;winsqlite3.dll;_sqlite3_value_pointer@8
 sqlite3_value_subtype;code;winsqlite3.dll;_sqlite3_value_subtype@4
 sqlite3_value_text16;code;winsqlite3.dll;_sqlite3_value_text16@4
 sqlite3_value_text16be;code;winsqlite3.dll;_sqlite3_value_text16be@4

@@ -7,6 +7,7 @@ AddERExcludedApplicationA;code;faultrep.dll;_AddERExcludedApplicationA@4
 AddERExcludedApplicationW;code;faultrep.dll;_AddERExcludedApplicationW@4
 CancelHangReporting;code;faultrep.dll;_CancelHangReporting@4
 _ReportActivationHang@12;code;faultrep.dll;1
+ReportCoreHang;code;faultrep.dll;_ReportCoreHang@16
 ReportFault;code;faultrep.dll;_ReportFault@8
 ReportHang;code;faultrep.dll;_ReportHang@8
 WerReportHang;code;faultrep.dll;_WerReportHang@8
