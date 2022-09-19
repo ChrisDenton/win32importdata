@@ -158,4 +158,5 @@ MprInfoDelete;code;MPRAPI.dll;
 MprInfoDuplicate;code;MPRAPI.dll;
 MprInfoRemoveAll;code;MPRAPI.dll;
 MprPortSetUsage;code;MPRAPI.dll;
+MprUpgradeRouterConfigHelper;code;MPRAPI.dll;
 RasPrivilegeAndCallBackNumber;code;MPRAPI.dll;

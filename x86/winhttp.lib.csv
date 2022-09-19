@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-WinHttpPacJsWorkerMain;code;WINHTTP.dll;?WinHttpPacJsWorkerMain@@YGKPBG0@Z (unsigned long __stdcall WinHttpPacJsWorkerMain(unsigned short const *,unsigned short const *))
 SvchostPushServiceGlobals;code;WINHTTP.dll;_SvchostPushServiceGlobals@4
 WinHttpAddRequestHeaders;code;WINHTTP.dll;_WinHttpAddRequestHeaders@16
 WinHttpAddRequestHeadersEx;code;WINHTTP.dll;_WinHttpAddRequestHeadersEx@32
@@ -41,8 +40,10 @@ WinHttpProbeConnectivity;code;WINHTTP.dll;_WinHttpProbeConnectivity@24
 WinHttpQueryAuthSchemes;code;WINHTTP.dll;_WinHttpQueryAuthSchemes@16
 WinHttpQueryDataAvailable;code;WINHTTP.dll;_WinHttpQueryDataAvailable@8
 WinHttpQueryHeaders;code;WINHTTP.dll;_WinHttpQueryHeaders@24
+WinHttpQueryHeadersEx;code;WINHTTP.dll;_WinHttpQueryHeadersEx@44
 WinHttpQueryOption;code;WINHTTP.dll;_WinHttpQueryOption@16
 WinHttpReadData;code;WINHTTP.dll;_WinHttpReadData@16
+WinHttpReadDataEx;code;WINHTTP.dll;_WinHttpReadDataEx@32
 WinHttpReadProxySettings;code;WINHTTP.dll;_WinHttpReadProxySettings@28
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;_WinHttpReadProxySettingsHvsi@32
 WinHttpReceiveResponse;code;WINHTTP.dll;_WinHttpReceiveResponse@8

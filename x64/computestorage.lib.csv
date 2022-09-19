@@ -10,3 +10,4 @@ HcsImportLayer;code;computestorage.dll;
 HcsInitializeLegacyWritableLayer;code;computestorage.dll;
 HcsInitializeWritableLayer;code;computestorage.dll;
 HcsSetupBaseOSLayer;code;computestorage.dll;
+HcsSetupBaseOSVolume;code;computestorage.dll;

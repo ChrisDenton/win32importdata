@@ -7,6 +7,7 @@ D3D12CreateRootSignatureDeserializer;code;d3d12.dll;_D3D12CreateRootSignatureDes
 D3D12CreateVersionedRootSignatureDeserializer;code;d3d12.dll;_D3D12CreateVersionedRootSignatureDeserializer@16
 D3D12EnableExperimentalFeatures;code;d3d12.dll;_D3D12EnableExperimentalFeatures@16
 _D3D12GetDebugInterface@8;code;d3d12.dll;102
+D3D12GetInterface;code;d3d12.dll;_D3D12GetInterface@12
 D3D12PIXEventsReplaceBlock;code;d3d12.dll;_D3D12PIXEventsReplaceBlock@4
 D3D12PIXGetThreadInfo;code;d3d12.dll;_D3D12PIXGetThreadInfo@0
 D3D12PIXNotifyWakeFromFenceSignal;code;d3d12.dll;_D3D12PIXNotifyWakeFromFenceSignal@4

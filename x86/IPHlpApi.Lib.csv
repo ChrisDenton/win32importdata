@@ -3,7 +3,6 @@ AddIPAddress;code;IPHLPAPI.DLL;_AddIPAddress@20
 AllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_AllocateAndGetInterfaceInfoFromStack@20
 AllocateAndGetIpAddrTableFromStack;code;IPHLPAPI.DLL;_AllocateAndGetIpAddrTableFromStack@16
 CancelIPChangeNotify;code;IPHLPAPI.DLL;_CancelIPChangeNotify@4
-CancelIfTimestampConfigChange;code;IPHLPAPI.DLL;_CancelIfTimestampConfigChange@4
 CancelMibChangeNotify2;code;IPHLPAPI.DLL;_CancelMibChangeNotify2@4
 CaptureInterfaceHardwareCrossTimestamp;code;IPHLPAPI.DLL;_CaptureInterfaceHardwareCrossTimestamp@8
 CloseCompartment;code;IPHLPAPI.DLL;_CloseCompartment@4
@@ -90,11 +89,11 @@ GetIfStackTable;code;IPHLPAPI.DLL;_GetIfStackTable@4
 GetIfTable2;code;IPHLPAPI.DLL;_GetIfTable2@4
 GetIfTable2Ex;code;IPHLPAPI.DLL;_GetIfTable2Ex@8
 GetIfTable;code;IPHLPAPI.DLL;_GetIfTable@12
+GetInterfaceActiveTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceActiveTimestampCapabilities@8
 GetInterfaceCompartmentId;code;IPHLPAPI.DLL;_GetInterfaceCompartmentId@4
-GetInterfaceCurrentTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceCurrentTimestampCapabilities@8
 GetInterfaceDnsSettings;code;IPHLPAPI.DLL;_GetInterfaceDnsSettings@20
-GetInterfaceHardwareTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceHardwareTimestampCapabilities@8
 GetInterfaceInfo;code;IPHLPAPI.DLL;_GetInterfaceInfo@8
+GetInterfaceSupportedTimestampCapabilities;code;IPHLPAPI.DLL;_GetInterfaceSupportedTimestampCapabilities@8
 GetInvertedIfStackTable;code;IPHLPAPI.DLL;_GetInvertedIfStackTable@4
 GetIpAddrTable;code;IPHLPAPI.DLL;_GetIpAddrTable@12
 GetIpErrorString;code;IPHLPAPI.DLL;_GetIpErrorString@12
@@ -199,14 +198,18 @@ InternalGetRtcSlotInformation;code;IPHLPAPI.DLL;_InternalGetRtcSlotInformation@1
 InternalGetTcp6Table2;code;IPHLPAPI.DLL;_InternalGetTcp6Table2@12
 InternalGetTcp6TableWithOwnerModule;code;IPHLPAPI.DLL;_InternalGetTcp6TableWithOwnerModule@12
 InternalGetTcp6TableWithOwnerPid;code;IPHLPAPI.DLL;_InternalGetTcp6TableWithOwnerPid@12
+InternalGetTcpDynamicPortRange;code;IPHLPAPI.DLL;_InternalGetTcpDynamicPortRange@8
 InternalGetTcpTable2;code;IPHLPAPI.DLL;_InternalGetTcpTable2@12
 InternalGetTcpTable;code;IPHLPAPI.DLL;_InternalGetTcpTable@12
 InternalGetTcpTableEx;code;IPHLPAPI.DLL;_InternalGetTcpTableEx@12
 InternalGetTcpTableWithOwnerModule;code;IPHLPAPI.DLL;_InternalGetTcpTableWithOwnerModule@12
 InternalGetTcpTableWithOwnerPid;code;IPHLPAPI.DLL;_InternalGetTcpTableWithOwnerPid@12
 InternalGetTunnelPhysicalAdapter;code;IPHLPAPI.DLL;_InternalGetTunnelPhysicalAdapter@8
+InternalGetUdp6Table2;code;IPHLPAPI.DLL;_InternalGetUdp6Table2@12
 InternalGetUdp6TableWithOwnerModule;code;IPHLPAPI.DLL;_InternalGetUdp6TableWithOwnerModule@12
 InternalGetUdp6TableWithOwnerPid;code;IPHLPAPI.DLL;_InternalGetUdp6TableWithOwnerPid@12
+InternalGetUdpDynamicPortRange;code;IPHLPAPI.DLL;_InternalGetUdpDynamicPortRange@8
+InternalGetUdpTable2;code;IPHLPAPI.DLL;_InternalGetUdpTable2@12
 InternalGetUdpTable;code;IPHLPAPI.DLL;_InternalGetUdpTable@12
 InternalGetUdpTableEx;code;IPHLPAPI.DLL;_InternalGetUdpTableEx@12
 InternalGetUdpTableWithOwnerModule;code;IPHLPAPI.DLL;_InternalGetUdpTableWithOwnerModule@12
@@ -221,8 +224,10 @@ InternalSetIpInterfaceEntry;code;IPHLPAPI.DLL;_InternalSetIpInterfaceEntry@8
 InternalSetIpNetEntry2;code;IPHLPAPI.DLL;_InternalSetIpNetEntry2@8
 InternalSetIpNetEntry;code;IPHLPAPI.DLL;_InternalSetIpNetEntry@4
 InternalSetIpStats;code;IPHLPAPI.DLL;_InternalSetIpStats@4
+InternalSetTcpDynamicPortRange;code;IPHLPAPI.DLL;_InternalSetTcpDynamicPortRange@8
 InternalSetTcpEntry;code;IPHLPAPI.DLL;_InternalSetTcpEntry@4
 InternalSetTeredoPort;code;IPHLPAPI.DLL;_InternalSetTeredoPort@4
+InternalSetUdpDynamicPortRange;code;IPHLPAPI.DLL;_InternalSetUdpDynamicPortRange@8
 InternalSetUnicastIpAddressEntry;code;IPHLPAPI.DLL;_InternalSetUnicastIpAddressEntry@8
 IpReleaseAddress;code;IPHLPAPI.DLL;_IpReleaseAddress@4
 IpRenewAddress;code;IPHLPAPI.DLL;_IpRenewAddress@4
@@ -237,7 +242,6 @@ NhGetInterfaceNameFromGuid;code;IPHLPAPI.DLL;_NhGetInterfaceNameFromGuid@20
 NhpAllocateAndGetInterfaceInfoFromStack;code;IPHLPAPI.DLL;_NhpAllocateAndGetInterfaceInfoFromStack@20
 NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
-NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
 NotifyNetworkConnectivityHintChange;code;IPHLPAPI.DLL;_NotifyNetworkConnectivityHintChange@16
 NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
@@ -263,6 +267,7 @@ _PfRemoveGlobalFilterFromInterface@8;code;IPHLPAPI.DLL;
 _PfSetLogBuffer@28;code;IPHLPAPI.DLL;
 _PfTestPacket@20;code;IPHLPAPI.DLL;
 _PfUnBindInterface@4;code;IPHLPAPI.DLL;
+RegisterInterfaceTimestampConfigChange;code;IPHLPAPI.DLL;_RegisterInterfaceTimestampConfigChange@12
 ResolveIpNetEntry2;code;IPHLPAPI.DLL;_ResolveIpNetEntry2@8
 ResolveNeighbor;code;IPHLPAPI.DLL;_ResolveNeighbor@12
 RestoreMediaSense;code;IPHLPAPI.DLL;_RestoreMediaSense@8
@@ -291,5 +296,6 @@ SetSessionCompartmentId;code;IPHLPAPI.DLL;_SetSessionCompartmentId@8
 SetTcpEntry;code;IPHLPAPI.DLL;_SetTcpEntry@4
 SetUnicastIpAddressEntry;code;IPHLPAPI.DLL;_SetUnicastIpAddressEntry@4
 UnenableRouter;code;IPHLPAPI.DLL;_UnenableRouter@8
+UnregisterInterfaceTimestampConfigChange;code;IPHLPAPI.DLL;_UnregisterInterfaceTimestampConfigChange@4
 if_indextoname;code;IPHLPAPI.DLL;_if_indextoname@8
 if_nametoindex;code;IPHLPAPI.DLL;_if_nametoindex@4

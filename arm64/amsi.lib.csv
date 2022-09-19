@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 AmsiCloseSession;code;Amsi.dll;
 AmsiInitialize;code;Amsi.dll;
+AmsiNotifyOperation;code;Amsi.dll;
 AmsiOpenSession;code;Amsi.dll;
 AmsiScanBuffer;code;Amsi.dll;
 AmsiScanString;code;Amsi.dll;

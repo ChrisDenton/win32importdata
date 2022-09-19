@@ -242,6 +242,7 @@ SampPasswordChangeNotifyWorker;code;SAMSRV.dll;
 SampPositionOfHighestBit;code;SAMSRV.dll;
 SampQueryCapabilities;code;SAMSRV.dll;
 SampQueryInformationUserInternal;code;SAMSRV.dll;
+SampQueryPolicyValue;code;SAMSRV.dll;
 SampQueryUserSupplementalCredentialsRegistry;code;SAMSRV.dll;
 SampReadExtendedAttributes;code;SAMSRV.dll;
 SampRecordSystemSchemaVerisonInRegistry;code;SAMSRV.dll;

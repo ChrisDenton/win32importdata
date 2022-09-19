@@ -1,2 +1,2 @@
 Name;Type;DLL;SymbolOrOrdinal
-MLCreateOperatorRegistry;code;windows.ai.machinelearning.dll;_MLCreateOperatorRegistry@4
+MLCreateOperatorRegistry;code;Windows.AI.MachineLearning.dll;_MLCreateOperatorRegistry@4

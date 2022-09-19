@@ -1,6 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
-LoadBinaryFilter;code;query.dll;?LoadBinaryFilter@@YAJPEBGPEAPEAUIFilter@@@Z (long __cdecl LoadBinaryFilter(unsigned short const *,struct IFilter * *))
-LoadTextFilter;code;query.dll;?LoadTextFilter@@YAJPEBGPEAPEAUIFilter@@@Z (long __cdecl LoadTextFilter(unsigned short const *,struct IFilter * *))
+LoadBinaryFilter;code;query.dll;?LoadBinaryFilter@@YAJPEB_WPEAPEAUIFilter@@@Z (long __cdecl LoadBinaryFilter(wchar_t const *,struct IFilter * *))
+LoadTextFilter;code;query.dll;?LoadTextFilter@@YAJPEB_WPEAPEAUIFilter@@@Z (long __cdecl LoadTextFilter(wchar_t const *,struct IFilter * *))
 BindIFilterFromStorage;code;query.dll;
 BindIFilterFromStream;code;query.dll;
 LoadIFilter;code;query.dll;

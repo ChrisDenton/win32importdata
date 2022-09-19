@@ -2,7 +2,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ?NPEnumResource@@YAKPAXPAI01@Z (unsigned long __cdecl NPEnumResource(void *,unsigned int *,void *,unsigned int *));code;NTLANMAN.dll;34
 ?NPGetConnection@@YAKPAG0PAI@Z (unsigned long __cdecl NPGetConnection(unsigned short *,unsigned short *,unsigned int *));code;NTLANMAN.dll;12
 ?NPGetReconnectFlags@@YAKPAGPAE@Z (unsigned long __cdecl NPGetReconnectFlags(unsigned short *,unsigned char *));code;NTLANMAN.dll;53
-?NPGetUniversalName@@YAKPBGKPAXPAI@Z (unsigned long __cdecl NPGetUniversalName(unsigned short const *,unsigned long,void *,unsigned int *));code;NTLANMAN.dll;40
 ?NPOpenEnum@@YAKIIIPAU_NETRESOURCEW@@PAPAX@Z (unsigned long __cdecl NPOpenEnum(unsigned int,unsigned int,unsigned int,struct _NETRESOURCEW *,void * *));code;NTLANMAN.dll;33
 DllMain;code;NTLANMAN.dll;
 I_SystemFocusDialog;code;NTLANMAN.dll;
@@ -10,6 +9,7 @@ NPAddConnection;code;NTLANMAN.dll;17
 NPAddConnection3;code;NTLANMAN.dll;38
 NPAddConnection4;code;NTLANMAN.dll;55
 NPCancelConnection;code;NTLANMAN.dll;18
+NPCancelConnection2;code;NTLANMAN.dll;57
 NPCloseEnum;code;NTLANMAN.dll;35
 NPFormatNetworkName;code;NTLANMAN.dll;36
 NPGetCaps;code;NTLANMAN.dll;13
@@ -18,6 +18,7 @@ NPGetConnectionPerformance;code;NTLANMAN.dll;49
 NPGetPersistentUseOptionsForConnection;code;NTLANMAN.dll;56
 NPGetResourceInformation;code;NTLANMAN.dll;52
 NPGetResourceParent;code;NTLANMAN.dll;41
+NPGetUniversalName;code;NTLANMAN.dll;40
 NPGetUser;code;NTLANMAN.dll;16
 QueryAppInstanceVersion;code;NTLANMAN.dll;
 RegisterAppInstance;code;NTLANMAN.dll;

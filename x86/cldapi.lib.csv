@@ -23,6 +23,7 @@ CfGetSyncRootInfoByPath;code;cldapi.dll;_CfGetSyncRootInfoByPath@20
 CfGetTransferKey;code;cldapi.dll;_CfGetTransferKey@8
 CfGetWin32HandleFromProtectedHandle;code;cldapi.dll;_CfGetWin32HandleFromProtectedHandle@4
 CfHydratePlaceholder;code;cldapi.dll;_CfHydratePlaceholder@28
+CfHydratePlaceholderWithAttributionPrivate;code;cldapi.dll;_CfHydratePlaceholderWithAttributionPrivate@36
 CfLockProperties;code;cldapi.dll;_CfLockProperties@20
 CfOpenAppPolicy;code;cldapi.dll;_CfOpenAppPolicy@8
 CfOpenFileWithOplock;code;cldapi.dll;_CfOpenFileWithOplock@12

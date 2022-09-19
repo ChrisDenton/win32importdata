@@ -1,7 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-CloseLsaPerformanceData;code;Secur32.dll;?CloseLsaPerformanceData@@YGKXZ (unsigned long __stdcall CloseLsaPerformanceData(void))
-CollectLsaPerformanceData;code;Secur32.dll;?CollectLsaPerformanceData@@YGKPAGPAPAXPAK2@Z (unsigned long __stdcall CollectLsaPerformanceData(unsigned short *,void * *,unsigned long *,unsigned long *))
-OpenLsaPerformanceData;code;Secur32.dll;?OpenLsaPerformanceData@@YGKPAG@Z (unsigned long __stdcall OpenLsaPerformanceData(unsigned short *))
 AcceptSecurityContext;code;Secur32.dll;_AcceptSecurityContext@36
 AcquireCredentialsHandleA;code;Secur32.dll;_AcquireCredentialsHandleA@36
 AcquireCredentialsHandleW;code;Secur32.dll;_AcquireCredentialsHandleW@36

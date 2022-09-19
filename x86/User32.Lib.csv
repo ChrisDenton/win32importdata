@@ -572,7 +572,7 @@ RIMDeviceIoControl;code;USER32.dll;_RIMDeviceIoControl@36
 RIMEnableMonitorMappingForDevice;code;USER32.dll;_RIMEnableMonitorMappingForDevice@12
 RIMGetPhysicalDeviceRect;code;USER32.dll;_RIMGetPhysicalDeviceRect@12
 RIMGetSourceProcessId;code;USER32.dll;_RIMGetSourceProcessId@12
-RIMOnTimerNotification;code;USER32.dll;_RIMOnTimerNotification@8
+RIMOnTimerNotification;code;USER32.dll;_RIMOnTimerNotification@4
 RIMSetTestModeStatus;code;USER32.dll;_RIMSetTestModeStatus@4
 RealChildWindowFromPoint;code;USER32.dll;_RealChildWindowFromPoint@12
 RealGetWindowClass;code;USER32.dll;_RealGetWindowClass@12
@@ -667,6 +667,7 @@ SetPhysicalCursorPos;code;USER32.dll;_SetPhysicalCursorPos@8
 SetProcessDPIAware;code;USER32.dll;_SetProcessDPIAware@0
 SetProcessDefaultLayout;code;USER32.dll;_SetProcessDefaultLayout@4
 SetProcessDpiAwarenessContext;code;USER32.dll;_SetProcessDpiAwarenessContext@4
+SetProcessLaunchForegroundPolicy;code;USER32.dll;_SetProcessLaunchForegroundPolicy@8
 SetProcessRestrictionExemption;code;USER32.dll;_SetProcessRestrictionExemption@4
 SetProcessWindowStation;code;USER32.dll;_SetProcessWindowStation@4
 SetPropA;code;USER32.dll;_SetPropA@12
@@ -702,6 +703,7 @@ SetWindowsHookA;code;USER32.dll;_SetWindowsHookA@8
 SetWindowsHookExA;code;USER32.dll;_SetWindowsHookExA@16
 SetWindowsHookExW;code;USER32.dll;_SetWindowsHookExW@16
 SetWindowsHookW;code;USER32.dll;_SetWindowsHookW@8
+ShellSetWindowPos;code;USER32.dll;_ShellSetWindowPos@20
 ShowCaret;code;USER32.dll;_ShowCaret@4
 ShowCursor;code;USER32.dll;_ShowCursor@4
 ShowOwnedPopups;code;USER32.dll;_ShowOwnedPopups@8

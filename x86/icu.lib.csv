@@ -1,4 +1,10 @@
 Name;Type;DLL;SymbolOrOrdinal
+CloseDefaultICUGroupingLetters;code;icu.dll;_CloseDefaultICUGroupingLetters@8
+GetDefaultICUGroupingLetters;code;icu.dll;_GetDefaultICUGroupingLetters@12
+GetICUGroupingLetter;code;icu.dll;_GetICUGroupingLetter@16
+SortCloseHandle;code;icu.dll;_SortCloseHandle@4
+SortGetHandle;code;icu.dll;_SortGetHandle@12
+SortGetSearchKey;code;icu.dll;_SortGetSearchKey@24
 UCNV_FROM_U_CALLBACK_ESCAPE;code;icu.dll;_UCNV_FROM_U_CALLBACK_ESCAPE
 UCNV_FROM_U_CALLBACK_SKIP;code;icu.dll;_UCNV_FROM_U_CALLBACK_SKIP
 UCNV_FROM_U_CALLBACK_STOP;code;icu.dll;_UCNV_FROM_U_CALLBACK_STOP

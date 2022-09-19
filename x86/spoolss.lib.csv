@@ -158,6 +158,7 @@ ScheduleJob;code;SPOOLSS.DLL;_ScheduleJob@8
 SeekPrinter;code;SPOOLSS.DLL;_SeekPrinter@24
 SendRecvBidiData;code;SPOOLSS.DLL;_SendRecvBidiData@16
 SetFormW;code;SPOOLSS.DLL;_SetFormW@16
+SetJobNamedProperty;code;SPOOLSS.DLL;_SetJobNamedProperty@12
 SetJobW;code;SPOOLSS.DLL;_SetJobW@20
 SetPortW;code;SPOOLSS.DLL;_SetPortW@16
 SetPrinterDataExW;code;SPOOLSS.DLL;_SetPrinterDataExW@24

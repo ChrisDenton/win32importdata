@@ -411,12 +411,17 @@ LsaAddAccountRights;code;ADVAPI32.dll;_LsaAddAccountRights@16
 LsaAddPrivilegesToAccount;code;ADVAPI32.dll;_LsaAddPrivilegesToAccount@8
 LsaClearAuditLog;code;ADVAPI32.dll;_LsaClearAuditLog@4
 LsaClose;code;ADVAPI32.dll;_LsaClose@4
+LsaConfigureAutoLogonCredentials;code;ADVAPI32.dll;_LsaConfigureAutoLogonCredentials@0
 LsaCreateAccount;code;ADVAPI32.dll;_LsaCreateAccount@16
 LsaCreateSecret;code;ADVAPI32.dll;_LsaCreateSecret@16
 LsaCreateTrustedDomain;code;ADVAPI32.dll;_LsaCreateTrustedDomain@16
 LsaCreateTrustedDomainEx;code;ADVAPI32.dll;_LsaCreateTrustedDomainEx@20
 LsaDelete;code;ADVAPI32.dll;_LsaDelete@4
 LsaDeleteTrustedDomain;code;ADVAPI32.dll;_LsaDeleteTrustedDomain@8
+LsaDisablePasswordLessCurrentUser;code;ADVAPI32.dll;_LsaDisablePasswordLessCurrentUser@0
+LsaDisableUserArso;code;ADVAPI32.dll;_LsaDisableUserArso@4
+LsaEnablePasswordLessCurrentUser;code;ADVAPI32.dll;_LsaEnablePasswordLessCurrentUser@0
+LsaEnableUserArso;code;ADVAPI32.dll;_LsaEnableUserArso@4
 LsaEnumerateAccountRights;code;ADVAPI32.dll;_LsaEnumerateAccountRights@16
 LsaEnumerateAccounts;code;ADVAPI32.dll;_LsaEnumerateAccounts@20
 LsaEnumerateAccountsWithUserRight;code;ADVAPI32.dll;_LsaEnumerateAccountsWithUserRight@16
@@ -426,6 +431,7 @@ LsaEnumerateTrustedDomains;code;ADVAPI32.dll;_LsaEnumerateTrustedDomains@20
 LsaEnumerateTrustedDomainsEx;code;ADVAPI32.dll;_LsaEnumerateTrustedDomainsEx@20
 LsaFreeMemory;code;ADVAPI32.dll;_LsaFreeMemory@4
 LsaGetAppliedCAPIDs;code;ADVAPI32.dll;_LsaGetAppliedCAPIDs@12
+LsaGetDeviceRegistrationInfo;code;ADVAPI32.dll;_LsaGetDeviceRegistrationInfo@4
 LsaGetQuotasForAccount;code;ADVAPI32.dll;_LsaGetQuotasForAccount@8
 LsaGetRemoteUserName;code;ADVAPI32.dll;_LsaGetRemoteUserName@12
 LsaGetSystemAccessAccount;code;ADVAPI32.dll;_LsaGetSystemAccessAccount@8
@@ -434,6 +440,8 @@ LsaICLookupNames;code;ADVAPI32.dll;_LsaICLookupNames@40
 LsaICLookupNamesWithCreds;code;ADVAPI32.dll;_LsaICLookupNamesWithCreds@48
 LsaICLookupSids;code;ADVAPI32.dll;_LsaICLookupSids@36
 LsaICLookupSidsWithCreds;code;ADVAPI32.dll;_LsaICLookupSidsWithCreds@48
+LsaIsUserArsoAllowed;code;ADVAPI32.dll;_LsaIsUserArsoAllowed@4
+LsaIsUserArsoEnabled;code;ADVAPI32.dll;_LsaIsUserArsoEnabled@8
 LsaLookupNames2;code;ADVAPI32.dll;_LsaLookupNames2@24
 LsaLookupNames;code;ADVAPI32.dll;_LsaLookupNames@20
 LsaLookupPrivilegeDisplayName;code;ADVAPI32.dll;_LsaLookupPrivilegeDisplayName@16
@@ -449,6 +457,7 @@ LsaOpenPolicySce;code;ADVAPI32.dll;_LsaOpenPolicySce@16
 LsaOpenSecret;code;ADVAPI32.dll;_LsaOpenSecret@16
 LsaOpenTrustedDomain;code;ADVAPI32.dll;_LsaOpenTrustedDomain@16
 LsaOpenTrustedDomainByName;code;ADVAPI32.dll;_LsaOpenTrustedDomainByName@16
+LsaProfileDeleted;code;ADVAPI32.dll;_LsaProfileDeleted@4
 LsaQueryCAPs;code;ADVAPI32.dll;_LsaQueryCAPs@16
 LsaQueryDomainInformationPolicy;code;ADVAPI32.dll;_LsaQueryDomainInformationPolicy@12
 LsaQueryForestTrustInformation;code;ADVAPI32.dll;_LsaQueryForestTrustInformation@12
@@ -473,6 +482,7 @@ LsaSetSystemAccessAccount;code;ADVAPI32.dll;_LsaSetSystemAccessAccount@8
 LsaSetTrustedDomainInfoByName;code;ADVAPI32.dll;_LsaSetTrustedDomainInfoByName@16
 LsaSetTrustedDomainInformation;code;ADVAPI32.dll;_LsaSetTrustedDomainInformation@16
 LsaStorePrivateData;code;ADVAPI32.dll;_LsaStorePrivateData@12
+LsaValidateProcUniqueLuid;code;ADVAPI32.dll;_LsaValidateProcUniqueLuid@4
 MIDL_user_free_Ext;code;ADVAPI32.dll;_MIDL_user_free_Ext@4
 MSChapSrvChangePassword2;code;ADVAPI32.dll;_MSChapSrvChangePassword2@28
 MSChapSrvChangePassword;code;ADVAPI32.dll;_MSChapSrvChangePassword@28

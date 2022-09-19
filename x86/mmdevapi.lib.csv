@@ -11,6 +11,7 @@ _GetEndpointIdFromDeviceInterfaceId@8;code;MMDevAPI.DLL;18
 _GetNeverSetAsDefaultProperty@16;code;MMDevAPI.DLL;16
 _GetSessionIdFromEndpointId@4;code;MMDevAPI.DLL;9
 _InitializeDeviceAPI@0;code;MMDevAPI.DLL;3
+_MMDeviceCreateRegistryPropertyStore2@8;code;MMDevAPI.DLL;33
 _MMDeviceCreateRegistryPropertyStore@12;code;MMDevAPI.DLL;4
 _MMDeviceGetDeviceEnumerator@4;code;MMDevAPI.DLL;5
 _MMDeviceGetEndpointManager@4;code;MMDevAPI.DLL;6

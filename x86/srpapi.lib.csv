@@ -13,6 +13,8 @@ SrpGetAllowedEnterprises;code;srpapi.dll;_SrpGetAllowedEnterprises@12
 SrpGetAppxFqbnFromPackageFullName;code;srpapi.dll;_SrpGetAppxFqbnFromPackageFullName@8
 SrpGetEnterpriseIds;code;srpapi.dll;_SrpGetEnterpriseIds@16
 SrpGetEnterprisePolicy;code;srpapi.dll;_SrpGetEnterprisePolicy@8
+SrpHostingInitialize;code;srpapi.dll;_SrpHostingInitialize@16
+SrpHostingTerminate;code;srpapi.dll;_SrpHostingTerminate@4
 SrpInheritEnterpriseContext;code;srpapi.dll;_SrpInheritEnterpriseContext@16
 SrpInheritOriginClaim;code;srpapi.dll;_SrpInheritOriginClaim@12
 SrpIsAllowed;code;srpapi.dll;_SrpIsAllowed@4

@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+SHGetPropertyStoreForWindow;code;PROPSYS.dll;?SHGetPropertyStoreForWindow@@YAJPEAUHWND__@@AEBU_GUID@@PEAPEAX@Z (long __cdecl SHGetPropertyStoreForWindow(struct HWND__ *,struct _GUID const &,void * *))
 ClearPropVariantArray;code;PROPSYS.dll;
 ClearVariantArray;code;PROPSYS.dll;
 GetProxyDllInfo;code;PROPSYS.dll;3

@@ -4,6 +4,7 @@ AssocElemCreateForKey;code;SHELL32.dll;
 AssocGetDetailsOfPropKey;code;SHELL32.dll;
 CDefFolderMenu_Create2;code;SHELL32.dll;701
 CIDLData_CreateFromIDArray;code;SHELL32.dll;83
+CallFileCopyHook;code;SHELL32.dll;
 CheckEscapesW;code;SHELL32.dll;
 CommandLineToArgvW;code;SHELL32.dll;
 DAD_AutoScroll;code;SHELL32.dll;129
@@ -333,6 +334,7 @@ SHMapPIDLToSystemImageListIndex;code;SHELL32.dll;77
 SHMultiFileProperties;code;SHELL32.dll;716
 SHObjectProperties;code;SHELL32.dll;178
 SHOpenFolderAndSelectItems;code;SHELL32.dll;
+SHOpenOrGetFolderView;code;SHELL32.dll;
 SHOpenPropSheetW;code;SHELL32.dll;80
 SHOpenWithDialog;code;SHELL32.dll;
 SHParseDisplayName;code;SHELL32.dll;

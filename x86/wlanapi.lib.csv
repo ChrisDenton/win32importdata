@@ -41,6 +41,7 @@ WlanIhvControl;code;wlanapi.dll;_WlanIhvControl@32
 WlanOpenHandle;code;wlanapi.dll;_WlanOpenHandle@16
 WlanPrivateCanDeleteProfile;code;wlanapi.dll;_WlanPrivateCanDeleteProfile@16
 WlanPrivateDeleteProfile;code;wlanapi.dll;_WlanPrivateDeleteProfile@20
+WlanPrivateGetBssInfo;code;wlanapi.dll;_WlanPrivateGetBssInfo@20
 WlanPrivateQuery11adPairedConfig;code;wlanapi.dll;_WlanPrivateQuery11adPairedConfig@12
 WlanPrivateQueryInterface;code;wlanapi.dll;_WlanPrivateQueryInterface@20
 WlanPrivateSetInterface;code;wlanapi.dll;_WlanPrivateSetInterface@20

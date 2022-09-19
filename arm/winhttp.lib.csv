@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-WinHttpPacJsWorkerMain;code;WINHTTP.dll;?WinHttpPacJsWorkerMain@@YAKPBG0@Z (unsigned long __cdecl WinHttpPacJsWorkerMain(unsigned short const *,unsigned short const *))
 SvchostPushServiceGlobals;code;WINHTTP.dll;
 WinHttpAddRequestHeaders;code;WINHTTP.dll;
 WinHttpAddRequestHeadersEx;code;WINHTTP.dll;
@@ -41,8 +40,10 @@ WinHttpProbeConnectivity;code;WINHTTP.dll;
 WinHttpQueryAuthSchemes;code;WINHTTP.dll;
 WinHttpQueryDataAvailable;code;WINHTTP.dll;
 WinHttpQueryHeaders;code;WINHTTP.dll;
+WinHttpQueryHeadersEx;code;WINHTTP.dll;
 WinHttpQueryOption;code;WINHTTP.dll;
 WinHttpReadData;code;WINHTTP.dll;
+WinHttpReadDataEx;code;WINHTTP.dll;
 WinHttpReadProxySettings;code;WINHTTP.dll;
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;
 WinHttpReceiveResponse;code;WINHTTP.dll;

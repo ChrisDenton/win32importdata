@@ -125,4 +125,5 @@ ResUtilVerifyPrivatePropertyList;code;RESUTILS.dll;
 ResUtilVerifyPropertyTable;code;RESUTILS.dll;
 ResUtilVerifyResourceService;code;RESUTILS.dll;
 ResUtilVerifyService;code;RESUTILS.dll;
+ResUtilVerifyShutdownSafe;code;RESUTILS.dll;
 ResUtilsDeleteKeyTree;code;RESUTILS.dll;

@@ -149,12 +149,14 @@ D3DKMTGetProcessDeviceRemovalSupport;code;GDI32.dll;_D3DKMTGetProcessDeviceRemov
 D3DKMTGetProcessList;code;GDI32.dll;_D3DKMTGetProcessList@4
 D3DKMTGetProcessSchedulingPriorityBand;code;GDI32.dll;_D3DKMTGetProcessSchedulingPriorityBand@4
 D3DKMTGetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTGetProcessSchedulingPriorityClass@8
+D3DKMTGetProperties;code;GDI32.dll;_D3DKMTGetProperties@4
 D3DKMTGetResourcePresentPrivateDriverData;code;GDI32.dll;_D3DKMTGetResourcePresentPrivateDriverData@4
 D3DKMTGetRuntimeData;code;GDI32.dll;_D3DKMTGetRuntimeData@4
 D3DKMTGetScanLine;code;GDI32.dll;_D3DKMTGetScanLine@4
 D3DKMTGetSetSwapChainMetadata;code;GDI32.dll;_D3DKMTGetSetSwapChainMetadata@4
 D3DKMTGetSharedPrimaryHandle;code;GDI32.dll;_D3DKMTGetSharedPrimaryHandle@4
 D3DKMTGetSharedResourceAdapterLuid;code;GDI32.dll;_D3DKMTGetSharedResourceAdapterLuid@4
+D3DKMTGetSwapChainSurfacePhysicalAddress;code;GDI32.dll;_D3DKMTGetSwapChainSurfacePhysicalAddress@4
 D3DKMTGetYieldPercentage;code;GDI32.dll;_D3DKMTGetYieldPercentage@4
 D3DKMTInvalidateActiveVidPn;code;GDI32.dll;_D3DKMTInvalidateActiveVidPn@4
 D3DKMTInvalidateCache;code;GDI32.dll;_D3DKMTInvalidateCache@4
@@ -240,6 +242,7 @@ D3DKMTSetMonitorColorSpaceTransform;code;GDI32.dll;_D3DKMTSetMonitorColorSpaceTr
 D3DKMTSetProcessDeviceRemovalSupport;code;GDI32.dll;_D3DKMTSetProcessDeviceRemovalSupport@4
 D3DKMTSetProcessSchedulingPriorityBand;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityBand@4
 D3DKMTSetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityClass@8
+D3DKMTSetProperties;code;GDI32.dll;_D3DKMTSetProperties@4
 D3DKMTSetQueuedLimit;code;GDI32.dll;_D3DKMTSetQueuedLimit@4
 D3DKMTSetStablePowerState;code;GDI32.dll;_D3DKMTSetStablePowerState@4
 D3DKMTSetStereoEnabled;code;GDI32.dll;_D3DKMTSetStereoEnabled@4
@@ -595,6 +598,7 @@ UpdateICMRegKeyA;code;GDI32.dll;_UpdateICMRegKeyA@16
 UpdateICMRegKeyW;code;GDI32.dll;_UpdateICMRegKeyW@16
 WidenPath;code;GDI32.dll;_WidenPath@4
 fpClosePrinter;data;GDI32.dll;_fpClosePrinter
+gCookie;data;GDI32.dll;_gCookie
 gMaxGdiHandleCount;data;GDI32.dll;_gMaxGdiHandleCount
 gW32PID;data;GDI32.dll;_gW32PID
 g_systemCallFilterId;data;GDI32.dll;_g_systemCallFilterId

@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 AmsiCloseSession;code;Amsi.dll;_AmsiCloseSession@8
 AmsiInitialize;code;Amsi.dll;_AmsiInitialize@8
+AmsiNotifyOperation;code;Amsi.dll;_AmsiNotifyOperation@20
 AmsiOpenSession;code;Amsi.dll;_AmsiOpenSession@8
 AmsiScanBuffer;code;Amsi.dll;_AmsiScanBuffer@24
 AmsiScanString;code;Amsi.dll;_AmsiScanString@20

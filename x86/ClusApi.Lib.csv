@@ -10,6 +10,7 @@ AddClusterGroupDependency;code;CLUSAPI.dll;_AddClusterGroupDependency@8
 AddClusterGroupSetDependency;code;CLUSAPI.dll;_AddClusterGroupSetDependency@8
 AddClusterGroupToGroupSetDependency;code;CLUSAPI.dll;_AddClusterGroupToGroupSetDependency@8
 AddClusterNode;code;CLUSAPI.dll;_AddClusterNode@16
+AddClusterNodeEx;code;CLUSAPI.dll;_AddClusterNodeEx@20
 AddClusterResourceDependency;code;CLUSAPI.dll;_AddClusterResourceDependency@8
 AddClusterResourceNode;code;CLUSAPI.dll;_AddClusterResourceNode@8
 AddClusterStorageNode;code;CLUSAPI.dll;_AddClusterStorageNode@24

@@ -112,6 +112,7 @@ SslEnumEccCurves;code;ncrypt.dll;
 SslEnumProtocolProviders;code;ncrypt.dll;
 SslExpandBinderKey;code;ncrypt.dll;
 SslExpandExporterMasterKey;code;ncrypt.dll;
+SslExpandNextGenTrafficKey;code;ncrypt.dll;
 SslExpandPreSharedKey;code;ncrypt.dll;
 SslExpandResumptionMasterKey;code;ncrypt.dll;
 SslExpandTrafficKeys;code;ncrypt.dll;

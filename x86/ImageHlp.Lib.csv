@@ -2,6 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 SymAllocDiaString;code;imagehlp.dll;?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))
 SymFreeDiaString;code;imagehlp.dll;?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;imagehlp.dll;?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+SymGetDiaSource;code;imagehlp.dll;?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
 SymSetDiaSession;code;imagehlp.dll;?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 BindImage;code;imagehlp.dll;_BindImage@12
 BindImageEx;code;imagehlp.dll;_BindImageEx@20

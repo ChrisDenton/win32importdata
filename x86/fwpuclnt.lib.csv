@@ -14,8 +14,6 @@ FwpiVpnTriggerRemoveSecurityDescriptor;code;fwpuclnt.dll;_FwpiVpnTriggerRemoveSe
 FwpiVpnTriggerResetNrptTriggering;code;fwpuclnt.dll;_FwpiVpnTriggerResetNrptTriggering@4
 FwpiVpnTriggerSetStateDisconnected;code;fwpuclnt.dll;_FwpiVpnTriggerSetStateDisconnected@8
 FwpiVpnTriggerUninitializeNrptTriggering;code;fwpuclnt.dll;_FwpiVpnTriggerUninitializeNrptTriggering@4
-FwpmBitmapIndexFree0;code;fwpuclnt.dll;_FwpmBitmapIndexFree0@12
-FwpmBitmapIndexGet0;code;fwpuclnt.dll;_FwpmBitmapIndexGet0@12
 FwpmCalloutAdd0;code;fwpuclnt.dll;_FwpmCalloutAdd0@16
 FwpmCalloutCreateEnumHandle0;code;fwpuclnt.dll;_FwpmCalloutCreateEnumHandle0@12
 FwpmCalloutDeleteById0;code;fwpuclnt.dll;_FwpmCalloutDeleteById0@8
@@ -38,6 +36,8 @@ FwpmConnectionSetSecurityInfo0;code;fwpuclnt.dll;_FwpmConnectionSetSecurityInfo0
 FwpmConnectionSubscribe0;code;fwpuclnt.dll;_FwpmConnectionSubscribe0@20
 FwpmConnectionUnsubscribe0;code;fwpuclnt.dll;_FwpmConnectionUnsubscribe0@8
 FwpmDiagnoseNetFailure0;code;fwpuclnt.dll;_FwpmDiagnoseNetFailure0@12
+FwpmDynamicKeywordSubscribe0;code;fwpuclnt.dll;_FwpmDynamicKeywordSubscribe0@16
+FwpmDynamicKeywordUnsubscribe0;code;fwpuclnt.dll;_FwpmDynamicKeywordUnsubscribe0@4
 FwpmEngineClose0;code;fwpuclnt.dll;_FwpmEngineClose0@4
 FwpmEngineGetOption0;code;fwpuclnt.dll;_FwpmEngineGetOption0@12
 FwpmEngineGetSecurityInfo0;code;fwpuclnt.dll;_FwpmEngineGetSecurityInfo0@28
@@ -47,6 +47,7 @@ FwpmEngineSetSecurityInfo0;code;fwpuclnt.dll;_FwpmEngineSetSecurityInfo0@24
 FwpmEventProviderCreate0;code;fwpuclnt.dll;_FwpmEventProviderCreate0@8
 FwpmEventProviderDestroy0;code;fwpuclnt.dll;_FwpmEventProviderDestroy0@4
 FwpmEventProviderFireNetEvent0;code;fwpuclnt.dll;_FwpmEventProviderFireNetEvent0@16
+FwpmEventProviderFireNetEventEx0;code;fwpuclnt.dll;_FwpmEventProviderFireNetEventEx0@20
 FwpmEventProviderIsNetEventTypeEnabled0;code;fwpuclnt.dll;_FwpmEventProviderIsNetEventTypeEnabled0@12
 FwpmFilterAdd0;code;fwpuclnt.dll;_FwpmFilterAdd0@16
 FwpmFilterCreateEnumHandle0;code;fwpuclnt.dll;_FwpmFilterCreateEnumHandle0@12
@@ -64,10 +65,10 @@ FwpmFilterUnsubscribeChanges0;code;fwpuclnt.dll;_FwpmFilterUnsubscribeChanges0@8
 FwpmFreeMemory0;code;fwpuclnt.dll;_FwpmFreeMemory0@4
 FwpmGetAppIdFromFileName0;code;fwpuclnt.dll;_FwpmGetAppIdFromFileName0@8
 FwpmGetSidFromOnlineId0;code;fwpuclnt.dll;_FwpmGetSidFromOnlineId0@8
-FwpmIPsecS2STunnelAddConditions0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelAddConditions0@24
+FwpmIPsecS2STunnelAddConditions0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelAddConditions0@28
 FwpmIPsecS2STunnelAddInterfaceToCompartment0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelAddInterfaceToCompartment0@12
 FwpmIPsecS2STunnelGetInterfaceForCompartment0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelGetInterfaceForCompartment0@12
-FwpmIPsecS2STunnelRemoveConditions0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelRemoveConditions0@24
+FwpmIPsecS2STunnelRemoveConditions0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelRemoveConditions0@28
 FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0;code;fwpuclnt.dll;_FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0@8
 FwpmIPsecTunnelAdd0;code;fwpuclnt.dll;_FwpmIPsecTunnelAdd0@28
 FwpmIPsecTunnelAdd1;code;fwpuclnt.dll;_FwpmIPsecTunnelAdd1@32
@@ -83,6 +84,7 @@ FwpmLayerGetByKey0;code;fwpuclnt.dll;_FwpmLayerGetByKey0@12
 FwpmLayerGetSecurityInfoByKey0;code;fwpuclnt.dll;_FwpmLayerGetSecurityInfoByKey0@32
 FwpmLayerSetSecurityInfoByKey0;code;fwpuclnt.dll;_FwpmLayerSetSecurityInfoByKey0@28
 FwpmNetEventCreateEnumHandle0;code;fwpuclnt.dll;_FwpmNetEventCreateEnumHandle0@12
+FwpmNetEventCreateEnumHandleEx;code;fwpuclnt.dll;_FwpmNetEventCreateEnumHandleEx@16
 FwpmNetEventDestroyEnumHandle0;code;fwpuclnt.dll;_FwpmNetEventDestroyEnumHandle0@8
 FwpmNetEventEnum0;code;fwpuclnt.dll;_FwpmNetEventEnum0@20
 FwpmNetEventEnum1;code;fwpuclnt.dll;_FwpmNetEventEnum1@20

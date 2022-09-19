@@ -1,5 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 DispatchAPICall;code;WININET.dll;?DispatchAPICall@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DispatchAPICall(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+InternetSetSecureLegacyServersAppCompat;code;WININET.dll;?InternetSetSecureLegacyServersAppCompat@@YGXXZ (void __stdcall InternetSetSecureLegacyServersAppCompat(void))
 AppCacheCheckManifest;code;WININET.dll;_AppCacheCheckManifest@32
 AppCacheCloseHandle;code;WININET.dll;_AppCacheCloseHandle@4
 AppCacheCreateAndCommitFile;code;WININET.dll;_AppCacheCreateAndCommitFile@20

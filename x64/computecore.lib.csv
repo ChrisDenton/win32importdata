@@ -2,7 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 HcsEnumerateVmWorkerProcesses;code;computecore.dll;?HcsEnumerateVmWorkerProcesses@@YAJAEAV?$vector@U_GUID@@V?$allocator@U_GUID@@@std@@@std@@@Z (long __cdecl HcsEnumerateVmWorkerProcesses(class std::vector<struct _GUID,class std::allocator<struct _GUID> > &))
 HcsFindVmWorkerProcesses;code;computecore.dll;?HcsFindVmWorkerProcesses@@YAJAEBU_GUID@@0PEAPEAX@Z (long __cdecl HcsFindVmWorkerProcesses(struct _GUID const &,struct _GUID const &,void * *))
 HcsGetWorkerProcessJob;code;computecore.dll;?HcsGetWorkerProcessJob@@YAJPEAUHCS_SYSTEM__@@KKPEAPEAX@Z (long __cdecl HcsGetWorkerProcessJob(struct HCS_SYSTEM__ *,unsigned long,unsigned long,void * *))
-HcsStartVmWorkerProcess;code;computecore.dll;?HcsStartVmWorkerProcess@@YAJAEBU_GUID@@PEBGPEAXPEAUIVmSimpleTask@@0PEAPEAX@Z (long __cdecl HcsStartVmWorkerProcess(struct _GUID const &,unsigned short const *,void *,struct IVmSimpleTask *,struct _GUID const &,void * *))
+HcsStartVmWorkerProcess;code;computecore.dll;?HcsStartVmWorkerProcess@@YAJAEBU_GUID@@PEBGPEAXPEAUIVmSimpleTask@@PEAUIVmHandleBrokerManager@@0PEAPEAX@Z (long __cdecl HcsStartVmWorkerProcess(struct _GUID const &,unsigned short const *,void *,struct IVmSimpleTask *,struct IVmHandleBrokerManager *,struct _GUID const &,void * *))
 HcsCancelOperation;code;computecore.dll;
 HcsCloseComputeSystem;code;computecore.dll;
 HcsCloseOperation;code;computecore.dll;
@@ -26,6 +26,7 @@ HcsGetOperationType;code;computecore.dll;
 HcsGetProcessFromOperation;code;computecore.dll;
 HcsGetProcessInfo;code;computecore.dll;
 HcsGetProcessProperties;code;computecore.dll;
+HcsGetProcessorCompatibilityFromSavedState;code;computecore.dll;
 HcsGetServiceProperties;code;computecore.dll;
 HcsGrantVmAccess;code;computecore.dll;
 HcsGrantVmGroupAccess;code;computecore.dll;
@@ -50,5 +51,7 @@ HcsStartComputeSystem;code;computecore.dll;
 HcsSubmitWerReport;code;computecore.dll;
 HcsTerminateComputeSystem;code;computecore.dll;
 HcsTerminateProcess;code;computecore.dll;
+HcsWaitForComputeSystemExit;code;computecore.dll;
 HcsWaitForOperationResult;code;computecore.dll;
 HcsWaitForOperationResultAndProcessInfo;code;computecore.dll;
+HcsWaitForProcessExit;code;computecore.dll;

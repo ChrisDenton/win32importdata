@@ -198,8 +198,11 @@ JetGetObjectInfoA;code;ESENT.dll;_JetGetObjectInfoA@32
 JetGetObjectInfoW;code;ESENT.dll;_JetGetObjectInfoW@32
 JetGetPageInfo2;code;ESENT.dll;_JetGetPageInfo2@24
 JetGetPageInfo;code;ESENT.dll;_JetGetPageInfo@24
+JetGetRBSFileInfoA;code;ESENT.dll;_JetGetRBSFileInfoA@16
+JetGetRBSFileInfoW;code;ESENT.dll;_JetGetRBSFileInfoW@16
 JetGetRecordPosition;code;ESENT.dll;_JetGetRecordPosition@16
 JetGetRecordSize2;code;ESENT.dll;_JetGetRecordSize2@16
+JetGetRecordSize3;code;ESENT.dll;_JetGetRecordSize3@16
 JetGetRecordSize;code;ESENT.dll;_JetGetRecordSize@16
 JetGetResourceParam;code;ESENT.dll;_JetGetResourceParam@16
 JetGetSecondaryIndexBookmark;code;ESENT.dll;_JetGetSecondaryIndexBookmark@36

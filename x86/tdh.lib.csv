@@ -8,6 +8,7 @@ TdhEnumerateManifestProviderEvents;code;tdh.dll;_TdhEnumerateManifestProviderEve
 TdhEnumerateProviderFieldInformation;code;tdh.dll;_TdhEnumerateProviderFieldInformation@16
 TdhEnumerateProviderFilters;code;tdh.dll;_TdhEnumerateProviderFilters@24
 TdhEnumerateProviders;code;tdh.dll;_TdhEnumerateProviders@8
+TdhEnumerateProvidersForDecodingSource;code;tdh.dll;_TdhEnumerateProvidersForDecodingSource@16
 TdhFormatProperty;code;tdh.dll;_TdhFormatProperty@44
 TdhGetDecodingParameter;code;tdh.dll;_TdhGetDecodingParameter@8
 TdhGetEventInformation;code;tdh.dll;_TdhGetEventInformation@20

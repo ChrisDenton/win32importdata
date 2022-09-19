@@ -1,9 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
-BeginPanningFeedback;code;UxTheme.dll;?BeginPanningFeedback@@YGHPAUHWND__@@@Z (int __stdcall BeginPanningFeedback(struct HWND__ *))
-EndPanningFeedback;code;UxTheme.dll;?EndPanningFeedback@@YGHPAUHWND__@@H@Z (int __stdcall EndPanningFeedback(struct HWND__ *,int))
-UpdatePanningFeedback;code;UxTheme.dll;?UpdatePanningFeedback@@YGHPAUHWND__@@JJH@Z (int __stdcall UpdatePanningFeedback(struct HWND__ *,long,long,int))
 BeginBufferedAnimation;code;UxTheme.dll;_BeginBufferedAnimation@32
 BeginBufferedPaint;code;UxTheme.dll;_BeginBufferedPaint@20
+BeginPanningFeedback;code;UxTheme.dll;_BeginPanningFeedback@4
 BufferedPaintClear;code;UxTheme.dll;_BufferedPaintClear@8
 BufferedPaintInit;code;UxTheme.dll;_BufferedPaintInit@0
 BufferedPaintRenderAnimation;code;UxTheme.dll;_BufferedPaintRenderAnimation@8
@@ -23,6 +21,7 @@ EnableThemeDialogTexture;code;UxTheme.dll;_EnableThemeDialogTexture@8
 EnableTheming;code;UxTheme.dll;_EnableTheming@4
 EndBufferedAnimation;code;UxTheme.dll;_EndBufferedAnimation@8
 EndBufferedPaint;code;UxTheme.dll;_EndBufferedPaint@8
+EndPanningFeedback;code;UxTheme.dll;_EndPanningFeedback@8
 GetBufferedPaintBits;code;UxTheme.dll;_GetBufferedPaintBits@12
 GetBufferedPaintDC;code;UxTheme.dll;_GetBufferedPaintDC@4
 GetBufferedPaintTargetDC;code;UxTheme.dll;_GetBufferedPaintTargetDC@4
@@ -77,3 +76,4 @@ SetThemeAppProperties;code;UxTheme.dll;_SetThemeAppProperties@4
 SetWindowTheme;code;UxTheme.dll;_SetWindowTheme@12
 SetWindowThemeAttribute;code;UxTheme.dll;_SetWindowThemeAttribute@16
 ThemeInitApiHook;code;UxTheme.dll;_ThemeInitApiHook@8
+UpdatePanningFeedback;code;UxTheme.dll;_UpdatePanningFeedback@16

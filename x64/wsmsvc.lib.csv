@@ -2001,6 +2001,7 @@ Name;Type;DLL;SymbolOrOrdinal
 ?CHARSETS@PacketFormatter@@0QBUCharsetInfo@1@B;data;WsmSvc.DLL;
 ?ChangeLogging@CServiceConfigCache@@QEAAXW4ErrorLogging@@@Z;code;WsmSvc.DLL;
 ?CheckSharedSSLConfiguration@ConfigRegistry@@IEAAHPEAVIRequestContext@@PEBG1HPEAH@Z;code;WsmSvc.DLL;
+?Clear@?$SafeMap@PEAVCListenerOperation@@UEmpty@@V?$SafeSet_Iterator@PEAVCListenerOperation@@@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?Clear@?$SafeMap@UPluginKey@@KV?$SafeMap_Iterator@UPluginKey@@K@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?Clear@?$SafeMap@VStringKeyCI@@KV?$SafeMap_Iterator@VStringKeyCI@@K@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?Clear@?$SafeMap@VStringKeyCI@@UUSER_CONTEXT_INFO@WSManHttpListener@@V?$SafeMap_Iterator@VStringKeyCI@@UUSER_CONTEXT_INFO@WSManHttpListener@@@@@@QEAAXXZ;code;WsmSvc.DLL;
@@ -2623,7 +2624,6 @@ HandleMigration;code;WsmSvc.DLL;?HandleMigration@@YAHPEAVWSManMigrationContext@@
 ?IsEmpty@?$ILoader@VSubscriptionManager@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VUser32DllLoader@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VWSManMemCryptManager@@@@QEBA_NXZ;code;WsmSvc.DLL;
-?IsEmpty@?$SafeMap@PEAVCListenerOperation@@UEmpty@@V?$SafeSet_Iterator@PEAVCListenerOperation@@@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$SafeMap@VStringKeyCI@@KV?$SafeMap_Iterator@VStringKeyCI@@K@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$SafeMap@VStringKeyCI@@UEmpty@@V?$SafeSet_Iterator@VStringKeyCI@@@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEvent@SoapSemanticConverter@@QEAA_NPEAU_FWXML_ELEMENT@@@Z;code;WsmSvc.DLL;
@@ -3512,6 +3512,7 @@ WrapperCoSetProxyBlanket;code;WsmSvc.DLL;?WrapperCoSetProxyBlanket@@YAJPEAUIUnkn
 ?empty@?$SimpleQueue@T_LARGE_INTEGER@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?front@?$SimpleQueue@T_LARGE_INTEGER@@@@QEBA?BT_LARGE_INTEGER@@XZ;code;WsmSvc.DLL;
 ?g_Resources@Locale@@0V?$Loader@VResources@Locale@@$0A@@@A;data;WsmSvc.DLL;
+?getBufSync@BufferFormatter@@UEAAPEAVCWSManCriticalSection@@XZ;code;WsmSvc.DLL;
 ?isValid@?$SafeSet@PEAVCListenerOperation@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?m_migContext@ConfigRegistry@@2PEAVWSManMigrationContext@@EA;data;WsmSvc.DLL;
 ?pop@?$SimpleQueue@T_LARGE_INTEGER@@@@QEAAXXZ;code;WsmSvc.DLL;

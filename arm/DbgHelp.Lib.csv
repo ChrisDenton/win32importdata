@@ -2,6 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 SymAllocDiaString;code;dbghelp.dll;?SymAllocDiaString@@YAPAGPBG@Z (unsigned short * __cdecl SymAllocDiaString(unsigned short const *))
 SymFreeDiaString;code;dbghelp.dll;?SymFreeDiaString@@YAXPAG@Z (void __cdecl SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;dbghelp.dll;?SymGetDiaSession@@YAHPAX_KPAPAUIDiaSession@@@Z (int __cdecl SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+SymGetDiaSource;code;dbghelp.dll;?SymGetDiaSource@@YAHPAX_KPAPAUIDiaDataSource@@@Z (int __cdecl SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
 SymSetDiaSession;code;dbghelp.dll;?SymSetDiaSession@@YAHPAX_KPAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YAX_KK@Z (void __cdecl _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;

@@ -35,6 +35,8 @@ WinBioGetProperty;code;winbio.dll;_WinBioGetProperty@32
 WinBioIdentify;code;winbio.dll;_WinBioIdentify@20
 WinBioIdentifyAndReleaseTicket;code;winbio.dll;_WinBioIdentifyAndReleaseTicket@24
 WinBioIdentifyWithCallback;code;winbio.dll;_WinBioIdentifyWithCallback@12
+WinBioImproveBegin;code;winbio.dll;_WinBioImproveBegin@8
+WinBioImproveEnd;code;winbio.dll;_WinBioImproveEnd@4
 WinBioLocateSensor;code;winbio.dll;_WinBioLocateSensor@8
 WinBioLocateSensorWithCallback;code;winbio.dll;_WinBioLocateSensorWithCallback@12
 WinBioLockUnit;code;winbio.dll;_WinBioLockUnit@8

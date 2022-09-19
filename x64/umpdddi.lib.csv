@@ -83,6 +83,7 @@ XLATEOBJ_hGetColorTransform;code;GDI32.dll;
 XLATEOBJ_iXlate;code;GDI32.dll;
 XLATEOBJ_piVector;code;GDI32.dll;
 fpClosePrinter;data;GDI32.dll;
+gCookie;data;GDI32.dll;
 gMaxGdiHandleCount;data;GDI32.dll;
 gW32PID;data;GDI32.dll;
 g_systemCallFilterId;data;GDI32.dll;

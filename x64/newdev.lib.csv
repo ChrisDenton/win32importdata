@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-CheckDriverSoftwareDependenciesSatisfied;code;newdev.dll;
 DeviceInternetSettingUiW;code;newdev.dll;
 DiInstallDevice;code;newdev.dll;
 DiInstallDriverA;code;newdev.dll;

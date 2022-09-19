@@ -15,6 +15,7 @@ GetTypeByNameW;code;MSWSOCK.dll;
 MigrateWinsockConfiguration;code;MSWSOCK.dll;
 MigrateWinsockConfigurationEx;code;MSWSOCK.dll;
 NPLoadNameSpaces;code;MSWSOCK.dll;
+ProcessSocketNotifications;code;MSWSOCK.dll;
 SetServiceA;code;MSWSOCK.dll;
 SetServiceW;code;MSWSOCK.dll;
 TransmitFile;code;MSWSOCK.dll;

@@ -93,6 +93,7 @@ CryptXmlVerifySignature;code;CRYPTXML.dll;
 SymAllocDiaString;code;dbghelp.dll;?SymAllocDiaString@@YAPEAGPEBG@Z (unsigned short * __cdecl SymAllocDiaString(unsigned short const *))
 SymFreeDiaString;code;dbghelp.dll;?SymFreeDiaString@@YAXPEAG@Z (void __cdecl SymFreeDiaString(unsigned short *))
 SymGetDiaSession;code;dbghelp.dll;?SymGetDiaSession@@YAHPEAX_KPEAPEAUIDiaSession@@@Z (int __cdecl SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+SymGetDiaSource;code;dbghelp.dll;?SymGetDiaSource@@YAHPEAX_KPEAPEAUIDiaDataSource@@@Z (int __cdecl SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
 SymGetLineFromAddrEx;code;dbghelp.dll;?SymGetLineFromAddrEx@@YAHPEAX_KPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAKPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromAddrEx(void *,unsigned __int64,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,unsigned long *,struct _IMAGEHLP_LINE64 *))
 SymGetLineFromNameEx;code;dbghelp.dll;?SymGetLineFromNameEx@@YAHPEAXPEBD1KPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAJPEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineFromNameEx(void *,char const *,char const *,unsigned long,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,long *,struct _IMAGEHLP_LINE64 *))
 SymGetLineNextEx;code;dbghelp.dll;?SymGetLineNextEx@@YAHPEAXPEAU_IMAGEHLP_SOURCEREMAPPINGTOOLPREFS@@PEAU_IMAGEHLP_LINE64@@@Z (int __cdecl SymGetLineNextEx(void *,struct _IMAGEHLP_SOURCEREMAPPINGTOOLPREFS *,struct _IMAGEHLP_LINE64 *))
@@ -534,9 +535,12 @@ JetGetObjectInfoA;code;ESENT.dll;
 JetGetObjectInfoW;code;ESENT.dll;
 JetGetPageInfo;code;ESENT.dll;
 JetGetPageInfo2;code;ESENT.dll;
+JetGetRBSFileInfoA;code;ESENT.dll;
+JetGetRBSFileInfoW;code;ESENT.dll;
 JetGetRecordPosition;code;ESENT.dll;
 JetGetRecordSize;code;ESENT.dll;
 JetGetRecordSize2;code;ESENT.dll;
+JetGetRecordSize3;code;ESENT.dll;
 JetGetResourceParam;code;ESENT.dll;
 JetGetSecondaryIndexBookmark;code;ESENT.dll;
 JetGetSessionInfo;code;ESENT.dll;
@@ -1345,8 +1349,6 @@ FwpiVpnTriggerRemoveSecurityDescriptor;code;fwpuclnt.dll;
 FwpiVpnTriggerResetNrptTriggering;code;fwpuclnt.dll;
 FwpiVpnTriggerSetStateDisconnected;code;fwpuclnt.dll;
 FwpiVpnTriggerUninitializeNrptTriggering;code;fwpuclnt.dll;
-FwpmBitmapIndexFree0;code;fwpuclnt.dll;
-FwpmBitmapIndexGet0;code;fwpuclnt.dll;
 FwpmCalloutAdd0;code;fwpuclnt.dll;
 FwpmCalloutCreateEnumHandle0;code;fwpuclnt.dll;
 FwpmCalloutDeleteById0;code;fwpuclnt.dll;
@@ -1369,6 +1371,8 @@ FwpmConnectionSetSecurityInfo0;code;fwpuclnt.dll;
 FwpmConnectionSubscribe0;code;fwpuclnt.dll;
 FwpmConnectionUnsubscribe0;code;fwpuclnt.dll;
 FwpmDiagnoseNetFailure0;code;fwpuclnt.dll;
+FwpmDynamicKeywordSubscribe0;code;fwpuclnt.dll;
+FwpmDynamicKeywordUnsubscribe0;code;fwpuclnt.dll;
 FwpmEngineClose0;code;fwpuclnt.dll;
 FwpmEngineGetOption0;code;fwpuclnt.dll;
 FwpmEngineGetSecurityInfo0;code;fwpuclnt.dll;
@@ -1378,6 +1382,7 @@ FwpmEngineSetSecurityInfo0;code;fwpuclnt.dll;
 FwpmEventProviderCreate0;code;fwpuclnt.dll;
 FwpmEventProviderDestroy0;code;fwpuclnt.dll;
 FwpmEventProviderFireNetEvent0;code;fwpuclnt.dll;
+FwpmEventProviderFireNetEventEx0;code;fwpuclnt.dll;
 FwpmEventProviderIsNetEventTypeEnabled0;code;fwpuclnt.dll;
 FwpmFilterAdd0;code;fwpuclnt.dll;
 FwpmFilterCreateEnumHandle0;code;fwpuclnt.dll;
@@ -1414,6 +1419,7 @@ FwpmLayerGetByKey0;code;fwpuclnt.dll;
 FwpmLayerGetSecurityInfoByKey0;code;fwpuclnt.dll;
 FwpmLayerSetSecurityInfoByKey0;code;fwpuclnt.dll;
 FwpmNetEventCreateEnumHandle0;code;fwpuclnt.dll;
+FwpmNetEventCreateEnumHandleEx;code;fwpuclnt.dll;
 FwpmNetEventDestroyEnumHandle0;code;fwpuclnt.dll;
 FwpmNetEventEnum0;code;fwpuclnt.dll;
 FwpmNetEventEnum1;code;fwpuclnt.dll;
@@ -1709,6 +1715,7 @@ HttpCloseUrlGroup;code;HTTPAPI.dll;
 HttpControlService;code;HTTPAPI.dll;
 HttpCreateHttpHandle;code;HTTPAPI.dll;
 HttpCreateRequestQueue;code;HTTPAPI.dll;
+HttpCreateRequestQueueEx;code;HTTPAPI.dll;
 HttpCreateServerSession;code;HTTPAPI.dll;
 HttpCreateUrlGroup;code;HTTPAPI.dll;
 HttpDeclarePush;code;HTTPAPI.dll;
@@ -1721,6 +1728,7 @@ HttpFlushResponseCache;code;HTTPAPI.dll;
 HttpGetCounters;code;HTTPAPI.dll;
 HttpGetExtension;code;HTTPAPI.dll;
 HttpInitialize;code;HTTPAPI.dll;
+HttpIsFeatureSupported;code;HTTPAPI.dll;
 HttpPrepareUrl;code;HTTPAPI.dll;
 HttpQueryRequestProperty;code;HTTPAPI.dll;
 HttpQueryRequestQueueProperty;code;HTTPAPI.dll;
@@ -1735,6 +1743,7 @@ HttpRemoveUrl;code;HTTPAPI.dll;
 HttpRemoveUrlFromUrlGroup;code;HTTPAPI.dll;
 HttpSendHttpResponse;code;HTTPAPI.dll;
 HttpSendResponseEntityBody;code;HTTPAPI.dll;
+HttpSetRequestProperty;code;HTTPAPI.dll;
 HttpSetRequestQueueProperty;code;HTTPAPI.dll;
 HttpSetServerSessionProperty;code;HTTPAPI.dll;
 HttpSetServiceConfiguration;code;HTTPAPI.dll;
@@ -1962,6 +1971,7 @@ MprInfoDelete;code;MPRAPI.dll;
 MprInfoDuplicate;code;MPRAPI.dll;
 MprInfoRemoveAll;code;MPRAPI.dll;
 MprPortSetUsage;code;MPRAPI.dll;
+MprUpgradeRouterConfigHelper;code;MPRAPI.dll;
 RasPrivilegeAndCallBackNumber;code;MPRAPI.dll;
 ConvertGuidToString;code;NETSH.EXE;
 ConvertStringToGuid;code;NETSH.EXE;
@@ -2109,7 +2119,6 @@ DsaopUnBind;code;NTDSAPI.dll;
 ?NPEnumResource@@YAKPEAXPEAI01@Z (unsigned long __cdecl NPEnumResource(void *,unsigned int *,void *,unsigned int *));code;NTLANMAN.dll;34
 ?NPGetConnection@@YAKPEAG0PEAI@Z (unsigned long __cdecl NPGetConnection(unsigned short *,unsigned short *,unsigned int *));code;NTLANMAN.dll;12
 ?NPGetReconnectFlags@@YAKPEAGPEAE@Z (unsigned long __cdecl NPGetReconnectFlags(unsigned short *,unsigned char *));code;NTLANMAN.dll;53
-?NPGetUniversalName@@YAKPEBGKPEAXPEAI@Z (unsigned long __cdecl NPGetUniversalName(unsigned short const *,unsigned long,void *,unsigned int *));code;NTLANMAN.dll;40
 ?NPOpenEnum@@YAKIIIPEAU_NETRESOURCEW@@PEAPEAX@Z (unsigned long __cdecl NPOpenEnum(unsigned int,unsigned int,unsigned int,struct _NETRESOURCEW *,void * *));code;NTLANMAN.dll;33
 DllMain;code;NTLANMAN.dll;
 I_SystemFocusDialog;code;NTLANMAN.dll;
@@ -2117,6 +2126,7 @@ NPAddConnection;code;NTLANMAN.dll;17
 NPAddConnection3;code;NTLANMAN.dll;38
 NPAddConnection4;code;NTLANMAN.dll;55
 NPCancelConnection;code;NTLANMAN.dll;18
+NPCancelConnection2;code;NTLANMAN.dll;57
 NPCloseEnum;code;NTLANMAN.dll;35
 NPFormatNetworkName;code;NTLANMAN.dll;36
 NPGetCaps;code;NTLANMAN.dll;13
@@ -2125,6 +2135,7 @@ NPGetConnectionPerformance;code;NTLANMAN.dll;49
 NPGetPersistentUseOptionsForConnection;code;NTLANMAN.dll;56
 NPGetResourceInformation;code;NTLANMAN.dll;52
 NPGetResourceParent;code;NTLANMAN.dll;41
+NPGetUniversalName;code;NTLANMAN.dll;40
 NPGetUser;code;NTLANMAN.dll;16
 QueryAppInstanceVersion;code;NTLANMAN.dll;
 RegisterAppInstance;code;NTLANMAN.dll;
@@ -4859,6 +4870,7 @@ mssip32DllUnregisterServer;code;WINTRUST.dll;
 ?CHARSETS@PacketFormatter@@0QBUCharsetInfo@1@B;data;WsmSvc.DLL;
 ?ChangeLogging@CServiceConfigCache@@QEAAXW4ErrorLogging@@@Z;code;WsmSvc.DLL;
 ?CheckSharedSSLConfiguration@ConfigRegistry@@IEAAHPEAVIRequestContext@@PEBG1HPEAH@Z;code;WsmSvc.DLL;
+?Clear@?$SafeMap@PEAVCListenerOperation@@UEmpty@@V?$SafeSet_Iterator@PEAVCListenerOperation@@@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?Clear@?$SafeMap@UPluginKey@@KV?$SafeMap_Iterator@UPluginKey@@K@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?Clear@?$SafeMap@VStringKeyCI@@KV?$SafeMap_Iterator@VStringKeyCI@@K@@@@QEAAXXZ;code;WsmSvc.DLL;
 ?Clear@?$SafeMap@VStringKeyCI@@UUSER_CONTEXT_INFO@WSManHttpListener@@V?$SafeMap_Iterator@VStringKeyCI@@UUSER_CONTEXT_INFO@WSManHttpListener@@@@@@QEAAXXZ;code;WsmSvc.DLL;
@@ -5481,7 +5493,6 @@ HandleMigration;code;WsmSvc.DLL;?HandleMigration@@YAHPEAVWSManMigrationContext@@
 ?IsEmpty@?$ILoader@VSubscriptionManager@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VUser32DllLoader@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VWSManMemCryptManager@@@@QEBA_NXZ;code;WsmSvc.DLL;
-?IsEmpty@?$SafeMap@PEAVCListenerOperation@@UEmpty@@V?$SafeSet_Iterator@PEAVCListenerOperation@@@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$SafeMap@VStringKeyCI@@KV?$SafeMap_Iterator@VStringKeyCI@@K@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$SafeMap@VStringKeyCI@@UEmpty@@V?$SafeSet_Iterator@VStringKeyCI@@@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?IsEvent@SoapSemanticConverter@@QEAA_NPEAU_FWXML_ELEMENT@@@Z;code;WsmSvc.DLL;
@@ -6370,6 +6381,7 @@ WrapperCoSetProxyBlanket;code;WsmSvc.DLL;?WrapperCoSetProxyBlanket@@YAJPEAUIUnkn
 ?empty@?$SimpleQueue@T_LARGE_INTEGER@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?front@?$SimpleQueue@T_LARGE_INTEGER@@@@QEBA?BT_LARGE_INTEGER@@XZ;code;WsmSvc.DLL;
 ?g_Resources@Locale@@0V?$Loader@VResources@Locale@@$0A@@@A;data;WsmSvc.DLL;
+?getBufSync@BufferFormatter@@UEAAPEAVCWSManCriticalSection@@XZ;code;WsmSvc.DLL;
 ?isValid@?$SafeSet@PEAVCListenerOperation@@@@QEBA_NXZ;code;WsmSvc.DLL;
 ?m_migContext@ConfigRegistry@@2PEAVWSManMigrationContext@@EA;data;WsmSvc.DLL;
 ?pop@?$SimpleQueue@T_LARGE_INTEGER@@@@QEAAXXZ;code;WsmSvc.DLL;
@@ -6541,6 +6553,7 @@ AddClusterGroupDependency;code;CLUSAPI.dll;
 AddClusterGroupSetDependency;code;CLUSAPI.dll;
 AddClusterGroupToGroupSetDependency;code;CLUSAPI.dll;
 AddClusterNode;code;CLUSAPI.dll;
+AddClusterNodeEx;code;CLUSAPI.dll;
 AddClusterResourceDependency;code;CLUSAPI.dll;
 AddClusterResourceNode;code;CLUSAPI.dll;
 AddClusterStorageNode;code;CLUSAPI.dll;
@@ -7028,6 +7041,7 @@ ResUtilVerifyPrivatePropertyList;code;RESUTILS.dll;
 ResUtilVerifyPropertyTable;code;RESUTILS.dll;
 ResUtilVerifyResourceService;code;RESUTILS.dll;
 ResUtilVerifyService;code;RESUTILS.dll;
+ResUtilVerifyShutdownSafe;code;RESUTILS.dll;
 ResUtilsDeleteKeyTree;code;RESUTILS.dll;
 TcAddFilter;code;TRAFFIC.dll;
 TcAddFlow;code;TRAFFIC.dll;

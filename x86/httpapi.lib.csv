@@ -9,6 +9,7 @@ HttpCloseUrlGroup;code;HTTPAPI.dll;_HttpCloseUrlGroup@8
 HttpControlService;code;HTTPAPI.dll;_HttpControlService@20
 HttpCreateHttpHandle;code;HTTPAPI.dll;_HttpCreateHttpHandle@8
 HttpCreateRequestQueue;code;HTTPAPI.dll;_HttpCreateRequestQueue@20
+HttpCreateRequestQueueEx;code;HTTPAPI.dll;_HttpCreateRequestQueueEx@28
 HttpCreateServerSession;code;HTTPAPI.dll;_HttpCreateServerSession@12
 HttpCreateUrlGroup;code;HTTPAPI.dll;_HttpCreateUrlGroup@16
 HttpDeclarePush;code;HTTPAPI.dll;_HttpDeclarePush@28
@@ -21,6 +22,7 @@ HttpFlushResponseCache;code;HTTPAPI.dll;_HttpFlushResponseCache@16
 HttpGetCounters;code;HTTPAPI.dll;_HttpGetCounters@24
 HttpGetExtension;code;HTTPAPI.dll;_HttpGetExtension@16
 HttpInitialize;code;HTTPAPI.dll;_HttpInitialize@12
+HttpIsFeatureSupported;code;HTTPAPI.dll;_HttpIsFeatureSupported@4
 HttpPrepareUrl;code;HTTPAPI.dll;_HttpPrepareUrl@16
 HttpQueryRequestProperty;code;HTTPAPI.dll;_HttpQueryRequestProperty@40
 HttpQueryRequestQueueProperty;code;HTTPAPI.dll;_HttpQueryRequestQueueProperty@28
@@ -35,6 +37,7 @@ HttpRemoveUrl;code;HTTPAPI.dll;_HttpRemoveUrl@8
 HttpRemoveUrlFromUrlGroup;code;HTTPAPI.dll;_HttpRemoveUrlFromUrlGroup@16
 HttpSendHttpResponse;code;HTTPAPI.dll;_HttpSendHttpResponse@44
 HttpSendResponseEntityBody;code;HTTPAPI.dll;_HttpSendResponseEntityBody@44
+HttpSetRequestProperty;code;HTTPAPI.dll;_HttpSetRequestProperty@28
 HttpSetRequestQueueProperty;code;HTTPAPI.dll;_HttpSetRequestQueueProperty@24
 HttpSetServerSessionProperty;code;HTTPAPI.dll;_HttpSetServerSessionProperty@20
 HttpSetServiceConfiguration;code;HTTPAPI.dll;_HttpSetServiceConfiguration@20
