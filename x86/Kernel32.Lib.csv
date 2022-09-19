@@ -30,6 +30,7 @@ AttachConsole;code;KERNEL32.dll;_AttachConsole@4
 BackupRead;code;KERNEL32.dll;_BackupRead@28
 BackupSeek;code;KERNEL32.dll;_BackupSeek@24
 BackupWrite;code;KERNEL32.dll;_BackupWrite@28
+BaseGetNamedObjectDirectory;code;KERNEL32.dll;_BaseGetNamedObjectDirectory@4
 BaseSetLastNTError;code;KERNEL32.dll;_BaseSetLastNTError@4
 Beep;code;KERNEL32.dll;_Beep@8
 BeginUpdateResourceA;code;KERNEL32.dll;_BeginUpdateResourceA@8
@@ -198,6 +199,7 @@ DeviceIoControl;code;KERNEL32.dll;_DeviceIoControl@32
 DisableThreadLibraryCalls;code;KERNEL32.dll;_DisableThreadLibraryCalls@4
 DisableThreadProfiling;code;KERNEL32.dll;_DisableThreadProfiling@4
 DisassociateCurrentThreadFromCallback;code;KERNEL32.dll;_DisassociateCurrentThreadFromCallback@4
+DiscardVirtualMemory;code;KERNEL32.dll;_DiscardVirtualMemory@8
 DisconnectNamedPipe;code;KERNEL32.dll;_DisconnectNamedPipe@4
 DnsHostnameToComputerNameA;code;KERNEL32.dll;_DnsHostnameToComputerNameA@12
 DnsHostnameToComputerNameExW;code;KERNEL32.dll;_DnsHostnameToComputerNameExW@12
@@ -329,6 +331,7 @@ FreeEnvironmentStringsW;code;KERNEL32.dll;_FreeEnvironmentStringsW@4
 FreeLibrary;code;KERNEL32.dll;_FreeLibrary@4
 FreeLibraryAndExitThread;code;KERNEL32.dll;_FreeLibraryAndExitThread@8
 FreeLibraryWhenCallbackReturns;code;KERNEL32.dll;_FreeLibraryWhenCallbackReturns@8
+FreeMemoryJobObject;code;KERNEL32.dll;_FreeMemoryJobObject@4
 FreeResource;code;KERNEL32.dll;_FreeResource@4
 FreeUserPhysicalPages;code;KERNEL32.dll;_FreeUserPhysicalPages@12
 GenerateConsoleCtrlEvent;code;KERNEL32.dll;_GenerateConsoleCtrlEvent@8
@@ -551,6 +554,7 @@ GetPrivateProfileStructW;code;KERNEL32.dll;_GetPrivateProfileStructW@20
 GetProcAddress;code;KERNEL32.dll;_GetProcAddress@8
 GetProcessAffinityMask;code;KERNEL32.dll;_GetProcessAffinityMask@12
 GetProcessDEPPolicy;code;KERNEL32.dll;_GetProcessDEPPolicy@12
+GetProcessDefaultCpuSets;code;KERNEL32.dll;_GetProcessDefaultCpuSets@16
 GetProcessGroupAffinity;code;KERNEL32.dll;_GetProcessGroupAffinity@12
 GetProcessHandleCount;code;KERNEL32.dll;_GetProcessHandleCount@8
 GetProcessHeap;code;KERNEL32.dll;_GetProcessHeap@0
@@ -590,6 +594,7 @@ GetStringTypeExA;code;KERNEL32.dll;_GetStringTypeExA@20
 GetStringTypeExW;code;KERNEL32.dll;_GetStringTypeExW@20
 GetStringTypeW;code;KERNEL32.dll;_GetStringTypeW@16
 GetSystemAppDataKey;code;KERNEL32.dll;_GetSystemAppDataKey@16
+GetSystemCpuSetInformation;code;KERNEL32.dll;_GetSystemCpuSetInformation@20
 GetSystemDEPPolicy;code;KERNEL32.dll;_GetSystemDEPPolicy@0
 GetSystemDefaultLCID;code;KERNEL32.dll;_GetSystemDefaultLCID@0
 GetSystemDefaultLangID;code;KERNEL32.dll;_GetSystemDefaultLangID@0
@@ -630,6 +635,7 @@ GetThreadLocale;code;KERNEL32.dll;_GetThreadLocale@0
 GetThreadPreferredUILanguages;code;KERNEL32.dll;_GetThreadPreferredUILanguages@16
 GetThreadPriority;code;KERNEL32.dll;_GetThreadPriority@4
 GetThreadPriorityBoost;code;KERNEL32.dll;_GetThreadPriorityBoost@8
+GetThreadSelectedCpuSets;code;KERNEL32.dll;_GetThreadSelectedCpuSets@16
 GetThreadSelectorEntry;code;KERNEL32.dll;_GetThreadSelectorEntry@12
 GetThreadTimes;code;KERNEL32.dll;_GetThreadTimes@20
 GetThreadUILanguage;code;KERNEL32.dll;_GetThreadUILanguage@0
@@ -840,6 +846,7 @@ NormalizeString;code;KERNEL32.dll;_NormalizeString@20
 NotifyMountMgr;code;KERNEL32.dll;_NotifyMountMgr@12
 NotifyUILanguageChange;code;KERNEL32.dll;_NotifyUILanguageChange@20
 OOBEComplete;code;KERNEL32.dll;_OOBEComplete@4
+OfferVirtualMemory;code;KERNEL32.dll;_OfferVirtualMemory@12
 OpenEventA;code;KERNEL32.dll;_OpenEventA@12
 OpenEventW;code;KERNEL32.dll;_OpenEventW@12
 OpenFile;code;KERNEL32.dll;_OpenFile@12
@@ -908,6 +915,7 @@ QueryFullProcessImageNameW;code;KERNEL32.dll;_QueryFullProcessImageNameW@16
 QueryIdleProcessorCycleTime;code;KERNEL32.dll;_QueryIdleProcessorCycleTime@8
 QueryIdleProcessorCycleTimeEx;code;KERNEL32.dll;_QueryIdleProcessorCycleTimeEx@12
 QueryInformationJobObject;code;KERNEL32.dll;_QueryInformationJobObject@20
+QueryIoRateControlInformationJobObject;code;KERNEL32.dll;_QueryIoRateControlInformationJobObject@16
 QueryMemoryResourceNotification;code;KERNEL32.dll;_QueryMemoryResourceNotification@8
 QueryPerformanceCounter;code;KERNEL32.dll;_QueryPerformanceCounter@4
 QueryPerformanceFrequency;code;KERNEL32.dll;_QueryPerformanceFrequency@4
@@ -938,6 +946,7 @@ ReadFileEx;code;KERNEL32.dll;_ReadFileEx@20
 ReadFileScatter;code;KERNEL32.dll;_ReadFileScatter@20
 ReadProcessMemory;code;KERNEL32.dll;_ReadProcessMemory@20
 ReadThreadProfilingData;code;KERNEL32.dll;_ReadThreadProfilingData@12
+ReclaimVirtualMemory;code;KERNEL32.dll;_ReclaimVirtualMemory@8
 RegisterApplicationRecoveryCallback;code;KERNEL32.dll;_RegisterApplicationRecoveryCallback@16
 RegisterApplicationRestart;code;KERNEL32.dll;_RegisterApplicationRestart@8
 RegisterBadMemoryNotification;code;KERNEL32.dll;_RegisterBadMemoryNotification@4
@@ -979,6 +988,7 @@ RtlCaptureContext;code;KERNEL32.dll;_RtlCaptureContext@4
 RtlCaptureStackBackTrace;code;KERNEL32.dll;_RtlCaptureStackBackTrace@16
 RtlFillMemory;code;KERNEL32.dll;_RtlFillMemory@12
 RtlMoveMemory;code;KERNEL32.dll;_RtlMoveMemory@12
+RtlPcToFileHeader;code;KERNEL32.dll;_RtlPcToFileHeader@8
 RtlUnwind;code;KERNEL32.dll;_RtlUnwind@16
 RtlZeroMemory;code;KERNEL32.dll;_RtlZeroMemory@8
 ScrollConsoleScreenBufferA;code;KERNEL32.dll;_ScrollConsoleScreenBufferA@20
@@ -1055,6 +1065,7 @@ SetFirmwareEnvironmentVariableW;code;KERNEL32.dll;_SetFirmwareEnvironmentVariabl
 SetHandleCount;code;KERNEL32.dll;_SetHandleCount@4
 SetHandleInformation;code;KERNEL32.dll;_SetHandleInformation@12
 SetInformationJobObject;code;KERNEL32.dll;_SetInformationJobObject@16
+SetIoRateControlInformationJobObject;code;KERNEL32.dll;_SetIoRateControlInformationJobObject@8
 SetLastError;code;KERNEL32.dll;_SetLastError@4
 SetLocalPrimaryComputerNameA;code;KERNEL32.dll;_SetLocalPrimaryComputerNameA@8
 SetLocalPrimaryComputerNameW;code;KERNEL32.dll;_SetLocalPrimaryComputerNameW@8
@@ -1069,6 +1080,7 @@ SetPriorityClass;code;KERNEL32.dll;_SetPriorityClass@8
 SetProcessAffinityMask;code;KERNEL32.dll;_SetProcessAffinityMask@8
 SetProcessAffinityUpdateMode;code;KERNEL32.dll;_SetProcessAffinityUpdateMode@8
 SetProcessDEPPolicy;code;KERNEL32.dll;_SetProcessDEPPolicy@4
+SetProcessDefaultCpuSets;code;KERNEL32.dll;_SetProcessDefaultCpuSets@12
 SetProcessInformation;code;KERNEL32.dll;_SetProcessInformation@16
 SetProcessMitigationPolicy;code;KERNEL32.dll;_SetProcessMitigationPolicy@12
 SetProcessPreferredUILanguages;code;KERNEL32.dll;_SetProcessPreferredUILanguages@12
@@ -1098,6 +1110,7 @@ SetThreadLocale;code;KERNEL32.dll;_SetThreadLocale@4
 SetThreadPreferredUILanguages;code;KERNEL32.dll;_SetThreadPreferredUILanguages@12
 SetThreadPriority;code;KERNEL32.dll;_SetThreadPriority@8
 SetThreadPriorityBoost;code;KERNEL32.dll;_SetThreadPriorityBoost@8
+SetThreadSelectedCpuSets;code;KERNEL32.dll;_SetThreadSelectedCpuSets@12
 SetThreadStackGuarantee;code;KERNEL32.dll;_SetThreadStackGuarantee@4
 SetThreadUILanguage;code;KERNEL32.dll;_SetThreadUILanguage@4
 SetThreadpoolStackInformation;code;KERNEL32.dll;_SetThreadpoolStackInformation@8
@@ -1185,6 +1198,7 @@ VirtualUnlock;code;KERNEL32.dll;_VirtualUnlock@8
 WTSGetActiveConsoleSessionId;code;KERNEL32.dll;_WTSGetActiveConsoleSessionId@0
 WaitCommEvent;code;KERNEL32.dll;_WaitCommEvent@12
 WaitForDebugEvent;code;KERNEL32.dll;_WaitForDebugEvent@8
+WaitForDebugEventEx;code;KERNEL32.dll;_WaitForDebugEventEx@8
 WaitForMultipleObjects;code;KERNEL32.dll;_WaitForMultipleObjects@16
 WaitForMultipleObjectsEx;code;KERNEL32.dll;_WaitForMultipleObjectsEx@20
 WaitForSingleObject;code;KERNEL32.dll;_WaitForSingleObject@8

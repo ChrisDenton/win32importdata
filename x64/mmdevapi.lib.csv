@@ -15,3 +15,12 @@ MMDeviceGetEndpointManager;code;MMDevAPI.DLL;6
 MMDeviceGetPolicyConfig;code;MMDevAPI.DLL;14
 RegisterForMediaCallback;code;MMDevAPI.DLL;10
 UnregisterMediaCallback;code;MMDevAPI.DLL;11
+mmdDevFindMmDevProperty;code;MMDevAPI.DLL;19
+mmdDevGetInstanceIdFromInterfaceId;code;MMDevAPI.DLL;26
+mmdDevGetInterfaceClassGuid;code;MMDevAPI.DLL;24
+mmdDevGetInterfaceDataFlow;code;MMDevAPI.DLL;22
+mmdDevGetInterfaceIdFromMMDevice;code;MMDevAPI.DLL;21
+mmdDevGetInterfacePropertyStore;code;MMDevAPI.DLL;20
+mmdDevGetMMDeviceFromInterfaceId;code;MMDevAPI.DLL;23
+mmdDevGetMMDeviceIdFromInterfaceId;code;MMDevAPI.DLL;25
+mmdDevGetRelatedInterfaceId;code;MMDevAPI.DLL;27

@@ -4,6 +4,7 @@ RtwqAllocateSerialWorkQueue;code;RTWorkQ.DLL;_RtwqAllocateSerialWorkQueue@8
 RtwqAllocateWorkQueue;code;RTWorkQ.DLL;_RtwqAllocateWorkQueue@8
 RtwqBeginRegisterWorkQueueWithMMCSS;code;RTWorkQ.DLL;_RtwqBeginRegisterWorkQueueWithMMCSS@24
 RtwqBeginUnregisterWorkQueueWithMMCSS;code;RTWorkQ.DLL;_RtwqBeginUnregisterWorkQueueWithMMCSS@12
+RtwqCancelDeadline;code;RTWorkQ.DLL;_RtwqCancelDeadline@4
 RtwqCancelWorkItem;code;RTWorkQ.DLL;_RtwqCancelWorkItem@8
 RtwqCreateAsyncResult;code;RTWorkQ.DLL;_RtwqCreateAsyncResult@16
 RtwqEndRegisterWorkQueueWithMMCSS;code;RTWorkQ.DLL;_RtwqEndRegisterWorkQueueWithMMCSS@8
@@ -22,6 +23,7 @@ RtwqRegisterPlatformEvents;code;RTWorkQ.DLL;_RtwqRegisterPlatformEvents@4
 RtwqRegisterPlatformWithMMCSS;code;RTWorkQ.DLL;_RtwqRegisterPlatformWithMMCSS@12
 RtwqRemovePeriodicCallback;code;RTWorkQ.DLL;_RtwqRemovePeriodicCallback@4
 RtwqScheduleWorkItem;code;RTWorkQ.DLL;_RtwqScheduleWorkItem@16
+RtwqSetDeadline;code;RTWorkQ.DLL;_RtwqSetDeadline@16
 RtwqSetLongRunning;code;RTWorkQ.DLL;_RtwqSetLongRunning@8
 RtwqShutdown;code;RTWorkQ.DLL;_RtwqShutdown@0
 RtwqStartup;code;RTWorkQ.DLL;_RtwqStartup@0

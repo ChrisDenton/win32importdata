@@ -83,6 +83,7 @@ CertGetValidUsages;code;CRYPT32.dll;_CertGetValidUsages@20
 CertIsRDNAttrsInCertificateName;code;CRYPT32.dll;_CertIsRDNAttrsInCertificateName@16
 CertIsStrongHashToSign;code;CRYPT32.dll;_CertIsStrongHashToSign@12
 CertIsValidCRLForCertificate;code;CRYPT32.dll;_CertIsValidCRLForCertificate@16
+CertIsWeakHash;code;CRYPT32.dll;_CertIsWeakHash@24
 CertNameToStrA;code;CRYPT32.dll;_CertNameToStrA@20
 CertNameToStrW;code;CRYPT32.dll;_CertNameToStrW@20
 CertOIDToAlgId;code;CRYPT32.dll;_CertOIDToAlgId@4

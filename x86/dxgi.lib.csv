@@ -1,5 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
 DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YGXP6GXPBD@Z@Z (void __stdcall DXGIDumpJournal(void (__stdcall*)(char const *)))
+PIXBeginCapture;code;dxgi.dll;?PIXBeginCapture@@YGJIPAX@Z (long __stdcall PIXBeginCapture(unsigned int,void *))
+PIXEndCapture;code;dxgi.dll;?PIXEndCapture@@YGJH@Z (long __stdcall PIXEndCapture(int))
+PIXGetCaptureState;code;dxgi.dll;?PIXGetCaptureState@@YGIXZ (unsigned int __stdcall PIXGetCaptureState(void))
 CreateDXGIFactory1;code;dxgi.dll;_CreateDXGIFactory1@8
 CreateDXGIFactory2;code;dxgi.dll;_CreateDXGIFactory2@12
 CreateDXGIFactory;code;dxgi.dll;_CreateDXGIFactory@8

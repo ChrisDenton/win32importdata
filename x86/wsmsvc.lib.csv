@@ -29,7 +29,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0?$AutoCleanup@V?$AutoDelete@VCWSManResource@@@@PAVCWSManResource@@@@QAE@PAVCWSManResource@@@Z;code;WsmSvc.DLL;
 ??0?$AutoCleanup@V?$AutoDelete@VCertHash@@@@PAVCertHash@@@@QAE@PAVCertHash@@@Z;code;WsmSvc.DLL;
 ??0?$AutoCleanup@V?$AutoDelete@VConfigUpdate@@@@PAVConfigUpdate@@@@QAE@PAVConfigUpdate@@@Z;code;WsmSvc.DLL;
-??0?$AutoCleanup@V?$AutoDelete@VCredUIDllLoader@@@@PAVCredUIDllLoader@@@@QAE@PAVCredUIDllLoader@@@Z;code;WsmSvc.DLL;
 ??0?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@QAE@PAVEnumSinkEx@@@Z;code;WsmSvc.DLL;
 ??0?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$AutoCleanup@V?$AutoDelete@VEventHandler@WSMan@@@@PAVEventHandler@WSMan@@@@QAE@PAVEventHandler@WSMan@@@Z;code;WsmSvc.DLL;
@@ -240,7 +239,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0?$AutoDelete@VCertHash@@@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$AutoDelete@VConfigUpdate@@@@QAE@PAVConfigUpdate@@@Z;code;WsmSvc.DLL;
 ??0?$AutoDelete@VConfigUpdate@@@@QAE@XZ;code;WsmSvc.DLL;
-??0?$AutoDelete@VCredUIDllLoader@@@@QAE@PAVCredUIDllLoader@@@Z;code;WsmSvc.DLL;
 ??0?$AutoDelete@VEnumSinkEx@@@@QAE@PAVEnumSinkEx@@@Z;code;WsmSvc.DLL;
 ??0?$AutoDelete@VEnumSinkEx@@@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$AutoDelete@VEventHandler@WSMan@@@@QAE@PAVEventHandler@WSMan@@@Z;code;WsmSvc.DLL;
@@ -399,7 +397,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0?$AutoReleaseEx@VHostMappingTableEntry@@@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$AutoReleaseEx@VShell@Client@WSMan@@@@QAE@PAVShell@Client@WSMan@@@Z;code;WsmSvc.DLL;
 ??0?$ILoader@VAdminSid@CSecurity@@@@QAE@P8AdminSid@CSecurity@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
-??0?$ILoader@VCredUIDllLoader@@@@QAE@P8CredUIDllLoader@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$ILoader@VEventHandler@WSMan@@@@QAE@P8EventHandler@WSMan@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$ILoader@VInteractiveSid@CSecurity@@@@QAE@P8InteractiveSid@CSecurity@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$ILoader@VIpHlpApiDllLoader@@@@QAE@P8IpHlpApiDllLoader@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
@@ -413,7 +410,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0?$ILoader@VUser32DllLoader@@@@QAE@P8User32DllLoader@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$ILoader@VWSManMemCryptManager@@@@QAE@P8WSManMemCryptManager@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$Loader@VAdminSid@CSecurity@@$00@@QAE@XZ;code;WsmSvc.DLL;
-??0?$Loader@VCredUIDllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$Loader@VEventHandler@WSMan@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$Loader@VInteractiveSid@CSecurity@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$Loader@VIpHlpApiDllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
@@ -426,7 +422,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??0?$Loader@VUser32DllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$Loader@VWSManMemCryptManager@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??0?$LoaderSerializer@VAdminSid@CSecurity@@$00@@QAE@P8AdminSid@CSecurity@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
-??0?$LoaderSerializer@VCredUIDllLoader@@$00@@QAE@P8CredUIDllLoader@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$LoaderSerializer@VEventHandler@WSMan@@$00@@QAE@P8EventHandler@WSMan@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$LoaderSerializer@VInteractiveSid@CSecurity@@$00@@QAE@P8InteractiveSid@CSecurity@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
 ??0?$LoaderSerializer@VIpHlpApiDllLoader@@$00@@QAE@P8IpHlpApiDllLoader@@AE_NAAVIRequestContext@@@Z1@Z;code;WsmSvc.DLL;
@@ -634,7 +629,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1?$AutoCleanup@V?$AutoDelete@VCWSManResource@@@@PAVCWSManResource@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@V?$AutoDelete@VCertHash@@@@PAVCertHash@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@V?$AutoDelete@VConfigUpdate@@@@PAVConfigUpdate@@@@QAE@XZ;code;WsmSvc.DLL;
-??1?$AutoCleanup@V?$AutoDelete@VCredUIDllLoader@@@@PAVCredUIDllLoader@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@V?$AutoDelete@VEventHandler@WSMan@@@@PAVEventHandler@WSMan@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoCleanup@V?$AutoDelete@VExpiredOperationIdRecord@@@@PAVExpiredOperationIdRecord@@@@QAE@XZ;code;WsmSvc.DLL;
@@ -813,7 +807,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1?$AutoDelete@VCWSManResource@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoDelete@VCertHash@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoDelete@VConfigUpdate@@@@QAE@XZ;code;WsmSvc.DLL;
-??1?$AutoDelete@VCredUIDllLoader@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoDelete@VEnumSinkEx@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoDelete@VEventHandler@WSMan@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoDelete@VExpiredOperationIdRecord@@@@QAE@XZ;code;WsmSvc.DLL;
@@ -935,7 +928,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1?$AutoReleaseEx@VHostMappingTableEntry@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$AutoReleaseEx@VShell@Client@WSMan@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$ILoader@VAdminSid@CSecurity@@@@QAE@XZ;code;WsmSvc.DLL;
-??1?$ILoader@VCredUIDllLoader@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$ILoader@VEventHandler@WSMan@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$ILoader@VInteractiveSid@CSecurity@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$ILoader@VIpHlpApiDllLoader@@@@QAE@XZ;code;WsmSvc.DLL;
@@ -949,7 +941,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1?$ILoader@VUser32DllLoader@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$ILoader@VWSManMemCryptManager@@@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$Loader@VAdminSid@CSecurity@@$00@@QAE@XZ;code;WsmSvc.DLL;
-??1?$Loader@VCredUIDllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$Loader@VEventHandler@WSMan@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$Loader@VInteractiveSid@CSecurity@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$Loader@VIpHlpApiDllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
@@ -963,7 +954,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??1?$Loader@VUser32DllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$Loader@VWSManMemCryptManager@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$LoaderSerializer@VAdminSid@CSecurity@@$00@@QAE@XZ;code;WsmSvc.DLL;
-??1?$LoaderSerializer@VCredUIDllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$LoaderSerializer@VEventHandler@WSMan@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$LoaderSerializer@VInteractiveSid@CSecurity@@$00@@QAE@XZ;code;WsmSvc.DLL;
 ??1?$LoaderSerializer@VIpHlpApiDllLoader@@$00@@QAE@XZ;code;WsmSvc.DLL;
@@ -1459,7 +1449,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ??B?$AutoCleanup@V?$AutoDelete@VCWSManResource@@@@PAVCWSManResource@@@@QAEPAVCWSManResource@@XZ;code;WsmSvc.DLL;
 ??B?$AutoCleanup@V?$AutoDelete@VCertHash@@@@PAVCertHash@@@@QAEPAVCertHash@@XZ;code;WsmSvc.DLL;
 ??B?$AutoCleanup@V?$AutoDelete@VConfigUpdate@@@@PAVConfigUpdate@@@@QAEPAVConfigUpdate@@XZ;code;WsmSvc.DLL;
-??B?$AutoCleanup@V?$AutoDelete@VCredUIDllLoader@@@@PAVCredUIDllLoader@@@@QAEPAVCredUIDllLoader@@XZ;code;WsmSvc.DLL;
 ??B?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@QAEPAVEnumSinkEx@@XZ;code;WsmSvc.DLL;
 ??B?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@QBEQAVEnumSinkEx@@XZ;code;WsmSvc.DLL;
 ??B?$AutoCleanup@V?$AutoDelete@VEventHandler@WSMan@@@@PAVEventHandler@WSMan@@@@QAEPAVEventHandler@WSMan@@XZ;code;WsmSvc.DLL;
@@ -2025,7 +2014,6 @@ Name;Type;DLL;SymbolOrOrdinal
 ?CreateAnEvent@SoapSemanticConverter@@QAEKKPAVSemanticMessage@@AAVBufferFormatter@@PAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?CreateAutoConfiguredListener@CConfigManager@@AAEHPAVIRequestContext@@PAVLISTENER_IDENTITY@@@Z;code;WsmSvc.DLL;
 ?CreateInstance@?$ILoader@VAdminSid@CSecurity@@@@IAE_NAAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?CreateInstance@?$ILoader@VCredUIDllLoader@@@@IAE_NAAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?CreateInstance@?$ILoader@VEventHandler@WSMan@@@@IAE_NAAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?CreateInstance@?$ILoader@VInteractiveSid@CSecurity@@@@IAE_NAAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?CreateInstance@?$ILoader@VIpHlpApiDllLoader@@@@IAE_NAAVIRequestContext@@@Z;code;WsmSvc.DLL;
@@ -2100,7 +2088,7 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?DeInitialize@CWSManGroupPolicyManager@@AAEHXZ;code;WsmSvc.DLL;
 ?DeInitialize@EventHandler@WSMan@@QAE_NAAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?Debug@ExtendedSemantic@@2KB;data;WsmSvc.DLL;
-?Decode@PacketFormatter@@QBEKPAPAVPacket@@@Z;code;WsmSvc.DLL;
+?Decode@PacketFormatter@@QBEKPAPAVPacket@@_N@Z;code;WsmSvc.DLL;
 ?DecodeFaultObject@CRequestContext@@AAEKPAU_FWXML_ELEMENT@@AAPBG11@Z;code;WsmSvc.DLL;
 ?DecodeFaultObject@CRequestContext@@AAEKPBGKAAPBG11@Z;code;WsmSvc.DLL;
 ?DecodeFaultObjectProvider@CRequestContext@@AAEKPAU_FWXML_ELEMENT@@AAPBG1@Z;code;WsmSvc.DLL;
@@ -2131,7 +2119,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?Detach@?$AutoCleanup@V?$AutoDelete@VCWSManResource@@@@PAVCWSManResource@@@@QAEPAVCWSManResource@@XZ;code;WsmSvc.DLL;
 ?Detach@?$AutoCleanup@V?$AutoDelete@VCertHash@@@@PAVCertHash@@@@QAEPAVCertHash@@XZ;code;WsmSvc.DLL;
 ?Detach@?$AutoCleanup@V?$AutoDelete@VConfigUpdate@@@@PAVConfigUpdate@@@@QAEPAVConfigUpdate@@XZ;code;WsmSvc.DLL;
-?Detach@?$AutoCleanup@V?$AutoDelete@VCredUIDllLoader@@@@PAVCredUIDllLoader@@@@QAEPAVCredUIDllLoader@@XZ;code;WsmSvc.DLL;
 ?Detach@?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@QAEPAVEnumSinkEx@@XZ;code;WsmSvc.DLL;
 ?Detach@?$AutoCleanup@V?$AutoDelete@VEventHandler@WSMan@@@@PAVEventHandler@WSMan@@@@QAEPAVEventHandler@WSMan@@XZ;code;WsmSvc.DLL;
 ?Detach@?$AutoCleanup@V?$AutoDelete@VExpiredOperationIdRecord@@@@PAVExpiredOperationIdRecord@@@@QAEPAVExpiredOperationIdRecord@@XZ;code;WsmSvc.DLL;
@@ -2250,7 +2237,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?Free@WSManMemory@@SGXPAXH@Z;code;WsmSvc.DLL;
 ?FreeBstr@WSManMemory@@SGXPAGHH@Z;code;WsmSvc.DLL;
 ?FreeInstance@?$ILoader@VAdminSid@CSecurity@@@@QAE_NAAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
-?FreeInstance@?$ILoader@VCredUIDllLoader@@@@QAE_NAAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
 ?FreeInstance@?$ILoader@VEventHandler@WSMan@@@@QAE_NAAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
 ?FreeInstance@?$ILoader@VInteractiveSid@CSecurity@@@@QAE_NAAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
 ?FreeInstance@?$ILoader@VIpHlpApiDllLoader@@@@QAE_NAAVIRequestContext@@_N@Z;code;WsmSvc.DLL;
@@ -2350,7 +2336,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?GetInheritTypes@CWSManSecurityUI@@UAGJPAPAU_SI_INHERIT_TYPE@@PAK@Z;code;WsmSvc.DLL;
 ?GetInitError@CWSManCriticalSection@@QBEKXZ;code;WsmSvc.DLL;
 ?GetInstance@?$LoaderSerializer@VAdminSid@CSecurity@@$00@@QAEPAVAdminSid@CSecurity@@AAVIRequestContext@@@Z;code;WsmSvc.DLL;
-?GetInstance@?$LoaderSerializer@VCredUIDllLoader@@$00@@QAEPAVCredUIDllLoader@@AAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?GetInstance@?$LoaderSerializer@VEventHandler@WSMan@@$00@@QAEPAVEventHandler@WSMan@@AAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?GetInstance@?$LoaderSerializer@VInteractiveSid@CSecurity@@$00@@QAEPAVInteractiveSid@CSecurity@@AAVIRequestContext@@@Z;code;WsmSvc.DLL;
 ?GetInstance@?$LoaderSerializer@VIpHlpApiDllLoader@@$00@@QAEPAVIpHlpApiDllLoader@@AAVIRequestContext@@@Z;code;WsmSvc.DLL;
@@ -2449,7 +2434,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?GetNotUnderstandHeader@PacketParser@@QBEABVNotUnderstandSoapHeader@1@XZ;code;WsmSvc.DLL;
 ?GetObjectInformation@CWSManSecurityUI@@UAGJPAU_SI_OBJECT_INFO@@@Z;code;WsmSvc.DLL;
 ?GetObjectW@?$ILoader@VAdminSid@CSecurity@@@@IBEPAVAdminSid@CSecurity@@XZ;code;WsmSvc.DLL;
-?GetObjectW@?$ILoader@VCredUIDllLoader@@@@IBEPAVCredUIDllLoader@@XZ;code;WsmSvc.DLL;
 ?GetObjectW@?$ILoader@VEventHandler@WSMan@@@@IBEPAVEventHandler@WSMan@@XZ;code;WsmSvc.DLL;
 ?GetObjectW@?$ILoader@VInteractiveSid@CSecurity@@@@IBEPAVInteractiveSid@CSecurity@@XZ;code;WsmSvc.DLL;
 ?GetObjectW@?$ILoader@VIpHlpApiDllLoader@@@@IBEPAVIpHlpApiDllLoader@@XZ;code;WsmSvc.DLL;
@@ -2620,7 +2604,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?IsEPR@CWSManEPR@@UAEHXZ;code;WsmSvc.DLL;
 ?IsEPR@CWSManResourceNoResourceUri@@UAEHXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VAdminSid@CSecurity@@@@QBE_NXZ;code;WsmSvc.DLL;
-?IsEmpty@?$ILoader@VCredUIDllLoader@@@@QBE_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VEventHandler@WSMan@@@@QBE_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VInteractiveSid@CSecurity@@@@QBE_NXZ;code;WsmSvc.DLL;
 ?IsEmpty@?$ILoader@VIpHlpApiDllLoader@@@@QBE_NXZ;code;WsmSvc.DLL;
@@ -2749,7 +2732,6 @@ CreateProvHost;code;WsmSvc.DLL;?CreateProvHost@@YGPAXPAUHWND__@@PAK1PAJ@Z (void 
 ?Me@?$AutoCleanup@V?$AutoDelete@VCWSManResource@@@@PAVCWSManResource@@@@AAEAAV?$AutoDelete@VCWSManResource@@@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@V?$AutoDelete@VCertHash@@@@PAVCertHash@@@@AAEAAV?$AutoDelete@VCertHash@@@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@V?$AutoDelete@VConfigUpdate@@@@PAVConfigUpdate@@@@AAEAAV?$AutoDelete@VConfigUpdate@@@@XZ;code;WsmSvc.DLL;
-?Me@?$AutoCleanup@V?$AutoDelete@VCredUIDllLoader@@@@PAVCredUIDllLoader@@@@AAEAAV?$AutoDelete@VCredUIDllLoader@@@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@AAEAAV?$AutoDelete@VEnumSinkEx@@@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@V?$AutoDelete@VEventHandler@WSMan@@@@PAVEventHandler@WSMan@@@@AAEAAV?$AutoDelete@VEventHandler@WSMan@@@@XZ;code;WsmSvc.DLL;
 ?Me@?$AutoCleanup@V?$AutoDelete@VExpiredOperationIdRecord@@@@PAVExpiredOperationIdRecord@@@@AAEAAV?$AutoDelete@VExpiredOperationIdRecord@@@@XZ;code;WsmSvc.DLL;
@@ -3133,7 +3115,6 @@ RegisterModule;code;WsmSvc.DLL;?RegisterModule@@YGJKPAVIHttpModuleRegistrationIn
 ?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VCWSManResource@@@@PAVCWSManResource@@@@AAEXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VCertHash@@@@PAVCertHash@@@@AAEXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VConfigUpdate@@@@PAVConfigUpdate@@@@AAEXXZ;code;WsmSvc.DLL;
-?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VCredUIDllLoader@@@@PAVCredUIDllLoader@@@@AAEXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VEnumSinkEx@@@@PAVEnumSinkEx@@@@AAEXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VEventHandler@WSMan@@@@PAVEventHandler@WSMan@@@@AAEXXZ;code;WsmSvc.DLL;
 ?ReleasePtr@?$AutoCleanup@V?$AutoDelete@VExpiredOperationIdRecord@@@@PAVExpiredOperationIdRecord@@@@AAEXXZ;code;WsmSvc.DLL;

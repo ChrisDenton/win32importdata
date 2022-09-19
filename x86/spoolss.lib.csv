@@ -17,6 +17,7 @@ AddMonitorW;code;SPOOLSS.DLL;_AddMonitorW@12
 AddPerMachineConnectionW;code;SPOOLSS.DLL;_AddPerMachineConnectionW@16
 AddPortExW;code;SPOOLSS.DLL;_AddPortExW@16
 AddPortW;code;SPOOLSS.DLL;_AddPortW@12
+AddPrintDeviceObject;code;SPOOLSS.DLL;_AddPrintDeviceObject@8
 AddPrintProcessorW;code;SPOOLSS.DLL;_AddPrintProcessorW@16
 AddPrintProvidorW;code;SPOOLSS.DLL;_AddPrintProvidorW@12
 AddPrinterConnectionW;code;SPOOLSS.DLL;_AddPrinterConnectionW@4
@@ -45,6 +46,7 @@ ClosePrinter;code;SPOOLSS.DLL;_ClosePrinter@4
 ConfigurePortW;code;SPOOLSS.DLL;_ConfigurePortW@12
 CreatePrinterIC;code;SPOOLSS.DLL;_CreatePrinterIC@8
 DeleteFormW;code;SPOOLSS.DLL;_DeleteFormW@8
+DeleteJobNamedProperty;code;SPOOLSS.DLL;_DeleteJobNamedProperty@12
 DeleteMonitorW;code;SPOOLSS.DLL;_DeleteMonitorW@12
 DeletePerMachineConnectionW;code;SPOOLSS.DLL;_DeletePerMachineConnectionW@8
 DeletePortW;code;SPOOLSS.DLL;_DeletePortW@12
@@ -84,9 +86,11 @@ FlushPrinter;code;SPOOLSS.DLL;_FlushPrinter@20
 FormatPrinterForRegistryKey;code;SPOOLSS.DLL;_FormatPrinterForRegistryKey@12
 FormatRegistryKeyForPrinter;code;SPOOLSS.DLL;_FormatRegistryKeyForPrinter@12
 FreeOtherNames;code;SPOOLSS.DLL;_FreeOtherNames@8
+FreePrintPropertyValue;code;SPOOLSS.DLL;_FreePrintPropertyValue@4
 GetFormW;code;SPOOLSS.DLL;_GetFormW@24
 GetJobAttributes;code;SPOOLSS.DLL;_GetJobAttributes@12
 GetJobAttributesEx;code;SPOOLSS.DLL;_GetJobAttributesEx@24
+GetJobNamedPropertyValue;code;SPOOLSS.DLL;_GetJobNamedPropertyValue@16
 GetJobW;code;SPOOLSS.DLL;_GetJobW@24
 GetNetworkId;code;SPOOLSS.DLL;_GetNetworkId@8
 GetPrintProcessorDirectoryW;code;SPOOLSS.DLL;_GetPrintProcessorDirectoryW@24
@@ -127,6 +131,7 @@ ReadPrinter;code;SPOOLSS.DLL;_ReadPrinter@16
 ReallocSplMem;code;SPOOLSS.DLL;_ReallocSplMem@12
 ReallocSplStr;code;SPOOLSS.DLL;_ReallocSplStr@8
 RemoteFindFirstPrinterChangeNotification;code;SPOOLSS.DLL;_RemoteFindFirstPrinterChangeNotification@28
+RemovePrintDeviceObject;code;SPOOLSS.DLL;_RemovePrintDeviceObject@4
 ReplyClosePrinter;code;SPOOLSS.DLL;_ReplyClosePrinter@4
 ReplyOpenPrinter;code;SPOOLSS.DLL;_ReplyOpenPrinter@20
 ReplyPrinterChangeNotification;code;SPOOLSS.DLL;_ReplyPrinterChangeNotification@16
@@ -190,7 +195,9 @@ StartPagePrinter;code;SPOOLSS.DLL;_StartPagePrinter@4
 UndoAlignKMPtr;code;SPOOLSS.DLL;_UndoAlignKMPtr@8
 UndoAlignRpcPtr;code;SPOOLSS.DLL;_UndoAlignRpcPtr@16
 UpdateBufferSize;code;SPOOLSS.DLL;_UpdateBufferSize@24
+UpdatePrintDeviceObject;code;SPOOLSS.DLL;_UpdatePrintDeviceObject@8
 UpdatePrinterRegAll;code;SPOOLSS.DLL;_UpdatePrinterRegAll@16
+UpdatePrinterRegAllEx;code;SPOOLSS.DLL;_UpdatePrinterRegAllEx@20
 UpdatePrinterRegUser;code;SPOOLSS.DLL;_UpdatePrinterRegUser@20
 WaitForPrinterChange;code;SPOOLSS.DLL;_WaitForPrinterChange@8
 WaitForSpoolerInitialization;code;SPOOLSS.DLL;_WaitForSpoolerInitialization@0

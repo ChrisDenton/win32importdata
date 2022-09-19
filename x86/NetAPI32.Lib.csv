@@ -93,6 +93,8 @@ NetErrorLogWrite;code;NETAPI32.dll;_NetErrorLogWrite@32
 NetFileClose;code;NETAPI32.dll;_NetFileClose@8
 NetFileEnum;code;NETAPI32.dll;_NetFileEnum@36
 NetFileGetInfo;code;NETAPI32.dll;_NetFileGetInfo@16
+NetFreeAadJoinInformation;code;NETAPI32.dll;_NetFreeAadJoinInformation@4
+NetGetAadJoinInformation;code;NETAPI32.dll;_NetGetAadJoinInformation@8
 NetGetAnyDCName;code;NETAPI32.dll;_NetGetAnyDCName@12
 NetGetDCName;code;NETAPI32.dll;_NetGetDCName@12
 NetGetDisplayInformationIndex;code;NETAPI32.dll;_NetGetDisplayInformationIndex@16

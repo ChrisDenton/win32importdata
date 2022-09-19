@@ -33,6 +33,7 @@ DsFreeDomainControllerInfoA;code;NTDSAPI.dll;_DsFreeDomainControllerInfoA@12
 DsFreeDomainControllerInfoW;code;NTDSAPI.dll;_DsFreeDomainControllerInfoW@12
 DsFreeNameResultA;code;NTDSAPI.dll;_DsFreeNameResultA@4
 DsFreeNameResultW;code;NTDSAPI.dll;_DsFreeNameResultW@4
+DsFreeNgcKey;code;NTDSAPI.dll;_DsFreeNgcKey@4
 DsFreePasswordCredentials;code;NTDSAPI.dll;_DsFreePasswordCredentials@4
 DsFreeSchemaGuidMapA;code;NTDSAPI.dll;_DsFreeSchemaGuidMapA@4
 DsFreeSchemaGuidMapW;code;NTDSAPI.dll;_DsFreeSchemaGuidMapW@4
@@ -77,6 +78,8 @@ DsQuerySitesByCostW;code;NTDSAPI.dll;_DsQuerySitesByCostW@24
 DsQuerySitesFree;code;NTDSAPI.dll;_DsQuerySitesFree@4
 DsQuoteRdnValueA;code;NTDSAPI.dll;_DsQuoteRdnValueA@16
 DsQuoteRdnValueW;code;NTDSAPI.dll;_DsQuoteRdnValueW@16
+DsReadNgcKeyA;code;NTDSAPI.dll;_DsReadNgcKeyA@16
+DsReadNgcKeyW;code;NTDSAPI.dll;_DsReadNgcKeyW@16
 DsRemoveDsDomainA;code;NTDSAPI.dll;_DsRemoveDsDomainA@8
 DsRemoveDsDomainW;code;NTDSAPI.dll;_DsRemoveDsDomainW@8
 DsRemoveDsServerA;code;NTDSAPI.dll;_DsRemoveDsServerA@20
@@ -108,6 +111,8 @@ DsUnquoteRdnValueA;code;NTDSAPI.dll;_DsUnquoteRdnValueA@16
 DsUnquoteRdnValueW;code;NTDSAPI.dll;_DsUnquoteRdnValueW@16
 DsWriteAccountSpnA;code;NTDSAPI.dll;_DsWriteAccountSpnA@20
 DsWriteAccountSpnW;code;NTDSAPI.dll;_DsWriteAccountSpnW@20
+DsWriteNgcKeyA;code;NTDSAPI.dll;_DsWriteNgcKeyA@16
+DsWriteNgcKeyW;code;NTDSAPI.dll;_DsWriteNgcKeyW@16
 DsaopBind;code;NTDSAPI.dll;_DsaopBind@20
 DsaopBindWithCred;code;NTDSAPI.dll;_DsaopBindWithCred@24
 DsaopBindWithSpn;code;NTDSAPI.dll;_DsaopBindWithSpn@28

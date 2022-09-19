@@ -2,6 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 CCHlpAddNodeUpdateCluster;code;CLUSAPI.dll;?CCHlpAddNodeUpdateCluster@@YGJPAU_HCLUSTER@@PA_WPAK@Z (long __stdcall CCHlpAddNodeUpdateCluster(struct _HCLUSTER *,wchar_t *,unsigned long *))
 CCHlpConfigureNode;code;CLUSAPI.dll;?CCHlpConfigureNode@@YGKV?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@KU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@std@@@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@1AAV?$vector@EV?$allocator@E@std@@@2@11111PAKAAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@_NK@Z (unsigned long __stdcall CCHlpConfigureNode(class std::map<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,unsigned long,struct std::less<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >,class std::allocator<struct std::pair<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const ,unsigned long> > >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,unsigned long *,class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > &,bool,unsigned long))
 CCHlpCreateClusterNameCOIfNotExists;code;CLUSAPI.dll;?CCHlpCreateClusterNameCOIfNotExists@@YGKPB_W000000HHPAH1AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@22@Z (unsigned long __stdcall CCHlpCreateClusterNameCOIfNotExists(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,int,int,int *,int *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &))
+CCHlpCreateClusterNameInAD;code;CLUSAPI.dll;?CCHlpCreateClusterNameInAD@@YGKPB_W000HPAPAVClusterNameADClusterState@@@Z (unsigned long __stdcall CCHlpCreateClusterNameInAD(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,int,class ClusterNameADClusterState * *))
 CCHlpGetClusterServiceSecret;code;CLUSAPI.dll;?CCHlpGetClusterServiceSecret@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetClusterServiceSecret(wchar_t const *,wchar_t * *))
 CCHlpGetDNSHostLabel;code;CLUSAPI.dll;?CCHlpGetDNSHostLabel@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetDNSHostLabel(wchar_t const *,wchar_t * *))
 CCHlpRestoreClusterVirtualObjectToInitialState;code;CLUSAPI.dll;?CCHlpRestoreClusterVirtualObjectToInitialState@@YGKPA_W00H@Z (unsigned long __stdcall CCHlpRestoreClusterVirtualObjectToInitialState(wchar_t *,wchar_t *,wchar_t *,int))
@@ -20,6 +21,14 @@ CloseClusterNetwork;code;CLUSAPI.dll;_CloseClusterNetwork@4
 CloseClusterNode;code;CLUSAPI.dll;_CloseClusterNode@4
 CloseClusterNotifyPort;code;CLUSAPI.dll;_CloseClusterNotifyPort@4
 CloseClusterResource;code;CLUSAPI.dll;_CloseClusterResource@4
+CluFreeFaultDomainInfo;code;CLUSAPI.dll;_CluFreeFaultDomainInfo@4
+CluFreeGuidArrayPtr;code;CLUSAPI.dll;_CluFreeGuidArrayPtr@4
+CluFreeStr;code;CLUSAPI.dll;_CluFreeStr@4
+CluGetDriveInfo;code;CLUSAPI.dll;_CluGetDriveInfo@16
+CluGetFaultDomainObject;code;CLUSAPI.dll;_CluGetFaultDomainObject@16
+CluGetFaultDomainObjects;code;CLUSAPI.dll;_CluGetFaultDomainObjects@12
+CluRemoveFaultDomainObject;code;CLUSAPI.dll;_CluRemoveFaultDomainObject@12
+ClusterCaptureLiveDump;code;CLUSAPI.dll;_ClusterCaptureLiveDump@100
 ClusterCloseEnum;code;CLUSAPI.dll;_ClusterCloseEnum@4
 ClusterCloseEnumEx;code;CLUSAPI.dll;_ClusterCloseEnumEx@4
 ClusterControl;code;CLUSAPI.dll;_ClusterControl@32
@@ -63,6 +72,7 @@ ClusterRegCloseBatchEx;code;CLUSAPI.dll;_ClusterRegCloseBatchEx@12
 ClusterRegCloseBatchNotifyPort;code;CLUSAPI.dll;_ClusterRegCloseBatchNotifyPort@4
 ClusterRegCloseKey;code;CLUSAPI.dll;_ClusterRegCloseKey@4
 ClusterRegCloseReadBatch;code;CLUSAPI.dll;_ClusterRegCloseReadBatch@8
+ClusterRegCloseReadBatchEx;code;CLUSAPI.dll;_ClusterRegCloseReadBatchEx@12
 ClusterRegCloseReadBatchReply;code;CLUSAPI.dll;_ClusterRegCloseReadBatchReply@4
 ClusterRegCreateBatch;code;CLUSAPI.dll;_ClusterRegCreateBatch@8
 ClusterRegCreateBatchNotifyPort;code;CLUSAPI.dll;_ClusterRegCreateBatchNotifyPort@8
@@ -90,6 +100,7 @@ ClusterRegSyncDatabase;code;CLUSAPI.dll;_ClusterRegSyncDatabase@8
 ClusterResourceCloseEnum;code;CLUSAPI.dll;_ClusterResourceCloseEnum@4
 ClusterResourceCloseEnumEx;code;CLUSAPI.dll;_ClusterResourceCloseEnumEx@4
 ClusterResourceControl;code;CLUSAPI.dll;_ClusterResourceControl@32
+ClusterResourceControlAsUser;code;CLUSAPI.dll;_ClusterResourceControlAsUser@32
 ClusterResourceEnum;code;CLUSAPI.dll;_ClusterResourceEnum@20
 ClusterResourceEnumEx;code;CLUSAPI.dll;_ClusterResourceEnumEx@16
 ClusterResourceGetEnumCount;code;CLUSAPI.dll;_ClusterResourceGetEnumCount@4
@@ -98,17 +109,22 @@ ClusterResourceOpenEnum;code;CLUSAPI.dll;_ClusterResourceOpenEnum@8
 ClusterResourceOpenEnumEx;code;CLUSAPI.dll;_ClusterResourceOpenEnumEx@24
 ClusterResourceTypeCloseEnum;code;CLUSAPI.dll;_ClusterResourceTypeCloseEnum@4
 ClusterResourceTypeControl;code;CLUSAPI.dll;_ClusterResourceTypeControl@36
+ClusterResourceTypeControlAsUser;code;CLUSAPI.dll;_ClusterResourceTypeControlAsUser@36
 ClusterResourceTypeEnum;code;CLUSAPI.dll;_ClusterResourceTypeEnum@20
 ClusterResourceTypeGetEnumCount;code;CLUSAPI.dll;_ClusterResourceTypeGetEnumCount@4
 ClusterResourceTypeOpenEnum;code;CLUSAPI.dll;_ClusterResourceTypeOpenEnum@12
 ClusterSendReceiveMrr;code;CLUSAPI.dll;_ClusterSendReceiveMrr@40
+ClusterSendReceiveMrrAsUser;code;CLUSAPI.dll;_ClusterSendReceiveMrrAsUser@40
 ClusterSharedVolumeClearBackupState;code;CLUSAPI.dll;_ClusterSharedVolumeClearBackupState@4
 ClusterSharedVolumeSetSnapshotState;code;CLUSAPI.dll;_ClusterSharedVolumeSetSnapshotState@24
 ClusterStmFindDisk;code;CLUSAPI.dll;_ClusterStmFindDisk@24
+ClusterUpgradeFunctionalLevel;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevel@16
+ClusterUpgradeFunctionalLevelEx;code;CLUSAPI.dll;_ClusterUpgradeFunctionalLevelEx@20
 CreateCluster;code;CLUSAPI.dll;_CreateCluster@12
 CreateClusterGroup;code;CLUSAPI.dll;_CreateClusterGroup@8
 CreateClusterGroupEx;code;CLUSAPI.dll;_CreateClusterGroupEx@12
 CreateClusterManagementPoint;code;CLUSAPI.dll;_CreateClusterManagementPoint@20
+CreateClusterNameAccount;code;CLUSAPI.dll;_CreateClusterNameAccount@16
 CreateClusterNotifyPort;code;CLUSAPI.dll;_CreateClusterNotifyPort@16
 CreateClusterNotifyPortV2;code;CLUSAPI.dll;_CreateClusterNotifyPortV2@20
 CreateClusterResource;code;CLUSAPI.dll;_CreateClusterResource@16
@@ -179,6 +195,7 @@ PauseClusterNode;code;CLUSAPI.dll;_PauseClusterNode@4
 PauseClusterNodeEx;code;CLUSAPI.dll;_PauseClusterNodeEx@16
 RegisterClusterNotify;code;CLUSAPI.dll;_RegisterClusterNotify@16
 RegisterClusterNotifyV2;code;CLUSAPI.dll;_RegisterClusterNotifyV2@28
+RegisterClusterResourceTypeNotifyV2;code;CLUSAPI.dll;_RegisterClusterResourceTypeNotifyV2@24
 RemoveClusterResourceDependency;code;CLUSAPI.dll;_RemoveClusterResourceDependency@8
 RemoveClusterResourceNode;code;CLUSAPI.dll;_RemoveClusterResourceNode@8
 RemoveResourceFromClusterSharedVolumes;code;CLUSAPI.dll;_RemoveResourceFromClusterSharedVolumes@4

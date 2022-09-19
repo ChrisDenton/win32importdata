@@ -14,6 +14,7 @@ MFCancelWorkItem;code;MFPlat.DLL;_MFCancelWorkItem@8
 MFCompareFullToPartialMediaType;code;MFPlat.DLL;_MFCompareFullToPartialMediaType@8
 MFCreateAMMediaTypeFromMFMediaType;code;MFPlat.DLL;_MFCreateAMMediaTypeFromMFMediaType@24
 MFCreateAlignedMemoryBuffer;code;MFPlat.DLL;_MFCreateAlignedMemoryBuffer@12
+MFCreateAlignedSharedMemoryBuffer;code;MFPlat.DLL;_MFCreateAlignedSharedMemoryBuffer@20
 MFCreateAsyncResult;code;MFPlat.DLL;_MFCreateAsyncResult@16
 MFCreateAttributes;code;MFPlat.DLL;_MFCreateAttributes@8
 MFCreateAudioMediaType;code;MFPlat.DLL;_MFCreateAudioMediaType@8

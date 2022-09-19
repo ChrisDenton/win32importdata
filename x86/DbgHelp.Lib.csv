@@ -1,4 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
+SymFreeDiaString;code;dbghelp.dll;?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
+SymGetDiaSession;code;dbghelp.dll;?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+_EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YGX_KK@Z (void __stdcall _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;_DbgHelpCreateUserDump@12
 DbgHelpCreateUserDumpW;code;dbghelp.dll;_DbgHelpCreateUserDumpW@12
 EnumDirTree;code;dbghelp.dll;_EnumDirTree@24

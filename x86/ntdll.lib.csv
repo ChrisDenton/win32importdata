@@ -43,6 +43,7 @@ DbgSetDebugFilterState;code;ntdll.dll;_DbgSetDebugFilterState@12
 DbgUiConnectToDbg;code;ntdll.dll;_DbgUiConnectToDbg@0
 DbgUiContinue;code;ntdll.dll;_DbgUiContinue@8
 DbgUiConvertStateChangeStructure;code;ntdll.dll;_DbgUiConvertStateChangeStructure@8
+DbgUiConvertStateChangeStructureEx;code;ntdll.dll;_DbgUiConvertStateChangeStructureEx@8
 DbgUiDebugActiveProcess;code;ntdll.dll;_DbgUiDebugActiveProcess@4
 DbgUiGetThreadDebugObject;code;ntdll.dll;_DbgUiGetThreadDebugObject@0
 DbgUiIssueRemoteBreakin;code;ntdll.dll;_DbgUiIssueRemoteBreakin@4
@@ -97,6 +98,7 @@ LdrAppxHandleIntegrityFailure;code;ntdll.dll;_LdrAppxHandleIntegrityFailure@4
 LdrDisableThreadCalloutsForDll;code;ntdll.dll;_LdrDisableThreadCalloutsForDll@4
 LdrEnumResources;code;ntdll.dll;_LdrEnumResources@20
 LdrEnumerateLoadedModules;code;ntdll.dll;_LdrEnumerateLoadedModules@12
+LdrFastFailInLoaderCallout;code;ntdll.dll;_LdrFastFailInLoaderCallout@0
 LdrFindEntryForAddress;code;ntdll.dll;_LdrFindEntryForAddress@8
 LdrFindResourceDirectory_U;code;ntdll.dll;_LdrFindResourceDirectory_U@16
 LdrFindResourceEx_U;code;ntdll.dll;_LdrFindResourceEx_U@20
@@ -191,6 +193,7 @@ NtAlpcDeleteResourceReserve;code;ntdll.dll;_NtAlpcDeleteResourceReserve@12
 NtAlpcDeleteSectionView;code;ntdll.dll;_NtAlpcDeleteSectionView@12
 NtAlpcDeleteSecurityContext;code;ntdll.dll;_NtAlpcDeleteSecurityContext@12
 NtAlpcDisconnectPort;code;ntdll.dll;_NtAlpcDisconnectPort@8
+NtAlpcImpersonateClientContainerOfPort;code;ntdll.dll;_NtAlpcImpersonateClientContainerOfPort@12
 NtAlpcImpersonateClientOfPort;code;ntdll.dll;_NtAlpcImpersonateClientOfPort@12
 NtAlpcOpenSenderProcess;code;ntdll.dll;_NtAlpcOpenSenderProcess@24
 NtAlpcOpenSenderThread;code;ntdll.dll;_NtAlpcOpenSenderThread@24
@@ -217,6 +220,7 @@ NtCommitComplete;code;ntdll.dll;_NtCommitComplete@8
 NtCommitEnlistment;code;ntdll.dll;_NtCommitEnlistment@8
 NtCommitTransaction;code;ntdll.dll;_NtCommitTransaction@8
 NtCompactKeys;code;ntdll.dll;_NtCompactKeys@8
+NtCompareObjects;code;ntdll.dll;_NtCompareObjects@8
 NtCompareTokens;code;ntdll.dll;_NtCompareTokens@12
 NtCompleteConnectPort;code;ntdll.dll;_NtCompleteConnectPort@4
 NtCompressKey;code;ntdll.dll;_NtCompressKey@4
@@ -241,6 +245,7 @@ NtCreateMailslotFile;code;ntdll.dll;_NtCreateMailslotFile@32
 NtCreateMutant;code;ntdll.dll;_NtCreateMutant@16
 NtCreateNamedPipeFile;code;ntdll.dll;_NtCreateNamedPipeFile@56
 NtCreatePagingFile;code;ntdll.dll;_NtCreatePagingFile@16
+NtCreatePartition;code;ntdll.dll;_NtCreatePartition@20
 NtCreatePort;code;ntdll.dll;_NtCreatePort@20
 NtCreatePrivateNamespace;code;ntdll.dll;_NtCreatePrivateNamespace@16
 NtCreateProcess;code;ntdll.dll;_NtCreateProcess@32
@@ -313,6 +318,7 @@ NtGetCachedSigningLevel;code;ntdll.dll;_NtGetCachedSigningLevel@24
 NtGetCompleteWnfStateSubscription;code;ntdll.dll;_NtGetCompleteWnfStateSubscription@24
 NtGetContextThread;code;ntdll.dll;_NtGetContextThread@8
 NtGetCurrentProcessorNumber;code;ntdll.dll;_NtGetCurrentProcessorNumber@0
+NtGetCurrentProcessorNumberEx;code;ntdll.dll;_NtGetCurrentProcessorNumberEx@4
 NtGetDevicePowerState;code;ntdll.dll;_NtGetDevicePowerState@8
 NtGetMUIRegistryInfo;code;ntdll.dll;_NtGetMUIRegistryInfo@12
 NtGetNextProcess;code;ntdll.dll;_NtGetNextProcess@20
@@ -341,6 +347,7 @@ NtLockRegistryKey;code;ntdll.dll;_NtLockRegistryKey@4
 NtLockVirtualMemory;code;ntdll.dll;_NtLockVirtualMemory@16
 NtMakePermanentObject;code;ntdll.dll;_NtMakePermanentObject@4
 NtMakeTemporaryObject;code;ntdll.dll;_NtMakeTemporaryObject@4
+NtManagePartition;code;ntdll.dll;_NtManagePartition@20
 NtMapCMFModule;code;ntdll.dll;_NtMapCMFModule@24
 NtMapUserPhysicalPages;code;ntdll.dll;_NtMapUserPhysicalPages@12
 NtMapUserPhysicalPagesScatter;code;ntdll.dll;_NtMapUserPhysicalPagesScatter@12
@@ -365,6 +372,7 @@ NtOpenKeyTransactedEx;code;ntdll.dll;_NtOpenKeyTransactedEx@20
 NtOpenKeyedEvent;code;ntdll.dll;_NtOpenKeyedEvent@12
 NtOpenMutant;code;ntdll.dll;_NtOpenMutant@12
 NtOpenObjectAuditAlarm;code;ntdll.dll;_NtOpenObjectAuditAlarm@48
+NtOpenPartition;code;ntdll.dll;_NtOpenPartition@12
 NtOpenPrivateNamespace;code;ntdll.dll;_NtOpenPrivateNamespace@16
 NtOpenProcess;code;ntdll.dll;_NtOpenProcess@16
 NtOpenProcessToken;code;ntdll.dll;_NtOpenProcessToken@12
@@ -483,6 +491,7 @@ NtResetWriteWatch;code;ntdll.dll;_NtResetWriteWatch@12
 NtRestoreKey;code;ntdll.dll;_NtRestoreKey@12
 NtResumeProcess;code;ntdll.dll;_NtResumeProcess@4
 NtResumeThread;code;ntdll.dll;_NtResumeThread@8
+NtRevertContainerImpersonation;code;ntdll.dll;_NtRevertContainerImpersonation@0
 NtRollbackComplete;code;ntdll.dll;_NtRollbackComplete@8
 NtRollbackEnlistment;code;ntdll.dll;_NtRollbackEnlistment@8
 NtRollbackTransaction;code;ntdll.dll;_NtRollbackTransaction@8
@@ -515,6 +524,7 @@ NtSetInformationKey;code;ntdll.dll;_NtSetInformationKey@16
 NtSetInformationObject;code;ntdll.dll;_NtSetInformationObject@16
 NtSetInformationProcess;code;ntdll.dll;_NtSetInformationProcess@16
 NtSetInformationResourceManager;code;ntdll.dll;_NtSetInformationResourceManager@16
+NtSetInformationSymbolicLink;code;ntdll.dll;_NtSetInformationSymbolicLink@16
 NtSetInformationThread;code;ntdll.dll;_NtSetInformationThread@16
 NtSetInformationToken;code;ntdll.dll;_NtSetInformationToken@16
 NtSetInformationTransaction;code;ntdll.dll;_NtSetInformationTransaction@16
@@ -664,6 +674,7 @@ RtlAvlInsertNodeEx;code;ntdll.dll;_RtlAvlInsertNodeEx@16
 RtlAvlRemoveNode;code;ntdll.dll;_RtlAvlRemoveNode@8
 RtlCancelTimer;code;ntdll.dll;_RtlCancelTimer@8
 RtlCanonicalizeDomainName;code;ntdll.dll;_RtlCanonicalizeDomainName@12
+RtlCapabilityCheck;code;ntdll.dll;_RtlCapabilityCheck@12
 RtlCaptureContext;code;ntdll.dll;_RtlCaptureContext@4
 RtlCaptureStackBackTrace;code;ntdll.dll;_RtlCaptureStackBackTrace@16
 RtlCaptureStackContext;code;ntdll.dll;_RtlCaptureStackContext@12
@@ -671,6 +682,7 @@ RtlCharToInteger;code;ntdll.dll;_RtlCharToInteger@12
 RtlCheckForOrphanedCriticalSections;code;ntdll.dll;_RtlCheckForOrphanedCriticalSections@4
 RtlCheckPortableOperatingSystem;code;ntdll.dll;_RtlCheckPortableOperatingSystem@4
 RtlCheckRegistryKey;code;ntdll.dll;_RtlCheckRegistryKey@8
+RtlCheckSandboxedToken;code;ntdll.dll;_RtlCheckSandboxedToken@8
 RtlCheckTokenCapability;code;ntdll.dll;_RtlCheckTokenCapability@12
 RtlCheckTokenMembership;code;ntdll.dll;_RtlCheckTokenMembership@12
 RtlCheckTokenMembershipEx;code;ntdll.dll;_RtlCheckTokenMembershipEx@16
@@ -696,9 +708,11 @@ RtlComputePrivatizedDllName_U;code;ntdll.dll;_RtlComputePrivatizedDllName_U@12
 RtlConnectToSm;code;ntdll.dll;_RtlConnectToSm@16
 RtlConsoleMultiByteToUnicodeN;code;ntdll.dll;_RtlConsoleMultiByteToUnicodeN@24
 RtlContractHashTable;code;ntdll.dll;_RtlContractHashTable@4
+RtlConvertDeviceFamilyInfoToString;code;ntdll.dll;_RtlConvertDeviceFamilyInfoToString@16
 RtlConvertExclusiveToShared;code;ntdll.dll;_RtlConvertExclusiveToShared@4
 RtlConvertLCIDToString;code;ntdll.dll;_RtlConvertLCIDToString@20
 RtlConvertLongToLargeInteger;code;ntdll.dll;_RtlConvertLongToLargeInteger@4
+RtlConvertSRWLockExclusiveToShared;code;ntdll.dll;_RtlConvertSRWLockExclusiveToShared@4
 RtlConvertSharedToExclusive;code;ntdll.dll;_RtlConvertSharedToExclusive@4
 RtlConvertSidToUnicodeString;code;ntdll.dll;_RtlConvertSidToUnicodeString@12
 RtlConvertToAutoInheritSecurityObject;code;ntdll.dll;_RtlConvertToAutoInheritSecurityObject@24
@@ -755,6 +769,7 @@ RtlDeNormalizeProcessParams;code;ntdll.dll;_RtlDeNormalizeProcessParams@4
 RtlDeactivateActivationContext;code;ntdll.dll;_RtlDeactivateActivationContext@8
 RtlDebugPrintTimes;code;ntdll.dll;_RtlDebugPrintTimes@0
 RtlDecodePointer;code;ntdll.dll;_RtlDecodePointer@4
+RtlDecodeRemotePointer;code;ntdll.dll;_RtlDecodeRemotePointer@12
 RtlDecodeSystemPointer;code;ntdll.dll;_RtlDecodeSystemPointer@4
 RtlDecompressBuffer;code;ntdll.dll;_RtlDecompressBuffer@24
 RtlDecompressBufferEx;code;ntdll.dll;_RtlDecompressBufferEx@28
@@ -779,6 +794,7 @@ RtlDeleteTimerQueueEx;code;ntdll.dll;_RtlDeleteTimerQueueEx@8
 RtlDeregisterSecureMemoryCacheCallback;code;ntdll.dll;_RtlDeregisterSecureMemoryCacheCallback@4
 RtlDeregisterWait;code;ntdll.dll;_RtlDeregisterWait@4
 RtlDeregisterWaitEx;code;ntdll.dll;_RtlDeregisterWaitEx@8
+RtlDeriveCapabilitySidsFromName;code;ntdll.dll;_RtlDeriveCapabilitySidsFromName@12
 RtlDestroyAtomTable;code;ntdll.dll;_RtlDestroyAtomTable@4
 RtlDestroyEnvironment;code;ntdll.dll;_RtlDestroyEnvironment@4
 RtlDestroyHandleTable;code;ntdll.dll;_RtlDestroyHandleTable@4
@@ -808,8 +824,10 @@ RtlEmptyAtomTable;code;ntdll.dll;_RtlEmptyAtomTable@8
 RtlEnableEarlyCriticalSectionEventCreation;code;ntdll.dll;_RtlEnableEarlyCriticalSectionEventCreation@0
 RtlEnableThreadProfiling;code;ntdll.dll;_RtlEnableThreadProfiling@20
 RtlEncodePointer;code;ntdll.dll;_RtlEncodePointer@4
+RtlEncodeRemotePointer;code;ntdll.dll;_RtlEncodeRemotePointer@12
 RtlEncodeSystemPointer;code;ntdll.dll;_RtlEncodeSystemPointer@4
 RtlEndEnumerationHashTable;code;ntdll.dll;_RtlEndEnumerationHashTable@8
+RtlEndStrongEnumerationHashTable;code;ntdll.dll;_RtlEndStrongEnumerationHashTable@8
 RtlEndWeakEnumerationHashTable;code;ntdll.dll;_RtlEndWeakEnumerationHashTable@8
 RtlEnlargedIntegerMultiply;code;ntdll.dll;_RtlEnlargedIntegerMultiply@8
 RtlEnlargedUnsignedMultiply;code;ntdll.dll;_RtlEnlargedUnsignedMultiply@8
@@ -864,6 +882,7 @@ RtlFindMostSignificantBit;code;ntdll.dll;_RtlFindMostSignificantBit@8
 RtlFindNextForwardRunClear;code;ntdll.dll;_RtlFindNextForwardRunClear@12
 RtlFindSetBits;code;ntdll.dll;_RtlFindSetBits@12
 RtlFindSetBitsAndClear;code;ntdll.dll;_RtlFindSetBitsAndClear@12
+RtlFindUnicodeSubstring;code;ntdll.dll;_RtlFindUnicodeSubstring@12
 RtlFirstEntrySList;code;ntdll.dll;_RtlFirstEntrySList@4
 RtlFirstFreeAce;code;ntdll.dll;_RtlFirstFreeAce@8
 RtlFlsAlloc;code;ntdll.dll;_RtlFlsAlloc@8
@@ -899,6 +918,7 @@ RtlGetCurrentProcessorNumber;code;ntdll.dll;_RtlGetCurrentProcessorNumber@0
 RtlGetCurrentProcessorNumberEx;code;ntdll.dll;_RtlGetCurrentProcessorNumberEx@4
 RtlGetCurrentTransaction;code;ntdll.dll;_RtlGetCurrentTransaction@0
 RtlGetDaclSecurityDescriptor;code;ntdll.dll;_RtlGetDaclSecurityDescriptor@16
+RtlGetDeviceFamilyInfoEnum;code;ntdll.dll;_RtlGetDeviceFamilyInfoEnum@12
 RtlGetElementGenericTable;code;ntdll.dll;_RtlGetElementGenericTable@8
 RtlGetElementGenericTableAvl;code;ntdll.dll;_RtlGetElementGenericTableAvl@8
 RtlGetEnabledExtendedFeatures;code;ntdll.dll;_RtlGetEnabledExtendedFeatures@8
@@ -912,6 +932,7 @@ RtlGetFullPathName_UEx;code;ntdll.dll;_RtlGetFullPathName_UEx@20
 RtlGetFullPathName_UstrEx;code;ntdll.dll;_RtlGetFullPathName_UstrEx@32
 RtlGetGroupSecurityDescriptor;code;ntdll.dll;_RtlGetGroupSecurityDescriptor@12
 RtlGetIntegerAtom;code;ntdll.dll;_RtlGetIntegerAtom@8
+RtlGetInterruptTimePrecise;code;ntdll.dll;_RtlGetInterruptTimePrecise@4
 RtlGetLastNtStatus;code;ntdll.dll;_RtlGetLastNtStatus@0
 RtlGetLastWin32Error;code;ntdll.dll;_RtlGetLastWin32Error@0
 RtlGetLengthWithoutLastFullDosOrNtPathElement;code;ntdll.dll;_RtlGetLengthWithoutLastFullDosOrNtPathElement@12
@@ -960,6 +981,8 @@ RtlInitCodePageTable;code;ntdll.dll;_RtlInitCodePageTable@8
 RtlInitEnumerationHashTable;code;ntdll.dll;_RtlInitEnumerationHashTable@8
 RtlInitNlsTables;code;ntdll.dll;_RtlInitNlsTables@16
 RtlInitString;code;ntdll.dll;_RtlInitString@8
+RtlInitStringEx;code;ntdll.dll;_RtlInitStringEx@8
+RtlInitStrongEnumerationHashTable;code;ntdll.dll;_RtlInitStrongEnumerationHashTable@8
 RtlInitUnicodeString;code;ntdll.dll;_RtlInitUnicodeString@8
 RtlInitUnicodeStringEx;code;ntdll.dll;_RtlInitUnicodeStringEx@8
 RtlInitWeakEnumerationHashTable;code;ntdll.dll;_RtlInitWeakEnumerationHashTable@8
@@ -979,6 +1002,7 @@ RtlInitializeResource;code;ntdll.dll;_RtlInitializeResource@4
 RtlInitializeSListHead;code;ntdll.dll;_RtlInitializeSListHead@4
 RtlInitializeSRWLock;code;ntdll.dll;_RtlInitializeSRWLock@4
 RtlInitializeSid;code;ntdll.dll;_RtlInitializeSid@12
+RtlInitializeSidEx;code;ntdll.dll;_RtlInitializeSidEx
 RtlInsertElementGenericTable;code;ntdll.dll;_RtlInsertElementGenericTable@16
 RtlInsertElementGenericTableAvl;code;ntdll.dll;_RtlInsertElementGenericTableAvl@16
 RtlInsertElementGenericTableFull;code;ntdll.dll;_RtlInsertElementGenericTableFull@24
@@ -1019,11 +1043,13 @@ RtlIsCriticalSectionLockedByThread;code;ntdll.dll;_RtlIsCriticalSectionLockedByT
 RtlIsDosDeviceName_U;code;ntdll.dll;_RtlIsDosDeviceName_U@4
 RtlIsGenericTableEmpty;code;ntdll.dll;_RtlIsGenericTableEmpty@4
 RtlIsGenericTableEmptyAvl;code;ntdll.dll;_RtlIsGenericTableEmptyAvl@4
+RtlIsMultiSessionSku;code;ntdll.dll;_RtlIsMultiSessionSku@0
 RtlIsNameInExpression;code;ntdll.dll;_RtlIsNameInExpression@16
 RtlIsNameLegalDOS8Dot3;code;ntdll.dll;_RtlIsNameLegalDOS8Dot3@12
 RtlIsNormalizedString;code;ntdll.dll;_RtlIsNormalizedString@16
 RtlIsPackageSid;code;ntdll.dll;_RtlIsPackageSid@4
 RtlIsParentOfChildAppContainer;code;ntdll.dll;_RtlIsParentOfChildAppContainer@8
+RtlIsProcessorFeaturePresent;code;ntdll.dll;_RtlIsProcessorFeaturePresent@4
 RtlIsTextUnicode;code;ntdll.dll;_RtlIsTextUnicode@12
 RtlIsThreadWithinLoaderCallout;code;ntdll.dll;_RtlIsThreadWithinLoaderCallout@0
 RtlIsUntrustedObject;code;ntdll.dll;_RtlIsUntrustedObject@12
@@ -1093,6 +1119,7 @@ RtlOemStringToUnicodeSize;code;ntdll.dll;_RtlOemStringToUnicodeSize@4
 RtlOemStringToUnicodeString;code;ntdll.dll;_RtlOemStringToUnicodeString@12
 RtlOemToUnicodeN;code;ntdll.dll;_RtlOemToUnicodeN@20
 RtlOpenCurrentUser;code;ntdll.dll;_RtlOpenCurrentUser@8
+RtlOsDeploymentState;code;ntdll.dll;_RtlOsDeploymentState@4
 RtlOwnerAcesPresent;code;ntdll.dll;_RtlOwnerAcesPresent@4
 RtlPcToFileHeader;code;ntdll.dll;_RtlPcToFileHeader@8
 RtlPinAtomInAtomTable;code;ntdll.dll;_RtlPinAtomInAtomTable@8
@@ -1113,6 +1140,7 @@ RtlQueryHeapInformation;code;ntdll.dll;_RtlQueryHeapInformation@20
 RtlQueryInformationAcl;code;ntdll.dll;_RtlQueryInformationAcl@16
 RtlQueryInformationActivationContext;code;ntdll.dll;_RtlQueryInformationActivationContext@28
 RtlQueryInformationActiveActivationContext;code;ntdll.dll;_RtlQueryInformationActiveActivationContext@16
+RtlQueryPackageClaims;code;ntdll.dll;_RtlQueryPackageClaims@28
 RtlQueryPackageIdentity;code;ntdll.dll;_RtlQueryPackageIdentity@24
 RtlQueryPackageIdentityEx;code;ntdll.dll;_RtlQueryPackageIdentityEx@28
 RtlQueryPerformanceCounter;code;ntdll.dll;_RtlQueryPerformanceCounter@4
@@ -1212,6 +1240,7 @@ RtlSetThreadErrorMode;code;ntdll.dll;_RtlSetThreadErrorMode@8
 RtlSetThreadIsCritical;code;ntdll.dll;_RtlSetThreadIsCritical
 RtlSetThreadPoolStartFunc;code;ntdll.dll;_RtlSetThreadPoolStartFunc@8
 RtlSetThreadPreferredUILanguages;code;ntdll.dll;_RtlSetThreadPreferredUILanguages@12
+RtlSetThreadSubProcessTag;code;ntdll.dll;_RtlSetThreadSubProcessTag@4
 RtlSetTimeZoneInformation;code;ntdll.dll;_RtlSetTimeZoneInformation@4
 RtlSetTimer;code;ntdll.dll;_RtlSetTimer@28
 RtlSetUnhandledExceptionFilter;code;ntdll.dll;_RtlSetUnhandledExceptionFilter@4
@@ -1230,11 +1259,13 @@ RtlSplay;code;ntdll.dll;_RtlSplay@4
 RtlStartRXact;code;ntdll.dll;_RtlStartRXact@4
 RtlStringFromGUID;code;ntdll.dll;_RtlStringFromGUID@8
 RtlStringFromGUIDEx;code;ntdll.dll;_RtlStringFromGUIDEx@12
+RtlStronglyEnumerateEntryHashTable;code;ntdll.dll;_RtlStronglyEnumerateEntryHashTable@8
 RtlSubAuthorityCountSid;code;ntdll.dll;_RtlSubAuthorityCountSid@4
 RtlSubAuthoritySid;code;ntdll.dll;_RtlSubAuthoritySid@8
 RtlSubscribeWnfStateChangeNotification;code;ntdll.dll;_RtlSubscribeWnfStateChangeNotification@36
 RtlSubtreePredecessor;code;ntdll.dll;_RtlSubtreePredecessor@4
 RtlSubtreeSuccessor;code;ntdll.dll;_RtlSubtreeSuccessor@4
+RtlSwitchedVVI;code;ntdll.dll;_RtlSwitchedVVI@16
 RtlSystemTimeToLocalTime;code;ntdll.dll;_RtlSystemTimeToLocalTime@8
 RtlTestAndPublishWnfStateData;code;ntdll.dll;_RtlTestAndPublishWnfStateData@28
 RtlTestBit;code;ntdll.dll;_RtlTestBit@8
@@ -1400,8 +1431,10 @@ TpReleaseTimer;code;ntdll.dll;_TpReleaseTimer@4
 TpReleaseWait;code;ntdll.dll;_TpReleaseWait@4
 TpReleaseWork;code;ntdll.dll;_TpReleaseWork@4
 TpSetPoolMaxThreads;code;ntdll.dll;_TpSetPoolMaxThreads@8
+TpSetPoolMaxThreadsSoftLimit;code;ntdll.dll;_TpSetPoolMaxThreadsSoftLimit@8
 TpSetPoolMinThreads;code;ntdll.dll;_TpSetPoolMinThreads@8
 TpSetPoolStackInformation;code;ntdll.dll;_TpSetPoolStackInformation@8
+TpSetPoolWorkerThreadIdleTimeout;code;ntdll.dll;_TpSetPoolWorkerThreadIdleTimeout@12
 TpSetTimer;code;ntdll.dll;_TpSetTimer@16
 TpSetTimerEx;code;ntdll.dll;_TpSetTimerEx@16
 TpSetWait;code;ntdll.dll;_TpSetWait@12
@@ -1483,6 +1516,7 @@ ZwAlpcDeleteResourceReserve;code;ntdll.dll;_ZwAlpcDeleteResourceReserve@12
 ZwAlpcDeleteSectionView;code;ntdll.dll;_ZwAlpcDeleteSectionView@12
 ZwAlpcDeleteSecurityContext;code;ntdll.dll;_ZwAlpcDeleteSecurityContext@12
 ZwAlpcDisconnectPort;code;ntdll.dll;_ZwAlpcDisconnectPort@8
+ZwAlpcImpersonateClientContainerOfPort;code;ntdll.dll;_ZwAlpcImpersonateClientContainerOfPort@12
 ZwAlpcImpersonateClientOfPort;code;ntdll.dll;_ZwAlpcImpersonateClientOfPort@12
 ZwAlpcOpenSenderProcess;code;ntdll.dll;_ZwAlpcOpenSenderProcess@24
 ZwAlpcOpenSenderThread;code;ntdll.dll;_ZwAlpcOpenSenderThread@24
@@ -1509,6 +1543,7 @@ ZwCommitComplete;code;ntdll.dll;_ZwCommitComplete@8
 ZwCommitEnlistment;code;ntdll.dll;_ZwCommitEnlistment@8
 ZwCommitTransaction;code;ntdll.dll;_ZwCommitTransaction@8
 ZwCompactKeys;code;ntdll.dll;_ZwCompactKeys@8
+ZwCompareObjects;code;ntdll.dll;_ZwCompareObjects@8
 ZwCompareTokens;code;ntdll.dll;_ZwCompareTokens@12
 ZwCompleteConnectPort;code;ntdll.dll;_ZwCompleteConnectPort@4
 ZwCompressKey;code;ntdll.dll;_ZwCompressKey@4
@@ -1533,6 +1568,7 @@ ZwCreateMailslotFile;code;ntdll.dll;_ZwCreateMailslotFile@32
 ZwCreateMutant;code;ntdll.dll;_ZwCreateMutant@16
 ZwCreateNamedPipeFile;code;ntdll.dll;_ZwCreateNamedPipeFile@56
 ZwCreatePagingFile;code;ntdll.dll;_ZwCreatePagingFile@16
+ZwCreatePartition;code;ntdll.dll;_ZwCreatePartition@20
 ZwCreatePort;code;ntdll.dll;_ZwCreatePort@20
 ZwCreatePrivateNamespace;code;ntdll.dll;_ZwCreatePrivateNamespace@16
 ZwCreateProcess;code;ntdll.dll;_ZwCreateProcess@32
@@ -1604,6 +1640,7 @@ ZwGetCachedSigningLevel;code;ntdll.dll;_ZwGetCachedSigningLevel@24
 ZwGetCompleteWnfStateSubscription;code;ntdll.dll;_ZwGetCompleteWnfStateSubscription@24
 ZwGetContextThread;code;ntdll.dll;_ZwGetContextThread@8
 ZwGetCurrentProcessorNumber;code;ntdll.dll;_ZwGetCurrentProcessorNumber@0
+ZwGetCurrentProcessorNumberEx;code;ntdll.dll;_ZwGetCurrentProcessorNumberEx@4
 ZwGetDevicePowerState;code;ntdll.dll;_ZwGetDevicePowerState@8
 ZwGetMUIRegistryInfo;code;ntdll.dll;_ZwGetMUIRegistryInfo@12
 ZwGetNextProcess;code;ntdll.dll;_ZwGetNextProcess@20
@@ -1631,6 +1668,7 @@ ZwLockRegistryKey;code;ntdll.dll;_ZwLockRegistryKey@4
 ZwLockVirtualMemory;code;ntdll.dll;_ZwLockVirtualMemory@16
 ZwMakePermanentObject;code;ntdll.dll;_ZwMakePermanentObject@4
 ZwMakeTemporaryObject;code;ntdll.dll;_ZwMakeTemporaryObject@4
+ZwManagePartition;code;ntdll.dll;_ZwManagePartition@20
 ZwMapCMFModule;code;ntdll.dll;_ZwMapCMFModule@24
 ZwMapUserPhysicalPages;code;ntdll.dll;_ZwMapUserPhysicalPages@12
 ZwMapUserPhysicalPagesScatter;code;ntdll.dll;_ZwMapUserPhysicalPagesScatter@12
@@ -1655,6 +1693,7 @@ ZwOpenKeyTransactedEx;code;ntdll.dll;_ZwOpenKeyTransactedEx@20
 ZwOpenKeyedEvent;code;ntdll.dll;_ZwOpenKeyedEvent@12
 ZwOpenMutant;code;ntdll.dll;_ZwOpenMutant@12
 ZwOpenObjectAuditAlarm;code;ntdll.dll;_ZwOpenObjectAuditAlarm@48
+ZwOpenPartition;code;ntdll.dll;_ZwOpenPartition@12
 ZwOpenPrivateNamespace;code;ntdll.dll;_ZwOpenPrivateNamespace@16
 ZwOpenProcess;code;ntdll.dll;_ZwOpenProcess@16
 ZwOpenProcessToken;code;ntdll.dll;_ZwOpenProcessToken@12
@@ -1773,6 +1812,7 @@ ZwResetWriteWatch;code;ntdll.dll;_ZwResetWriteWatch@12
 ZwRestoreKey;code;ntdll.dll;_ZwRestoreKey@12
 ZwResumeProcess;code;ntdll.dll;_ZwResumeProcess@4
 ZwResumeThread;code;ntdll.dll;_ZwResumeThread@8
+ZwRevertContainerImpersonation;code;ntdll.dll;_ZwRevertContainerImpersonation@0
 ZwRollbackComplete;code;ntdll.dll;_ZwRollbackComplete@8
 ZwRollbackEnlistment;code;ntdll.dll;_ZwRollbackEnlistment@8
 ZwRollbackTransaction;code;ntdll.dll;_ZwRollbackTransaction@8
@@ -1805,6 +1845,7 @@ ZwSetInformationKey;code;ntdll.dll;_ZwSetInformationKey@16
 ZwSetInformationObject;code;ntdll.dll;_ZwSetInformationObject@16
 ZwSetInformationProcess;code;ntdll.dll;_ZwSetInformationProcess@16
 ZwSetInformationResourceManager;code;ntdll.dll;_ZwSetInformationResourceManager@16
+ZwSetInformationSymbolicLink;code;ntdll.dll;_ZwSetInformationSymbolicLink@16
 ZwSetInformationThread;code;ntdll.dll;_ZwSetInformationThread@16
 ZwSetInformationToken;code;ntdll.dll;_ZwSetInformationToken@16
 ZwSetInformationTransaction;code;ntdll.dll;_ZwSetInformationTransaction@16

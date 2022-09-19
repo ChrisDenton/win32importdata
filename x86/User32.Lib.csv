@@ -457,6 +457,7 @@ IsRectEmpty;code;USER32.dll;_IsRectEmpty@4
 IsTouchWindow;code;USER32.dll;_IsTouchWindow@8
 IsWinEventHookInstalled;code;USER32.dll;_IsWinEventHookInstalled@4
 IsWindow;code;USER32.dll;_IsWindow@4
+IsWindowBroadcastingDpiToChildren;code;USER32.dll;_IsWindowBroadcastingDpiToChildren@4
 IsWindowEnabled;code;USER32.dll;_IsWindowEnabled@4
 IsWindowUnicode;code;USER32.dll;_IsWindowUnicode@4
 IsWindowVisible;code;USER32.dll;_IsWindowVisible@4
@@ -571,6 +572,7 @@ RegisterWindowMessageA;code;USER32.dll;_RegisterWindowMessageA@4
 RegisterWindowMessageW;code;USER32.dll;_RegisterWindowMessageW@4
 ReleaseCapture;code;USER32.dll;_ReleaseCapture@0
 ReleaseDC;code;USER32.dll;_ReleaseDC@8
+ReleaseDwmHitTestWaiters;code;USER32.dll;_ReleaseDwmHitTestWaiters@0
 RemoveClipboardFormatListener;code;USER32.dll;_RemoveClipboardFormatListener@4
 RemoveMenu;code;USER32.dll;_RemoveMenu@12
 RemovePropA;code;USER32.dll;_RemovePropA@8

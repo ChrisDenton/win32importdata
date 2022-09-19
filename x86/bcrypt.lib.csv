@@ -32,6 +32,7 @@ BCryptGenerateKeyPair;code;bcrypt.dll;_BCryptGenerateKeyPair@16
 BCryptGenerateSymmetricKey;code;bcrypt.dll;_BCryptGenerateSymmetricKey@28
 BCryptGetFipsAlgorithmMode;code;bcrypt.dll;_BCryptGetFipsAlgorithmMode@4
 BCryptGetProperty;code;bcrypt.dll;_BCryptGetProperty@24
+BCryptHash;code;bcrypt.dll;_BCryptHash@28
 BCryptHashData;code;bcrypt.dll;_BCryptHashData@16
 BCryptImportKey;code;bcrypt.dll;_BCryptImportKey@36
 BCryptImportKeyPair;code;bcrypt.dll;_BCryptImportKeyPair@28

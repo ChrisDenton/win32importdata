@@ -1,0 +1,24 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFGetUncompressedVideoFormat;code;EVR.dll;?MFGetUncompressedVideoFormat@@YAKPEBU_MFVIDEOFORMAT@@@Z (unsigned long __cdecl MFGetUncompressedVideoFormat(struct _MFVIDEOFORMAT const *))
+MFConvertColorInfoFromDXVA;code;EVR.dll;
+MFConvertColorInfoToDXVA;code;EVR.dll;
+MFConvertFromFP16Array;code;EVR.dll;
+MFConvertToFP16Array;code;EVR.dll;
+MFCopyImage;code;EVR.dll;
+MFCreateDXSurfaceBuffer;code;EVR.dll;
+MFCreateVideoMediaType;code;EVR.dll;
+MFCreateVideoMediaTypeFromBitMapInfoHeader;code;EVR.dll;
+MFCreateVideoMediaTypeFromSubtype;code;EVR.dll;
+MFCreateVideoMediaTypeFromVideoInfoHeader;code;EVR.dll;
+MFCreateVideoMediaTypeFromVideoInfoHeader2;code;EVR.dll;
+MFCreateVideoMixer;code;EVR.dll;
+MFCreateVideoMixerAndPresenter;code;EVR.dll;
+MFCreateVideoOTA;code;EVR.dll;
+MFCreateVideoPresenter;code;EVR.dll;
+MFCreateVideoSampleAllocator;code;EVR.dll;
+MFCreateVideoSampleFromSurface;code;EVR.dll;
+MFGetPlaneSize;code;EVR.dll;
+MFGetStrideForBitmapInfoHeader;code;EVR.dll;
+MFInitVideoFormat;code;EVR.dll;
+MFInitVideoFormat_RGB;code;EVR.dll;
+MFIsFormatYUV;code;EVR.dll;

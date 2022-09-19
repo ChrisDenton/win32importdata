@@ -108,7 +108,7 @@ WSCInstallNameSpaceEx2;code;WS2_32.dll;_WSCInstallNameSpaceEx2@28
 WSCInstallNameSpaceEx;code;WS2_32.dll;_WSCInstallNameSpaceEx@24
 WSCInstallProvider;code;WS2_32.dll;_WSCInstallProvider@20
 WSCInstallProviderAndChains;code;WS2_32.dll;_WSCInstallProviderAndChains@32
-WSCInstallProviderEx;code;WS2_32.dll;_WSCInstallProviderEx@24
+WSCInstallProviderEx;code;WS2_32.dll;_WSCInstallProviderEx@28
 WSCSetApplicationCategory;code;WS2_32.dll;_WSCSetApplicationCategory@28
 WSCSetApplicationCategoryEx;code;WS2_32.dll;_WSCSetApplicationCategoryEx@32
 WSCSetProviderInfo;code;WS2_32.dll;_WSCSetProviderInfo@24

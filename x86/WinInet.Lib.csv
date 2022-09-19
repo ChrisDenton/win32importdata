@@ -2,6 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 DispatchAPICall;code;WININET.dll;?DispatchAPICall@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DispatchAPICall(struct HWND__ *,struct HINSTANCE__ *,char *,int))
 AppCacheCheckManifest;code;WININET.dll;_AppCacheCheckManifest@32
 AppCacheCloseHandle;code;WININET.dll;_AppCacheCloseHandle@4
+AppCacheCreateAndCommitFile;code;WININET.dll;_AppCacheCreateAndCommitFile@20
 AppCacheDeleteGroup;code;WININET.dll;_AppCacheDeleteGroup@4
 AppCacheDeleteIEGroup;code;WININET.dll;_AppCacheDeleteIEGroup@4
 AppCacheDuplicateHandle;code;WININET.dll;_AppCacheDuplicateHandle@8
@@ -121,6 +122,7 @@ HttpEndRequestA;code;WININET.dll;_HttpEndRequestA@16
 HttpEndRequestW;code;WININET.dll;_HttpEndRequestW@16
 HttpGetServerCredentials;code;WININET.dll;_HttpGetServerCredentials@12
 HttpGetTunnelSocket;code;WININET.dll;_HttpGetTunnelSocket@16
+HttpIsHostHstsEnabled;code;WININET.dll;_HttpIsHostHstsEnabled@8
 HttpOpenDependencyHandle;code;WININET.dll;_HttpOpenDependencyHandle@12
 HttpOpenRequestA;code;WININET.dll;_HttpOpenRequestA@32
 HttpOpenRequestW;code;WININET.dll;_HttpOpenRequestW@32
@@ -301,13 +303,16 @@ UrlCacheCreateContainer;code;WININET.dll;_UrlCacheCreateContainer@24
 UrlCacheFindFirstEntry;code;WININET.dll;_UrlCacheFindFirstEntry@28
 UrlCacheFindNextEntry;code;WININET.dll;_UrlCacheFindNextEntry@8
 UrlCacheFreeEntryInfo;code;WININET.dll;_UrlCacheFreeEntryInfo@4
+UrlCacheFreeGlobalSpace;code;WININET.dll;_UrlCacheFreeGlobalSpace@12
 UrlCacheGetContentPaths;code;WININET.dll;_UrlCacheGetContentPaths@8
 UrlCacheGetEntryInfo;code;WININET.dll;_UrlCacheGetEntryInfo@12
+UrlCacheGetGlobalCacheSize;code;WININET.dll;_UrlCacheGetGlobalCacheSize@12
 UrlCacheGetGlobalLimit;code;WININET.dll;_UrlCacheGetGlobalLimit@8
 UrlCacheReadEntryStream;code;WININET.dll;_UrlCacheReadEntryStream@24
 UrlCacheReloadSettings;code;WININET.dll;_UrlCacheReloadSettings@0
 UrlCacheRetrieveEntryFile;code;WININET.dll;_UrlCacheRetrieveEntryFile@16
 UrlCacheRetrieveEntryStream;code;WININET.dll;_UrlCacheRetrieveEntryStream@20
+UrlCacheServer;code;WININET.dll;_UrlCacheServer@0
 UrlCacheSetGlobalLimit;code;WININET.dll;_UrlCacheSetGlobalLimit@12
 UrlCacheUpdateEntryExtraData;code;WININET.dll;_UrlCacheUpdateEntryExtraData@16
 UrlZonesDetach;code;WININET.dll;_UrlZonesDetach@0

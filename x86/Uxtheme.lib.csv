@@ -72,6 +72,7 @@ IsThemeDialogTextureEnabled;code;UxTheme.dll;_IsThemeDialogTextureEnabled@4
 IsThemePartDefined;code;UxTheme.dll;_IsThemePartDefined@12
 OpenThemeData;code;UxTheme.dll;_OpenThemeData@8
 _OpenThemeDataEx@12;code;UxTheme.dll;61
+_OpenThemeDataForDPI@12;code;UxTheme.dll;129
 SetThemeAppProperties;code;UxTheme.dll;_SetThemeAppProperties@4
 SetWindowTheme;code;UxTheme.dll;_SetWindowTheme@12
 SetWindowThemeAttribute;code;UxTheme.dll;_SetWindowThemeAttribute@16

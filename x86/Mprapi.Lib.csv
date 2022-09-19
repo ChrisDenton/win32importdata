@@ -17,6 +17,7 @@ MprAdminGetErrorString;code;MPRAPI.dll;_MprAdminGetErrorString@8
 MprAdminGetPDCServer;code;MPRAPI.dll;_MprAdminGetPDCServer@12
 MprAdminGetProtocolStatistics;code;MPRAPI.dll;_MprAdminGetProtocolStatistics@36
 MprAdminGetRoutingDomainId;code;MPRAPI.dll;_MprAdminGetRoutingDomainId@12
+MprAdminInterfaceAddIkev2Policy;code;MPRAPI.dll;_MprAdminInterfaceAddIkev2Policy@8
 MprAdminInterfaceClearStatisticsEx;code;MPRAPI.dll;_MprAdminInterfaceClearStatisticsEx@8
 MprAdminInterfaceConnect;code;MPRAPI.dll;_MprAdminInterfaceConnect@16
 MprAdminInterfaceCreate;code;MPRAPI.dll;_MprAdminInterfaceCreate@16
@@ -47,6 +48,7 @@ MprAdminInterfaceTransportSetInfo;code;MPRAPI.dll;_MprAdminInterfaceTransportSet
 MprAdminInterfaceUpdatePhonebookInfo;code;MPRAPI.dll;_MprAdminInterfaceUpdatePhonebookInfo@8
 MprAdminInterfaceUpdateRoutes;code;MPRAPI.dll;_MprAdminInterfaceUpdateRoutes@16
 MprAdminIsDomainRasServer;code;MPRAPI.dll;_MprAdminIsDomainRasServer@12
+MprAdminIsModernStackEnabled;code;MPRAPI.dll;_MprAdminIsModernStackEnabled@8
 MprAdminIsMultiTenancyEnabled;code;MPRAPI.dll;_MprAdminIsMultiTenancyEnabled@8
 MprAdminIsServiceInitialized;code;MPRAPI.dll;_MprAdminIsServiceInitialized@8
 MprAdminIsServiceRunning;code;MPRAPI.dll;_MprAdminIsServiceRunning@4
@@ -97,10 +99,13 @@ MprAdminUserWrite;code;MPRAPI.dll;_MprAdminUserWrite@12
 MprAdminUserWriteProfFlags;code;MPRAPI.dll;_MprAdminUserWriteProfFlags@8
 MprConfigAddRoutingDomain;code;MPRAPI.dll;_MprConfigAddRoutingDomain@8
 MprConfigBufferFree;code;MPRAPI.dll;_MprConfigBufferFree@4
+MprConfigDeleteAllRoutingDomainsConfigEx;code;MPRAPI.dll;_MprConfigDeleteAllRoutingDomainsConfigEx@4
 MprConfigDeleteRoutingDomain;code;MPRAPI.dll;_MprConfigDeleteRoutingDomain@8
 MprConfigFilterGetInfo;code;MPRAPI.dll;_MprConfigFilterGetInfo@16
 MprConfigFilterSetInfo;code;MPRAPI.dll;_MprConfigFilterSetInfo@16
+MprConfigFreeAllRoutingDomainsConfigBufferEx;code;MPRAPI.dll;_MprConfigFreeAllRoutingDomainsConfigBufferEx@4
 MprConfigFreeRoutingDomainConfigEx;code;MPRAPI.dll;_MprConfigFreeRoutingDomainConfigEx@4
+MprConfigGetAllRoutingDomainsConfigEx;code;MPRAPI.dll;_MprConfigGetAllRoutingDomainsConfigEx@12
 MprConfigGetFriendlyName;code;MPRAPI.dll;_MprConfigGetFriendlyName@16
 MprConfigGetGuidName;code;MPRAPI.dll;_MprConfigGetGuidName@16
 MprConfigGetRoutingDomainId;code;MPRAPI.dll;_MprConfigGetRoutingDomainId@12
@@ -136,6 +141,7 @@ MprConfigServerRefresh;code;MPRAPI.dll;_MprConfigServerRefresh@4
 MprConfigServerRestore;code;MPRAPI.dll;_MprConfigServerRestore@8
 MprConfigServerSetInfo;code;MPRAPI.dll;_MprConfigServerSetInfo@12
 MprConfigServerSetInfoEx;code;MPRAPI.dll;_MprConfigServerSetInfoEx@8
+MprConfigSetAllRoutingDomainsConfigEx;code;MPRAPI.dll;_MprConfigSetAllRoutingDomainsConfigEx@12
 MprConfigTransportCreate;code;MPRAPI.dll;_MprConfigTransportCreate@36
 MprConfigTransportDelete;code;MPRAPI.dll;_MprConfigTransportDelete@8
 MprConfigTransportEnum;code;MPRAPI.dll;_MprConfigTransportEnum@28
@@ -144,6 +150,7 @@ MprConfigTransportGetInfo;code;MPRAPI.dll;_MprConfigTransportGetInfo@28
 MprConfigTransportSetInfo;code;MPRAPI.dll;_MprConfigTransportSetInfo@28
 MprDomainQueryRasServer;code;MPRAPI.dll;_MprDomainQueryRasServer@12
 MprDomainRegisterRasServer;code;MPRAPI.dll;_MprDomainRegisterRasServer@12
+MprFreeInterfaceInfoEx;code;MPRAPI.dll;_MprFreeInterfaceInfoEx@8
 MprGetUsrParams;code;MPRAPI.dll;_MprGetUsrParams@12
 MprInfoBlockAdd;code;MPRAPI.dll;_MprInfoBlockAdd@24
 MprInfoBlockFind;code;MPRAPI.dll;_MprInfoBlockFind@20

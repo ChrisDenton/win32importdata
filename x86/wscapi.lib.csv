@@ -20,8 +20,10 @@ wscGeneralSecurityGetStatus;code;WSCAPI.dll;_wscGeneralSecurityGetStatus@8
 wscGetAlertStatus;code;WSCAPI.dll;_wscGetAlertStatus@8
 wscIcfEnable;code;WSCAPI.dll;_wscIcfEnable@0
 wscIeSettingsFix;code;WSCAPI.dll;_wscIeSettingsFix@0
+wscInitiateOfflineCleaning;code;WSCAPI.dll;_wscInitiateOfflineCleaning@8
 wscIsDefenderAntivirusSupported;code;WSCAPI.dll;_wscIsDefenderAntivirusSupported@4
 wscLuaSettingsFix;code;WSCAPI.dll;_wscLuaSettingsFix@4
+wscNotifyUserForNearExpiration;code;WSCAPI.dll;_wscNotifyUserForNearExpiration@4
 wscOverrideComponentStatus;code;WSCAPI.dll;_wscOverrideComponentStatus@8
 wscPing;code;WSCAPI.dll;_wscPing@0
 wscProductInfoFree;code;WSCAPI.dll;_wscProductInfoFree@8

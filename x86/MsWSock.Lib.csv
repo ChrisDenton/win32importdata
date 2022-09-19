@@ -13,7 +13,7 @@ GetSocketErrorMessageW;code;MSWSOCK.dll;_GetSocketErrorMessageW@4
 GetTypeByNameA;code;MSWSOCK.dll;_GetTypeByNameA@8
 GetTypeByNameW;code;MSWSOCK.dll;_GetTypeByNameW@8
 MigrateWinsockConfiguration;code;MSWSOCK.dll;_MigrateWinsockConfiguration@12
-MigrateWinsockConfigurationEx;code;MSWSOCK.dll;_MigrateWinsockConfigurationEx@16
+MigrateWinsockConfigurationEx;code;MSWSOCK.dll;_MigrateWinsockConfigurationEx@20
 NPLoadNameSpaces;code;MSWSOCK.dll;_NPLoadNameSpaces@12
 SetServiceA;code;MSWSOCK.dll;_SetServiceA@24
 SetServiceW;code;MSWSOCK.dll;_SetServiceW@24

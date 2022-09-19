@@ -485,6 +485,7 @@ NotifyChangeEventLog;code;ADVAPI32.dll;_NotifyChangeEventLog@8
 NotifyServiceStatusChange;code;ADVAPI32.dll;_NotifyServiceStatusChange@12
 NotifyServiceStatusChangeA;code;ADVAPI32.dll;_NotifyServiceStatusChangeA@12
 NotifyServiceStatusChangeW;code;ADVAPI32.dll;_NotifyServiceStatusChangeW@12
+NpGetUserName;code;ADVAPI32.dll;_NpGetUserName@12
 ObjectCloseAuditAlarmA;code;ADVAPI32.dll;_ObjectCloseAuditAlarmA@12
 ObjectCloseAuditAlarmW;code;ADVAPI32.dll;_ObjectCloseAuditAlarmW@12
 ObjectDeleteAuditAlarmA;code;ADVAPI32.dll;_ObjectDeleteAuditAlarmA@12

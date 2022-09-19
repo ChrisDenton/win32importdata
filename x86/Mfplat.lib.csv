@@ -22,10 +22,13 @@ MFCopyImage;code;MFPlat.DLL;_MFCopyImage@24
 MFCreate2DMediaBuffer;code;MFPlat.DLL;_MFCreate2DMediaBuffer@20
 MFCreateAMMediaTypeFromMFMediaType;code;MFPlat.DLL;_MFCreateAMMediaTypeFromMFMediaType@24
 MFCreateAlignedMemoryBuffer;code;MFPlat.DLL;_MFCreateAlignedMemoryBuffer@12
+MFCreateAlignedSharedMemoryBuffer;code;MFPlat.DLL;_MFCreateAlignedSharedMemoryBuffer@20
 MFCreateAsyncResult;code;MFPlat.DLL;_MFCreateAsyncResult@16
 MFCreateAttributes;code;MFPlat.DLL;_MFCreateAttributes@8
 MFCreateAudioMediaType;code;MFPlat.DLL;_MFCreateAudioMediaType@8
 MFCreateCollection;code;MFPlat.DLL;_MFCreateCollection@4
+MFCreateContentDecryptorContext;code;MFPlat.DLL;_MFCreateContentDecryptorContext@16
+MFCreateContentProtectionDevice;code;MFPlat.DLL;_MFCreateContentProtectionDevice@8
 MFCreateDXGIDeviceManager;code;MFPlat.DLL;_MFCreateDXGIDeviceManager@8
 MFCreateDXGISurfaceBuffer;code;MFPlat.DLL;_MFCreateDXGISurfaceBuffer@20
 MFCreateDXSurfaceBuffer;code;MFPlat.DLL;_MFCreateDXSurfaceBuffer@16
@@ -47,6 +50,7 @@ MFCreateMemoryBuffer;code;MFPlat.DLL;_MFCreateMemoryBuffer@8
 MFCreatePresentationDescriptor;code;MFPlat.DLL;_MFCreatePresentationDescriptor@12
 MFCreatePropertiesFromMediaType;code;MFPlat.DLL;_MFCreatePropertiesFromMediaType@12
 MFCreateSample;code;MFPlat.DLL;_MFCreateSample@4
+MFCreateSharedMemoryMediaBufferFromMediaType;code;MFPlat.DLL;_MFCreateSharedMemoryMediaBufferFromMediaType@32
 MFCreateSourceResolver;code;MFPlat.DLL;_MFCreateSourceResolver@4
 MFCreateStreamDescriptor;code;MFPlat.DLL;_MFCreateStreamDescriptor@16
 MFCreateStreamOnMFByteStream;code;MFPlat.DLL;_MFCreateStreamOnMFByteStream@8
@@ -55,6 +59,7 @@ MFCreateSystemTimeSource;code;MFPlat.DLL;_MFCreateSystemTimeSource@4
 MFCreateTempFile;code;MFPlat.DLL;_MFCreateTempFile@16
 MFCreateTrackedSample;code;MFPlat.DLL;_MFCreateTrackedSample@4
 MFCreateTransformActivate;code;MFPlat.DLL;_MFCreateTransformActivate@4
+MFCreateVideoDecryptorContext;code;MFPlat.DLL;_MFCreateVideoDecryptorContext@16
 MFCreateVideoMediaType;code;MFPlat.DLL;_MFCreateVideoMediaType@8
 MFCreateVideoMediaTypeFromBitMapInfoHeader;code;MFPlat.DLL;_MFCreateVideoMediaTypeFromBitMapInfoHeader@48
 MFCreateVideoMediaTypeFromBitMapInfoHeaderEx;code;MFPlat.DLL;_MFCreateVideoMediaTypeFromBitMapInfoHeaderEx@44
@@ -99,6 +104,7 @@ MFInitMediaTypeFromWaveFormatEx;code;MFPlat.DLL;_MFInitMediaTypeFromWaveFormatEx
 MFInitVideoFormat;code;MFPlat.DLL;_MFInitVideoFormat@8
 MFInitVideoFormat_RGB;code;MFPlat.DLL;_MFInitVideoFormat_RGB@16
 MFInvokeCallback;code;MFPlat.DLL;_MFInvokeCallback@4
+MFIsContentProtectionDeviceSupported;code;MFPlat.DLL;_MFIsContentProtectionDeviceSupported@8
 MFLockDXGIDeviceManager;code;MFPlat.DLL;_MFLockDXGIDeviceManager@8
 MFLockPlatform;code;MFPlat.DLL;_MFLockPlatform@0
 MFLockSharedWorkQueue;code;MFPlat.DLL;_MFLockSharedWorkQueue@16

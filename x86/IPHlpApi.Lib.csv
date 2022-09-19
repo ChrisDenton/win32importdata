@@ -33,6 +33,7 @@ ConvertStringToGuidA;code;IPHLPAPI.DLL;_ConvertStringToGuidA@8
 ConvertStringToGuidW;code;IPHLPAPI.DLL;_ConvertStringToGuidW@8
 ConvertStringToInterfacePhysicalAddress;code;IPHLPAPI.DLL;_ConvertStringToInterfacePhysicalAddress@8
 CreateAnycastIpAddressEntry;code;IPHLPAPI.DLL;_CreateAnycastIpAddressEntry@4
+CreateCompartment;code;IPHLPAPI.DLL;_CreateCompartment@4
 CreateIpForwardEntry2;code;IPHLPAPI.DLL;_CreateIpForwardEntry2@4
 CreateIpForwardEntry;code;IPHLPAPI.DLL;_CreateIpForwardEntry@4
 CreateIpNetEntry2;code;IPHLPAPI.DLL;_CreateIpNetEntry2@4
@@ -43,6 +44,7 @@ CreateProxyArpEntry;code;IPHLPAPI.DLL;_CreateProxyArpEntry@12
 CreateSortedAddressPairs;code;IPHLPAPI.DLL;_CreateSortedAddressPairs@28
 CreateUnicastIpAddressEntry;code;IPHLPAPI.DLL;_CreateUnicastIpAddressEntry@4
 DeleteAnycastIpAddressEntry;code;IPHLPAPI.DLL;_DeleteAnycastIpAddressEntry@4
+DeleteCompartment;code;IPHLPAPI.DLL;_DeleteCompartment@4
 DeleteIPAddress;code;IPHLPAPI.DLL;_DeleteIPAddress@4
 DeleteIpForwardEntry2;code;IPHLPAPI.DLL;_DeleteIpForwardEntry2@4
 DeleteIpForwardEntry;code;IPHLPAPI.DLL;_DeleteIpForwardEntry@4
@@ -69,6 +71,7 @@ GetBestInterfaceEx;code;IPHLPAPI.DLL;_GetBestInterfaceEx@8
 GetBestRoute2;code;IPHLPAPI.DLL;_GetBestRoute2@28
 GetBestRoute;code;IPHLPAPI.DLL;_GetBestRoute@12
 GetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentId@0
+GetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_GetCurrentThreadCompartmentScope@8
 GetExtendedTcpTable;code;IPHLPAPI.DLL;_GetExtendedTcpTable@24
 GetExtendedUdpTable;code;IPHLPAPI.DLL;_GetExtendedUdpTable@24
 GetFriendlyIfIndex;code;IPHLPAPI.DLL;_GetFriendlyIfIndex@4
@@ -97,6 +100,7 @@ GetIpPathEntry;code;IPHLPAPI.DLL;_GetIpPathEntry@4
 GetIpPathTable;code;IPHLPAPI.DLL;_GetIpPathTable@8
 GetIpStatistics;code;IPHLPAPI.DLL;_GetIpStatistics@4
 GetIpStatisticsEx;code;IPHLPAPI.DLL;_GetIpStatisticsEx@8
+GetJobCompartmentId;code;IPHLPAPI.DLL;_GetJobCompartmentId@4
 GetMulticastIpAddressEntry;code;IPHLPAPI.DLL;_GetMulticastIpAddressEntry@4
 GetMulticastIpAddressTable;code;IPHLPAPI.DLL;_GetMulticastIpAddressTable@8
 GetNetworkInformation;code;IPHLPAPI.DLL;_GetNetworkInformation@20
@@ -128,6 +132,7 @@ GetUdpTable;code;IPHLPAPI.DLL;_GetUdpTable@12
 GetUniDirectionalAdapterInfo;code;IPHLPAPI.DLL;_GetUniDirectionalAdapterInfo@8
 GetUnicastIpAddressEntry;code;IPHLPAPI.DLL;_GetUnicastIpAddressEntry@4
 GetUnicastIpAddressTable;code;IPHLPAPI.DLL;_GetUnicastIpAddressTable@8
+GetWPAOACSupportLevel;code;IPHLPAPI.DLL;_GetWPAOACSupportLevel@0
 Icmp6CreateFile;code;IPHLPAPI.DLL;_Icmp6CreateFile@0
 Icmp6ParseReplies;code;IPHLPAPI.DLL;_Icmp6ParseReplies@8
 Icmp6SendEcho2;code;IPHLPAPI.DLL;_Icmp6SendEcho2@48
@@ -137,6 +142,7 @@ IcmpParseReplies;code;IPHLPAPI.DLL;_IcmpParseReplies@8
 IcmpSendEcho2;code;IPHLPAPI.DLL;_IcmpSendEcho2@44
 IcmpSendEcho2Ex;code;IPHLPAPI.DLL;_IcmpSendEcho2Ex@48
 IcmpSendEcho;code;IPHLPAPI.DLL;_IcmpSendEcho@32
+InitializeCompartmentEntry;code;IPHLPAPI.DLL;_InitializeCompartmentEntry@4
 InitializeIpForwardEntry;code;IPHLPAPI.DLL;_InitializeIpForwardEntry@4
 InitializeIpInterfaceEntry;code;IPHLPAPI.DLL;_InitializeIpInterfaceEntry@4
 InitializeUnicastIpAddressEntry;code;IPHLPAPI.DLL;_InitializeUnicastIpAddressEntry@4
@@ -156,6 +162,8 @@ InternalDeleteUnicastIpAddressEntry;code;IPHLPAPI.DLL;_InternalDeleteUnicastIpAd
 InternalFindInterfaceByAddress;code;IPHLPAPI.DLL;_InternalFindInterfaceByAddress@8
 InternalGetAnycastIpAddressEntry;code;IPHLPAPI.DLL;_InternalGetAnycastIpAddressEntry@8
 InternalGetAnycastIpAddressTable;code;IPHLPAPI.DLL;_InternalGetAnycastIpAddressTable@12
+InternalGetBoundTcp6EndpointTable;code;IPHLPAPI.DLL;_InternalGetBoundTcp6EndpointTable@12
+InternalGetBoundTcpEndpointTable;code;IPHLPAPI.DLL;_InternalGetBoundTcpEndpointTable@12
 InternalGetForwardIpTable2;code;IPHLPAPI.DLL;_InternalGetForwardIpTable2@12
 InternalGetIPPhysicalInterfaceForDestination;code;IPHLPAPI.DLL;_InternalGetIPPhysicalInterfaceForDestination@28
 InternalGetIfEntry2;code;IPHLPAPI.DLL;_InternalGetIfEntry2@8
@@ -243,6 +251,7 @@ RestoreMediaSense;code;IPHLPAPI.DLL;_RestoreMediaSense@8
 SendARP;code;IPHLPAPI.DLL;_SendARP@16
 SetAdapterIpAddress;code;IPHLPAPI.DLL;_SetAdapterIpAddress@20
 SetCurrentThreadCompartmentId;code;IPHLPAPI.DLL;_SetCurrentThreadCompartmentId@4
+SetCurrentThreadCompartmentScope;code;IPHLPAPI.DLL;_SetCurrentThreadCompartmentScope@4
 SetIfEntry;code;IPHLPAPI.DLL;_SetIfEntry@4
 SetIpForwardEntry2;code;IPHLPAPI.DLL;_SetIpForwardEntry2@4
 SetIpForwardEntry;code;IPHLPAPI.DLL;_SetIpForwardEntry@4
@@ -252,6 +261,7 @@ SetIpNetEntry;code;IPHLPAPI.DLL;_SetIpNetEntry@4
 SetIpStatistics;code;IPHLPAPI.DLL;_SetIpStatistics@4
 SetIpStatisticsEx;code;IPHLPAPI.DLL;_SetIpStatisticsEx@8
 SetIpTTL;code;IPHLPAPI.DLL;_SetIpTTL@4
+SetJobCompartmentId;code;IPHLPAPI.DLL;_SetJobCompartmentId@8
 SetNetworkInformation;code;IPHLPAPI.DLL;_SetNetworkInformation@12
 SetPerTcp6ConnectionEStats;code;IPHLPAPI.DLL;_SetPerTcp6ConnectionEStats@24
 SetPerTcp6ConnectionStats;code;IPHLPAPI.DLL;_SetPerTcp6ConnectionStats@20

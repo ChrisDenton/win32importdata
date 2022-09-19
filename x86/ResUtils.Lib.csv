@@ -1,8 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
+ClusWorkerStart;code;RESUTILS.dll;?ClusWorkerStart@@YGKPAU_WORK_CONTEXT@@@Z (unsigned long __stdcall ClusWorkerStart(struct _WORK_CONTEXT *))
 CloseClusterCryptProvider;code;RESUTILS.dll;_CloseClusterCryptProvider@4
 ClusWorkerCheckTerminate;code;RESUTILS.dll;_ClusWorkerCheckTerminate@4
 ClusWorkerCreate;code;RESUTILS.dll;_ClusWorkerCreate@12
-ClusWorkerStart;code;RESUTILS.dll;_ClusWorkerStart@4
 ClusWorkerTerminate;code;RESUTILS.dll;_ClusWorkerTerminate@4
 ClusterClearBackupStateForSharedVolume;code;RESUTILS.dll;_ClusterClearBackupStateForSharedVolume@4
 ClusterDecrypt;code;RESUTILS.dll;_ClusterDecrypt@20
@@ -38,6 +38,7 @@ ResUtilFindFileTimeProperty;code;RESUTILS.dll;_ResUtilFindFileTimeProperty@16
 ResUtilFindLongProperty;code;RESUTILS.dll;_ResUtilFindLongProperty@16
 ResUtilFindMultiSzProperty;code;RESUTILS.dll;_ResUtilFindMultiSzProperty@20
 ResUtilFindSzProperty;code;RESUTILS.dll;_ResUtilFindSzProperty@16
+ResUtilFindULargeIntegerProperty;code;RESUTILS.dll;_ResUtilFindULargeIntegerProperty@16
 ResUtilFreeEnvironment;code;RESUTILS.dll;_ResUtilFreeEnvironment@4
 ResUtilFreeParameterBlock;code;RESUTILS.dll;_ResUtilFreeParameterBlock@12
 ResUtilGetAllProperties;code;RESUTILS.dll;_ResUtilGetAllProperties@24
@@ -74,6 +75,8 @@ ResUtilGetSzProperty;code;RESUTILS.dll;_ResUtilGetSzProperty@20
 ResUtilGetSzValue;code;RESUTILS.dll;_ResUtilGetSzValue@8
 ResUtilIsPathValid;code;RESUTILS.dll;_ResUtilIsPathValid@4
 ResUtilIsResourceClassEqual;code;RESUTILS.dll;_ResUtilIsResourceClassEqual@8
+ResUtilLeftPaxosIsLessThanRight;code;RESUTILS.dll;_ResUtilLeftPaxosIsLessThanRight@8
+ResUtilPaxosComparer;code;RESUTILS.dll;_ResUtilPaxosComparer@8
 ResUtilPropertyListFromParameterBlock;code;RESUTILS.dll;_ResUtilPropertyListFromParameterBlock@24
 ResUtilRemoveResourceServiceEnvironment;code;RESUTILS.dll;_ResUtilRemoveResourceServiceEnvironment@12
 ResUtilResourceTypesEqual;code;RESUTILS.dll;_ResUtilResourceTypesEqual@8

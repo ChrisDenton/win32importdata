@@ -1,4 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
+SymFreeDiaString;code;imagehlp.dll;?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
+SymGetDiaSession;code;imagehlp.dll;?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
 BindImage;code;imagehlp.dll;_BindImage@12
 BindImageEx;code;imagehlp.dll;_BindImageEx@20
 CheckSumMappedFile;code;imagehlp.dll;_CheckSumMappedFile@16

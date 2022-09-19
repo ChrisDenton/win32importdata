@@ -5,6 +5,7 @@ _ATQReleaseTCPPortReservation@4;code;NTDSATQ.dll;
 _ATQReserveTCPPorts@12;code;NTDSATQ.dll;
 AllocCacheDumpStatsToHtml;code;NTDSATQ.dll;_AllocCacheDumpStatsToHtml@8
 _AtqCloseEndpoint@4;code;NTDSATQ.dll;
+_AtqCloseQosClass@4;code;NTDSATQ.dll;
 _AtqCloseSession@4;code;NTDSATQ.dll;
 _AtqCloseSocket@8;code;NTDSATQ.dll;
 _AtqContextGetInfo@8;code;NTDSATQ.dll;
@@ -12,6 +13,7 @@ _AtqContextSetInfo2@12;code;NTDSATQ.dll;
 _AtqContextSetInfo@12;code;NTDSATQ.dll;
 _AtqCreateEndpoint@8;code;NTDSATQ.dll;
 _AtqCreateEndpointEx@12;code;NTDSATQ.dll;
+_AtqCreateQosClass@8;code;NTDSATQ.dll;
 _AtqEndpointGetInfo@8;code;NTDSATQ.dll;
 _AtqEndpointSetInfo2@12;code;NTDSATQ.dll;
 _AtqEndpointSetInfo@12;code;NTDSATQ.dll;
@@ -24,6 +26,12 @@ _AtqGetInfo@4;code;NTDSATQ.dll;
 _AtqGetMaxDatagramSendSize@4;code;NTDSATQ.dll;
 AtqInitialize;code;NTDSATQ.dll;_AtqInitialize@4
 _AtqOpenSession@0;code;NTDSATQ.dll;
+_AtqQosClassGetId@4;code;NTDSATQ.dll;
+_AtqQosClassGetInfo@8;code;NTDSATQ.dll;
+_AtqQosClassGetInstance@4;code;NTDSATQ.dll;
+_AtqQosContextEnd@4;code;NTDSATQ.dll;
+_AtqQosContextExtendTime@8;code;NTDSATQ.dll;
+_AtqQosContextStart@8;code;NTDSATQ.dll;
 _AtqReadFile@16;code;NTDSATQ.dll;
 _AtqReadSocket@16;code;NTDSATQ.dll;
 _AtqRegisterAddressChangeCallback@8;code;NTDSATQ.dll;
@@ -34,6 +42,7 @@ _AtqStartEndpoint@4;code;NTDSATQ.dll;
 _AtqStopEndpoint@4;code;NTDSATQ.dll;
 _AtqSyncWsaSend@16;code;NTDSATQ.dll;
 AtqTerminate;code;NTDSATQ.dll;_AtqTerminate@0
+_AtqUpdateQosClass@8;code;NTDSATQ.dll;
 _AtqWriteDatagramSocket@16;code;NTDSATQ.dll;
 _AtqWriteFile@16;code;NTDSATQ.dll;
 _AtqWriteSocket@16;code;NTDSATQ.dll;

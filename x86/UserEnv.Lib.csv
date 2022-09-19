@@ -21,7 +21,7 @@ DeleteProfileA;code;USERENV.dll;_DeleteProfileA@12
 _DeleteProfileDirectory@12;code;USERENV.dll;202
 DeleteProfileW;code;USERENV.dll;_DeleteProfileW@12
 DeriveAppContainerSidFromAppContainerName;code;USERENV.dll;_DeriveAppContainerSidFromAppContainerName@8
-_DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12;code;USERENV.dll;216
+DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName;code;USERENV.dll;_DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12
 DestroyEnvironmentBlock;code;USERENV.dll;_DestroyEnvironmentBlock@4
 EnterCriticalPolicySection;code;USERENV.dll;_EnterCriticalPolicySection@4
 ExpandEnvironmentStringsForUserA;code;USERENV.dll;_ExpandEnvironmentStringsForUserA@16
@@ -47,9 +47,9 @@ GetProfileType;code;USERENV.dll;_GetProfileType@4
 GetProfilesDirectoryA;code;USERENV.dll;_GetProfilesDirectoryA@8
 GetProfilesDirectoryW;code;USERENV.dll;_GetProfilesDirectoryW@8
 GetUserProfileDirectoryA;code;USERENV.dll;_GetUserProfileDirectoryA@12
+_GetUserProfileDirectoryForUserSidW@12;code;USERENV.dll;217
 GetUserProfileDirectoryW;code;USERENV.dll;_GetUserProfileDirectoryW@12
 HasPolicyForegroundProcessingCompleted;code;USERENV.dll;_HasPolicyForegroundProcessingCompleted@20
-_IsBypassExclusionDisabled@0;code;USERENV.dll;215
 LeaveCriticalPolicySection;code;USERENV.dll;_LeaveCriticalPolicySection@4
 LoadUserProfileA;code;USERENV.dll;_LoadUserProfileA@8
 LoadUserProfileW;code;USERENV.dll;_LoadUserProfileW@8

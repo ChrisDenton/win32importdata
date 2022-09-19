@@ -1,7 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 I_RpcBindingInqCurrentModifiedId;code;RPCRT4.dll;?I_RpcBindingInqCurrentModifiedId@@YGJPAXPAU_LUID@@@Z (long __stdcall I_RpcBindingInqCurrentModifiedId(void *,struct _LUID *))
 I_RpcFwThisIsTheManager;code;RPCRT4.dll;?I_RpcFwThisIsTheManager@@YGXXZ (void __stdcall I_RpcFwThisIsTheManager(void))
-I_RpcInitNdrImports;code;RPCRT4.dll;?I_RpcInitNdrImports@@YGXPAPAU_NDR_CALLBACK_ROUTINES_TABLE@@@Z (void __stdcall I_RpcInitNdrImports(struct _NDR_CALLBACK_ROUTINES_TABLE * *))
+I_RpcInitNdrImports;code;RPCRT4.dll;?I_RpcInitNdrImports@@YGXPAPBU_NDR_CALLBACK_ROUTINES_TABLE@@@Z (void __stdcall I_RpcInitNdrImports(struct _NDR_CALLBACK_ROUTINES_TABLE const * *))
 I_RpcMgmtQueryDedicatedThreadPool;code;RPCRT4.dll;?I_RpcMgmtQueryDedicatedThreadPool@@YGEXZ (unsigned char __stdcall I_RpcMgmtQueryDedicatedThreadPool(void))
 I_RpcOpenClientThread;code;RPCRT4.dll;?I_RpcOpenClientThread@@YGJPAXKPAPAX@Z (long __stdcall I_RpcOpenClientThread(void *,unsigned long,void * *))
 I_RpcServerTurnOnOffKeepalives;code;RPCRT4.dll;?I_RpcServerTurnOnOffKeepalives@@YGJPAXHKK@Z (long __stdcall I_RpcServerTurnOnOffKeepalives(void *,int,unsigned long,unsigned long))
@@ -9,10 +9,10 @@ NdrFullPointerFree;code;RPCRT4.dll;?NdrFullPointerFree@@YGHPAU_FULL_PTR_XLAT_TAB
 NdrFullPointerInsertRefId;code;RPCRT4.dll;?NdrFullPointerInsertRefId@@YGXPAU_FULL_PTR_XLAT_TABLES@@KPAX@Z (void __stdcall NdrFullPointerInsertRefId(struct _FULL_PTR_XLAT_TABLES *,unsigned long,void *))
 NdrFullPointerQueryPointer;code;RPCRT4.dll;?NdrFullPointerQueryPointer@@YGHPAU_FULL_PTR_XLAT_TABLES@@PAXEPAK@Z (int __stdcall NdrFullPointerQueryPointer(struct _FULL_PTR_XLAT_TABLES *,void *,unsigned char,unsigned long *))
 NdrFullPointerQueryRefId;code;RPCRT4.dll;?NdrFullPointerQueryRefId@@YGHPAU_FULL_PTR_XLAT_TABLES@@KEPAPAX@Z (int __stdcall NdrFullPointerQueryRefId(struct _FULL_PTR_XLAT_TABLES *,unsigned long,unsigned char,void * *))
-pfnFreeRoutines;code;RPCRT4.dll;?pfnFreeRoutines@@3PBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnFreeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnMarshallRoutines;code;RPCRT4.dll;?pfnMarshallRoutines@@3PBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (unsigned char * (__stdcall*const * const pfnMarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnSizeRoutines;code;RPCRT4.dll;?pfnSizeRoutines@@3PBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnSizeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
-pfnUnmarshallRoutines;code;RPCRT4.dll;?pfnUnmarshallRoutines@@3PBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAPAEPBEE@ZB (unsigned char * (__stdcall*const * const pfnUnmarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char * *,unsigned char const *,unsigned char))
+pfnFreeRoutines;code;RPCRT4.dll;?pfnFreeRoutines@@3QBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnFreeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnMarshallRoutines;code;RPCRT4.dll;?pfnMarshallRoutines@@3QBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (unsigned char * (__stdcall*const * const pfnMarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnSizeRoutines;code;RPCRT4.dll;?pfnSizeRoutines@@3QBQ6GXPAU_MIDL_STUB_MESSAGE@@PAEPBE@ZB (void (__stdcall*const * const pfnSizeRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char *,unsigned char const *))
+pfnUnmarshallRoutines;code;RPCRT4.dll;?pfnUnmarshallRoutines@@3QBQ6GPAEPAU_MIDL_STUB_MESSAGE@@PAPAEPBEE@ZB (unsigned char * (__stdcall*const * const pfnUnmarshallRoutines)(struct _MIDL_STUB_MESSAGE *,unsigned char * *,unsigned char const *,unsigned char))
 CStdStubBuffer_AddRef;code;RPCRT4.dll;_CStdStubBuffer_AddRef@4
 CStdStubBuffer_Connect;code;RPCRT4.dll;_CStdStubBuffer_Connect@8
 CStdStubBuffer_CountRefs;code;RPCRT4.dll;_CStdStubBuffer_CountRefs@4
@@ -145,6 +145,7 @@ NDRSContextUnmarshall;code;RPCRT4.dll;_NDRSContextUnmarshall@8
 NDRSContextUnmarshallEx;code;RPCRT4.dll;_NDRSContextUnmarshallEx@12
 NdrAllocate;code;RPCRT4.dll;_NdrAllocate@8
 NdrAsyncClientCall;code;RPCRT4.dll;_NdrAsyncClientCall
+NdrAsyncClientCall2;code;RPCRT4.dll;_NdrAsyncClientCall2
 NdrAsyncServerCall;code;RPCRT4.dll;_NdrAsyncServerCall@4
 NdrByteCountPointerBufferSize;code;RPCRT4.dll;_NdrByteCountPointerBufferSize@12
 NdrByteCountPointerFree;code;RPCRT4.dll;_NdrByteCountPointerFree@12
@@ -155,6 +156,7 @@ NdrCStdStubBuffer_Release;code;RPCRT4.dll;_NdrCStdStubBuffer_Release@8
 NdrClearOutParameters;code;RPCRT4.dll;_NdrClearOutParameters@12
 NdrClientCall;code;RPCRT4.dll;_NdrClientCall
 NdrClientCall2;code;RPCRT4.dll;_NdrClientCall2
+NdrClientCall4;code;RPCRT4.dll;_NdrClientCall4
 NdrClientContextMarshall;code;RPCRT4.dll;_NdrClientContextMarshall@12
 NdrClientContextUnmarshall;code;RPCRT4.dll;_NdrClientContextUnmarshall@12
 NdrClientInitialize;code;RPCRT4.dll;_NdrClientInitialize@16
@@ -202,6 +204,7 @@ NdrCorrelationInitialize;code;RPCRT4.dll;_NdrCorrelationInitialize@16
 NdrCorrelationPass;code;RPCRT4.dll;_NdrCorrelationPass@4
 NdrCreateServerInterfaceFromStub;code;RPCRT4.dll;_NdrCreateServerInterfaceFromStub@8
 NdrDcomAsyncClientCall;code;RPCRT4.dll;_NdrDcomAsyncClientCall
+NdrDcomAsyncClientCall2;code;RPCRT4.dll;_NdrDcomAsyncClientCall2
 NdrDcomAsyncStubCall;code;RPCRT4.dll;_NdrDcomAsyncStubCall@16
 NdrDllCanUnloadNow;code;RPCRT4.dll;_NdrDllCanUnloadNow@4
 NdrDllGetClassObject;code;RPCRT4.dll;_NdrDllGetClassObject@24
@@ -236,6 +239,7 @@ NdrInterfacePointerUnmarshall;code;RPCRT4.dll;_NdrInterfacePointerUnmarshall@16
 NdrMapCommAndFaultStatus;code;RPCRT4.dll;_NdrMapCommAndFaultStatus@16
 NdrMesProcEncodeDecode;code;RPCRT4.dll;_NdrMesProcEncodeDecode
 NdrMesProcEncodeDecode2;code;RPCRT4.dll;_NdrMesProcEncodeDecode2
+NdrMesProcEncodeDecode4;code;RPCRT4.dll;_NdrMesProcEncodeDecode4
 NdrMesSimpleTypeAlignSize;code;RPCRT4.dll;_NdrMesSimpleTypeAlignSize@4
 NdrMesSimpleTypeDecode;code;RPCRT4.dll;_NdrMesSimpleTypeDecode@12
 NdrMesSimpleTypeEncode;code;RPCRT4.dll;_NdrMesSimpleTypeEncode@16
@@ -401,6 +405,7 @@ RpcIfIdVectorFree;code;RPCRT4.dll;_RpcIfIdVectorFree@4
 RpcIfInqId;code;RPCRT4.dll;_RpcIfInqId@8
 RpcImpersonateClient2;code;RPCRT4.dll;_RpcImpersonateClient2@4
 RpcImpersonateClient;code;RPCRT4.dll;_RpcImpersonateClient@4
+RpcImpersonateClientContainer;code;RPCRT4.dll;_RpcImpersonateClientContainer@4
 RpcMgmtEnableIdleCleanup;code;RPCRT4.dll;_RpcMgmtEnableIdleCleanup@0
 RpcMgmtEpEltInqBegin;code;RPCRT4.dll;_RpcMgmtEpEltInqBegin@24
 RpcMgmtEpEltInqDone;code;RPCRT4.dll;_RpcMgmtEpEltInqDone@4
@@ -433,6 +438,7 @@ RpcObjectSetType;code;RPCRT4.dll;_RpcObjectSetType@8
 RpcProtseqVectorFreeA;code;RPCRT4.dll;_RpcProtseqVectorFreeA@4
 RpcProtseqVectorFreeW;code;RPCRT4.dll;_RpcProtseqVectorFreeW@4
 RpcRaiseException;code;RPCRT4.dll;_RpcRaiseException@4
+RpcRevertContainerImpersonation;code;RPCRT4.dll;_RpcRevertContainerImpersonation@0
 RpcRevertToSelf;code;RPCRT4.dll;_RpcRevertToSelf@0
 RpcRevertToSelfEx;code;RPCRT4.dll;_RpcRevertToSelfEx@4
 RpcServerCompleteSecurityCallback;code;RPCRT4.dll;_RpcServerCompleteSecurityCallback@8

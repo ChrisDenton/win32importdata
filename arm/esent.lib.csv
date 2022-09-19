@@ -269,6 +269,7 @@ JetPatchDatabasePagesA;code;ESENT.dll;
 JetPatchDatabasePagesW;code;ESENT.dll;
 JetPrepareToCommitTransaction;code;ESENT.dll;
 JetPrepareUpdate;code;ESENT.dll;
+JetPrereadIndexRange;code;ESENT.dll;
 JetPrereadIndexRanges;code;ESENT.dll;
 JetPrereadKeys;code;ESENT.dll;
 JetPrereadTablesW;code;ESENT.dll;

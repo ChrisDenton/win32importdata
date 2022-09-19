@@ -13,7 +13,8 @@ WcmFreeMemory;code;wcmapi.dll;_WcmFreeMemory@4
 WcmGetInterfaceToken;code;wcmapi.dll;_WcmGetInterfaceToken@12
 WcmGetProfileList;code;wcmapi.dll;_WcmGetProfileList@8
 WcmOpenHandle;code;wcmapi.dll;_WcmOpenHandle@16
-WcmOpenOnDemandRequestHandle;code;wcmapi.dll;_WcmOpenOnDemandRequestHandle@20
+WcmOpenOnDemandRequestHandle;code;wcmapi.dll;_WcmOpenOnDemandRequestHandle@24
+WcmOpenOnDemandRequestHandleByWwanProfileName;code;wcmapi.dll;_WcmOpenOnDemandRequestHandleByWwanProfileName@12
 WcmOrderConnection;code;wcmapi.dll;_WcmOrderConnection@12
 WcmQueryOnDemandRequestStateInfo;code;wcmapi.dll;_WcmQueryOnDemandRequestStateInfo@8
 WcmQueryParameter;code;wcmapi.dll;_WcmQueryParameter@28

@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+DoLogUnhandledError2;code;NTDSA.dll;@DoLogUnhandledError2@16
 DoLogUnhandledError;code;NTDSA.dll;@DoLogUnhandledError@12
 AppendRDN;code;NTDSA.dll;_AppendRDN@24
 AttrTypeToKey;code;NTDSA.dll;_AttrTypeToKey@8

@@ -4,6 +4,7 @@ D2D1ConvertColorSpace;code;d2d1.dll;6
 D2D1CreateDevice;code;d2d1.dll;7
 D2D1CreateDeviceContext;code;d2d1.dll;8
 D2D1CreateFactory;code;d2d1.dll;1
+D2D1GetGradientMeshInteriorPointsFromCoonsPatch;code;d2d1.dll;13
 D2D1InvertMatrix;code;d2d1.dll;5
 D2D1IsMatrixInvertible;code;d2d1.dll;4
 D2D1MakeRotateMatrix;code;d2d1.dll;2

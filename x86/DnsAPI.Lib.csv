@@ -36,6 +36,7 @@ DnsCopyStringEx;code;DNSAPI.dll;_DnsCopyStringEx@20
 DnsCreateReverseNameStringForIpAddress;code;DNSAPI.dll;_DnsCreateReverseNameStringForIpAddress@4
 DnsCreateStandardDnsNameCopy;code;DNSAPI.dll;_DnsCreateStandardDnsNameCopy@12
 DnsCreateStringCopy;code;DNSAPI.dll;_DnsCreateStringCopy@8
+DnsDeRegisterLocal;code;DNSAPI.dll;_DnsDeRegisterLocal@4
 DnsDhcpRegisterAddrs;code;DNSAPI.dll;_DnsDhcpRegisterAddrs@4
 DnsDhcpRegisterHostAddrs;code;DNSAPI.dll;_DnsDhcpRegisterHostAddrs@40
 DnsDhcpRegisterInit;code;DNSAPI.dll;_DnsDhcpRegisterInit@0
@@ -114,6 +115,7 @@ DnsRecordSetDetach;code;DNSAPI.dll;_DnsRecordSetDetach@4
 DnsRecordStringForType;code;DNSAPI.dll;_DnsRecordStringForType@4
 DnsRecordStringForWritableType;code;DNSAPI.dll;_DnsRecordStringForWritableType@4
 DnsRecordTypeForName;code;DNSAPI.dll;_DnsRecordTypeForName@8
+DnsRegisterLocal;code;DNSAPI.dll;_DnsRegisterLocal@12
 DnsReleaseContextHandle;code;DNSAPI.dll;_DnsReleaseContextHandle@4
 DnsRemoveRegistrations;code;DNSAPI.dll;_DnsRemoveRegistrations@0
 DnsReplaceRecordSetA;code;DNSAPI.dll;_DnsReplaceRecordSetA@20
@@ -122,8 +124,20 @@ DnsReplaceRecordSetW;code;DNSAPI.dll;_DnsReplaceRecordSetW@20
 DnsResetQueryRetryTimeouts;code;DNSAPI.dll;_DnsResetQueryRetryTimeouts@16
 DnsResolverOp;code;DNSAPI.dll;_DnsResolverOp@12
 DnsScreenLocalAddrsForRegistration;code;DNSAPI.dll;_DnsScreenLocalAddrsForRegistration@12
+DnsServiceBrowse;code;DNSAPI.dll;_DnsServiceBrowse@8
+DnsServiceBrowseCancel;code;DNSAPI.dll;_DnsServiceBrowseCancel@4
+DnsServiceConstructInstance;code;DNSAPI.dll;_DnsServiceConstructInstance@40
+DnsServiceCopyInstance;code;DNSAPI.dll;_DnsServiceCopyInstance@4
+DnsServiceDeRegister;code;DNSAPI.dll;_DnsServiceDeRegister@8
+DnsServiceFreeInstance;code;DNSAPI.dll;_DnsServiceFreeInstance@4
+DnsServiceRegister;code;DNSAPI.dll;_DnsServiceRegister@8
+DnsServiceRegisterCancel;code;DNSAPI.dll;_DnsServiceRegisterCancel@4
+DnsServiceResolve;code;DNSAPI.dll;_DnsServiceResolve@8
+DnsServiceResolveCancel;code;DNSAPI.dll;_DnsServiceResolveCancel@4
 DnsSetConfigDword;code;DNSAPI.dll;_DnsSetConfigDword@12
 DnsSetQueryRetryTimeouts;code;DNSAPI.dll;_DnsSetQueryRetryTimeouts@24
+DnsStartMulticastQuery;code;DNSAPI.dll;_DnsStartMulticastQuery@8
+DnsStopMulticastQuery;code;DNSAPI.dll;_DnsStopMulticastQuery@4
 DnsStringCopyAllocateEx;code;DNSAPI.dll;_DnsStringCopyAllocateEx@16
 DnsTraceServerConfig;code;DNSAPI.dll;_DnsTraceServerConfig@12
 DnsUpdate;code;DNSAPI.dll;_DnsUpdate@20
@@ -216,6 +230,7 @@ Reg_ReadUpdateInfo;code;DNSAPI.dll;_Reg_ReadUpdateInfo@8
 Security_ContextListTimeout;code;DNSAPI.dll;_Security_ContextListTimeout@4
 Send_AndRecvUdpWithParam;code;DNSAPI.dll;_Send_AndRecvUdpWithParam@4
 Send_MessagePrivate;code;DNSAPI.dll;_Send_MessagePrivate@12
+Send_MessagePrivateEx;code;DNSAPI.dll;_Send_MessagePrivateEx@16
 Send_OpenTcpConnectionAndSend;code;DNSAPI.dll;_Send_OpenTcpConnectionAndSend@12
 Socket_CacheCleanup;code;DNSAPI.dll;_Socket_CacheCleanup@0
 Socket_CacheInit;code;DNSAPI.dll;_Socket_CacheInit@4
