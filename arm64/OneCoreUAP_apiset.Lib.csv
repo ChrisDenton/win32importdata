@@ -123,6 +123,8 @@ GetIdForPackageDependencyContext;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
 GetResolvedPackageFullNameForPackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
 RemovePackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
 TryCreatePackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+GetPackageGraphRevisionId;code;api-ms-win-appmodel-runtime-l1-1-6.dll;#GetPackageGraphRevisionId
+GetPackageGraphRevisionId;code;api-ms-win-appmodel-runtime-l1-1-6.dll;
 NotifyBootConfigStatus;code;api-ms-win-base-bootconfig-l1-1-0.dll;#NotifyBootConfigStatus
 NotifyBootConfigStatus;code;api-ms-win-base-bootconfig-l1-1-0.dll;
 IsTextUnicode;code;api-ms-win-base-util-l1-1-0.dll;#IsTextUnicode
@@ -1327,6 +1329,10 @@ PopIoRingCompletion;code;api-ms-win-core-ioring-l1-1-0.dll;
 QueryIoRingCapabilities;code;api-ms-win-core-ioring-l1-1-0.dll;
 SetIoRingCompletionEvent;code;api-ms-win-core-ioring-l1-1-0.dll;
 SubmitIoRing;code;api-ms-win-core-ioring-l1-1-0.dll;
+BuildIoRingFlushFile;code;api-ms-win-core-ioring-l1-1-1.dll;#BuildIoRingFlushFile
+BuildIoRingWriteFile;code;api-ms-win-core-ioring-l1-1-1.dll;#BuildIoRingWriteFile
+BuildIoRingFlushFile;code;api-ms-win-core-ioring-l1-1-1.dll;
+BuildIoRingWriteFile;code;api-ms-win-core-ioring-l1-1-1.dll;
 IsProcessInJob;code;api-ms-win-core-job-l1-1-0.dll;#IsProcessInJob
 IsProcessInJob;code;api-ms-win-core-job-l1-1-0.dll;
 AssignProcessToJobObject;code;api-ms-win-core-job-l2-1-0.dll;#AssignProcessToJobObject
@@ -4495,6 +4501,20 @@ OpenTraceW;code;api-ms-win-eventing-consumer-l1-1-0.dll;
 ProcessTrace;code;api-ms-win-eventing-consumer-l1-1-0.dll;
 QueryTraceProcessingHandle;code;api-ms-win-eventing-consumer-l1-1-1.dll;#QueryTraceProcessingHandle
 QueryTraceProcessingHandle;code;api-ms-win-eventing-consumer-l1-1-1.dll;
+OpenTraceFromBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromBufferStream
+OpenTraceFromFile;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromFile
+OpenTraceFromRealTimeLogger;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromRealTimeLogger
+OpenTraceFromRealTimeLoggerWithAllocationOptions;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromRealTimeLoggerWithAllocationOptions
+ProcessTraceAddBufferToBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;#ProcessTraceAddBufferToBufferStream
+ProcessTraceBufferDecrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;#ProcessTraceBufferDecrementReference
+ProcessTraceBufferIncrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;#ProcessTraceBufferIncrementReference
+OpenTraceFromBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromFile;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromRealTimeLogger;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromRealTimeLoggerWithAllocationOptions;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+ProcessTraceAddBufferToBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+ProcessTraceBufferDecrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+ProcessTraceBufferIncrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;
 ControlTraceW;code;api-ms-win-eventing-controller-l1-1-0.dll;#ControlTraceW
 EnableTraceEx2;code;api-ms-win-eventing-controller-l1-1-0.dll;#EnableTraceEx2
 EnumerateTraceGuidsEx;code;api-ms-win-eventing-controller-l1-1-0.dll;#EnumerateTraceGuidsEx
@@ -7441,14 +7461,17 @@ DdqIsDiagnosticRecordSampledIn;code;DiagnosticDataQuery.dll;
 DdqSetTranscriptConfiguration;code;DiagnosticDataQuery.dll;
 UtcSendTraceLogging;code;DiagnosticDataQuery.dll;
 UtcSendTraceLogging2;code;DiagnosticDataQuery.dll;
-DMLCreateDevice;code;DirectML.dll;1
-DMLCreateDevice1;code;DirectML.dll;2
+DMLCreateDevice;code;DirectML.dll;DMLCreateDevice
+DMLCreateDevice1;code;DirectML.dll;DMLCreateDevice1
+DMLCreateDevice;code;DirectML.dll;
+DMLCreateDevice1;code;DirectML.dll;
 AdaptiveTimeout_ClearInterfaceSpecificConfiguration;code;DNSAPI.dll;#AdaptiveTimeout_ClearInterfaceSpecificConfiguration
 AdaptiveTimeout_ResetAdaptiveTimeout;code;DNSAPI.dll;#AdaptiveTimeout_ResetAdaptiveTimeout
 AddRefQueryBlobEx;code;DNSAPI.dll;#AddRefQueryBlobEx
 BreakRecordsIntoBlob;code;DNSAPI.dll;#BreakRecordsIntoBlob
 Coalesce_UpdateNetVersion;code;DNSAPI.dll;#Coalesce_UpdateNetVersion
 CombineRecordsInBlob;code;DNSAPI.dll;#CombineRecordsInBlob
+CreateSendBlob;code;DNSAPI.dll;#CreateSendBlob
 DelaySortDAServerlist;code;DNSAPI.dll;#DelaySortDAServerlist
 DeRefQueryBlobEx;code;DNSAPI.dll;#DeRefQueryBlobEx
 Dns_AddRecordsToMessage;code;DNSAPI.dll;#Dns_AddRecordsToMessage
@@ -7525,6 +7548,7 @@ DnsConnectionGetHandleForHostUrlPrivate;code;DNSAPI.dll;#DnsConnectionGetHandleF
 DnsConnectionGetNameList;code;DNSAPI.dll;#DnsConnectionGetNameList
 DnsConnectionGetProxyInfo;code;DNSAPI.dll;#DnsConnectionGetProxyInfo
 DnsConnectionGetProxyInfoForHostUrl;code;DNSAPI.dll;#DnsConnectionGetProxyInfoForHostUrl
+DnsConnectionGetProxyInfoForHostUrlEx;code;DNSAPI.dll;#DnsConnectionGetProxyInfoForHostUrlEx
 DnsConnectionGetProxyList;code;DNSAPI.dll;#DnsConnectionGetProxyList
 DnsConnectionSetPolicyEntries;code;DNSAPI.dll;#DnsConnectionSetPolicyEntries
 DnsConnectionSetPolicyEntriesPrivate;code;DNSAPI.dll;#DnsConnectionSetPolicyEntriesPrivate
@@ -7574,6 +7598,9 @@ DnsGetApplicationSettings;code;DNSAPI.dll;#DnsGetApplicationSettings
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;#DnsGetBufferLengthForStringCopy
 DnsGetCacheDataTable;code;DNSAPI.dll;#DnsGetCacheDataTable
 DnsGetCacheDataTableEx;code;DNSAPI.dll;#DnsGetCacheDataTableEx
+DnsGetDdrInfo;code;DNSAPI.dll;#DnsGetDdrInfo
+DnsGetDdrInfoCancel;code;DNSAPI.dll;#DnsGetDdrInfoCancel
+DnsGetDdrInfoInternal;code;DNSAPI.dll;#DnsGetDdrInfoInternal
 DnsGetDnsServerList;code;DNSAPI.dll;#DnsGetDnsServerList
 DnsGetDomainName;code;DNSAPI.dll;#DnsGetDomainName
 DnsGetInterfaceSettings;code;DNSAPI.dll;#DnsGetInterfaceSettings
@@ -7726,6 +7753,7 @@ NetInfo_UpdateDnsInterfaceConfigChange;code;DNSAPI.dll;#NetInfo_UpdateDnsInterfa
 NetInfo_UpdateNetworkProperties;code;DNSAPI.dll;#NetInfo_UpdateNetworkProperties
 NetInfo_UpdateServerReachability;code;DNSAPI.dll;#NetInfo_UpdateServerReachability
 Query_Cancel;code;DNSAPI.dll;#Query_Cancel
+Query_InProcSetCompletion;code;DNSAPI.dll;#Query_InProcSetCompletion
 Query_Main;code;DNSAPI.dll;#Query_Main
 QueryDirectEx;code;DNSAPI.dll;#QueryDirectEx
 Reg_FreeUpdateInfo;code;DNSAPI.dll;#Reg_FreeUpdateInfo
@@ -7764,6 +7792,7 @@ AddRefQueryBlobEx;code;DNSAPI.dll;
 BreakRecordsIntoBlob;code;DNSAPI.dll;
 Coalesce_UpdateNetVersion;code;DNSAPI.dll;
 CombineRecordsInBlob;code;DNSAPI.dll;
+CreateSendBlob;code;DNSAPI.dll;
 DelaySortDAServerlist;code;DNSAPI.dll;
 DeRefQueryBlobEx;code;DNSAPI.dll;
 Dns_AddRecordsToMessage;code;DNSAPI.dll;
@@ -7840,6 +7869,7 @@ DnsConnectionGetHandleForHostUrlPrivate;code;DNSAPI.dll;
 DnsConnectionGetNameList;code;DNSAPI.dll;
 DnsConnectionGetProxyInfo;code;DNSAPI.dll;
 DnsConnectionGetProxyInfoForHostUrl;code;DNSAPI.dll;
+DnsConnectionGetProxyInfoForHostUrlEx;code;DNSAPI.dll;
 DnsConnectionGetProxyList;code;DNSAPI.dll;
 DnsConnectionSetPolicyEntries;code;DNSAPI.dll;
 DnsConnectionSetPolicyEntriesPrivate;code;DNSAPI.dll;
@@ -7889,6 +7919,9 @@ DnsGetApplicationSettings;code;DNSAPI.dll;
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;
 DnsGetCacheDataTable;code;DNSAPI.dll;
 DnsGetCacheDataTableEx;code;DNSAPI.dll;
+DnsGetDdrInfo;code;DNSAPI.dll;
+DnsGetDdrInfoCancel;code;DNSAPI.dll;
+DnsGetDdrInfoInternal;code;DNSAPI.dll;
 DnsGetDnsServerList;code;DNSAPI.dll;
 DnsGetDomainName;code;DNSAPI.dll;
 DnsGetInterfaceSettings;code;DNSAPI.dll;
@@ -8041,6 +8074,7 @@ NetInfo_UpdateDnsInterfaceConfigChange;code;DNSAPI.dll;
 NetInfo_UpdateNetworkProperties;code;DNSAPI.dll;
 NetInfo_UpdateServerReachability;code;DNSAPI.dll;
 Query_Cancel;code;DNSAPI.dll;
+Query_InProcSetCompletion;code;DNSAPI.dll;
 Query_Main;code;DNSAPI.dll;
 QueryDirectEx;code;DNSAPI.dll;
 Reg_FreeUpdateInfo;code;DNSAPI.dll;
@@ -8127,6 +8161,7 @@ DXGID3D10CreateLayeredDevice;code;dxgi.dll;#DXGID3D10CreateLayeredDevice
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;#DXGID3D10GetLayeredDeviceSize
 DXGID3D10RegisterLayers;code;dxgi.dll;#DXGID3D10RegisterLayers
 DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;#DXGIDeclareAdapterRemovalSupport
+DXGIDisableVBlankVirtualization;code;dxgi.dll;#DXGIDisableVBlankVirtualization
 DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@$$hYAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
 DXGIGetDebugInterface1;code;dxgi.dll;#DXGIGetDebugInterface1
 DXGIReportAdapterConfiguration;code;dxgi.dll;#DXGIReportAdapterConfiguration
@@ -8142,6 +8177,7 @@ DXGID3D10CreateLayeredDevice;code;dxgi.dll;
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;
 DXGID3D10RegisterLayers;code;dxgi.dll;
 DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;
+DXGIDisableVBlankVirtualization;code;dxgi.dll;
 DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
 DXGIGetDebugInterface1;code;dxgi.dll;
 DXGIReportAdapterConfiguration;code;dxgi.dll;
@@ -8269,6 +8305,9 @@ JetDeleteIndex;code;ESENT.dll;#JetDeleteIndex
 JetDeleteIndexA;code;ESENT.dll;#JetDeleteIndexA
 JetDeleteIndexW;code;ESENT.dll;#JetDeleteIndexW
 JetDeleteTable;code;ESENT.dll;#JetDeleteTable
+JetDeleteTable2;code;ESENT.dll;#JetDeleteTable2
+JetDeleteTable2A;code;ESENT.dll;#JetDeleteTable2A
+JetDeleteTable2W;code;ESENT.dll;#JetDeleteTable2W
 JetDeleteTableA;code;ESENT.dll;#JetDeleteTableA
 JetDeleteTableW;code;ESENT.dll;#JetDeleteTableW
 JetDetachDatabase;code;ESENT.dll;#JetDetachDatabase
@@ -8650,6 +8689,9 @@ JetDeleteIndex;code;ESENT.dll;
 JetDeleteIndexA;code;ESENT.dll;
 JetDeleteIndexW;code;ESENT.dll;
 JetDeleteTable;code;ESENT.dll;
+JetDeleteTable2;code;ESENT.dll;
+JetDeleteTable2A;code;ESENT.dll;
+JetDeleteTable2W;code;ESENT.dll;
 JetDeleteTableA;code;ESENT.dll;
 JetDeleteTableW;code;ESENT.dll;
 JetDetachDatabase;code;ESENT.dll;
@@ -8965,6 +9007,18 @@ WlanSetProfileMetadata;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;
 WlanSignalValueToBar;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;
 WlanSsidToDisplayName;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;
 WlanUtf8SsidToDisplayName;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;
+CreateActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;#CreateActivityCoordinatorPolicy
+DestroyActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;#DestroyActivityCoordinatorPolicy
+GetActivityCoordinatorPolicyResourceCondition;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;#GetActivityCoordinatorPolicyResourceCondition
+SetActivityCoordinatorPolicyResourceCondition;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;#SetActivityCoordinatorPolicyResourceCondition
+SubscribeActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;#SubscribeActivityCoordinatorPolicy
+UnsubscribeActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;#UnsubscribeActivityCoordinatorPolicy
+CreateActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;
+DestroyActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;
+GetActivityCoordinatorPolicyResourceCondition;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;
+SetActivityCoordinatorPolicyResourceCondition;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;
+SubscribeActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;
+UnsubscribeActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;
 PathCleanupSpec;code;ext-ms-win-shell32-shellfolders-l1-1-0.dll;#PathCleanupSpec
 PathIsExe;code;ext-ms-win-shell32-shellfolders-l1-1-0.dll;#PathIsExe
 SHGetDesktopFolder;code;ext-ms-win-shell32-shellfolders-l1-1-0.dll;#SHGetDesktopFolder
@@ -12459,6 +12513,7 @@ MFCreateSinkWriterFromURL;code;MFReadWrite.dll;
 MFCreateSourceReaderFromByteStream;code;MFReadWrite.dll;
 MFCreateSourceReaderFromMediaSource;code;MFReadWrite.dll;
 MFCreateSourceReaderFromURL;code;MFReadWrite.dll;
+MFCreateCameraControlMonitor;code;MFSENSORGROUP.dll;#MFCreateCameraControlMonitor
 MFCreateCameraOcclusionStateMonitor;code;MFSENSORGROUP.dll;#MFCreateCameraOcclusionStateMonitor
 MFCreateRelativePanelWatcher;code;MFSENSORGROUP.dll;#MFCreateRelativePanelWatcher
 MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;#MFCreateSensorActivityMonitor
@@ -12468,6 +12523,7 @@ MFCreateSensorProfileCollection;code;MFSENSORGROUP.dll;#MFCreateSensorProfileCol
 MFCreateSensorStream;code;MFSENSORGROUP.dll;#MFCreateSensorStream
 MFCreateVirtualCamera;code;MFSENSORGROUP.dll;#MFCreateVirtualCamera
 MFIsVirtualCameraTypeSupported;code;MFSENSORGROUP.dll;#MFIsVirtualCameraTypeSupported
+MFCreateCameraControlMonitor;code;MFSENSORGROUP.dll;
 MFCreateCameraOcclusionStateMonitor;code;MFSENSORGROUP.dll;
 MFCreateRelativePanelWatcher;code;MFSENSORGROUP.dll;
 MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;
@@ -12502,6 +12558,7 @@ MFIsVirtualCameraTypeSupported;code;MFSENSORGROUP.dll;
 #mmdDevGetMMDeviceFromInterfaceId;code;MMDevAPI.DLL;23
 #mmdDevGetMMDeviceIdFromInterfaceId;code;MMDevAPI.DLL;25
 #mmdDevGetRelatedInterfaceId;code;MMDevAPI.DLL;27
+#MMDeviceCreateAudioSystemEffectsPropertyStore;code;MMDevAPI.DLL;34
 #MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4
 #MMDeviceCreateRegistryPropertyStore2;code;MMDevAPI.DLL;33
 #MMDeviceGetDeviceEnumerator;code;MMDevAPI.DLL;5
@@ -12534,6 +12591,7 @@ mmdDevGetInterfacePropertyStore;code;MMDevAPI.DLL;20
 mmdDevGetMMDeviceFromInterfaceId;code;MMDevAPI.DLL;23
 mmdDevGetMMDeviceIdFromInterfaceId;code;MMDevAPI.DLL;25
 mmdDevGetRelatedInterfaceId;code;MMDevAPI.DLL;27
+MMDeviceCreateAudioSystemEffectsPropertyStore;code;MMDevAPI.DLL;34
 MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4
 MMDeviceCreateRegistryPropertyStore2;code;MMDevAPI.DLL;33
 MMDeviceGetDeviceEnumerator;code;MMDevAPI.DLL;5
@@ -13796,7 +13854,7 @@ DisassociateColorProfileFromDeviceW;code;mscms.dll;#DisassociateColorProfileFrom
 EnumColorProfilesA;code;mscms.dll;#EnumColorProfilesA
 EnumColorProfilesW;code;mscms.dll;#EnumColorProfilesW
 GenerateCopyFilePaths;code;mscms.dll;#GenerateCopyFilePaths
-?GetCalibrationDataFromProfile@@$$hYAJPEBGPEAUCalibrationData@@@Z (long __cdecl GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *));code;mscms.dll;240
+?GetCalibrationDataFromProfile@@$$hYAJPEBGPEAUCalibrationData@@H@Z (long __cdecl GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *,int));code;mscms.dll;240
 GetCMMInfo;code;mscms.dll;#GetCMMInfo
 GetColorDirectoryA;code;mscms.dll;#GetColorDirectoryA
 GetColorDirectoryW;code;mscms.dll;#GetColorDirectoryW
@@ -13872,7 +13930,7 @@ WcsSetDefaultColorProfile;code;mscms.dll;#WcsSetDefaultColorProfile
 WcsSetDefaultRenderingIntent;code;mscms.dll;#WcsSetDefaultRenderingIntent
 WcsSetUsePerUserProfiles;code;mscms.dll;#WcsSetUsePerUserProfiles
 WcsTranslateColors;code;mscms.dll;#WcsTranslateColors
-?GetCalibrationDataFromProfile@@YAJPEBGPEAUCalibrationData@@@Z (long __cdecl GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *));code;mscms.dll;240
+?GetCalibrationDataFromProfile@@YAJPEBGPEAUCalibrationData@@H@Z (long __cdecl GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *,int));code;mscms.dll;240
 AssociateColorProfileWithDeviceA;code;mscms.dll;1
 AssociateColorProfileWithDeviceW;code;mscms.dll;
 CheckBitmapBits;code;mscms.dll;
@@ -17663,21 +17721,27 @@ WaitForUserPolicyForegroundProcessing;code;USERENV.dll;
 WebAuthNAuthenticatorGetAssertion;code;webauthn.dll;#WebAuthNAuthenticatorGetAssertion
 WebAuthNAuthenticatorMakeCredential;code;webauthn.dll;#WebAuthNAuthenticatorMakeCredential
 WebAuthNCancelCurrentOperation;code;webauthn.dll;#WebAuthNCancelCurrentOperation
+WebAuthNDeletePlatformCredential;code;webauthn.dll;#WebAuthNDeletePlatformCredential
 WebAuthNFreeAssertion;code;webauthn.dll;#WebAuthNFreeAssertion
 WebAuthNFreeCredentialAttestation;code;webauthn.dll;#WebAuthNFreeCredentialAttestation
+WebAuthNFreePlatformCredentialList;code;webauthn.dll;#WebAuthNFreePlatformCredentialList
 WebAuthNGetApiVersionNumber;code;webauthn.dll;#WebAuthNGetApiVersionNumber
 WebAuthNGetCancellationId;code;webauthn.dll;#WebAuthNGetCancellationId
 WebAuthNGetErrorName;code;webauthn.dll;#WebAuthNGetErrorName
+WebAuthNGetPlatformCredentialList;code;webauthn.dll;#WebAuthNGetPlatformCredentialList
 WebAuthNGetW3CExceptionDOMError;code;webauthn.dll;#WebAuthNGetW3CExceptionDOMError
 WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable;code;webauthn.dll;#WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable
 WebAuthNAuthenticatorGetAssertion;code;webauthn.dll;
 WebAuthNAuthenticatorMakeCredential;code;webauthn.dll;
 WebAuthNCancelCurrentOperation;code;webauthn.dll;
+WebAuthNDeletePlatformCredential;code;webauthn.dll;
 WebAuthNFreeAssertion;code;webauthn.dll;
 WebAuthNFreeCredentialAttestation;code;webauthn.dll;
+WebAuthNFreePlatformCredentialList;code;webauthn.dll;
 WebAuthNGetApiVersionNumber;code;webauthn.dll;
 WebAuthNGetCancellationId;code;webauthn.dll;
 WebAuthNGetErrorName;code;webauthn.dll;
+WebAuthNGetPlatformCredentialList;code;webauthn.dll;
 WebAuthNGetW3CExceptionDOMError;code;webauthn.dll;
 WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable;code;webauthn.dll;
 WsAbandonCall;code;webservices.dll;#WsAbandonCall
@@ -18092,7 +18156,6 @@ WebSocketGetAction;code;websocket.dll;
 WebSocketGetGlobalProperty;code;websocket.dll;
 WebSocketReceive;code;websocket.dll;
 WebSocketSend;code;websocket.dll;
-MLCreateOperatorRegistry;code;Windows.AI.MachineLearning.dll;
 PdfCreateRenderer;code;Windows.Data.Pdf.dll;#PdfCreateRenderer
 PdfCreateRenderer;code;Windows.Data.Pdf.dll;
 SetSocketMediaStreamingMode;code;Windows.Networking.dll;#SetSocketMediaStreamingMode
@@ -18339,6 +18402,9 @@ WinHttpConnectionFreeProxyList;code;WINHTTP.dll;#WinHttpConnectionFreeProxyList
 WinHttpConnectionGetNameList;code;WINHTTP.dll;#WinHttpConnectionGetNameList
 WinHttpConnectionGetProxyInfo;code;WINHTTP.dll;#WinHttpConnectionGetProxyInfo
 WinHttpConnectionGetProxyList;code;WINHTTP.dll;#WinHttpConnectionGetProxyList
+WinHttpConnectionOnlyConvert;code;WINHTTP.dll;#WinHttpConnectionOnlyConvert
+WinHttpConnectionOnlyReceive;code;WINHTTP.dll;#WinHttpConnectionOnlyReceive
+WinHttpConnectionOnlySend;code;WINHTTP.dll;#WinHttpConnectionOnlySend
 WinHttpConnectionSetPolicyEntries;code;WINHTTP.dll;#WinHttpConnectionSetPolicyEntries
 WinHttpConnectionSetProxyInfo;code;WINHTTP.dll;#WinHttpConnectionSetProxyInfo
 WinHttpConnectionUpdateIfIndexTable;code;WINHTTP.dll;#WinHttpConnectionUpdateIfIndexTable
@@ -18349,6 +18415,7 @@ WinHttpDetectAutoProxyConfigUrl;code;WINHTTP.dll;#WinHttpDetectAutoProxyConfigUr
 WinHttpFreeProxyResult;code;WINHTTP.dll;#WinHttpFreeProxyResult
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;#WinHttpFreeProxyResultEx
 WinHttpFreeProxySettings;code;WINHTTP.dll;#WinHttpFreeProxySettings
+WinHttpFreeProxySettingsEx;code;WINHTTP.dll;#WinHttpFreeProxySettingsEx
 WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;#WinHttpFreeQueryConnectionGroupResult
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;#WinHttpGetDefaultProxyConfiguration
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;#WinHttpGetIEProxyConfigForCurrentUser
@@ -18358,6 +18425,8 @@ WinHttpGetProxyForUrlEx2;code;WINHTTP.dll;#WinHttpGetProxyForUrlEx2
 WinHttpGetProxyForUrlHvsi;code;WINHTTP.dll;#WinHttpGetProxyForUrlHvsi
 WinHttpGetProxyResult;code;WINHTTP.dll;#WinHttpGetProxyResult
 WinHttpGetProxyResultEx;code;WINHTTP.dll;#WinHttpGetProxyResultEx
+WinHttpGetProxySettingsEx;code;WINHTTP.dll;#WinHttpGetProxySettingsEx
+WinHttpGetProxySettingsResultEx;code;WINHTTP.dll;#WinHttpGetProxySettingsResultEx
 WinHttpGetProxySettingsVersion;code;WINHTTP.dll;#WinHttpGetProxySettingsVersion
 WinHttpGetTunnelSocket;code;WINHTTP.dll;#WinHttpGetTunnelSocket
 WinHttpOpen;code;WINHTTP.dll;#WinHttpOpen
@@ -18374,6 +18443,7 @@ WinHttpReadDataEx;code;WINHTTP.dll;#WinHttpReadDataEx
 WinHttpReadProxySettings;code;WINHTTP.dll;#WinHttpReadProxySettings
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;#WinHttpReadProxySettingsHvsi
 WinHttpReceiveResponse;code;WINHTTP.dll;#WinHttpReceiveResponse
+WinHttpRegisterProxyChangeNotification;code;WINHTTP.dll;#WinHttpRegisterProxyChangeNotification
 WinHttpResetAutoProxy;code;WINHTTP.dll;#WinHttpResetAutoProxy
 WinHttpSaveProxyCredentials;code;WINHTTP.dll;#WinHttpSaveProxyCredentials
 WinHttpSendRequest;code;WINHTTP.dll;#WinHttpSendRequest
@@ -18385,6 +18455,7 @@ WinHttpSetStatusCallback;code;WINHTTP.dll;#WinHttpSetStatusCallback
 WinHttpSetTimeouts;code;WINHTTP.dll;#WinHttpSetTimeouts
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;#WinHttpTimeFromSystemTime
 WinHttpTimeToSystemTime;code;WINHTTP.dll;#WinHttpTimeToSystemTime
+WinHttpUnregisterProxyChangeNotification;code;WINHTTP.dll;#WinHttpUnregisterProxyChangeNotification
 WinHttpWebSocketClose;code;WINHTTP.dll;#WinHttpWebSocketClose
 WinHttpWebSocketCompleteUpgrade;code;WINHTTP.dll;#WinHttpWebSocketCompleteUpgrade
 WinHttpWebSocketQueryCloseStatus;code;WINHTTP.dll;#WinHttpWebSocketQueryCloseStatus
@@ -18407,6 +18478,9 @@ WinHttpConnectionFreeProxyList;code;WINHTTP.dll;
 WinHttpConnectionGetNameList;code;WINHTTP.dll;
 WinHttpConnectionGetProxyInfo;code;WINHTTP.dll;
 WinHttpConnectionGetProxyList;code;WINHTTP.dll;
+WinHttpConnectionOnlyConvert;code;WINHTTP.dll;
+WinHttpConnectionOnlyReceive;code;WINHTTP.dll;
+WinHttpConnectionOnlySend;code;WINHTTP.dll;
 WinHttpConnectionSetPolicyEntries;code;WINHTTP.dll;
 WinHttpConnectionSetProxyInfo;code;WINHTTP.dll;
 WinHttpConnectionUpdateIfIndexTable;code;WINHTTP.dll;
@@ -18417,6 +18491,7 @@ WinHttpDetectAutoProxyConfigUrl;code;WINHTTP.dll;
 WinHttpFreeProxyResult;code;WINHTTP.dll;
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;
 WinHttpFreeProxySettings;code;WINHTTP.dll;
+WinHttpFreeProxySettingsEx;code;WINHTTP.dll;
 WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;
@@ -18426,6 +18501,8 @@ WinHttpGetProxyForUrlEx2;code;WINHTTP.dll;
 WinHttpGetProxyForUrlHvsi;code;WINHTTP.dll;
 WinHttpGetProxyResult;code;WINHTTP.dll;
 WinHttpGetProxyResultEx;code;WINHTTP.dll;
+WinHttpGetProxySettingsEx;code;WINHTTP.dll;
+WinHttpGetProxySettingsResultEx;code;WINHTTP.dll;
 WinHttpGetProxySettingsVersion;code;WINHTTP.dll;
 WinHttpGetTunnelSocket;code;WINHTTP.dll;
 WinHttpOpen;code;WINHTTP.dll;
@@ -18442,6 +18519,7 @@ WinHttpReadDataEx;code;WINHTTP.dll;
 WinHttpReadProxySettings;code;WINHTTP.dll;
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;
 WinHttpReceiveResponse;code;WINHTTP.dll;
+WinHttpRegisterProxyChangeNotification;code;WINHTTP.dll;
 WinHttpResetAutoProxy;code;WINHTTP.dll;
 WinHttpSaveProxyCredentials;code;WINHTTP.dll;
 WinHttpSendRequest;code;WINHTTP.dll;
@@ -18453,6 +18531,7 @@ WinHttpSetStatusCallback;code;WINHTTP.dll;
 WinHttpSetTimeouts;code;WINHTTP.dll;
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;
 WinHttpTimeToSystemTime;code;WINHTTP.dll;
+WinHttpUnregisterProxyChangeNotification;code;WINHTTP.dll;
 WinHttpWebSocketClose;code;WINHTTP.dll;
 WinHttpWebSocketCompleteUpgrade;code;WINHTTP.dll;
 WinHttpWebSocketQueryCloseStatus;code;WINHTTP.dll;
@@ -18461,6 +18540,8 @@ WinHttpWebSocketSend;code;WINHTTP.dll;
 WinHttpWebSocketShutdown;code;WINHTTP.dll;
 WinHttpWriteData;code;WINHTTP.dll;
 WinHttpWriteProxySettings;code;WINHTTP.dll;
+MLCreateOperatorRegistry;code;winml.dll;#MLCreateOperatorRegistry
+MLCreateOperatorRegistry;code;winml.dll;
 WinVerifyTrust;code;WINTRUST.dll;#WinVerifyTrust
 WinVerifyTrust;code;WINTRUST.dll;
 NetAddAlternateComputerName;code;wkscli.dll;#NetAddAlternateComputerName

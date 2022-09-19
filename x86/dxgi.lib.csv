@@ -12,5 +12,6 @@ DXGID3D10CreateLayeredDevice;code;dxgi.dll;_DXGID3D10CreateLayeredDevice@20
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;_DXGID3D10GetLayeredDeviceSize@8
 DXGID3D10RegisterLayers;code;dxgi.dll;_DXGID3D10RegisterLayers@8
 DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;_DXGIDeclareAdapterRemovalSupport@0
+DXGIDisableVBlankVirtualization;code;dxgi.dll;_DXGIDisableVBlankVirtualization@0
 DXGIGetDebugInterface1;code;dxgi.dll;_DXGIGetDebugInterface1@12
 DXGIReportAdapterConfiguration;code;dxgi.dll;_DXGIReportAdapterConfiguration@4

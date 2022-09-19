@@ -89,6 +89,7 @@ D3DKMTCheckSinglePlaneForMultiPlaneOverlaySupport;code;GDI32.dll;_D3DKMTCheckSin
 D3DKMTCheckVidPnExclusiveOwnership;code;GDI32.dll;_D3DKMTCheckVidPnExclusiveOwnership@4
 D3DKMTCloseAdapter;code;GDI32.dll;_D3DKMTCloseAdapter@4
 D3DKMTConfigureSharedResource;code;GDI32.dll;_D3DKMTConfigureSharedResource@4
+D3DKMTConnectDoorbell;code;GDI32.dll;_D3DKMTConnectDoorbell@4
 D3DKMTCreateAllocation2;code;GDI32.dll;_D3DKMTCreateAllocation2@4
 D3DKMTCreateAllocation;code;GDI32.dll;_D3DKMTCreateAllocation@4
 D3DKMTCreateBundleObject;code;GDI32.dll;_D3DKMTCreateBundleObject@4
@@ -96,10 +97,12 @@ D3DKMTCreateContext;code;GDI32.dll;_D3DKMTCreateContext@4
 D3DKMTCreateContextVirtual;code;GDI32.dll;_D3DKMTCreateContextVirtual@4
 D3DKMTCreateDCFromMemory;code;GDI32.dll;_D3DKMTCreateDCFromMemory@4
 D3DKMTCreateDevice;code;GDI32.dll;_D3DKMTCreateDevice@4
+D3DKMTCreateDoorbell;code;GDI32.dll;_D3DKMTCreateDoorbell@4
 D3DKMTCreateHwContext;code;GDI32.dll;_D3DKMTCreateHwContext@4
 D3DKMTCreateHwQueue;code;GDI32.dll;_D3DKMTCreateHwQueue@4
 D3DKMTCreateKeyedMutex2;code;GDI32.dll;_D3DKMTCreateKeyedMutex2@4
 D3DKMTCreateKeyedMutex;code;GDI32.dll;_D3DKMTCreateKeyedMutex@4
+D3DKMTCreateNativeFence;code;GDI32.dll;_D3DKMTCreateNativeFence@4
 D3DKMTCreateOutputDupl;code;GDI32.dll;_D3DKMTCreateOutputDupl@4
 D3DKMTCreateOverlay;code;GDI32.dll;_D3DKMTCreateOverlay@4
 D3DKMTCreatePagingQueue;code;GDI32.dll;_D3DKMTCreatePagingQueue@4
@@ -113,6 +116,7 @@ D3DKMTDestroyAllocation;code;GDI32.dll;_D3DKMTDestroyAllocation@4
 D3DKMTDestroyContext;code;GDI32.dll;_D3DKMTDestroyContext@4
 D3DKMTDestroyDCFromMemory;code;GDI32.dll;_D3DKMTDestroyDCFromMemory@4
 D3DKMTDestroyDevice;code;GDI32.dll;_D3DKMTDestroyDevice@4
+D3DKMTDestroyDoorbell;code;GDI32.dll;_D3DKMTDestroyDoorbell@4
 D3DKMTDestroyHwContext;code;GDI32.dll;_D3DKMTDestroyHwContext@4
 D3DKMTDestroyHwQueue;code;GDI32.dll;_D3DKMTDestroyHwQueue@4
 D3DKMTDestroyKeyedMutex;code;GDI32.dll;_D3DKMTDestroyKeyedMutex@4
@@ -127,6 +131,7 @@ D3DKMTDispMgrTargetOperation;code;GDI32.dll;_D3DKMTDispMgrTargetOperation@4
 D3DKMTDuplicateHandle;code;GDI32.dll;_D3DKMTDuplicateHandle@4
 D3DKMTEnumAdapters2;code;GDI32.dll;_D3DKMTEnumAdapters2@4
 D3DKMTEnumAdapters;code;GDI32.dll;_D3DKMTEnumAdapters@4
+D3DKMTEnumProcesses;code;GDI32.dll;_D3DKMTEnumProcesses@4
 D3DKMTEscape;code;GDI32.dll;_D3DKMTEscape@4
 D3DKMTEvict;code;GDI32.dll;_D3DKMTEvict@4
 D3DKMTExtractBundleObject;code;GDI32.dll;_D3DKMTExtractBundleObject@4
@@ -174,6 +179,7 @@ D3DKMTNetDispStartMiracastDisplayDevice2;code;GDI32.dll;_D3DKMTNetDispStartMirac
 D3DKMTNetDispStartMiracastDisplayDevice;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDevice@8
 D3DKMTNetDispStartMiracastDisplayDeviceEx;code;GDI32.dll;_D3DKMTNetDispStartMiracastDisplayDeviceEx@4
 D3DKMTNetDispStopMiracastDisplayDevice;code;GDI32.dll;_D3DKMTNetDispStopMiracastDisplayDevice@8
+D3DKMTNotifyWorkSubmission;code;GDI32.dll;_D3DKMTNotifyWorkSubmission@4
 D3DKMTOfferAllocations;code;GDI32.dll;_D3DKMTOfferAllocations@4
 D3DKMTOpenAdapterFromDeviceName;code;GDI32.dll;_D3DKMTOpenAdapterFromDeviceName@4
 D3DKMTOpenAdapterFromGdiDisplayName;code;GDI32.dll;_D3DKMTOpenAdapterFromGdiDisplayName@4
@@ -183,6 +189,7 @@ D3DKMTOpenBundleObjectNtHandleFromName;code;GDI32.dll;_D3DKMTOpenBundleObjectNtH
 D3DKMTOpenKeyedMutex2;code;GDI32.dll;_D3DKMTOpenKeyedMutex2@4
 D3DKMTOpenKeyedMutex;code;GDI32.dll;_D3DKMTOpenKeyedMutex@4
 D3DKMTOpenKeyedMutexFromNtHandle;code;GDI32.dll;_D3DKMTOpenKeyedMutexFromNtHandle@4
+D3DKMTOpenNativeFenceFromNtHandle;code;GDI32.dll;_D3DKMTOpenNativeFenceFromNtHandle@4
 D3DKMTOpenNtHandleFromName;code;GDI32.dll;_D3DKMTOpenNtHandleFromName@4
 D3DKMTOpenProtectedSessionFromNtHandle;code;GDI32.dll;_D3DKMTOpenProtectedSessionFromNtHandle@4
 D3DKMTOpenResource2;code;GDI32.dll;_D3DKMTOpenResource2@4

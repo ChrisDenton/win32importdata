@@ -588,6 +588,7 @@ RegisterClipboardFormatA;code;USER32.dll;_RegisterClipboardFormatA@4
 RegisterClipboardFormatW;code;USER32.dll;_RegisterClipboardFormatW@4
 RegisterDeviceNotificationA;code;USER32.dll;_RegisterDeviceNotificationA@12
 RegisterDeviceNotificationW;code;USER32.dll;_RegisterDeviceNotificationW@12
+_RegisterForTooltipDismissNotification@8;code;USER32.dll;2666
 RegisterHotKey;code;USER32.dll;_RegisterHotKey@16
 RegisterPointerDeviceNotifications;code;USER32.dll;_RegisterPointerDeviceNotifications@8
 RegisterPointerInputTarget;code;USER32.dll;_RegisterPointerInputTarget@8
@@ -627,6 +628,7 @@ SendMessageW;code;USER32.dll;_SendMessageW@16
 SendNotifyMessageA;code;USER32.dll;_SendNotifyMessageA@16
 SendNotifyMessageW;code;USER32.dll;_SendNotifyMessageW@16
 SetActiveWindow;code;USER32.dll;_SetActiveWindow@4
+_SetAdditionalForegroundBoostProcesses@12;code;USER32.dll;2665
 SetCapture;code;USER32.dll;_SetCapture@4
 SetCaretBlinkTime;code;USER32.dll;_SetCaretBlinkTime@4
 SetCaretPos;code;USER32.dll;_SetCaretPos@8

@@ -10,6 +10,7 @@ CimCreateImage;code;CIMFS.dll;_CimCreateImage@16
 CimCreateMergedFile;code;CIMFS.dll;_CimCreateMergedFile@20
 CimDeletePath;code;CIMFS.dll;_CimDeletePath@8
 CimDismountImage;code;CIMFS.dll;_CimDismountImage@4
+CimKmMergeMountImage;code;CIMFS.dll;_CimKmMergeMountImage@16
 CimLookupFile;code;CIMFS.dll;_CimLookupFile@12
 CimMergeMountImage;code;CIMFS.dll;_CimMergeMountImage@16
 CimMountImage;code;CIMFS.dll;_CimMountImage@16

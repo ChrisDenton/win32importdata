@@ -23,9 +23,9 @@ JetBackupInstance;code;ESENT.dll;_JetBackupInstance@16
 JetBackupInstanceA;code;ESENT.dll;_JetBackupInstanceA@16
 JetBackupInstanceW;code;ESENT.dll;_JetBackupInstanceW@16
 JetBackupW;code;ESENT.dll;_JetBackupW@12
-JetBeginDatabaseIncrementalReseed;code;ESENT.dll;_JetBeginDatabaseIncrementalReseed@12
-JetBeginDatabaseIncrementalReseedA;code;ESENT.dll;_JetBeginDatabaseIncrementalReseedA@12
-JetBeginDatabaseIncrementalReseedW;code;ESENT.dll;_JetBeginDatabaseIncrementalReseedW@12
+JetBeginDatabaseIncrementalReseed;code;ESENT.dll;_JetBeginDatabaseIncrementalReseed@16
+JetBeginDatabaseIncrementalReseedA;code;ESENT.dll;_JetBeginDatabaseIncrementalReseedA@16
+JetBeginDatabaseIncrementalReseedW;code;ESENT.dll;_JetBeginDatabaseIncrementalReseedW@16
 JetBeginExternalBackup;code;ESENT.dll;_JetBeginExternalBackup@4
 JetBeginExternalBackupInstance;code;ESENT.dll;_JetBeginExternalBackupInstance@8
 JetBeginSession;code;ESENT.dll;_JetBeginSession@16
@@ -117,6 +117,9 @@ JetDeleteColumnW;code;ESENT.dll;_JetDeleteColumnW@12
 JetDeleteIndex;code;ESENT.dll;_JetDeleteIndex@12
 JetDeleteIndexA;code;ESENT.dll;_JetDeleteIndexA@12
 JetDeleteIndexW;code;ESENT.dll;_JetDeleteIndexW@12
+JetDeleteTable2;code;ESENT.dll;_JetDeleteTable2@16
+JetDeleteTable2A;code;ESENT.dll;_JetDeleteTable2A@16
+JetDeleteTable2W;code;ESENT.dll;_JetDeleteTable2W@16
 JetDeleteTable;code;ESENT.dll;_JetDeleteTable@12
 JetDeleteTableA;code;ESENT.dll;_JetDeleteTableA@12
 JetDeleteTableW;code;ESENT.dll;_JetDeleteTableW@12

@@ -16,7 +16,11 @@ CreateFX;code;XAudio2_9.dll;4
 CreateAudioVolumeMeter;code;XAudio2_9.dll;3
 CreateAudioReverbV2_8;code;XAudio2_9.dll;7
 CreateAudioReverb;code;XAudio2_9.dll;2
+WTSVirtualChannelWrite;code;WTSAPI32.dll;
+WTSVirtualChannelRead;code;WTSAPI32.dll;
 WTSVirtualChannelQuery;code;WTSAPI32.dll;
+WTSVirtualChannelPurgeOutput;code;WTSAPI32.dll;
+WTSVirtualChannelPurgeInput;code;WTSAPI32.dll;
 WTSVirtualChannelOpenEx;code;WTSAPI32.dll;
 WTSVirtualChannelOpen;code;WTSAPI32.dll;
 WTSVirtualChannelClose;code;WTSAPI32.dll;
@@ -669,6 +673,7 @@ WinHttpWebSocketReceive;code;WINHTTP.dll;
 WinHttpWebSocketQueryCloseStatus;code;WINHTTP.dll;
 WinHttpWebSocketCompleteUpgrade;code;WINHTTP.dll;
 WinHttpWebSocketClose;code;WINHTTP.dll;
+WinHttpUnregisterProxyChangeNotification;code;WINHTTP.dll;
 WinHttpTimeToSystemTime;code;WINHTTP.dll;
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;
 WinHttpSetTimeouts;code;WINHTTP.dll;
@@ -680,6 +685,7 @@ WinHttpSetCredentials;code;WINHTTP.dll;
 WinHttpSendRequest;code;WINHTTP.dll;
 WinHttpSaveProxyCredentials;code;WINHTTP.dll;
 WinHttpResetAutoProxy;code;WINHTTP.dll;
+WinHttpRegisterProxyChangeNotification;code;WINHTTP.dll;
 WinHttpReceiveResponse;code;WINHTTP.dll;
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;
 WinHttpReadProxySettings;code;WINHTTP.dll;
@@ -696,6 +702,8 @@ WinHttpOpenRequest;code;WINHTTP.dll;
 WinHttpOpen;code;WINHTTP.dll;
 WinHttpGetTunnelSocket;code;WINHTTP.dll;
 WinHttpGetProxySettingsVersion;code;WINHTTP.dll;
+WinHttpGetProxySettingsResultEx;code;WINHTTP.dll;
+WinHttpGetProxySettingsEx;code;WINHTTP.dll;
 WinHttpGetProxyResultEx;code;WINHTTP.dll;
 WinHttpGetProxyResult;code;WINHTTP.dll;
 WinHttpGetProxyForUrlHvsi;code;WINHTTP.dll;
@@ -705,6 +713,7 @@ WinHttpGetProxyForUrl;code;WINHTTP.dll;
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;
 WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;
+WinHttpFreeProxySettingsEx;code;WINHTTP.dll;
 WinHttpFreeProxySettings;code;WINHTTP.dll;
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;
 WinHttpFreeProxyResult;code;WINHTTP.dll;
@@ -715,6 +724,9 @@ WinHttpCrackUrl;code;WINHTTP.dll;
 WinHttpConnectionUpdateIfIndexTable;code;WINHTTP.dll;
 WinHttpConnectionSetProxyInfo;code;WINHTTP.dll;
 WinHttpConnectionSetPolicyEntries;code;WINHTTP.dll;
+WinHttpConnectionOnlySend;code;WINHTTP.dll;
+WinHttpConnectionOnlyReceive;code;WINHTTP.dll;
+WinHttpConnectionOnlyConvert;code;WINHTTP.dll;
 WinHttpConnectionGetProxyList;code;WINHTTP.dll;
 WinHttpConnectionGetProxyInfo;code;WINHTTP.dll;
 WinHttpConnectionGetNameList;code;WINHTTP.dll;
@@ -1054,11 +1066,14 @@ WsAbandonMessage;code;webservices.dll;
 WsAbandonCall;code;webservices.dll;
 WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable;code;webauthn.dll;
 WebAuthNGetW3CExceptionDOMError;code;webauthn.dll;
+WebAuthNGetPlatformCredentialList;code;webauthn.dll;
 WebAuthNGetErrorName;code;webauthn.dll;
 WebAuthNGetCancellationId;code;webauthn.dll;
 WebAuthNGetApiVersionNumber;code;webauthn.dll;
+WebAuthNFreePlatformCredentialList;code;webauthn.dll;
 WebAuthNFreeCredentialAttestation;code;webauthn.dll;
 WebAuthNFreeAssertion;code;webauthn.dll;
+WebAuthNDeletePlatformCredential;code;webauthn.dll;
 WebAuthNCancelCurrentOperation;code;webauthn.dll;
 WebAuthNAuthenticatorMakeCredential;code;webauthn.dll;
 WebAuthNAuthenticatorGetAssertion;code;webauthn.dll;
@@ -1297,6 +1312,7 @@ RegisterRawInputDevices;code;USER32.dll;
 RegisterPowerSettingNotification;code;USER32.dll;
 RegisterPointerDeviceNotifications;code;USER32.dll;
 RegisterHotKey;code;USER32.dll;
+RegisterForTooltipDismissNotification;code;USER32.dll;2666
 RegisterDeviceNotificationW;code;USER32.dll;
 RegisterDeviceNotificationA;code;USER32.dll;
 RegisterClipboardFormatW;code;USER32.dll;
@@ -1751,6 +1767,19 @@ AdjustWindowRectEx;code;USER32.dll;
 AdjustWindowRect;code;USER32.dll;
 AddClipboardFormatListener;code;USER32.dll;
 ActivateKeyboardLayout;code;USER32.dll;
+UiaReturnRawElementProvider;code;UIAutomationCore.DLL;
+UiaRaiseTextEditTextChangedEvent;code;UIAutomationCore.DLL;
+UiaRaiseStructureChangedEvent;code;UIAutomationCore.DLL;
+UiaRaiseChangesEvent;code;UIAutomationCore.DLL;
+UiaRaiseAutomationPropertyChangedEvent;code;UIAutomationCore.DLL;
+UiaRaiseAutomationEvent;code;UIAutomationCore.DLL;
+UiaLookupId;code;UIAutomationCore.DLL;
+UiaHostProviderFromHwnd;code;UIAutomationCore.DLL;
+UiaGetReservedNotSupportedValue;code;UIAutomationCore.DLL;
+UiaGetReservedMixedAttributeValue;code;UIAutomationCore.DLL;
+UiaDisconnectProvider;code;UIAutomationCore.DLL;
+UiaDisconnectAllProviders;code;UIAutomationCore.DLL;
+UiaClientsAreListening;code;UIAutomationCore.DLL;
 TokenBindingVerifyMessage;code;TOKENBINDING.dll;
 TokenBindingGetKeyTypesServer;code;TOKENBINDING.dll;
 TokenBindingGetKeyTypesClient;code;TOKENBINDING.dll;
@@ -2219,8 +2248,10 @@ AssocCopyVerbs;code;SHLWAPI.dll;381
 Win32DeleteFile;code;SHELL32.dll;164
 SHUpdateImageW;code;SHELL32.dll;192
 SHUpdateImageA;code;SHELL32.dll;191
+SHTestTokenMembership;code;SHELL32.dll;245
 SHSimpleIDListFromPath;code;SHELL32.dll;162
 SHShowManageLibraryUI;code;SHELL32.dll;
+SHSetTemporaryPropertyForItem;code;SHELL32.dll;
 SHSetLocalizedName;code;SHELL32.dll;
 SHSetKnownFolderPath;code;SHELL32.dll;
 SHSetInstanceExplorer;code;SHELL32.dll;176
@@ -2229,10 +2260,13 @@ SHQueryUserNotificationState;code;SHELL32.dll;
 SHParseDisplayName;code;SHELL32.dll;
 SHOpenWithDialog;code;SHELL32.dll;
 SHOpenFolderAndSelectItems;code;SHELL32.dll;
+SHMapPIDLToSystemImageListIndex;code;SHELL32.dll;77
 SHLogILFromFSIL;code;SHELL32.dll;95
 SHLimitInputEdit;code;SHELL32.dll;747
 SHILCreateFromPath;code;SHELL32.dll;28
+SHIconIndexFromPIDL;code;SHELL32.dll;873
 SHGetUserDisplayName;code;SHELL32.dll;241
+SHGetTopViewDescription;code;SHELL32.dll;851
 SHGetThreadUndoManager;code;SHELL32.dll;759
 SHGetTemporaryPropertyForItem;code;SHELL32.dll;
 SHGetStockIconInfo;code;SHELL32.dll;
@@ -2242,6 +2276,7 @@ SHGetSpecialFolderLocation;code;SHELL32.dll;
 SHGetSetSettings;code;SHELL32.dll;68
 SHGetRealIDL;code;SHELL32.dll;98
 SHGetPropertyStoreFromParsingName;code;SHELL32.dll;
+SHGetPropertyStoreFromIDList;code;SHELL32.dll;243
 SHGetPropertyStoreForWindow;code;SHELL32.dll;
 SHGetPathFromIDListW;code;SHELL32.dll;
 SHGetPathFromIDListEx;code;SHELL32.dll;
@@ -2251,6 +2286,7 @@ SHGetMalloc;code;SHELL32.dll;
 SHGetKnownFolderPath;code;SHELL32.dll;
 SHGetKnownFolderItem;code;SHELL32.dll;
 SHGetKnownFolderIDList;code;SHELL32.dll;
+SHGetItemFromObject;code;SHELL32.dll;
 SHGetInstanceExplorer;code;SHELL32.dll;
 SHGetImageList;code;SHELL32.dll;727
 SHGetIDListFromObject;code;SHELL32.dll;
@@ -2264,12 +2300,15 @@ SHGetFileInfoW;code;SHELL32.dll;
 SHGetFileInfoA;code;SHELL32.dll;
 SHGetDesktopFolder;code;SHELL32.dll;
 SHGetDataFromIDListW;code;SHELL32.dll;
+SHGetAttributesFromDataObject;code;SHELL32.dll;750
 SHFreeNameMappings;code;SHELL32.dll;
 SHFree;code;SHELL32.dll;195
 SHFlushSFCache;code;SHELL32.dll;526
+SHFindFiles;code;SHELL32.dll;90
 SHFileOperationW;code;SHELL32.dll;
 SHFileOperationA;code;SHELL32.dll;
 SHExtractIconsW;code;SHELL32.dll;
+SHExtCoCreateInstanceCheckCategory;code;SHELL32.dll;887
 SHExtCoCreateInstance;code;SHELL32.dll;866
 SHEvaluateSystemCommandTemplate;code;SHELL32.dll;
 SHEnableServiceObject;code;SHELL32.dll;
@@ -2287,19 +2326,27 @@ Shell_GetImageLists;code;SHELL32.dll;71
 Shell_GetCachedImageIndexW;code;SHELL32.dll;
 SHDoDragDrop;code;SHELL32.dll;88
 SHDefExtractIconW;code;SHELL32.dll;6
+SHCreateTransferFallback;code;SHELL32.dll;928
 SHCreateStdEnumFmtEtc;code;SHELL32.dll;74
 SHCreateShellItemArrayFromShellItem;code;SHELL32.dll;
 SHCreateShellItemArrayFromIDLists;code;SHELL32.dll;
 SHCreateShellItemArrayFromDataObject;code;SHELL32.dll;
+SHCreateShellItemArray;code;SHELL32.dll;
 SHCreateShellItem;code;SHELL32.dll;
 SHCreateShellFolderView;code;SHELL32.dll;256
+SHCreateRelatedItemWithParent;code;SHELL32.dll;789
+SHCreateRelatedItemFromIDList;code;SHELL32.dll;788
 SHCreateRelatedItem;code;SHELL32.dll;791
-SHCreateLinksEx;code;SHELL32.dll;172
+SHCreateNotConditionEx;code;SHELL32.dll;830
+SHCreateNotCondition;code;SHELL32.dll;844
+SHCreateLinksEx;code;SHELL32.dll;898
+SHCreateLinks;code;SHELL32.dll;172
 SHCreateItemWithParent;code;SHELL32.dll;
 SHCreateItemInKnownFolder;code;SHELL32.dll;
 SHCreateItemFromRelativeName;code;SHELL32.dll;
 SHCreateItemFromParsingName;code;SHELL32.dll;
 SHCreateItemFromIDList;code;SHELL32.dll;
+SHCreateFileDataObject;code;SHELL32.dll;740
 SHCreateDirectoryExW;code;SHELL32.dll;
 SHCreateDirectoryExA;code;SHELL32.dll;
 SHCreateDirectory;code;SHELL32.dll;165
@@ -2308,7 +2355,9 @@ SHCreateDefaultExtractIcon;code;SHELL32.dll;
 SHCreateDefaultContextMenu;code;SHELL32.dll;
 SHCreateDataObject;code;SHELL32.dll;
 SHCreateAssociationRegistration;code;SHELL32.dll;
+SHCompareIDsFull;code;SHELL32.dll;862
 SHCoCreateInstance;code;SHELL32.dll;102
+SHCLSIDFromString;code;SHELL32.dll;147
 SHCloneSpecialIDList;code;SHELL32.dll;89
 SHChangeNotifyRegister;code;SHELL32.dll;2
 SHChangeNotifyDeregister;code;SHELL32.dll;4
@@ -2327,6 +2376,7 @@ SHAlloc;code;SHELL32.dll;196
 SHAddToRecentDocsEx;code;SHELL32.dll;940
 SHAddToRecentDocs;code;SHELL32.dll;
 SetCurrentProcessExplicitAppUserModelID;code;SHELL32.dll;
+SaveTopViewSettings;code;SHELL32.dll;897
 RestartDialogEx;code;SHELL32.dll;730
 RestartDialog;code;SHELL32.dll;59
 RegenerateUserEnvironment;code;SHELL32.dll;
@@ -2341,6 +2391,7 @@ PathComparePaths;code;SHELL32.dll;850
 PathCleanupSpec;code;SHELL32.dll;171
 LinkWindow_RegisterClass;code;SHELL32.dll;258
 IsUserAnAdmin;code;SHELL32.dll;680
+IsLFNDriveW;code;SHELL32.dll;42
 IsElevationRequired;code;SHELL32.dll;865
 InitNetworkAddressControl;code;SHELL32.dll;
 ILSaveToStream;code;SHELL32.dll;27
@@ -2364,6 +2415,7 @@ GetCurrentProcessExplicitAppUserModelID;code;SHELL32.dll;
 GetAppPathFromLink;code;SHELL32.dll;895
 FindExecutableW;code;SHELL32.dll;
 FindExecutableA;code;SHELL32.dll;
+FileIconInit;code;SHELL32.dll;660
 ExtractIconW;code;SHELL32.dll;
 ExtractIconExW;code;SHELL32.dll;
 ExtractIconExA;code;SHELL32.dll;
@@ -2380,15 +2432,20 @@ DAD_DragMove;code;SHELL32.dll;134
 DAD_DragLeave;code;SHELL32.dll;132
 DAD_DragEnterEx2;code;SHELL32.dll;22
 DAD_AutoScroll;code;SHELL32.dll;129
+CreateUniqueName;code;SHELL32.dll;913
 CreateStorageItemFromShellItem_FullTrustCaller_UseImplicitFlagsAndPackage;code;SHELL32.dll;
 CreateStorageItemFromShellItem_FullTrustCaller_ForPackage_WithProcessHandle;code;SHELL32.dll;
-CreateStorageItemFromShellItem_FullTrustCaller_ForPackage;code;SHELL32.dll;
+CreateStorageItemFromShellItem_FullTrustCaller_ForPackage;code;SHELL32.dll;925
 CreateStorageItemFromShellItem_FullTrustCaller;code;SHELL32.dll;
+CreateInfoTipFromItem2;code;SHELL32.dll;264
+CreateDateGroupDescription;code;SHELL32.dll;910
 CreateAutoListParser;code;SHELL32.dll;880
 CommandLineToArgvW;code;SHELL32.dll;
 CIDLData_CreateFromIDArray;code;SHELL32.dll;83
 CDefFolderMenu_MergeMenu;code;SHELL32.dll;702
+AssocElemCreateForKey;code;SHELL32.dll;
 AssocCreateForClasses;code;SHELL32.dll;
+AssocCreateElement;code;SHELL32.dll;764
 SetupWriteTextLog;code;SETUPAPI.dll;
 SetupVerifyInfFileW;code;SETUPAPI.dll;
 SetupUninstallOEMInfW;code;SETUPAPI.dll;
@@ -4797,7 +4854,7 @@ CheckColors;code;mscms.dll;
 CheckBitmapBits;code;mscms.dll;
 AssociateColorProfileWithDeviceW;code;mscms.dll;
 AssociateColorProfileWithDeviceA;code;mscms.dll;1
-?GetCalibrationDataFromProfile@@YAJPEBGPEAUCalibrationData@@@Z (long __cdecl GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *));code;mscms.dll;240
+?GetCalibrationDataFromProfile@@YAJPEBGPEAUCalibrationData@@H@Z (long __cdecl GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *,int));code;mscms.dll;240
 RouterNodeRun;code;MSAJApi.dll;12
 RouterNodeIsIdle;code;MSAJApi.dll;13
 RouterNodeInitialize;code;MSAJApi.dll;10
@@ -5410,6 +5467,7 @@ MMDeviceGetEndpointManager;code;MMDevAPI.DLL;6
 MMDeviceGetDeviceEnumerator;code;MMDevAPI.DLL;5
 MMDeviceCreateRegistryPropertyStore2;code;MMDevAPI.DLL;33
 MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4
+MMDeviceCreateAudioSystemEffectsPropertyStore;code;MMDevAPI.DLL;34
 mmdDevGetRelatedInterfaceId;code;MMDevAPI.DLL;27
 mmdDevGetMMDeviceIdFromInterfaceId;code;MMDevAPI.DLL;25
 mmdDevGetMMDeviceFromInterfaceId;code;MMDevAPI.DLL;23
@@ -5578,7 +5636,6 @@ TzSpecificLocalTimeToSystemTimeEx;code;KERNEL32.dll;
 TzSpecificLocalTimeToSystemTime;code;KERNEL32.dll;
 TrySubmitThreadpoolCallback;code;KERNEL32.dll;
 TryEnterCriticalSection;code;KERNEL32.dll;
-TryCreatePackageDependency;code;KERNEL32.dll;
 TryAcquireSRWLockShared;code;KERNEL32.dll;
 TryAcquireSRWLockExclusive;code;KERNEL32.dll;
 TransmitCommChar;code;KERNEL32.dll;
@@ -5759,6 +5816,7 @@ RtlLookupFunctionEntry;code;KERNEL32.dll;
 RtlIsEcCode;code;KERNEL32.dll;
 RtlInstallFunctionTableCallback;code;KERNEL32.dll;
 RtlDeleteFunctionTable;code;KERNEL32.dll;
+RtlCompareMemory;code;KERNEL32.dll;
 RtlCaptureStackBackTrace;code;KERNEL32.dll;
 RtlCaptureContext2;code;KERNEL32.dll;
 RtlCaptureContext;code;KERNEL32.dll;
@@ -5778,7 +5836,6 @@ ReplaceFileA;code;KERNEL32.dll;
 ReOpenFile;code;KERNEL32.dll;
 RemoveVectoredExceptionHandler;code;KERNEL32.dll;
 RemoveVectoredContinueHandler;code;KERNEL32.dll;
-RemovePackageDependency;code;KERNEL32.dll;
 RemoveLocalAlternateComputerNameW;code;KERNEL32.dll;
 RemoveDllDirectory;code;KERNEL32.dll;
 RemoveDirectoryW;code;KERNEL32.dll;
@@ -6183,7 +6240,6 @@ GetStartupInfoA;code;KERNEL32.dll;
 GetStagedPackagePathByFullName;code;KERNEL32.dll;
 GetShortPathNameW;code;KERNEL32.dll;
 GetShortPathNameA;code;KERNEL32.dll;
-GetResolvedPackageFullNameForPackageDependency;code;KERNEL32.dll;
 GetQueuedCompletionStatusEx;code;KERNEL32.dll;
 GetQueuedCompletionStatus;code;KERNEL32.dll;
 GetProfileStringW;code;KERNEL32.dll;
@@ -6284,7 +6340,6 @@ GetLocaleInfoA;code;KERNEL32.dll;
 GetLastError;code;KERNEL32.dll;
 GetLargestConsoleWindowSize;code;KERNEL32.dll;
 GetLargePageMinimum;code;KERNEL32.dll;
-GetIdForPackageDependencyContext;code;KERNEL32.dll;
 GetHandleInformation;code;KERNEL32.dll;
 GetGeoInfoW;code;KERNEL32.dll;
 GetGeoInfoEx;code;KERNEL32.dll;
@@ -6575,7 +6630,6 @@ DeleteTimerQueueEx;code;KERNEL32.dll;
 DeleteTimerQueue;code;KERNEL32.dll;
 DeleteSynchronizationBarrier;code;KERNEL32.dll;
 DeleteProcThreadAttributeList;code;KERNEL32.dll;
-DeletePackageDependency;code;KERNEL32.dll;
 DeleteFileW;code;KERNEL32.dll;
 DeleteFileTransactedW;code;KERNEL32.dll;
 DeleteFileA;code;KERNEL32.dll;
@@ -6704,7 +6758,6 @@ ClearCommBreak;code;KERNEL32.dll;
 CheckTokenMembershipEx;code;KERNEL32.dll;
 CheckTokenCapability;code;KERNEL32.dll;
 CheckRemoteDebuggerPresent;code;KERNEL32.dll;
-CheckIsMSIXPackage;code;KERNEL32.dll;
 CheckForReadOnlyResource;code;KERNEL32.dll;
 CheckElevationEnabled;code;KERNEL32.dll;
 CheckElevation;code;KERNEL32.dll;
@@ -6749,7 +6802,6 @@ AddSIDToBoundaryDescriptor;code;KERNEL32.dll;
 AddScopedPolicyIDAce;code;KERNEL32.dll;
 AddResourceAttributeAce;code;KERNEL32.dll;
 AddRefActCtx;code;KERNEL32.dll;
-AddPackageDependency;code;KERNEL32.dll;
 AddLocalAlternateComputerNameW;code;KERNEL32.dll;
 AddLocalAlternateComputerNameA;code;KERNEL32.dll;
 AddDllDirectory;code;KERNEL32.dll;
@@ -6766,7 +6818,6 @@ _lopen;code;KERNEL32.dll;
 _llseek;code;KERNEL32.dll;
 _lcreat;code;KERNEL32.dll;
 _lclose;code;KERNEL32.dll;
-__C_specific_handler;code;KERNEL32.dll;
 UnregisterInterfaceTimestampConfigChange;code;IPHLPAPI.DLL;
 UnenableRouter;code;IPHLPAPI.DLL;
 SetUnicastIpAddressEntry;code;IPHLPAPI.DLL;
@@ -7455,6 +7506,7 @@ Reg_GetValueEx;code;DNSAPI.dll;
 Reg_FreeUpdateInfo;code;DNSAPI.dll;
 QueryDirectEx;code;DNSAPI.dll;
 Query_Main;code;DNSAPI.dll;
+Query_InProcSetCompletion;code;DNSAPI.dll;
 Query_Cancel;code;DNSAPI.dll;
 NetInfo_UpdateServerReachability;code;DNSAPI.dll;
 NetInfo_UpdateNetworkProperties;code;DNSAPI.dll;
@@ -7607,6 +7659,9 @@ DnsGetInterfaceSettingsInProc;code;DNSAPI.dll;
 DnsGetInterfaceSettings;code;DNSAPI.dll;
 DnsGetDomainName;code;DNSAPI.dll;
 DnsGetDnsServerList;code;DNSAPI.dll;
+DnsGetDdrInfoInternal;code;DNSAPI.dll;
+DnsGetDdrInfoCancel;code;DNSAPI.dll;
+DnsGetDdrInfo;code;DNSAPI.dll;
 DnsGetCacheDataTableEx;code;DNSAPI.dll;
 DnsGetCacheDataTable;code;DNSAPI.dll;
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;
@@ -7656,6 +7711,7 @@ DnsConnectionSetProxyInfo;code;DNSAPI.dll;
 DnsConnectionSetPolicyEntriesPrivate;code;DNSAPI.dll;
 DnsConnectionSetPolicyEntries;code;DNSAPI.dll;
 DnsConnectionGetProxyList;code;DNSAPI.dll;
+DnsConnectionGetProxyInfoForHostUrlEx;code;DNSAPI.dll;
 DnsConnectionGetProxyInfoForHostUrl;code;DNSAPI.dll;
 DnsConnectionGetProxyInfo;code;DNSAPI.dll;
 DnsConnectionGetNameList;code;DNSAPI.dll;
@@ -7732,6 +7788,7 @@ Dns_AllocateMsgBuf;code;DNSAPI.dll;
 Dns_AddRecordsToMessage;code;DNSAPI.dll;
 DeRefQueryBlobEx;code;DNSAPI.dll;
 DelaySortDAServerlist;code;DNSAPI.dll;
+CreateSendBlob;code;DNSAPI.dll;
 CombineRecordsInBlob;code;DNSAPI.dll;
 Coalesce_UpdateNetVersion;code;DNSAPI.dll;
 BreakRecordsIntoBlob;code;DNSAPI.dll;
@@ -7858,6 +7915,8 @@ NetDfsAdd;code;dfscli.dll;
 ProcessTrackerRemove;code;deviceaccess.dll;
 ProcessTrackerInsertOrWait;code;deviceaccess.dll;
 CreateDeviceAccessInstance;code;deviceaccess.dll;
+MiniDumpWriteDump;code;dbghelp.dll;
+MiniDumpReadDumpStream;code;dbghelp.dll;
 CryptUninstallCancelRetrieval;code;CRYPTNET.dll;
 CryptRetrieveObjectByUrlW;code;CRYPTNET.dll;
 CryptRetrieveObjectByUrlA;code;CRYPTNET.dll;
@@ -8698,7 +8757,6 @@ SLQueryLicenseValueFromApp;code;api-ms-win-core-slapi-l1-1-0.dll;
 RtlGrowFunctionTable;code;api-ms-win-core-rtlsupport-l1-2-0.dll;
 RtlDeleteGrowableFunctionTable;code;api-ms-win-core-rtlsupport-l1-2-0.dll;
 RtlAddGrowableFunctionTable;code;api-ms-win-core-rtlsupport-l1-2-0.dll;
-RtlCompareMemory;code;api-ms-win-core-rtlsupport-l1-1-0.dll;
 QueryAuxiliaryCounterFrequency;code;api-ms-win-core-realtime-l1-1-2.dll;
 ConvertPerformanceCounterToAuxiliaryCounter;code;api-ms-win-core-realtime-l1-1-2.dll;
 ConvertAuxiliaryCounterToPerformanceCounter;code;api-ms-win-core-realtime-l1-1-2.dll;
@@ -8765,6 +8823,8 @@ HRGN_UserFree64;code;api-ms-win-core-marshal-l1-1-0.dll;
 IdnToUnicode;code;api-ms-win-core-localization-l1-2-0.dll;
 IdnToAscii;code;api-ms-win-core-localization-l1-2-0.dll;
 QueryOptionalDelayLoadedAPI;code;api-ms-win-core-libraryloader-l2-1-0.dll;
+BuildIoRingWriteFile;code;api-ms-win-core-ioring-l1-1-1.dll;
+BuildIoRingFlushFile;code;api-ms-win-core-ioring-l1-1-1.dll;
 SubmitIoRing;code;api-ms-win-core-ioring-l1-1-0.dll;
 SetIoRingCompletionEvent;code;api-ms-win-core-ioring-l1-1-0.dll;
 QueryIoRingCapabilities;code;api-ms-win-core-ioring-l1-1-0.dll;
@@ -8801,8 +8861,6 @@ LoadEnclaveImageW;code;api-ms-win-core-enclave-l1-1-1.dll;
 LoadEnclaveImageA;code;api-ms-win-core-enclave-l1-1-1.dll;
 DeleteEnclave;code;api-ms-win-core-enclave-l1-1-1.dll;
 CallEnclave;code;api-ms-win-core-enclave-l1-1-1.dll;
-MiniDumpWriteDump;code;api-ms-win-core-debug-minidump-l1-1-0.dll;
-MiniDumpReadDumpStream;code;api-ms-win-core-debug-minidump-l1-1-0.dll;
 GetCommPorts;code;api-ms-win-core-comm-l1-1-2.dll;
 OpenCommPort;code;api-ms-win-core-comm-l1-1-1.dll;
 UpdateCalendarDayOfWeek;code;api-ms-win-core-calendar-l1-1-0.dll;
@@ -8813,6 +8871,14 @@ ConvertSystemTimeToCalDateTime;code;api-ms-win-core-calendar-l1-1-0.dll;
 ConvertCalDateTimeToSystemTime;code;api-ms-win-core-calendar-l1-1-0.dll;
 AdjustCalendarDate;code;api-ms-win-core-calendar-l1-1-0.dll;
 RaiseCustomSystemEventTrigger;code;api-ms-win-core-backgroundtask-l1-1-0.dll;
+GetPackageGraphRevisionId;code;api-ms-win-appmodel-runtime-l1-1-6.dll;
+TryCreatePackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+RemovePackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+GetResolvedPackageFullNameForPackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+GetIdForPackageDependencyContext;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+DeletePackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+AddPackageDependency;code;api-ms-win-appmodel-runtime-l1-1-5.dll;
+CheckIsMSIXPackage;code;api-ms-win-appmodel-runtime-l1-1-4.dll;
 GetStagedPackagePathByFullName2;code;api-ms-win-appmodel-runtime-l1-1-3.dll;
 GetPackagePathByFullName2;code;api-ms-win-appmodel-runtime-l1-1-3.dll;
 GetPackageInfo2;code;api-ms-win-appmodel-runtime-l1-1-3.dll;
@@ -9044,6 +9110,9 @@ QuerySecurityAccessMask;code;ADVAPI32.dll;
 QueryRecoveryAgentsOnEncryptedFile;code;ADVAPI32.dll;
 QueryAllTracesW;code;ADVAPI32.dll;
 QueryAllTracesA;code;ADVAPI32.dll;
+ProcessTraceBufferIncrementReference;code;ADVAPI32.dll;
+ProcessTraceBufferDecrementReference;code;ADVAPI32.dll;
+ProcessTraceAddBufferToBufferStream;code;ADVAPI32.dll;
 ProcessTrace;code;ADVAPI32.dll;
 ProcessIdleTasks;code;ADVAPI32.dll;
 PrivilegedServiceAuditAlarmW;code;ADVAPI32.dll;
@@ -9078,6 +9147,10 @@ PerfCreateInstance;code;ADVAPI32.dll;
 PerfCloseQueryHandle;code;ADVAPI32.dll;
 PerfAddCounters;code;ADVAPI32.dll;
 OpenTraceW;code;ADVAPI32.dll;
+OpenTraceFromRealTimeLoggerWithAllocationOptions;code;ADVAPI32.dll;
+OpenTraceFromRealTimeLogger;code;ADVAPI32.dll;
+OpenTraceFromFile;code;ADVAPI32.dll;
+OpenTraceFromBufferStream;code;ADVAPI32.dll;
 OpenTraceA;code;ADVAPI32.dll;
 OpenThreadWaitChainSession;code;ADVAPI32.dll;
 OpenThreadToken;code;ADVAPI32.dll;
@@ -9161,9 +9234,7 @@ LsaEnumerateAccountsWithUserRight;code;ADVAPI32.dll;
 LsaEnumerateAccounts;code;ADVAPI32.dll;
 LsaEnumerateAccountRights;code;ADVAPI32.dll;
 LsaEnableUserArso;code;ADVAPI32.dll;
-LsaEnablePasswordLessCurrentUser;code;ADVAPI32.dll;
 LsaDisableUserArso;code;ADVAPI32.dll;
-LsaDisablePasswordLessCurrentUser;code;ADVAPI32.dll;
 LsaDeleteTrustedDomain;code;ADVAPI32.dll;
 LsaDelete;code;ADVAPI32.dll;
 LsaCreateTrustedDomainEx;code;ADVAPI32.dll;

@@ -7,6 +7,7 @@ DXGID3D10CreateLayeredDevice;code;dxgi.dll;#DXGID3D10CreateLayeredDevice
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;#DXGID3D10GetLayeredDeviceSize
 DXGID3D10RegisterLayers;code;dxgi.dll;#DXGID3D10RegisterLayers
 DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;#DXGIDeclareAdapterRemovalSupport
+DXGIDisableVBlankVirtualization;code;dxgi.dll;#DXGIDisableVBlankVirtualization
 DXGIGetDebugInterface1;code;dxgi.dll;#DXGIGetDebugInterface1
 DXGIReportAdapterConfiguration;code;dxgi.dll;#DXGIReportAdapterConfiguration
 DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@$$hYAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
@@ -27,5 +28,6 @@ DXGID3D10CreateLayeredDevice;code;dxgi.dll;
 DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;
 DXGID3D10RegisterLayers;code;dxgi.dll;
 DXGIDeclareAdapterRemovalSupport;code;dxgi.dll;
+DXGIDisableVBlankVirtualization;code;dxgi.dll;
 DXGIGetDebugInterface1;code;dxgi.dll;
 DXGIReportAdapterConfiguration;code;dxgi.dll;

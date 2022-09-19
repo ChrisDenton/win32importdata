@@ -740,6 +740,7 @@ RIMOnTimerNotification;code;USER32.dll;RIMOnTimerNotification
 RIMSetTestModeStatus;code;USER32.dll;RIMSetTestModeStatus
 RealChildWindowFromPoint;code;USER32.dll;RealChildWindowFromPoint
 RedrawWindow;code;USER32.dll;RedrawWindow
+RegisterForTooltipDismissNotification;code;USER32.dll;2666
 RegisterHotKey;code;USER32.dll;RegisterHotKey
 RegisterPointerDeviceNotifications;code;USER32.dll;RegisterPointerDeviceNotifications
 RegisterRawInputDevices;code;USER32.dll;RegisterRawInputDevices
@@ -748,6 +749,7 @@ ReleaseDwmHitTestWaiters;code;USER32.dll;ReleaseDwmHitTestWaiters
 RemoveMenu;code;USER32.dll;RemoveMenu
 SendInput;code;USER32.dll;SendInput
 SetActiveWindow;code;USER32.dll;SetActiveWindow
+SetAdditionalForegroundBoostProcesses;code;USER32.dll;2665
 SetCapture;code;USER32.dll;SetCapture
 SetClassWord;code;USER32.dll;SetClassWord
 SetCoalescableTimer;code;USER32.dll;SetCoalescableTimer
@@ -1383,6 +1385,7 @@ RegisterClipboardFormatA;code;USER32.dll;
 RegisterClipboardFormatW;code;USER32.dll;
 RegisterDeviceNotificationA;code;USER32.dll;
 RegisterDeviceNotificationW;code;USER32.dll;
+RegisterForTooltipDismissNotification;code;USER32.dll;2666
 RegisterHotKey;code;USER32.dll;
 RegisterPointerDeviceNotifications;code;USER32.dll;
 RegisterPointerInputTarget;code;USER32.dll;
@@ -1422,6 +1425,7 @@ SendMessageW;code;USER32.dll;
 SendNotifyMessageA;code;USER32.dll;
 SendNotifyMessageW;code;USER32.dll;
 SetActiveWindow;code;USER32.dll;
+SetAdditionalForegroundBoostProcesses;code;USER32.dll;2665
 SetCapture;code;USER32.dll;
 SetCaretBlinkTime;code;USER32.dll;
 SetCaretPos;code;USER32.dll;

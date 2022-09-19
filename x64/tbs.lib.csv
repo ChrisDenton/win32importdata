@@ -11,6 +11,7 @@ Tbsi_GetDeviceInfo;code;tbs.dll;
 Tbsi_Get_OwnerAuth;code;tbs.dll;
 Tbsi_Get_TCG_Log;code;tbs.dll;
 Tbsi_Get_TCG_Log_Ex;code;tbs.dll;
+Tbsi_Is_Tpm_Present;code;tbs.dll;
 Tbsi_Physical_Presence_Command;code;tbs.dll;
 Tbsi_Revoke_Attestation;code;tbs.dll;
 Tbsi_ShaHash;code;tbs.dll;

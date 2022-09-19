@@ -50,6 +50,12 @@ BuildCommDCBA;code;KERNEL32.dll;_BuildCommDCBA@8
 BuildCommDCBAndTimeoutsA;code;KERNEL32.dll;_BuildCommDCBAndTimeoutsA@12
 BuildCommDCBAndTimeoutsW;code;KERNEL32.dll;_BuildCommDCBAndTimeoutsW@12
 BuildCommDCBW;code;KERNEL32.dll;_BuildCommDCBW@8
+BuildIoRingCancelRequest;code;KERNEL32.dll;_BuildIoRingCancelRequest@20
+BuildIoRingFlushFile;code;KERNEL32.dll;_BuildIoRingFlushFile@24
+BuildIoRingReadFile;code;KERNEL32.dll;_BuildIoRingReadFile@44
+BuildIoRingRegisterBuffers;code;KERNEL32.dll;_BuildIoRingRegisterBuffers@16
+BuildIoRingRegisterFileHandles;code;KERNEL32.dll;_BuildIoRingRegisterFileHandles@16
+BuildIoRingWriteFile;code;KERNEL32.dll;_BuildIoRingWriteFile@48
 CallNamedPipeA;code;KERNEL32.dll;_CallNamedPipeA@28
 CallNamedPipeW;code;KERNEL32.dll;_CallNamedPipeW@28
 CallbackMayRunLong;code;KERNEL32.dll;_CallbackMayRunLong@4
@@ -72,6 +78,7 @@ CheckTokenMembershipEx;code;KERNEL32.dll;_CheckTokenMembershipEx@16
 ClearCommBreak;code;KERNEL32.dll;_ClearCommBreak@4
 ClearCommError;code;KERNEL32.dll;_ClearCommError@12
 CloseHandle;code;KERNEL32.dll;_CloseHandle@4
+CloseIoRing;code;KERNEL32.dll;_CloseIoRing@4
 ClosePackageInfo;code;KERNEL32.dll;_ClosePackageInfo@4
 ClosePrivateNamespace;code;KERNEL32.dll;_ClosePrivateNamespace@8
 ClosePseudoConsole;code;KERNEL32.dll;_ClosePseudoConsole@4
@@ -137,6 +144,7 @@ CreateHardLinkTransactedA;code;KERNEL32.dll;_CreateHardLinkTransactedA@16
 CreateHardLinkTransactedW;code;KERNEL32.dll;_CreateHardLinkTransactedW@16
 CreateHardLinkW;code;KERNEL32.dll;_CreateHardLinkW@12
 CreateIoCompletionPort;code;KERNEL32.dll;_CreateIoCompletionPort@16
+CreateIoRing;code;KERNEL32.dll;_CreateIoRing@24
 CreateJobObjectA;code;KERNEL32.dll;_CreateJobObjectA@8
 CreateJobObjectW;code;KERNEL32.dll;_CreateJobObjectW@8
 CreateJobSet;code;KERNEL32.dll;_CreateJobSet@12
@@ -495,6 +503,7 @@ GetGeoInfoA;code;KERNEL32.dll;_GetGeoInfoA@20
 GetGeoInfoEx;code;KERNEL32.dll;_GetGeoInfoEx@16
 GetGeoInfoW;code;KERNEL32.dll;_GetGeoInfoW@20
 GetHandleInformation;code;KERNEL32.dll;_GetHandleInformation@8
+GetIoRingInfo;code;KERNEL32.dll;_GetIoRingInfo@8
 GetLargePageMinimum;code;KERNEL32.dll;_GetLargePageMinimum@0
 GetLargestConsoleWindowSize;code;KERNEL32.dll;_GetLargestConsoleWindowSize@4
 GetLastError;code;KERNEL32.dll;_GetLastError@0
@@ -780,6 +789,7 @@ IsDBCSLeadByte;code;KERNEL32.dll;_IsDBCSLeadByte@4
 IsDBCSLeadByteEx;code;KERNEL32.dll;_IsDBCSLeadByteEx@8
 IsDebuggerPresent;code;KERNEL32.dll;_IsDebuggerPresent@0
 IsEnclaveTypeSupported;code;KERNEL32.dll;_IsEnclaveTypeSupported@4
+IsIoRingOpSupported;code;KERNEL32.dll;_IsIoRingOpSupported@8
 IsNLSDefinedString;code;KERNEL32.dll;_IsNLSDefinedString@20
 IsNativeVhdBoot;code;KERNEL32.dll;_IsNativeVhdBoot@4
 IsNormalizedString;code;KERNEL32.dll;_IsNormalizedString@12
@@ -919,6 +929,7 @@ ParseApplicationUserModelId;code;KERNEL32.dll;_ParseApplicationUserModelId@20
 PeekConsoleInputA;code;KERNEL32.dll;_PeekConsoleInputA@16
 PeekConsoleInputW;code;KERNEL32.dll;_PeekConsoleInputW@16
 PeekNamedPipe;code;KERNEL32.dll;_PeekNamedPipe@24
+PopIoRingCompletion;code;KERNEL32.dll;_PopIoRingCompletion@8
 PostQueuedCompletionStatus;code;KERNEL32.dll;_PostQueuedCompletionStatus@16
 PowerClearRequest;code;KERNEL32.dll;_PowerClearRequest@8
 PowerCreateRequest;code;KERNEL32.dll;_PowerCreateRequest@4
@@ -956,6 +967,7 @@ QueryIdleProcessorCycleTime;code;KERNEL32.dll;_QueryIdleProcessorCycleTime@8
 QueryIdleProcessorCycleTimeEx;code;KERNEL32.dll;_QueryIdleProcessorCycleTimeEx@12
 QueryInformationJobObject;code;KERNEL32.dll;_QueryInformationJobObject@20
 QueryIoRateControlInformationJobObject;code;KERNEL32.dll;_QueryIoRateControlInformationJobObject@16
+QueryIoRingCapabilities;code;KERNEL32.dll;_QueryIoRingCapabilities@4
 QueryMemoryResourceNotification;code;KERNEL32.dll;_QueryMemoryResourceNotification@8
 QueryPerformanceCounter;code;KERNEL32.dll;_QueryPerformanceCounter@4
 QueryPerformanceFrequency;code;KERNEL32.dll;_QueryPerformanceFrequency@4
@@ -1110,6 +1122,7 @@ SetHandleCount;code;KERNEL32.dll;_SetHandleCount@4
 SetHandleInformation;code;KERNEL32.dll;_SetHandleInformation@12
 SetInformationJobObject;code;KERNEL32.dll;_SetInformationJobObject@16
 SetIoRateControlInformationJobObject;code;KERNEL32.dll;_SetIoRateControlInformationJobObject@8
+SetIoRingCompletionEvent;code;KERNEL32.dll;_SetIoRingCompletionEvent@8
 SetLastError;code;KERNEL32.dll;_SetLastError@4
 SetLocalPrimaryComputerNameA;code;KERNEL32.dll;_SetLocalPrimaryComputerNameA@8
 SetLocalPrimaryComputerNameW;code;KERNEL32.dll;_SetLocalPrimaryComputerNameW@8
@@ -1189,6 +1202,7 @@ SleepConditionVariableCS;code;KERNEL32.dll;_SleepConditionVariableCS@12
 SleepConditionVariableSRW;code;KERNEL32.dll;_SleepConditionVariableSRW@16
 SleepEx;code;KERNEL32.dll;_SleepEx@8
 StartThreadpoolIo;code;KERNEL32.dll;_StartThreadpoolIo@4
+SubmitIoRing;code;KERNEL32.dll;_SubmitIoRing@16
 SubmitThreadpoolWork;code;KERNEL32.dll;_SubmitThreadpoolWork@4
 SuspendThread;code;KERNEL32.dll;_SuspendThread@4
 SwitchToFiber;code;KERNEL32.dll;_SwitchToFiber@4

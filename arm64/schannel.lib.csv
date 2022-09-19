@@ -1,6 +1,8 @@
 Name;Type;DLL;SymbolOrOrdinal
+SpLsaModeInitialize;code;SCHANNEL.dll;#SpLsaModeInitialize
 SpUserModeInitialize;code;SCHANNEL.dll;#SpUserModeInitialize
 SslCrackCertificate;code;SCHANNEL.dll;#SslCrackCertificate
+SslDeserializeCertificateStore;code;SCHANNEL.dll;#SslDeserializeCertificateStore
 SslEmptyCacheA;code;SCHANNEL.dll;#SslEmptyCacheA
 SslEmptyCacheW;code;SCHANNEL.dll;#SslEmptyCacheW
 SslFreeCertificate;code;SCHANNEL.dll;#SslFreeCertificate
@@ -10,7 +12,6 @@ SslGetExtensions;code;SCHANNEL.dll;#SslGetExtensions
 SslGetMaximumKeySize;code;SCHANNEL.dll;#SslGetMaximumKeySize
 SslGetServerIdentity;code;SCHANNEL.dll;#SslGetServerIdentity
 SslLoadCertificate;code;SCHANNEL.dll;#SslLoadCertificate
-SpLsaModeInitialize;code;SCHANNEL.dll;?SpLsaModeInitialize@@$$hYAJKPEAKPEAPEAU_SECPKG_FUNCTION_TABLE@@0@Z (long __cdecl SpLsaModeInitialize(unsigned long,unsigned long *,struct _SECPKG_FUNCTION_TABLE * *,unsigned long *))
 AcceptSecurityContext;code;SCHANNEL.dll;AcceptSecurityContext
 AcquireCredentialsHandleA;code;SCHANNEL.dll;AcquireCredentialsHandleA
 AcquireCredentialsHandleW;code;SCHANNEL.dll;AcquireCredentialsHandleW
@@ -35,7 +36,6 @@ RevertSecurityContext;code;SCHANNEL.dll;RevertSecurityContext
 SealMessage;code;SCHANNEL.dll;SealMessage
 UnsealMessage;code;SCHANNEL.dll;UnsealMessage
 VerifySignature;code;SCHANNEL.dll;VerifySignature
-SpLsaModeInitialize;code;SCHANNEL.dll;?SpLsaModeInitialize@@YAJKPEAKPEAPEAU_SECPKG_FUNCTION_TABLE@@0@Z (long __cdecl SpLsaModeInitialize(unsigned long,unsigned long *,struct _SECPKG_FUNCTION_TABLE * *,unsigned long *))
 AcceptSecurityContext;code;SCHANNEL.dll;
 AcquireCredentialsHandleA;code;SCHANNEL.dll;
 AcquireCredentialsHandleW;code;SCHANNEL.dll;
@@ -58,8 +58,10 @@ QuerySecurityPackageInfoA;code;SCHANNEL.dll;
 QuerySecurityPackageInfoW;code;SCHANNEL.dll;
 RevertSecurityContext;code;SCHANNEL.dll;
 SealMessage;code;SCHANNEL.dll;
+SpLsaModeInitialize;code;SCHANNEL.dll;
 SpUserModeInitialize;code;SCHANNEL.dll;
 SslCrackCertificate;code;SCHANNEL.dll;
+SslDeserializeCertificateStore;code;SCHANNEL.dll;
 SslEmptyCacheA;code;SCHANNEL.dll;
 SslEmptyCacheW;code;SCHANNEL.dll;
 SslFreeCertificate;code;SCHANNEL.dll;

@@ -3409,6 +3409,9 @@ WinHttpConnectionFreeProxyList;code;WINHTTP.dll;#WinHttpConnectionFreeProxyList
 WinHttpConnectionGetNameList;code;WINHTTP.dll;#WinHttpConnectionGetNameList
 WinHttpConnectionGetProxyInfo;code;WINHTTP.dll;#WinHttpConnectionGetProxyInfo
 WinHttpConnectionGetProxyList;code;WINHTTP.dll;#WinHttpConnectionGetProxyList
+WinHttpConnectionOnlyConvert;code;WINHTTP.dll;#WinHttpConnectionOnlyConvert
+WinHttpConnectionOnlyReceive;code;WINHTTP.dll;#WinHttpConnectionOnlyReceive
+WinHttpConnectionOnlySend;code;WINHTTP.dll;#WinHttpConnectionOnlySend
 WinHttpConnectionSetPolicyEntries;code;WINHTTP.dll;#WinHttpConnectionSetPolicyEntries
 WinHttpConnectionSetProxyInfo;code;WINHTTP.dll;#WinHttpConnectionSetProxyInfo
 WinHttpConnectionUpdateIfIndexTable;code;WINHTTP.dll;#WinHttpConnectionUpdateIfIndexTable
@@ -3419,6 +3422,7 @@ WinHttpDetectAutoProxyConfigUrl;code;WINHTTP.dll;#WinHttpDetectAutoProxyConfigUr
 WinHttpFreeProxyResult;code;WINHTTP.dll;#WinHttpFreeProxyResult
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;#WinHttpFreeProxyResultEx
 WinHttpFreeProxySettings;code;WINHTTP.dll;#WinHttpFreeProxySettings
+WinHttpFreeProxySettingsEx;code;WINHTTP.dll;#WinHttpFreeProxySettingsEx
 WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;#WinHttpFreeQueryConnectionGroupResult
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;#WinHttpGetDefaultProxyConfiguration
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;#WinHttpGetIEProxyConfigForCurrentUser
@@ -3428,6 +3432,8 @@ WinHttpGetProxyForUrlEx2;code;WINHTTP.dll;#WinHttpGetProxyForUrlEx2
 WinHttpGetProxyForUrlHvsi;code;WINHTTP.dll;#WinHttpGetProxyForUrlHvsi
 WinHttpGetProxyResult;code;WINHTTP.dll;#WinHttpGetProxyResult
 WinHttpGetProxyResultEx;code;WINHTTP.dll;#WinHttpGetProxyResultEx
+WinHttpGetProxySettingsEx;code;WINHTTP.dll;#WinHttpGetProxySettingsEx
+WinHttpGetProxySettingsResultEx;code;WINHTTP.dll;#WinHttpGetProxySettingsResultEx
 WinHttpGetProxySettingsVersion;code;WINHTTP.dll;#WinHttpGetProxySettingsVersion
 WinHttpGetTunnelSocket;code;WINHTTP.dll;#WinHttpGetTunnelSocket
 WinHttpOpen;code;WINHTTP.dll;#WinHttpOpen
@@ -3444,6 +3450,7 @@ WinHttpReadDataEx;code;WINHTTP.dll;#WinHttpReadDataEx
 WinHttpReadProxySettings;code;WINHTTP.dll;#WinHttpReadProxySettings
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;#WinHttpReadProxySettingsHvsi
 WinHttpReceiveResponse;code;WINHTTP.dll;#WinHttpReceiveResponse
+WinHttpRegisterProxyChangeNotification;code;WINHTTP.dll;#WinHttpRegisterProxyChangeNotification
 WinHttpResetAutoProxy;code;WINHTTP.dll;#WinHttpResetAutoProxy
 WinHttpSaveProxyCredentials;code;WINHTTP.dll;#WinHttpSaveProxyCredentials
 WinHttpSendRequest;code;WINHTTP.dll;#WinHttpSendRequest
@@ -3455,6 +3462,7 @@ WinHttpSetStatusCallback;code;WINHTTP.dll;#WinHttpSetStatusCallback
 WinHttpSetTimeouts;code;WINHTTP.dll;#WinHttpSetTimeouts
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;#WinHttpTimeFromSystemTime
 WinHttpTimeToSystemTime;code;WINHTTP.dll;#WinHttpTimeToSystemTime
+WinHttpUnregisterProxyChangeNotification;code;WINHTTP.dll;#WinHttpUnregisterProxyChangeNotification
 WinHttpWebSocketClose;code;WINHTTP.dll;#WinHttpWebSocketClose
 WinHttpWebSocketCompleteUpgrade;code;WINHTTP.dll;#WinHttpWebSocketCompleteUpgrade
 WinHttpWebSocketQueryCloseStatus;code;WINHTTP.dll;#WinHttpWebSocketQueryCloseStatus
@@ -3477,6 +3485,9 @@ WinHttpConnectionFreeProxyList;code;WINHTTP.dll;
 WinHttpConnectionGetNameList;code;WINHTTP.dll;
 WinHttpConnectionGetProxyInfo;code;WINHTTP.dll;
 WinHttpConnectionGetProxyList;code;WINHTTP.dll;
+WinHttpConnectionOnlyConvert;code;WINHTTP.dll;
+WinHttpConnectionOnlyReceive;code;WINHTTP.dll;
+WinHttpConnectionOnlySend;code;WINHTTP.dll;
 WinHttpConnectionSetPolicyEntries;code;WINHTTP.dll;
 WinHttpConnectionSetProxyInfo;code;WINHTTP.dll;
 WinHttpConnectionUpdateIfIndexTable;code;WINHTTP.dll;
@@ -3487,6 +3498,7 @@ WinHttpDetectAutoProxyConfigUrl;code;WINHTTP.dll;
 WinHttpFreeProxyResult;code;WINHTTP.dll;
 WinHttpFreeProxyResultEx;code;WINHTTP.dll;
 WinHttpFreeProxySettings;code;WINHTTP.dll;
+WinHttpFreeProxySettingsEx;code;WINHTTP.dll;
 WinHttpFreeQueryConnectionGroupResult;code;WINHTTP.dll;
 WinHttpGetDefaultProxyConfiguration;code;WINHTTP.dll;
 WinHttpGetIEProxyConfigForCurrentUser;code;WINHTTP.dll;
@@ -3496,6 +3508,8 @@ WinHttpGetProxyForUrlEx2;code;WINHTTP.dll;
 WinHttpGetProxyForUrlHvsi;code;WINHTTP.dll;
 WinHttpGetProxyResult;code;WINHTTP.dll;
 WinHttpGetProxyResultEx;code;WINHTTP.dll;
+WinHttpGetProxySettingsEx;code;WINHTTP.dll;
+WinHttpGetProxySettingsResultEx;code;WINHTTP.dll;
 WinHttpGetProxySettingsVersion;code;WINHTTP.dll;
 WinHttpGetTunnelSocket;code;WINHTTP.dll;
 WinHttpOpen;code;WINHTTP.dll;
@@ -3512,6 +3526,7 @@ WinHttpReadDataEx;code;WINHTTP.dll;
 WinHttpReadProxySettings;code;WINHTTP.dll;
 WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;
 WinHttpReceiveResponse;code;WINHTTP.dll;
+WinHttpRegisterProxyChangeNotification;code;WINHTTP.dll;
 WinHttpResetAutoProxy;code;WINHTTP.dll;
 WinHttpSaveProxyCredentials;code;WINHTTP.dll;
 WinHttpSendRequest;code;WINHTTP.dll;
@@ -3523,6 +3538,7 @@ WinHttpSetStatusCallback;code;WINHTTP.dll;
 WinHttpSetTimeouts;code;WINHTTP.dll;
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;
 WinHttpTimeToSystemTime;code;WINHTTP.dll;
+WinHttpUnregisterProxyChangeNotification;code;WINHTTP.dll;
 WinHttpWebSocketClose;code;WINHTTP.dll;
 WinHttpWebSocketCompleteUpgrade;code;WINHTTP.dll;
 WinHttpWebSocketQueryCloseStatus;code;WINHTTP.dll;
@@ -5687,6 +5703,20 @@ OpenTraceW;code;api-ms-win-eventing-consumer-l1-1-0.dll;#OpenTraceW
 ProcessTrace;code;api-ms-win-eventing-consumer-l1-1-0.dll;#ProcessTrace
 QueryTraceProcessingHandle;code;api-ms-win-eventing-consumer-l1-1-1.dll;
 QueryTraceProcessingHandle;code;api-ms-win-eventing-consumer-l1-1-1.dll;#QueryTraceProcessingHandle
+OpenTraceFromBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromFile;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromRealTimeLogger;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromRealTimeLoggerWithAllocationOptions;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+ProcessTraceAddBufferToBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+ProcessTraceBufferDecrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+ProcessTraceBufferIncrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;
+OpenTraceFromBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromBufferStream
+OpenTraceFromFile;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromFile
+OpenTraceFromRealTimeLogger;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromRealTimeLogger
+OpenTraceFromRealTimeLoggerWithAllocationOptions;code;api-ms-win-eventing-consumer-l1-1-2.dll;#OpenTraceFromRealTimeLoggerWithAllocationOptions
+ProcessTraceAddBufferToBufferStream;code;api-ms-win-eventing-consumer-l1-1-2.dll;#ProcessTraceAddBufferToBufferStream
+ProcessTraceBufferDecrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;#ProcessTraceBufferDecrementReference
+ProcessTraceBufferIncrementReference;code;api-ms-win-eventing-consumer-l1-1-2.dll;#ProcessTraceBufferIncrementReference
 ControlTraceW;code;api-ms-win-eventing-controller-l1-1-0.dll;
 EnableTraceEx2;code;api-ms-win-eventing-controller-l1-1-0.dll;
 EnumerateTraceGuidsEx;code;api-ms-win-eventing-controller-l1-1-0.dll;
@@ -6099,6 +6129,7 @@ AddRefQueryBlobEx;code;DNSAPI.dll;#AddRefQueryBlobEx
 BreakRecordsIntoBlob;code;DNSAPI.dll;#BreakRecordsIntoBlob
 Coalesce_UpdateNetVersion;code;DNSAPI.dll;#Coalesce_UpdateNetVersion
 CombineRecordsInBlob;code;DNSAPI.dll;#CombineRecordsInBlob
+CreateSendBlob;code;DNSAPI.dll;#CreateSendBlob
 DeRefQueryBlobEx;code;DNSAPI.dll;#DeRefQueryBlobEx
 DelaySortDAServerlist;code;DNSAPI.dll;#DelaySortDAServerlist
 DnsAcquireContextHandle_A;code;DNSAPI.dll;#DnsAcquireContextHandle_A
@@ -6133,6 +6164,7 @@ DnsConnectionGetHandleForHostUrlPrivate;code;DNSAPI.dll;#DnsConnectionGetHandleF
 DnsConnectionGetNameList;code;DNSAPI.dll;#DnsConnectionGetNameList
 DnsConnectionGetProxyInfo;code;DNSAPI.dll;#DnsConnectionGetProxyInfo
 DnsConnectionGetProxyInfoForHostUrl;code;DNSAPI.dll;#DnsConnectionGetProxyInfoForHostUrl
+DnsConnectionGetProxyInfoForHostUrlEx;code;DNSAPI.dll;#DnsConnectionGetProxyInfoForHostUrlEx
 DnsConnectionGetProxyList;code;DNSAPI.dll;#DnsConnectionGetProxyList
 DnsConnectionSetPolicyEntries;code;DNSAPI.dll;#DnsConnectionSetPolicyEntries
 DnsConnectionSetPolicyEntriesPrivate;code;DNSAPI.dll;#DnsConnectionSetPolicyEntriesPrivate
@@ -6182,6 +6214,9 @@ DnsGetApplicationSettings;code;DNSAPI.dll;#DnsGetApplicationSettings
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;#DnsGetBufferLengthForStringCopy
 DnsGetCacheDataTable;code;DNSAPI.dll;#DnsGetCacheDataTable
 DnsGetCacheDataTableEx;code;DNSAPI.dll;#DnsGetCacheDataTableEx
+DnsGetDdrInfo;code;DNSAPI.dll;#DnsGetDdrInfo
+DnsGetDdrInfoCancel;code;DNSAPI.dll;#DnsGetDdrInfoCancel
+DnsGetDdrInfoInternal;code;DNSAPI.dll;#DnsGetDdrInfoInternal
 DnsGetDnsServerList;code;DNSAPI.dll;#DnsGetDnsServerList
 DnsGetDomainName;code;DNSAPI.dll;#DnsGetDomainName
 DnsGetInterfaceSettings;code;DNSAPI.dll;#DnsGetInterfaceSettings
@@ -6376,6 +6411,7 @@ NetInfo_UpdateNetworkProperties;code;DNSAPI.dll;#NetInfo_UpdateNetworkProperties
 NetInfo_UpdateServerReachability;code;DNSAPI.dll;#NetInfo_UpdateServerReachability
 QueryDirectEx;code;DNSAPI.dll;#QueryDirectEx
 Query_Cancel;code;DNSAPI.dll;#Query_Cancel
+Query_InProcSetCompletion;code;DNSAPI.dll;#Query_InProcSetCompletion
 Query_Main;code;DNSAPI.dll;#Query_Main
 Reg_FreeUpdateInfo;code;DNSAPI.dll;#Reg_FreeUpdateInfo
 Reg_GetValueEx;code;DNSAPI.dll;#Reg_GetValueEx
@@ -6414,6 +6450,7 @@ AddRefQueryBlobEx;code;DNSAPI.dll;
 BreakRecordsIntoBlob;code;DNSAPI.dll;
 Coalesce_UpdateNetVersion;code;DNSAPI.dll;
 CombineRecordsInBlob;code;DNSAPI.dll;
+CreateSendBlob;code;DNSAPI.dll;
 DeRefQueryBlobEx;code;DNSAPI.dll;
 DelaySortDAServerlist;code;DNSAPI.dll;
 DnsAcquireContextHandle_A;code;DNSAPI.dll;
@@ -6448,6 +6485,7 @@ DnsConnectionGetHandleForHostUrlPrivate;code;DNSAPI.dll;
 DnsConnectionGetNameList;code;DNSAPI.dll;
 DnsConnectionGetProxyInfo;code;DNSAPI.dll;
 DnsConnectionGetProxyInfoForHostUrl;code;DNSAPI.dll;
+DnsConnectionGetProxyInfoForHostUrlEx;code;DNSAPI.dll;
 DnsConnectionGetProxyList;code;DNSAPI.dll;
 DnsConnectionSetPolicyEntries;code;DNSAPI.dll;
 DnsConnectionSetPolicyEntriesPrivate;code;DNSAPI.dll;
@@ -6497,6 +6535,9 @@ DnsGetApplicationSettings;code;DNSAPI.dll;
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;
 DnsGetCacheDataTable;code;DNSAPI.dll;
 DnsGetCacheDataTableEx;code;DNSAPI.dll;
+DnsGetDdrInfo;code;DNSAPI.dll;
+DnsGetDdrInfoCancel;code;DNSAPI.dll;
+DnsGetDdrInfoInternal;code;DNSAPI.dll;
 DnsGetDnsServerList;code;DNSAPI.dll;
 DnsGetDomainName;code;DNSAPI.dll;
 DnsGetInterfaceSettings;code;DNSAPI.dll;
@@ -6692,6 +6733,7 @@ NetInfo_UpdateNetworkProperties;code;DNSAPI.dll;
 NetInfo_UpdateServerReachability;code;DNSAPI.dll;
 QueryDirectEx;code;DNSAPI.dll;
 Query_Cancel;code;DNSAPI.dll;
+Query_InProcSetCompletion;code;DNSAPI.dll;
 Query_Main;code;DNSAPI.dll;
 Reg_FreeUpdateInfo;code;DNSAPI.dll;
 Reg_GetValueEx;code;DNSAPI.dll;

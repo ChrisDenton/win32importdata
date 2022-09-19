@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-SpLsaModeInitialize;code;SCHANNEL.dll;?SpLsaModeInitialize@@YAJKPEAKPEAPEAU_SECPKG_FUNCTION_TABLE@@0@Z (long __cdecl SpLsaModeInitialize(unsigned long,unsigned long *,struct _SECPKG_FUNCTION_TABLE * *,unsigned long *))
 AcceptSecurityContext;code;SCHANNEL.dll;
 AcquireCredentialsHandleA;code;SCHANNEL.dll;
 AcquireCredentialsHandleW;code;SCHANNEL.dll;
@@ -22,8 +21,10 @@ QuerySecurityPackageInfoA;code;SCHANNEL.dll;
 QuerySecurityPackageInfoW;code;SCHANNEL.dll;
 RevertSecurityContext;code;SCHANNEL.dll;
 SealMessage;code;SCHANNEL.dll;
+SpLsaModeInitialize;code;SCHANNEL.dll;
 SpUserModeInitialize;code;SCHANNEL.dll;
 SslCrackCertificate;code;SCHANNEL.dll;
+SslDeserializeCertificateStore;code;SCHANNEL.dll;
 SslEmptyCacheA;code;SCHANNEL.dll;
 SslEmptyCacheW;code;SCHANNEL.dll;
 SslFreeCertificate;code;SCHANNEL.dll;

@@ -8,6 +8,7 @@ GetManagementAppHyperlink;code;MDMRegistration.DLL;
 IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;
 IsManagementRegistrationAllowed;code;MDMRegistration.DLL;
 IsMdmUxWithoutAadAllowed;code;MDMRegistration.DLL;
+RegisterDeviceDualEnrollMmpcUsingAADDeviceCredentials;code;MDMRegistration.DLL;
 RegisterDeviceWithManagement;code;MDMRegistration.DLL;
 RegisterDeviceWithManagementUsingAADCredentials;code;MDMRegistration.DLL;
 RegisterDeviceWithManagementUsingAADDeviceCredentials;code;MDMRegistration.DLL;

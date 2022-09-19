@@ -3,6 +3,7 @@ BasepReportFault;code;faultrep.dll;?BasepReportFault@@YA?AW4tagEFaultRepRetVal@@
 CheckForReadOnlyResourceFilter;code;faultrep.dll;?CheckForReadOnlyResourceFilter@@YAJPAU_EXCEPTION_POINTERS@@@Z (long __cdecl CheckForReadOnlyResourceFilter(struct _EXCEPTION_POINTERS *))
 CheckPerUserCrossProcessThrottle;code;faultrep.dll;?CheckPerUserCrossProcessThrottle@@YAJPAH@Z (long __cdecl CheckPerUserCrossProcessThrottle(int *))
 UpdatePerUserLastCrossProcessCollectionTime;code;faultrep.dll;?UpdatePerUserLastCrossProcessCollectionTime@@YAJXZ (long __cdecl UpdatePerUserLastCrossProcessCollectionTime(void))
+WerReportHang;code;faultrep.dll;?WerReportHang@@YAJPAUHWND__@@PB_W@Z (long __cdecl WerReportHang(struct HWND__ *,wchar_t const *))
 AddERExcludedApplicationA;code;faultrep.dll;
 AddERExcludedApplicationW;code;faultrep.dll;
 CancelHangReporting;code;faultrep.dll;
@@ -11,7 +12,6 @@ ReportCoreHang;code;faultrep.dll;
 ReportFault;code;faultrep.dll;
 ReportHang;code;faultrep.dll;
 ReportNavigationHang;code;faultrep.dll;2
-WerReportHang;code;faultrep.dll;
 WerpGetDebugger;code;faultrep.dll;
 WerpInitiateCrashReporting;code;faultrep.dll;
 WerpLaunchAeDebug;code;faultrep.dll;

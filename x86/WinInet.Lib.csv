@@ -1,5 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
+?CreateCacheServerRpcBinding@@YGJPBGPAPAX@Z (long __stdcall CreateCacheServerRpcBinding(unsigned short const *,void * *));code;WININET.dll;411
 DispatchAPICall;code;WININET.dll;?DispatchAPICall@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DispatchAPICall(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+?GetCacheServerConnection@@YGJPAPAX@Z (long __stdcall GetCacheServerConnection(void * *));code;WININET.dll;410
 InternetSetSecureLegacyServersAppCompat;code;WININET.dll;?InternetSetSecureLegacyServersAppCompat@@YGXXZ (void __stdcall InternetSetSecureLegacyServersAppCompat(void))
 AppCacheCheckManifest;code;WININET.dll;_AppCacheCheckManifest@32
 AppCacheCloseHandle;code;WININET.dll;_AppCacheCloseHandle@4
@@ -22,7 +24,6 @@ AppCacheLookup;code;WININET.dll;_AppCacheLookup@12
 CommitUrlCacheEntryA;code;WININET.dll;_CommitUrlCacheEntryA@44
 CommitUrlCacheEntryBinaryBlob;code;WININET.dll;_CommitUrlCacheEntryBinaryBlob@32
 CommitUrlCacheEntryW;code;WININET.dll;_CommitUrlCacheEntryW@44
-_CreateCacheServerRpcBinding@8;code;WININET.dll;411
 CreateMD5SSOHash;code;WININET.dll;_CreateMD5SSOHash@16
 CreateUrlCacheContainerA;code;WININET.dll;_CreateUrlCacheContainerA@32
 CreateUrlCacheContainerW;code;WININET.dll;_CreateUrlCacheContainerW@32
@@ -88,7 +89,6 @@ FtpRenameFileA;code;WININET.dll;_FtpRenameFileA@12
 FtpRenameFileW;code;WININET.dll;_FtpRenameFileW@12
 FtpSetCurrentDirectoryA;code;WININET.dll;_FtpSetCurrentDirectoryA@8
 FtpSetCurrentDirectoryW;code;WININET.dll;_FtpSetCurrentDirectoryW@8
-_GetCacheServerConnection@4;code;WININET.dll;410
 _GetDiskInfoA@16;code;WININET.dll;102
 _GetP3PPolicy@16;code;WININET.dll;121
 _GetP3PRequestStatus@4;code;WININET.dll;123

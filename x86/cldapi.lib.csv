@@ -14,6 +14,7 @@ CfGetCorrelationVector;code;cldapi.dll;_CfGetCorrelationVector@8
 CfGetLastSyncStatus;code;cldapi.dll;_CfGetLastSyncStatus@16
 CfGetPlaceholderInfo;code;cldapi.dll;_CfGetPlaceholderInfo@20
 CfGetPlaceholderRangeInfo;code;cldapi.dll;_CfGetPlaceholderRangeInfo@36
+CfGetPlaceholderRangeInfoForHydration;code;cldapi.dll;_CfGetPlaceholderRangeInfoForHydration@56
 CfGetPlaceholderStateFromAttributeTag;code;cldapi.dll;_CfGetPlaceholderStateFromAttributeTag@8
 CfGetPlaceholderStateFromFileInfo;code;cldapi.dll;_CfGetPlaceholderStateFromFileInfo@8
 CfGetPlaceholderStateFromFindData;code;cldapi.dll;_CfGetPlaceholderStateFromFindData@4

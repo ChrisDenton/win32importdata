@@ -137,7 +137,7 @@ _SHDestroyPropSheetExtArray@4;code;SHELL32.dll;169
 _SHDoDragDrop@20;code;SHELL32.dll;88
 SHELL32_AddToBackIconTable;code;SHELL32.dll;_SHELL32_AddToBackIconTable@8
 SHELL32_AddToFrontIconTable;code;SHELL32.dll;_SHELL32_AddToFrontIconTable@16
-SHELL32_AreAllItemsAvailable;code;SHELL32.dll;_SHELL32_AreAllItemsAvailable@12
+SHELL32_AreAllItemsAvailable;code;SHELL32.dll;_SHELL32_AreAllItemsAvailable@16
 SHELL32_CCommonPlacesFolder_CreateInstance;code;SHELL32.dll;_SHELL32_CCommonPlacesFolder_CreateInstance@12
 SHELL32_CDBurn_CloseSession;code;SHELL32.dll;_SHELL32_CDBurn_CloseSession@4
 SHELL32_CDBurn_DriveSupportedForDataBurn;code;SHELL32.dll;_SHELL32_CDBurn_DriveSupportedForDataBurn@4

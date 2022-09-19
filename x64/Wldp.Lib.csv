@@ -9,9 +9,15 @@ WldpQueryWindowsLockdownMode;code;Wldp.dll;?WldpQueryWindowsLockdownMode@@YAJPEA
 WldpQueryWindowsLockdownRestriction;code;Wldp.dll;?WldpQueryWindowsLockdownRestriction@@YAJPEAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))
 WldpResetProductionConfiguration;code;Wldp.dll;?WldpResetProductionConfiguration@@YAJXZ (long __cdecl WldpResetProductionConfiguration(void))
 WldpResetWcosProductionConfiguration;code;Wldp.dll;?WldpResetWcosProductionConfiguration@@YAJXZ (long __cdecl WldpResetWcosProductionConfiguration(void))
+WldpSendSmartAppControlBlockToast;code;Wldp.dll;?WldpSendSmartAppControlBlockToast@@YAJPEBG0@Z (long __cdecl WldpSendSmartAppControlBlockToast(unsigned short const *,unsigned short const *))
+WldpSendSmartAppControlSwitchEnforceToast;code;Wldp.dll;?WldpSendSmartAppControlSwitchEnforceToast@@YAJXZ (long __cdecl WldpSendSmartAppControlSwitchEnforceToast(void))
 WldpSetWindowsLockdownRestriction;code;Wldp.dll;?WldpSetWindowsLockdownRestriction@@YAJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))
-WldpTraceLoggingWDACBlockDialogShown;code;Wldp.dll;?WldpTraceLoggingWDACBlockDialogShown@@YAXPEBGJU_GUID@@@Z (void __cdecl WldpTraceLoggingWDACBlockDialogShown(unsigned short const *,long,struct _GUID))
+WldpTraceLoggingWDACBlockDialogShown;code;Wldp.dll;?WldpTraceLoggingWDACBlockDialogShown@@YAXPEBGJU_GUID@@0@Z (void __cdecl WldpTraceLoggingWDACBlockDialogShown(unsigned short const *,long,struct _GUID,unsigned short const *))
 WldpAddDeveloperCertificateForDynamicCodeTrust;code;Wldp.dll;
+WldpCanExecuteBuffer;code;Wldp.dll;
+WldpCanExecuteFile;code;Wldp.dll;
+WldpCanExecuteStream;code;Wldp.dll;
+WldpChangeVulnerableDriverBlocklistState;code;Wldp.dll;
 WldpCheckDeviceEncryptionNotStarted;code;Wldp.dll;
 WldpCheckRetailConfiguration;code;Wldp.dll;
 WldpCheckWcosDeviceEncryptionSecure;code;Wldp.dll;
@@ -23,6 +29,8 @@ WldpIsClassInApprovedList;code;Wldp.dll;
 WldpIsDebugAllowed;code;Wldp.dll;
 WldpIsDynamicCodePolicyEnabled;code;Wldp.dll;
 WldpIsProductionConfigurationInProc;code;Wldp.dll;
+WldpIsVulnerableDriverBlocklistDisabled;code;Wldp.dll;
+WldpIsVulnerableDriverBlocklistEligibleToDisable;code;Wldp.dll;
 WldpQueryDeviceSecurityInformation;code;Wldp.dll;
 WldpQueryDynamicCodeTrust;code;Wldp.dll;
 WldpQuerySecurityPolicy;code;Wldp.dll;

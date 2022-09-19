@@ -592,6 +592,7 @@ RegisterClipboardFormatA;code;USER32.dll;
 RegisterClipboardFormatW;code;USER32.dll;
 RegisterDeviceNotificationA;code;USER32.dll;
 RegisterDeviceNotificationW;code;USER32.dll;
+RegisterForTooltipDismissNotification;code;USER32.dll;2666
 RegisterHotKey;code;USER32.dll;
 RegisterPointerDeviceNotifications;code;USER32.dll;
 RegisterPointerInputTarget;code;USER32.dll;
@@ -631,6 +632,7 @@ SendMessageW;code;USER32.dll;
 SendNotifyMessageA;code;USER32.dll;
 SendNotifyMessageW;code;USER32.dll;
 SetActiveWindow;code;USER32.dll;
+SetAdditionalForegroundBoostProcesses;code;USER32.dll;2665
 SetCapture;code;USER32.dll;
 SetCaretBlinkTime;code;USER32.dll;
 SetCaretPos;code;USER32.dll;

@@ -17,6 +17,7 @@ AddRefQueryBlobEx;code;DNSAPI.dll;_AddRefQueryBlobEx@16
 BreakRecordsIntoBlob;code;DNSAPI.dll;_BreakRecordsIntoBlob@12
 Coalesce_UpdateNetVersion;code;DNSAPI.dll;_Coalesce_UpdateNetVersion@0
 CombineRecordsInBlob;code;DNSAPI.dll;_CombineRecordsInBlob@8
+CreateSendBlob;code;DNSAPI.dll;_CreateSendBlob@4
 DeRefQueryBlobEx;code;DNSAPI.dll;_DeRefQueryBlobEx@16
 DelaySortDAServerlist;code;DNSAPI.dll;_DelaySortDAServerlist@0
 DnsAcquireContextHandle_A;code;DNSAPI.dll;_DnsAcquireContextHandle_A@12
@@ -51,6 +52,7 @@ DnsConnectionGetHandleForHostUrlPrivate;code;DNSAPI.dll;_DnsConnectionGetHandleF
 DnsConnectionGetNameList;code;DNSAPI.dll;_DnsConnectionGetNameList@4
 DnsConnectionGetProxyInfo;code;DNSAPI.dll;_DnsConnectionGetProxyInfo@12
 DnsConnectionGetProxyInfoForHostUrl;code;DNSAPI.dll;_DnsConnectionGetProxyInfoForHostUrl@20
+DnsConnectionGetProxyInfoForHostUrlEx;code;DNSAPI.dll;_DnsConnectionGetProxyInfoForHostUrlEx@24
 DnsConnectionGetProxyList;code;DNSAPI.dll;_DnsConnectionGetProxyList@8
 DnsConnectionSetPolicyEntries;code;DNSAPI.dll;_DnsConnectionSetPolicyEntries@8
 DnsConnectionSetPolicyEntriesPrivate;code;DNSAPI.dll;_DnsConnectionSetPolicyEntriesPrivate@12
@@ -100,6 +102,9 @@ DnsGetApplicationSettings;code;DNSAPI.dll;_DnsGetApplicationSettings@12
 DnsGetBufferLengthForStringCopy;code;DNSAPI.dll;_DnsGetBufferLengthForStringCopy@16
 DnsGetCacheDataTable;code;DNSAPI.dll;_DnsGetCacheDataTable@4
 DnsGetCacheDataTableEx;code;DNSAPI.dll;_DnsGetCacheDataTableEx@12
+DnsGetDdrInfo;code;DNSAPI.dll;_DnsGetDdrInfo@12
+DnsGetDdrInfoCancel;code;DNSAPI.dll;_DnsGetDdrInfoCancel@4
+DnsGetDdrInfoInternal;code;DNSAPI.dll;_DnsGetDdrInfoInternal@8
 DnsGetDnsServerList;code;DNSAPI.dll;_DnsGetDnsServerList@4
 DnsGetInterfaceSettings;code;DNSAPI.dll;_DnsGetInterfaceSettings@20
 DnsGetInterfaceSettingsInProc;code;DNSAPI.dll;_DnsGetInterfaceSettingsInProc@20
@@ -283,6 +288,7 @@ NetInfo_UpdateNetworkProperties;code;DNSAPI.dll;_NetInfo_UpdateNetworkProperties
 NetInfo_UpdateServerReachability;code;DNSAPI.dll;_NetInfo_UpdateServerReachability@12
 QueryDirectEx;code;DNSAPI.dll;_QueryDirectEx@40
 Query_Cancel;code;DNSAPI.dll;_Query_Cancel@12
+Query_InProcSetCompletion;code;DNSAPI.dll;_Query_InProcSetCompletion@4
 Query_Main;code;DNSAPI.dll;_Query_Main@4
 Reg_FreeUpdateInfo;code;DNSAPI.dll;_Reg_FreeUpdateInfo@8
 Reg_GetValueEx;code;DNSAPI.dll;_Reg_GetValueEx@28

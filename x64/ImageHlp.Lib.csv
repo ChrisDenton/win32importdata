@@ -6,6 +6,7 @@ SymGetDiaSource;code;imagehlp.dll;?SymGetDiaSource@@YAHPEAX_KPEAPEAUIDiaDataSour
 SymRegisterGetSourcePathPartCallback;code;imagehlp.dll;?SymRegisterGetSourcePathPartCallback@@YAXP6AJPEBGPEAPEAG@ZPEAP6AJ01@Z@Z (void __cdecl SymRegisterGetSourcePathPartCallback(long (__cdecl*)(unsigned short const *,unsigned short * *),long (__cdecl**)(unsigned short const *,unsigned short * *)))
 SymRegisterSourceFileUrlListCallback;code;imagehlp.dll;?SymRegisterSourceFileUrlListCallback@@YAXP6AJPEAX_KPEBG22PEAPEAUtagSAFEARRAY@@@ZPEAP6AJ012223@Z@Z (void __cdecl SymRegisterSourceFileUrlListCallback(long (__cdecl*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__cdecl**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;imagehlp.dll;?SymSetDiaSession@@YAHPEAX_KPEAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+SymSetServiceManager;code;imagehlp.dll;?SymSetServiceManager@@YAHPEAXPEAUIUnknown@@@Z (int __cdecl SymSetServiceManager(void *,struct IUnknown *))
 BindImage;code;imagehlp.dll;
 BindImageEx;code;imagehlp.dll;
 CheckSumMappedFile;code;imagehlp.dll;
@@ -52,6 +53,7 @@ SetCheckUserInterruptShared;code;imagehlp.dll;
 SetImageConfigInformation;code;imagehlp.dll;
 SetSymLoadError;code;imagehlp.dll;
 StackWalk;code;imagehlp.dll;
+StackWalk2;code;imagehlp.dll;
 StackWalk64;code;imagehlp.dll;
 StackWalkEx;code;imagehlp.dll;
 SymAddrIncludeInlineTrace;code;imagehlp.dll;

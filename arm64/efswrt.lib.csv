@@ -1,5 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 CdplGetFileProtectionLevel;code;efswrt.dll;#CdplGetFileProtectionLevel
+CdplGetFileProtectionLevelAndUser;code;efswrt.dll;#CdplGetFileProtectionLevelAndUser
 CdplIsAppAllowedToRun;code;efswrt.dll;#CdplIsAppAllowedToRun
 CdplIsAppDataProtectionSupported;code;efswrt.dll;#CdplIsAppDataProtectionSupported
 CdplIsSupported;code;efswrt.dll;#CdplIsSupported
@@ -7,6 +8,8 @@ CdplProtectFileToLevel;code;efswrt.dll;#CdplProtectFileToLevel
 CdplProtectFileToLevelWithResult;code;efswrt.dll;#CdplProtectFileToLevelWithResult
 CdplProtectKnownUserFolders;code;efswrt.dll;#CdplProtectKnownUserFolders
 CdplProtectSecretToLevel;code;efswrt.dll;#CdplProtectSecretToLevel
+CdplSetIsPolicyEnabledForCurrentUser;code;efswrt.dll;#CdplSetIsPolicyEnabledForCurrentUser
+CdplSetIsPolicyEnabledForUser;code;efswrt.dll;#CdplSetIsPolicyEnabledForUser
 CdplUnprotectSecret;code;efswrt.dll;#CdplUnprotectSecret
 DpmBufferFree;code;efswrt.dll;#DpmBufferFree
 DpmProtectSecretToIdentity;code;efswrt.dll;#DpmProtectSecretToIdentity
@@ -28,6 +31,7 @@ ProtectOrReprotectFileToIdentity;code;efswrt.dll;#ProtectOrReprotectFileToIdenti
 QueryIdentityProtectors;code;efswrt.dll;#QueryIdentityProtectors
 UnprotectFile;code;efswrt.dll;#UnprotectFile
 CdplGetFileProtectionLevel;code;efswrt.dll;
+CdplGetFileProtectionLevelAndUser;code;efswrt.dll;
 CdplIsAppAllowedToRun;code;efswrt.dll;
 CdplIsAppDataProtectionSupported;code;efswrt.dll;
 CdplIsSupported;code;efswrt.dll;
@@ -35,6 +39,8 @@ CdplProtectFileToLevel;code;efswrt.dll;
 CdplProtectFileToLevelWithResult;code;efswrt.dll;
 CdplProtectKnownUserFolders;code;efswrt.dll;
 CdplProtectSecretToLevel;code;efswrt.dll;
+CdplSetIsPolicyEnabledForCurrentUser;code;efswrt.dll;
+CdplSetIsPolicyEnabledForUser;code;efswrt.dll;
 CdplUnprotectSecret;code;efswrt.dll;
 DpmBufferFree;code;efswrt.dll;
 DpmProtectSecretToIdentity;code;efswrt.dll;

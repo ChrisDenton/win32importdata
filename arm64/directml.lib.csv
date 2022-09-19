@@ -1,3 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
-DMLCreateDevice;code;DirectML.dll;1
-DMLCreateDevice1;code;DirectML.dll;2
+DMLCreateDevice;code;DirectML.dll;DMLCreateDevice
+DMLCreateDevice1;code;DirectML.dll;DMLCreateDevice1
+DMLCreateDevice;code;DirectML.dll;
+DMLCreateDevice1;code;DirectML.dll;

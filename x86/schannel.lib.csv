@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-SpLsaModeInitialize;code;SCHANNEL.dll;?SpLsaModeInitialize@@YGJKPAKPAPAU_SECPKG_FUNCTION_TABLE@@0@Z (long __stdcall SpLsaModeInitialize(unsigned long,unsigned long *,struct _SECPKG_FUNCTION_TABLE * *,unsigned long *))
 AcceptSecurityContext;code;SCHANNEL.dll;_AcceptSecurityContext@36
 AcquireCredentialsHandleA;code;SCHANNEL.dll;_AcquireCredentialsHandleA@36
 AcquireCredentialsHandleW;code;SCHANNEL.dll;_AcquireCredentialsHandleW@36
@@ -22,8 +21,10 @@ QuerySecurityPackageInfoA;code;SCHANNEL.dll;_QuerySecurityPackageInfoA@8
 QuerySecurityPackageInfoW;code;SCHANNEL.dll;_QuerySecurityPackageInfoW@8
 RevertSecurityContext;code;SCHANNEL.dll;_RevertSecurityContext@4
 SealMessage;code;SCHANNEL.dll;_SealMessage@16
+SpLsaModeInitialize;code;SCHANNEL.dll;_SpLsaModeInitialize@16
 SpUserModeInitialize;code;SCHANNEL.dll;_SpUserModeInitialize@16
 SslCrackCertificate;code;SCHANNEL.dll;_SslCrackCertificate@16
+SslDeserializeCertificateStore;code;SCHANNEL.dll;_SslDeserializeCertificateStore@12
 SslEmptyCacheA;code;SCHANNEL.dll;_SslEmptyCacheA@8
 SslEmptyCacheW;code;SCHANNEL.dll;_SslEmptyCacheW@8
 SslFreeCertificate;code;SCHANNEL.dll;_SslFreeCertificate@4

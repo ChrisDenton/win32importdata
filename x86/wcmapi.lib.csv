@@ -1,12 +1,12 @@
 Name;Type;DLL;SymbolOrOrdinal
 _WcmAcquirePowerIfInStandby@4;code;wcmapi.dll;4
-WcmAddAppBasedRoutePolicy;code;wcmapi.dll;_WcmAddAppBasedRoutePolicy@12
+WcmAddAppBasedRoutePolicy;code;wcmapi.dll;_WcmAddAppBasedRoutePolicy@4
 WcmAddRoutePolicy;code;wcmapi.dll;_WcmAddRoutePolicy@16
 WcmCancelOnDemandRequest;code;wcmapi.dll;_WcmCancelOnDemandRequest@4
 WcmCheckCapabilityStatus;code;wcmapi.dll;_WcmCheckCapabilityStatus@4
 WcmCloseHandle;code;wcmapi.dll;_WcmCloseHandle@8
 WcmCloseOnDemandRequestHandle;code;wcmapi.dll;_WcmCloseOnDemandRequestHandle@4
-WcmDeleteAppBasedRoutePolicy;code;wcmapi.dll;_WcmDeleteAppBasedRoutePolicy@16
+WcmDeleteAppBasedRoutePolicy;code;wcmapi.dll;_WcmDeleteAppBasedRoutePolicy@4
 WcmDeleteProxyInformation;code;wcmapi.dll;_WcmDeleteProxyInformation@12
 WcmDeprovisionCapability;code;wcmapi.dll;_WcmDeprovisionCapability@12
 WcmEnterConnectedStandby;code;wcmapi.dll;_WcmEnterConnectedStandby@0

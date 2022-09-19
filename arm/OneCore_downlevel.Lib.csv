@@ -1206,7 +1206,7 @@ SHCreateShellItemArrayFromDataObject;code;SHELL32.dll;
 SHCreateShellItem;code;SHELL32.dll;
 SHCreateShellFolderView;code;SHELL32.dll;256
 SHCreateRelatedItem;code;SHELL32.dll;791
-SHCreateLinksEx;code;SHELL32.dll;172
+SHCreateLinksEx;code;SHELL32.dll;898
 SHCreateItemWithParent;code;SHELL32.dll;
 SHCreateItemInKnownFolder;code;SHELL32.dll;
 SHCreateItemFromRelativeName;code;SHELL32.dll;
@@ -1287,7 +1287,7 @@ DAD_DragEnterEx2;code;SHELL32.dll;22
 DAD_AutoScroll;code;SHELL32.dll;129
 CreateStorageItemFromShellItem_FullTrustCaller_UseImplicitFlagsAndPackage;code;SHELL32.dll;
 CreateStorageItemFromShellItem_FullTrustCaller_ForPackage_WithProcessHandle;code;SHELL32.dll;
-CreateStorageItemFromShellItem_FullTrustCaller_ForPackage;code;SHELL32.dll;
+CreateStorageItemFromShellItem_FullTrustCaller_ForPackage;code;SHELL32.dll;925
 CreateStorageItemFromShellItem_FullTrustCaller;code;SHELL32.dll;
 CreateAutoListParser;code;SHELL32.dll;880
 CommandLineToArgvW;code;SHELL32.dll;

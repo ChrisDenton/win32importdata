@@ -119,7 +119,6 @@ LdrInitializeEnclave;code;ntdll.dll;#LdrInitializeEnclave
 LdrIsModuleSxsRedirected;code;ntdll.dll;#LdrIsModuleSxsRedirected
 LdrLoadAlternateResourceModule;code;ntdll.dll;#LdrLoadAlternateResourceModule
 LdrLoadAlternateResourceModuleEx;code;ntdll.dll;#LdrLoadAlternateResourceModuleEx
-LdrLoadDll;code;ntdll.dll;#LdrLoadDll
 LdrLoadEnclaveModule;code;ntdll.dll;#LdrLoadEnclaveModule
 LdrLockLoaderLock;code;ntdll.dll;#LdrLockLoaderLock
 LdrOpenImageFileOptionsKey;code;ntdll.dll;#LdrOpenImageFileOptionsKey
@@ -238,6 +237,8 @@ NtConnectPort;code;ntdll.dll;#NtConnectPort
 NtContinue;code;ntdll.dll;#NtContinue
 NtContinueEx;code;ntdll.dll;#NtContinueEx
 NtConvertBetweenAuxiliaryCounterAndPerformanceCounter;code;ntdll.dll;#NtConvertBetweenAuxiliaryCounterAndPerformanceCounter
+NtCopyFileChunk;code;ntdll.dll;#NtCopyFileChunk
+NtCreateCpuPartition;code;ntdll.dll;#NtCreateCpuPartition
 NtCreateCrossVmEvent;code;ntdll.dll;#NtCreateCrossVmEvent
 NtCreateCrossVmMutant;code;ntdll.dll;#NtCreateCrossVmMutant
 NtCreateDebugObject;code;ntdll.dll;#NtCreateDebugObject
@@ -381,6 +382,7 @@ NtNotifyChangeDirectoryFileEx;code;ntdll.dll;#NtNotifyChangeDirectoryFileEx
 NtNotifyChangeKey;code;ntdll.dll;#NtNotifyChangeKey
 NtNotifyChangeMultipleKeys;code;ntdll.dll;#NtNotifyChangeMultipleKeys
 NtNotifyChangeSession;code;ntdll.dll;#NtNotifyChangeSession
+NtOpenCpuPartition;code;ntdll.dll;#NtOpenCpuPartition
 NtOpenDirectoryObject;code;ntdll.dll;#NtOpenDirectoryObject
 NtOpenEnlistment;code;ntdll.dll;#NtOpenEnlistment
 NtOpenEvent;code;ntdll.dll;#NtOpenEvent
@@ -440,6 +442,7 @@ NtQueryEvent;code;ntdll.dll;#NtQueryEvent
 NtQueryFullAttributesFile;code;ntdll.dll;#NtQueryFullAttributesFile
 NtQueryInformationAtom;code;ntdll.dll;#NtQueryInformationAtom
 NtQueryInformationByName;code;ntdll.dll;#NtQueryInformationByName
+NtQueryInformationCpuPartition;code;ntdll.dll;#NtQueryInformationCpuPartition
 NtQueryInformationEnlistment;code;ntdll.dll;#NtQueryInformationEnlistment
 NtQueryInformationFile;code;ntdll.dll;#NtQueryInformationFile
 NtQueryInformationJobObject;code;ntdll.dll;#NtQueryInformationJobObject
@@ -488,7 +491,6 @@ NtQueueApcThreadEx;code;ntdll.dll;#NtQueueApcThreadEx
 NtQueueApcThreadEx2;code;ntdll.dll;#NtQueueApcThreadEx2
 NtRaiseException;code;ntdll.dll;#NtRaiseException
 NtRaiseHardError;code;ntdll.dll;#NtRaiseHardError
-NtReadFile;code;ntdll.dll;#NtReadFile
 NtReadFileScatter;code;ntdll.dll;#NtReadFileScatter
 NtReadOnlyEnlistment;code;ntdll.dll;#NtReadOnlyEnlistment
 NtReadRequestData;code;ntdll.dll;#NtReadRequestData
@@ -548,6 +550,7 @@ NtSetEventBoostPriority;code;ntdll.dll;#NtSetEventBoostPriority
 NtSetHighEventPair;code;ntdll.dll;#NtSetHighEventPair
 NtSetHighWaitLowEventPair;code;ntdll.dll;#NtSetHighWaitLowEventPair
 NtSetIRTimer;code;ntdll.dll;#NtSetIRTimer
+NtSetInformationCpuPartition;code;ntdll.dll;#NtSetInformationCpuPartition
 NtSetInformationDebugObject;code;ntdll.dll;#NtSetInformationDebugObject
 NtSetInformationEnlistment;code;ntdll.dll;#NtSetInformationEnlistment
 NtSetInformationFile;code;ntdll.dll;#NtSetInformationFile
@@ -870,6 +873,7 @@ RtlDestroyQueryDebugBuffer;code;ntdll.dll;#RtlDestroyQueryDebugBuffer
 RtlDetectHeapLeaks;code;ntdll.dll;#RtlDetectHeapLeaks
 RtlDetermineDosPathNameType_U;code;ntdll.dll;#RtlDetermineDosPathNameType_U
 RtlDisableThreadProfiling;code;ntdll.dll;#RtlDisableThreadProfiling
+RtlDisownModuleHeapAllocation;code;ntdll.dll;#RtlDisownModuleHeapAllocation
 RtlDllShutdownInProgress;code;ntdll.dll;#RtlDllShutdownInProgress
 RtlDnsHostNameToComputerName;code;ntdll.dll;#RtlDnsHostNameToComputerName
 RtlDoesFileExists_U;code;ntdll.dll;#RtlDoesFileExists_U
@@ -1120,6 +1124,7 @@ RtlInt64ToUnicodeString;code;ntdll.dll;#RtlInt64ToUnicodeString
 RtlIntegerToChar;code;ntdll.dll;#RtlIntegerToChar
 RtlIntegerToUnicodeString;code;ntdll.dll;#RtlIntegerToUnicodeString
 RtlInterlockedClearBitRun;code;ntdll.dll;#RtlInterlockedClearBitRun
+RtlInterlockedClearBitRunEx;code;ntdll.dll;#RtlInterlockedClearBitRunEx
 RtlInterlockedFlushSList;code;ntdll.dll;#RtlInterlockedFlushSList
 RtlInterlockedPopEntrySList;code;ntdll.dll;#RtlInterlockedPopEntrySList
 RtlInterlockedPushEntrySList;code;ntdll.dll;#RtlInterlockedPushEntrySList
@@ -1185,6 +1190,8 @@ RtlLCIDToCultureName;code;ntdll.dll;#RtlLCIDToCultureName
 RtlLargeIntegerToChar;code;ntdll.dll;#RtlLargeIntegerToChar
 RtlLcidToLocaleName;code;ntdll.dll;#RtlLcidToLocaleName
 RtlLeaveCriticalSection;code;ntdll.dll;#RtlLeaveCriticalSection
+RtlLengthCurrentClearRunBackwardEx;code;ntdll.dll;#RtlLengthCurrentClearRunBackwardEx
+RtlLengthCurrentClearRunForwardEx;code;ntdll.dll;#RtlLengthCurrentClearRunForwardEx
 RtlLengthRequiredSid;code;ntdll.dll;#RtlLengthRequiredSid
 RtlLengthSecurityDescriptor;code;ntdll.dll;#RtlLengthSecurityDescriptor
 RtlLengthSid;code;ntdll.dll;#RtlLengthSid
@@ -1245,6 +1252,7 @@ RtlOemToUnicodeN;code;ntdll.dll;#RtlOemToUnicodeN
 RtlOpenCrossProcessEmulatorWorkConnection;code;ntdll.dll;#RtlOpenCrossProcessEmulatorWorkConnection
 RtlOpenCurrentUser;code;ntdll.dll;#RtlOpenCurrentUser
 RtlOsDeploymentState;code;ntdll.dll;#RtlOsDeploymentState
+RtlOverwriteFeatureConfigurationBuffer;code;ntdll.dll;#RtlOverwriteFeatureConfigurationBuffer
 RtlOwnerAcesPresent;code;ntdll.dll;#RtlOwnerAcesPresent
 RtlPcToFileHeader;code;ntdll.dll;#RtlPcToFileHeader
 RtlPinAtomInAtomTable;code;ntdll.dll;#RtlPinAtomInAtomTable
@@ -1758,6 +1766,8 @@ ZwConnectPort;code;ntdll.dll;#ZwConnectPort
 ZwContinue;code;ntdll.dll;#ZwContinue
 ZwContinueEx;code;ntdll.dll;#ZwContinueEx
 ZwConvertBetweenAuxiliaryCounterAndPerformanceCounter;code;ntdll.dll;#ZwConvertBetweenAuxiliaryCounterAndPerformanceCounter
+ZwCopyFileChunk;code;ntdll.dll;#ZwCopyFileChunk
+ZwCreateCpuPartition;code;ntdll.dll;#ZwCreateCpuPartition
 ZwCreateCrossVmEvent;code;ntdll.dll;#ZwCreateCrossVmEvent
 ZwCreateCrossVmMutant;code;ntdll.dll;#ZwCreateCrossVmMutant
 ZwCreateDebugObject;code;ntdll.dll;#ZwCreateDebugObject
@@ -1900,6 +1910,7 @@ ZwNotifyChangeDirectoryFileEx;code;ntdll.dll;#ZwNotifyChangeDirectoryFileEx
 ZwNotifyChangeKey;code;ntdll.dll;#ZwNotifyChangeKey
 ZwNotifyChangeMultipleKeys;code;ntdll.dll;#ZwNotifyChangeMultipleKeys
 ZwNotifyChangeSession;code;ntdll.dll;#ZwNotifyChangeSession
+ZwOpenCpuPartition;code;ntdll.dll;#ZwOpenCpuPartition
 ZwOpenDirectoryObject;code;ntdll.dll;#ZwOpenDirectoryObject
 ZwOpenEnlistment;code;ntdll.dll;#ZwOpenEnlistment
 ZwOpenEvent;code;ntdll.dll;#ZwOpenEvent
@@ -1959,6 +1970,7 @@ ZwQueryEvent;code;ntdll.dll;#ZwQueryEvent
 ZwQueryFullAttributesFile;code;ntdll.dll;#ZwQueryFullAttributesFile
 ZwQueryInformationAtom;code;ntdll.dll;#ZwQueryInformationAtom
 ZwQueryInformationByName;code;ntdll.dll;#ZwQueryInformationByName
+ZwQueryInformationCpuPartition;code;ntdll.dll;#ZwQueryInformationCpuPartition
 ZwQueryInformationEnlistment;code;ntdll.dll;#ZwQueryInformationEnlistment
 ZwQueryInformationFile;code;ntdll.dll;#ZwQueryInformationFile
 ZwQueryInformationJobObject;code;ntdll.dll;#ZwQueryInformationJobObject
@@ -2007,7 +2019,6 @@ ZwQueueApcThreadEx;code;ntdll.dll;#ZwQueueApcThreadEx
 ZwQueueApcThreadEx2;code;ntdll.dll;#ZwQueueApcThreadEx2
 ZwRaiseException;code;ntdll.dll;#ZwRaiseException
 ZwRaiseHardError;code;ntdll.dll;#ZwRaiseHardError
-ZwReadFile;code;ntdll.dll;#ZwReadFile
 ZwReadFileScatter;code;ntdll.dll;#ZwReadFileScatter
 ZwReadOnlyEnlistment;code;ntdll.dll;#ZwReadOnlyEnlistment
 ZwReadRequestData;code;ntdll.dll;#ZwReadRequestData
@@ -2067,6 +2078,7 @@ ZwSetEventBoostPriority;code;ntdll.dll;#ZwSetEventBoostPriority
 ZwSetHighEventPair;code;ntdll.dll;#ZwSetHighEventPair
 ZwSetHighWaitLowEventPair;code;ntdll.dll;#ZwSetHighWaitLowEventPair
 ZwSetIRTimer;code;ntdll.dll;#ZwSetIRTimer
+ZwSetInformationCpuPartition;code;ntdll.dll;#ZwSetInformationCpuPartition
 ZwSetInformationDebugObject;code;ntdll.dll;#ZwSetInformationDebugObject
 ZwSetInformationEnlistment;code;ntdll.dll;#ZwSetInformationEnlistment
 ZwSetInformationFile;code;ntdll.dll;#ZwSetInformationFile
@@ -2158,6 +2170,7 @@ vDbgPrintExWithPrefix;code;ntdll.dll;#vDbgPrintExWithPrefix
 DbgBreakPoint;code;ntdll.dll;DbgBreakPoint
 DbgUserBreakPoint;code;ntdll.dll;DbgUserBreakPoint
 KiUserInvertedFunctionTable;code;ntdll.dll;KiUserInvertedFunctionTable
+LdrLoadDll;code;ntdll.dll;LdrLoadDll
 LdrSystemDllInitBlock;data;ntdll.dll;
 NlsAnsiCodePage;const;ntdll.dll;
 NlsMbCodePageTag;const;ntdll.dll;
@@ -2167,12 +2180,14 @@ NtCreateSection;code;ntdll.dll;NtCreateSection
 NtMapViewOfSection;code;ntdll.dll;NtMapViewOfSection
 NtOpenFile;code;ntdll.dll;NtOpenFile
 NtQueryAttributesFile;code;ntdll.dll;NtQueryAttributesFile
+NtReadFile;code;ntdll.dll;NtReadFile
 RtlNtdllName;const;ntdll.dll;
 ZwCreateFile;code;ntdll.dll;ZwCreateFile
 ZwCreateSection;code;ntdll.dll;ZwCreateSection
 ZwMapViewOfSection;code;ntdll.dll;ZwMapViewOfSection
 ZwOpenFile;code;ntdll.dll;ZwOpenFile
 ZwQueryAttributesFile;code;ntdll.dll;ZwQueryAttributesFile
+ZwReadFile;code;ntdll.dll;ZwReadFile
 AlpcAdjustCompletionListConcurrencyCount;code;ntdll.dll;
 AlpcFreeCompletionListMessage;code;ntdll.dll;
 AlpcGetCompletionListLastMessageInformation;code;ntdll.dll;
@@ -2418,6 +2433,8 @@ NtConnectPort;code;ntdll.dll;
 NtContinue;code;ntdll.dll;
 NtContinueEx;code;ntdll.dll;
 NtConvertBetweenAuxiliaryCounterAndPerformanceCounter;code;ntdll.dll;
+NtCopyFileChunk;code;ntdll.dll;
+NtCreateCpuPartition;code;ntdll.dll;
 NtCreateCrossVmEvent;code;ntdll.dll;
 NtCreateCrossVmMutant;code;ntdll.dll;
 NtCreateDebugObject;code;ntdll.dll;
@@ -2564,6 +2581,7 @@ NtNotifyChangeDirectoryFileEx;code;ntdll.dll;
 NtNotifyChangeKey;code;ntdll.dll;
 NtNotifyChangeMultipleKeys;code;ntdll.dll;
 NtNotifyChangeSession;code;ntdll.dll;
+NtOpenCpuPartition;code;ntdll.dll;
 NtOpenDirectoryObject;code;ntdll.dll;
 NtOpenEnlistment;code;ntdll.dll;
 NtOpenEvent;code;ntdll.dll;
@@ -2625,6 +2643,7 @@ NtQueryEvent;code;ntdll.dll;
 NtQueryFullAttributesFile;code;ntdll.dll;
 NtQueryInformationAtom;code;ntdll.dll;
 NtQueryInformationByName;code;ntdll.dll;
+NtQueryInformationCpuPartition;code;ntdll.dll;
 NtQueryInformationEnlistment;code;ntdll.dll;
 NtQueryInformationFile;code;ntdll.dll;
 NtQueryInformationJobObject;code;ntdll.dll;
@@ -2733,6 +2752,7 @@ NtSetEventBoostPriority;code;ntdll.dll;
 NtSetHighEventPair;code;ntdll.dll;
 NtSetHighWaitLowEventPair;code;ntdll.dll;
 NtSetIRTimer;code;ntdll.dll;
+NtSetInformationCpuPartition;code;ntdll.dll;
 NtSetInformationDebugObject;code;ntdll.dll;
 NtSetInformationEnlistment;code;ntdll.dll;
 NtSetInformationFile;code;ntdll.dll;
@@ -3052,6 +3072,7 @@ RtlDestroyQueryDebugBuffer;code;ntdll.dll;
 RtlDetectHeapLeaks;code;ntdll.dll;
 RtlDetermineDosPathNameType_U;code;ntdll.dll;
 RtlDisableThreadProfiling;code;ntdll.dll;
+RtlDisownModuleHeapAllocation;code;ntdll.dll;
 RtlDllShutdownInProgress;code;ntdll.dll;
 RtlDnsHostNameToComputerName;code;ntdll.dll;
 RtlDoesFileExists_U;code;ntdll.dll;
@@ -3301,6 +3322,7 @@ RtlInt64ToUnicodeString;code;ntdll.dll;
 RtlIntegerToChar;code;ntdll.dll;
 RtlIntegerToUnicodeString;code;ntdll.dll;
 RtlInterlockedClearBitRun;code;ntdll.dll;
+RtlInterlockedClearBitRunEx;code;ntdll.dll;
 RtlInterlockedFlushSList;code;ntdll.dll;
 RtlInterlockedPopEntrySList;code;ntdll.dll;
 RtlInterlockedPushEntrySList;code;ntdll.dll;
@@ -3365,6 +3387,8 @@ RtlLCIDToCultureName;code;ntdll.dll;
 RtlLargeIntegerToChar;code;ntdll.dll;
 RtlLcidToLocaleName;code;ntdll.dll;
 RtlLeaveCriticalSection;code;ntdll.dll;
+RtlLengthCurrentClearRunBackwardEx;code;ntdll.dll;
+RtlLengthCurrentClearRunForwardEx;code;ntdll.dll;
 RtlLengthRequiredSid;code;ntdll.dll;
 RtlLengthSecurityDescriptor;code;ntdll.dll;
 RtlLengthSid;code;ntdll.dll;
@@ -3426,6 +3450,7 @@ RtlOemToUnicodeN;code;ntdll.dll;
 RtlOpenCrossProcessEmulatorWorkConnection;code;ntdll.dll;
 RtlOpenCurrentUser;code;ntdll.dll;
 RtlOsDeploymentState;code;ntdll.dll;
+RtlOverwriteFeatureConfigurationBuffer;code;ntdll.dll;
 RtlOwnerAcesPresent;code;ntdll.dll;
 RtlPcToFileHeader;code;ntdll.dll;
 RtlPinAtomInAtomTable;code;ntdll.dll;
@@ -3942,6 +3967,8 @@ ZwConnectPort;code;ntdll.dll;
 ZwContinue;code;ntdll.dll;
 ZwContinueEx;code;ntdll.dll;
 ZwConvertBetweenAuxiliaryCounterAndPerformanceCounter;code;ntdll.dll;
+ZwCopyFileChunk;code;ntdll.dll;
+ZwCreateCpuPartition;code;ntdll.dll;
 ZwCreateCrossVmEvent;code;ntdll.dll;
 ZwCreateCrossVmMutant;code;ntdll.dll;
 ZwCreateDebugObject;code;ntdll.dll;
@@ -4087,6 +4114,7 @@ ZwNotifyChangeDirectoryFileEx;code;ntdll.dll;
 ZwNotifyChangeKey;code;ntdll.dll;
 ZwNotifyChangeMultipleKeys;code;ntdll.dll;
 ZwNotifyChangeSession;code;ntdll.dll;
+ZwOpenCpuPartition;code;ntdll.dll;
 ZwOpenDirectoryObject;code;ntdll.dll;
 ZwOpenEnlistment;code;ntdll.dll;
 ZwOpenEvent;code;ntdll.dll;
@@ -4148,6 +4176,7 @@ ZwQueryEvent;code;ntdll.dll;
 ZwQueryFullAttributesFile;code;ntdll.dll;
 ZwQueryInformationAtom;code;ntdll.dll;
 ZwQueryInformationByName;code;ntdll.dll;
+ZwQueryInformationCpuPartition;code;ntdll.dll;
 ZwQueryInformationEnlistment;code;ntdll.dll;
 ZwQueryInformationFile;code;ntdll.dll;
 ZwQueryInformationJobObject;code;ntdll.dll;
@@ -4256,6 +4285,7 @@ ZwSetEventBoostPriority;code;ntdll.dll;
 ZwSetHighEventPair;code;ntdll.dll;
 ZwSetHighWaitLowEventPair;code;ntdll.dll;
 ZwSetIRTimer;code;ntdll.dll;
+ZwSetInformationCpuPartition;code;ntdll.dll;
 ZwSetInformationDebugObject;code;ntdll.dll;
 ZwSetInformationEnlistment;code;ntdll.dll;
 ZwSetInformationFile;code;ntdll.dll;

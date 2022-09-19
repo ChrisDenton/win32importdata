@@ -6,6 +6,7 @@ SymGetDiaSource;code;dbghelp.dll;?SymGetDiaSource@@YAHPAX_KPAPAUIDiaDataSource@@
 SymRegisterGetSourcePathPartCallback;code;dbghelp.dll;?SymRegisterGetSourcePathPartCallback@@YAXP6AJPBGPAPAG@ZPAP6AJ01@Z@Z (void __cdecl SymRegisterGetSourcePathPartCallback(long (__cdecl*)(unsigned short const *,unsigned short * *),long (__cdecl**)(unsigned short const *,unsigned short * *)))
 SymRegisterSourceFileUrlListCallback;code;dbghelp.dll;?SymRegisterSourceFileUrlListCallback@@YAXP6AJPAX_KPBG22PAPAUtagSAFEARRAY@@@ZPAP6AJ012223@Z@Z (void __cdecl SymRegisterSourceFileUrlListCallback(long (__cdecl*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__cdecl**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;dbghelp.dll;?SymSetDiaSession@@YAHPAX_KPAUIDiaSession@@@Z (int __cdecl SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+SymSetServiceManager;code;dbghelp.dll;?SymSetServiceManager@@YAHPAXPAUIUnknown@@@Z (int __cdecl SymSetServiceManager(void *,struct IUnknown *))
 _EFN_DumpImage;code;dbghelp.dll;?_EFN_DumpImage@@YAX_KK@Z (void __cdecl _EFN_DumpImage(unsigned __int64,unsigned long))
 DbgHelpCreateUserDump;code;dbghelp.dll;
 DbgHelpCreateUserDumpW;code;dbghelp.dll;
@@ -51,6 +52,7 @@ SearchTreeForFileW;code;dbghelp.dll;
 SetCheckUserInterruptShared;code;dbghelp.dll;
 SetSymLoadError;code;dbghelp.dll;
 StackWalk;code;dbghelp.dll;
+StackWalk2;code;dbghelp.dll;
 StackWalk64;code;dbghelp.dll;
 StackWalkEx;code;dbghelp.dll;
 SymAddSourceStream;code;dbghelp.dll;

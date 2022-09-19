@@ -11,6 +11,7 @@ Name;Type;DLL;SymbolOrOrdinal
 #GetNeverSetAsDefaultProperty;code;MMDevAPI.DLL;16
 #GetSessionIdFromEndpointId;code;MMDevAPI.DLL;9
 #InitializeDeviceAPI;code;MMDevAPI.DLL;3
+#MMDeviceCreateAudioSystemEffectsPropertyStore;code;MMDevAPI.DLL;34
 #MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4
 #MMDeviceCreateRegistryPropertyStore2;code;MMDevAPI.DLL;33
 #MMDeviceGetDeviceEnumerator;code;MMDevAPI.DLL;5
@@ -43,6 +44,7 @@ GetEndpointIdFromDeviceInterfaceId;code;MMDevAPI.DLL;18
 GetNeverSetAsDefaultProperty;code;MMDevAPI.DLL;16
 GetSessionIdFromEndpointId;code;MMDevAPI.DLL;9
 InitializeDeviceAPI;code;MMDevAPI.DLL;3
+MMDeviceCreateAudioSystemEffectsPropertyStore;code;MMDevAPI.DLL;34
 MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4
 MMDeviceCreateRegistryPropertyStore2;code;MMDevAPI.DLL;33
 MMDeviceGetDeviceEnumerator;code;MMDevAPI.DLL;5

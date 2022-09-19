@@ -29,7 +29,9 @@ HcnOpenEndpoint;code;computenetwork.dll;#HcnOpenEndpoint
 HcnOpenLoadBalancer;code;computenetwork.dll;#HcnOpenLoadBalancer
 HcnOpenNamespace;code;computenetwork.dll;#HcnOpenNamespace
 HcnOpenNetwork;code;computenetwork.dll;#HcnOpenNetwork
+HcnQueryEndpointAddresses;code;computenetwork.dll;#HcnQueryEndpointAddresses
 HcnQueryEndpointProperties;code;computenetwork.dll;#HcnQueryEndpointProperties
+HcnQueryEndpointStats;code;computenetwork.dll;#HcnQueryEndpointStats
 HcnQueryLoadBalancerProperties;code;computenetwork.dll;#HcnQueryLoadBalancerProperties
 HcnQueryNamespaceProperties;code;computenetwork.dll;#HcnQueryNamespaceProperties
 HcnQueryNetworkProperties;code;computenetwork.dll;#HcnQueryNetworkProperties
@@ -94,7 +96,9 @@ HcnOpenEndpoint;code;computenetwork.dll;
 HcnOpenLoadBalancer;code;computenetwork.dll;
 HcnOpenNamespace;code;computenetwork.dll;
 HcnOpenNetwork;code;computenetwork.dll;
+HcnQueryEndpointAddresses;code;computenetwork.dll;
 HcnQueryEndpointProperties;code;computenetwork.dll;
+HcnQueryEndpointStats;code;computenetwork.dll;
 HcnQueryLoadBalancerProperties;code;computenetwork.dll;
 HcnQueryNamespaceProperties;code;computenetwork.dll;
 HcnQueryNetworkProperties;code;computenetwork.dll;

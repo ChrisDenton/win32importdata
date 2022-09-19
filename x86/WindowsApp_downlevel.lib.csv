@@ -2026,6 +2026,12 @@ WlanOpenHandle;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanOpenHandle@16
 WlanQueryInterface;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanQueryInterface@28
 WlanReasonCodeToString;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanReasonCodeToString@16
 WlanSetProfile;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanSetProfile@32
+CreateActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;_CreateActivityCoordinatorPolicy@8
+DestroyActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;_DestroyActivityCoordinatorPolicy@4
+GetActivityCoordinatorPolicyResourceCondition;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;_GetActivityCoordinatorPolicyResourceCondition@12
+SetActivityCoordinatorPolicyResourceCondition;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;_SetActivityCoordinatorPolicyResourceCondition@12
+SubscribeActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;_SubscribeActivityCoordinatorPolicy@16
+UnsubscribeActivityCoordinatorPolicy;code;ext-ms-win-resourcemanager-activitycoordinator-l1-1-0.dll;_UnsubscribeActivityCoordinatorPolicy@4
 UiaHostProviderFromHwnd;code;ext-ms-win-uiacore-l1-1-0.dll;_UiaHostProviderFromHwnd@8
 UiaReturnRawElementProvider;code;ext-ms-win-uiacore-l1-1-0.dll;_UiaReturnRawElementProvider@16
 UiaClientsAreListening;code;ext-ms-win-uiacore-l1-1-1.dll;_UiaClientsAreListening@0
@@ -3209,6 +3215,7 @@ MFCreateSinkWriterFromURL;code;MFReadWrite.dll;_MFCreateSinkWriterFromURL@16
 MFCreateSourceReaderFromByteStream;code;MFReadWrite.dll;_MFCreateSourceReaderFromByteStream@12
 MFCreateSourceReaderFromMediaSource;code;MFReadWrite.dll;_MFCreateSourceReaderFromMediaSource@12
 MFCreateSourceReaderFromURL;code;MFReadWrite.dll;_MFCreateSourceReaderFromURL@12
+MFCreateCameraControlMonitor;code;MFSENSORGROUP.dll;_MFCreateCameraControlMonitor@12
 MFCreateCameraOcclusionStateMonitor;code;MFSENSORGROUP.dll;_MFCreateCameraOcclusionStateMonitor@12
 MFCreateSensorGroup;code;MFSENSORGROUP.dll;_MFCreateSensorGroup@8
 MFCreateSensorStream;code;MFSENSORGROUP.dll;_MFCreateSensorStream@16

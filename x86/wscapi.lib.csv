@@ -1,10 +1,12 @@
 Name;Type;DLL;SymbolOrOrdinal
-CLSID_WSCDefaultProduct;data;WSCAPI.dll;_CLSID_WSCDefaultProduct
-CLSID_WSCProductList;data;WSCAPI.dll;_CLSID_WSCProductList
-IID_IWSCDefaultProduct;data;WSCAPI.dll;_IID_IWSCDefaultProduct
-IID_IWSCProductList;data;WSCAPI.dll;_IID_IWSCProductList
-IID_IWscProduct;data;WSCAPI.dll;_IID_IWscProduct
-LIBID_wscAPILib;data;WSCAPI.dll;_LIBID_wscAPILib
+wscLaunchAdminMakeDefaultUI;code;WSCAPI.dll;?wscLaunchAdminMakeDefaultUI@@YGJPBG@Z (long __stdcall wscLaunchAdminMakeDefaultUI(unsigned short const *))
+wscShowAMSCN;code;WSCAPI.dll;?wscShowAMSCN@@YGJKPAK@Z (long __stdcall wscShowAMSCN(unsigned long,unsigned long *))
+CLSID_WSCDefaultProduct;code;WSCAPI.dll;_CLSID_WSCDefaultProduct
+CLSID_WSCProductList;code;WSCAPI.dll;_CLSID_WSCProductList
+IID_IWSCDefaultProduct;code;WSCAPI.dll;_IID_IWSCDefaultProduct
+IID_IWSCProductList;code;WSCAPI.dll;_IID_IWSCProductList
+IID_IWscProduct;code;WSCAPI.dll;_IID_IWscProduct
+LIBID_wscAPILib;code;WSCAPI.dll;_LIBID_wscAPILib
 WscGetAntiMalwareUri;code;WSCAPI.dll;_WscGetAntiMalwareUri@4
 WscGetSecurityProviderHealth;code;WSCAPI.dll;_WscGetSecurityProviderHealth@8
 WscQueryAntiMalwareUri;code;WSCAPI.dll;_WscQueryAntiMalwareUri@0

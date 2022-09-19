@@ -6,6 +6,7 @@ SymGetDiaSource;code;imagehlp.dll;?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@
 SymRegisterGetSourcePathPartCallback;code;imagehlp.dll;?SymRegisterGetSourcePathPartCallback@@YGXP6GJPBGPAPAG@ZPAP6GJ01@Z@Z (void __stdcall SymRegisterGetSourcePathPartCallback(long (__stdcall*)(unsigned short const *,unsigned short * *),long (__stdcall**)(unsigned short const *,unsigned short * *)))
 SymRegisterSourceFileUrlListCallback;code;imagehlp.dll;?SymRegisterSourceFileUrlListCallback@@YGXP6GJPAX_KPBG22PAPAUtagSAFEARRAY@@@ZPAP6GJ012223@Z@Z (void __stdcall SymRegisterSourceFileUrlListCallback(long (__stdcall*)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *),long (__stdcall**)(void *,unsigned __int64,unsigned short const *,unsigned short const *,unsigned short const *,struct tagSAFEARRAY * *)))
 SymSetDiaSession;code;imagehlp.dll;?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+SymSetServiceManager;code;imagehlp.dll;?SymSetServiceManager@@YGHPAXPAUIUnknown@@@Z (int __stdcall SymSetServiceManager(void *,struct IUnknown *))
 BindImage;code;imagehlp.dll;_BindImage@12
 BindImageEx;code;imagehlp.dll;_BindImageEx@20
 CheckSumMappedFile;code;imagehlp.dll;_CheckSumMappedFile@16
@@ -53,6 +54,7 @@ SetCheckUserInterruptShared;code;imagehlp.dll;_SetCheckUserInterruptShared@4
 SetImageConfigInformation;code;imagehlp.dll;_SetImageConfigInformation@8
 SetSymLoadError;code;imagehlp.dll;_SetSymLoadError@4
 SplitSymbols;code;imagehlp.dll;_SplitSymbols@16
+StackWalk2;code;imagehlp.dll;_StackWalk2@44
 StackWalk64;code;imagehlp.dll;_StackWalk64@36
 StackWalk;code;imagehlp.dll;_StackWalk@36
 StackWalkEx;code;imagehlp.dll;_StackWalkEx@40

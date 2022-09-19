@@ -6,4 +6,5 @@ Name;Type;DLL;SymbolOrOrdinal
 HvsiHvRpcInitialize;code;IsolatedWindowsEnvironmentUtils.dll;201
 HvsiHvRpcUninitialize;code;IsolatedWindowsEnvironmentUtils.dll;202
 HvsiR_ResolverQuery;code;IsolatedWindowsEnvironmentUtils.dll;200
+IsCrossIsolatedEnvironmentClipboardContent;code;IsolatedWindowsEnvironmentUtils.dll;
 IsProcessInIsolatedWindowsEnvironment;code;IsolatedWindowsEnvironmentUtils.dll;

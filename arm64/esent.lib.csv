@@ -118,6 +118,9 @@ JetDeleteIndex;code;ESENT.dll;#JetDeleteIndex
 JetDeleteIndexA;code;ESENT.dll;#JetDeleteIndexA
 JetDeleteIndexW;code;ESENT.dll;#JetDeleteIndexW
 JetDeleteTable;code;ESENT.dll;#JetDeleteTable
+JetDeleteTable2;code;ESENT.dll;#JetDeleteTable2
+JetDeleteTable2A;code;ESENT.dll;#JetDeleteTable2A
+JetDeleteTable2W;code;ESENT.dll;#JetDeleteTable2W
 JetDeleteTableA;code;ESENT.dll;#JetDeleteTableA
 JetDeleteTableW;code;ESENT.dll;#JetDeleteTableW
 JetDetachDatabase;code;ESENT.dll;#JetDetachDatabase
@@ -499,6 +502,9 @@ JetDeleteIndex;code;ESENT.dll;
 JetDeleteIndexA;code;ESENT.dll;
 JetDeleteIndexW;code;ESENT.dll;
 JetDeleteTable;code;ESENT.dll;
+JetDeleteTable2;code;ESENT.dll;
+JetDeleteTable2A;code;ESENT.dll;
+JetDeleteTable2W;code;ESENT.dll;
 JetDeleteTableA;code;ESENT.dll;
 JetDeleteTableW;code;ESENT.dll;
 JetDetachDatabase;code;ESENT.dll;

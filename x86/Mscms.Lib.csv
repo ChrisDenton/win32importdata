@@ -1,5 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
-?GetCalibrationDataFromProfile@@YGJPBGPAUCalibrationData@@@Z (long __stdcall GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *));code;mscms.dll;240
+?GetCalibrationDataFromProfile@@YGJPBGPAUCalibrationData@@H@Z (long __stdcall GetCalibrationDataFromProfile(unsigned short const *,struct CalibrationData *,int));code;mscms.dll;240
 _AssociateColorProfileWithDeviceA@12;code;mscms.dll;1
 AssociateColorProfileWithDeviceW;code;mscms.dll;_AssociateColorProfileWithDeviceW@12
 CheckBitmapBits;code;mscms.dll;_CheckBitmapBits@36
