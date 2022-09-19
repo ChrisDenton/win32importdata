@@ -1,5 +1,12 @@
 Name;Type;DLL;SymbolOrOrdinal
+GetPortFromUrlScheme;code;urlmon.dll;?GetPortFromUrlScheme@@YGHKPAK@Z (int __stdcall GetPortFromUrlScheme(unsigned long,unsigned long *))
+GetPropertyFromName;code;urlmon.dll;?GetPropertyFromName@@YGHPBGPAW4__MIDL_IUri_0001@@@Z (int __stdcall GetPropertyFromName(unsigned short const *,enum __MIDL_IUri_0001 *))
+GetPropertyName;code;urlmon.dll;?GetPropertyName@@YGPBGW4__MIDL_IUri_0001@@@Z (unsigned short const * __stdcall GetPropertyName(enum __MIDL_IUri_0001))
+?IECompatLogCSSFix@@YGXPBG0K@Z (void __stdcall IECompatLogCSSFix(unsigned short const *,unsigned short const *,unsigned long));code;urlmon.dll;322
+IsDWORDProperty;code;urlmon.dll;?IsDWORDProperty@@YGHW4__MIDL_IUri_0001@@@Z (int __stdcall IsDWORDProperty(enum __MIDL_IUri_0001))
+IsStringProperty;code;urlmon.dll;?IsStringProperty@@YGHW4__MIDL_IUri_0001@@@Z (int __stdcall IsStringProperty(enum __MIDL_IUri_0001))
 BindAsyncMoniker;code;urlmon.dll;_BindAsyncMoniker@20
+CORPolicyProvider;code;urlmon.dll;_CORPolicyProvider@4
 CoGetClassObjectFromURL;code;urlmon.dll;_CoGetClassObjectFromURL@40
 CoInternetCanonicalizeIUri;code;urlmon.dll;_CoInternetCanonicalizeIUri@12
 CoInternetCombineIUri;code;urlmon.dll;_CoInternetCombineIUri@20
@@ -43,11 +50,9 @@ FindMimeFromData;code;urlmon.dll;_FindMimeFromData@32
 GetClassFileOrMime;code;urlmon.dll;_GetClassFileOrMime@28
 GetClassURL;code;urlmon.dll;_GetClassURL@8
 GetComponentIDFromCLSSPEC;code;urlmon.dll;_GetComponentIDFromCLSSPEC@8
+GetIUriPriv2;code;urlmon.dll;_GetIUriPriv2@8
 GetIUriPriv;code;urlmon.dll;_GetIUriPriv@8
 GetLabelsFromNamedHost;code;urlmon.dll;_GetLabelsFromNamedHost@20
-GetPortFromUrlScheme;code;urlmon.dll;_GetPortFromUrlScheme@8
-GetPropertyFromName;code;urlmon.dll;_GetPropertyFromName@8
-GetPropertyName;code;urlmon.dll;_GetPropertyName@4
 GetSoftwareUpdateInfo;code;urlmon.dll;_GetSoftwareUpdateInfo@8
 HlinkGoBack;code;urlmon.dll;_HlinkGoBack@4
 HlinkGoForward;code;urlmon.dll;_HlinkGoForward@4
@@ -55,13 +60,12 @@ HlinkNavigateMoniker;code;urlmon.dll;_HlinkNavigateMoniker@8
 HlinkNavigateString;code;urlmon.dll;_HlinkNavigateString@8
 HlinkSimpleNavigateToMoniker;code;urlmon.dll;_HlinkSimpleNavigateToMoniker@32
 HlinkSimpleNavigateToString;code;urlmon.dll;_HlinkSimpleNavigateToString@32
+IEGetUserPrivateNamespaceName;code;urlmon.dll;_IEGetUserPrivateNamespaceName@0
 IEInstallScope;code;urlmon.dll;_IEInstallScope@4
 IsAsyncMoniker;code;urlmon.dll;_IsAsyncMoniker@4
-IsDWORDProperty;code;urlmon.dll;_IsDWORDProperty@4
 IsJITInProgress;code;urlmon.dll;_IsJITInProgress@0
 IsLoggingEnabledA;code;urlmon.dll;_IsLoggingEnabledA@4
 IsLoggingEnabledW;code;urlmon.dll;_IsLoggingEnabledW@4
-IsStringProperty;code;urlmon.dll;_IsStringProperty@4
 IsValidURL;code;urlmon.dll;_IsValidURL@12
 MkParseDisplayNameEx;code;urlmon.dll;_MkParseDisplayNameEx@16
 ObtainUserAgentString;code;urlmon.dll;_ObtainUserAgentString@12
@@ -72,6 +76,7 @@ RegisterMediaTypes;code;urlmon.dll;_RegisterMediaTypes@12
 ReleaseBindInfo;code;urlmon.dll;_ReleaseBindInfo@4
 RevokeBindStatusCallback;code;urlmon.dll;_RevokeBindStatusCallback@8
 RevokeFormatEnumerator;code;urlmon.dll;_RevokeFormatEnumerator@8
+SetAccessForIEAppContainer;code;urlmon.dll;_SetAccessForIEAppContainer@12
 SetSoftwareUpdateAdvertisementState;code;urlmon.dll;_SetSoftwareUpdateAdvertisementState@16
 URLDownloadA;code;urlmon.dll;_URLDownloadA@20
 URLDownloadToCacheFileA;code;urlmon.dll;_URLDownloadToCacheFileA@24

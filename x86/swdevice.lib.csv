@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+SwDeviceClose;code;CFGMGR32.dll;_SwDeviceClose@4
+SwDeviceCreate;code;CFGMGR32.dll;_SwDeviceCreate@32
+SwDeviceGetLifetime;code;CFGMGR32.dll;_SwDeviceGetLifetime@8
+SwDeviceInterfacePropertySet;code;CFGMGR32.dll;_SwDeviceInterfacePropertySet@16
+SwDeviceInterfaceRegister;code;CFGMGR32.dll;_SwDeviceInterfaceRegister@28
+SwDeviceInterfaceSetState;code;CFGMGR32.dll;_SwDeviceInterfaceSetState@12
+SwDevicePropertySet;code;CFGMGR32.dll;_SwDevicePropertySet@12
+SwDeviceSetLifetime;code;CFGMGR32.dll;_SwDeviceSetLifetime@8
+SwMemFree;code;CFGMGR32.dll;_SwMemFree@4

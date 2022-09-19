@@ -9,9 +9,11 @@ GetNameByTypeA;code;MSWSOCK.dll;_GetNameByTypeA@12
 GetNameByTypeW;code;MSWSOCK.dll;_GetNameByTypeW@12
 GetServiceA;code;MSWSOCK.dll;_GetServiceA@28
 GetServiceW;code;MSWSOCK.dll;_GetServiceW@28
+GetSocketErrorMessageW;code;MSWSOCK.dll;_GetSocketErrorMessageW@4
 GetTypeByNameA;code;MSWSOCK.dll;_GetTypeByNameA@8
 GetTypeByNameW;code;MSWSOCK.dll;_GetTypeByNameW@8
 MigrateWinsockConfiguration;code;MSWSOCK.dll;_MigrateWinsockConfiguration@12
+MigrateWinsockConfigurationEx;code;MSWSOCK.dll;_MigrateWinsockConfigurationEx@16
 NPLoadNameSpaces;code;MSWSOCK.dll;_NPLoadNameSpaces@12
 SetServiceA;code;MSWSOCK.dll;_SetServiceA@24
 SetServiceW;code;MSWSOCK.dll;_SetServiceW@24

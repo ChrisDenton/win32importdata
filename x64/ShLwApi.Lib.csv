@@ -39,7 +39,6 @@ IsCharSpaceA;code;SHLWAPI.dll;
 IsCharSpaceW;code;SHLWAPI.dll;29
 IsInternetESCEnabled;code;SHLWAPI.dll;553
 IsOS;code;SHLWAPI.dll;437
-MLFreeLibrary;code;SHLWAPI.dll;418
 MLLoadLibraryA;code;SHLWAPI.dll;377
 MLLoadLibraryW;code;SHLWAPI.dll;378
 ParseURLA;code;SHLWAPI.dll;1

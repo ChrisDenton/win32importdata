@@ -1,5 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
-AssociateColorProfileWithDeviceA;code;mscms.dll;_AssociateColorProfileWithDeviceA@12
+_AssociateColorProfileWithDeviceA@12;code;mscms.dll;1
 AssociateColorProfileWithDeviceW;code;mscms.dll;_AssociateColorProfileWithDeviceW@12
 CheckBitmapBits;code;mscms.dll;_CheckBitmapBits@36
 CheckColors;code;mscms.dll;_CheckColors@20
@@ -56,8 +56,11 @@ InstallColorProfileA;code;mscms.dll;_InstallColorProfileA@8
 InstallColorProfileW;code;mscms.dll;_InstallColorProfileW@8
 InternalGetDeviceConfig;code;mscms.dll;_InternalGetDeviceConfig@24
 InternalGetPS2CSAFromLCS;code;mscms.dll;_InternalGetPS2CSAFromLCS@16
+_InternalGetPS2ColorRenderingDictionary2@24;code;mscms.dll;200
 InternalGetPS2ColorRenderingDictionary;code;mscms.dll;_InternalGetPS2ColorRenderingDictionary@20
+_InternalGetPS2ColorSpaceArray2@28;code;mscms.dll;202
 InternalGetPS2ColorSpaceArray;code;mscms.dll;_InternalGetPS2ColorSpaceArray@24
+_InternalGetPS2PreviewCRD2@32;code;mscms.dll;201
 InternalGetPS2PreviewCRD;code;mscms.dll;_InternalGetPS2PreviewCRD@24
 InternalRefreshCalibration;code;mscms.dll;_InternalRefreshCalibration@8
 InternalSetDeviceConfig;code;mscms.dll;_InternalSetDeviceConfig@24

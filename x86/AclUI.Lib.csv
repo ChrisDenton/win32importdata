@@ -1,5 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 _CreateSecurityPage@4;code;ACLUI.dll;1
+_EditConditionalAceClaims@24;code;ACLUI.dll;5
+_EditResourceCondition@20;code;ACLUI.dll;4
 _EditSecurity@8;code;ACLUI.dll;2
 _EditSecurityAdvanced@12;code;ACLUI.dll;3
 _IID_ISecurityInformation;code;ACLUI.dll;16

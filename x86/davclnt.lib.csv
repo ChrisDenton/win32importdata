@@ -5,6 +5,7 @@ DavGetDiskSpaceUsage;code;davclnt.dll;_DavGetDiskSpaceUsage@16
 DavGetTheLockOwnerOfTheFile;code;davclnt.dll;_DavGetTheLockOwnerOfTheFile@12
 DavInvalidateCache;code;davclnt.dll;_DavInvalidateCache@4
 DavRegisterAuthCallback;code;davclnt.dll;_DavRegisterAuthCallback@8
+DavSetCookieW;code;davclnt.dll;_DavSetCookieW@16
 DavUnregisterAuthCallback;code;davclnt.dll;_DavUnregisterAuthCallback@4
 DllMain;code;davclnt.dll;_DllMain@12
 NPAddConnection3;code;davclnt.dll;_NPAddConnection3@20

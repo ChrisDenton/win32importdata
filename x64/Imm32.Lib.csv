@@ -10,6 +10,7 @@ ImmDestroyContext;code;IMM32.dll;
 ImmDestroyIMCC;code;IMM32.dll;
 ImmDestroySoftKeyboard;code;IMM32.dll;
 ImmDisableIME;code;IMM32.dll;
+ImmDisableLegacyIME;code;IMM32.dll;
 ImmDisableTextFrameService;code;IMM32.dll;
 ImmEnumInputContext;code;IMM32.dll;
 ImmEnumRegisterWordA;code;IMM32.dll;

@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+StaticLink;code;APIDLL.dll;?StaticLink@@3HA (int StaticLink)
+_penter;code;APIDLL.dll;__penter

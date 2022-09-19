@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+HrAddAppxLicense;code;oemlicense.dll;?HrAddAppxLicense@@YGJPBG0H@Z (long __stdcall HrAddAppxLicense(unsigned short const *,unsigned short const *,int))
+HrRemoveAppxLicense;code;oemlicense.dll;?HrRemoveAppxLicense@@YGJPBG0H@Z (long __stdcall HrRemoveAppxLicense(unsigned short const *,unsigned short const *,int))
+AddDemoAppLicense;code;oemlicense.dll;_AddDemoAppLicense@8
+RemoveDemoAppLicense;code;oemlicense.dll;_RemoveDemoAppLicense@4

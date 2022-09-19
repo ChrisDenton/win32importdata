@@ -20,8 +20,6 @@ DocumentEvent;code;WINSPOOL.DRV;?DocumentEvent@@YAHPEAXPEAUHDC__@@HK0K0@Z (int _
 QueryColorProfile;code;WINSPOOL.DRV;?QueryColorProfile@@YAHPEAXPEAU_devicemodeW@@K0PEAK2@Z (int __cdecl QueryColorProfile(void *,struct _devicemodeW *,unsigned long,void *,unsigned long *,unsigned long *))
 QueryRemoteFonts;code;WINSPOOL.DRV;?QueryRemoteFonts@@YAHPEAXPEAU_UNIVERSAL_FONT_ID@@K@Z (int __cdecl QueryRemoteFonts(void *,struct _UNIVERSAL_FONT_ID *,unsigned long))
 QuerySpoolMode;code;WINSPOOL.DRV;?QuerySpoolMode@@YAHPEAXPEAJPEAK@Z (int __cdecl QuerySpoolMode(void *,long *,unsigned long *))
-?SetPrintExecutionData@@YAXW4PRINT_EXECUTION_CONTEXT@@KK@Z (void __cdecl SetPrintExecutionData(enum PRINT_EXECUTION_CONTEXT,unsigned long,unsigned long));code;WINSPOOL.DRV;254
-?SetWinspoolOptions@@YAXHH@Z (void __cdecl SetWinspoolOptions(int,int));code;WINSPOOL.DRV;253
 SpoolerDevQueryPrintW;code;WINSPOOL.DRV;?SpoolerDevQueryPrintW@@YAHPEAXPEAU_devicemodeW@@PEAKPEAGK@Z (int __cdecl SpoolerDevQueryPrintW(void *,struct _devicemodeW *,unsigned long *,unsigned short *,unsigned long))
 StartDocDlgW;code;WINSPOOL.DRV;?StartDocDlgW@@YAPEAGPEAXPEAU_DOCINFOW@@@Z (unsigned short * __cdecl StartDocDlgW(void *,struct _DOCINFOW *))
 AbortPrinter;code;WINSPOOL.DRV;
@@ -55,9 +53,6 @@ AdvancedDocumentPropertiesA;code;WINSPOOL.DRV;
 AdvancedDocumentPropertiesW;code;WINSPOOL.DRV;
 ClosePrinter;code;WINSPOOL.DRV;
 CloseSpoolFileHandle;code;WINSPOOL.DRV;
-ClusterSplClose;code;WINSPOOL.DRV;102
-ClusterSplIsAlive;code;WINSPOOL.DRV;103
-ClusterSplOpen;code;WINSPOOL.DRV;101
 CommitSpoolData;code;WINSPOOL.DRV;
 ConfigurePortA;code;WINSPOOL.DRV;
 ConfigurePortW;code;WINSPOOL.DRV;
@@ -69,6 +64,7 @@ CreatePrinterIC;code;WINSPOOL.DRV;
 DEVICECAPABILITIES;code;WINSPOOL.DRV;
 DeleteFormA;code;WINSPOOL.DRV;
 DeleteFormW;code;WINSPOOL.DRV;
+DeleteJobNamedProperty;code;WINSPOOL.DRV;
 DeleteMonitorA;code;WINSPOOL.DRV;
 DeleteMonitorW;code;WINSPOOL.DRV;
 DeletePerMachineConnectionA;code;WINSPOOL.DRV;208
@@ -109,6 +105,7 @@ EndDocPrinter;code;WINSPOOL.DRV;
 EndPagePrinter;code;WINSPOOL.DRV;
 EnumFormsA;code;WINSPOOL.DRV;
 EnumFormsW;code;WINSPOOL.DRV;
+EnumJobNamedProperties;code;WINSPOOL.DRV;
 EnumJobsA;code;WINSPOOL.DRV;
 EnumJobsW;code;WINSPOOL.DRV;
 EnumMonitorsA;code;WINSPOOL.DRV;
@@ -139,6 +136,8 @@ FindFirstPrinterChangeNotification;code;WINSPOOL.DRV;
 FindNextPrinterChangeNotification;code;WINSPOOL.DRV;
 FlushPrinter;code;WINSPOOL.DRV;
 ForceUnloadDriver;code;WINSPOOL.DRV;215
+FreePrintNamedPropertyArray;code;WINSPOOL.DRV;
+FreePrintPropertyValue;code;WINSPOOL.DRV;
 FreePrinterNotifyInfo;code;WINSPOOL.DRV;
 GetCorePrinterDriversA;code;WINSPOOL.DRV;
 GetCorePrinterDriversW;code;WINSPOOL.DRV;
@@ -147,9 +146,11 @@ GetDefaultPrinterW;code;WINSPOOL.DRV;203
 GetFormA;code;WINSPOOL.DRV;
 GetFormW;code;WINSPOOL.DRV;
 GetJobA;code;WINSPOOL.DRV;
+GetJobNamedPropertyValue;code;WINSPOOL.DRV;
 GetJobW;code;WINSPOOL.DRV;
 GetPrintClassObject;code;WINSPOOL.DRV;251
 GetPrintExecutionData;code;WINSPOOL.DRV;
+GetPrintOutputInfo;code;WINSPOOL.DRV;
 GetPrintProcessorDirectoryA;code;WINSPOOL.DRV;
 GetPrintProcessorDirectoryW;code;WINSPOOL.DRV;
 GetPrinterA;code;WINSPOOL.DRV;
@@ -201,15 +202,18 @@ SetDefaultPrinterW;code;WINSPOOL.DRV;204
 SetFormA;code;WINSPOOL.DRV;
 SetFormW;code;WINSPOOL.DRV;
 SetJobA;code;WINSPOOL.DRV;
+SetJobNamedProperty;code;WINSPOOL.DRV;
 SetJobW;code;WINSPOOL.DRV;
 SetPortA;code;WINSPOOL.DRV;
 SetPortW;code;WINSPOOL.DRV;
+SetPrintExecutionData;code;WINSPOOL.DRV;254
 SetPrinterA;code;WINSPOOL.DRV;
 SetPrinterDataA;code;WINSPOOL.DRV;
 SetPrinterDataExA;code;WINSPOOL.DRV;
 SetPrinterDataExW;code;WINSPOOL.DRV;
 SetPrinterDataW;code;WINSPOOL.DRV;
 SetPrinterW;code;WINSPOOL.DRV;
+SetWinspoolOptions;code;WINSPOOL.DRV;253
 SplDriverUnloadComplete;code;WINSPOOL.DRV;
 SplReadPrinter;code;WINSPOOL.DRV;205
 SpoolerPrinterEvent;code;WINSPOOL.DRV;

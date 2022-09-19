@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+RegisterModule;code;RpcProxy.dll;?RegisterModule@@YGJKPAVIHttpModuleRegistrationInfo@@PAVIHttpServer@@@Z (long __stdcall RegisterModule(unsigned long,class IHttpModuleRegistrationInfo *,class IHttpServer *))
+GetExtensionVersion;code;RpcProxy.dll;_GetExtensionVersion@4
+GetFilterVersion;code;RpcProxy.dll;_GetFilterVersion@4
+HttpExtensionProc;code;RpcProxy.dll;_HttpExtensionProc@4
+HttpFilterProc;code;RpcProxy.dll;_HttpFilterProc@12

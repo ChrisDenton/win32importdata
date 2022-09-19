@@ -187,7 +187,9 @@ DrawTextW;code;USER32.dll;_DrawTextW@20
 EditWndProc;code;USER32.dll;_EditWndProc@16
 EmptyClipboard;code;USER32.dll;_EmptyClipboard@0
 EnableMenuItem;code;USER32.dll;_EnableMenuItem@12
+EnableMouseInPointer;code;USER32.dll;_EnableMouseInPointer@4
 EnableScrollBar;code;USER32.dll;_EnableScrollBar@12
+EnableSessionForMMCSS;code;USER32.dll;_EnableSessionForMMCSS@4
 EnableWindow;code;USER32.dll;_EnableWindow@8
 EndDeferWindowPos;code;USER32.dll;_EndDeferWindowPos@4
 EndDialog;code;USER32.dll;_EndDialog@8
@@ -215,6 +217,8 @@ EnumWindowStationsA;code;USER32.dll;_EnumWindowStationsA@8
 EnumWindowStationsW;code;USER32.dll;_EnumWindowStationsW@8
 EnumWindows;code;USER32.dll;_EnumWindows@8
 EqualRect;code;USER32.dll;_EqualRect@8
+EvaluateProximityToPolygon;code;USER32.dll;_EvaluateProximityToPolygon@16
+EvaluateProximityToRect;code;USER32.dll;_EvaluateProximityToRect@12
 ExcludeUpdateRgn;code;USER32.dll;_ExcludeUpdateRgn@8
 ExitWindowsEx;code;USER32.dll;_ExitWindowsEx@8
 FillRect;code;USER32.dll;_FillRect@12
@@ -232,6 +236,8 @@ GetAltTabInfoA;code;USER32.dll;_GetAltTabInfoA@20
 GetAltTabInfoW;code;USER32.dll;_GetAltTabInfoW@20
 GetAncestor;code;USER32.dll;_GetAncestor@8
 GetAsyncKeyState;code;USER32.dll;_GetAsyncKeyState@4
+GetAutoRotationState;code;USER32.dll;_GetAutoRotationState@4
+GetCIMSSM;code;USER32.dll;_GetCIMSSM@4
 GetCapture;code;USER32.dll;_GetCapture@0
 GetCaretBlinkTime;code;USER32.dll;_GetCaretBlinkTime@0
 GetCaretPos;code;USER32.dll;_GetCaretPos@4
@@ -253,6 +259,7 @@ GetClipboardOwner;code;USER32.dll;_GetClipboardOwner@0
 GetClipboardSequenceNumber;code;USER32.dll;_GetClipboardSequenceNumber@0
 GetClipboardViewer;code;USER32.dll;_GetClipboardViewer@0
 GetComboBoxInfo;code;USER32.dll;_GetComboBoxInfo@8
+GetCurrentInputMessageSource;code;USER32.dll;_GetCurrentInputMessageSource@4
 GetCursor;code;USER32.dll;_GetCursor@0
 GetCursorInfo;code;USER32.dll;_GetCursorInfo@4
 GetCursorPos;code;USER32.dll;_GetCursorPos@4
@@ -260,6 +267,7 @@ GetDC;code;USER32.dll;_GetDC@4
 GetDCEx;code;USER32.dll;_GetDCEx@12
 GetDesktopWindow;code;USER32.dll;_GetDesktopWindow@0
 GetDialogBaseUnits;code;USER32.dll;_GetDialogBaseUnits@0
+GetDisplayAutoRotationPreferences;code;USER32.dll;_GetDisplayAutoRotationPreferences@4
 GetDisplayConfigBufferSizes;code;USER32.dll;_GetDisplayConfigBufferSizes@12
 GetDlgCtrlID;code;USER32.dll;_GetDlgCtrlID@4
 GetDlgItem;code;USER32.dll;_GetDlgItem@8
@@ -321,6 +329,26 @@ GetNextDlgTabItem;code;USER32.dll;_GetNextDlgTabItem@12
 GetOpenClipboardWindow;code;USER32.dll;_GetOpenClipboardWindow@0
 GetParent;code;USER32.dll;_GetParent@4
 GetPhysicalCursorPos;code;USER32.dll;_GetPhysicalCursorPos@4
+GetPointerCursorId;code;USER32.dll;_GetPointerCursorId@8
+GetPointerDevice;code;USER32.dll;_GetPointerDevice@8
+GetPointerDeviceCursors;code;USER32.dll;_GetPointerDeviceCursors@12
+GetPointerDeviceProperties;code;USER32.dll;_GetPointerDeviceProperties@12
+GetPointerDeviceRects;code;USER32.dll;_GetPointerDeviceRects@12
+GetPointerDevices;code;USER32.dll;_GetPointerDevices@8
+GetPointerFrameInfo;code;USER32.dll;_GetPointerFrameInfo@12
+GetPointerFrameInfoHistory;code;USER32.dll;_GetPointerFrameInfoHistory@16
+GetPointerFramePenInfo;code;USER32.dll;_GetPointerFramePenInfo@12
+GetPointerFramePenInfoHistory;code;USER32.dll;_GetPointerFramePenInfoHistory@16
+GetPointerFrameTouchInfo;code;USER32.dll;_GetPointerFrameTouchInfo@12
+GetPointerFrameTouchInfoHistory;code;USER32.dll;_GetPointerFrameTouchInfoHistory@16
+GetPointerInfo;code;USER32.dll;_GetPointerInfo@8
+GetPointerInfoHistory;code;USER32.dll;_GetPointerInfoHistory@12
+GetPointerInputTransform;code;USER32.dll;_GetPointerInputTransform@12
+GetPointerPenInfo;code;USER32.dll;_GetPointerPenInfo@8
+GetPointerPenInfoHistory;code;USER32.dll;_GetPointerPenInfoHistory@12
+GetPointerTouchInfo;code;USER32.dll;_GetPointerTouchInfo@8
+GetPointerTouchInfoHistory;code;USER32.dll;_GetPointerTouchInfoHistory@12
+GetPointerType;code;USER32.dll;_GetPointerType@8
 GetPriorityClipboardFormat;code;USER32.dll;_GetPriorityClipboardFormat@8
 GetProcessDefaultLayout;code;USER32.dll;_GetProcessDefaultLayout@4
 GetProcessWindowStation;code;USER32.dll;_GetProcessWindowStation@0
@@ -332,6 +360,7 @@ GetRawInputData;code;USER32.dll;_GetRawInputData@20
 GetRawInputDeviceInfoA;code;USER32.dll;_GetRawInputDeviceInfoA@16
 GetRawInputDeviceInfoW;code;USER32.dll;_GetRawInputDeviceInfoW@16
 GetRawInputDeviceList;code;USER32.dll;_GetRawInputDeviceList@12
+GetRawPointerDeviceData;code;USER32.dll;_GetRawPointerDeviceData@20
 GetRegisteredRawInputDevices;code;USER32.dll;_GetRegisteredRawInputDevices@12
 GetScrollBarInfo;code;USER32.dll;_GetScrollBarInfo@12
 GetScrollInfo;code;USER32.dll;_GetScrollInfo@12
@@ -349,6 +378,7 @@ GetThreadDesktop;code;USER32.dll;_GetThreadDesktop@4
 GetTitleBarInfo;code;USER32.dll;_GetTitleBarInfo@8
 GetTopWindow;code;USER32.dll;_GetTopWindow@4
 GetTouchInputInfo;code;USER32.dll;_GetTouchInputInfo@16
+GetUnpredictedMessagePos;code;USER32.dll;_GetUnpredictedMessagePos@0
 GetUpdateRect;code;USER32.dll;_GetUpdateRect@12
 GetUpdateRgn;code;USER32.dll;_GetUpdateRgn@12
 GetUpdatedClipboardFormats;code;USER32.dll;_GetUpdatedClipboardFormats@12
@@ -359,6 +389,7 @@ GetWindow;code;USER32.dll;_GetWindow@8
 GetWindowContextHelpId;code;USER32.dll;_GetWindowContextHelpId@4
 GetWindowDC;code;USER32.dll;_GetWindowDC@4
 GetWindowDisplayAffinity;code;USER32.dll;_GetWindowDisplayAffinity@8
+GetWindowFeedbackSetting;code;USER32.dll;_GetWindowFeedbackSetting@20
 GetWindowInfo;code;USER32.dll;_GetWindowInfo@8
 GetWindowLongA;code;USER32.dll;_GetWindowLongA@8
 GetWindowLongW;code;USER32.dll;_GetWindowLongW@8
@@ -389,6 +420,8 @@ ImpersonateDdeClientWindow;code;USER32.dll;_ImpersonateDdeClientWindow@8
 InSendMessage;code;USER32.dll;_InSendMessage@0
 InSendMessageEx;code;USER32.dll;_InSendMessageEx@4
 InflateRect;code;USER32.dll;_InflateRect@12
+InitializeTouchInjection;code;USER32.dll;_InitializeTouchInjection@8
+InjectTouchInput;code;USER32.dll;_InjectTouchInput@8
 InsertMenuA;code;USER32.dll;_InsertMenuA@20
 InsertMenuItemA;code;USER32.dll;_InsertMenuItemA@16
 InsertMenuItemW;code;USER32.dll;_InsertMenuItemW@16
@@ -415,7 +448,10 @@ IsDlgButtonChecked;code;USER32.dll;_IsDlgButtonChecked@8
 IsGUIThread;code;USER32.dll;_IsGUIThread@4
 IsHungAppWindow;code;USER32.dll;_IsHungAppWindow@4
 IsIconic;code;USER32.dll;_IsIconic@4
+IsImmersiveProcess;code;USER32.dll;_IsImmersiveProcess@4
+IsInDesktopWindowBand;code;USER32.dll;_IsInDesktopWindowBand@4
 IsMenu;code;USER32.dll;_IsMenu@4
+IsMouseInPointerEnabled;code;USER32.dll;_IsMouseInPointerEnabled@0
 IsProcessDPIAware;code;USER32.dll;_IsProcessDPIAware@0
 IsRectEmpty;code;USER32.dll;_IsRectEmpty@4
 IsTouchWindow;code;USER32.dll;_IsTouchWindow@8
@@ -451,6 +487,7 @@ LockSetForegroundWindow;code;USER32.dll;_LockSetForegroundWindow@4
 LockWindowUpdate;code;USER32.dll;_LockWindowUpdate@4
 LockWorkStation;code;USER32.dll;_LockWorkStation@0
 LogicalToPhysicalPoint;code;USER32.dll;_LogicalToPhysicalPoint@8
+LogicalToPhysicalPointForPerMonitorDPI;code;USER32.dll;_LogicalToPhysicalPointForPerMonitorDPI@8
 LookupIconIdFromDirectory;code;USER32.dll;_LookupIconIdFromDirectory@8
 LookupIconIdFromDirectoryEx;code;USER32.dll;_LookupIconIdFromDirectoryEx@20
 MapDialogRect;code;USER32.dll;_MapDialogRect@8
@@ -492,10 +529,12 @@ OpenInputDesktop;code;USER32.dll;_OpenInputDesktop@12
 OpenWindowStationA;code;USER32.dll;_OpenWindowStationA@12
 OpenWindowStationW;code;USER32.dll;_OpenWindowStationW@12
 PackDDElParam;code;USER32.dll;_PackDDElParam@12
+PackTouchHitTestingProximityEvaluation;code;USER32.dll;_PackTouchHitTestingProximityEvaluation@8
 PaintDesktop;code;USER32.dll;_PaintDesktop@4
 PeekMessageA;code;USER32.dll;_PeekMessageA@20
 PeekMessageW;code;USER32.dll;_PeekMessageW@20
 PhysicalToLogicalPoint;code;USER32.dll;_PhysicalToLogicalPoint@8
+PhysicalToLogicalPointForPerMonitorDPI;code;USER32.dll;_PhysicalToLogicalPointForPerMonitorDPI@8
 PostMessageA;code;USER32.dll;_PostMessageA@16
 PostMessageW;code;USER32.dll;_PostMessageW@16
 PostQuitMessage;code;USER32.dll;_PostQuitMessage@4
@@ -520,9 +559,13 @@ RegisterClipboardFormatW;code;USER32.dll;_RegisterClipboardFormatW@4
 RegisterDeviceNotificationA;code;USER32.dll;_RegisterDeviceNotificationA@12
 RegisterDeviceNotificationW;code;USER32.dll;_RegisterDeviceNotificationW@12
 RegisterHotKey;code;USER32.dll;_RegisterHotKey@16
+RegisterPointerDeviceNotifications;code;USER32.dll;_RegisterPointerDeviceNotifications@8
+RegisterPointerInputTarget;code;USER32.dll;_RegisterPointerInputTarget@8
 RegisterPowerSettingNotification;code;USER32.dll;_RegisterPowerSettingNotification@12
 RegisterRawInputDevices;code;USER32.dll;_RegisterRawInputDevices@12
 RegisterShellHookWindow;code;USER32.dll;_RegisterShellHookWindow@4
+RegisterSuspendResumeNotification;code;USER32.dll;_RegisterSuspendResumeNotification@8
+RegisterTouchHitTestingWindow;code;USER32.dll;_RegisterTouchHitTestingWindow@8
 RegisterTouchWindow;code;USER32.dll;_RegisterTouchWindow@8
 RegisterWindowMessageA;code;USER32.dll;_RegisterWindowMessageA@4
 RegisterWindowMessageW;code;USER32.dll;_RegisterWindowMessageW@4
@@ -560,10 +603,12 @@ SetClassLongW;code;USER32.dll;_SetClassLongW@12
 SetClassWord;code;USER32.dll;_SetClassWord@12
 SetClipboardData;code;USER32.dll;_SetClipboardData@8
 SetClipboardViewer;code;USER32.dll;_SetClipboardViewer@4
+SetCoalescableTimer;code;USER32.dll;_SetCoalescableTimer@20
 SetCursor;code;USER32.dll;_SetCursor@4
 SetCursorPos;code;USER32.dll;_SetCursorPos@8
 SetDebugErrorLevel;code;USER32.dll;_SetDebugErrorLevel@4
 SetDeskWallpaper;code;USER32.dll;_SetDeskWallpaper@4
+SetDisplayAutoRotationPreferences;code;USER32.dll;_SetDisplayAutoRotationPreferences@4
 SetDisplayConfig;code;USER32.dll;_SetDisplayConfig@20
 SetDlgItemInt;code;USER32.dll;_SetDlgItemInt@16
 SetDlgItemTextA;code;USER32.dll;_SetDlgItemTextA@12
@@ -588,6 +633,7 @@ SetParent;code;USER32.dll;_SetParent@8
 SetPhysicalCursorPos;code;USER32.dll;_SetPhysicalCursorPos@8
 SetProcessDPIAware;code;USER32.dll;_SetProcessDPIAware@0
 SetProcessDefaultLayout;code;USER32.dll;_SetProcessDefaultLayout@4
+SetProcessRestrictionExemption;code;USER32.dll;_SetProcessRestrictionExemption@4
 SetProcessWindowStation;code;USER32.dll;_SetProcessWindowStation@4
 SetPropA;code;USER32.dll;_SetPropA@12
 SetPropW;code;USER32.dll;_SetPropW@12
@@ -607,6 +653,7 @@ SetUserObjectSecurity;code;USER32.dll;_SetUserObjectSecurity@12
 SetWinEventHook;code;USER32.dll;_SetWinEventHook@28
 SetWindowContextHelpId;code;USER32.dll;_SetWindowContextHelpId@8
 SetWindowDisplayAffinity;code;USER32.dll;_SetWindowDisplayAffinity@8
+SetWindowFeedbackSetting;code;USER32.dll;_SetWindowFeedbackSetting@20
 SetWindowLongA;code;USER32.dll;_SetWindowLongA@12
 SetWindowLongW;code;USER32.dll;_SetWindowLongW@12
 SetWindowPlacement;code;USER32.dll;_SetWindowPlacement@8
@@ -629,6 +676,7 @@ ShowWindowAsync;code;USER32.dll;_ShowWindowAsync@8
 ShutdownBlockReasonCreate;code;USER32.dll;_ShutdownBlockReasonCreate@8
 ShutdownBlockReasonDestroy;code;USER32.dll;_ShutdownBlockReasonDestroy@4
 ShutdownBlockReasonQuery;code;USER32.dll;_ShutdownBlockReasonQuery@12
+SkipPointerFrameMessages;code;USER32.dll;_SkipPointerFrameMessages@4
 SoundSentry;code;USER32.dll;_SoundSentry@0
 SubtractRect;code;USER32.dll;_SubtractRect@12
 SwapMouseButton;code;USER32.dll;_SwapMouseButton@4
@@ -662,7 +710,9 @@ UnregisterClassA;code;USER32.dll;_UnregisterClassA@8
 UnregisterClassW;code;USER32.dll;_UnregisterClassW@8
 UnregisterDeviceNotification;code;USER32.dll;_UnregisterDeviceNotification@4
 UnregisterHotKey;code;USER32.dll;_UnregisterHotKey@8
+UnregisterPointerInputTarget;code;USER32.dll;_UnregisterPointerInputTarget@8
 UnregisterPowerSettingNotification;code;USER32.dll;_UnregisterPowerSettingNotification@4
+UnregisterSuspendResumeNotification;code;USER32.dll;_UnregisterSuspendResumeNotification@4
 UnregisterTouchWindow;code;USER32.dll;_UnregisterTouchWindow@4
 UpdateLayeredWindow;code;USER32.dll;_UpdateLayeredWindow@36
 UpdateLayeredWindowIndirect;code;USER32.dll;_UpdateLayeredWindowIndirect@8

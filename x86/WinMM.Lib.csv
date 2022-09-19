@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+mciExecute;code;WINMM.dll;?mciExecute@@YGHPBD@Z (int __stdcall mciExecute(char const *))
 CloseDriver;code;WINMM.dll;_CloseDriver@12
 DefDriverProc;code;WINMM.dll;_DefDriverProc@20
 DriverCallback;code;WINMM.dll;_DriverCallback@28
@@ -34,7 +35,6 @@ joySetThreshold;code;WINMM.dll;_joySetThreshold@8
 mci32Message;code;WINMM.dll;_mci32Message@20
 mciDriverNotify;code;WINMM.dll;_mciDriverNotify@12
 mciDriverYield;code;WINMM.dll;_mciDriverYield@4
-mciExecute;code;WINMM.dll;_mciExecute@4
 mciFreeCommandResource;code;WINMM.dll;_mciFreeCommandResource@4
 mciGetCreatorTask;code;WINMM.dll;_mciGetCreatorTask@4
 mciGetDeviceIDA;code;WINMM.dll;_mciGetDeviceIDA@4

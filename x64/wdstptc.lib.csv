@@ -1,5 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
-WdsTptcDownload;code;WDSTPTC.dll;?WdsTptcDownload@@YAKKKPEBG000KKK@Z (unsigned long __cdecl WdsTptcDownload(unsigned long,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned long,unsigned long))
+WdsTptcDownload;code;WDSTPTC.dll;?WdsTptcDownload@@YAKKKPEBG000KKKH@Z (unsigned long __cdecl WdsTptcDownload(unsigned long,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned long,unsigned long,int))
+WdsTransportClientApplyImage;code;WDSTPTC.dll;?WdsTransportClientApplyImage@@YAKPEAU_WDS_TRANSPORTCLIENT_REQUEST@@PEAU_WDS_TRANSPORTCLIENT_IMAGE_APPLY@@@Z (unsigned long __cdecl WdsTransportClientApplyImage(struct _WDS_TRANSPORTCLIENT_REQUEST *,struct _WDS_TRANSPORTCLIENT_IMAGE_APPLY *))
+WdsTransportClientElSetLogFunction;code;WDSTPTC.dll;?WdsTransportClientElSetLogFunction@@YAXP6AXPEBGZZ@Z (void __cdecl WdsTransportClientElSetLogFunction(void (__cdecl*)(unsigned short const *,...)))
+WdsTransportClientElSetLogFunctionEx;code;WDSTPTC.dll;?WdsTransportClientElSetLogFunctionEx@@YAXP6AXKPEBGZZ@Z (void __cdecl WdsTransportClientElSetLogFunctionEx(void (__cdecl*)(unsigned long,unsigned short const *,...)))
+WdsTransportClientGetAggressiveBufferSize;code;WDSTPTC.dll;?WdsTransportClientGetAggressiveBufferSize@@YAKHPEAK@Z (unsigned long __cdecl WdsTransportClientGetAggressiveBufferSize(int,unsigned long *))
 WdsTransportClientRegisterTrace;code;WDSTPTC.dll;?WdsTransportClientRegisterTrace@@YAKP6AXPEBGPEAD@Z@Z (unsigned long __cdecl WdsTransportClientRegisterTrace(void (__cdecl*)(unsigned short const *,char *)))
 WdsTransportClientAddRefBuffer;code;WDSTPTC.dll;
 WdsTransportClientCancelSession;code;WDSTPTC.dll;

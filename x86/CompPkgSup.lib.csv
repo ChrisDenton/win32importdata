@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+InstantiateComponentFromPackage;code;CompPkgSup.DLL;_InstantiateComponentFromPackage@12

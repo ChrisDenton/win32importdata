@@ -57,6 +57,19 @@ AuditSetSecurity;code;ADVAPI32.dll;_AuditSetSecurity@8
 AuditSetSystemPolicy;code;ADVAPI32.dll;_AuditSetSystemPolicy@8
 BackupEventLogA;code;ADVAPI32.dll;_BackupEventLogA@8
 BackupEventLogW;code;ADVAPI32.dll;_BackupEventLogW@8
+BaseRegCloseKey;code;ADVAPI32.dll;_BaseRegCloseKey@4
+BaseRegCreateKey;code;ADVAPI32.dll;_BaseRegCreateKey@32
+BaseRegDeleteKeyEx;code;ADVAPI32.dll;_BaseRegDeleteKeyEx@16
+BaseRegDeleteValue;code;ADVAPI32.dll;_BaseRegDeleteValue@8
+BaseRegFlushKey;code;ADVAPI32.dll;_BaseRegFlushKey@4
+BaseRegGetVersion;code;ADVAPI32.dll;_BaseRegGetVersion@8
+BaseRegLoadKey;code;ADVAPI32.dll;_BaseRegLoadKey@12
+BaseRegOpenKey;code;ADVAPI32.dll;_BaseRegOpenKey@20
+BaseRegRestoreKey;code;ADVAPI32.dll;_BaseRegRestoreKey@12
+BaseRegSaveKeyEx;code;ADVAPI32.dll;_BaseRegSaveKeyEx@16
+BaseRegSetKeySecurity;code;ADVAPI32.dll;_BaseRegSetKeySecurity@12
+BaseRegSetValue;code;ADVAPI32.dll;_BaseRegSetValue@20
+BaseRegUnLoadKey;code;ADVAPI32.dll;_BaseRegUnLoadKey@8
 BuildExplicitAccessWithNameA;code;ADVAPI32.dll;_BuildExplicitAccessWithNameA@20
 BuildExplicitAccessWithNameW;code;ADVAPI32.dll;_BuildExplicitAccessWithNameW@20
 BuildImpersonateExplicitAccessWithNameA;code;ADVAPI32.dll;_BuildImpersonateExplicitAccessWithNameA@24
@@ -78,6 +91,7 @@ ChangeServiceConfig2A;code;ADVAPI32.dll;_ChangeServiceConfig2A@12
 ChangeServiceConfig2W;code;ADVAPI32.dll;_ChangeServiceConfig2W@12
 ChangeServiceConfigA;code;ADVAPI32.dll;_ChangeServiceConfigA@44
 ChangeServiceConfigW;code;ADVAPI32.dll;_ChangeServiceConfigW@44
+CheckForHiberboot;code;ADVAPI32.dll;_CheckForHiberboot@8
 CheckTokenMembership;code;ADVAPI32.dll;_CheckTokenMembership@12
 ClearEventLogA;code;ADVAPI32.dll;_ClearEventLogA@8
 ClearEventLogW;code;ADVAPI32.dll;_ClearEventLogW@8
@@ -96,6 +110,7 @@ ControlTraceA;code;ADVAPI32.dll;_ControlTraceA@20
 ControlTraceW;code;ADVAPI32.dll;_ControlTraceW@20
 ConvertAccessToSecurityDescriptorA;code;ADVAPI32.dll;_ConvertAccessToSecurityDescriptorA@20
 ConvertAccessToSecurityDescriptorW;code;ADVAPI32.dll;_ConvertAccessToSecurityDescriptorW@20
+ConvertSDToStringSDDomainW;code;ADVAPI32.dll;_ConvertSDToStringSDDomainW@28
 ConvertSDToStringSDRootDomainA;code;ADVAPI32.dll;_ConvertSDToStringSDRootDomainA@24
 ConvertSDToStringSDRootDomainW;code;ADVAPI32.dll;_ConvertSDToStringSDRootDomainW@24
 ConvertSecurityDescriptorToAccessA;code;ADVAPI32.dll;_ConvertSecurityDescriptorToAccessA@28
@@ -239,6 +254,7 @@ EncryptedFileKeyInfo;code;ADVAPI32.dll;_EncryptedFileKeyInfo@12
 EncryptionDisable;code;ADVAPI32.dll;_EncryptionDisable@8
 EnumDependentServicesA;code;ADVAPI32.dll;_EnumDependentServicesA@24
 EnumDependentServicesW;code;ADVAPI32.dll;_EnumDependentServicesW@24
+EnumDynamicTimeZoneInformation;code;ADVAPI32.dll;_EnumDynamicTimeZoneInformation@8
 EnumServiceGroupW;code;ADVAPI32.dll;_EnumServiceGroupW@36
 EnumServicesStatusA;code;ADVAPI32.dll;_EnumServicesStatusA@32
 EnumServicesStatusExA;code;ADVAPI32.dll;_EnumServicesStatusExA@40
@@ -249,6 +265,7 @@ EnumerateTraceGuidsEx;code;ADVAPI32.dll;_EnumerateTraceGuidsEx@24
 EqualDomainSid;code;ADVAPI32.dll;_EqualDomainSid@12
 EqualPrefixSid;code;ADVAPI32.dll;_EqualPrefixSid@8
 EqualSid;code;ADVAPI32.dll;_EqualSid@8
+EtwLogSysConfigExtension;code;ADVAPI32.dll;_EtwLogSysConfigExtension@8
 EventAccessControl;code;ADVAPI32.dll;_EventAccessControl@20
 EventAccessQuery;code;ADVAPI32.dll;_EventAccessQuery@12
 EventAccessRemove;code;ADVAPI32.dll;_EventAccessRemove@4
@@ -256,6 +273,7 @@ EventActivityIdControl;code;ADVAPI32.dll;_EventActivityIdControl@8
 EventEnabled;code;ADVAPI32.dll;_EventEnabled@12
 EventProviderEnabled;code;ADVAPI32.dll;_EventProviderEnabled@20
 EventRegister;code;ADVAPI32.dll;_EventRegister@16
+EventSetInformation;code;ADVAPI32.dll;_EventSetInformation@20
 EventUnregister;code;ADVAPI32.dll;_EventUnregister@8
 EventWrite;code;ADVAPI32.dll;_EventWrite@20
 EventWriteEndScenario;code;ADVAPI32.dll;_EventWriteEndScenario@20
@@ -282,6 +300,7 @@ GetAuditedPermissionsFromAclA;code;ADVAPI32.dll;_GetAuditedPermissionsFromAclA@1
 GetAuditedPermissionsFromAclW;code;ADVAPI32.dll;_GetAuditedPermissionsFromAclW@16
 GetCurrentHwProfileA;code;ADVAPI32.dll;_GetCurrentHwProfileA@4
 GetCurrentHwProfileW;code;ADVAPI32.dll;_GetCurrentHwProfileW@4
+GetDynamicTimeZoneInformationEffectiveYears;code;ADVAPI32.dll;_GetDynamicTimeZoneInformationEffectiveYears@12
 GetEffectiveRightsFromAclA;code;ADVAPI32.dll;_GetEffectiveRightsFromAclA@12
 GetEffectiveRightsFromAclW;code;ADVAPI32.dll;_GetEffectiveRightsFromAclW@12
 GetEncryptedFileMetadata;code;ADVAPI32.dll;_GetEncryptedFileMetadata@12
@@ -330,6 +349,7 @@ GetSidIdentifierAuthority;code;ADVAPI32.dll;_GetSidIdentifierAuthority@4
 GetSidLengthRequired;code;ADVAPI32.dll;_GetSidLengthRequired@4
 GetSidSubAuthority;code;ADVAPI32.dll;_GetSidSubAuthority@8
 GetSidSubAuthorityCount;code;ADVAPI32.dll;_GetSidSubAuthorityCount@4
+GetStringConditionFromBinary;code;ADVAPI32.dll;_GetStringConditionFromBinary@16
 GetThreadWaitChain;code;ADVAPI32.dll;_GetThreadWaitChain@28
 GetTokenInformation;code;ADVAPI32.dll;_GetTokenInformation@20
 GetTraceEnableFlags;code;ADVAPI32.dll;_GetTraceEnableFlags@8
@@ -405,6 +425,7 @@ LsaEnumeratePrivilegesOfAccount;code;ADVAPI32.dll;_LsaEnumeratePrivilegesOfAccou
 LsaEnumerateTrustedDomains;code;ADVAPI32.dll;_LsaEnumerateTrustedDomains@20
 LsaEnumerateTrustedDomainsEx;code;ADVAPI32.dll;_LsaEnumerateTrustedDomainsEx@20
 LsaFreeMemory;code;ADVAPI32.dll;_LsaFreeMemory@4
+LsaGetAppliedCAPIDs;code;ADVAPI32.dll;_LsaGetAppliedCAPIDs@12
 LsaGetQuotasForAccount;code;ADVAPI32.dll;_LsaGetQuotasForAccount@8
 LsaGetRemoteUserName;code;ADVAPI32.dll;_LsaGetRemoteUserName@12
 LsaGetSystemAccessAccount;code;ADVAPI32.dll;_LsaGetSystemAccessAccount@8
@@ -418,6 +439,7 @@ LsaLookupNames;code;ADVAPI32.dll;_LsaLookupNames@20
 LsaLookupPrivilegeDisplayName;code;ADVAPI32.dll;_LsaLookupPrivilegeDisplayName@16
 LsaLookupPrivilegeName;code;ADVAPI32.dll;_LsaLookupPrivilegeName@12
 LsaLookupPrivilegeValue;code;ADVAPI32.dll;_LsaLookupPrivilegeValue@12
+LsaLookupSids2;code;ADVAPI32.dll;_LsaLookupSids2@24
 LsaLookupSids;code;ADVAPI32.dll;_LsaLookupSids@20
 LsaManageSidNameMapping;code;ADVAPI32.dll;_LsaManageSidNameMapping@12
 LsaNtStatusToWinError;code;ADVAPI32.dll;_LsaNtStatusToWinError@4
@@ -427,6 +449,7 @@ LsaOpenPolicySce;code;ADVAPI32.dll;_LsaOpenPolicySce@16
 LsaOpenSecret;code;ADVAPI32.dll;_LsaOpenSecret@16
 LsaOpenTrustedDomain;code;ADVAPI32.dll;_LsaOpenTrustedDomain@16
 LsaOpenTrustedDomainByName;code;ADVAPI32.dll;_LsaOpenTrustedDomainByName@16
+LsaQueryCAPs;code;ADVAPI32.dll;_LsaQueryCAPs@16
 LsaQueryDomainInformationPolicy;code;ADVAPI32.dll;_LsaQueryDomainInformationPolicy@12
 LsaQueryForestTrustInformation;code;ADVAPI32.dll;_LsaQueryForestTrustInformation@12
 LsaQueryInfoTrustedDomain;code;ADVAPI32.dll;_LsaQueryInfoTrustedDomain@12
@@ -438,6 +461,7 @@ LsaQueryTrustedDomainInfoByName;code;ADVAPI32.dll;_LsaQueryTrustedDomainInfoByNa
 LsaRemoveAccountRights;code;ADVAPI32.dll;_LsaRemoveAccountRights@20
 LsaRemovePrivilegesFromAccount;code;ADVAPI32.dll;_LsaRemovePrivilegesFromAccount@12
 LsaRetrievePrivateData;code;ADVAPI32.dll;_LsaRetrievePrivateData@12
+LsaSetCAPs;code;ADVAPI32.dll;_LsaSetCAPs@12
 LsaSetDomainInformationPolicy;code;ADVAPI32.dll;_LsaSetDomainInformationPolicy@12
 LsaSetForestTrustInformation;code;ADVAPI32.dll;_LsaSetForestTrustInformation@20
 LsaSetInformationPolicy;code;ADVAPI32.dll;_LsaSetInformationPolicy@12
@@ -449,6 +473,7 @@ LsaSetSystemAccessAccount;code;ADVAPI32.dll;_LsaSetSystemAccessAccount@8
 LsaSetTrustedDomainInfoByName;code;ADVAPI32.dll;_LsaSetTrustedDomainInfoByName@16
 LsaSetTrustedDomainInformation;code;ADVAPI32.dll;_LsaSetTrustedDomainInformation@16
 LsaStorePrivateData;code;ADVAPI32.dll;_LsaStorePrivateData@12
+MIDL_user_free_Ext;code;ADVAPI32.dll;_MIDL_user_free_Ext@4
 MSChapSrvChangePassword2;code;ADVAPI32.dll;_MSChapSrvChangePassword2@28
 MSChapSrvChangePassword;code;ADVAPI32.dll;_MSChapSrvChangePassword@28
 MakeAbsoluteSD2;code;ADVAPI32.dll;_MakeAbsoluteSD2@8
@@ -483,13 +508,30 @@ OpenThreadToken;code;ADVAPI32.dll;_OpenThreadToken@16
 OpenThreadWaitChainSession;code;ADVAPI32.dll;_OpenThreadWaitChainSession@8
 OpenTraceA;code;ADVAPI32.dll;_OpenTraceA@4
 OpenTraceW;code;ADVAPI32.dll;_OpenTraceW@4
+OperationEnd;code;ADVAPI32.dll;_OperationEnd@4
+OperationStart;code;ADVAPI32.dll;_OperationStart@4
+PerfAddCounters;code;ADVAPI32.dll;_PerfAddCounters@12
+PerfCloseQueryHandle;code;ADVAPI32.dll;_PerfCloseQueryHandle@4
 PerfCreateInstance;code;ADVAPI32.dll;_PerfCreateInstance@16
 PerfDecrementULongCounterValue;code;ADVAPI32.dll;_PerfDecrementULongCounterValue@16
 PerfDecrementULongLongCounterValue;code;ADVAPI32.dll;_PerfDecrementULongLongCounterValue@20
+PerfDeleteCounters;code;ADVAPI32.dll;_PerfDeleteCounters@12
 PerfDeleteInstance;code;ADVAPI32.dll;_PerfDeleteInstance@8
+PerfEnumerateCounterSet;code;ADVAPI32.dll;_PerfEnumerateCounterSet@16
+PerfEnumerateCounterSetInstances;code;ADVAPI32.dll;_PerfEnumerateCounterSetInstances@20
 PerfIncrementULongCounterValue;code;ADVAPI32.dll;_PerfIncrementULongCounterValue@16
 PerfIncrementULongLongCounterValue;code;ADVAPI32.dll;_PerfIncrementULongLongCounterValue@20
+PerfOpenQueryHandle;code;ADVAPI32.dll;_PerfOpenQueryHandle@8
+PerfQueryCounterData;code;ADVAPI32.dll;_PerfQueryCounterData@16
+PerfQueryCounterInfo;code;ADVAPI32.dll;_PerfQueryCounterInfo@16
+PerfQueryCounterSetRegistrationInfo;code;ADVAPI32.dll;_PerfQueryCounterSetRegistrationInfo@28
 PerfQueryInstance;code;ADVAPI32.dll;_PerfQueryInstance@16
+PerfRegCloseKey;code;ADVAPI32.dll;_PerfRegCloseKey@4
+PerfRegEnumKey;code;ADVAPI32.dll;_PerfRegEnumKey@24
+PerfRegEnumValue;code;ADVAPI32.dll;_PerfRegEnumValue@32
+PerfRegQueryInfoKey;code;ADVAPI32.dll;_PerfRegQueryInfoKey@44
+PerfRegQueryValue;code;ADVAPI32.dll;_PerfRegQueryValue@28
+PerfRegSetValue;code;ADVAPI32.dll;_PerfRegSetValue@24
 PerfSetCounterRefValue;code;ADVAPI32.dll;_PerfSetCounterRefValue@16
 PerfSetCounterSetInfo;code;ADVAPI32.dll;_PerfSetCounterSetInfo@12
 PerfSetULongCounterValue;code;ADVAPI32.dll;_PerfSetULongCounterValue@16
@@ -509,6 +551,7 @@ QueryServiceConfig2A;code;ADVAPI32.dll;_QueryServiceConfig2A@20
 QueryServiceConfig2W;code;ADVAPI32.dll;_QueryServiceConfig2W@20
 QueryServiceConfigA;code;ADVAPI32.dll;_QueryServiceConfigA@16
 QueryServiceConfigW;code;ADVAPI32.dll;_QueryServiceConfigW@16
+QueryServiceDynamicInformation;code;ADVAPI32.dll;_QueryServiceDynamicInformation@12
 QueryServiceLockStatusA;code;ADVAPI32.dll;_QueryServiceLockStatusA@16
 QueryServiceLockStatusW;code;ADVAPI32.dll;_QueryServiceLockStatusW@16
 QueryServiceObjectSecurity;code;ADVAPI32.dll;_QueryServiceObjectSecurity@20
@@ -611,11 +654,16 @@ RegisterServiceCtrlHandlerW;code;ADVAPI32.dll;_RegisterServiceCtrlHandlerW@8
 RegisterTraceGuidsA;code;ADVAPI32.dll;_RegisterTraceGuidsA@32
 RegisterTraceGuidsW;code;ADVAPI32.dll;_RegisterTraceGuidsW@32
 RegisterWaitChainCOMCallback;code;ADVAPI32.dll;_RegisterWaitChainCOMCallback@8
+RemoteRegEnumKeyWrapper;code;ADVAPI32.dll;_RemoteRegEnumKeyWrapper@20
+RemoteRegEnumValueWrapper;code;ADVAPI32.dll;_RemoteRegEnumValueWrapper@28
+RemoteRegQueryInfoKeyWrapper;code;ADVAPI32.dll;_RemoteRegQueryInfoKeyWrapper@40
+RemoteRegQueryValueWrapper;code;ADVAPI32.dll;_RemoteRegQueryValueWrapper@24
 RemoveTraceCallback;code;ADVAPI32.dll;_RemoveTraceCallback@4
 RemoveUsersFromEncryptedFile;code;ADVAPI32.dll;_RemoveUsersFromEncryptedFile@8
 ReportEventA;code;ADVAPI32.dll;_ReportEventA@36
 ReportEventW;code;ADVAPI32.dll;_ReportEventW@36
 RevertToSelf;code;ADVAPI32.dll;_RevertToSelf@0
+SafeBaseRegGetKeySecurity;code;ADVAPI32.dll;_SafeBaseRegGetKeySecurity@16
 SaferCloseLevel;code;ADVAPI32.dll;_SaferCloseLevel@4
 SaferComputeTokenFromLevel;code;ADVAPI32.dll;_SaferComputeTokenFromLevel@20
 SaferCreateLevel;code;ADVAPI32.dll;_SaferCreateLevel@20
@@ -712,6 +760,7 @@ TraceEvent;code;ADVAPI32.dll;_TraceEvent@12
 TraceEventInstance;code;ADVAPI32.dll;_TraceEventInstance@20
 TraceMessage;code;ADVAPI32.dll;_TraceMessage
 TraceMessageVa;code;ADVAPI32.dll;_TraceMessageVa@24
+TraceQueryInformation;code;ADVAPI32.dll;_TraceQueryInformation@24
 TraceSetInformation;code;ADVAPI32.dll;_TraceSetInformation@20
 TreeResetNamedSecurityInfoA;code;ADVAPI32.dll;_TreeResetNamedSecurityInfoA@44
 TreeResetNamedSecurityInfoW;code;ADVAPI32.dll;_TreeResetNamedSecurityInfoW@44
@@ -726,4 +775,5 @@ UpdateTraceA;code;ADVAPI32.dll;_UpdateTraceA@16
 UpdateTraceW;code;ADVAPI32.dll;_UpdateTraceW@16
 UsePinForEncryptedFilesA;code;ADVAPI32.dll;_UsePinForEncryptedFilesA@12
 UsePinForEncryptedFilesW;code;ADVAPI32.dll;_UsePinForEncryptedFilesW@12
+WaitServiceState;code;ADVAPI32.dll;_WaitServiceState@16
 WriteEncryptedFileRaw;code;ADVAPI32.dll;_WriteEncryptedFileRaw@12

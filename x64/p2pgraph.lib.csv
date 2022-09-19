@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+PeerGraphForceStopPresencePrivate;code;P2PGRAPH.dll;?PeerGraphForceStopPresencePrivate@@YAJPEAXH@Z (long __cdecl PeerGraphForceStopPresencePrivate(void *,int))
 pMemoryHelper;data;P2PGRAPH.dll;?pMemoryHelper@@3PEAU_DEBUG_MEMORY_CONTROL_BLOCK@@EA (struct _DEBUG_MEMORY_CONTROL_BLOCK * pMemoryHelper)
 PeerGraphAddRecord;code;P2PGRAPH.dll;
 PeerGraphClose;code;P2PGRAPH.dll;
@@ -33,6 +34,7 @@ PeerGraphSetPresence;code;P2PGRAPH.dll;
 PeerGraphSetProperties;code;P2PGRAPH.dll;
 PeerGraphShutdown;code;P2PGRAPH.dll;
 PeerGraphStartup;code;P2PGRAPH.dll;
+PeerGraphSuspendTimers;code;P2PGRAPH.dll;
 PeerGraphUniversalTimeToPeerTime;code;P2PGRAPH.dll;
 PeerGraphUnregisterEvent;code;P2PGRAPH.dll;
 PeerGraphUpdateRecord;code;P2PGRAPH.dll;

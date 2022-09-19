@@ -1,8 +1,11 @@
 Name;Type;DLL;SymbolOrOrdinal
+AccNotifyTouchInteraction;code;OLEACC.dll;_AccNotifyTouchInteraction@16
+AccSetRunningUtilityState;code;OLEACC.dll;_AccSetRunningUtilityState@12
 AccessibleChildren;code;OLEACC.dll;_AccessibleChildren@20
 AccessibleObjectFromEvent;code;OLEACC.dll;_AccessibleObjectFromEvent@20
 AccessibleObjectFromPoint;code;OLEACC.dll;_AccessibleObjectFromPoint@16
 AccessibleObjectFromWindow;code;OLEACC.dll;_AccessibleObjectFromWindow@16
+AccessibleObjectFromWindowTimeout;code;OLEACC.dll;_AccessibleObjectFromWindowTimeout@24
 CreateStdAccessibleObject;code;OLEACC.dll;_CreateStdAccessibleObject@16
 CreateStdAccessibleProxyA;code;OLEACC.dll;_CreateStdAccessibleProxyA@20
 CreateStdAccessibleProxyW;code;OLEACC.dll;_CreateStdAccessibleProxyW@20

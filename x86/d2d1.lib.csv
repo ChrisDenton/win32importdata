@@ -1,6 +1,13 @@
 Name;Type;DLL;SymbolOrOrdinal
+_D2D1ComputeMaximumScaleFactor@4;code;d2d1.dll;12
+_D2D1ConvertColorSpace@12;code;d2d1.dll;6
+_D2D1CreateDevice@12;code;d2d1.dll;7
+_D2D1CreateDeviceContext@12;code;d2d1.dll;8
 _D2D1CreateFactory@16;code;d2d1.dll;1
 _D2D1InvertMatrix@4;code;d2d1.dll;5
 _D2D1IsMatrixInvertible@4;code;d2d1.dll;4
 _D2D1MakeRotateMatrix@16;code;d2d1.dll;2
 _D2D1MakeSkewMatrix@20;code;d2d1.dll;3
+_D2D1SinCos@12;code;d2d1.dll;9
+_D2D1Tan@4;code;d2d1.dll;10
+_D2D1Vec3Length@12;code;d2d1.dll;11

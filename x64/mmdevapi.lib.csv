@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+AETraceOutputDebugString;code;MMDevAPI.DLL;13
+ActivateAudioInterfaceAsync;code;MMDevAPI.DLL;17
+CleanupDeviceAPI;code;MMDevAPI.DLL;2
+FlushDeviceTopologyCache;code;MMDevAPI.DLL;15
+GenerateMediaEvent;code;MMDevAPI.DLL;12
+GetClassFromEndpointId;code;MMDevAPI.DLL;7
+GetEndpointGuidFromEndpointId;code;MMDevAPI.DLL;8
+GetEndpointIdFromDeviceInterfaceId;code;MMDevAPI.DLL;18
+GetSessionIdFromEndpointId;code;MMDevAPI.DLL;9
+InitializeDeviceAPI;code;MMDevAPI.DLL;3
+MMDeviceCreateRegistryPropertyStore;code;MMDevAPI.DLL;4
+MMDeviceGetDeviceEnumerator;code;MMDevAPI.DLL;5
+MMDeviceGetEndpointManager;code;MMDevAPI.DLL;6
+MMDeviceGetPolicyConfig;code;MMDevAPI.DLL;14
+RegisterForMediaCallback;code;MMDevAPI.DLL;10
+UnregisterMediaCallback;code;MMDevAPI.DLL;11

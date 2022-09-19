@@ -1,5 +1,4 @@
 Name;Type;DLL;SymbolOrOrdinal
-MFCreateDXSurfaceBuffer;code;EVR.dll;_MFCreateDXSurfaceBuffer@16
 MFCreateVideoMixer;code;EVR.dll;_MFCreateVideoMixer@16
 MFCreateVideoMixerAndPresenter;code;EVR.dll;_MFCreateVideoMixerAndPresenter@24
 MFCreateVideoOTA;code;EVR.dll;_MFCreateVideoOTA@8

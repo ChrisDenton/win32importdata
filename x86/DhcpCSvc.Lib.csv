@@ -15,6 +15,7 @@ DhcpEnumInterfaces;code;dhcpcsvc.DLL;_DhcpEnumInterfaces@4
 DhcpFallbackRefreshParams;code;dhcpcsvc.DLL;_DhcpFallbackRefreshParams@4
 DhcpFreeEnumeratedInterfaces;code;dhcpcsvc.DLL;_DhcpFreeEnumeratedInterfaces@4
 DhcpFreeLeaseInfo;code;dhcpcsvc.DLL;_DhcpFreeLeaseInfo@4
+DhcpFreeLeaseInfoArray;code;dhcpcsvc.DLL;_DhcpFreeLeaseInfoArray@8
 DhcpFreeMem;code;dhcpcsvc.DLL;_DhcpFreeMem@4
 DhcpGetClassId;code;dhcpcsvc.DLL;_DhcpGetClassId@8
 DhcpGetClientId;code;dhcpcsvc.DLL;_DhcpGetClientId@8
@@ -36,6 +37,7 @@ DhcpNotifyMediaReconnected;code;dhcpcsvc.DLL;_DhcpNotifyMediaReconnected@4
 DhcpOpenGlobalEvent;code;dhcpcsvc.DLL;_DhcpOpenGlobalEvent@0
 DhcpPersistentRequestParams;code;dhcpcsvc.DLL;_DhcpPersistentRequestParams@28
 DhcpQueryLeaseInfo;code;dhcpcsvc.DLL;_DhcpQueryLeaseInfo@8
+DhcpQueryLeaseInfoArray;code;dhcpcsvc.DLL;_DhcpQueryLeaseInfoArray@12
 DhcpQueryLeaseInfoEx;code;dhcpcsvc.DLL;_DhcpQueryLeaseInfoEx@12
 DhcpRegisterConnectionStateNotification;code;dhcpcsvc.DLL;_DhcpRegisterConnectionStateNotification@12
 DhcpRegisterOptions;code;dhcpcsvc.DLL;_DhcpRegisterOptions@16

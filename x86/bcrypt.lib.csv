@@ -5,6 +5,7 @@ BCryptConfigureContext;code;bcrypt.dll;_BCryptConfigureContext@12
 BCryptConfigureContextFunction;code;bcrypt.dll;_BCryptConfigureContextFunction@20
 BCryptCreateContext;code;bcrypt.dll;_BCryptCreateContext@12
 BCryptCreateHash;code;bcrypt.dll;_BCryptCreateHash@28
+BCryptCreateMultiHash;code;bcrypt.dll;_BCryptCreateMultiHash@32
 BCryptDecrypt;code;bcrypt.dll;_BCryptDecrypt@40
 BCryptDeleteContext;code;bcrypt.dll;_BCryptDeleteContext@8
 BCryptDeriveKey;code;bcrypt.dll;_BCryptDeriveKey@28
@@ -34,7 +35,9 @@ BCryptGetProperty;code;bcrypt.dll;_BCryptGetProperty@24
 BCryptHashData;code;bcrypt.dll;_BCryptHashData@16
 BCryptImportKey;code;bcrypt.dll;_BCryptImportKey@36
 BCryptImportKeyPair;code;bcrypt.dll;_BCryptImportKeyPair@28
+BCryptKeyDerivation;code;bcrypt.dll;_BCryptKeyDerivation@24
 BCryptOpenAlgorithmProvider;code;bcrypt.dll;_BCryptOpenAlgorithmProvider@16
+BCryptProcessMultiOperations;code;bcrypt.dll;_BCryptProcessMultiOperations@20
 BCryptQueryContextConfiguration;code;bcrypt.dll;_BCryptQueryContextConfiguration@16
 BCryptQueryContextFunctionConfiguration;code;bcrypt.dll;_BCryptQueryContextFunctionConfiguration@24
 BCryptQueryContextFunctionProperty;code;bcrypt.dll;_BCryptQueryContextFunctionProperty@28

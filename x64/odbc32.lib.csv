@@ -43,6 +43,7 @@ SQLColumnPrivilegesW;code;ODBC32.dll;156
 SQLColumns;code;ODBC32.dll;40
 SQLColumnsA;code;ODBC32.dll;240
 SQLColumnsW;code;ODBC32.dll;140
+SQLCompleteAsync;code;ODBC32.dll;
 SQLConnect;code;ODBC32.dll;7
 SQLConnectA;code;ODBC32.dll;207
 SQLConnectW;code;ODBC32.dll;107

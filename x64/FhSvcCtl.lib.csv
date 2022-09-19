@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+DllMain;code;fhsvcctl.dll;
+FhQueryConfiguredUsersCount;code;fhsvcctl.dll;
+FhServiceBlockBackup;code;fhsvcctl.dll;
+FhServiceClearProtectionState;code;fhsvcctl.dll;
+FhServiceClosePipe;code;fhsvcctl.dll;
+FhServiceEnterMaintenanceMode;code;fhsvcctl.dll;
+FhServiceExitMaintenanceMode;code;fhsvcctl.dll;
+FhServiceMigrationFinished;code;fhsvcctl.dll;
+FhServiceMigrationStarting;code;fhsvcctl.dll;
+FhServiceOpenPipe;code;fhsvcctl.dll;
+FhServiceReloadConfiguration;code;fhsvcctl.dll;
+FhServiceStartBackup;code;fhsvcctl.dll;
+FhServiceStopBackup;code;fhsvcctl.dll;
+FhServiceUnblockBackup;code;fhsvcctl.dll;

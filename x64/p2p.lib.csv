@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+PeerGroupHandlePowerEvent;code;P2P.dll;?PeerGroupHandlePowerEvent@@YAJH@Z (long __cdecl PeerGroupHandlePowerEvent(int))
 PeerCollabAddContact;code;P2P.dll;
 PeerCollabAsyncInviteContact;code;P2P.dll;
 PeerCollabAsyncInviteEndpoint;code;P2P.dll;

@@ -7,7 +7,16 @@ PxeDhcpGetOptionValue;code;WDSPXE.dll;_PxeDhcpGetOptionValue@24
 PxeDhcpGetVendorOptionValue;code;WDSPXE.dll;_PxeDhcpGetVendorOptionValue@24
 PxeDhcpInitialize;code;WDSPXE.dll;_PxeDhcpInitialize@20
 PxeDhcpIsValid;code;WDSPXE.dll;_PxeDhcpIsValid@16
+PxeDhcpv6AppendOption;code;WDSPXE.dll;_PxeDhcpv6AppendOption@24
+PxeDhcpv6AppendOptionRaw;code;WDSPXE.dll;_PxeDhcpv6AppendOptionRaw@20
+PxeDhcpv6CreateRelayRepl;code;WDSPXE.dll;_PxeDhcpv6CreateRelayRepl@28
+PxeDhcpv6GetOptionValue;code;WDSPXE.dll;_PxeDhcpv6GetOptionValue@24
+PxeDhcpv6GetVendorOptionValue;code;WDSPXE.dll;_PxeDhcpv6GetVendorOptionValue@28
+PxeDhcpv6Initialize;code;WDSPXE.dll;_PxeDhcpv6Initialize@20
+PxeDhcpv6IsValid;code;WDSPXE.dll;_PxeDhcpv6IsValid@16
+PxeDhcpv6ParseRelayForw;code;WDSPXE.dll;_PxeDhcpv6ParseRelayForw@28
 PxeGetServerInfo;code;WDSPXE.dll;_PxeGetServerInfo@12
+PxeGetServerInfoEx;code;WDSPXE.dll;_PxeGetServerInfoEx@16
 PxePacketAllocate;code;WDSPXE.dll;_PxePacketAllocate@12
 PxePacketFree;code;WDSPXE.dll;_PxePacketFree@12
 PxeProviderEnumClose;code;WDSPXE.dll;_PxeProviderEnumClose@4

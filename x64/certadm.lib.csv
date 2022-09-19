@@ -4,8 +4,12 @@ Name;Type;DLL;SymbolOrOrdinal
 ?GetToken@@YAJPEAGPEBU_CERT_CONTEXT@@PEAPEAX@Z (long __cdecl GetToken(unsigned short *,struct _CERT_CONTEXT const *,void * *));code;certadm.dll;216
 ?GetUserPrincipalName@@YAJPEAPEAG@Z (long __cdecl GetUserPrincipalName(unsigned short * *));code;certadm.dll;217
 ?VerifyCertContextWithNtAuth@@YAJPEBU_CERT_CONTEXT@@@Z (long __cdecl VerifyCertContextWithNtAuth(struct _CERT_CONTEXT const *));code;certadm.dll;215
+?myBackupDB@@YAJPEBGK0PEAU_DBBACKUPPROGRESS@@@Z (long __cdecl myBackupDB(unsigned short const *,unsigned long,unsigned short const *,struct _DBBACKUPPROGRESS *));code;certadm.dll;218
+?myCertServerExportPFX@@YAJPEBG00HHHKPEAPEAG@Z (long __cdecl myCertServerExportPFX(unsigned short const *,unsigned short const *,unsigned short const *,int,int,int,unsigned long,unsigned short * *));code;certadm.dll;220
+?myCertServerImportPFX@@YAJPEBG0HPEAPEAG1PEAPEBU_CERT_CONTEXT@@@Z (long __cdecl myCertServerImportPFX(unsigned short const *,unsigned short const *,int,unsigned short * *,unsigned short * *,struct _CERT_CONTEXT const * *));code;certadm.dll;221
 ?myGetColumnDisplayName@@YAJPEBGPEAPEBG@Z (long __cdecl myGetColumnDisplayName(unsigned short const *,unsigned short const * *));code;certadm.dll;210
 ?myGetColumnName@@YAJKHPEAPEBG@Z (long __cdecl myGetColumnName(unsigned long,int,unsigned short const * *));code;certadm.dll;211
+?myRestoreDB@@YAJPEBGK0000PEAU_DBBACKUPPROGRESS@@@Z (long __cdecl myRestoreDB(unsigned short const *,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,struct _DBBACKUPPROGRESS *));code;certadm.dll;219
 CertSrvBackupClose;code;certadm.dll;5
 CertSrvBackupEnd;code;certadm.dll;6
 CertSrvBackupFree;code;certadm.dll;15

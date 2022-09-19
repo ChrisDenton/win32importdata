@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+mciExecute;code;WINMM.dll;?mciExecute@@YAHPEBD@Z (int __cdecl mciExecute(char const *))
 CloseDriver;code;WINMM.dll;
 DefDriverProc;code;WINMM.dll;
 DriverCallback;code;WINMM.dll;
@@ -28,7 +29,6 @@ joySetCapture;code;WINMM.dll;
 joySetThreshold;code;WINMM.dll;
 mciDriverNotify;code;WINMM.dll;
 mciDriverYield;code;WINMM.dll;
-mciExecute;code;WINMM.dll;
 mciFreeCommandResource;code;WINMM.dll;
 mciGetCreatorTask;code;WINMM.dll;
 mciGetDeviceIDA;code;WINMM.dll;

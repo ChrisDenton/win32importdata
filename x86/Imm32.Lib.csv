@@ -10,6 +10,7 @@ ImmDestroyContext;code;IMM32.dll;_ImmDestroyContext@4
 ImmDestroyIMCC;code;IMM32.dll;_ImmDestroyIMCC@4
 ImmDestroySoftKeyboard;code;IMM32.dll;_ImmDestroySoftKeyboard@4
 ImmDisableIME;code;IMM32.dll;_ImmDisableIME@4
+ImmDisableLegacyIME;code;IMM32.dll;_ImmDisableLegacyIME@0
 ImmDisableTextFrameService;code;IMM32.dll;_ImmDisableTextFrameService@4
 ImmEnumInputContext;code;IMM32.dll;_ImmEnumInputContext@12
 ImmEnumRegisterWordA;code;IMM32.dll;_ImmEnumRegisterWordA@24

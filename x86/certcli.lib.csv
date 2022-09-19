@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+?myGetErrorMessageText@@YGPAGJK@Z (unsigned short * __stdcall myGetErrorMessageText(long,unsigned long));code;certcli.dll;207

@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 DrtFlushCache;code;drt.dll;?DrtFlushCache@@YAJPEAX@Z (long __cdecl DrtFlushCache(void *))
 DrtGetCacheStatsEx;code;drt.dll;?DrtGetCacheStatsEx@@YAJPEAXPEAU_drtCacheStatsExTag@@@Z (long __cdecl DrtGetCacheStatsEx(void *,struct _drtCacheStatsExTag *))
+DrtHandlePowerEvent;code;drt.dll;?DrtHandlePowerEvent@@YAJPEAXH@Z (long __cdecl DrtHandlePowerEvent(void *,int))
 DrtPingPeer;code;drt.dll;?DrtPingPeer@@YAJPEAXPEAUsockaddr_in6@@HKPEAJ1PEAK3PEAUdrt_data_tag@@@Z (long __cdecl DrtPingPeer(void *,struct sockaddr_in6 *,int,unsigned long,long *,struct sockaddr_in6 *,unsigned long *,unsigned long *,struct drt_data_tag *))
 DrtStartPartitionDetection;code;drt.dll;?DrtStartPartitionDetection@@YAJPEAX@Z (long __cdecl DrtStartPartitionDetection(void *))
 DrtClose;code;drt.dll;

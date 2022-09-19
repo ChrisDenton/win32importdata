@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+DCompositionCreateDevice;code;dcomp.dll;
+DCompositionCreateDevice2;code;dcomp.dll;1017
+DCompositionCreateSurfaceHandle;code;dcomp.dll;

@@ -1,6 +1,7 @@
 Name;Type;DLL;SymbolOrOrdinal
 EapHostPeerConfigBlob2Xml;code;eappcfg.dll;
 EapHostPeerConfigXml2Blob;code;eappcfg.dll;
+EapHostPeerCreateMethodConfiguration;code;eappcfg.dll;
 EapHostPeerCredentialsXml2Blob;code;eappcfg.dll;
 EapHostPeerFreeErrorMemory;code;eappcfg.dll;
 EapHostPeerFreeMemory;code;eappcfg.dll;

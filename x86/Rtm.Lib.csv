@@ -33,9 +33,11 @@ RtmBlockConvertRoutesToStatic;code;rtm.dll;_RtmBlockConvertRoutesToStatic@12
 RtmBlockDeleteRoutes;code;rtm.dll;_RtmBlockDeleteRoutes@12
 RtmBlockMethods;code;rtm.dll;_RtmBlockMethods@16
 RtmBlockSetRouteEnable;code;rtm.dll;_RtmBlockSetRouteEnable@16
+RtmCleanupInstances;code;rtm.dll;_RtmCleanupInstances@0
 RtmCloseEnumerationHandle;code;rtm.dll;_RtmCloseEnumerationHandle@4
 RtmConvertIpv6AddressAndLengthToNetAddress;code;rtm.dll;_RtmConvertIpv6AddressAndLengthToNetAddress@28
 RtmConvertNetAddressToIpv6AddressAndLength;code;rtm.dll;_RtmConvertNetAddressToIpv6AddressAndLength@16
+RtmCreateBestRouteEnum;code;rtm.dll;_RtmCreateBestRouteEnum@16
 RtmCreateDestEnum;code;rtm.dll;_RtmCreateDestEnum@24
 RtmCreateEnumerationHandle;code;rtm.dll;_RtmCreateEnumerationHandle@12
 RtmCreateNextHopEnum;code;rtm.dll;_RtmCreateNextHopEnum@16
@@ -61,6 +63,7 @@ RtmGetChangedDests;code;rtm.dll;_RtmGetChangedDests@16
 RtmGetDestInfo;code;rtm.dll;_RtmGetDestInfo@20
 RtmGetEntityInfo;code;rtm.dll;_RtmGetEntityInfo@12
 RtmGetEntityMethods;code;rtm.dll;_RtmGetEntityMethods@16
+RtmGetEnumBestRoutes;code;rtm.dll;_RtmGetEnumBestRoutes@16
 RtmGetEnumDests;code;rtm.dll;_RtmGetEnumDests@16
 RtmGetEnumNextHops;code;rtm.dll;_RtmGetEnumNextHops@16
 RtmGetEnumRoutes;code;rtm.dll;_RtmGetEnumRoutes@16

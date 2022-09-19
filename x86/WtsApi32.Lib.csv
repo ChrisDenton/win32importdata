@@ -5,6 +5,7 @@ WTSConnectSessionW;code;WTSAPI32.dll;_WTSConnectSessionW@16
 WTSCreateListenerA;code;WTSAPI32.dll;_WTSCreateListenerA@24
 WTSCreateListenerW;code;WTSAPI32.dll;_WTSCreateListenerW@24
 WTSDisconnectSession;code;WTSAPI32.dll;_WTSDisconnectSession@12
+WTSEnableChildSessions;code;WTSAPI32.dll;_WTSEnableChildSessions@4
 WTSEnumerateListenersA;code;WTSAPI32.dll;_WTSEnumerateListenersA@20
 WTSEnumerateListenersW;code;WTSAPI32.dll;_WTSEnumerateListenersW@20
 WTSEnumerateProcessesA;code;WTSAPI32.dll;_WTSEnumerateProcessesA@20
@@ -20,8 +21,10 @@ WTSEnumerateSessionsW;code;WTSAPI32.dll;_WTSEnumerateSessionsW@20
 WTSFreeMemory;code;WTSAPI32.dll;_WTSFreeMemory@4
 WTSFreeMemoryExA;code;WTSAPI32.dll;_WTSFreeMemoryExA@12
 WTSFreeMemoryExW;code;WTSAPI32.dll;_WTSFreeMemoryExW@12
+WTSGetChildSessionId;code;WTSAPI32.dll;_WTSGetChildSessionId@4
 WTSGetListenerSecurityA;code;WTSAPI32.dll;_WTSGetListenerSecurityA@32
 WTSGetListenerSecurityW;code;WTSAPI32.dll;_WTSGetListenerSecurityW@32
+WTSIsChildSessionsEnabled;code;WTSAPI32.dll;_WTSIsChildSessionsEnabled@4
 WTSLogoffSession;code;WTSAPI32.dll;_WTSLogoffSession@12
 WTSOpenServerA;code;WTSAPI32.dll;_WTSOpenServerA@4
 WTSOpenServerExA;code;WTSAPI32.dll;_WTSOpenServerExA@4
@@ -40,6 +43,7 @@ WTSSendMessageA;code;WTSAPI32.dll;_WTSSendMessageA@40
 WTSSendMessageW;code;WTSAPI32.dll;_WTSSendMessageW@40
 WTSSetListenerSecurityA;code;WTSAPI32.dll;_WTSSetListenerSecurityA@24
 WTSSetListenerSecurityW;code;WTSAPI32.dll;_WTSSetListenerSecurityW@24
+WTSSetRenderHint;code;WTSAPI32.dll;_WTSSetRenderHint@20
 WTSSetSessionInformationA;code;WTSAPI32.dll;_WTSSetSessionInformationA@20
 WTSSetSessionInformationW;code;WTSAPI32.dll;_WTSSetSessionInformationW@20
 WTSSetUserConfigA;code;WTSAPI32.dll;_WTSSetUserConfigA@20

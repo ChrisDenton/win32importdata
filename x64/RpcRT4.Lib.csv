@@ -4,7 +4,6 @@ I_RpcFixTransferSyntax;code;RPCRT4.dll;?I_RpcFixTransferSyntax@@YAXPEAU_RPC_MESS
 I_RpcFwThisIsTheManager;code;RPCRT4.dll;?I_RpcFwThisIsTheManager@@YAXXZ (void __cdecl I_RpcFwThisIsTheManager(void))
 I_RpcInitNdrImports;code;RPCRT4.dll;?I_RpcInitNdrImports@@YAXPEAPEAU_NDR_CALLBACK_ROUTINES_TABLE@@@Z (void __cdecl I_RpcInitNdrImports(struct _NDR_CALLBACK_ROUTINES_TABLE * *))
 I_RpcMgmtQueryDedicatedThreadPool;code;RPCRT4.dll;?I_RpcMgmtQueryDedicatedThreadPool@@YAEXZ (unsigned char __cdecl I_RpcMgmtQueryDedicatedThreadPool(void))
-I_RpcOpenClientProcess;code;RPCRT4.dll;?I_RpcOpenClientProcess@@YAJPEAXKPEAPEAX@Z (long __cdecl I_RpcOpenClientProcess(void *,unsigned long,void * *))
 I_RpcOpenClientThread;code;RPCRT4.dll;?I_RpcOpenClientThread@@YAJPEAXKPEAPEAX@Z (long __cdecl I_RpcOpenClientThread(void *,unsigned long,void * *))
 I_RpcServerTurnOnOffKeepalives;code;RPCRT4.dll;?I_RpcServerTurnOnOffKeepalives@@YAJPEAXHKK@Z (long __cdecl I_RpcServerTurnOnOffKeepalives(void *,int,unsigned long,unsigned long))
 NdrFullPointerFree;code;RPCRT4.dll;?NdrFullPointerFree@@YAHPEAU_FULL_PTR_XLAT_TABLES@@PEAX@Z (int __cdecl NdrFullPointerFree(struct _FULL_PTR_XLAT_TABLES *,void *))
@@ -39,6 +38,7 @@ I_RpcBCacheFree;code;RPCRT4.dll;
 I_RpcBindingCopy;code;RPCRT4.dll;
 I_RpcBindingCreateNP;code;RPCRT4.dll;
 I_RpcBindingHandleToAsyncHandle;code;RPCRT4.dll;
+I_RpcBindingInqClientTokenAttributes;code;RPCRT4.dll;
 I_RpcBindingInqDynamicEndpoint;code;RPCRT4.dll;
 I_RpcBindingInqDynamicEndpointA;code;RPCRT4.dll;
 I_RpcBindingInqDynamicEndpointW;code;RPCRT4.dll;
@@ -49,6 +49,8 @@ I_RpcBindingInqSecurityContextKeyInfo;code;RPCRT4.dll;
 I_RpcBindingInqTransportType;code;RPCRT4.dll;
 I_RpcBindingInqWireIdForSnego;code;RPCRT4.dll;
 I_RpcBindingIsClientLocal;code;RPCRT4.dll;
+I_RpcBindingIsServerLocal;code;RPCRT4.dll;
+I_RpcBindingSetPrivateOption;code;RPCRT4.dll;
 I_RpcBindingToStaticStringBindingW;code;RPCRT4.dll;
 I_RpcCertProcessAndProvision;code;RPCRT4.dll;
 I_RpcClearMutex;code;RPCRT4.dll;
@@ -63,6 +65,7 @@ I_RpcFreePipeBuffer;code;RPCRT4.dll;
 I_RpcGetBuffer;code;RPCRT4.dll;
 I_RpcGetBufferWithObject;code;RPCRT4.dll;
 I_RpcGetCurrentCallHandle;code;RPCRT4.dll;
+I_RpcGetDefaultSD;code;RPCRT4.dll;
 I_RpcGetExtendedError;code;RPCRT4.dll;
 I_RpcGetPortAllocationData;code;RPCRT4.dll;
 I_RpcIfInqTransferSyntaxes;code;RPCRT4.dll;
@@ -78,6 +81,7 @@ I_RpcNsBindingSetEntryNameA;code;RPCRT4.dll;
 I_RpcNsBindingSetEntryNameW;code;RPCRT4.dll;
 I_RpcNsInterfaceExported;code;RPCRT4.dll;
 I_RpcNsInterfaceUnexported;code;RPCRT4.dll;
+I_RpcOpenClientProcess;code;RPCRT4.dll;
 I_RpcParseSecurity;code;RPCRT4.dll;
 I_RpcPauseExecution;code;RPCRT4.dll;
 I_RpcReallocPipeBuffer;code;RPCRT4.dll;
@@ -89,6 +93,8 @@ I_RpcSend;code;RPCRT4.dll;
 I_RpcSendReceive;code;RPCRT4.dll;
 I_RpcServerAllocateIpPort;code;RPCRT4.dll;
 I_RpcServerCheckClientRestriction;code;RPCRT4.dll;
+I_RpcServerDisableExceptionFilter;code;RPCRT4.dll;
+I_RpcServerGetAssociationID;code;RPCRT4.dll;
 I_RpcServerInqAddressChangeFn;code;RPCRT4.dll;
 I_RpcServerInqLocalConnAddress;code;RPCRT4.dll;
 I_RpcServerInqRemoteConnAddress;code;RPCRT4.dll;
@@ -97,6 +103,7 @@ I_RpcServerIsClientDisconnected;code;RPCRT4.dll;
 I_RpcServerRegisterForwardFunction;code;RPCRT4.dll;
 I_RpcServerSetAddressChangeFn;code;RPCRT4.dll;
 I_RpcServerStartService;code;RPCRT4.dll;
+I_RpcServerSubscribeForDisconnectNotification;code;RPCRT4.dll;
 I_RpcServerUseProtseq2A;code;RPCRT4.dll;
 I_RpcServerUseProtseq2W;code;RPCRT4.dll;
 I_RpcServerUseProtseqEp2A;code;RPCRT4.dll;
@@ -404,6 +411,7 @@ RpcGetAuthorizationContextForClient;code;RPCRT4.dll;
 RpcIfIdVectorFree;code;RPCRT4.dll;
 RpcIfInqId;code;RPCRT4.dll;
 RpcImpersonateClient;code;RPCRT4.dll;
+RpcImpersonateClient2;code;RPCRT4.dll;
 RpcMgmtEnableIdleCleanup;code;RPCRT4.dll;
 RpcMgmtEpEltInqBegin;code;RPCRT4.dll;
 RpcMgmtEpEltInqDone;code;RPCRT4.dll;
@@ -446,11 +454,18 @@ RpcServerInqCallAttributesW;code;RPCRT4.dll;
 RpcServerInqDefaultPrincNameA;code;RPCRT4.dll;
 RpcServerInqDefaultPrincNameW;code;RPCRT4.dll;
 RpcServerInqIf;code;RPCRT4.dll;
+RpcServerInterfaceGroupActivate;code;RPCRT4.dll;
+RpcServerInterfaceGroupClose;code;RPCRT4.dll;
+RpcServerInterfaceGroupCreateA;code;RPCRT4.dll;
+RpcServerInterfaceGroupCreateW;code;RPCRT4.dll;
+RpcServerInterfaceGroupDeactivate;code;RPCRT4.dll;
+RpcServerInterfaceGroupInqBindings;code;RPCRT4.dll;
 RpcServerListen;code;RPCRT4.dll;
 RpcServerRegisterAuthInfoA;code;RPCRT4.dll;
 RpcServerRegisterAuthInfoW;code;RPCRT4.dll;
 RpcServerRegisterIf;code;RPCRT4.dll;
 RpcServerRegisterIf2;code;RPCRT4.dll;
+RpcServerRegisterIf3;code;RPCRT4.dll;
 RpcServerRegisterIfEx;code;RPCRT4.dll;
 RpcServerSubscribeForNotification;code;RPCRT4.dll;
 RpcServerTestCancel;code;RPCRT4.dll;

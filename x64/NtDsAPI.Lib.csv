@@ -1,4 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
+DsAddCloneDCW;code;NTDSAPI.dll;
 DsAddSidHistoryA;code;NTDSAPI.dll;
 DsAddSidHistoryW;code;NTDSAPI.dll;
 DsBindA;code;NTDSAPI.dll;
@@ -27,6 +28,7 @@ DsCrackSpnW;code;NTDSAPI.dll;
 DsCrackUnquotedMangledRdnA;code;NTDSAPI.dll;
 DsCrackUnquotedMangledRdnW;code;NTDSAPI.dll;
 DsFinishDemotionW;code;NTDSAPI.dll;
+DsFreeCloneDcResult;code;NTDSAPI.dll;
 DsFreeDomainControllerInfoA;code;NTDSAPI.dll;
 DsFreeDomainControllerInfoW;code;NTDSAPI.dll;
 DsFreeNameResultA;code;NTDSAPI.dll;

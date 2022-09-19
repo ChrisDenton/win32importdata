@@ -1,8 +1,34 @@
 Name;Type;DLL;SymbolOrOrdinal
+CLIPFORMAT_UserFreeExt;code;ole32.dll;?CLIPFORMAT_UserFreeExt@@YAXPEAKPEAG@Z (void __cdecl CLIPFORMAT_UserFreeExt(unsigned long *,unsigned short *))
+CLIPFORMAT_UserMarshalExt;code;ole32.dll;?CLIPFORMAT_UserMarshalExt@@YAPEAEPEAKPEAEPEAG@Z (unsigned char * __cdecl CLIPFORMAT_UserMarshalExt(unsigned long *,unsigned char *,unsigned short *))
+CLIPFORMAT_UserSizeExt;code;ole32.dll;?CLIPFORMAT_UserSizeExt@@YAKPEAKKPEAG@Z (unsigned long __cdecl CLIPFORMAT_UserSizeExt(unsigned long *,unsigned long,unsigned short *))
+CLIPFORMAT_UserUnmarshalExt;code;ole32.dll;?CLIPFORMAT_UserUnmarshalExt@@YAPEAEPEAKPEAEPEAG@Z (unsigned char * __cdecl CLIPFORMAT_UserUnmarshalExt(unsigned long *,unsigned char *,unsigned short *))
+HPALETTE_UserFreeExt;code;ole32.dll;?HPALETTE_UserFreeExt@@YAXPEAKPEAPEAUHPALETTE__@@@Z (void __cdecl HPALETTE_UserFreeExt(unsigned long *,struct HPALETTE__ * *))
+HPALETTE_UserMarshalExt;code;ole32.dll;?HPALETTE_UserMarshalExt@@YAPEAEPEAKPEAEPEAPEAUHPALETTE__@@@Z (unsigned char * __cdecl HPALETTE_UserMarshalExt(unsigned long *,unsigned char *,struct HPALETTE__ * *))
+HPALETTE_UserSizeExt;code;ole32.dll;?HPALETTE_UserSizeExt@@YAKPEAKKPEAPEAUHPALETTE__@@@Z (unsigned long __cdecl HPALETTE_UserSizeExt(unsigned long *,unsigned long,struct HPALETTE__ * *))
+HPALETTE_UserUnmarshalExt;code;ole32.dll;?HPALETTE_UserUnmarshalExt@@YAPEAEPEAKPEAEPEAPEAUHPALETTE__@@@Z (unsigned char * __cdecl HPALETTE_UserUnmarshalExt(unsigned long *,unsigned char *,struct HPALETTE__ * *))
 HRGN_UserFree;code;ole32.dll;?HRGN_UserFree@@YAXPEAKPEAPEAUHRGN__@@@Z (void __cdecl HRGN_UserFree(unsigned long *,struct HRGN__ * *))
 HRGN_UserMarshal;code;ole32.dll;?HRGN_UserMarshal@@YAPEAEPEAKPEAEPEAPEAUHRGN__@@@Z (unsigned char * __cdecl HRGN_UserMarshal(unsigned long *,unsigned char *,struct HRGN__ * *))
 HRGN_UserSize;code;ole32.dll;?HRGN_UserSize@@YAKPEAKKPEAPEAUHRGN__@@@Z (unsigned long __cdecl HRGN_UserSize(unsigned long *,unsigned long,struct HRGN__ * *))
 HRGN_UserUnmarshal;code;ole32.dll;?HRGN_UserUnmarshal@@YAPEAEPEAKPEAEPEAPEAUHRGN__@@@Z (unsigned char * __cdecl HRGN_UserUnmarshal(unsigned long *,unsigned char *,struct HRGN__ * *))
+HWND_UserFree64Ext;code;ole32.dll;?HWND_UserFree64Ext@@YAXPEAKPEAPEAUHWND__@@@Z (void __cdecl HWND_UserFree64Ext(unsigned long *,struct HWND__ * *))
+HWND_UserFreeExt;code;ole32.dll;?HWND_UserFreeExt@@YAXPEAKPEAPEAUHWND__@@@Z (void __cdecl HWND_UserFreeExt(unsigned long *,struct HWND__ * *))
+HWND_UserMarshal64Ext;code;ole32.dll;?HWND_UserMarshal64Ext@@YAPEAEPEAKPEAEPEAPEAUHWND__@@@Z (unsigned char * __cdecl HWND_UserMarshal64Ext(unsigned long *,unsigned char *,struct HWND__ * *))
+HWND_UserMarshalExt;code;ole32.dll;?HWND_UserMarshalExt@@YAPEAEPEAKPEAEPEAPEAUHWND__@@@Z (unsigned char * __cdecl HWND_UserMarshalExt(unsigned long *,unsigned char *,struct HWND__ * *))
+HWND_UserSize64Ext;code;ole32.dll;?HWND_UserSize64Ext@@YAKPEAKKPEAPEAUHWND__@@@Z (unsigned long __cdecl HWND_UserSize64Ext(unsigned long *,unsigned long,struct HWND__ * *))
+HWND_UserSizeExt;code;ole32.dll;?HWND_UserSizeExt@@YAKPEAKKPEAPEAUHWND__@@@Z (unsigned long __cdecl HWND_UserSizeExt(unsigned long *,unsigned long,struct HWND__ * *))
+HWND_UserUnmarshal64Ext;code;ole32.dll;?HWND_UserUnmarshal64Ext@@YAPEAEPEAKPEAEPEAPEAUHWND__@@@Z (unsigned char * __cdecl HWND_UserUnmarshal64Ext(unsigned long *,unsigned char *,struct HWND__ * *))
+HWND_UserUnmarshalExt;code;ole32.dll;?HWND_UserUnmarshalExt@@YAPEAEPEAKPEAEPEAPEAUHWND__@@@Z (unsigned char * __cdecl HWND_UserUnmarshalExt(unsigned long *,unsigned char *,struct HWND__ * *))
+MonikerLoadTypeLib;code;ole32.dll;?MonikerLoadTypeLib@@YAJPEBGPEAPEAUITypeLib@@@Z (long __cdecl MonikerLoadTypeLib(unsigned short const *,struct ITypeLib * *))
+ReadStorageProperties;code;ole32.dll;?ReadStorageProperties@@YAJPEAUIStorage@@PEAU_GUID@@@Z (long __cdecl ReadStorageProperties(struct IStorage *,struct _GUID *))
+STGMEDIUM_UserFreeExt;code;ole32.dll;?STGMEDIUM_UserFreeExt@@YAXPEAKPEAUtagSTGMEDIUM@@@Z (void __cdecl STGMEDIUM_UserFreeExt(unsigned long *,struct tagSTGMEDIUM *))
+STGMEDIUM_UserMarshalExt;code;ole32.dll;?STGMEDIUM_UserMarshalExt@@YAPEAEPEAKPEAEPEAUtagSTGMEDIUM@@@Z (unsigned char * __cdecl STGMEDIUM_UserMarshalExt(unsigned long *,unsigned char *,struct tagSTGMEDIUM *))
+STGMEDIUM_UserSizeExt;code;ole32.dll;?STGMEDIUM_UserSizeExt@@YAKPEAKKPEAUtagSTGMEDIUM@@@Z (unsigned long __cdecl STGMEDIUM_UserSizeExt(unsigned long *,unsigned long,struct tagSTGMEDIUM *))
+STGMEDIUM_UserUnmarshalExt;code;ole32.dll;?STGMEDIUM_UserUnmarshalExt@@YAPEAEPEAKPEAEPEAUtagSTGMEDIUM@@@Z (unsigned char * __cdecl STGMEDIUM_UserUnmarshalExt(unsigned long *,unsigned char *,struct tagSTGMEDIUM *))
+SetOleautModule;code;ole32.dll;?SetOleautModule@@YAXPEAUHINSTANCE__@@@Z (void __cdecl SetOleautModule(struct HINSTANCE__ *))
+StdTypesGetClassObject;code;ole32.dll;?StdTypesGetClassObject@@YAJAEBU_GUID@@0PEAPEAX@Z (long __cdecl StdTypesGetClassObject(struct _GUID const &,struct _GUID const &,void * *))
+StdTypesRegisterServer;code;ole32.dll;?StdTypesRegisterServer@@YAJXZ (long __cdecl StdTypesRegisterServer(void))
+WriteStorageProperties;code;ole32.dll;?WriteStorageProperties@@YAJPEAUIStorage@@AEBU_GUID@@GPEAG@Z (long __cdecl WriteStorageProperties(struct IStorage *,struct _GUID const &,unsigned short,unsigned short *))
 BindMoniker;code;ole32.dll;
 CLIPFORMAT_UserFree;code;ole32.dll;
 CLIPFORMAT_UserFree64;code;ole32.dll;
@@ -17,6 +43,7 @@ CLSIDFromProgIDEx;code;ole32.dll;
 CLSIDFromString;code;ole32.dll;
 CoAddRefServerProcess;code;ole32.dll;
 CoAllowSetForegroundWindow;code;ole32.dll;
+CoAllowUnmarshalerCLSID;code;ole32.dll;
 CoBuildVersion;code;ole32.dll;
 CoCancelCall;code;ole32.dll;
 CoCopyProxy;code;ole32.dll;
@@ -24,8 +51,11 @@ CoCreateFreeThreadedMarshaler;code;ole32.dll;
 CoCreateGuid;code;ole32.dll;
 CoCreateInstance;code;ole32.dll;
 CoCreateInstanceEx;code;ole32.dll;
+CoCreateInstanceFromApp;code;ole32.dll;
 CoCreateObjectInContext;code;ole32.dll;
 CoDeactivateObject;code;ole32.dll;
+CoDecodeProxy;code;ole32.dll;
+CoDecrementMTAUsage;code;ole32.dll;
 CoDisableCallCancellation;code;ole32.dll;
 CoDisconnectContext;code;ole32.dll;
 CoDisconnectObject;code;ole32.dll;
@@ -44,6 +74,7 @@ CoGetCallerTID;code;ole32.dll;
 CoGetCancelObject;code;ole32.dll;
 CoGetClassObject;code;ole32.dll;
 CoGetClassVersion;code;ole32.dll;
+CoGetComCatalog;code;ole32.dll;
 CoGetContextToken;code;ole32.dll;
 CoGetCurrentLogicalThreadId;code;ole32.dll;
 CoGetCurrentProcess;code;ole32.dll;
@@ -63,7 +94,9 @@ CoGetStandardMarshal;code;ole32.dll;
 CoGetStdMarshalEx;code;ole32.dll;
 CoGetSystemSecurityPermissions;code;ole32.dll;
 CoGetTreatAsClass;code;ole32.dll;
+CoHandlePriorityEventsFromMessagePump;code;ole32.dll;
 CoImpersonateClient;code;ole32.dll;
+CoIncrementMTAUsage;code;ole32.dll;
 CoInitialize;code;ole32.dll;
 CoInitializeEx;code;ole32.dll;
 CoInitializeSecurity;code;ole32.dll;
@@ -82,6 +115,7 @@ CoQueryClientBlanket;code;ole32.dll;
 CoQueryProxyBlanket;code;ole32.dll;
 CoQueryReleaseObject;code;ole32.dll;
 CoReactivateObject;code;ole32.dll;
+CoRegisterActivationFilter;code;ole32.dll;
 CoRegisterChannelHook;code;ole32.dll;
 CoRegisterClassObject;code;ole32.dll;
 CoRegisterInitializeSpy;code;ole32.dll;
@@ -99,6 +133,7 @@ CoRevokeClassObject;code;ole32.dll;
 CoRevokeInitializeSpy;code;ole32.dll;
 CoRevokeMallocSpy;code;ole32.dll;
 CoSetCancelObject;code;ole32.dll;
+CoSetMessageDispatcher;code;ole32.dll;
 CoSetProxyBlanket;code;ole32.dll;
 CoSuspendClassObjects;code;ole32.dll;
 CoSwitchCallContext;code;ole32.dll;
@@ -112,6 +147,7 @@ CoUnloadingWOW;code;ole32.dll;
 CoUnmarshalHresult;code;ole32.dll;
 CoUnmarshalInterface;code;ole32.dll;
 CoWaitForMultipleHandles;code;ole32.dll;
+CoWaitForMultipleObjects;code;ole32.dll;
 ComPs_NdrDllCanUnloadNow;code;ole32.dll;
 ComPs_NdrDllGetClassObject;code;ole32.dll;
 ComPs_NdrDllRegisterProxy;code;ole32.dll;
@@ -137,6 +173,7 @@ DoDragDrop;code;ole32.dll;
 EnableHookObject;code;ole32.dll;
 FmtIdToPropStgName;code;ole32.dll;
 FreePropVariantArray;code;ole32.dll;
+GetActiveObjectExt;code;ole32.dll;
 GetClassFile;code;ole32.dll;
 GetConvertStg;code;ole32.dll;
 GetDocumentBitStg;code;ole32.dll;
@@ -224,6 +261,14 @@ HMETAFILE_UserSize;code;ole32.dll;
 HMETAFILE_UserSize64;code;ole32.dll;
 HMETAFILE_UserUnmarshal;code;ole32.dll;
 HMETAFILE_UserUnmarshal64;code;ole32.dll;
+HMONITOR_UserFree;code;ole32.dll;
+HMONITOR_UserFree64;code;ole32.dll;
+HMONITOR_UserMarshal;code;ole32.dll;
+HMONITOR_UserMarshal64;code;ole32.dll;
+HMONITOR_UserSize;code;ole32.dll;
+HMONITOR_UserSize64;code;ole32.dll;
+HMONITOR_UserUnmarshal;code;ole32.dll;
+HMONITOR_UserUnmarshal64;code;ole32.dll;
 HPALETTE_UserFree;code;ole32.dll;
 HPALETTE_UserFree64;code;ole32.dll;
 HPALETTE_UserMarshal;code;ole32.dll;
@@ -307,6 +352,7 @@ ObjectStublessClient6;code;ole32.dll;
 ObjectStublessClient7;code;ole32.dll;
 ObjectStublessClient8;code;ole32.dll;
 ObjectStublessClient9;code;ole32.dll;
+Ole32DllGetClassObject;code;ole32.dll;
 OleBuildVersion;code;ole32.dll;
 OleConvertIStorageToOLESTREAM;code;ole32.dll;
 OleConvertIStorageToOLESTREAMEx;code;ole32.dll;
@@ -316,6 +362,7 @@ OleCreate;code;ole32.dll;
 OleCreateDefaultHandler;code;ole32.dll;
 OleCreateEmbeddingHelper;code;ole32.dll;
 OleCreateEx;code;ole32.dll;
+OleCreateFontIndirectExt;code;ole32.dll;
 OleCreateFromData;code;ole32.dll;
 OleCreateFromDataEx;code;ole32.dll;
 OleCreateFromFile;code;ole32.dll;
@@ -327,6 +374,8 @@ OleCreateLinkFromDataEx;code;ole32.dll;
 OleCreateLinkToFile;code;ole32.dll;
 OleCreateLinkToFileEx;code;ole32.dll;
 OleCreateMenuDescriptor;code;ole32.dll;
+OleCreatePictureIndirectExt;code;ole32.dll;
+OleCreatePropertyFrameIndirectExt;code;ole32.dll;
 OleCreateStaticFromData;code;ole32.dll;
 OleDestroyMenuDescriptor;code;ole32.dll;
 OleDoAutoConvert;code;ole32.dll;
@@ -337,12 +386,16 @@ OleGetAutoConvert;code;ole32.dll;
 OleGetClipboard;code;ole32.dll;
 OleGetIconOfClass;code;ole32.dll;
 OleGetIconOfFile;code;ole32.dll;
+OleIconToCursorExt;code;ole32.dll;
 OleInitialize;code;ole32.dll;
 OleInitializeWOW;code;ole32.dll;
 OleIsCurrentClipboard;code;ole32.dll;
 OleIsRunning;code;ole32.dll;
 OleLoad;code;ole32.dll;
 OleLoadFromStream;code;ole32.dll;
+OleLoadPictureExt;code;ole32.dll;
+OleLoadPictureFileExt;code;ole32.dll;
+OleLoadPicturePathExt;code;ole32.dll;
 OleLockRunning;code;ole32.dll;
 OleMetafilePictFromIconAndLabel;code;ole32.dll;
 OleNoteObjectVisible;code;ole32.dll;
@@ -354,12 +407,14 @@ OleRegGetMiscStatus;code;ole32.dll;
 OleRegGetUserType;code;ole32.dll;
 OleRun;code;ole32.dll;
 OleSave;code;ole32.dll;
+OleSavePictureFileExt;code;ole32.dll;
 OleSaveToStream;code;ole32.dll;
 OleSetAutoConvert;code;ole32.dll;
 OleSetClipboard;code;ole32.dll;
 OleSetContainedObject;code;ole32.dll;
 OleSetMenuDescriptor;code;ole32.dll;
 OleTranslateAccelerator;code;ole32.dll;
+OleTranslateColorExt;code;ole32.dll;
 OleUninitialize;code;ole32.dll;
 OpenOrCreateStream;code;ole32.dll;
 ProgIDFromCLSID;code;ole32.dll;
@@ -371,9 +426,12 @@ ReadClassStm;code;ole32.dll;
 ReadFmtUserTypeStg;code;ole32.dll;
 ReadOleStg;code;ole32.dll;
 ReadStringStream;code;ole32.dll;
+RegisterActiveObjectExt;code;ole32.dll;
 RegisterDragDrop;code;ole32.dll;
 ReleaseStgMedium;code;ole32.dll;
+RevokeActiveObjectExt;code;ole32.dll;
 RevokeDragDrop;code;ole32.dll;
+RoGetAgileReference;code;ole32.dll;
 SNB_UserFree;code;ole32.dll;
 SNB_UserFree64;code;ole32.dll;
 SNB_UserMarshal;code;ole32.dll;

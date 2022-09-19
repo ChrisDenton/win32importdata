@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+EnterpriseDataCopyProtection;code;efswrt.dll;_EnterpriseDataCopyProtection@12
+EnterpriseDataGetStatus;code;efswrt.dll;_EnterpriseDataGetStatus@8
+EnterpriseDataProtect;code;efswrt.dll;_EnterpriseDataProtect@12
+EnterpriseDataRevoke;code;efswrt.dll;_EnterpriseDataRevoke@4

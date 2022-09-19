@@ -81,6 +81,7 @@ CertGetStoreProperty;code;CRYPT32.dll;_CertGetStoreProperty@16
 CertGetSubjectCertificateFromStore;code;CRYPT32.dll;_CertGetSubjectCertificateFromStore@12
 CertGetValidUsages;code;CRYPT32.dll;_CertGetValidUsages@20
 CertIsRDNAttrsInCertificateName;code;CRYPT32.dll;_CertIsRDNAttrsInCertificateName@16
+CertIsStrongHashToSign;code;CRYPT32.dll;_CertIsStrongHashToSign@12
 CertIsValidCRLForCertificate;code;CRYPT32.dll;_CertIsValidCRLForCertificate@16
 CertNameToStrA;code;CRYPT32.dll;_CertNameToStrA@20
 CertNameToStrW;code;CRYPT32.dll;_CertNameToStrW@20
@@ -194,6 +195,8 @@ CryptRegisterOIDInfo;code;CRYPT32.dll;_CryptRegisterOIDInfo@8
 CryptRetrieveTimeStamp;code;CRYPT32.dll;_CryptRetrieveTimeStamp@40
 CryptSIPAddProvider;code;CRYPT32.dll;_CryptSIPAddProvider@4
 CryptSIPCreateIndirectData;code;CRYPT32.dll;_CryptSIPCreateIndirectData@12
+CryptSIPGetCaps;code;CRYPT32.dll;_CryptSIPGetCaps@8
+CryptSIPGetSealedDigest;code;CRYPT32.dll;_CryptSIPGetSealedDigest@20
 CryptSIPGetSignedDataMsg;code;CRYPT32.dll;_CryptSIPGetSignedDataMsg@20
 CryptSIPLoad;code;CRYPT32.dll;_CryptSIPLoad@12
 CryptSIPPutSignedDataMsg;code;CRYPT32.dll;_CryptSIPPutSignedDataMsg@20

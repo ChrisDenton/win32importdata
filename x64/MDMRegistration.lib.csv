@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+DiscoverManagementService;code;MDMRegistration.DLL;
+DiscoverManagementServiceEx;code;MDMRegistration.DLL;
+GetManagementAppHyperlink;code;MDMRegistration.DLL;
+IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;
+IsManagementRegistrationAllowed;code;MDMRegistration.DLL;
+RegisterDeviceWithManagement;code;MDMRegistration.DLL;
+SetManagedExternally;code;MDMRegistration.DLL;
+UnregisterDeviceWithManagement;code;MDMRegistration.DLL;

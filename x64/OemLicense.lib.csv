@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+HrAddAppxLicense;code;oemlicense.dll;?HrAddAppxLicense@@YAJPEBG0H@Z (long __cdecl HrAddAppxLicense(unsigned short const *,unsigned short const *,int))
+HrRemoveAppxLicense;code;oemlicense.dll;?HrRemoveAppxLicense@@YAJPEBG0H@Z (long __cdecl HrRemoveAppxLicense(unsigned short const *,unsigned short const *,int))
+AddDemoAppLicense;code;oemlicense.dll;
+RemoveDemoAppLicense;code;oemlicense.dll;

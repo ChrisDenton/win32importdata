@@ -3,6 +3,7 @@ ClassInstall32;code;WinSCard.dll;?ClassInstall32@@YGKIPAXPAU_SP_DEVINFO_DATA@@@Z
 SCardAccessStartedEvent;code;WinSCard.dll;_SCardAccessStartedEvent@0
 SCardAddReaderToGroupA;code;WinSCard.dll;_SCardAddReaderToGroupA@12
 SCardAddReaderToGroupW;code;WinSCard.dll;_SCardAddReaderToGroupW@12
+SCardAudit;code;WinSCard.dll;_SCardAudit@8
 SCardBeginTransaction;code;WinSCard.dll;_SCardBeginTransaction@4
 SCardCancel;code;WinSCard.dll;_SCardCancel@4
 SCardConnectA;code;WinSCard.dll;_SCardConnectA@24
@@ -21,8 +22,14 @@ SCardFreeMemory;code;WinSCard.dll;_SCardFreeMemory@8
 SCardGetAttrib;code;WinSCard.dll;_SCardGetAttrib@16
 SCardGetCardTypeProviderNameA;code;WinSCard.dll;_SCardGetCardTypeProviderNameA@20
 SCardGetCardTypeProviderNameW;code;WinSCard.dll;_SCardGetCardTypeProviderNameW@20
+SCardGetDeviceTypeIdA;code;WinSCard.dll;_SCardGetDeviceTypeIdA@12
+SCardGetDeviceTypeIdW;code;WinSCard.dll;_SCardGetDeviceTypeIdW@12
 SCardGetProviderIdA;code;WinSCard.dll;_SCardGetProviderIdA@12
 SCardGetProviderIdW;code;WinSCard.dll;_SCardGetProviderIdW@12
+SCardGetReaderDeviceInstanceIdA;code;WinSCard.dll;_SCardGetReaderDeviceInstanceIdA@16
+SCardGetReaderDeviceInstanceIdW;code;WinSCard.dll;_SCardGetReaderDeviceInstanceIdW@16
+SCardGetReaderIconA;code;WinSCard.dll;_SCardGetReaderIconA@16
+SCardGetReaderIconW;code;WinSCard.dll;_SCardGetReaderIconW@16
 SCardGetStatusChangeA;code;WinSCard.dll;_SCardGetStatusChangeA@16
 SCardGetStatusChangeW;code;WinSCard.dll;_SCardGetStatusChangeW@16
 SCardGetTransmitCount;code;WinSCard.dll;_SCardGetTransmitCount@8
@@ -41,6 +48,8 @@ SCardListReaderGroupsA;code;WinSCard.dll;_SCardListReaderGroupsA@12
 SCardListReaderGroupsW;code;WinSCard.dll;_SCardListReaderGroupsW@12
 SCardListReadersA;code;WinSCard.dll;_SCardListReadersA@16
 SCardListReadersW;code;WinSCard.dll;_SCardListReadersW@16
+SCardListReadersWithDeviceInstanceIdA;code;WinSCard.dll;_SCardListReadersWithDeviceInstanceIdA@16
+SCardListReadersWithDeviceInstanceIdW;code;WinSCard.dll;_SCardListReadersWithDeviceInstanceIdW@16
 SCardLocateCardsA;code;WinSCard.dll;_SCardLocateCardsA@16
 SCardLocateCardsByATRA;code;WinSCard.dll;_SCardLocateCardsByATRA@20
 SCardLocateCardsByATRW;code;WinSCard.dll;_SCardLocateCardsByATRW@20

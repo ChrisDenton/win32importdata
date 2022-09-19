@@ -28,6 +28,8 @@ GetBufferedPaintDC;code;UxTheme.dll;_GetBufferedPaintDC@4
 GetBufferedPaintTargetDC;code;UxTheme.dll;_GetBufferedPaintTargetDC@4
 GetBufferedPaintTargetRect;code;UxTheme.dll;_GetBufferedPaintTargetRect@8
 GetCurrentThemeName;code;UxTheme.dll;_GetCurrentThemeName@24
+GetThemeAnimationProperty;code;UxTheme.dll;_GetThemeAnimationProperty@28
+GetThemeAnimationTransform;code;UxTheme.dll;_GetThemeAnimationTransform@28
 GetThemeAppProperties;code;UxTheme.dll;_GetThemeAppProperties@0
 GetThemeBackgroundContentRect;code;UxTheme.dll;_GetThemeBackgroundContentRect@24
 GetThemeBackgroundExtent;code;UxTheme.dll;_GetThemeBackgroundExtent@24
@@ -58,6 +60,7 @@ GetThemeSysSize;code;UxTheme.dll;_GetThemeSysSize@8
 GetThemeSysString;code;UxTheme.dll;_GetThemeSysString@16
 GetThemeTextExtent;code;UxTheme.dll;_GetThemeTextExtent@36
 GetThemeTextMetrics;code;UxTheme.dll;_GetThemeTextMetrics@20
+GetThemeTimingFunction;code;UxTheme.dll;_GetThemeTimingFunction@20
 GetThemeTransitionDuration;code;UxTheme.dll;_GetThemeTransitionDuration@24
 GetWindowTheme;code;UxTheme.dll;_GetWindowTheme@4
 HitTestThemeBackground;code;UxTheme.dll;_HitTestThemeBackground@40

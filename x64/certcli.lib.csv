@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+?myGetErrorMessageText@@YAPEAGJK@Z (unsigned short * __cdecl myGetErrorMessageText(long,unsigned long));code;certcli.dll;207

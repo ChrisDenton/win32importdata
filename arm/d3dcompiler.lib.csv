@@ -1,0 +1,30 @@
+Name;Type;DLL;SymbolOrOrdinal
+D3DAssemble;code;D3DCOMPILER_47.dll;?D3DAssemble@@YAJPBXKPBDPBU_D3D_SHADER_MACRO@@PAUID3DInclude@@IPAPAUID3D10Blob@@4@Z (long __cdecl D3DAssemble(void const *,unsigned long,char const *,struct _D3D_SHADER_MACRO const *,struct ID3DInclude *,unsigned int,struct ID3D10Blob * *,struct ID3D10Blob * *))
+DebugSetMute;code;D3DCOMPILER_47.dll;?DebugSetMute@@YAXH@Z (void __cdecl DebugSetMute(int))
+D3DCompile;code;D3DCOMPILER_47.dll;
+D3DCompile2;code;D3DCOMPILER_47.dll;
+D3DCompileFromFile;code;D3DCOMPILER_47.dll;
+D3DCompressShaders;code;D3DCOMPILER_47.dll;
+D3DCreateBlob;code;D3DCOMPILER_47.dll;
+D3DCreateFunctionLinkingGraph;code;D3DCOMPILER_47.dll;
+D3DCreateLinker;code;D3DCOMPILER_47.dll;
+D3DDecompressShaders;code;D3DCOMPILER_47.dll;
+D3DDisassemble;code;D3DCOMPILER_47.dll;
+D3DDisassemble10Effect;code;D3DCOMPILER_47.dll;
+D3DDisassemble11Trace;code;D3DCOMPILER_47.dll;
+D3DDisassembleRegion;code;D3DCOMPILER_47.dll;
+D3DGetBlobPart;code;D3DCOMPILER_47.dll;
+D3DGetDebugInfo;code;D3DCOMPILER_47.dll;
+D3DGetInputAndOutputSignatureBlob;code;D3DCOMPILER_47.dll;
+D3DGetInputSignatureBlob;code;D3DCOMPILER_47.dll;
+D3DGetOutputSignatureBlob;code;D3DCOMPILER_47.dll;
+D3DGetTraceInstructionOffsets;code;D3DCOMPILER_47.dll;
+D3DLoadModule;code;D3DCOMPILER_47.dll;
+D3DPreprocess;code;D3DCOMPILER_47.dll;
+D3DReadFileToBlob;code;D3DCOMPILER_47.dll;
+D3DReflect;code;D3DCOMPILER_47.dll;
+D3DReflectLibrary;code;D3DCOMPILER_47.dll;
+D3DReturnFailure1;code;D3DCOMPILER_47.dll;
+D3DSetBlobPart;code;D3DCOMPILER_47.dll;
+D3DStripShader;code;D3DCOMPILER_47.dll;
+D3DWriteBlobToFile;code;D3DCOMPILER_47.dll;

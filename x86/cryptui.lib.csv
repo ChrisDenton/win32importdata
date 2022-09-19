@@ -1,13 +1,22 @@
 Name;Type;DLL;SymbolOrOrdinal
-LocalEnroll;code;CRYPTUI.dll;?LocalEnroll@@YGJKPBGPAXHKHPAUHWND__@@PAGI33PAU_CRYPTOAPI_BLOB@@PAU_CERT_REQUEST_PVK_NEW@@H533KPAU_CERT_ENROLL_INFO@@44PAKPAPAU_CERT_CONTEXT@@@Z (long __stdcall LocalEnroll(unsigned long,unsigned short const *,void *,int,unsigned long,int,struct HWND__ *,unsigned short *,unsigned int,unsigned short *,unsigned short *,struct _CRYPTOAPI_BLOB *,struct _CERT_REQUEST_PVK_NEW *,int,struct _CERT_REQUEST_PVK_NEW *,unsigned short *,unsigned short *,unsigned long,struct _CERT_ENROLL_INFO *,struct _CRYPTOAPI_BLOB *,struct _CRYPTOAPI_BLOB *,unsigned long *,struct _CERT_CONTEXT * *))
-LocalEnrollNoDS;code;CRYPTUI.dll;?LocalEnrollNoDS@@YGJKPBGPAXHKHPAUHWND__@@PAGI33PAU_CRYPTOAPI_BLOB@@PAU_CERT_REQUEST_PVK_NEW@@H533KPAU_CERT_ENROLL_INFO@@44PAKPAPAX@Z (long __stdcall LocalEnrollNoDS(unsigned long,unsigned short const *,void *,int,unsigned long,int,struct HWND__ *,unsigned short *,unsigned int,unsigned short *,unsigned short *,struct _CRYPTOAPI_BLOB *,struct _CERT_REQUEST_PVK_NEW *,int,struct _CERT_REQUEST_PVK_NEW *,unsigned short *,unsigned short *,unsigned long,struct _CERT_ENROLL_INFO *,struct _CRYPTOAPI_BLOB *,struct _CRYPTOAPI_BLOB *,unsigned long *,void * *))
+AddChainToStore;code;CRYPTUI.dll;?AddChainToStore@@YGHPAXPBU_CERT_CONTEXT@@KPAPAXHPAU_CERT_TRUST_STATUS@@@Z (int __stdcall AddChainToStore(void *,struct _CERT_CONTEXT const *,unsigned long,void * *,int,struct _CERT_TRUST_STATUS *))
+CertDllProtectedRootMessageBox;code;CRYPTUI.dll;?CertDllProtectedRootMessageBox@@YGHPAXPBU_CERT_CONTEXT@@KI@Z (int __stdcall CertDllProtectedRootMessageBox(void *,struct _CERT_CONTEXT const *,unsigned long,unsigned int))
+CompareCertificate;code;CRYPTUI.dll;?CompareCertificate@@YGHJJJ@Z (int __stdcall CompareCertificate(long,long,long))
+CryptUIDlgAddPolicyServer;code;CRYPTUI.dll;?CryptUIDlgAddPolicyServer@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4__MIDL___MIDL_itf_certenroll_0000_0071_0001@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK@Z (long __stdcall CryptUIDlgAddPolicyServer(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__stdcall*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum __MIDL___MIDL_itf_certenroll_0000_0071_0001,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *))
+CryptUIDlgAddPolicyServerWithPriority;code;CRYPTUI.dll;?CryptUIDlgAddPolicyServerWithPriority@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4__MIDL___MIDL_itf_certenroll_0000_0071_0001@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK9@Z (long __stdcall CryptUIDlgAddPolicyServerWithPriority(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__stdcall*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum __MIDL___MIDL_itf_certenroll_0000_0071_0001,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *,unsigned long *))
+CryptUIDlgPropertyPolicy;code;CRYPTUI.dll;?CryptUIDlgPropertyPolicy@@YGJPAUHWND__@@HHPBG1KPAPAU_PolicyUrlProperties@@KPAKPAPAPAG3@Z (long __stdcall CryptUIDlgPropertyPolicy(struct HWND__ *,int,int,unsigned short const *,unsigned short const *,unsigned long,struct _PolicyUrlProperties * *,unsigned long,unsigned long *,unsigned short * * *,unsigned long *))
+DisplayHtmlHelp;code;CRYPTUI.dll;?DisplayHtmlHelp@@YGXPAUHWND__@@PBG@Z (void __stdcall DisplayHtmlHelp(struct HWND__ *,unsigned short const *))
+FormatDateStringAutoLayout;code;CRYPTUI.dll;?FormatDateStringAutoLayout@@YGHPAPAGU_FILETIME@@H@Z (int __stdcall FormatDateStringAutoLayout(unsigned short * *,struct _FILETIME,int))
+GetUnknownErrorString;code;CRYPTUI.dll;?GetUnknownErrorString@@YGHPAPAGK@Z (int __stdcall GetUnknownErrorString(unsigned short * *,unsigned long))
+InvokeHelpLink;code;CRYPTUI.dll;?InvokeHelpLink@@YGXPAUHWND__@@@Z (void __stdcall InvokeHelpLink(struct HWND__ *))
+MyFormatEnhancedKeyUsageString;code;CRYPTUI.dll;?MyFormatEnhancedKeyUsageString@@YGHPAPAGPBU_CERT_CONTEXT@@HH@Z (int __stdcall MyFormatEnhancedKeyUsageString(unsigned short * *,struct _CERT_CONTEXT const *,int,int))
 ACUIProviderInvokeUI;code;CRYPTUI.dll;_ACUIProviderInvokeUI@4
 CertSelectionGetSerializedBlob;code;CRYPTUI.dll;_CertSelectionGetSerializedBlob@12
-CryptUIDlgAddPolicyServer;code;CRYPTUI.dll;_CryptUIDlgAddPolicyServer@40
+CommonInit;code;CRYPTUI.dll;_CommonInit@0
+CryptDllProtectPrompt;code;CRYPTUI.dll;_CryptDllProtectPrompt@16
 CryptUIDlgCertMgr;code;CRYPTUI.dll;_CryptUIDlgCertMgr@4
 CryptUIDlgFreeCAContext;code;CRYPTUI.dll;_CryptUIDlgFreeCAContext@4
 CryptUIDlgFreePolicyServerContext;code;CRYPTUI.dll;_CryptUIDlgFreePolicyServerContext@4
-CryptUIDlgPropertyPolicy;code;CRYPTUI.dll;_CryptUIDlgPropertyPolicy@44
 CryptUIDlgSelectCA;code;CRYPTUI.dll;_CryptUIDlgSelectCA@4
 CryptUIDlgSelectCertificateA;code;CRYPTUI.dll;_CryptUIDlgSelectCertificateA@4
 CryptUIDlgSelectCertificateFromStore;code;CRYPTUI.dll;_CryptUIDlgSelectCertificateFromStore@28
@@ -37,17 +46,9 @@ CryptUIGetViewSignaturesPagesW;code;CRYPTUI.dll;_CryptUIGetViewSignaturesPagesW@
 CryptUIStartCertMgr;code;CRYPTUI.dll;_CryptUIStartCertMgr@16
 CryptUIViewExpiringCerts;code;CRYPTUI.dll;_CryptUIViewExpiringCerts@24
 CryptUIWizBuildCTL;code;CRYPTUI.dll;_CryptUIWizBuildCTL@24
-CryptUIWizCertRequest;code;CRYPTUI.dll;_CryptUIWizCertRequest@24
-CryptUIWizCreateCertRequestNoDS;code;CRYPTUI.dll;_CryptUIWizCreateCertRequestNoDS@16
 CryptUIWizDigitalSign;code;CRYPTUI.dll;_CryptUIWizDigitalSign@20
 CryptUIWizExport;code;CRYPTUI.dll;_CryptUIWizExport@20
-CryptUIWizFreeCertRequestNoDS;code;CRYPTUI.dll;_CryptUIWizFreeCertRequestNoDS@4
 CryptUIWizFreeDigitalSignContext;code;CRYPTUI.dll;_CryptUIWizFreeDigitalSignContext@4
 CryptUIWizImport;code;CRYPTUI.dll;_CryptUIWizImport@20
-CryptUIWizQueryCertRequestNoDS;code;CRYPTUI.dll;_CryptUIWizQueryCertRequestNoDS@8
-CryptUIWizSubmitCertRequestNoDS;code;CRYPTUI.dll;_CryptUIWizSubmitCertRequestNoDS@24
-EnrollmentCOMObjectFactory_getInstance;code;CRYPTUI.dll;_EnrollmentCOMObjectFactory_getInstance@20
-I_CryptUIProtect;code;CRYPTUI.dll;_I_CryptUIProtect@24
-I_CryptUIProtectFailure;code;CRYPTUI.dll;_I_CryptUIProtectFailure@12
-RetrievePKCS7FromCA;code;CRYPTUI.dll;_RetrievePKCS7FromCA@28
-WizardFree;code;CRYPTUI.dll;_WizardFree@4
+CryptUIWizImportInternal;code;CRYPTUI.dll;_CryptUIWizImportInternal@20
+IsWizardExtensionAvailable;code;CRYPTUI.dll;_IsWizardExtensionAvailable@0

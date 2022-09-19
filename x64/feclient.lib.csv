@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+EfsClientEncryptFileEx;code;FeClient.dll;
+EfsClientFreeProtectorList;code;FeClient.dll;
+EfsClientQueryProtectors;code;FeClient.dll;
+EfsUtilGetCurrentKey;code;FeClient.dll;
+FeClientInitialize;code;FeClient.dll;

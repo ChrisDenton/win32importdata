@@ -160,6 +160,7 @@ PropVariantToUInt64Vector;code;PROPSYS.dll;_PropVariantToUInt64Vector@16
 PropVariantToUInt64VectorAlloc;code;PROPSYS.dll;_PropVariantToUInt64VectorAlloc@12
 PropVariantToUInt64WithDefault;code;PROPSYS.dll;_PropVariantToUInt64WithDefault@12
 PropVariantToVariant;code;PROPSYS.dll;_PropVariantToVariant@8
+_PropVariantToWinRTPropertyValue@12;code;PROPSYS.dll;435
 StgDeserializePropVariant;code;PROPSYS.dll;_StgDeserializePropVariant@12
 StgSerializePropVariant;code;PROPSYS.dll;_StgSerializePropVariant@12
 VariantCompare;code;PROPSYS.dll;_VariantCompare@8
@@ -216,3 +217,4 @@ VariantToUInt64;code;PROPSYS.dll;_VariantToUInt64@8
 VariantToUInt64Array;code;PROPSYS.dll;_VariantToUInt64Array@16
 VariantToUInt64ArrayAlloc;code;PROPSYS.dll;_VariantToUInt64ArrayAlloc@12
 VariantToUInt64WithDefault;code;PROPSYS.dll;_VariantToUInt64WithDefault@12
+_WinRTPropertyValueToPropVariant@8;code;PROPSYS.dll;436

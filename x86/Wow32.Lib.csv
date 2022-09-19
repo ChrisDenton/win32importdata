@@ -5,7 +5,7 @@ GetCommHandle;code;wow32.dll;_GetCommHandle@4
 GetCommShadowMSR;code;wow32.dll;_GetCommShadowMSR@4
 W32Dispatch;code;wow32.dll;_W32Dispatch@0
 W32HungAppNotifyThread;code;wow32.dll;_W32HungAppNotifyThread@4
-W32Init;code;wow32.dll;_W32Init@0
+W32Init;code;wow32.dll;_W32Init@4
 WOW32DriverCallback;code;wow32.dll;_WOW32DriverCallback@28
 WOW32ResolveHandle;code;wow32.dll;_WOW32ResolveHandle@24
 WOW32ResolveMemory;code;wow32.dll;_WOW32ResolveMemory@4

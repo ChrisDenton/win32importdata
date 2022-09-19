@@ -4,4 +4,5 @@ WdsBpCloseHandle;code;WDSBP.dll;
 WdsBpGetOptionBuffer;code;WDSBP.dll;
 WdsBpInitialize;code;WDSBP.dll;
 WdsBpParseInitialize;code;WDSBP.dll;
+WdsBpParseInitializev6;code;WDSBP.dll;
 WdsBpQueryOption;code;WDSBP.dll;

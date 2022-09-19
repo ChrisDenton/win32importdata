@@ -9,4 +9,3 @@ _FreeRSOPQuery@4;code;GPEDIT.DLL;101
 _FreeRSOPQueryResults@8;code;GPEDIT.DLL;102
 ImportRSoPData;code;GPEDIT.DLL;_ImportRSoPData@8
 _RunRSOPQuery@12;code;GPEDIT.DLL;103
-_SetSysvolSecurityFromDSSecurity@12;code;GPEDIT.DLL;104

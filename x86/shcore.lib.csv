@@ -1,0 +1,13 @@
+Name;Type;DLL;SymbolOrOrdinal
+UnregisterScaleChangeEvent;code;api-ms-win-shcore-scaling-l1-1-1.dll;_UnregisterScaleChangeEvent@4
+SetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-1.dll;_SetProcessDpiAwareness@4
+RevokeScaleChangeNotifications;code;api-ms-win-shcore-scaling-l1-1-1.dll;_RevokeScaleChangeNotifications@8
+RegisterScaleChangeNotifications;code;api-ms-win-shcore-scaling-l1-1-1.dll;_RegisterScaleChangeNotifications@16
+RegisterScaleChangeEvent;code;api-ms-win-shcore-scaling-l1-1-1.dll;_RegisterScaleChangeEvent@8
+GetScaleFactorForMonitor;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetScaleFactorForMonitor@8
+GetScaleFactorForDevice;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetScaleFactorForDevice@4
+GetProcessDpiAwareness;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetProcessDpiAwareness@8
+GetDpiForMonitor;code;api-ms-win-shcore-scaling-l1-1-1.dll;_GetDpiForMonitor@16
+CreateStreamOverRandomAccessStream;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateStreamOverRandomAccessStream@12
+CreateRandomAccessStreamOverStream;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateRandomAccessStreamOverStream@16
+CreateRandomAccessStreamOnFile;code;api-ms-win-shcore-stream-winrt-l1-1-0.dll;_CreateRandomAccessStreamOnFile@16

@@ -1,5 +1,12 @@
 Name;Type;DLL;SymbolOrOrdinal
+GetPortFromUrlScheme;code;urlmon.dll;?GetPortFromUrlScheme@@YAHKPEAK@Z (int __cdecl GetPortFromUrlScheme(unsigned long,unsigned long *))
+GetPropertyFromName;code;urlmon.dll;?GetPropertyFromName@@YAHPEBGPEAW4__MIDL_IUri_0001@@@Z (int __cdecl GetPropertyFromName(unsigned short const *,enum __MIDL_IUri_0001 *))
+GetPropertyName;code;urlmon.dll;?GetPropertyName@@YAPEBGW4__MIDL_IUri_0001@@@Z (unsigned short const * __cdecl GetPropertyName(enum __MIDL_IUri_0001))
+?IECompatLogCSSFix@@YAXPEBG0K@Z (void __cdecl IECompatLogCSSFix(unsigned short const *,unsigned short const *,unsigned long));code;urlmon.dll;322
+IsDWORDProperty;code;urlmon.dll;?IsDWORDProperty@@YAHW4__MIDL_IUri_0001@@@Z (int __cdecl IsDWORDProperty(enum __MIDL_IUri_0001))
+IsStringProperty;code;urlmon.dll;?IsStringProperty@@YAHW4__MIDL_IUri_0001@@@Z (int __cdecl IsStringProperty(enum __MIDL_IUri_0001))
 BindAsyncMoniker;code;urlmon.dll;
+CORPolicyProvider;code;urlmon.dll;
 CoGetClassObjectFromURL;code;urlmon.dll;
 CoInternetCanonicalizeIUri;code;urlmon.dll;
 CoInternetCombineIUri;code;urlmon.dll;
@@ -44,10 +51,8 @@ GetClassFileOrMime;code;urlmon.dll;
 GetClassURL;code;urlmon.dll;
 GetComponentIDFromCLSSPEC;code;urlmon.dll;
 GetIUriPriv;code;urlmon.dll;
+GetIUriPriv2;code;urlmon.dll;
 GetLabelsFromNamedHost;code;urlmon.dll;
-GetPortFromUrlScheme;code;urlmon.dll;
-GetPropertyFromName;code;urlmon.dll;
-GetPropertyName;code;urlmon.dll;
 GetSoftwareUpdateInfo;code;urlmon.dll;
 HlinkGoBack;code;urlmon.dll;
 HlinkGoForward;code;urlmon.dll;
@@ -55,13 +60,12 @@ HlinkNavigateMoniker;code;urlmon.dll;
 HlinkNavigateString;code;urlmon.dll;
 HlinkSimpleNavigateToMoniker;code;urlmon.dll;
 HlinkSimpleNavigateToString;code;urlmon.dll;
+IEGetUserPrivateNamespaceName;code;urlmon.dll;
 IEInstallScope;code;urlmon.dll;
 IsAsyncMoniker;code;urlmon.dll;
-IsDWORDProperty;code;urlmon.dll;
 IsJITInProgress;code;urlmon.dll;
 IsLoggingEnabledA;code;urlmon.dll;
 IsLoggingEnabledW;code;urlmon.dll;
-IsStringProperty;code;urlmon.dll;
 IsValidURL;code;urlmon.dll;
 MkParseDisplayNameEx;code;urlmon.dll;
 ObtainUserAgentString;code;urlmon.dll;
@@ -72,6 +76,7 @@ RegisterMediaTypes;code;urlmon.dll;
 ReleaseBindInfo;code;urlmon.dll;
 RevokeBindStatusCallback;code;urlmon.dll;
 RevokeFormatEnumerator;code;urlmon.dll;
+SetAccessForIEAppContainer;code;urlmon.dll;
 SetSoftwareUpdateAdvertisementState;code;urlmon.dll;
 URLDownloadA;code;urlmon.dll;
 URLDownloadToCacheFileA;code;urlmon.dll;

@@ -18,10 +18,14 @@ DwmIsCompositionEnabled;code;dwmapi.dll;_DwmIsCompositionEnabled@4
 DwmModifyPreviousDxFrameDuration;code;dwmapi.dll;_DwmModifyPreviousDxFrameDuration@12
 DwmQueryThumbnailSourceSize;code;dwmapi.dll;_DwmQueryThumbnailSourceSize@8
 DwmRegisterThumbnail;code;dwmapi.dll;_DwmRegisterThumbnail@12
+DwmRenderGesture;code;dwmapi.dll;_DwmRenderGesture@16
 DwmSetDxFrameDuration;code;dwmapi.dll;_DwmSetDxFrameDuration@8
 DwmSetIconicLivePreviewBitmap;code;dwmapi.dll;_DwmSetIconicLivePreviewBitmap@16
 DwmSetIconicThumbnail;code;dwmapi.dll;_DwmSetIconicThumbnail@12
 DwmSetPresentParameters;code;dwmapi.dll;_DwmSetPresentParameters@8
 DwmSetWindowAttribute;code;dwmapi.dll;_DwmSetWindowAttribute@16
+DwmShowContact;code;dwmapi.dll;_DwmShowContact@8
+DwmTetherContact;code;dwmapi.dll;_DwmTetherContact@16
+DwmTransitionOwnedWindow;code;dwmapi.dll;_DwmTransitionOwnedWindow@8
 DwmUnregisterThumbnail;code;dwmapi.dll;_DwmUnregisterThumbnail@4
 DwmUpdateThumbnailProperties;code;dwmapi.dll;_DwmUpdateThumbnailProperties@8
