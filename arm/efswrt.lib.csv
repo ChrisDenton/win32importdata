@@ -5,6 +5,7 @@ CdplIsAppDataProtectionSupported;code;efswrt.dll;
 CdplIsSupported;code;efswrt.dll;
 CdplProtectFileToLevel;code;efswrt.dll;
 CdplProtectFileToLevelWithResult;code;efswrt.dll;
+CdplProtectKnownUserFolders;code;efswrt.dll;
 CdplProtectSecretToLevel;code;efswrt.dll;
 CdplUnprotectSecret;code;efswrt.dll;
 DpmBufferFree;code;efswrt.dll;

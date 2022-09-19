@@ -1,4 +1,9 @@
 Name;Type;DLL;SymbolOrOrdinal
+BthpEnableA2DPIfPresent;code;BluetoothApis.dll;?BthpEnableA2DPIfPresent@@YAKPBU_BLUETOOTH_ADDRESS@@W4BTH_SDP_QUERY_TYPE@@@Z (unsigned long __cdecl BthpEnableA2DPIfPresent(struct _BLUETOOTH_ADDRESS const *,enum BTH_SDP_QUERY_TYPE))
+BthpIsConnectableByDefault;code;BluetoothApis.dll;?BthpIsConnectableByDefault@@YAHXZ (int __cdecl BthpIsConnectableByDefault(void))
+BthpSetServiceState;code;BluetoothApis.dll;?BthpSetServiceState@@YAKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEE@Z (unsigned long __cdecl BthpSetServiceState(void *,struct _BLUETOOTH_DEVICE_INFO const *,unsigned long,struct _GUID const *,unsigned long,void *,unsigned char,unsigned char,unsigned char))
+BthpSetServiceStateEx;code;BluetoothApis.dll;?BthpSetServiceStateEx@@YAKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEEE@Z (unsigned long __cdecl BthpSetServiceStateEx(void *,struct _BLUETOOTH_DEVICE_INFO const *,unsigned long,struct _GUID const *,unsigned long,void *,unsigned char,unsigned char,unsigned char,unsigned char))
+BthpTranspose32Bits;code;BluetoothApis.dll;?BthpTranspose32Bits@@YAII@Z (unsigned int __cdecl BthpTranspose32Bits(unsigned int))
 BluetoothAddressToString;code;BluetoothApis.dll;
 BluetoothDisconnectDevice;code;BluetoothApis.dll;
 BluetoothEnableDiscovery;code;BluetoothApis.dll;
@@ -71,7 +76,6 @@ BthpCleanupBRDeviceNode;code;BluetoothApis.dll;
 BthpCleanupDeviceLocalServices;code;BluetoothApis.dll;
 BthpCleanupDeviceRemoteServices;code;BluetoothApis.dll;
 BthpCleanupLEDeviceNodes;code;BluetoothApis.dll;
-BthpEnableA2DPIfPresent;code;BluetoothApis.dll;
 BthpEnableAllServices;code;BluetoothApis.dll;
 BthpEnableConnectableAndDiscoverable;code;BluetoothApis.dll;
 BthpEnableRadioSoftware;code;BluetoothApis.dll;
@@ -79,7 +83,6 @@ BthpFindPnpInfo;code;BluetoothApis.dll;
 BthpGATTCloseSession;code;BluetoothApis.dll;
 BthpInnerRecord;code;BluetoothApis.dll;
 BthpIsBluetoothServiceRunning;code;BluetoothApis.dll;
-BthpIsConnectableByDefault;code;BluetoothApis.dll;
 BthpIsDiscoverable;code;BluetoothApis.dll;
 BthpIsDiscoverableByDefault;code;BluetoothApis.dll;
 BthpIsRadioSoftwareEnabled;code;BluetoothApis.dll;
@@ -87,10 +90,7 @@ BthpIsTopOfServiceGroup;code;BluetoothApis.dll;
 BthpMapStatusToErr;code;BluetoothApis.dll;
 BthpNextRecord;code;BluetoothApis.dll;
 BthpRegisterForAuthentication;code;BluetoothApis.dll;
-BthpSetServiceState;code;BluetoothApis.dll;
-BthpSetServiceStateEx;code;BluetoothApis.dll;
 BthpTranspose16Bits;code;BluetoothApis.dll;
-BthpTranspose32Bits;code;BluetoothApis.dll;
 BthpTransposeAndExtendBytes;code;BluetoothApis.dll;
 FindNextOpenVCOMPort;code;BluetoothApis.dll;
 InstallIncomingComPort;code;BluetoothApis.dll;

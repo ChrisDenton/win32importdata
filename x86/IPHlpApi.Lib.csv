@@ -114,6 +114,8 @@ GetIpStatisticsEx;code;IPHLPAPI.DLL;_GetIpStatisticsEx@8
 GetJobCompartmentId;code;IPHLPAPI.DLL;_GetJobCompartmentId@4
 GetMulticastIpAddressEntry;code;IPHLPAPI.DLL;_GetMulticastIpAddressEntry@4
 GetMulticastIpAddressTable;code;IPHLPAPI.DLL;_GetMulticastIpAddressTable@8
+GetNetworkConnectivityHint;code;IPHLPAPI.DLL;_GetNetworkConnectivityHint@4
+GetNetworkConnectivityHintForInterface;code;IPHLPAPI.DLL;_GetNetworkConnectivityHintForInterface@8
 GetNetworkInformation;code;IPHLPAPI.DLL;_GetNetworkInformation@20
 GetNetworkParams;code;IPHLPAPI.DLL;_GetNetworkParams@8
 GetNumberOfInterfaces;code;IPHLPAPI.DLL;_GetNumberOfInterfaces@4
@@ -165,6 +167,7 @@ InternalCreateIpForwardEntry2;code;IPHLPAPI.DLL;_InternalCreateIpForwardEntry2@8
 InternalCreateIpForwardEntry;code;IPHLPAPI.DLL;_InternalCreateIpForwardEntry@4
 InternalCreateIpNetEntry2;code;IPHLPAPI.DLL;_InternalCreateIpNetEntry2@8
 InternalCreateIpNetEntry;code;IPHLPAPI.DLL;_InternalCreateIpNetEntry@4
+InternalCreateOrRefIpForwardEntry2;code;IPHLPAPI.DLL;_InternalCreateOrRefIpForwardEntry2@8
 InternalCreateUnicastIpAddressEntry;code;IPHLPAPI.DLL;_InternalCreateUnicastIpAddressEntry@8
 InternalDeleteAnycastIpAddressEntry;code;IPHLPAPI.DLL;_InternalDeleteAnycastIpAddressEntry@8
 InternalDeleteIpForwardEntry2;code;IPHLPAPI.DLL;_InternalDeleteIpForwardEntry2@8
@@ -236,6 +239,7 @@ NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
 NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
+NotifyNetworkConnectivityHintChange;code;IPHLPAPI.DLL;_NotifyNetworkConnectivityHintChange@16
 NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
 NotifyRouteChange;code;IPHLPAPI.DLL;_NotifyRouteChange@8
 NotifyStableUnicastIpAddressTable;code;IPHLPAPI.DLL;_NotifyStableUnicastIpAddressTable@20

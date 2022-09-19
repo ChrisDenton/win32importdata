@@ -12,6 +12,7 @@ PrjDetachDriver;code;PROJECTEDFSLIB.dll;_PrjDetachDriver@4
 PrjDoesNameContainWildCards;code;PROJECTEDFSLIB.dll;_PrjDoesNameContainWildCards@4
 PrjFileNameCompare;code;PROJECTEDFSLIB.dll;_PrjFileNameCompare@8
 PrjFileNameMatch;code;PROJECTEDFSLIB.dll;_PrjFileNameMatch@8
+PrjFillDirEntryBuffer2;code;PROJECTEDFSLIB.dll;_PrjFillDirEntryBuffer2@16
 PrjFillDirEntryBuffer;code;PROJECTEDFSLIB.dll;_PrjFillDirEntryBuffer@12
 PrjFreeAlignedBuffer;code;PROJECTEDFSLIB.dll;_PrjFreeAlignedBuffer@4
 PrjGetOnDiskFileState;code;PROJECTEDFSLIB.dll;_PrjGetOnDiskFileState@8
@@ -29,6 +30,7 @@ PrjUpdateFileIfNeeded;code;PROJECTEDFSLIB.dll;_PrjUpdateFileIfNeeded@24
 PrjUpdatePlaceholderIfNeeded;code;PROJECTEDFSLIB.dll;_PrjUpdatePlaceholderIfNeeded@24
 PrjWriteFile;code;PROJECTEDFSLIB.dll;_PrjWriteFile@24
 PrjWriteFileData;code;PROJECTEDFSLIB.dll;_PrjWriteFileData@24
+PrjWritePlaceholderInfo2;code;PROJECTEDFSLIB.dll;_PrjWritePlaceholderInfo2@20
 PrjWritePlaceholderInfo;code;PROJECTEDFSLIB.dll;_PrjWritePlaceholderInfo@16
 PrjWritePlaceholderInformation;code;PROJECTEDFSLIB.dll;_PrjWritePlaceholderInformation@16
 PrjpReadPrjReparsePointData;code;PROJECTEDFSLIB.dll;_PrjpReadPrjReparsePointData@16

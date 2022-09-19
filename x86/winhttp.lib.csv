@@ -2,6 +2,7 @@ Name;Type;DLL;SymbolOrOrdinal
 WinHttpPacJsWorkerMain;code;WINHTTP.dll;?WinHttpPacJsWorkerMain@@YGKPBG0@Z (unsigned long __stdcall WinHttpPacJsWorkerMain(unsigned short const *,unsigned short const *))
 SvchostPushServiceGlobals;code;WINHTTP.dll;_SvchostPushServiceGlobals@4
 WinHttpAddRequestHeaders;code;WINHTTP.dll;_WinHttpAddRequestHeaders@16
+WinHttpAddRequestHeadersEx;code;WINHTTP.dll;_WinHttpAddRequestHeadersEx@32
 WinHttpAutoProxySvcMain;code;WINHTTP.dll;_WinHttpAutoProxySvcMain@8
 WinHttpCheckPlatform;code;WINHTTP.dll;_WinHttpCheckPlatform@0
 WinHttpCloseHandle;code;WINHTTP.dll;_WinHttpCloseHandle@4
@@ -51,6 +52,7 @@ WinHttpSendRequest;code;WINHTTP.dll;_WinHttpSendRequest@28
 WinHttpSetCredentials;code;WINHTTP.dll;_WinHttpSetCredentials@24
 WinHttpSetDefaultProxyConfiguration;code;WINHTTP.dll;_WinHttpSetDefaultProxyConfiguration@4
 WinHttpSetOption;code;WINHTTP.dll;_WinHttpSetOption@16
+WinHttpSetProxySettingsPerUser;code;WINHTTP.dll;_WinHttpSetProxySettingsPerUser@4
 WinHttpSetStatusCallback;code;WINHTTP.dll;_WinHttpSetStatusCallback@16
 WinHttpSetTimeouts;code;WINHTTP.dll;_WinHttpSetTimeouts@20
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;_WinHttpTimeFromSystemTime@8

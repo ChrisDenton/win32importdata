@@ -13,3 +13,5 @@ DebugSetLevel;code;d3d9.dll;_DebugSetLevel
 DebugSetMute;code;d3d9.dll;_DebugSetMute
 Direct3DCreate9;code;d3d9.dll;_Direct3DCreate9@4
 Direct3DCreate9Ex;code;d3d9.dll;_Direct3DCreate9Ex@8
+_Direct3DCreate9On12@12;code;d3d9.dll;20
+_Direct3DCreate9On12Ex@16;code;d3d9.dll;21

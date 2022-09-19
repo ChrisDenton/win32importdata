@@ -105,7 +105,6 @@ D3DKMTCreateProtectedSession;code;GDI32.dll;_D3DKMTCreateProtectedSession@4
 D3DKMTCreateSwapChain;code;GDI32.dll;_D3DKMTCreateSwapChain@4
 D3DKMTCreateSynchronizationObject2;code;GDI32.dll;_D3DKMTCreateSynchronizationObject2@4
 D3DKMTCreateSynchronizationObject;code;GDI32.dll;_D3DKMTCreateSynchronizationObject@4
-D3DKMTCreateTrackedWorkload;code;GDI32.dll;_D3DKMTCreateTrackedWorkload@4
 D3DKMTDDisplayEnum;code;GDI32.dll;_D3DKMTDDisplayEnum@4
 D3DKMTDestroyAllocation2;code;GDI32.dll;_D3DKMTDestroyAllocation2@4
 D3DKMTDestroyAllocation;code;GDI32.dll;_D3DKMTDestroyAllocation@4
@@ -120,11 +119,10 @@ D3DKMTDestroyOverlay;code;GDI32.dll;_D3DKMTDestroyOverlay@4
 D3DKMTDestroyPagingQueue;code;GDI32.dll;_D3DKMTDestroyPagingQueue@4
 D3DKMTDestroyProtectedSession;code;GDI32.dll;_D3DKMTDestroyProtectedSession@4
 D3DKMTDestroySynchronizationObject;code;GDI32.dll;_D3DKMTDestroySynchronizationObject@4
-D3DKMTDestroyTrackedWorkload;code;GDI32.dll;_D3DKMTDestroyTrackedWorkload@4
 D3DKMTDispMgrCreate;code;GDI32.dll;_D3DKMTDispMgrCreate@4
 D3DKMTDispMgrSourceOperation;code;GDI32.dll;_D3DKMTDispMgrSourceOperation@4
 D3DKMTDispMgrTargetOperation;code;GDI32.dll;_D3DKMTDispMgrTargetOperation@4
-D3DKMTEndTrackedWorkload;code;GDI32.dll;_D3DKMTEndTrackedWorkload@4
+D3DKMTDuplicateHandle;code;GDI32.dll;_D3DKMTDuplicateHandle@4
 D3DKMTEnumAdapters2;code;GDI32.dll;_D3DKMTEnumAdapters2@4
 D3DKMTEnumAdapters;code;GDI32.dll;_D3DKMTEnumAdapters@4
 D3DKMTEscape;code;GDI32.dll;_D3DKMTEscape@4
@@ -134,7 +132,6 @@ D3DKMTFlipOverlay;code;GDI32.dll;_D3DKMTFlipOverlay@4
 D3DKMTFlushHeapTransitions;code;GDI32.dll;_D3DKMTFlushHeapTransitions@4
 D3DKMTFreeGpuVirtualAddress;code;GDI32.dll;_D3DKMTFreeGpuVirtualAddress@4
 D3DKMTGetAllocationPriority;code;GDI32.dll;_D3DKMTGetAllocationPriority@4
-D3DKMTGetAvailableTrackedWorkloadIndex;code;GDI32.dll;_D3DKMTGetAvailableTrackedWorkloadIndex@4
 D3DKMTGetCachedHybridQueryValue;code;GDI32.dll;_D3DKMTGetCachedHybridQueryValue@4
 D3DKMTGetContextInProcessSchedulingPriority;code;GDI32.dll;_D3DKMTGetContextInProcessSchedulingPriority@4
 D3DKMTGetContextSchedulingPriority;code;GDI32.dll;_D3DKMTGetContextSchedulingPriority@4
@@ -158,7 +155,6 @@ D3DKMTGetScanLine;code;GDI32.dll;_D3DKMTGetScanLine@4
 D3DKMTGetSetSwapChainMetadata;code;GDI32.dll;_D3DKMTGetSetSwapChainMetadata@4
 D3DKMTGetSharedPrimaryHandle;code;GDI32.dll;_D3DKMTGetSharedPrimaryHandle@4
 D3DKMTGetSharedResourceAdapterLuid;code;GDI32.dll;_D3DKMTGetSharedResourceAdapterLuid@4
-D3DKMTGetTrackedWorkloadStatistics;code;GDI32.dll;_D3DKMTGetTrackedWorkloadStatistics@4
 D3DKMTGetYieldPercentage;code;GDI32.dll;_D3DKMTGetYieldPercentage@4
 D3DKMTInvalidateActiveVidPn;code;GDI32.dll;_D3DKMTInvalidateActiveVidPn@4
 D3DKMTInvalidateCache;code;GDI32.dll;_D3DKMTInvalidateCache@4
@@ -199,6 +195,7 @@ D3DKMTOutputDuplGetPointerShapeData;code;GDI32.dll;_D3DKMTOutputDuplGetPointerSh
 D3DKMTOutputDuplPresent;code;GDI32.dll;_D3DKMTOutputDuplPresent@4
 D3DKMTOutputDuplReleaseFrame;code;GDI32.dll;_D3DKMTOutputDuplReleaseFrame@4
 D3DKMTPinDirectFlipResources;code;GDI32.dll;_D3DKMTPinDirectFlipResources@4
+D3DKMTPinResources;code;GDI32.dll;_D3DKMTPinResources@4
 D3DKMTPollDisplayChildren;code;GDI32.dll;_D3DKMTPollDisplayChildren@4
 D3DKMTPresent;code;GDI32.dll;_D3DKMTPresent@4
 D3DKMTPresentMultiPlaneOverlay2;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay2@4
@@ -229,7 +226,6 @@ D3DKMTReleaseSwapChain;code;GDI32.dll;_D3DKMTReleaseSwapChain@4
 D3DKMTRemoveSurfaceFromSwapChain;code;GDI32.dll;_D3DKMTRemoveSurfaceFromSwapChain@4
 D3DKMTRender;code;GDI32.dll;_D3DKMTRender@4
 D3DKMTReserveGpuVirtualAddress;code;GDI32.dll;_D3DKMTReserveGpuVirtualAddress@4
-D3DKMTResetTrackedWorkload;code;GDI32.dll;_D3DKMTResetTrackedWorkload@4
 D3DKMTSetAllocationPriority;code;GDI32.dll;_D3DKMTSetAllocationPriority@4
 D3DKMTSetContextInProcessSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextInProcessSchedulingPriority@4
 D3DKMTSetContextSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextSchedulingPriority@4
@@ -270,11 +266,11 @@ D3DKMTUnOrderedPresentSwapChain;code;GDI32.dll;_D3DKMTUnOrderedPresentSwapChain@
 D3DKMTUnlock2;code;GDI32.dll;_D3DKMTUnlock2@4
 D3DKMTUnlock;code;GDI32.dll;_D3DKMTUnlock@4
 D3DKMTUnpinDirectFlipResources;code;GDI32.dll;_D3DKMTUnpinDirectFlipResources@4
+D3DKMTUnpinResources;code;GDI32.dll;_D3DKMTUnpinResources@4
 D3DKMTUnregisterTrimNotification;code;GDI32.dll;_D3DKMTUnregisterTrimNotification@4
 D3DKMTUpdateAllocationProperty;code;GDI32.dll;_D3DKMTUpdateAllocationProperty@4
 D3DKMTUpdateGpuVirtualAddress;code;GDI32.dll;_D3DKMTUpdateGpuVirtualAddress@4
 D3DKMTUpdateOverlay;code;GDI32.dll;_D3DKMTUpdateOverlay@4
-D3DKMTUpdateTrackedWorkload;code;GDI32.dll;_D3DKMTUpdateTrackedWorkload@4
 D3DKMTVailConnect;code;GDI32.dll;_D3DKMTVailConnect@0
 D3DKMTVailDisconnect;code;GDI32.dll;_D3DKMTVailDisconnect@0
 D3DKMTVailPromoteCompositionSurface;code;GDI32.dll;_D3DKMTVailPromoteCompositionSurface@8
@@ -295,6 +291,7 @@ DescribePixelFormat;code;GDI32.dll;_DescribePixelFormat@16
 DeviceCapabilitiesExA;code;GDI32.dll;_DeviceCapabilitiesExA@24
 DeviceCapabilitiesExW;code;GDI32.dll;_DeviceCapabilitiesExW@24
 DrawEscape;code;GDI32.dll;_DrawEscape@16
+DxTrimNotificationListHead;data;GDI32.dll;_DxTrimNotificationListHead
 Ellipse;code;GDI32.dll;_Ellipse@20
 EnableEUDC;code;GDI32.dll;_EnableEUDC@4
 EndDoc;code;GDI32.dll;_EndDoc@4
@@ -478,6 +475,8 @@ LineTo;code;GDI32.dll;_LineTo@12
 LpkEditControl;code;GDI32.dll;_LpkEditControl
 LpkpEditControlSize;data;GDI32.dll;_LpkpEditControlSize
 MaskBlt;code;GDI32.dll;_MaskBlt@48
+ModerncoreCreateICW;code;GDI32.dll;_ModerncoreCreateICW@16
+ModerncoreDeleteDC;code;GDI32.dll;_ModerncoreDeleteDC@4
 ModerncoreGdiInit;code;GDI32.dll;_ModerncoreGdiInit@0
 ModifyWorldTransform;code;GDI32.dll;_ModifyWorldTransform@12
 MoveToEx;code;GDI32.dll;_MoveToEx@16
@@ -604,3 +603,4 @@ ghICM;data;GDI32.dll;_ghICM
 pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps
 pGdiSharedHandleTable;data;GDI32.dll;_pGdiSharedHandleTable
 pGdiSharedMemory;data;GDI32.dll;_pGdiSharedMemory
+semDxTrimNotification;data;GDI32.dll;_semDxTrimNotification

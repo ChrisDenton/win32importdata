@@ -7,10 +7,6 @@ HPALETTE_UserFreeExt;code;ole32.dll;?HPALETTE_UserFreeExt@@YAXPAKPAPAUHPALETTE__
 HPALETTE_UserMarshalExt;code;ole32.dll;?HPALETTE_UserMarshalExt@@YAPAEPAKPAEPAPAUHPALETTE__@@@Z (unsigned char * __cdecl HPALETTE_UserMarshalExt(unsigned long *,unsigned char *,struct HPALETTE__ * *))
 HPALETTE_UserSizeExt;code;ole32.dll;?HPALETTE_UserSizeExt@@YAKPAKKPAPAUHPALETTE__@@@Z (unsigned long __cdecl HPALETTE_UserSizeExt(unsigned long *,unsigned long,struct HPALETTE__ * *))
 HPALETTE_UserUnmarshalExt;code;ole32.dll;?HPALETTE_UserUnmarshalExt@@YAPAEPAKPAEPAPAUHPALETTE__@@@Z (unsigned char * __cdecl HPALETTE_UserUnmarshalExt(unsigned long *,unsigned char *,struct HPALETTE__ * *))
-HRGN_UserFree;code;ole32.dll;?HRGN_UserFree@@YAXPAKPAPAUHRGN__@@@Z (void __cdecl HRGN_UserFree(unsigned long *,struct HRGN__ * *))
-HRGN_UserMarshal;code;ole32.dll;?HRGN_UserMarshal@@YAPAEPAKPAEPAPAUHRGN__@@@Z (unsigned char * __cdecl HRGN_UserMarshal(unsigned long *,unsigned char *,struct HRGN__ * *))
-HRGN_UserSize;code;ole32.dll;?HRGN_UserSize@@YAKPAKKPAPAUHRGN__@@@Z (unsigned long __cdecl HRGN_UserSize(unsigned long *,unsigned long,struct HRGN__ * *))
-HRGN_UserUnmarshal;code;ole32.dll;?HRGN_UserUnmarshal@@YAPAEPAKPAEPAPAUHRGN__@@@Z (unsigned char * __cdecl HRGN_UserUnmarshal(unsigned long *,unsigned char *,struct HRGN__ * *))
 HWND_UserFreeExt;code;ole32.dll;?HWND_UserFreeExt@@YAXPAKPAPAUHWND__@@@Z (void __cdecl HWND_UserFreeExt(unsigned long *,struct HWND__ * *))
 HWND_UserMarshalExt;code;ole32.dll;?HWND_UserMarshalExt@@YAPAEPAKPAEPAPAUHWND__@@@Z (unsigned char * __cdecl HWND_UserMarshalExt(unsigned long *,unsigned char *,struct HWND__ * *))
 HWND_UserSizeExt;code;ole32.dll;?HWND_UserSizeExt@@YAKPAKKPAPAUHWND__@@@Z (unsigned long __cdecl HWND_UserSizeExt(unsigned long *,unsigned long,struct HWND__ * *))
@@ -234,6 +230,10 @@ HPALETTE_UserFree;code;ole32.dll;
 HPALETTE_UserMarshal;code;ole32.dll;
 HPALETTE_UserSize;code;ole32.dll;
 HPALETTE_UserUnmarshal;code;ole32.dll;
+HRGN_UserFree;code;ole32.dll;
+HRGN_UserMarshal;code;ole32.dll;
+HRGN_UserSize;code;ole32.dll;
+HRGN_UserUnmarshal;code;ole32.dll;
 HWND_UserFree;code;ole32.dll;
 HWND_UserMarshal;code;ole32.dll;
 HWND_UserSize;code;ole32.dll;

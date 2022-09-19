@@ -2115,12 +2115,14 @@ DllMain;code;NTLANMAN.dll;
 I_SystemFocusDialog;code;NTLANMAN.dll;
 NPAddConnection;code;NTLANMAN.dll;17
 NPAddConnection3;code;NTLANMAN.dll;38
+NPAddConnection4;code;NTLANMAN.dll;55
 NPCancelConnection;code;NTLANMAN.dll;18
 NPCloseEnum;code;NTLANMAN.dll;35
 NPFormatNetworkName;code;NTLANMAN.dll;36
 NPGetCaps;code;NTLANMAN.dll;13
 NPGetConnection3;code;NTLANMAN.dll;54
 NPGetConnectionPerformance;code;NTLANMAN.dll;49
+NPGetPersistentUseOptionsForConnection;code;NTLANMAN.dll;56
 NPGetResourceInformation;code;NTLANMAN.dll;52
 NPGetResourceParent;code;NTLANMAN.dll;41
 NPGetUser;code;NTLANMAN.dll;16
@@ -2533,7 +2535,7 @@ WerpArchiveReport;code;wer.dll;?WerpArchiveReport@@YAJPEAXPEBGHPEAPEAXPEAH@Z (lo
 WerpCancelUpload;code;wer.dll;?WerpCancelUpload@@YAJPEAX@Z (long __cdecl WerpCancelUpload(void *))
 WerpCleanWer;code;wer.dll;?WerpCleanWer@@YAJXZ (long __cdecl WerpCleanWer(void))
 WerpCloseStore;code;wer.dll;?WerpCloseStore@@YAXPEAX@Z (void __cdecl WerpCloseStore(void *))
-WerpCreateMachineStore;code;wer.dll;?WerpCreateMachineStore@@YAJXZ (long __cdecl WerpCreateMachineStore(void))
+WerpCreateMachineStore;code;wer.dll;?WerpCreateMachineStore@@YAJPEAPEAX@Z (long __cdecl WerpCreateMachineStore(void * *))
 WerpDeleteReport;code;wer.dll;?WerpDeleteReport@@YAJPEAXPEBG@Z (long __cdecl WerpDeleteReport(void *,unsigned short const *))
 WerpDestroyWerString;code;wer.dll;?WerpDestroyWerString@@YAXPEAPEAX@Z (void __cdecl WerpDestroyWerString(void * *))
 WerpEnumerateStoreNext;code;wer.dll;?WerpEnumerateStoreNext@@YAJPEAXPEAPEAX@Z (long __cdecl WerpEnumerateStoreNext(void *,void * *))
@@ -2541,7 +2543,6 @@ WerpEnumerateStoreStart;code;wer.dll;?WerpEnumerateStoreStart@@YAJPEAX@Z (long _
 WerpFlushImageCache;code;wer.dll;?WerpFlushImageCache@@YAKPEAU_WERP_IMAGE_CACHE@@K@Z (unsigned long __cdecl WerpFlushImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))
 WerpForceDeferredCollection;code;wer.dll;?WerpForceDeferredCollection@@YAKPEAXP6AX0KPEBGPEAD@Z0@Z (unsigned long __cdecl WerpForceDeferredCollection(void *,void (__cdecl*)(void *,unsigned long,unsigned short const *,char *),void *))
 WerpFreeUnmappedVaRanges;code;wer.dll;?WerpFreeUnmappedVaRanges@@YAXPEAU_WERP_UNMAPPED_VA_RANGES@@@Z (void __cdecl WerpFreeUnmappedVaRanges(struct _WERP_UNMAPPED_VA_RANGES *))
-WerpGetAADTenantInfo;code;wer.dll;?WerpGetAADTenantInfo@@YAJAEAVCString@@@Z (long __cdecl WerpGetAADTenantInfo(class CString &))
 WerpGetBucketId;code;wer.dll;?WerpGetBucketId@@YAJPEAXPEAPEAX@Z (long __cdecl WerpGetBucketId(void *,void * *))
 WerpGetDynamicParameter;code;wer.dll;?WerpGetDynamicParameter@@YAJPEAXKPEAPEBG1@Z (long __cdecl WerpGetDynamicParameter(void *,unsigned long,unsigned short const * *,unsigned short const * *))
 WerpGetEventType;code;wer.dll;?WerpGetEventType@@YAJPEAXPEAPEBG@Z (long __cdecl WerpGetEventType(void *,unsigned short const * *))
@@ -2553,6 +2554,7 @@ WerpGetLoadedModuleByIndex;code;wer.dll;?WerpGetLoadedModuleByIndex@@YAJPEAXKPEA
 WerpGetNumFiles;code;wer.dll;?WerpGetNumFiles@@YAJPEAXPEAK@Z (long __cdecl WerpGetNumFiles(void *,unsigned long *))
 WerpGetNumLoadedModules;code;wer.dll;?WerpGetNumLoadedModules@@YAJPEAXPEAK@Z (long __cdecl WerpGetNumLoadedModules(void *,unsigned long *))
 WerpGetNumSigParams;code;wer.dll;?WerpGetNumSigParams@@YAJPEAXPEAK@Z (long __cdecl WerpGetNumSigParams(void *,unsigned long *))
+WerpGetPathOfWERTempDirectory;code;wer.dll;?WerpGetPathOfWERTempDirectory@@YAJPEAGK@Z (long __cdecl WerpGetPathOfWERTempDirectory(unsigned short *,unsigned long))
 WerpGetReportCount;code;wer.dll;?WerpGetReportCount@@YAJPEAXPEAK@Z (long __cdecl WerpGetReportCount(void *,unsigned long *))
 WerpGetReportFinalConsent;code;wer.dll;?WerpGetReportFinalConsent@@YAJPEAXPEAW4_CONSENT_SETTING@@@Z (long __cdecl WerpGetReportFinalConsent(void *,enum _CONSENT_SETTING *))
 WerpGetReportFlags;code;wer.dll;?WerpGetReportFlags@@YAJPEAXPEAK@Z (long __cdecl WerpGetReportFlags(void *,unsigned long *))
@@ -2580,11 +2582,11 @@ WerpOpenMachineQueue;code;wer.dll;?WerpOpenMachineQueue@@YAJPEAPEAX@Z (long __cd
 WerpPromptUser;code;wer.dll;?WerpPromptUser@@YAJPEAXPEAUHWND__@@PEAU_WER_USER_PROMPT_INPUT@@PEAH@Z (long __cdecl WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))
 WerpPruneStore;code;wer.dll;?WerpPruneStore@@YAJPEAX@Z (long __cdecl WerpPruneStore(void *))
 WerpReportCancel;code;wer.dll;?WerpReportCancel@@YAJPEAX@Z (long __cdecl WerpReportCancel(void *))
+WerpReportSetMaxProcessHoldMilliseconds;code;wer.dll;?WerpReportSetMaxProcessHoldMilliseconds@@YAJPEAXK@Z (long __cdecl WerpReportSetMaxProcessHoldMilliseconds(void *,unsigned long))
 WerpReportSprintfParameter;code;wer.dll;?WerpReportSprintfParameter@@YAJPEAXKPEAUHINSTANCE__@@IPEBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))
 WerpReserveMachineQueueReportDir;code;wer.dll;?WerpReserveMachineQueueReportDir@@YAJPEAXPEAGK@Z (long __cdecl WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))
 WerpResetTransientImageCacheStatistics;code;wer.dll;?WerpResetTransientImageCacheStatistics@@YAXPEAU_WERP_IMAGE_CACHE@@@Z (void __cdecl WerpResetTransientImageCacheStatistics(struct _WERP_IMAGE_CACHE *))
 WerpRestartApplication;code;wer.dll;?WerpRestartApplication@@YAJPEAXPEBG1PEAH2@Z (long __cdecl WerpRestartApplication(void *,unsigned short const *,unsigned short const *,int *,int *))
-WerpSetAADTenantInfo;code;wer.dll;?WerpSetAADTenantInfo@@YAJXZ (long __cdecl WerpSetAADTenantInfo(void))
 WerpSetDynamicParameter;code;wer.dll;?WerpSetDynamicParameter@@YAJPEAXKPEBG1@Z (long __cdecl WerpSetDynamicParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
 WerpSetEventName;code;wer.dll;?WerpSetEventName@@YAJPEAXPEBG@Z (long __cdecl WerpSetEventName(void *,unsigned short const *))
 WerpSetProcessTimelines;code;wer.dll;?WerpSetProcessTimelines@@YAJPEAXPEBU_WER_PROCESS_TIMELINES@@K@Z (long __cdecl WerpSetProcessTimelines(void *,struct _WER_PROCESS_TIMELINES const *,unsigned long))
@@ -6319,7 +6321,7 @@ UninstallMigration;code;WsmSvc.DLL;?UninstallMigration@@YAHPEAVIRequestContext@@
 ?UnregisterPolicyNotification@CWSManGroupPolicyManager@@AEAAHXZ;code;WsmSvc.DLL;
 ?Up@?$LoaderSerializer@VSubscriptionManager@@$01@@AEAAJXZ;code;WsmSvc.DLL;
 ?UpdateCredentialsInCredmanStore@CConfigManager@@SAHPEAVIRequestContext@@PEAG1@Z;code;WsmSvc.DLL;
-UpdateHttpsBinding;code;WsmSvc.DLL;?UpdateHttpsBinding@@YAHPEAVIRequestContext@@PEBG1PEAH@Z (int __cdecl UpdateHttpsBinding(class IRequestContext *,unsigned short const *,unsigned short const *,int *))
+UpdateHttpsBinding;code;WsmSvc.DLL;?UpdateHttpsBinding@@YAHPEAVIRequestContext@@PEBG1PEAHHH@Z (int __cdecl UpdateHttpsBinding(class IRequestContext *,unsigned short const *,unsigned short const *,int *,int,int))
 UpdateHttpsCertificate;code;WsmSvc.DLL;?UpdateHttpsCertificate@@YAHPEAVIRequestContext@@PEBG11PEAHHU_GUID@@@Z (int __cdecl UpdateHttpsCertificate(class IRequestContext *,unsigned short const *,unsigned short const *,unsigned short const *,int *,int,struct _GUID))
 ?UpdateKey@CWSManResourceNoResourceUri@@QEAAHPEAVIRequestContext@@PEBG1@Z;code;WsmSvc.DLL;
 ?Uri@CResourceAlias@@QEAAPEBGXZ;code;WsmSvc.DLL;
@@ -6549,6 +6551,7 @@ BackupClusterDatabase;code;CLUSAPI.dll;
 CanResourceBeDependent;code;CLUSAPI.dll;
 CancelClusterGroupOperation;code;CLUSAPI.dll;
 ChangeClusterResourceGroup;code;CLUSAPI.dll;
+ChangeClusterResourceGroupEx;code;CLUSAPI.dll;
 CloseCluster;code;CLUSAPI.dll;
 CloseClusterGroup;code;CLUSAPI.dll;
 CloseClusterGroupSet;code;CLUSAPI.dll;
@@ -6564,13 +6567,16 @@ CluGetDriveInfo;code;CLUSAPI.dll;
 CluGetFaultDomainObject;code;CLUSAPI.dll;
 CluGetFaultDomainObjects;code;CLUSAPI.dll;
 CluRemoveFaultDomainObject;code;CLUSAPI.dll;
+ClusterAddGroupToAffinityRule;code;CLUSAPI.dll;
 ClusterAddGroupToGroupSet;code;CLUSAPI.dll;
 ClusterAddGroupToGroupSetWithDomains;code;CLUSAPI.dll;
+ClusterAffinityRuleControl;code;CLUSAPI.dll;
 ClusterCaptureLiveDump;code;CLUSAPI.dll;
 ClusterChangeVMSettings;code;CLUSAPI.dll;
 ClusterCloseEnum;code;CLUSAPI.dll;
 ClusterCloseEnumEx;code;CLUSAPI.dll;
 ClusterControl;code;CLUSAPI.dll;
+ClusterCreateAffinityRule;code;CLUSAPI.dll;
 ClusterCreateClusterStorageEnclosure;code;CLUSAPI.dll;
 ClusterCreateFaultDomain;code;CLUSAPI.dll;
 ClusterCreateFaultDomainFromXML;code;CLUSAPI.dll;
@@ -6663,8 +6669,10 @@ ClusterRegSetKeySecurity;code;CLUSAPI.dll;
 ClusterRegSetValue;code;CLUSAPI.dll;
 ClusterRegSetValueForceSync;code;CLUSAPI.dll;
 ClusterRegSyncDatabase;code;CLUSAPI.dll;
+ClusterRemoveAffinityRule;code;CLUSAPI.dll;
 ClusterRemoveClusterStorageEnclosure;code;CLUSAPI.dll;
 ClusterRemoveFaultDomain;code;CLUSAPI.dll;
+ClusterRemoveGroupFromAffinityRule;code;CLUSAPI.dll;
 ClusterRemoveGroupFromGroupSet;code;CLUSAPI.dll;
 ClusterResourceCloseEnum;code;CLUSAPI.dll;
 ClusterResourceCloseEnumEx;code;CLUSAPI.dll;
@@ -6923,6 +6931,7 @@ FreeClusterHealthFaultArray;code;RESUTILS.dll;
 InitializeClusterHealthFault;code;RESUTILS.dll;
 InitializeClusterHealthFaultArray;code;RESUTILS.dll;
 OpenClusterCryptProvider;code;RESUTILS.dll;
+OpenClusterCryptProviderEx;code;RESUTILS.dll;
 ResUtilAddUnknownProperties;code;RESUTILS.dll;
 ResUtilCreateDirectoryTree;code;RESUTILS.dll;
 ResUtilDupGroup;code;RESUTILS.dll;

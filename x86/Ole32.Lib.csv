@@ -7,10 +7,6 @@ HPALETTE_UserFreeExt;code;ole32.dll;?HPALETTE_UserFreeExt@@YGXPAKPAPAUHPALETTE__
 HPALETTE_UserMarshalExt;code;ole32.dll;?HPALETTE_UserMarshalExt@@YGPAEPAKPAEPAPAUHPALETTE__@@@Z (unsigned char * __stdcall HPALETTE_UserMarshalExt(unsigned long *,unsigned char *,struct HPALETTE__ * *))
 HPALETTE_UserSizeExt;code;ole32.dll;?HPALETTE_UserSizeExt@@YGKPAKKPAPAUHPALETTE__@@@Z (unsigned long __stdcall HPALETTE_UserSizeExt(unsigned long *,unsigned long,struct HPALETTE__ * *))
 HPALETTE_UserUnmarshalExt;code;ole32.dll;?HPALETTE_UserUnmarshalExt@@YGPAEPAKPAEPAPAUHPALETTE__@@@Z (unsigned char * __stdcall HPALETTE_UserUnmarshalExt(unsigned long *,unsigned char *,struct HPALETTE__ * *))
-HRGN_UserFree;code;ole32.dll;?HRGN_UserFree@@YGXPAKPAPAUHRGN__@@@Z (void __stdcall HRGN_UserFree(unsigned long *,struct HRGN__ * *))
-HRGN_UserMarshal;code;ole32.dll;?HRGN_UserMarshal@@YGPAEPAKPAEPAPAUHRGN__@@@Z (unsigned char * __stdcall HRGN_UserMarshal(unsigned long *,unsigned char *,struct HRGN__ * *))
-HRGN_UserSize;code;ole32.dll;?HRGN_UserSize@@YGKPAKKPAPAUHRGN__@@@Z (unsigned long __stdcall HRGN_UserSize(unsigned long *,unsigned long,struct HRGN__ * *))
-HRGN_UserUnmarshal;code;ole32.dll;?HRGN_UserUnmarshal@@YGPAEPAKPAEPAPAUHRGN__@@@Z (unsigned char * __stdcall HRGN_UserUnmarshal(unsigned long *,unsigned char *,struct HRGN__ * *))
 HWND_UserFreeExt;code;ole32.dll;?HWND_UserFreeExt@@YGXPAKPAPAUHWND__@@@Z (void __stdcall HWND_UserFreeExt(unsigned long *,struct HWND__ * *))
 HWND_UserMarshalExt;code;ole32.dll;?HWND_UserMarshalExt@@YGPAEPAKPAEPAPAUHWND__@@@Z (unsigned char * __stdcall HWND_UserMarshalExt(unsigned long *,unsigned char *,struct HWND__ * *))
 HWND_UserSizeExt;code;ole32.dll;?HWND_UserSizeExt@@YGKPAKKPAPAUHWND__@@@Z (unsigned long __stdcall HWND_UserSizeExt(unsigned long *,unsigned long,struct HWND__ * *))
@@ -234,6 +230,10 @@ HPALETTE_UserFree;code;ole32.dll;_HPALETTE_UserFree@8
 HPALETTE_UserMarshal;code;ole32.dll;_HPALETTE_UserMarshal@12
 HPALETTE_UserSize;code;ole32.dll;_HPALETTE_UserSize@12
 HPALETTE_UserUnmarshal;code;ole32.dll;_HPALETTE_UserUnmarshal@12
+HRGN_UserFree;code;ole32.dll;_HRGN_UserFree@8
+HRGN_UserMarshal;code;ole32.dll;_HRGN_UserMarshal@12
+HRGN_UserSize;code;ole32.dll;_HRGN_UserSize@12
+HRGN_UserUnmarshal;code;ole32.dll;_HRGN_UserUnmarshal@12
 HWND_UserFree;code;ole32.dll;_HWND_UserFree@8
 HWND_UserMarshal;code;ole32.dll;_HWND_UserMarshal@12
 HWND_UserSize;code;ole32.dll;_HWND_UserSize@12

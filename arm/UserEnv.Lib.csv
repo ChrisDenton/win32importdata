@@ -19,6 +19,7 @@ DeleteGroup;code;USERENV.dll;104
 DeleteLinkFile;code;USERENV.dll;122
 DeleteProfileA;code;USERENV.dll;
 DeleteProfileDirectory;code;USERENV.dll;202
+DeleteProfileDirectory2;code;USERENV.dll;219
 DeleteProfileW;code;USERENV.dll;
 DeriveAppContainerSidFromAppContainerName;code;USERENV.dll;
 DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName;code;USERENV.dll;

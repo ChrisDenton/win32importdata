@@ -4,8 +4,10 @@ WldpQueryWindowsLockdownMode;code;Wldp.dll;?WldpQueryWindowsLockdownMode@@YAJPAW
 WldpQueryWindowsLockdownRestriction;code;Wldp.dll;?WldpQueryWindowsLockdownRestriction@@YAJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))
 WldpSetWindowsLockdownRestriction;code;Wldp.dll;?WldpSetWindowsLockdownRestriction@@YAJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))
 WldpAddDeveloperCertificateForDynamicCodeTrust;code;Wldp.dll;
+WldpCheckDeviceEncryptionNotStarted;code;Wldp.dll;
 WldpCheckRetailConfiguration;code;Wldp.dll;
 WldpCheckSecurityWatermarkState;code;Wldp.dll;
+WldpCheckWcosDeviceEncryptionSecure;code;Wldp.dll;
 WldpDisableDeveloperMode;code;Wldp.dll;
 WldpEnableDeveloperMode;code;Wldp.dll;
 WldpGetLockdownPolicy;code;Wldp.dll;

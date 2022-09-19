@@ -2,4 +2,5 @@ Name;Type;DLL;SymbolOrOrdinal
 CreateHrtfApo;code;HrtfApo.dll;1
 CreateHrtfApoWithDatasetType;code;HrtfApo.dll;2
 CreateHrtfEngineFactory;code;HrtfApo.dll;3
+GetHrtfEngineMinFrameCount;code;HrtfApo.dll;5
 IsHrtfApoAvailable;code;HrtfApo.dll;4

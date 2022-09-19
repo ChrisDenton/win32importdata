@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+IsProcessInIsolatedWindowsEnvironment;code;IsolatedWindowsEnvironmentUtils.dll;_IsProcessInIsolatedWindowsEnvironment@4

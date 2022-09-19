@@ -158,6 +158,8 @@ CoRegisterActivationFilter;code;api-ms-win-core-com-l1-1-1.dll;_CoRegisterActiva
 RoGetAgileReference;code;api-ms-win-core-com-l1-1-1.dll;_RoGetAgileReference@16
 CLSIDFromProgIDEx;code;api-ms-win-core-com-l1-1-2.dll;_CLSIDFromProgIDEx@8
 CoFileTimeNow;code;api-ms-win-core-com-l1-1-2.dll;_CoFileTimeNow@4
+CoRegisterDeviceCatalog;code;api-ms-win-core-com-l1-1-3.dll;_CoRegisterDeviceCatalog@8
+CoRevokeDeviceCatalog;code;api-ms-win-core-com-l1-1-3.dll;_CoRevokeDeviceCatalog@4
 CreateILockBytesOnHGlobal;code;api-ms-win-core-com-l2-1-1.dll;_CreateILockBytesOnHGlobal@12
 FmtIdToPropStgName;code;api-ms-win-core-com-l2-1-1.dll;_FmtIdToPropStgName@8
 GetConvertStg;code;api-ms-win-core-com-l2-1-1.dll;_GetConvertStg@4
@@ -848,6 +850,8 @@ EnumSystemGeoNames;code;api-ms-win-core-localization-l1-2-3.dll;_EnumSystemGeoNa
 GetGeoInfoEx;code;api-ms-win-core-localization-l1-2-3.dll;_GetGeoInfoEx@16
 GetUserDefaultGeoName;code;api-ms-win-core-localization-l1-2-3.dll;_GetUserDefaultGeoName@8
 SetUserGeoName;code;api-ms-win-core-localization-l1-2-3.dll;_SetUserGeoName@4
+RestoreThreadPreferredUILanguages;code;api-ms-win-core-localization-l1-2-4.dll;_RestoreThreadPreferredUILanguages@4
+SetThreadPreferredUILanguages2;code;api-ms-win-core-localization-l1-2-4.dll;_SetThreadPreferredUILanguages2@16
 EnumCalendarInfoExEx;code;api-ms-win-core-localization-l2-1-0.dll;_EnumCalendarInfoExEx@24
 EnumCalendarInfoExW;code;api-ms-win-core-localization-l2-1-0.dll;_EnumCalendarInfoExW@16
 EnumCalendarInfoW;code;api-ms-win-core-localization-l2-1-0.dll;_EnumCalendarInfoW@16
@@ -1127,6 +1131,8 @@ SetProcessInformation;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetProcess
 SetThreadDescription;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetThreadDescription@8
 SetThreadIdealProcessor;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetThreadIdealProcessor@8
 SetThreadSelectedCpuSets;code;api-ms-win-core-processthreads-l1-1-3.dll;_SetThreadSelectedCpuSets@12
+SetProcessDynamicEHContinuationTargets;code;api-ms-win-core-processthreads-l1-1-4.dll;_SetProcessDynamicEHContinuationTargets@12
+SetProcessDynamicEnforcedCetCompatibleRanges;code;api-ms-win-core-processthreads-l1-1-4.dll;_SetProcessDynamicEnforcedCetCompatibleRanges@12
 GetProcessGroupAffinity;code;api-ms-win-core-processtopology-l1-1-0.dll;_GetProcessGroupAffinity@12
 GetThreadGroupAffinity;code;api-ms-win-core-processtopology-l1-1-0.dll;_GetThreadGroupAffinity@8
 SetThreadGroupAffinity;code;api-ms-win-core-processtopology-l1-1-0.dll;_SetThreadGroupAffinity@12
@@ -1452,6 +1458,7 @@ SetComputerNameW;code;api-ms-win-core-sysinfo-l1-2-3.dll;_SetComputerNameW@4
 GetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_GetSystemTimeAdjustmentPrecise@12
 SetSystemTimeAdjustmentPrecise;code;api-ms-win-core-sysinfo-l1-2-4.dll;_SetSystemTimeAdjustmentPrecise@12
 GetSystemLeapSecondInformation;code;api-ms-win-core-sysinfo-l1-2-5.dll;_GetSystemLeapSecondInformation@8
+IsUserCetAvailableInEnvironment;code;api-ms-win-core-sysinfo-l1-2-6.dll;_IsUserCetAvailableInEnvironment@4
 GetNumaHighestNodeNumber;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaHighestNodeNumber@4
 GetNumaNodeProcessorMaskEx;code;api-ms-win-core-systemtopology-l1-1-0.dll;_GetNumaNodeProcessorMaskEx@8
 GetNumaProximityNodeEx;code;api-ms-win-core-systemtopology-l1-1-1.dll;_GetNumaProximityNodeEx@8
@@ -1603,6 +1610,8 @@ WerUnregisterCustomMetadata;code;api-ms-win-core-windowserrorreporting-l1-1-1.dl
 WerUnregisterExcludedMemoryBlock;code;api-ms-win-core-windowserrorreporting-l1-1-1.dll;_WerUnregisterExcludedMemoryBlock@4
 WerRegisterAppLocalDump;code;api-ms-win-core-windowserrorreporting-l1-1-2.dll;_WerRegisterAppLocalDump@4
 WerUnregisterAppLocalDump;code;api-ms-win-core-windowserrorreporting-l1-1-2.dll;_WerUnregisterAppLocalDump@0
+RegisterApplicationRestart;code;api-ms-win-core-windowserrorreporting-l1-1-3.dll;_RegisterApplicationRestart@8
+UnregisterApplicationRestart;code;api-ms-win-core-windowserrorreporting-l1-1-3.dll;_UnregisterApplicationRestart@0
 GetRestrictedErrorInfo;code;api-ms-win-core-winrt-error-l1-1-0.dll;_GetRestrictedErrorInfo@4
 RoCaptureErrorContext;code;api-ms-win-core-winrt-error-l1-1-0.dll;_RoCaptureErrorContext@4
 RoFailFastWithErrorContext;code;api-ms-win-core-winrt-error-l1-1-0.dll;_RoFailFastWithErrorContext@4
@@ -1671,6 +1680,9 @@ GetSystemWow64DirectoryW;code;api-ms-win-core-wow64-l1-1-1.dll;_GetSystemWow64Di
 IsWow64Process2;code;api-ms-win-core-wow64-l1-1-1.dll;_IsWow64Process2@12
 Wow64SetThreadDefaultGuestMachine;code;api-ms-win-core-wow64-l1-1-1.dll;_Wow64SetThreadDefaultGuestMachine@4
 IsWow64GuestMachineSupported;code;api-ms-win-core-wow64-l1-1-2.dll;_IsWow64GuestMachineSupported@8
+Wow64GetThreadContext;code;api-ms-win-core-wow64-l1-1-3.dll;_Wow64GetThreadContext@8
+Wow64SetThreadContext;code;api-ms-win-core-wow64-l1-1-3.dll;_Wow64SetThreadContext@8
+Wow64SuspendThread;code;api-ms-win-core-wow64-l1-1-3.dll;_Wow64SuspendThread@4
 CopyContext;code;api-ms-win-core-xstate-l2-1-0.dll;_CopyContext@12
 GetEnabledXStateFeatures;code;api-ms-win-core-xstate-l2-1-0.dll;_GetEnabledXStateFeatures@0
 GetXStateFeaturesMask;code;api-ms-win-core-xstate-l2-1-0.dll;_GetXStateFeaturesMask@8
@@ -1943,7 +1955,6 @@ D3DKMTDestroyTrackedWorkload;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDestroy
 D3DKMTDispMgrCreate;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDispMgrCreate@4
 D3DKMTDispMgrSourceOperation;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDispMgrSourceOperation@4
 D3DKMTDispMgrTargetOperation;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTDispMgrTargetOperation@4
-D3DKMTEndTrackedWorkload;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTEndTrackedWorkload@4
 D3DKMTExtractBundleObject;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTExtractBundleObject@4
 D3DKMTGetAvailableTrackedWorkloadIndex;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTGetAvailableTrackedWorkloadIndex@4
 D3DKMTGetProcessDeviceRemovalSupport;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTGetProcessDeviceRemovalSupport@4
@@ -1958,7 +1969,7 @@ D3DKMTQueryProtectedSessionInfoFromNtHandle;code;api-ms-win-dx-d3dkmt-l1-1-4.dll
 D3DKMTQueryProtectedSessionStatus;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTQueryProtectedSessionStatus@4
 D3DKMTRegisterVailProcess;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTRegisterVailProcess@4
 D3DKMTRemoveSurfaceFromSwapChain;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTRemoveSurfaceFromSwapChain@4
-D3DKMTResetTrackedWorkload;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTResetTrackedWorkload@4
+D3DKMTResetTrackedWorkloadStatistics;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTResetTrackedWorkloadStatistics@4
 D3DKMTSetContextInProcessSchedulingPriority;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetContextInProcessSchedulingPriority@4
 D3DKMTSetMonitorColorSpaceTransform;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetMonitorColorSpaceTransform@4
 D3DKMTSetProcessDeviceRemovalSupport;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTSetProcessDeviceRemovalSupport@4
@@ -1972,6 +1983,11 @@ D3DKMTVailDisconnect;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTVailDisconnect@
 D3DKMTVailPromoteCompositionSurface;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;_D3DKMTVailPromoteCompositionSurface@8
 _DrvQueryMonitorUniqueness@0;code;api-ms-win-dx-d3dkmt-l1-1-4.dll;1016
 D3DKMTDispMgrOperation;code;api-ms-win-dx-d3dkmt-l1-1-5.dll;_D3DKMTDispMgrOperation@4
+D3DKMTDisplayPortOperation;code;api-ms-win-dx-d3dkmt-l1-1-6.dll;_D3DKMTDisplayPortOperation@4
+D3DKMTDuplicateHandle;code;api-ms-win-dx-d3dkmt-l1-1-6.dll;_D3DKMTDuplicateHandle@4
+D3DKMTEnumAdapters3;code;api-ms-win-dx-d3dkmt-l1-1-6.dll;_D3DKMTEnumAdapters3@4
+D3DKMTPinResources;code;api-ms-win-dx-d3dkmt-l1-1-6.dll;_D3DKMTPinResources@4
+D3DKMTUnpinResources;code;api-ms-win-dx-d3dkmt-l1-1-6.dll;_D3DKMTUnpinResources@4
 GetTraceEnableFlags;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;_GetTraceEnableFlags@8
 GetTraceEnableLevel;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;_GetTraceEnableLevel@8
 GetTraceLoggerHandle;code;api-ms-win-eventing-classicprovider-l1-1-0.dll;_GetTraceLoggerHandle@4
@@ -2198,15 +2214,20 @@ waveOutSetPlaybackRate;code;api-ms-win-mm-mme-l1-1-0.dll;_waveOutSetPlaybackRate
 waveOutSetVolume;code;api-ms-win-mm-mme-l1-1-0.dll;_waveOutSetVolume@8
 waveOutUnprepareHeader;code;api-ms-win-mm-mme-l1-1-0.dll;_waveOutUnprepareHeader@12
 waveOutWrite;code;api-ms-win-mm-mme-l1-1-0.dll;_waveOutWrite@12
-PlaySoundA;code;api-ms-win-mm-playsound-l1-1-0.dll;_PlaySoundA@12
-PlaySoundW;code;api-ms-win-mm-playsound-l1-1-0.dll;_PlaySoundW@12
-sndPlaySoundA;code;api-ms-win-mm-playsound-l1-1-0.dll;_sndPlaySoundA@8
-sndPlaySoundW;code;api-ms-win-mm-playsound-l1-1-0.dll;_sndPlaySoundW@8
 timeBeginPeriod;code;api-ms-win-mm-time-l1-1-0.dll;_timeBeginPeriod@4
 timeEndPeriod;code;api-ms-win-mm-time-l1-1-0.dll;_timeEndPeriod@4
 timeGetDevCaps;code;api-ms-win-mm-time-l1-1-0.dll;_timeGetDevCaps@8
 timeGetSystemTime;code;api-ms-win-mm-time-l1-1-0.dll;_timeGetSystemTime@8
 timeGetTime;code;api-ms-win-mm-time-l1-1-0.dll;_timeGetTime@0
+NetworkIsolationDiagnoseConnectFailureAndGetInfo;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationDiagnoseConnectFailureAndGetInfo@8
+NetworkIsolationEnumAppContainers;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationEnumAppContainers@12
+NetworkIsolationFreeAppContainers;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationFreeAppContainers@4
+NetworkIsolationGetAppContainerConfig;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationGetAppContainerConfig@8
+NetworkIsolationRegisterForAppContainerChanges;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationRegisterForAppContainerChanges@16
+NetworkIsolationSetAppContainerConfig;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationSetAppContainerConfig@8
+NetworkIsolationSetupAppContainerBinaries;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationSetupAppContainerBinaries@28
+NetworkIsolationUnregisterForAppContainerChanges;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationUnregisterForAppContainerChanges@4
+NetworkIsolationDiagnoseConnectFailure;code;api-ms-win-net-isolation-l1-1-1.dll;_NetworkIsolationDiagnoseConnectFailure@4
 ChangeDisplaySettingsExW;code;api-ms-win-ntuser-sysparams-l1-1-0.dll;_ChangeDisplaySettingsExW@20
 DisplayConfigGetDeviceInfo;code;api-ms-win-ntuser-sysparams-l1-1-0.dll;_DisplayConfigGetDeviceInfo@4
 DisplayConfigSetDeviceInfo;code;api-ms-win-ntuser-sysparams-l1-1-0.dll;_DisplayConfigSetDeviceInfo@4
@@ -2368,6 +2389,8 @@ GetCachedSigningLevel;code;api-ms-win-security-base-l1-2-0.dll;_GetCachedSigning
 SetCachedSigningLevel;code;api-ms-win-security-base-l1-2-0.dll;_SetCachedSigningLevel@16
 CveEventWrite;code;api-ms-win-security-base-l1-2-1.dll;_CveEventWrite@8
 DeriveCapabilitySidsFromName;code;api-ms-win-security-base-l1-2-2.dll;_DeriveCapabilitySidsFromName@20
+CreateProcessWithLogonW;code;api-ms-win-security-cpwl-l1-1-0.dll;_CreateProcessWithLogonW@44
+CreateProcessWithTokenW;code;api-ms-win-security-cpwl-l1-1-0.dll;_CreateProcessWithTokenW@36
 CredDeleteA;code;api-ms-win-security-credentials-l1-1-0.dll;_CredDeleteA@12
 CredDeleteW;code;api-ms-win-security-credentials-l1-1-0.dll;_CredDeleteW@12
 CredEnumerateA;code;api-ms-win-security-credentials-l1-1-0.dll;_CredEnumerateA@16
@@ -2898,6 +2921,7 @@ CoreUICallComputeMaximumMessageSize;code;CoreMessaging.dll;_CoreUICallComputeMax
 CoreUICallCreateConversationHost;code;CoreMessaging.dll;_CoreUICallCreateConversationHost
 CoreUICallCreateEndpointHost;code;CoreMessaging.dll;_CoreUICallCreateEndpointHost
 CoreUICallCreateEndpointHostWithSendPriority;code;CoreMessaging.dll;_CoreUICallCreateEndpointHostWithSendPriority
+CoreUICallGetAddressOfParameterInBuffer;code;CoreMessaging.dll;_CoreUICallGetAddressOfParameterInBuffer
 CoreUICallReceive;code;CoreMessaging.dll;_CoreUICallReceive
 CoreUICallSend;code;CoreMessaging.dll;_CoreUICallSend
 CoreUICallSendVaList;code;CoreMessaging.dll;_CoreUICallSendVaList
@@ -2908,9 +2932,9 @@ CoreUICreateAnonymousStream;code;CoreMessaging.dll;_CoreUICreateAnonymousStream@
 CoreUICreateClientWindowIDManager;code;CoreMessaging.dll;_CoreUICreateClientWindowIDManager@4
 CoreUICreateEx;code;CoreMessaging.dll;_CoreUICreateEx@8
 CoreUICreateSystemWindowIDManager;code;CoreMessaging.dll;_CoreUICreateSystemWindowIDManager@4
-CoreUIInitializeTestService;code;CoreMessaging.dll;_CoreUIInitializeTestService@20
+CoreUIInitializeTestService;code;CoreMessaging.dll;_CoreUIInitializeTestService@12
 CoreUIOpenExisting;code;CoreMessaging.dll;_CoreUIOpenExisting@4
-CoreUIRouteToTestRegistrar;code;CoreMessaging.dll;_CoreUIRouteToTestRegistrar@16
+CoreUIRouteToTestRegistrar;code;CoreMessaging.dll;_CoreUIRouteToTestRegistrar@8
 CoreUIUninitializeTestService;code;CoreMessaging.dll;_CoreUIUninitializeTestService@0
 CreateDispatcherQueueController;code;CoreMessaging.dll;_CreateDispatcherQueueController@16
 CreateDispatcherQueueForCurrentThread;code;CoreMessaging.dll;_CreateDispatcherQueueForCurrentThread@4
@@ -3197,8 +3221,6 @@ D3D11CoreRegisterLayers;code;d3d11.dll;_D3D11CoreRegisterLayers@8
 D3D11CreateDevice;code;d3d11.dll;_D3D11CreateDevice@40
 D3D11CreateDeviceAndSwapChain;code;d3d11.dll;_D3D11CreateDeviceAndSwapChain@48
 D3D11On12CreateDevice;code;d3d11.dll;_D3D11On12CreateDevice@40
-OpenAdapter10;code;d3d11.dll;?OpenAdapter10@@YGJPAUD3D10DDIARG_OPENADAPTER@@@Z (long __stdcall OpenAdapter10(struct D3D10DDIARG_OPENADAPTER *))
-OpenAdapter10_2;code;d3d11.dll;?OpenAdapter10_2@@YGJPAUD3D10DDIARG_OPENADAPTER@@@Z (long __stdcall OpenAdapter10_2(struct D3D10DDIARG_OPENADAPTER *))
 D3D12CoreCreateLayeredDevice;code;d3d12.dll;_D3D12CoreCreateLayeredDevice@20
 D3D12CoreGetLayeredDeviceSize;code;d3d12.dll;_D3D12CoreGetLayeredDeviceSize@8
 D3D12CoreRegisterLayers;code;d3d12.dll;_D3D12CoreRegisterLayers@8
@@ -3302,6 +3324,7 @@ DhcpGlobalServiceSyncEvent;data;dhcpcsvc.DLL;_DhcpGlobalServiceSyncEvent
 DhcpGlobalTerminateEvent;data;dhcpcsvc.DLL;_DhcpGlobalTerminateEvent
 DhcpHandlePnPEvent;code;dhcpcsvc.DLL;_DhcpHandlePnPEvent@20
 DhcpIsEnabled;code;dhcpcsvc.DLL;_DhcpIsEnabled@8
+DhcpIsMeteredDetected;code;dhcpcsvc.DLL;_DhcpIsMeteredDetected@8
 DhcpLeaseIpAddress;code;dhcpcsvc.DLL;_DhcpLeaseIpAddress@24
 DhcpLeaseIpAddressEx;code;dhcpcsvc.DLL;_DhcpLeaseIpAddressEx@32
 DhcpNotifyConfigChange;code;dhcpcsvc.DLL;_DhcpNotifyConfigChange@28
@@ -3361,7 +3384,45 @@ Dhcpv6RequestParams;code;dhcpcsvc6.DLL;_Dhcpv6RequestParams@32
 Dhcpv6RequestPrefix;code;dhcpcsvc6.DLL;_Dhcpv6RequestPrefix@16
 Dhcpv6RequestPrefixEx;code;dhcpcsvc6.DLL;_Dhcpv6RequestPrefixEx@20
 Dhcpv6SetUserClass;code;dhcpcsvc6.DLL;_Dhcpv6SetUserClass@12
-_DMLCreateDevice@16;code;directml.dll;1
+DdqCancelDiagnosticRecordOperation;code;DiagnosticDataQuery.dll;_DdqCancelDiagnosticRecordOperation@4
+DdqCloseSession;code;DiagnosticDataQuery.dll;_DdqCloseSession@4
+DdqCreateSession;code;DiagnosticDataQuery.dll;_DdqCreateSession@8
+DdqExtractDiagnosticReport;code;DiagnosticDataQuery.dll;_DdqExtractDiagnosticReport@16
+DdqFreeDiagnosticRecordLocaleTags;code;DiagnosticDataQuery.dll;_DdqFreeDiagnosticRecordLocaleTags@4
+DdqFreeDiagnosticRecordPage;code;DiagnosticDataQuery.dll;_DdqFreeDiagnosticRecordPage@4
+DdqFreeDiagnosticRecordProducerCategories;code;DiagnosticDataQuery.dll;_DdqFreeDiagnosticRecordProducerCategories@4
+DdqFreeDiagnosticRecordProducers;code;DiagnosticDataQuery.dll;_DdqFreeDiagnosticRecordProducers@4
+DdqFreeDiagnosticReport;code;DiagnosticDataQuery.dll;_DdqFreeDiagnosticReport@4
+DdqGetDiagnosticDataAccessLevelAllowed;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticDataAccessLevelAllowed@4
+DdqGetDiagnosticRecordAtIndex;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordAtIndex@12
+DdqGetDiagnosticRecordBinaryDistribution;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordBinaryDistribution@24
+DdqGetDiagnosticRecordCategoryAtIndex;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordCategoryAtIndex@12
+DdqGetDiagnosticRecordCategoryCount;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordCategoryCount@8
+DdqGetDiagnosticRecordCount;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordCount@8
+DdqGetDiagnosticRecordLocaleTagAtIndex;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordLocaleTagAtIndex@12
+DdqGetDiagnosticRecordLocaleTagCount;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordLocaleTagCount@8
+DdqGetDiagnosticRecordLocaleTags;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordLocaleTags@12
+DdqGetDiagnosticRecordPage;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordPage@28
+DdqGetDiagnosticRecordPayload;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordPayload@16
+DdqGetDiagnosticRecordProducerAtIndex;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordProducerAtIndex@12
+DdqGetDiagnosticRecordProducerCategories;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordProducerCategories@12
+DdqGetDiagnosticRecordProducerCount;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordProducerCount@8
+DdqGetDiagnosticRecordProducers;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordProducers@8
+DdqGetDiagnosticRecordStats;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordStats@20
+DdqGetDiagnosticRecordSummary;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordSummary@16
+DdqGetDiagnosticRecordTagDistribution;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticRecordTagDistribution@20
+DdqGetDiagnosticReport;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticReport@12
+DdqGetDiagnosticReportAtIndex;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticReportAtIndex@12
+DdqGetDiagnosticReportCount;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticReportCount@8
+DdqGetDiagnosticReportStoreReportCount;code;DiagnosticDataQuery.dll;_DdqGetDiagnosticReportStoreReportCount@12
+DdqGetSessionAccessLevel;code;DiagnosticDataQuery.dll;_DdqGetSessionAccessLevel@8
+DdqGetTranscriptConfiguration;code;DiagnosticDataQuery.dll;_DdqGetTranscriptConfiguration@8
+DdqIsDiagnosticRecordSampledIn;code;DiagnosticDataQuery.dll;_DdqIsDiagnosticRecordSampledIn@36
+DdqSetTranscriptConfiguration;code;DiagnosticDataQuery.dll;_DdqSetTranscriptConfiguration@8
+UtcSendTraceLogging;code;DiagnosticDataQuery.dll;_UtcSendTraceLogging@40
+UtcSendTraceLogging2;code;DiagnosticDataQuery.dll;_UtcSendTraceLogging2@56
+_DMLCreateDevice@16;code;DirectML.dll;1
+_DMLCreateDevice1@20;code;DirectML.dll;2
 AdaptiveTimeout_ClearInterfaceSpecificConfiguration;code;DNSAPI.dll;_AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0
 AdaptiveTimeout_ResetAdaptiveTimeout;code;DNSAPI.dll;_AdaptiveTimeout_ResetAdaptiveTimeout@0
 AddRefQueryBlobEx;code;DNSAPI.dll;_AddRefQueryBlobEx@16
@@ -3425,6 +3486,7 @@ DnsAsyncRegisterTerm;code;DNSAPI.dll;_DnsAsyncRegisterTerm@0
 DnsCancelQuery;code;DNSAPI.dll;_DnsCancelQuery@4
 DnsCheckNrptRuleIntegrity;code;DNSAPI.dll;_DnsCheckNrptRuleIntegrity@4
 DnsCheckNrptRules;code;DNSAPI.dll;_DnsCheckNrptRules@12
+DnsCleanupTcpConnections;code;DNSAPI.dll;_DnsCleanupTcpConnections@4
 DnsConnectionDeletePolicyEntries;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntries@4
 DnsConnectionDeletePolicyEntriesPrivate;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntriesPrivate@8
 DnsConnectionDeleteProxyInfo;code;DNSAPI.dll;_DnsConnectionDeleteProxyInfo@8
@@ -4066,6 +4128,7 @@ rgEDBGGlobals;data;ESENT.dll;_rgEDBGGlobals
 CreateIUriBuilder;code;ext-ms-win-core-iuri-l1-1-0.dll;_CreateIUriBuilder@16
 CreateUri;code;ext-ms-win-core-iuri-l1-1-0.dll;_CreateUri@16
 CreateUriWithFragment;code;ext-ms-win-core-iuri-l1-1-0.dll;_CreateUriWithFragment@20
+DXCoreCreateAdapterFactory;code;ext-ms-win-dxcore-l1-1-0.dll;_DXCoreCreateAdapterFactory@8
 WFDLowPrivIsWfdSupportedInt;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WFDLowPrivIsWfdSupportedInt@4
 WlanCloseHandle;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanCloseHandle@8
 WlanDeleteProfile;code;ext-ms-win-networking-wlanapi-l1-1-0.dll;_WlanDeleteProfile@16
@@ -4192,6 +4255,7 @@ HidP_UsageListDifference;code;HID.DLL;_HidP_UsageListDifference@20
 _CreateHrtfApo@8;code;HrtfApo.dll;1
 _CreateHrtfApoWithDatasetType@12;code;HrtfApo.dll;2
 _CreateHrtfEngineFactory@4;code;HrtfApo.dll;3
+_GetHrtfEngineMinFrameCount@0;code;HrtfApo.dll;5
 _IsHrtfApoAvailable@0;code;HrtfApo.dll;4
 u_austrcpy;code;icu.dll;_u_austrcpy
 u_austrncpy;code;icu.dll;_u_austrncpy
@@ -4661,6 +4725,7 @@ udatpg_getBestPattern;code;icu.dll;_udatpg_getBestPattern
 udatpg_getBestPatternWithOptions;code;icu.dll;_udatpg_getBestPatternWithOptions
 udatpg_getDateTimeFormat;code;icu.dll;_udatpg_getDateTimeFormat
 udatpg_getDecimal;code;icu.dll;_udatpg_getDecimal
+udatpg_getFieldDisplayName;code;icu.dll;_udatpg_getFieldDisplayName
 udatpg_getPatternForSkeleton;code;icu.dll;_udatpg_getPatternForSkeleton
 udatpg_getSkeleton;code;icu.dll;_udatpg_getSkeleton
 udatpg_open;code;icu.dll;_udatpg_open
@@ -4853,6 +4918,16 @@ unum_setDoubleAttribute;code;icu.dll;_unum_setDoubleAttribute
 unum_setSymbol;code;icu.dll;_unum_setSymbol
 unum_setTextAttribute;code;icu.dll;_unum_setTextAttribute
 unum_toPattern;code;icu.dll;_unum_toPattern
+unumf_close;code;icu.dll;_unumf_close
+unumf_closeResult;code;icu.dll;_unumf_closeResult
+unumf_formatDecimal;code;icu.dll;_unumf_formatDecimal
+unumf_formatDouble;code;icu.dll;_unumf_formatDouble
+unumf_formatInt;code;icu.dll;_unumf_formatInt
+unumf_openForSkeletonAndLocale;code;icu.dll;_unumf_openForSkeletonAndLocale
+unumf_openResult;code;icu.dll;_unumf_openResult
+unumf_resultGetAllFieldPositions;code;icu.dll;_unumf_resultGetAllFieldPositions
+unumf_resultNextFieldPosition;code;icu.dll;_unumf_resultNextFieldPosition
+unumf_resultToString;code;icu.dll;_unumf_resultToString
 unumsys_close;code;icu.dll;_unumsys_close
 unumsys_getDescription;code;icu.dll;_unumsys_getDescription
 unumsys_getName;code;icu.dll;_unumsys_getName
@@ -5312,6 +5387,8 @@ GetIpStatisticsEx;code;IPHLPAPI.DLL;_GetIpStatisticsEx@8
 GetJobCompartmentId;code;IPHLPAPI.DLL;_GetJobCompartmentId@4
 GetMulticastIpAddressEntry;code;IPHLPAPI.DLL;_GetMulticastIpAddressEntry@4
 GetMulticastIpAddressTable;code;IPHLPAPI.DLL;_GetMulticastIpAddressTable@8
+GetNetworkConnectivityHint;code;IPHLPAPI.DLL;_GetNetworkConnectivityHint@4
+GetNetworkConnectivityHintForInterface;code;IPHLPAPI.DLL;_GetNetworkConnectivityHintForInterface@8
 GetNetworkInformation;code;IPHLPAPI.DLL;_GetNetworkInformation@20
 GetNetworkParams;code;IPHLPAPI.DLL;_GetNetworkParams@8
 GetNumberOfInterfaces;code;IPHLPAPI.DLL;_GetNumberOfInterfaces@4
@@ -5365,6 +5442,7 @@ InternalCreateIpForwardEntry;code;IPHLPAPI.DLL;_InternalCreateIpForwardEntry@4
 InternalCreateIpForwardEntry2;code;IPHLPAPI.DLL;_InternalCreateIpForwardEntry2@8
 InternalCreateIpNetEntry;code;IPHLPAPI.DLL;_InternalCreateIpNetEntry@4
 InternalCreateIpNetEntry2;code;IPHLPAPI.DLL;_InternalCreateIpNetEntry2@8
+InternalCreateOrRefIpForwardEntry2;code;IPHLPAPI.DLL;_InternalCreateOrRefIpForwardEntry2@8
 InternalCreateUnicastIpAddressEntry;code;IPHLPAPI.DLL;_InternalCreateUnicastIpAddressEntry@8
 InternalDeleteAnycastIpAddressEntry;code;IPHLPAPI.DLL;_InternalDeleteAnycastIpAddressEntry@8
 InternalDeleteIpForwardEntry;code;IPHLPAPI.DLL;_InternalDeleteIpForwardEntry@4
@@ -5434,6 +5512,7 @@ NotifyAddrChange;code;IPHLPAPI.DLL;_NotifyAddrChange@8
 NotifyCompartmentChange;code;IPHLPAPI.DLL;_NotifyCompartmentChange@16
 NotifyIfTimestampConfigChange;code;IPHLPAPI.DLL;_NotifyIfTimestampConfigChange@12
 NotifyIpInterfaceChange;code;IPHLPAPI.DLL;_NotifyIpInterfaceChange@20
+NotifyNetworkConnectivityHintChange;code;IPHLPAPI.DLL;_NotifyNetworkConnectivityHintChange@16
 NotifyRouteChange;code;IPHLPAPI.DLL;_NotifyRouteChange@8
 NotifyRouteChange2;code;IPHLPAPI.DLL;_NotifyRouteChange2@20
 NotifyStableUnicastIpAddressTable;code;IPHLPAPI.DLL;_NotifyStableUnicastIpAddressTable@20
@@ -5534,6 +5613,7 @@ MFCreateCredentialCache;code;MF.dll;_MFCreateCredentialCache@4
 MFCreateDeviceSource;code;MF.dll;_MFCreateDeviceSource@8
 MFCreateDeviceSourceActivate;code;MF.dll;_MFCreateDeviceSourceActivate@8
 MFCreateDrmNetNDSchemePlugin;code;MF.dll;_MFCreateDrmNetNDSchemePlugin@8
+MFCreateEncryptedMediaExtensionsStoreActivate;code;MF.dll;_MFCreateEncryptedMediaExtensionsStoreActivate@16
 MFCreateFMPEG4MediaSink;code;MF.dll;_MFCreateFMPEG4MediaSink@16
 MFCreateHttpSchemePlugin;code;MF.dll;_MFCreateHttpSchemePlugin@8
 MFCreateMediaProcessor;code;MF.dll;_MFCreateMediaProcessor@4
@@ -5594,6 +5674,7 @@ MFCalculateBitmapImageSize;code;MFPlat.DLL;_MFCalculateBitmapImageSize@16
 MFCalculateImageSize;code;MFPlat.DLL;_MFCalculateImageSize@16
 MFCancelCreateFile;code;MFPlat.DLL;_MFCancelCreateFile@4
 MFCancelWorkItem;code;MFPlat.DLL;_MFCancelWorkItem@8
+MFCombineSamples;code;MFPlat.DLL;_MFCombineSamples@16
 MFCompareFullToPartialMediaType;code;MFPlat.DLL;_MFCompareFullToPartialMediaType@8
 MFConvertColorInfoFromDXVA;code;MFPlat.DLL;_MFConvertColorInfoFromDXVA@8
 MFConvertColorInfoToDXVA;code;MFPlat.DLL;_MFConvertColorInfoToDXVA@8
@@ -5709,6 +5790,7 @@ MFScheduleWorkItemEx;code;MFPlat.DLL;_MFScheduleWorkItemEx@16
 MFSerializeAttributesToStream;code;MFPlat.DLL;_MFSerializeAttributesToStream@12
 MFSerializePresentationDescriptor;code;MFPlat.DLL;_MFSerializePresentationDescriptor@12
 MFShutdown;code;MFPlat.DLL;_MFShutdown@0
+MFSplitSample;code;MFPlat.DLL;_MFSplitSample@16
 MFStartup;code;MFPlat.DLL;_MFStartup@8
 MFStreamDescriptorProtectMediaType;code;MFPlat.DLL;_MFStreamDescriptorProtectMediaType@8
 MFTEnum;code;MFPlat.DLL;_MFTEnum@40
@@ -5735,6 +5817,7 @@ MFCreateSinkWriterFromURL;code;MFReadWrite.dll;_MFCreateSinkWriterFromURL@16
 MFCreateSourceReaderFromByteStream;code;MFReadWrite.dll;_MFCreateSourceReaderFromByteStream@12
 MFCreateSourceReaderFromMediaSource;code;MFReadWrite.dll;_MFCreateSourceReaderFromMediaSource@12
 MFCreateSourceReaderFromURL;code;MFReadWrite.dll;_MFCreateSourceReaderFromURL@12
+MFCreateRelativePanelWatcher;code;MFSENSORGROUP.dll;_MFCreateRelativePanelWatcher@12
 MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;_MFCreateSensorActivityMonitor@8
 MFCreateSensorGroup;code;MFSENSORGROUP.dll;_MFCreateSensorGroup@8
 MFCreateSensorProfile;code;MFSENSORGROUP.dll;_MFCreateSensorProfile@16
@@ -5745,6 +5828,7 @@ _AETraceOutputDebugString;code;MMDevAPI.DLL;13
 _CleanupDeviceAPI@0;code;MMDevAPI.DLL;2
 _FlushDeviceTopologyCache@0;code;MMDevAPI.DLL;15
 _GenerateMediaEvent@8;code;MMDevAPI.DLL;12
+_GetCategoryPath@16;code;MMDevAPI.DLL;32
 _GetClassFromEndpointId@4;code;MMDevAPI.DLL;7
 _GetEndpointGuidFromEndpointId@8;code;MMDevAPI.DLL;8
 _GetEndpointIdFromDeviceInterfaceId@8;code;MMDevAPI.DLL;18
@@ -5752,6 +5836,7 @@ _GetNeverSetAsDefaultProperty@16;code;MMDevAPI.DLL;16
 _GetSessionIdFromEndpointId@4;code;MMDevAPI.DLL;9
 _InitializeDeviceAPI@0;code;MMDevAPI.DLL;3
 _mmdDevFindMmDevProperty@12;code;MMDevAPI.DLL;19
+_mmdDevGetDeviceIdFromPnpInterface@8;code;MMDevAPI.DLL;31
 _mmdDevGetEndpointFormFactorFromMMDeviceId@8;code;MMDevAPI.DLL;30
 _mmdDevGetInstanceIdFromInterfaceId@8;code;MMDevAPI.DLL;26
 _mmdDevGetInstanceIdFromMMDeviceId@8;code;MMDevAPI.DLL;29
@@ -5775,6 +5860,8 @@ WNetAddConnection2A;code;MPR.dll;_WNetAddConnection2A@16
 WNetAddConnection2W;code;MPR.dll;_WNetAddConnection2W@16
 WNetAddConnection3A;code;MPR.dll;_WNetAddConnection3A@20
 WNetAddConnection3W;code;MPR.dll;_WNetAddConnection3W@20
+WNetAddConnection4A;code;MPR.dll;_WNetAddConnection4A@28
+WNetAddConnection4W;code;MPR.dll;_WNetAddConnection4W@28
 WNetAddConnectionA;code;MPR.dll;_WNetAddConnectionA@12
 WNetAddConnectionW;code;MPR.dll;_WNetAddConnectionW@12
 WNetCancelConnection2A;code;MPR.dll;_WNetCancelConnection2A@12
@@ -5810,6 +5897,8 @@ WNetOpenEnumA;code;MPR.dll;_WNetOpenEnumA@20
 WNetOpenEnumW;code;MPR.dll;_WNetOpenEnumW@20
 WNetSetLastErrorA;code;MPR.dll;_WNetSetLastErrorA@12
 WNetSetLastErrorW;code;MPR.dll;_WNetSetLastErrorW@12
+WNetUseConnection4A;code;MPR.dll;_WNetUseConnection4A@40
+WNetUseConnection4W;code;MPR.dll;_WNetUseConnection4W@40
 WNetUseConnectionA;code;MPR.dll;_WNetUseConnectionA@32
 WNetUseConnectionW;code;MPR.dll;_WNetUseConnectionW@32
 alljoyn_aboutdata_create;code;MSAJApi.dll;_alljoyn_aboutdata_create@4
@@ -6580,12 +6669,16 @@ SslCreateEphemeralKey;code;ncrypt.dll;_SslCreateEphemeralKey@36
 SslCreateHandshakeHash;code;ncrypt.dll;_SslCreateHandshakeHash@20
 SslDecrementProviderReferenceCount;code;ncrypt.dll;_SslDecrementProviderReferenceCount@4
 SslDecryptPacket;code;ncrypt.dll;_SslDecryptPacket@40
+SslDuplicateTranscriptHash;code;ncrypt.dll;_SslDuplicateTranscriptHash@16
 SslEncryptPacket;code;ncrypt.dll;_SslEncryptPacket@44
 SslEnumCipherSuites;code;ncrypt.dll;_SslEnumCipherSuites@20
 SslEnumCipherSuitesEx;code;ncrypt.dll;_SslEnumCipherSuitesEx@20
 SslEnumEccCurves;code;ncrypt.dll;_SslEnumEccCurves@16
 SslEnumProtocolProviders;code;ncrypt.dll;_SslEnumProtocolProviders@12
+SslExpandBinderKey;code;ncrypt.dll;_SslExpandBinderKey@20
 SslExpandExporterMasterKey;code;ncrypt.dll;_SslExpandExporterMasterKey@24
+SslExpandPreSharedKey;code;ncrypt.dll;_SslExpandPreSharedKey@28
+SslExpandResumptionMasterKey;code;ncrypt.dll;_SslExpandResumptionMasterKey@24
 SslExpandTrafficKeys;code;ncrypt.dll;_SslExpandTrafficKeys@28
 SslExpandWriteKey;code;ncrypt.dll;_SslExpandWriteKey@20
 SslExportKey;code;ncrypt.dll;_SslExportKey@28
@@ -7040,6 +7133,7 @@ _VarWeekdayName@20;code;OLEAUT32.dll;128
 _VarXor@12;code;OLEAUT32.dll;167
 _VectorFromBstr@8;code;OLEAUT32.dll;413
 PerceptionDeviceCreateFactory;code;PerceptionDevice.dll;_PerceptionDeviceCreateFactory@8
+PerceptionDeviceSetCreateFactoryOverride;code;PerceptionDevice.dll;_PerceptionDeviceSetCreateFactoryOverride@4
 CanUserWritePwrScheme;code;POWRPROF.dll;_CanUserWritePwrScheme@0
 DeletePwrScheme;code;POWRPROF.dll;_DeletePwrScheme@4
 DevicePowerClose;code;POWRPROF.dll;_DevicePowerClose@0
@@ -7928,6 +8022,10 @@ LocalFileEnum;code;srvcli.dll;_LocalFileEnum@36
 LocalFileEnumEx;code;srvcli.dll;_LocalFileEnumEx@40
 LocalFileGetInfo;code;srvcli.dll;_LocalFileGetInfo@16
 LocalFileGetInfoEx;code;srvcli.dll;_LocalFileGetInfoEx@20
+LocalServerCertificateMappingAdd;code;srvcli.dll;_LocalServerCertificateMappingAdd@12
+LocalServerCertificateMappingEnum;code;srvcli.dll;_LocalServerCertificateMappingEnum@24
+LocalServerCertificateMappingGet;code;srvcli.dll;_LocalServerCertificateMappingGet@28
+LocalServerCertificateMappingRemove;code;srvcli.dll;_LocalServerCertificateMappingRemove@12
 LocalSessionDel;code;srvcli.dll;_LocalSessionDel@12
 LocalSessionEnum;code;srvcli.dll;_LocalSessionEnum@32
 LocalSessionEnumEx;code;srvcli.dll;_LocalSessionEnumEx@36
@@ -8243,6 +8341,7 @@ _DeleteGroup@8;code;USERENV.dll;104
 _DeleteLinkFile@16;code;USERENV.dll;122
 DeleteProfileA;code;USERENV.dll;_DeleteProfileA@12
 _DeleteProfileDirectory@12;code;USERENV.dll;202
+_DeleteProfileDirectory2@16;code;USERENV.dll;219
 DeleteProfileW;code;USERENV.dll;_DeleteProfileW@12
 DeriveAppContainerSidFromAppContainerName;code;USERENV.dll;_DeriveAppContainerSidFromAppContainerName@8
 DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName;code;USERENV.dll;_DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12
@@ -8512,7 +8611,7 @@ WebSocketGetAction;code;websocket.dll;_WebSocketGetAction@32
 WebSocketGetGlobalProperty;code;websocket.dll;_WebSocketGetGlobalProperty@12
 WebSocketReceive;code;websocket.dll;_WebSocketReceive@12
 WebSocketSend;code;websocket.dll;_WebSocketSend@16
-MLCreateOperatorRegistry;code;Windows.AI.MachineLearning.dll;_MLCreateOperatorRegistry@4
+MLCreateOperatorRegistry;code;windows.ai.machinelearning.dll;_MLCreateOperatorRegistry@4
 PdfCreateRenderer;code;Windows.Data.Pdf.dll;_PdfCreateRenderer@8
 SetSocketMediaStreamingMode;code;Windows.Networking.dll;_SetSocketMediaStreamingMode@4
 IEnumString_Next_WIC_Proxy;code;WindowsCodecs.dll;_IEnumString_Next_WIC_Proxy@16
@@ -8630,6 +8729,7 @@ WICMatchMetadataContent;code;WindowsCodecs.dll;_WICMatchMetadataContent@16
 WICSerializeMetadataContent;code;WindowsCodecs.dll;_WICSerializeMetadataContent@16
 WICSetEncoderFormat_Proxy;code;WindowsCodecs.dll;_WICSetEncoderFormat_Proxy@16
 WinHttpAddRequestHeaders;code;WINHTTP.dll;_WinHttpAddRequestHeaders@16
+WinHttpAddRequestHeadersEx;code;WINHTTP.dll;_WinHttpAddRequestHeadersEx@32
 WinHttpAutoProxySvcMain;code;WINHTTP.dll;_WinHttpAutoProxySvcMain@8
 WinHttpCheckPlatform;code;WINHTTP.dll;_WinHttpCheckPlatform@0
 WinHttpCloseHandle;code;WINHTTP.dll;_WinHttpCloseHandle@4
@@ -8680,6 +8780,7 @@ WinHttpSendRequest;code;WINHTTP.dll;_WinHttpSendRequest@28
 WinHttpSetCredentials;code;WINHTTP.dll;_WinHttpSetCredentials@24
 WinHttpSetDefaultProxyConfiguration;code;WINHTTP.dll;_WinHttpSetDefaultProxyConfiguration@4
 WinHttpSetOption;code;WINHTTP.dll;_WinHttpSetOption@16
+WinHttpSetProxySettingsPerUser;code;WINHTTP.dll;_WinHttpSetProxySettingsPerUser@4
 WinHttpSetStatusCallback;code;WINHTTP.dll;_WinHttpSetStatusCallback@16
 WinHttpSetTimeouts;code;WINHTTP.dll;_WinHttpSetTimeouts@20
 WinHttpTimeFromSystemTime;code;WINHTTP.dll;_WinHttpTimeFromSystemTime@8

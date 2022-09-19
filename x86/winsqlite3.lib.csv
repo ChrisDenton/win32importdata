@@ -86,6 +86,7 @@ sqlite3_db_readonly;code;winsqlite3.dll;_sqlite3_db_readonly@8
 sqlite3_db_release_memory;code;winsqlite3.dll;_sqlite3_db_release_memory@4
 sqlite3_db_status;code;winsqlite3.dll;_sqlite3_db_status@20
 sqlite3_declare_vtab;code;winsqlite3.dll;_sqlite3_declare_vtab@8
+sqlite3_deserialize;code;winsqlite3.dll;_sqlite3_deserialize@32
 sqlite3_enable_load_extension;code;winsqlite3.dll;_sqlite3_enable_load_extension@8
 sqlite3_enable_shared_cache;code;winsqlite3.dll;_sqlite3_enable_shared_cache@4
 sqlite3_errcode;code;winsqlite3.dll;_sqlite3_errcode@4
@@ -101,6 +102,7 @@ sqlite3_file_control;code;winsqlite3.dll;_sqlite3_file_control@16
 sqlite3_finalize;code;winsqlite3.dll;_sqlite3_finalize@4
 sqlite3_free;code;winsqlite3.dll;_sqlite3_free@4
 sqlite3_free_table;code;winsqlite3.dll;_sqlite3_free_table@4
+sqlite3_fts3_may_be_corrupt;code;winsqlite3.dll;_sqlite3_fts3_may_be_corrupt
 sqlite3_get_autocommit;code;winsqlite3.dll;_sqlite3_get_autocommit@4
 sqlite3_get_auxdata;code;winsqlite3.dll;_sqlite3_get_auxdata@8
 sqlite3_get_table;code;winsqlite3.dll;_sqlite3_get_table@24
@@ -173,6 +175,7 @@ sqlite3_result_zeroblob;code;winsqlite3.dll;_sqlite3_result_zeroblob@8
 sqlite3_rollback_hook;code;winsqlite3.dll;_sqlite3_rollback_hook@12
 sqlite3_rtree_geometry_callback;code;winsqlite3.dll;_sqlite3_rtree_geometry_callback@16
 sqlite3_rtree_query_callback;code;winsqlite3.dll;_sqlite3_rtree_query_callback@20
+sqlite3_serialize;code;winsqlite3.dll;_sqlite3_serialize@16
 sqlite3_set_authorizer;code;winsqlite3.dll;_sqlite3_set_authorizer@12
 sqlite3_set_auxdata;code;winsqlite3.dll;_sqlite3_set_auxdata@16
 sqlite3_set_last_insert_rowid;code;winsqlite3.dll;_sqlite3_set_last_insert_rowid@12
@@ -187,6 +190,7 @@ sqlite3_status64;code;winsqlite3.dll;_sqlite3_status64@16
 sqlite3_status;code;winsqlite3.dll;_sqlite3_status@16
 sqlite3_step;code;winsqlite3.dll;_sqlite3_step@4
 sqlite3_stmt_busy;code;winsqlite3.dll;_sqlite3_stmt_busy@4
+sqlite3_stmt_isexplain;code;winsqlite3.dll;_sqlite3_stmt_isexplain@4
 sqlite3_stmt_readonly;code;winsqlite3.dll;_sqlite3_stmt_readonly@4
 sqlite3_stmt_status;code;winsqlite3.dll;_sqlite3_stmt_status@12
 sqlite3_str_append;code;winsqlite3.dll;_sqlite3_str_append@12
@@ -225,6 +229,7 @@ sqlite3_value_bytes;code;winsqlite3.dll;_sqlite3_value_bytes@4
 sqlite3_value_double;code;winsqlite3.dll;_sqlite3_value_double@4
 sqlite3_value_dup;code;winsqlite3.dll;_sqlite3_value_dup@4
 sqlite3_value_free;code;winsqlite3.dll;_sqlite3_value_free@4
+sqlite3_value_frombind;code;winsqlite3.dll;_sqlite3_value_frombind@4
 sqlite3_value_int64;code;winsqlite3.dll;_sqlite3_value_int64@4
 sqlite3_value_int;code;winsqlite3.dll;_sqlite3_value_int@4
 sqlite3_value_nochange;code;winsqlite3.dll;_sqlite3_value_nochange@4

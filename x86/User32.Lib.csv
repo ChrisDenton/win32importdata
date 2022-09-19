@@ -567,6 +567,13 @@ PrivateExtractIconsA;code;USER32.dll;_PrivateExtractIconsA@32
 PrivateExtractIconsW;code;USER32.dll;_PrivateExtractIconsW@32
 PtInRect;code;USER32.dll;_PtInRect@12
 QueryDisplayConfig;code;USER32.dll;_QueryDisplayConfig@24
+RIMAreSiblingDevices;code;USER32.dll;_RIMAreSiblingDevices@12
+RIMDeviceIoControl;code;USER32.dll;_RIMDeviceIoControl@36
+RIMEnableMonitorMappingForDevice;code;USER32.dll;_RIMEnableMonitorMappingForDevice@12
+RIMGetPhysicalDeviceRect;code;USER32.dll;_RIMGetPhysicalDeviceRect@12
+RIMGetSourceProcessId;code;USER32.dll;_RIMGetSourceProcessId@12
+RIMOnTimerNotification;code;USER32.dll;_RIMOnTimerNotification@8
+RIMSetTestModeStatus;code;USER32.dll;_RIMSetTestModeStatus@4
 RealChildWindowFromPoint;code;USER32.dll;_RealChildWindowFromPoint@12
 RealGetWindowClass;code;USER32.dll;_RealGetWindowClass@12
 RealGetWindowClassA;code;USER32.dll;_RealGetWindowClassA@12

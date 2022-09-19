@@ -27,6 +27,7 @@ MFCreateCredentialCache;code;MF.dll;
 MFCreateDeviceSource;code;MF.dll;
 MFCreateDeviceSourceActivate;code;MF.dll;
 MFCreateDrmNetNDSchemePlugin;code;MF.dll;
+MFCreateEncryptedMediaExtensionsStoreActivate;code;MF.dll;
 MFCreateFMPEG4MediaSink;code;MF.dll;
 MFCreateHttpSchemePlugin;code;MF.dll;
 MFCreateMP3MediaSink;code;MF.dll;

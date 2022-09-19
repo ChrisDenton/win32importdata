@@ -62,6 +62,7 @@ CeipIsOptedIn;code;KERNEL32.dll;_CeipIsOptedIn@0
 ChangeTimerQueueTimer;code;KERNEL32.dll;_ChangeTimerQueueTimer@16
 CheckElevation;code;KERNEL32.dll;_CheckElevation@20
 CheckElevationEnabled;code;KERNEL32.dll;_CheckElevationEnabled@4
+CheckIsMSIXPackage;code;KERNEL32.dll;_CheckIsMSIXPackage@8
 CheckNameLegalDOS8Dot3A;code;KERNEL32.dll;_CheckNameLegalDOS8Dot3A@20
 CheckNameLegalDOS8Dot3W;code;KERNEL32.dll;_CheckNameLegalDOS8Dot3W@20
 CheckRemoteDebuggerPresent;code;KERNEL32.dll;_CheckRemoteDebuggerPresent@8
@@ -774,6 +775,7 @@ IsProcessorFeaturePresent;code;KERNEL32.dll;_IsProcessorFeaturePresent@4
 IsSystemResumeAutomatic;code;KERNEL32.dll;_IsSystemResumeAutomatic@0
 IsThreadAFiber;code;KERNEL32.dll;_IsThreadAFiber@0
 IsThreadpoolTimerSet;code;KERNEL32.dll;_IsThreadpoolTimerSet@4
+IsUserCetAvailableInEnvironment;code;KERNEL32.dll;_IsUserCetAvailableInEnvironment@4
 IsValidCodePage;code;KERNEL32.dll;_IsValidCodePage@4
 IsValidLanguageGroup;code;KERNEL32.dll;_IsValidLanguageGroup@8
 IsValidLocale;code;KERNEL32.dll;_IsValidLocale@8
@@ -1107,6 +1109,8 @@ SetProcessAffinityMask;code;KERNEL32.dll;_SetProcessAffinityMask@8
 SetProcessAffinityUpdateMode;code;KERNEL32.dll;_SetProcessAffinityUpdateMode@8
 SetProcessDEPPolicy;code;KERNEL32.dll;_SetProcessDEPPolicy@4
 SetProcessDefaultCpuSets;code;KERNEL32.dll;_SetProcessDefaultCpuSets@12
+SetProcessDynamicEHContinuationTargets;code;KERNEL32.dll;_SetProcessDynamicEHContinuationTargets@12
+SetProcessDynamicEnforcedCetCompatibleRanges;code;KERNEL32.dll;_SetProcessDynamicEnforcedCetCompatibleRanges@12
 SetProcessInformation;code;KERNEL32.dll;_SetProcessInformation@16
 SetProcessMitigationPolicy;code;KERNEL32.dll;_SetProcessMitigationPolicy@12
 SetProcessPreferredUILanguages;code;KERNEL32.dll;_SetProcessPreferredUILanguages@12

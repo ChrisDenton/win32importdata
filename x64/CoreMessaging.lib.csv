@@ -3,6 +3,7 @@ CoreUICallComputeMaximumMessageSize;code;CoreMessaging.dll;
 CoreUICallCreateConversationHost;code;CoreMessaging.dll;
 CoreUICallCreateEndpointHost;code;CoreMessaging.dll;
 CoreUICallCreateEndpointHostWithSendPriority;code;CoreMessaging.dll;
+CoreUICallGetAddressOfParameterInBuffer;code;CoreMessaging.dll;
 CoreUICallReceive;code;CoreMessaging.dll;
 CoreUICallSend;code;CoreMessaging.dll;
 CoreUICallSendVaList;code;CoreMessaging.dll;

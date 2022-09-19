@@ -2,11 +2,11 @@ Name;Type;DLL;SymbolOrOrdinal
 WcmAddRoutePolicy;code;wcmapi.dll;_WcmAddRoutePolicy@16
 WcmBeginIgnoreProfileList;code;wcmapi.dll;_WcmBeginIgnoreProfileList@12
 WcmCancelOnDemandRequest;code;wcmapi.dll;_WcmCancelOnDemandRequest@4
-WcmCheckCapabilityStatus;code;wcmapi.dll;_WcmCheckCapabilityStatus@0
+WcmCheckCapabilityStatus;code;wcmapi.dll;_WcmCheckCapabilityStatus@4
 WcmCloseHandle;code;wcmapi.dll;_WcmCloseHandle@8
 WcmCloseOnDemandRequestHandle;code;wcmapi.dll;_WcmCloseOnDemandRequestHandle@4
 WcmDeleteProxyInformation;code;wcmapi.dll;_WcmDeleteProxyInformation@12
-WcmDeprovisionCapability;code;wcmapi.dll;_WcmDeprovisionCapability@8
+WcmDeprovisionCapability;code;wcmapi.dll;_WcmDeprovisionCapability@12
 WcmEndIgnoreProfileList;code;wcmapi.dll;_WcmEndIgnoreProfileList@4
 WcmEnterConnectedStandby;code;wcmapi.dll;_WcmEnterConnectedStandby@0
 WcmEnterNetQuiet;code;wcmapi.dll;_WcmEnterNetQuiet@0
@@ -37,4 +37,4 @@ WcmSetProfileList;code;wcmapi.dll;_WcmSetProfileList@16
 WcmSetProperty;code;wcmapi.dll;_WcmSetProperty@24
 WcmSetProxyInformation;code;wcmapi.dll;_WcmSetProxyInformation@16
 WcmStartOnDemandRequest;code;wcmapi.dll;_WcmStartOnDemandRequest@4
-WcmUpdateCapabilityAccess;code;wcmapi.dll;_WcmUpdateCapabilityAccess@12
+WcmUpdateCapabilityAccess;code;wcmapi.dll;_WcmUpdateCapabilityAccess@16

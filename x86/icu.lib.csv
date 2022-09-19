@@ -467,6 +467,7 @@ udatpg_getBestPattern;code;icu.dll;_udatpg_getBestPattern
 udatpg_getBestPatternWithOptions;code;icu.dll;_udatpg_getBestPatternWithOptions
 udatpg_getDateTimeFormat;code;icu.dll;_udatpg_getDateTimeFormat
 udatpg_getDecimal;code;icu.dll;_udatpg_getDecimal
+udatpg_getFieldDisplayName;code;icu.dll;_udatpg_getFieldDisplayName
 udatpg_getPatternForSkeleton;code;icu.dll;_udatpg_getPatternForSkeleton
 udatpg_getSkeleton;code;icu.dll;_udatpg_getSkeleton
 udatpg_open;code;icu.dll;_udatpg_open
@@ -659,6 +660,16 @@ unum_setDoubleAttribute;code;icu.dll;_unum_setDoubleAttribute
 unum_setSymbol;code;icu.dll;_unum_setSymbol
 unum_setTextAttribute;code;icu.dll;_unum_setTextAttribute
 unum_toPattern;code;icu.dll;_unum_toPattern
+unumf_close;code;icu.dll;_unumf_close
+unumf_closeResult;code;icu.dll;_unumf_closeResult
+unumf_formatDecimal;code;icu.dll;_unumf_formatDecimal
+unumf_formatDouble;code;icu.dll;_unumf_formatDouble
+unumf_formatInt;code;icu.dll;_unumf_formatInt
+unumf_openForSkeletonAndLocale;code;icu.dll;_unumf_openForSkeletonAndLocale
+unumf_openResult;code;icu.dll;_unumf_openResult
+unumf_resultGetAllFieldPositions;code;icu.dll;_unumf_resultGetAllFieldPositions
+unumf_resultNextFieldPosition;code;icu.dll;_unumf_resultNextFieldPosition
+unumf_resultToString;code;icu.dll;_unumf_resultToString
 unumsys_close;code;icu.dll;_unumsys_close
 unumsys_getDescription;code;icu.dll;_unumsys_getDescription
 unumsys_getName;code;icu.dll;_unumsys_getName

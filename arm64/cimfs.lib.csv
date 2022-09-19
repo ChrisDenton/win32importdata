@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+CimCloseImage;code;CIMFS.dll;
+CimCloseStream;code;CIMFS.dll;
+CimCommitImage;code;CIMFS.dll;
+CimCreateAlternateStream;code;CIMFS.dll;
+CimCreateFile;code;CIMFS.dll;
+CimCreateHardLink;code;CIMFS.dll;
+CimCreateImage;code;CIMFS.dll;
+CimDeletePath;code;CIMFS.dll;
+CimDismountImage;code;CIMFS.dll;
+CimMountImage;code;CIMFS.dll;
+CimWriteStream;code;CIMFS.dll;

@@ -4,6 +4,7 @@ ActivateAudioInterfaceAsync;code;MMDevAPI.DLL;17
 CleanupDeviceAPI;code;MMDevAPI.DLL;2
 FlushDeviceTopologyCache;code;MMDevAPI.DLL;15
 GenerateMediaEvent;code;MMDevAPI.DLL;12
+GetCategoryPath;code;MMDevAPI.DLL;32
 GetClassFromEndpointId;code;MMDevAPI.DLL;7
 GetEndpointGuidFromEndpointId;code;MMDevAPI.DLL;8
 GetEndpointIdFromDeviceInterfaceId;code;MMDevAPI.DLL;18
@@ -17,6 +18,7 @@ MMDeviceGetPolicyConfig;code;MMDevAPI.DLL;14
 RegisterForMediaCallback;code;MMDevAPI.DLL;10
 UnregisterMediaCallback;code;MMDevAPI.DLL;11
 mmdDevFindMmDevProperty;code;MMDevAPI.DLL;19
+mmdDevGetDeviceIdFromPnpInterface;code;MMDevAPI.DLL;31
 mmdDevGetEndpointFormFactorFromMMDeviceId;code;MMDevAPI.DLL;30
 mmdDevGetInstanceIdFromInterfaceId;code;MMDevAPI.DLL;26
 mmdDevGetInstanceIdFromMMDeviceId;code;MMDevAPI.DLL;29

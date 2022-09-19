@@ -13,6 +13,7 @@ MFCalculateBitmapImageSize;code;MFPlat.DLL;_MFCalculateBitmapImageSize@16
 MFCalculateImageSize;code;MFPlat.DLL;_MFCalculateImageSize@16
 MFCancelCreateFile;code;MFPlat.DLL;_MFCancelCreateFile@4
 MFCancelWorkItem;code;MFPlat.DLL;_MFCancelWorkItem@8
+MFCombineSamples;code;MFPlat.DLL;_MFCombineSamples@16
 MFCompareFullToPartialMediaType;code;MFPlat.DLL;_MFCompareFullToPartialMediaType@8
 MFConvertColorInfoFromDXVA;code;MFPlat.DLL;_MFConvertColorInfoFromDXVA@8
 MFConvertColorInfoToDXVA;code;MFPlat.DLL;_MFConvertColorInfoToDXVA@8
@@ -127,6 +128,7 @@ MFScheduleWorkItemEx;code;MFPlat.DLL;_MFScheduleWorkItemEx@16
 MFSerializeAttributesToStream;code;MFPlat.DLL;_MFSerializeAttributesToStream@12
 MFSerializePresentationDescriptor;code;MFPlat.DLL;_MFSerializePresentationDescriptor@12
 MFShutdown;code;MFPlat.DLL;_MFShutdown@0
+MFSplitSample;code;MFPlat.DLL;_MFSplitSample@16
 MFStartup;code;MFPlat.DLL;_MFStartup@8
 MFStreamDescriptorProtectMediaType;code;MFPlat.DLL;_MFStreamDescriptorProtectMediaType@8
 MFTEnum2;code;MFPlat.DLL;_MFTEnum2@40

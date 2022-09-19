@@ -20,6 +20,7 @@ BackupClusterDatabase;code;CLUSAPI.dll;_BackupClusterDatabase@8
 CanResourceBeDependent;code;CLUSAPI.dll;_CanResourceBeDependent@8
 CancelClusterGroupOperation;code;CLUSAPI.dll;_CancelClusterGroupOperation@8
 ChangeClusterResourceGroup;code;CLUSAPI.dll;_ChangeClusterResourceGroup@8
+ChangeClusterResourceGroupEx;code;CLUSAPI.dll;_ChangeClusterResourceGroupEx@16
 CloseCluster;code;CLUSAPI.dll;_CloseCluster@4
 CloseClusterGroup;code;CLUSAPI.dll;_CloseClusterGroup@4
 CloseClusterGroupSet;code;CLUSAPI.dll;_CloseClusterGroupSet@4
@@ -35,13 +36,16 @@ CluGetDriveInfo;code;CLUSAPI.dll;_CluGetDriveInfo@16
 CluGetFaultDomainObject;code;CLUSAPI.dll;_CluGetFaultDomainObject@16
 CluGetFaultDomainObjects;code;CLUSAPI.dll;_CluGetFaultDomainObjects@12
 CluRemoveFaultDomainObject;code;CLUSAPI.dll;_CluRemoveFaultDomainObject@12
+ClusterAddGroupToAffinityRule;code;CLUSAPI.dll;_ClusterAddGroupToAffinityRule@12
 ClusterAddGroupToGroupSet;code;CLUSAPI.dll;_ClusterAddGroupToGroupSet@8
 ClusterAddGroupToGroupSetWithDomains;code;CLUSAPI.dll;_ClusterAddGroupToGroupSetWithDomains@16
+ClusterAffinityRuleControl;code;CLUSAPI.dll;_ClusterAffinityRuleControl@36
 ClusterCaptureLiveDump;code;CLUSAPI.dll;_ClusterCaptureLiveDump@100
 ClusterChangeVMSettings;code;CLUSAPI.dll;_ClusterChangeVMSettings@12
 ClusterCloseEnum;code;CLUSAPI.dll;_ClusterCloseEnum@4
 ClusterCloseEnumEx;code;CLUSAPI.dll;_ClusterCloseEnumEx@4
 ClusterControl;code;CLUSAPI.dll;_ClusterControl@32
+ClusterCreateAffinityRule;code;CLUSAPI.dll;_ClusterCreateAffinityRule@12
 ClusterCreateClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterCreateClusterStorageEnclosure@52
 ClusterCreateFaultDomain;code;CLUSAPI.dll;_ClusterCreateFaultDomain@28
 ClusterCreateFaultDomainFromXML;code;CLUSAPI.dll;_ClusterCreateFaultDomainFromXML@12
@@ -134,8 +138,10 @@ ClusterRegSetKeySecurity;code;CLUSAPI.dll;_ClusterRegSetKeySecurity@12
 ClusterRegSetValue;code;CLUSAPI.dll;_ClusterRegSetValue@20
 ClusterRegSetValueForceSync;code;CLUSAPI.dll;_ClusterRegSetValueForceSync@20
 ClusterRegSyncDatabase;code;CLUSAPI.dll;_ClusterRegSyncDatabase@8
+ClusterRemoveAffinityRule;code;CLUSAPI.dll;_ClusterRemoveAffinityRule@8
 ClusterRemoveClusterStorageEnclosure;code;CLUSAPI.dll;_ClusterRemoveClusterStorageEnclosure@12
 ClusterRemoveFaultDomain;code;CLUSAPI.dll;_ClusterRemoveFaultDomain@12
+ClusterRemoveGroupFromAffinityRule;code;CLUSAPI.dll;_ClusterRemoveGroupFromAffinityRule@12
 ClusterRemoveGroupFromGroupSet;code;CLUSAPI.dll;_ClusterRemoveGroupFromGroupSet@4
 ClusterResourceCloseEnum;code;CLUSAPI.dll;_ClusterResourceCloseEnum@4
 ClusterResourceCloseEnumEx;code;CLUSAPI.dll;_ClusterResourceCloseEnumEx@4

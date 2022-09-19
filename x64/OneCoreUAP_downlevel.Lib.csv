@@ -692,10 +692,12 @@ ImageList_Write;code;COMCTL32.dll;
 InitCommonControls;code;COMCTL32.dll;17
 InitCommonControlsEx;code;COMCTL32.dll;
 LBItemFromPt;code;COMCTL32.dll;
+LoadIconWithScaleDown;code;COMCTL32.dll;381
 MakeDragList;code;COMCTL32.dll;
 PropertySheetA;code;COMCTL32.dll;
 PropertySheetW;code;COMCTL32.dll;
 SetWindowSubclass;code;COMCTL32.dll;410
+TaskDialogIndirect;code;COMCTL32.dll;
 ChooseColorA;code;COMDLG32.dll;
 ChooseColorW;code;COMDLG32.dll;
 ChooseFontA;code;COMDLG32.dll;
@@ -3046,6 +3048,8 @@ PdhAddEnglishCounterW;code;pdh.dll;
 PdhCloseLog;code;pdh.dll;
 PdhCloseQuery;code;pdh.dll;
 PdhCollectQueryData;code;pdh.dll;
+PdhEnumObjectsW;code;pdh.dll;
+PdhEnumObjectItemsW;code;pdh.dll;
 PdhExpandWildCardPathW;code;pdh.dll;
 PdhGetCounterInfoW;code;pdh.dll;
 PdhGetFormattedCounterArrayW;code;pdh.dll;
@@ -3576,6 +3580,7 @@ ILSaveToStream;code;SHELL32.dll;27
 InitNetworkAddressControl;code;SHELL32.dll;
 IsElevationRequired;code;SHELL32.dll;865
 IsUserAnAdmin;code;SHELL32.dll;680
+LinkWindow_RegisterClass;code;SHELL32.dll;258
 PathCleanupSpec;code;SHELL32.dll;171
 PathComparePaths;code;SHELL32.dll;850
 PathIsEqualOrSubFolder;code;SHELL32.dll;755
@@ -3701,6 +3706,7 @@ AssocGetPerceivedType;code;SHLWAPI.dll;
 AssocIsDangerous;code;SHLWAPI.dll;
 AssocMakeApplicationByKeyW;code;SHLWAPI.dll;409
 AssocMakeProgid;code;SHLWAPI.dll;407
+AssocQueryKeyW;code;SHLWAPI.dll;
 AssocQueryStringA;code;SHLWAPI.dll;
 AssocQueryStringByKeyW;code;SHLWAPI.dll;
 AssocQueryStringW;code;SHLWAPI.dll;
@@ -4083,18 +4089,6 @@ UrlIsW;code;SHLWAPI.dll;
 UrlUnescapeA;code;SHLWAPI.dll;
 UrlUnescapeW;code;SHLWAPI.dll;
 ZoneCheckUrlExW;code;SHLWAPI.dll;231
-TdhEnumerateManifestProviderEvents;code;TDH.dll;
-TdhEnumerateProviderFieldInformation;code;TDH.dll;
-TdhEnumerateProviders;code;TDH.dll;
-TdhFormatProperty;code;TDH.dll;
-TdhGetEventInformation;code;TDH.dll;
-TdhGetEventMapInformation;code;TDH.dll;
-TdhGetManifestEventInformation;code;TDH.dll;
-TdhGetProperty;code;TDH.dll;
-TdhGetPropertySize;code;TDH.dll;
-TdhLoadManifest;code;TDH.dll;
-TdhQueryProviderFieldInformation;code;TDH.dll;
-TdhUnloadManifest;code;TDH.dll;
 GetMetroMode;code;TWINAPI.dll;8
 ActivateKeyboardLayout;code;USER32.dll;
 AddClipboardFormatListener;code;USER32.dll;
@@ -4738,6 +4732,7 @@ DrawThemeTextEx;code;UXTHEME.dll;
 EndBufferedPaint;code;UXTHEME.dll;
 GetBufferedPaintBits;code;UXTHEME.dll;
 GetColorFromPreference;code;UXTHEME.dll;
+GetCurrentThemeName;code;UXTHEME.dll;
 GetImmersiveColorFromColorSetEx;code;UXTHEME.dll;
 GetImmersiveColorNamedTypeByIndex;code;UXTHEME.dll;100
 GetImmersiveColorTypeFromName;code;UXTHEME.dll;96
@@ -4758,6 +4753,8 @@ GetThemeMargins;code;UXTHEME.dll;
 GetThemeMetric;code;UXTHEME.dll;
 GetThemePartSize;code;UXTHEME.dll;
 GetThemePosition;code;UXTHEME.dll;
+GetThemeRect;code;UXTHEME.dll;
+GetThemeStream;code;UXTHEME.dll;
 GetThemeTimingFunction;code;UXTHEME.dll;
 GetUserColorPreference;code;UXTHEME.dll;
 GetWindowTheme;code;UXTHEME.dll;
@@ -4804,7 +4801,8 @@ EnumPortsW;code;WINSPOOL.DRV;
 EnumPrinterDriversW;code;WINSPOOL.DRV;
 EnumPrintersA;code;WINSPOOL.DRV;
 EnumPrintersW;code;WINSPOOL.DRV;
-GetDefaultPrinterW;code;WINSPOOL.DRV;
+FreePrinterNotifyInfo;code;WINSPOOL.DRV;
+GetDefaultPrinterW;code;WINSPOOL.DRV;203
 GetJobW;code;WINSPOOL.DRV;
 GetPrinterA;code;WINSPOOL.DRV;
 GetPrinterDataExW;code;WINSPOOL.DRV;

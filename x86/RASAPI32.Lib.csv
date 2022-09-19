@@ -105,6 +105,7 @@ RasQuerySharedConnection;code;RASAPI32.dll;_RasQuerySharedConnection@4
 RasRegisterEntryChangeNotification;code;RASAPI32.dll;_RasRegisterEntryChangeNotification@24
 RasRenameEntryA;code;RASAPI32.dll;_RasRenameEntryA@12
 RasRenameEntryW;code;RASAPI32.dll;_RasRenameEntryW@12
+RasRestoreDefaultLegacyProxySettings;code;RASAPI32.dll;_RasRestoreDefaultLegacyProxySettings@4
 RasScriptExecute;code;RASAPI32.dll;_RasScriptExecute@20
 RasScriptGetIpAddress;code;RASAPI32.dll;_RasScriptGetIpAddress@8
 RasScriptInit;code;RASAPI32.dll;_RasScriptInit@28
@@ -133,7 +134,7 @@ RasSetEntryDialParamsW;code;RASAPI32.dll;_RasSetEntryDialParamsW@12
 RasSetEntryPropertiesA;code;RASAPI32.dll;_RasSetEntryPropertiesA@24
 RasSetEntryPropertiesW;code;RASAPI32.dll;_RasSetEntryPropertiesW@24
 RasSetOldPassword;code;RASAPI32.dll;_RasSetOldPassword@8
-RasSetPerConnectionProxy;code;RASAPI32.dll;_RasSetPerConnectionProxy@16
+RasSetPerConnectionProxy;code;RASAPI32.dll;_RasSetPerConnectionProxy@28
 RasSetSharedAutoDial;code;RASAPI32.dll;_RasSetSharedAutoDial@4
 RasSetSubEntryPropertiesA;code;RASAPI32.dll;_RasSetSubEntryPropertiesA@28
 RasSetSubEntryPropertiesW;code;RASAPI32.dll;_RasSetSubEntryPropertiesW@28

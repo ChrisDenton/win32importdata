@@ -34,6 +34,7 @@ DnsAsyncRegisterTerm;code;DNSAPI.dll;_DnsAsyncRegisterTerm@0
 DnsCancelQuery;code;DNSAPI.dll;_DnsCancelQuery@4
 DnsCheckNrptRuleIntegrity;code;DNSAPI.dll;_DnsCheckNrptRuleIntegrity@4
 DnsCheckNrptRules;code;DNSAPI.dll;_DnsCheckNrptRules@12
+DnsCleanupTcpConnections;code;DNSAPI.dll;_DnsCleanupTcpConnections@4
 DnsConnectionDeletePolicyEntries;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntries@4
 DnsConnectionDeletePolicyEntriesPrivate;code;DNSAPI.dll;_DnsConnectionDeletePolicyEntriesPrivate@8
 DnsConnectionDeleteProxyInfo;code;DNSAPI.dll;_DnsConnectionDeleteProxyInfo@8

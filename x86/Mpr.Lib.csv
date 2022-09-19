@@ -5,6 +5,8 @@ WNetAddConnection2A;code;MPR.dll;_WNetAddConnection2A@16
 WNetAddConnection2W;code;MPR.dll;_WNetAddConnection2W@16
 WNetAddConnection3A;code;MPR.dll;_WNetAddConnection3A@20
 WNetAddConnection3W;code;MPR.dll;_WNetAddConnection3W@20
+WNetAddConnection4A;code;MPR.dll;_WNetAddConnection4A@28
+WNetAddConnection4W;code;MPR.dll;_WNetAddConnection4W@28
 WNetAddConnectionA;code;MPR.dll;_WNetAddConnectionA@12
 WNetAddConnectionW;code;MPR.dll;_WNetAddConnectionW@12
 WNetCancelConnection2A;code;MPR.dll;_WNetCancelConnection2A@12
@@ -40,5 +42,7 @@ WNetOpenEnumA;code;MPR.dll;_WNetOpenEnumA@20
 WNetOpenEnumW;code;MPR.dll;_WNetOpenEnumW@20
 WNetSetLastErrorA;code;MPR.dll;_WNetSetLastErrorA@12
 WNetSetLastErrorW;code;MPR.dll;_WNetSetLastErrorW@12
+WNetUseConnection4A;code;MPR.dll;_WNetUseConnection4A@40
+WNetUseConnection4W;code;MPR.dll;_WNetUseConnection4W@40
 WNetUseConnectionA;code;MPR.dll;_WNetUseConnectionA@32
 WNetUseConnectionW;code;MPR.dll;_WNetUseConnectionW@32

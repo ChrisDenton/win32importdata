@@ -30,6 +30,7 @@ DhcpGlobalServiceSyncEvent;data;dhcpcsvc.DLL;
 DhcpGlobalTerminateEvent;data;dhcpcsvc.DLL;
 DhcpHandlePnPEvent;code;dhcpcsvc.DLL;
 DhcpIsEnabled;code;dhcpcsvc.DLL;
+DhcpIsMeteredDetected;code;dhcpcsvc.DLL;
 DhcpLeaseIpAddress;code;dhcpcsvc.DLL;
 DhcpLeaseIpAddressEx;code;dhcpcsvc.DLL;
 DhcpNotifyConfigChange;code;dhcpcsvc.DLL;

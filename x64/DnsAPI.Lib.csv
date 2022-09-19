@@ -22,6 +22,7 @@ DnsAsyncRegisterTerm;code;DNSAPI.dll;
 DnsCancelQuery;code;DNSAPI.dll;
 DnsCheckNrptRuleIntegrity;code;DNSAPI.dll;
 DnsCheckNrptRules;code;DNSAPI.dll;
+DnsCleanupTcpConnections;code;DNSAPI.dll;
 DnsConnectionDeletePolicyEntries;code;DNSAPI.dll;
 DnsConnectionDeletePolicyEntriesPrivate;code;DNSAPI.dll;
 DnsConnectionDeleteProxyInfo;code;DNSAPI.dll;

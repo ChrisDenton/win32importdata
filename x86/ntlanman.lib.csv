@@ -7,6 +7,7 @@ Name;Type;DLL;SymbolOrOrdinal
 DllMain;code;NTLANMAN.dll;_DllMain@12
 I_SystemFocusDialog;code;NTLANMAN.dll;_I_SystemFocusDialog@28
 _NPAddConnection3@20;code;NTLANMAN.dll;38
+_NPAddConnection4@28;code;NTLANMAN.dll;55
 _NPAddConnection@12;code;NTLANMAN.dll;17
 _NPCancelConnection@8;code;NTLANMAN.dll;18
 _NPCloseEnum@4;code;NTLANMAN.dll;35
@@ -14,6 +15,7 @@ _NPFormatNetworkName@20;code;NTLANMAN.dll;36
 _NPGetCaps@4;code;NTLANMAN.dll;13
 _NPGetConnection3@16;code;NTLANMAN.dll;54
 _NPGetConnectionPerformance@8;code;NTLANMAN.dll;49
+_NPGetPersistentUseOptionsForConnection@20;code;NTLANMAN.dll;56
 _NPGetResourceInformation@16;code;NTLANMAN.dll;52
 _NPGetResourceParent@12;code;NTLANMAN.dll;41
 _NPGetUser@12;code;NTLANMAN.dll;16

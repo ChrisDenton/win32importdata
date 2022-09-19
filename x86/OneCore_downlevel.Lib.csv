@@ -692,10 +692,12 @@ ImageList_Write;code;COMCTL32.dll;_ImageList_Write@8
 _InitCommonControls@0;code;COMCTL32.dll;17
 InitCommonControlsEx;code;COMCTL32.dll;_InitCommonControlsEx@4
 LBItemFromPt;code;COMCTL32.dll;_LBItemFromPt@16
+_LoadIconWithScaleDown@20;code;COMCTL32.dll;381
 MakeDragList;code;COMCTL32.dll;_MakeDragList@4
 PropertySheetA;code;COMCTL32.dll;_PropertySheetA@4
 PropertySheetW;code;COMCTL32.dll;_PropertySheetW@4
 _SetWindowSubclass@16;code;COMCTL32.dll;410
+TaskDialogIndirect;code;COMCTL32.dll;_TaskDialogIndirect@16
 ChooseColorA;code;COMDLG32.dll;_ChooseColorA@4
 ChooseColorW;code;COMDLG32.dll;_ChooseColorW@4
 ChooseFontA;code;COMDLG32.dll;_ChooseFontA@4
@@ -2990,6 +2992,8 @@ PdhAddEnglishCounterW;code;pdh.dll;_PdhAddEnglishCounterW@16
 PdhCloseLog;code;pdh.dll;_PdhCloseLog@8
 PdhCloseQuery;code;pdh.dll;_PdhCloseQuery@4
 PdhCollectQueryData;code;pdh.dll;_PdhCollectQueryData@4
+PdhEnumObjectsW;code;pdh.dll;_PdhEnumObjectsW@24
+PdhEnumObjectItemsW;code;pdh.dll;_PdhEnumObjectItemsW@36
 PdhExpandWildCardPathW;code;pdh.dll;_PdhExpandWildCardPathW@20
 PdhGetCounterInfoW;code;pdh.dll;_PdhGetCounterInfoW@16
 PdhGetFormattedCounterArrayW;code;pdh.dll;_PdhGetFormattedCounterArrayW@20
@@ -3520,6 +3524,7 @@ _ILSaveToStream@8;code;SHELL32.dll;27
 InitNetworkAddressControl;code;SHELL32.dll;_InitNetworkAddressControl@0
 _IsElevationRequired@4;code;SHELL32.dll;865
 _IsUserAnAdmin@0;code;SHELL32.dll;680
+_LinkWindow_RegisterClass@0;code;SHELL32.dll;258
 _PathCleanupSpec@8;code;SHELL32.dll;171
 _PathComparePaths@8;code;SHELL32.dll;850
 _PathIsEqualOrSubFolder@8;code;SHELL32.dll;755
@@ -3648,6 +3653,7 @@ _AssocMakeProgid@16;code;SHLWAPI.dll;407
 AssocQueryStringA;code;SHLWAPI.dll;_AssocQueryStringA@24
 AssocQueryStringByKeyW;code;SHLWAPI.dll;_AssocQueryStringByKeyW@24
 AssocQueryStringW;code;SHLWAPI.dll;_AssocQueryStringW@24
+AssocQueryKeyW;code;SHLWAPI.dll;_AssocQueryKeyW@20
 _CalculateAspectRatio@12;code;SHLWAPI.dll;581
 _CharUpperNoDBCSW@4;code;SHLWAPI.dll;452
 ColorHLSToRGB;code;SHLWAPI.dll;_ColorHLSToRGB@12
@@ -4027,18 +4033,6 @@ UrlIsW;code;SHLWAPI.dll;_UrlIsW@8
 UrlUnescapeA;code;SHLWAPI.dll;_UrlUnescapeA@16
 UrlUnescapeW;code;SHLWAPI.dll;_UrlUnescapeW@16
 _ZoneCheckUrlExW@32;code;SHLWAPI.dll;231
-TdhEnumerateManifestProviderEvents;code;TDH.dll;_TdhEnumerateManifestProviderEvents@12
-TdhEnumerateProviderFieldInformation;code;TDH.dll;_TdhEnumerateProviderFieldInformation@16
-TdhEnumerateProviders;code;TDH.dll;_TdhEnumerateProviders@8
-TdhFormatProperty;code;TDH.dll;_TdhFormatProperty@44
-TdhGetEventInformation;code;TDH.dll;_TdhGetEventInformation@20
-TdhGetEventMapInformation;code;TDH.dll;_TdhGetEventMapInformation@16
-TdhGetManifestEventInformation;code;TDH.dll;_TdhGetManifestEventInformation@16
-TdhGetProperty;code;TDH.dll;_TdhGetProperty@28
-TdhGetPropertySize;code;TDH.dll;_TdhGetPropertySize@24
-TdhLoadManifest;code;TDH.dll;_TdhLoadManifest@4
-TdhQueryProviderFieldInformation;code;TDH.dll;_TdhQueryProviderFieldInformation@24
-TdhUnloadManifest;code;TDH.dll;_TdhUnloadManifest@4
 _GetMetroMode@4;code;TWINAPI.dll;8
 ActivateKeyboardLayout;code;USER32.dll;_ActivateKeyboardLayout@8
 AddClipboardFormatListener;code;USER32.dll;_AddClipboardFormatListener@4
@@ -4374,7 +4368,7 @@ InSendMessageEx;code;USER32.dll;_InSendMessageEx@4
 InsertMenuA;code;USER32.dll;_InsertMenuA@20
 InsertMenuItemW;code;USER32.dll;_InsertMenuItemW@16
 InsertMenuW;code;USER32.dll;_InsertMenuW@20
-_InternalClipCursor@8;code;USER32.dll;2534
+_InternalClipCursor@12;code;USER32.dll;2534
 IntersectRect;code;USER32.dll;_IntersectRect@12
 InvalidateRect;code;USER32.dll;_InvalidateRect@12
 InvalidateRgn;code;USER32.dll;_InvalidateRgn@12
@@ -4674,6 +4668,7 @@ DrawThemeTextEx;code;UXTHEME.dll;_DrawThemeTextEx@36
 EndBufferedPaint;code;UXTHEME.dll;_EndBufferedPaint@8
 GetBufferedPaintBits;code;UXTHEME.dll;_GetBufferedPaintBits@12
 GetColorFromPreference;code;UXTHEME.dll;_GetColorFromPreference@16
+GetCurrentThemeName;code;UXTHEME.dll;_GetCurrentThemeName@24
 GetImmersiveColorFromColorSetEx;code;UXTHEME.dll;_GetImmersiveColorFromColorSetEx@16
 _GetImmersiveColorNamedTypeByIndex@4;code;UXTHEME.dll;100
 _GetImmersiveColorTypeFromName@4;code;UXTHEME.dll;96
@@ -4694,6 +4689,8 @@ GetThemeMargins;code;UXTHEME.dll;_GetThemeMargins@28
 GetThemeMetric;code;UXTHEME.dll;_GetThemeMetric@24
 GetThemePartSize;code;UXTHEME.dll;_GetThemePartSize@28
 GetThemePosition;code;UXTHEME.dll;_GetThemePosition@20
+GetThemeRect;code;UXTHEME.dll;_GetThemeRect@20
+GetThemeStream;code;UXTHEME.dll;_GetThemeStream@28
 GetThemeTimingFunction;code;UXTHEME.dll;_GetThemeTimingFunction@20
 GetUserColorPreference;code;UXTHEME.dll;_GetUserColorPreference@8
 GetWindowTheme;code;UXTHEME.dll;_GetWindowTheme@4
@@ -4740,7 +4737,8 @@ EnumPortsW;code;WINSPOOL.DRV;_EnumPortsW@24
 EnumPrinterDriversW;code;WINSPOOL.DRV;_EnumPrinterDriversW@28
 EnumPrintersA;code;WINSPOOL.DRV;_EnumPrintersA@28
 EnumPrintersW;code;WINSPOOL.DRV;_EnumPrintersW@28
-GetDefaultPrinterW;code;WINSPOOL.DRV;_GetDefaultPrinterW@8
+FreePrinterNotifyInfo;code;WINSPOOL.DRV;_FreePrinterNotifyInfo@4
+_GetDefaultPrinterW@8;code;WINSPOOL.DRV;203
 GetJobW;code;WINSPOOL.DRV;_GetJobW@24
 GetPrinterA;code;WINSPOOL.DRV;_GetPrinterA@20
 GetPrinterDataExW;code;WINSPOOL.DRV;_GetPrinterDataExW@28

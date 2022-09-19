@@ -18,6 +18,7 @@ _DeleteAppContainerProfileInternal@8;code;USERENV.dll;213
 _DeleteGroup@8;code;USERENV.dll;104
 _DeleteLinkFile@16;code;USERENV.dll;122
 DeleteProfileA;code;USERENV.dll;_DeleteProfileA@12
+_DeleteProfileDirectory2@16;code;USERENV.dll;219
 _DeleteProfileDirectory@12;code;USERENV.dll;202
 DeleteProfileW;code;USERENV.dll;_DeleteProfileW@12
 DeriveAppContainerSidFromAppContainerName;code;USERENV.dll;_DeriveAppContainerSidFromAppContainerName@8

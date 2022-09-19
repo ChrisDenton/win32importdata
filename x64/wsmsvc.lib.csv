@@ -3463,7 +3463,7 @@ UninstallMigration;code;WsmSvc.DLL;?UninstallMigration@@YAHPEAVIRequestContext@@
 ?UnregisterPolicyNotification@CWSManGroupPolicyManager@@AEAAHXZ;code;WsmSvc.DLL;
 ?Up@?$LoaderSerializer@VSubscriptionManager@@$01@@AEAAJXZ;code;WsmSvc.DLL;
 ?UpdateCredentialsInCredmanStore@CConfigManager@@SAHPEAVIRequestContext@@PEAG1@Z;code;WsmSvc.DLL;
-UpdateHttpsBinding;code;WsmSvc.DLL;?UpdateHttpsBinding@@YAHPEAVIRequestContext@@PEBG1PEAH@Z (int __cdecl UpdateHttpsBinding(class IRequestContext *,unsigned short const *,unsigned short const *,int *))
+UpdateHttpsBinding;code;WsmSvc.DLL;?UpdateHttpsBinding@@YAHPEAVIRequestContext@@PEBG1PEAHHH@Z (int __cdecl UpdateHttpsBinding(class IRequestContext *,unsigned short const *,unsigned short const *,int *,int,int))
 UpdateHttpsCertificate;code;WsmSvc.DLL;?UpdateHttpsCertificate@@YAHPEAVIRequestContext@@PEBG11PEAHHU_GUID@@@Z (int __cdecl UpdateHttpsCertificate(class IRequestContext *,unsigned short const *,unsigned short const *,unsigned short const *,int *,int,struct _GUID))
 ?UpdateKey@CWSManResourceNoResourceUri@@QEAAHPEAVIRequestContext@@PEBG1@Z;code;WsmSvc.DLL;
 ?Uri@CResourceAlias@@QEAAPEBGXZ;code;WsmSvc.DLL;

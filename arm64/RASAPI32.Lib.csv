@@ -105,6 +105,7 @@ RasQuerySharedConnection;code;RASAPI32.dll;
 RasRegisterEntryChangeNotification;code;RASAPI32.dll;
 RasRenameEntryA;code;RASAPI32.dll;
 RasRenameEntryW;code;RASAPI32.dll;
+RasRestoreDefaultLegacyProxySettings;code;RASAPI32.dll;
 RasScriptExecute;code;RASAPI32.dll;
 RasScriptGetIpAddress;code;RASAPI32.dll;
 RasScriptInit;code;RASAPI32.dll;

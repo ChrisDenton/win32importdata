@@ -39,6 +39,7 @@ WinStationCreateChildSessionTransport;code;WINSTA.dll;_WinStationCreateChildSess
 WinStationDisconnect;code;WINSTA.dll;_WinStationDisconnect@12
 WinStationEnableChildSessions;code;WINSTA.dll;_WinStationEnableChildSessions@4
 WinStationEnumerateA;code;WINSTA.dll;_WinStationEnumerateA@12
+WinStationEnumerateContainerSessions;code;WINSTA.dll;_WinStationEnumerateContainerSessions@8
 WinStationEnumerateExW;code;WINSTA.dll;_WinStationEnumerateExW@12
 WinStationEnumerateLicenses;code;WINSTA.dll;_WinStationEnumerateLicenses@12
 WinStationEnumerateProcesses;code;WINSTA.dll;_WinStationEnumerateProcesses@8
@@ -67,6 +68,7 @@ WinStationGetDeviceId;code;WINSTA.dll;_WinStationGetDeviceId@16
 WinStationGetInitialApplication;code;WINSTA.dll;_WinStationGetInitialApplication@20
 WinStationGetLanAdapterNameA;code;WINSTA.dll;_WinStationGetLanAdapterNameA@24
 WinStationGetLanAdapterNameW;code;WINSTA.dll;_WinStationGetLanAdapterNameW@24
+WinStationGetLastWinlogonNotification;code;WINSTA.dll;_WinStationGetLastWinlogonNotification@20
 WinStationGetLoggedOnCount;code;WINSTA.dll;_WinStationGetLoggedOnCount@8
 WinStationGetMachinePolicy;code;WINSTA.dll;_WinStationGetMachinePolicy@8
 WinStationGetParentSessionId;code;WINSTA.dll;_WinStationGetParentSessionId@8
@@ -117,6 +119,7 @@ WinStationRegisterNotificationEvent;code;WINSTA.dll;_WinStationRegisterNotificat
 WinStationRemoveLicense;code;WINSTA.dll;_WinStationRemoveLicense@12
 WinStationRenameA;code;WINSTA.dll;_WinStationRenameA@12
 WinStationRenameW;code;WINSTA.dll;_WinStationRenameW@12
+WinStationReportLoggedOnCompleted;code;WINSTA.dll;_WinStationReportLoggedOnCompleted@0
 WinStationReportUIResult;code;WINSTA.dll;_WinStationReportUIResult@12
 WinStationReset;code;WINSTA.dll;_WinStationReset@12
 WinStationRevertFromServicesSession;code;WINSTA.dll;_WinStationRevertFromServicesSession@0
@@ -127,6 +130,7 @@ WinStationServerPing;code;WINSTA.dll;_WinStationServerPing@4
 WinStationSetAutologonPassword;code;WINSTA.dll;_WinStationSetAutologonPassword@8
 WinStationSetInformationA;code;WINSTA.dll;_WinStationSetInformationA@20
 WinStationSetInformationW;code;WINSTA.dll;_WinStationSetInformationW@20
+WinStationSetLastWinlogonNotification;code;WINSTA.dll;_WinStationSetLastWinlogonNotification@12
 WinStationSetPoolCount;code;WINSTA.dll;_WinStationSetPoolCount@12
 WinStationSetRenderHint;code;WINSTA.dll;_WinStationSetRenderHint@20
 WinStationShadow;code;WINSTA.dll;_WinStationShadow@20

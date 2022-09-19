@@ -28,6 +28,7 @@ FreeClusterHealthFaultArray;code;RESUTILS.dll;_FreeClusterHealthFaultArray@4
 InitializeClusterHealthFault;code;RESUTILS.dll;_InitializeClusterHealthFault@4
 InitializeClusterHealthFaultArray;code;RESUTILS.dll;_InitializeClusterHealthFaultArray@4
 OpenClusterCryptProvider;code;RESUTILS.dll;_OpenClusterCryptProvider@16
+OpenClusterCryptProviderEx;code;RESUTILS.dll;_OpenClusterCryptProviderEx@20
 ResUtilAddUnknownProperties;code;RESUTILS.dll;_ResUtilAddUnknownProperties@24
 ResUtilCreateDirectoryTree;code;RESUTILS.dll;_ResUtilCreateDirectoryTree@4
 ResUtilDupGroup;code;RESUTILS.dll;_ResUtilDupGroup@8
