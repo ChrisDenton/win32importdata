@@ -1,0 +1,107 @@
+Name;Type;DLL;SymbolOrOrdinal
+HcnCloseEndpoint;code;computenetwork.dll;#HcnCloseEndpoint
+HcnCloseGuestNetworkService;code;computenetwork.dll;#HcnCloseGuestNetworkService
+HcnCloseLoadBalancer;code;computenetwork.dll;#HcnCloseLoadBalancer
+HcnCloseNamespace;code;computenetwork.dll;#HcnCloseNamespace
+HcnCloseNetwork;code;computenetwork.dll;#HcnCloseNetwork
+HcnCreateEndpoint;code;computenetwork.dll;#HcnCreateEndpoint
+HcnCreateGuestNetworkService;code;computenetwork.dll;#HcnCreateGuestNetworkService
+HcnCreateLoadBalancer;code;computenetwork.dll;#HcnCreateLoadBalancer
+HcnCreateNamespace;code;computenetwork.dll;#HcnCreateNamespace
+HcnCreateNetwork;code;computenetwork.dll;#HcnCreateNetwork
+HcnDeleteEndpoint;code;computenetwork.dll;#HcnDeleteEndpoint
+HcnDeleteGuestNetworkService;code;computenetwork.dll;#HcnDeleteGuestNetworkService
+HcnDeleteLoadBalancer;code;computenetwork.dll;#HcnDeleteLoadBalancer
+HcnDeleteNamespace;code;computenetwork.dll;#HcnDeleteNamespace
+HcnDeleteNetwork;code;computenetwork.dll;#HcnDeleteNetwork
+HcnEnumerateEndpoints;code;computenetwork.dll;#HcnEnumerateEndpoints
+HcnEnumerateGuestNetworkPortReservations;code;computenetwork.dll;#HcnEnumerateGuestNetworkPortReservations
+HcnEnumerateLoadBalancers;code;computenetwork.dll;#HcnEnumerateLoadBalancers
+HcnEnumerateNamespaces;code;computenetwork.dll;#HcnEnumerateNamespaces
+HcnEnumerateNetworks;code;computenetwork.dll;#HcnEnumerateNetworks
+HcnFreeGuestNetworkPortReservations;code;computenetwork.dll;#HcnFreeGuestNetworkPortReservations
+HcnModifyEndpoint;code;computenetwork.dll;#HcnModifyEndpoint
+HcnModifyGuestNetworkService;code;computenetwork.dll;#HcnModifyGuestNetworkService
+HcnModifyLoadBalancer;code;computenetwork.dll;#HcnModifyLoadBalancer
+HcnModifyNamespace;code;computenetwork.dll;#HcnModifyNamespace
+HcnModifyNetwork;code;computenetwork.dll;#HcnModifyNetwork
+HcnOpenEndpoint;code;computenetwork.dll;#HcnOpenEndpoint
+HcnOpenLoadBalancer;code;computenetwork.dll;#HcnOpenLoadBalancer
+HcnOpenNamespace;code;computenetwork.dll;#HcnOpenNamespace
+HcnOpenNetwork;code;computenetwork.dll;#HcnOpenNetwork
+HcnQueryEndpointProperties;code;computenetwork.dll;#HcnQueryEndpointProperties
+HcnQueryLoadBalancerProperties;code;computenetwork.dll;#HcnQueryLoadBalancerProperties
+HcnQueryNamespaceProperties;code;computenetwork.dll;#HcnQueryNamespaceProperties
+HcnQueryNetworkProperties;code;computenetwork.dll;#HcnQueryNetworkProperties
+HcnRegisterGuestNetworkServiceCallback;code;computenetwork.dll;#HcnRegisterGuestNetworkServiceCallback
+HcnRegisterServiceCallback;code;computenetwork.dll;#HcnRegisterServiceCallback
+HcnReleaseGuestNetworkServicePortReservationHandle;code;computenetwork.dll;#HcnReleaseGuestNetworkServicePortReservationHandle
+HcnReserveGuestNetworkServicePort;code;computenetwork.dll;#HcnReserveGuestNetworkServicePort
+HcnReserveGuestNetworkServicePortRange;code;computenetwork.dll;#HcnReserveGuestNetworkServicePortRange
+HcnUnregisterGuestNetworkServiceCallback;code;computenetwork.dll;#HcnUnregisterGuestNetworkServiceCallback
+HcnUnregisterServiceCallback;code;computenetwork.dll;#HcnUnregisterServiceCallback
+HcnCloseSdnRoute;code;computenetwork.dll;?HcnCloseSdnRoute@@$$hYAJPEAX@Z (long __cdecl HcnCloseSdnRoute(void *))
+HcnCreateSdnRoute;code;computenetwork.dll;?HcnCreateSdnRoute@@$$hYAJAEBU_GUID@@PEBGPEAPEAXPEAPEAG@Z (long __cdecl HcnCreateSdnRoute(struct _GUID const &,unsigned short const *,void * *,unsigned short * *))
+HcnDeleteSdnRoute;code;computenetwork.dll;?HcnDeleteSdnRoute@@$$hYAJAEBU_GUID@@PEAPEAG@Z (long __cdecl HcnDeleteSdnRoute(struct _GUID const &,unsigned short * *))
+HcnEnumerateGuestNetworkServices;code;computenetwork.dll;?HcnEnumerateGuestNetworkServices@@$$hYAJPEBGPEAPEAG1@Z (long __cdecl HcnEnumerateGuestNetworkServices(unsigned short const *,unsigned short * *,unsigned short * *))
+HcnEnumerateSdnRoutes;code;computenetwork.dll;?HcnEnumerateSdnRoutes@@$$hYAJPEBGPEAPEAG1@Z (long __cdecl HcnEnumerateSdnRoutes(unsigned short const *,unsigned short * *,unsigned short * *))
+HcnModifySdnRoute;code;computenetwork.dll;?HcnModifySdnRoute@@$$hYAJPEAXPEBGPEAPEAG@Z (long __cdecl HcnModifySdnRoute(void *,unsigned short const *,unsigned short * *))
+HcnOpenGuestNetworkService;code;computenetwork.dll;?HcnOpenGuestNetworkService@@$$hYAJAEBU_GUID@@PEAPEAXPEAPEAG@Z (long __cdecl HcnOpenGuestNetworkService(struct _GUID const &,void * *,unsigned short * *))
+HcnOpenSdnRoute;code;computenetwork.dll;?HcnOpenSdnRoute@@$$hYAJAEBU_GUID@@PEAPEAXPEAPEAG@Z (long __cdecl HcnOpenSdnRoute(struct _GUID const &,void * *,unsigned short * *))
+HcnQueryGuestNetworkServiceProperties;code;computenetwork.dll;?HcnQueryGuestNetworkServiceProperties@@$$hYAJPEAXPEBGPEAPEAG2@Z (long __cdecl HcnQueryGuestNetworkServiceProperties(void *,unsigned short const *,unsigned short * *,unsigned short * *))
+HcnQuerySdnRouteProperties;code;computenetwork.dll;?HcnQuerySdnRouteProperties@@$$hYAJPEAXPEBGPEAPEAG2@Z (long __cdecl HcnQuerySdnRouteProperties(void *,unsigned short const *,unsigned short * *,unsigned short * *))
+HcnRegisterNetworkCallback;code;computenetwork.dll;?HcnRegisterNetworkCallback@@$$hYAJPEAXP6AXK0JPEBG@Z0PEAPEAX@Z (long __cdecl HcnRegisterNetworkCallback(void *,void (__cdecl*)(unsigned long,void *,long,unsigned short const *),void *,void * *))
+HcnUnregisterNetworkCallback;code;computenetwork.dll;?HcnUnregisterNetworkCallback@@$$hYAJPEAX@Z (long __cdecl HcnUnregisterNetworkCallback(void *))
+HcnCloseSdnRoute;code;computenetwork.dll;?HcnCloseSdnRoute@@YAJPEAX@Z (long __cdecl HcnCloseSdnRoute(void *))
+HcnCreateSdnRoute;code;computenetwork.dll;?HcnCreateSdnRoute@@YAJAEBU_GUID@@PEBGPEAPEAXPEAPEAG@Z (long __cdecl HcnCreateSdnRoute(struct _GUID const &,unsigned short const *,void * *,unsigned short * *))
+HcnDeleteSdnRoute;code;computenetwork.dll;?HcnDeleteSdnRoute@@YAJAEBU_GUID@@PEAPEAG@Z (long __cdecl HcnDeleteSdnRoute(struct _GUID const &,unsigned short * *))
+HcnEnumerateGuestNetworkServices;code;computenetwork.dll;?HcnEnumerateGuestNetworkServices@@YAJPEBGPEAPEAG1@Z (long __cdecl HcnEnumerateGuestNetworkServices(unsigned short const *,unsigned short * *,unsigned short * *))
+HcnEnumerateSdnRoutes;code;computenetwork.dll;?HcnEnumerateSdnRoutes@@YAJPEBGPEAPEAG1@Z (long __cdecl HcnEnumerateSdnRoutes(unsigned short const *,unsigned short * *,unsigned short * *))
+HcnModifySdnRoute;code;computenetwork.dll;?HcnModifySdnRoute@@YAJPEAXPEBGPEAPEAG@Z (long __cdecl HcnModifySdnRoute(void *,unsigned short const *,unsigned short * *))
+HcnOpenGuestNetworkService;code;computenetwork.dll;?HcnOpenGuestNetworkService@@YAJAEBU_GUID@@PEAPEAXPEAPEAG@Z (long __cdecl HcnOpenGuestNetworkService(struct _GUID const &,void * *,unsigned short * *))
+HcnOpenSdnRoute;code;computenetwork.dll;?HcnOpenSdnRoute@@YAJAEBU_GUID@@PEAPEAXPEAPEAG@Z (long __cdecl HcnOpenSdnRoute(struct _GUID const &,void * *,unsigned short * *))
+HcnQueryGuestNetworkServiceProperties;code;computenetwork.dll;?HcnQueryGuestNetworkServiceProperties@@YAJPEAXPEBGPEAPEAG2@Z (long __cdecl HcnQueryGuestNetworkServiceProperties(void *,unsigned short const *,unsigned short * *,unsigned short * *))
+HcnQuerySdnRouteProperties;code;computenetwork.dll;?HcnQuerySdnRouteProperties@@YAJPEAXPEBGPEAPEAG2@Z (long __cdecl HcnQuerySdnRouteProperties(void *,unsigned short const *,unsigned short * *,unsigned short * *))
+HcnRegisterNetworkCallback;code;computenetwork.dll;?HcnRegisterNetworkCallback@@YAJPEAXP6AXK0JPEBG@Z0PEAPEAX@Z (long __cdecl HcnRegisterNetworkCallback(void *,void (__cdecl*)(unsigned long,void *,long,unsigned short const *),void *,void * *))
+HcnUnregisterNetworkCallback;code;computenetwork.dll;?HcnUnregisterNetworkCallback@@YAJPEAX@Z (long __cdecl HcnUnregisterNetworkCallback(void *))
+HcnCloseEndpoint;code;computenetwork.dll;
+HcnCloseGuestNetworkService;code;computenetwork.dll;
+HcnCloseLoadBalancer;code;computenetwork.dll;
+HcnCloseNamespace;code;computenetwork.dll;
+HcnCloseNetwork;code;computenetwork.dll;
+HcnCreateEndpoint;code;computenetwork.dll;
+HcnCreateGuestNetworkService;code;computenetwork.dll;
+HcnCreateLoadBalancer;code;computenetwork.dll;
+HcnCreateNamespace;code;computenetwork.dll;
+HcnCreateNetwork;code;computenetwork.dll;
+HcnDeleteEndpoint;code;computenetwork.dll;
+HcnDeleteGuestNetworkService;code;computenetwork.dll;
+HcnDeleteLoadBalancer;code;computenetwork.dll;
+HcnDeleteNamespace;code;computenetwork.dll;
+HcnDeleteNetwork;code;computenetwork.dll;
+HcnEnumerateEndpoints;code;computenetwork.dll;
+HcnEnumerateGuestNetworkPortReservations;code;computenetwork.dll;
+HcnEnumerateLoadBalancers;code;computenetwork.dll;
+HcnEnumerateNamespaces;code;computenetwork.dll;
+HcnEnumerateNetworks;code;computenetwork.dll;
+HcnFreeGuestNetworkPortReservations;code;computenetwork.dll;
+HcnModifyEndpoint;code;computenetwork.dll;
+HcnModifyGuestNetworkService;code;computenetwork.dll;
+HcnModifyLoadBalancer;code;computenetwork.dll;
+HcnModifyNamespace;code;computenetwork.dll;
+HcnModifyNetwork;code;computenetwork.dll;
+HcnOpenEndpoint;code;computenetwork.dll;
+HcnOpenLoadBalancer;code;computenetwork.dll;
+HcnOpenNamespace;code;computenetwork.dll;
+HcnOpenNetwork;code;computenetwork.dll;
+HcnQueryEndpointProperties;code;computenetwork.dll;
+HcnQueryLoadBalancerProperties;code;computenetwork.dll;
+HcnQueryNamespaceProperties;code;computenetwork.dll;
+HcnQueryNetworkProperties;code;computenetwork.dll;
+HcnRegisterGuestNetworkServiceCallback;code;computenetwork.dll;
+HcnRegisterServiceCallback;code;computenetwork.dll;
+HcnReleaseGuestNetworkServicePortReservationHandle;code;computenetwork.dll;
+HcnReserveGuestNetworkServicePort;code;computenetwork.dll;
+HcnReserveGuestNetworkServicePortRange;code;computenetwork.dll;
+HcnUnregisterGuestNetworkServiceCallback;code;computenetwork.dll;
+HcnUnregisterServiceCallback;code;computenetwork.dll;

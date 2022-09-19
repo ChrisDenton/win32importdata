@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+?SumInstrumentationDataAddress@@YAHU_GUID@@QEAGPEAG2K@Z (int __cdecl SumInstrumentationDataAddress(struct _GUID,unsigned short * const,unsigned short *,unsigned short *,unsigned long));code;ualapi.dll;9
+?SumInstrumentationStartGuid@@YAHU_GUID@@@Z (int __cdecl SumInstrumentationStartGuid(struct _GUID));code;ualapi.dll;7
+?SumInstrumentationStopGuid@@YAHU_GUID@@@Z (int __cdecl SumInstrumentationStopGuid(struct _GUID));code;ualapi.dll;8
+SumInstrumentationData;code;ualapi.dll;6
+SumInstrumentationStart;code;ualapi.dll;4
+SumInstrumentationStop;code;ualapi.dll;5
+UalInstrument;code;ualapi.dll;
+UalRegisterProduct;code;ualapi.dll;
+UalStart;code;ualapi.dll;
+UalStop;code;ualapi.dll;

@@ -1,0 +1,16 @@
+Name;Type;DLL;SymbolOrOrdinal
+WdsTptcDownload;code;WDSTPTC.dll;?WdsTptcDownload@@YGKKKPBG000KKK@Z (unsigned long __stdcall WdsTptcDownload(unsigned long,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned long,unsigned long))
+WdsTransportClientRegisterTrace;code;WDSTPTC.dll;?WdsTransportClientRegisterTrace@@YGKP6GXPBGPAD@Z@Z (unsigned long __stdcall WdsTransportClientRegisterTrace(void (__stdcall*)(unsigned short const *,char *)))
+WdsTransportClientAddRefBuffer;code;WDSTPTC.dll;_WdsTransportClientAddRefBuffer@4
+WdsTransportClientCancelSession;code;WDSTPTC.dll;_WdsTransportClientCancelSession@4
+WdsTransportClientCancelSessionEx;code;WDSTPTC.dll;_WdsTransportClientCancelSessionEx@8
+WdsTransportClientCloseSession;code;WDSTPTC.dll;_WdsTransportClientCloseSession@4
+WdsTransportClientCompleteReceive;code;WDSTPTC.dll;_WdsTransportClientCompleteReceive@12
+WdsTransportClientInitialize;code;WDSTPTC.dll;_WdsTransportClientInitialize@0
+WdsTransportClientInitializeSession;code;WDSTPTC.dll;_WdsTransportClientInitializeSession@12
+WdsTransportClientQueryStatus;code;WDSTPTC.dll;_WdsTransportClientQueryStatus@12
+WdsTransportClientRegisterCallback;code;WDSTPTC.dll;_WdsTransportClientRegisterCallback@12
+WdsTransportClientReleaseBuffer;code;WDSTPTC.dll;_WdsTransportClientReleaseBuffer@4
+WdsTransportClientShutdown;code;WDSTPTC.dll;_WdsTransportClientShutdown@0
+WdsTransportClientStartSession;code;WDSTPTC.dll;_WdsTransportClientStartSession@4
+WdsTransportClientWaitForCompletion;code;WDSTPTC.dll;_WdsTransportClientWaitForCompletion@8

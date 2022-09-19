@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+MLCreateOperatorRegistry;code;winml.dll;#MLCreateOperatorRegistry
+MLCreateOperatorRegistry;code;winml.dll;

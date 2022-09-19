@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+HcsAttachLayerStorageFilter;code;computestorage.dll;
+HcsDestroyLayer;code;computestorage.dll;
+HcsDetachLayerStorageFilter;code;computestorage.dll;
+HcsExportLayer;code;computestorage.dll;
+HcsExportLegacyWritableLayer;code;computestorage.dll;
+HcsFormatWritableLayerVhd;code;computestorage.dll;
+HcsGetLayerVhdMountPath;code;computestorage.dll;
+HcsImportLayer;code;computestorage.dll;
+HcsInitializeLegacyWritableLayer;code;computestorage.dll;
+HcsInitializeWritableLayer;code;computestorage.dll;
+HcsSetupBaseOSLayer;code;computestorage.dll;

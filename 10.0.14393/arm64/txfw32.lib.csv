@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+TxfGetThreadMiniVersionForCreate;code;txfw32.dll;
+TxfLogCreateFileReadContext;code;txfw32.dll;
+TxfLogCreateRangeReadContext;code;txfw32.dll;
+TxfLogDestroyReadContext;code;txfw32.dll;
+TxfLogReadRecords;code;txfw32.dll;
+TxfLogRecordGetFileName;code;txfw32.dll;
+TxfLogRecordGetGenericType;code;txfw32.dll;
+TxfReadMetadataInfo;code;txfw32.dll;
+TxfSetThreadMiniVersionForCreate;code;txfw32.dll;

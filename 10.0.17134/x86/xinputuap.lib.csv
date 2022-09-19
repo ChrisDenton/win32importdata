@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+DllMain;code;XINPUTUAP.dll;_DllMain@12
+XInputEnable;code;XINPUTUAP.dll;_XInputEnable@4
+XInputGetAudioDeviceIds;code;XINPUTUAP.dll;_XInputGetAudioDeviceIds@20
+XInputGetBatteryInformation;code;XINPUTUAP.dll;_XInputGetBatteryInformation@12
+XInputGetCapabilities;code;XINPUTUAP.dll;_XInputGetCapabilities@12
+XInputGetKeystroke;code;XINPUTUAP.dll;_XInputGetKeystroke@12
+XInputGetState;code;XINPUTUAP.dll;_XInputGetState@8
+XInputSetState;code;XINPUTUAP.dll;_XInputSetState@8

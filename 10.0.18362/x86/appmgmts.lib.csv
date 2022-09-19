@@ -1,0 +1,18 @@
+Name;Type;DLL;SymbolOrOrdinal
+CsSetOptions;code;APPMGMTS.dll;?CsSetOptions@@YGXK@Z (void __stdcall CsSetOptions(unsigned long))
+CsCreateClassStore;code;APPMGMTS.dll;_CsCreateClassStore@8
+CsEnumApps;code;APPMGMTS.dll;_CsEnumApps@20
+CsGetAppCategories;code;APPMGMTS.dll;_CsGetAppCategories@4
+CsGetClassAccess;code;APPMGMTS.dll;_CsGetClassAccess@4
+CsGetClassStore;code;APPMGMTS.dll;_CsGetClassStore@8
+CsGetClassStorePath;code;APPMGMTS.dll;_CsGetClassStorePath@8
+CsRegisterAppCategory;code;APPMGMTS.dll;_CsRegisterAppCategory@4
+CsServerGetClassStore;code;APPMGMTS.dll;_CsServerGetClassStore@12
+CsUnregisterAppCategory;code;APPMGMTS.dll;_CsUnregisterAppCategory@4
+GenerateGroupPolicy;code;APPMGMTS.dll;_GenerateGroupPolicy@20
+IID_IClassAdmin;code;APPMGMTS.dll;_IID_IClassAdmin
+ProcessGroupPolicyObjectsEx;code;APPMGMTS.dll;_ProcessGroupPolicyObjectsEx@40
+ReleaseAppCategoryInfoList;code;APPMGMTS.dll;_ReleaseAppCategoryInfoList@4
+ReleasePackageDetail;code;APPMGMTS.dll;_ReleasePackageDetail@4
+ReleasePackageInfo;code;APPMGMTS.dll;_ReleasePackageInfo@4
+ServiceMain;code;APPMGMTS.dll;_ServiceMain@8

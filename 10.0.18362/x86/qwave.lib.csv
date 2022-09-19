@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+QDLHPathDiagnostics;code;qwave.dll;_QDLHPathDiagnostics@20
+QDLHStartDiagnosingPath;code;qwave.dll;_QDLHStartDiagnosingPath@12
+QOSAddSocketToFlow;code;qwave.dll;_QOSAddSocketToFlow@24
+QOSCancel;code;qwave.dll;_QOSCancel@8
+QOSCloseHandle;code;qwave.dll;_QOSCloseHandle@4
+QOSCreateHandle;code;qwave.dll;_QOSCreateHandle@8
+QOSEnumerateFlows;code;qwave.dll;_QOSEnumerateFlows@12
+QOSNotifyFlow;code;qwave.dll;_QOSNotifyFlow@28
+QOSQueryFlow;code;qwave.dll;_QOSQueryFlow@28
+QOSRemoveSocketFromFlow;code;qwave.dll;_QOSRemoveSocketFromFlow@16
+QOSSetFlow;code;qwave.dll;_QOSSetFlow@28
+QOSStartTrackingClient;code;qwave.dll;_QOSStartTrackingClient@12
+QOSStopTrackingClient;code;qwave.dll;_QOSStopTrackingClient@12
+ServiceMain;code;qwave.dll;_ServiceMain@8

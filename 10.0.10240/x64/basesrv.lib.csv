@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+BaseGetProcessCrtlRoutine;code;BASESRV.dll;
+BaseSetProcessCreateNotify;code;BASESRV.dll;
+BaseSrvNlsLogon;code;BASESRV.dll;
+BaseSrvNlsUpdateRegistryCache;code;BASESRV.dll;
+BaseSrvRegisterSxS;code;BASESRV.dll;
+ServerDllInitialization;code;BASESRV.dll;

@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+PdfCreateRenderer;code;Windows.Data.Pdf.dll;#PdfCreateRenderer
+PdfCreateRenderer;code;Windows.Data.Pdf.dll;

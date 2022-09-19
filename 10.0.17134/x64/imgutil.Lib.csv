@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+ComputeInvCMAP;code;ImgUtil.dll;
+CreateDDrawSurfaceOnDIB;code;ImgUtil.dll;
+CreateMIMEMap;code;ImgUtil.dll;
+DecodeImage;code;ImgUtil.dll;
+DecodeImageEx;code;ImgUtil.dll;
+DitherTo8;code;ImgUtil.dll;
+GetMaxMIMEIDBytes;code;ImgUtil.dll;
+IdentifyMIMEType;code;ImgUtil.dll;
+SniffStream;code;ImgUtil.dll;

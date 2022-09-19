@@ -1,0 +1,16 @@
+Name;Type;DLL;SymbolOrOrdinal
+DMOEnum;code;msdmo.dll;
+DMOGetName;code;msdmo.dll;
+DMOGetTypes;code;msdmo.dll;
+DMOGuidToStrA;code;msdmo.dll;
+DMOGuidToStrW;code;msdmo.dll;
+DMORegister;code;msdmo.dll;
+DMOStrToGuidA;code;msdmo.dll;
+DMOStrToGuidW;code;msdmo.dll;
+DMOUnregister;code;msdmo.dll;
+MoCopyMediaType;code;msdmo.dll;
+MoCreateMediaType;code;msdmo.dll;
+MoDeleteMediaType;code;msdmo.dll;
+MoDuplicateMediaType;code;msdmo.dll;
+MoFreeMediaType;code;msdmo.dll;
+MoInitMediaType;code;msdmo.dll;

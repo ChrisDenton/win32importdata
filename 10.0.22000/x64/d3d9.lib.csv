@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+Direct3DShaderValidatorCreate9;code;d3d9.dll;?Direct3DShaderValidatorCreate9@@YAPEAUIDirect3DShaderValidator9@@XZ (struct IDirect3DShaderValidator9 * __cdecl Direct3DShaderValidatorCreate9(void))
+PSGPError;code;d3d9.dll;?PSGPError@@YAXPEAVD3DFE_PROCESSVERTICES@@W4PSGPERRORID@@I@Z (void __cdecl PSGPError(class D3DFE_PROCESSVERTICES *,enum PSGPERRORID,unsigned int))
+PSGPSampleTexture;code;d3d9.dll;?PSGPSampleTexture@@YAXPEAVD3DFE_PROCESSVERTICES@@IQEAY03MI1@Z (void __cdecl PSGPSampleTexture(class D3DFE_PROCESSVERTICES *,unsigned int,float (* const)[4],unsigned int,float (* const)[4]))
+D3DPERF_BeginEvent;code;d3d9.dll;
+D3DPERF_EndEvent;code;d3d9.dll;
+D3DPERF_GetStatus;code;d3d9.dll;
+D3DPERF_QueryRepeatFrame;code;d3d9.dll;
+D3DPERF_SetMarker;code;d3d9.dll;
+D3DPERF_SetOptions;code;d3d9.dll;
+D3DPERF_SetRegion;code;d3d9.dll;
+DebugSetLevel;code;d3d9.dll;
+DebugSetMute;code;d3d9.dll;
+Direct3DCreate9;code;d3d9.dll;
+Direct3DCreate9Ex;code;d3d9.dll;
+Direct3DCreate9On12;code;d3d9.dll;20
+Direct3DCreate9On12Ex;code;d3d9.dll;21

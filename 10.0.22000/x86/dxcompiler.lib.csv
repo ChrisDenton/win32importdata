@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+DxcCreateInstance2;code;dxcompiler.dll;_DxcCreateInstance2@16
+DxcCreateInstance;code;dxcompiler.dll;_DxcCreateInstance@12

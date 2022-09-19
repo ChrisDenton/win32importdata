@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+NetworkIsolationDiagnoseConnectFailureAndGetInfo;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationDiagnoseConnectFailureAndGetInfo@8
+NetworkIsolationEnumAppContainers;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationEnumAppContainers@12
+NetworkIsolationFreeAppContainers;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationFreeAppContainers@4
+NetworkIsolationGetAppContainerConfig;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationGetAppContainerConfig@8
+NetworkIsolationRegisterForAppContainerChanges;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationRegisterForAppContainerChanges@16
+NetworkIsolationSetAppContainerConfig;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationSetAppContainerConfig@8
+NetworkIsolationSetupAppContainerBinaries;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationSetupAppContainerBinaries@20
+NetworkIsolationUnregisterForAppContainerChanges;code;api-ms-win-net-isolation-l1-1-0.dll;_NetworkIsolationUnregisterForAppContainerChanges@4

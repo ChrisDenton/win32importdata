@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+WldpQueryWindowsLockdownMode;code;Wldp.dll;?WldpQueryWindowsLockdownMode@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z (long __stdcall WldpQueryWindowsLockdownMode(enum WLDP_WINDOWS_LOCKDOWN_MODE *))
+WldpCheckRetailConfiguration;code;Wldp.dll;_WldpCheckRetailConfiguration@16
+WldpGetLockdownPolicy;code;Wldp.dll;_WldpGetLockdownPolicy@12
+WldpIsAllowedEntryPoint;code;Wldp.dll;_WldpIsAllowedEntryPoint@16
+WldpIsClassInApprovedList;code;Wldp.dll;_WldpIsClassInApprovedList@16
+WldpIsDebugAllowed;code;Wldp.dll;_WldpIsDebugAllowed@8
+WldpIsDynamicCodePolicyEnabled;code;Wldp.dll;_WldpIsDynamicCodePolicyEnabled@4
+WldpQueryDynamicCodeTrust;code;Wldp.dll;_WldpQueryDynamicCodeTrust@12
+WldpQuerySecurityPolicy;code;Wldp.dll;_WldpQuerySecurityPolicy@24
+WldpSetDynamicCodeTrust;code;Wldp.dll;_WldpSetDynamicCodeTrust@4

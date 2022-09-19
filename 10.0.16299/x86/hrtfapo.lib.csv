@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+_CreateHrtfApo@8;code;HrtfApo.dll;1
+_CreateHrtfApoWithOptions@12;code;HrtfApo.dll;2
+_CreateHrtfEngineFactory@4;code;HrtfApo.dll;3
+_IsHrtfApoAvailable@0;code;HrtfApo.dll;4

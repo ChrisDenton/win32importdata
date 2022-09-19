@@ -1,0 +1,22 @@
+Name;Type;DLL;SymbolOrOrdinal
+DrtFlushCache;code;drt.dll;?DrtFlushCache@@YAJPAX@Z (long __cdecl DrtFlushCache(void *))
+DrtGetCacheStatsEx;code;drt.dll;?DrtGetCacheStatsEx@@YAJPAXPAU_drtCacheStatsExTag@@@Z (long __cdecl DrtGetCacheStatsEx(void *,struct _drtCacheStatsExTag *))
+DrtHandlePowerEvent;code;drt.dll;?DrtHandlePowerEvent@@YAJPAXH@Z (long __cdecl DrtHandlePowerEvent(void *,int))
+DrtPingPeer;code;drt.dll;?DrtPingPeer@@YAJPAXPAUsockaddr_in6@@HKPAJ1PAK3PAUdrt_data_tag@@@Z (long __cdecl DrtPingPeer(void *,struct sockaddr_in6 *,int,unsigned long,long *,struct sockaddr_in6 *,unsigned long *,unsigned long *,struct drt_data_tag *))
+DrtStartPartitionDetection;code;drt.dll;?DrtStartPartitionDetection@@YAJPAX@Z (long __cdecl DrtStartPartitionDetection(void *))
+DrtClose;code;drt.dll;
+DrtContinueSearch;code;drt.dll;
+DrtEndSearch;code;drt.dll;
+DrtGetEventData;code;drt.dll;
+DrtGetEventDataSize;code;drt.dll;
+DrtGetInstanceName;code;drt.dll;
+DrtGetInstanceNameSize;code;drt.dll;
+DrtGetSearchPath;code;drt.dll;
+DrtGetSearchPathSize;code;drt.dll;
+DrtGetSearchResult;code;drt.dll;
+DrtGetSearchResultSize;code;drt.dll;
+DrtOpen;code;drt.dll;
+DrtRegisterKey;code;drt.dll;
+DrtStartSearch;code;drt.dll;
+DrtUnregisterKey;code;drt.dll;
+DrtUpdateKey;code;drt.dll;

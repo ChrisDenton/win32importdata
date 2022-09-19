@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+GetDispenserManager;code;MTxDM.dll;_GetDispenserManager

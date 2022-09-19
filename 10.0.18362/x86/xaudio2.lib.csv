@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+_CreateAudioReverb@4;code;XAudio2_9.dll;2
+_CreateAudioReverbV2_8@4;code;XAudio2_9.dll;7
+_CreateAudioVolumeMeter@4;code;XAudio2_9.dll;3
+_CreateFX;code;XAudio2_9.dll;4
+_X3DAudioCalculate;code;XAudio2_9.dll;5
+_X3DAudioInitialize;code;XAudio2_9.dll;6
+_XAudio2Create@12;code;XAudio2_9.dll;1
+_XAudio2CreateV2_9@12;code;XAudio2_9.dll;8
+_XAudio2CreateWithSharedContexts@16;code;XAudio2_9.dll;10
+_XAudio2CreateWithVersionInfo@16;code;XAudio2_9.dll;9

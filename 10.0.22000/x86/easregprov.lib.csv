@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+EasRegisterEncryptionProvider;code;easwrt.dll;_EasRegisterEncryptionProvider@4
+EasUnRegisterEncryptionProvider;code;easwrt.dll;_EasUnRegisterEncryptionProvider@0

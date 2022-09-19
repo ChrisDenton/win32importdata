@@ -1,0 +1,8 @@
+Name;Type;DLL;SymbolOrOrdinal
+CheckForVersionConflict;code;inseng.dll;
+CheckTrust;code;inseng.dll;
+CheckTrustEx;code;inseng.dll;
+DownloadFile;code;inseng.dll;
+GetICifFileFromFile;code;inseng.dll;
+GetICifRWFileFromFile;code;inseng.dll;
+PurgeDownloadDirectory;code;inseng.dll;

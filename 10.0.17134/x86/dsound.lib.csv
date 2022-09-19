@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+_DirectSoundCaptureCreate8@12;code;DSOUND.dll;12
+_DirectSoundCaptureCreate@12;code;DSOUND.dll;6
+_DirectSoundCaptureEnumerateA@8;code;DSOUND.dll;7
+_DirectSoundCaptureEnumerateW@8;code;DSOUND.dll;8
+_DirectSoundCreate8@12;code;DSOUND.dll;11
+_DirectSoundCreate@12;code;DSOUND.dll;1
+_DirectSoundEnumerateA@8;code;DSOUND.dll;2
+_DirectSoundEnumerateW@8;code;DSOUND.dll;3
+_DirectSoundFullDuplexCreate@40;code;DSOUND.dll;10
+_GetDeviceID@8;code;DSOUND.dll;9

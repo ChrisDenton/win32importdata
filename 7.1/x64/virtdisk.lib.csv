@@ -1,0 +1,13 @@
+Name;Type;DLL;SymbolOrOrdinal
+AttachVirtualDisk;code;VirtDisk.dll;
+CompactVirtualDisk;code;VirtDisk.dll;
+CreateVirtualDisk;code;VirtDisk.dll;
+DetachVirtualDisk;code;VirtDisk.dll;
+ExpandVirtualDisk;code;VirtDisk.dll;
+GetStorageDependencyInformation;code;VirtDisk.dll;
+GetVirtualDiskInformation;code;VirtDisk.dll;
+GetVirtualDiskOperationProgress;code;VirtDisk.dll;
+GetVirtualDiskPhysicalPath;code;VirtDisk.dll;
+MergeVirtualDisk;code;VirtDisk.dll;
+OpenVirtualDisk;code;VirtDisk.dll;
+SetVirtualDiskInformation;code;VirtDisk.dll;

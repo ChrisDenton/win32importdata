@@ -1,0 +1,8 @@
+Name;Type;DLL;SymbolOrOrdinal
+IEApplyCurrentHardening;code;iesetup.dll;?IEApplyCurrentHardening@@YGJXZ (long __stdcall IEApplyCurrentHardening(void))
+IEHardenAdmin;code;iesetup.dll;?IEHardenAdmin@@YGJPAUHWND__@@PAUHINSTANCE__@@PADH@Z (long __stdcall IEHardenAdmin(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenAdminNow;code;iesetup.dll;?IEHardenAdminNow@@YGJPAUHWND__@@PAUHINSTANCE__@@PADH@Z (long __stdcall IEHardenAdminNow(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenLMSettings;code;iesetup.dll;?IEHardenLMSettings@@YGJPAUHWND__@@PAUHINSTANCE__@@PADH@Z (long __stdcall IEHardenLMSettings(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenMachineNow;code;iesetup.dll;?IEHardenMachineNow@@YGJPAUHWND__@@PAUHINSTANCE__@@PADH@Z (long __stdcall IEHardenMachineNow(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEHardenUser;code;iesetup.dll;?IEHardenUser@@YGJPAUHWND__@@PAUHINSTANCE__@@PADH@Z (long __stdcall IEHardenUser(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+IEShowHardeningDialog;code;iesetup.dll;?IEShowHardeningDialog@@YGJXZ (long __stdcall IEShowHardeningDialog(void))

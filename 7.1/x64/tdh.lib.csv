@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+TdhEnumerateProviderFieldInformation;code;tdh.dll;
+TdhEnumerateProviderFilters;code;tdh.dll;
+TdhEnumerateProviders;code;tdh.dll;
+TdhFormatProperty;code;tdh.dll;
+TdhGetEventInformation;code;tdh.dll;
+TdhGetEventMapInformation;code;tdh.dll;
+TdhGetProperty;code;tdh.dll;
+TdhGetPropertySize;code;tdh.dll;
+TdhLoadManifest;code;tdh.dll;
+TdhQueryProviderFieldInformation;code;tdh.dll;
+TdhUnloadManifest;code;tdh.dll;

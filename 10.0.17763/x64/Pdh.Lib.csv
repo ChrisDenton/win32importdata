@@ -1,0 +1,111 @@
+Name;Type;DLL;SymbolOrOrdinal
+PdhVbAddCounter;code;pdh.dll;?PdhVbAddCounter@@YAKPEAXPEBDPEAPEAX@Z (unsigned long __cdecl PdhVbAddCounter(void *,char const *,void * *))
+PdhVbCreateCounterPathList;code;pdh.dll;?PdhVbCreateCounterPathList@@YAKKPEBD@Z (unsigned long __cdecl PdhVbCreateCounterPathList(unsigned long,char const *))
+PdhVbGetCounterPathElements;code;pdh.dll;?PdhVbGetCounterPathElements@@YAKPEBDPEAD1111K@Z (unsigned long __cdecl PdhVbGetCounterPathElements(char const *,char *,char *,char *,char *,char *,unsigned long))
+PdhVbGetCounterPathFromList;code;pdh.dll;?PdhVbGetCounterPathFromList@@YAKKPEADK@Z (unsigned long __cdecl PdhVbGetCounterPathFromList(unsigned long,char *,unsigned long))
+PdhVbGetDoubleCounterValue;code;pdh.dll;?PdhVbGetDoubleCounterValue@@YANPEAXPEAK@Z (double __cdecl PdhVbGetDoubleCounterValue(void *,unsigned long *))
+PdhVbGetLogFileSize;code;pdh.dll;?PdhVbGetLogFileSize@@YAKPEAXPEAJ@Z (unsigned long __cdecl PdhVbGetLogFileSize(void *,long *))
+PdhVbGetOneCounterPath;code;pdh.dll;?PdhVbGetOneCounterPath@@YAKPEADKKPEBD@Z (unsigned long __cdecl PdhVbGetOneCounterPath(char *,unsigned long,unsigned long,char const *))
+PdhVbIsGoodStatus;code;pdh.dll;?PdhVbIsGoodStatus@@YAKJ@Z (unsigned long __cdecl PdhVbIsGoodStatus(long))
+PdhVbOpenLog;code;pdh.dll;?PdhVbOpenLog@@YAKPEBDKPEAKPEAXK0PEAPEAX@Z (unsigned long __cdecl PdhVbOpenLog(char const *,unsigned long,unsigned long *,void *,unsigned long,char const *,void * *))
+PdhVbOpenQuery;code;pdh.dll;?PdhVbOpenQuery@@YAKPEAPEAX@Z (unsigned long __cdecl PdhVbOpenQuery(void * *))
+PdhVbUpdateLog;code;pdh.dll;?PdhVbUpdateLog@@YAKPEAXPEBD@Z (unsigned long __cdecl PdhVbUpdateLog(void *,char const *))
+PdhAddCounterA;code;pdh.dll;
+PdhAddCounterW;code;pdh.dll;
+PdhAddEnglishCounterA;code;pdh.dll;
+PdhAddEnglishCounterW;code;pdh.dll;
+PdhBindInputDataSourceA;code;pdh.dll;
+PdhBindInputDataSourceW;code;pdh.dll;
+PdhBrowseCountersA;code;pdh.dll;
+PdhBrowseCountersHA;code;pdh.dll;
+PdhBrowseCountersHW;code;pdh.dll;
+PdhBrowseCountersW;code;pdh.dll;
+PdhCalculateCounterFromRawValue;code;pdh.dll;
+PdhCloseLog;code;pdh.dll;
+PdhCloseQuery;code;pdh.dll;
+PdhCollectQueryData;code;pdh.dll;
+PdhCollectQueryDataEx;code;pdh.dll;
+PdhCollectQueryDataWithTime;code;pdh.dll;
+PdhComputeCounterStatistics;code;pdh.dll;
+PdhConnectMachineA;code;pdh.dll;
+PdhConnectMachineW;code;pdh.dll;
+PdhCreateSQLTablesA;code;pdh.dll;
+PdhCreateSQLTablesW;code;pdh.dll;
+PdhEnumLogSetNamesA;code;pdh.dll;
+PdhEnumLogSetNamesW;code;pdh.dll;
+PdhEnumMachinesA;code;pdh.dll;
+PdhEnumMachinesHA;code;pdh.dll;
+PdhEnumMachinesHW;code;pdh.dll;
+PdhEnumMachinesW;code;pdh.dll;
+PdhEnumObjectItemsA;code;pdh.dll;
+PdhEnumObjectItemsHA;code;pdh.dll;
+PdhEnumObjectItemsHW;code;pdh.dll;
+PdhEnumObjectItemsW;code;pdh.dll;
+PdhEnumObjectsA;code;pdh.dll;
+PdhEnumObjectsHA;code;pdh.dll;
+PdhEnumObjectsHW;code;pdh.dll;
+PdhEnumObjectsW;code;pdh.dll;
+PdhExpandCounterPathA;code;pdh.dll;
+PdhExpandCounterPathW;code;pdh.dll;
+PdhExpandWildCardPathA;code;pdh.dll;
+PdhExpandWildCardPathHA;code;pdh.dll;
+PdhExpandWildCardPathHW;code;pdh.dll;
+PdhExpandWildCardPathW;code;pdh.dll;
+PdhFormatFromRawValue;code;pdh.dll;
+PdhGetCounterInfoA;code;pdh.dll;
+PdhGetCounterInfoW;code;pdh.dll;
+PdhGetCounterTimeBase;code;pdh.dll;
+PdhGetDataSourceTimeRangeA;code;pdh.dll;
+PdhGetDataSourceTimeRangeH;code;pdh.dll;
+PdhGetDataSourceTimeRangeW;code;pdh.dll;
+PdhGetDefaultPerfCounterA;code;pdh.dll;
+PdhGetDefaultPerfCounterHA;code;pdh.dll;
+PdhGetDefaultPerfCounterHW;code;pdh.dll;
+PdhGetDefaultPerfCounterW;code;pdh.dll;
+PdhGetDefaultPerfObjectA;code;pdh.dll;
+PdhGetDefaultPerfObjectHA;code;pdh.dll;
+PdhGetDefaultPerfObjectHW;code;pdh.dll;
+PdhGetDefaultPerfObjectW;code;pdh.dll;
+PdhGetDllVersion;code;pdh.dll;
+PdhGetFormattedCounterArrayA;code;pdh.dll;
+PdhGetFormattedCounterArrayW;code;pdh.dll;
+PdhGetFormattedCounterValue;code;pdh.dll;
+PdhGetLogFileSize;code;pdh.dll;
+PdhGetLogSetGUID;code;pdh.dll;
+PdhGetRawCounterArrayA;code;pdh.dll;
+PdhGetRawCounterArrayW;code;pdh.dll;
+PdhGetRawCounterValue;code;pdh.dll;
+PdhIsRealTimeQuery;code;pdh.dll;
+PdhLookupPerfIndexByNameA;code;pdh.dll;
+PdhLookupPerfIndexByNameW;code;pdh.dll;
+PdhLookupPerfNameByIndexA;code;pdh.dll;
+PdhLookupPerfNameByIndexW;code;pdh.dll;
+PdhMakeCounterPathA;code;pdh.dll;
+PdhMakeCounterPathW;code;pdh.dll;
+PdhOpenLogA;code;pdh.dll;
+PdhOpenLogW;code;pdh.dll;
+PdhOpenQuery;code;pdh.dll;
+PdhOpenQueryA;code;pdh.dll;
+PdhOpenQueryH;code;pdh.dll;
+PdhOpenQueryW;code;pdh.dll;
+PdhParseCounterPathA;code;pdh.dll;
+PdhParseCounterPathW;code;pdh.dll;
+PdhParseInstanceNameA;code;pdh.dll;
+PdhParseInstanceNameW;code;pdh.dll;
+PdhReadRawLogRecord;code;pdh.dll;
+PdhRemoveCounter;code;pdh.dll;
+PdhSelectDataSourceA;code;pdh.dll;
+PdhSelectDataSourceW;code;pdh.dll;
+PdhSetCounterScaleFactor;code;pdh.dll;
+PdhSetDefaultRealTimeDataSource;code;pdh.dll;
+PdhSetLogSetRunID;code;pdh.dll;
+PdhSetQueryTimeRange;code;pdh.dll;
+PdhUpdateLogA;code;pdh.dll;
+PdhUpdateLogFileCatalog;code;pdh.dll;
+PdhUpdateLogW;code;pdh.dll;
+PdhValidatePathA;code;pdh.dll;
+PdhValidatePathExA;code;pdh.dll;
+PdhValidatePathExW;code;pdh.dll;
+PdhValidatePathW;code;pdh.dll;
+PdhVerifySQLDBA;code;pdh.dll;
+PdhVerifySQLDBW;code;pdh.dll;

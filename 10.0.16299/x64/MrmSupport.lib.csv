@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateResourceIndexer;code;MrmSupport.dll;
+DestroyIndexedResults;code;MrmSupport.dll;
+DestroyResourceIndexer;code;MrmSupport.dll;
+IndexFilePath;code;MrmSupport.dll;

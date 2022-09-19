@@ -1,0 +1,22 @@
+Name;Type;DLL;SymbolOrOrdinal
+WldpIsAppApprovedByPolicy;code;Wldp.dll;?WldpIsAppApprovedByPolicy@@YGJPBG_K@Z (long __stdcall WldpIsAppApprovedByPolicy(unsigned short const *,unsigned __int64))
+WldpQueryWindowsLockdownMode;code;Wldp.dll;?WldpQueryWindowsLockdownMode@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z (long __stdcall WldpQueryWindowsLockdownMode(enum WLDP_WINDOWS_LOCKDOWN_MODE *))
+WldpQueryWindowsLockdownRestriction;code;Wldp.dll;?WldpQueryWindowsLockdownRestriction@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __stdcall WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))
+WldpSetWindowsLockdownRestriction;code;Wldp.dll;?WldpSetWindowsLockdownRestriction@@YGJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __stdcall WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))
+WldpAddDeveloperCertificateForDynamicCodeTrust;code;Wldp.dll;_WldpAddDeveloperCertificateForDynamicCodeTrust@4
+WldpCheckDeviceEncryptionNotStarted;code;Wldp.dll;_WldpCheckDeviceEncryptionNotStarted@4
+WldpCheckRetailConfiguration;code;Wldp.dll;_WldpCheckRetailConfiguration@16
+WldpCheckSecurityWatermarkState;code;Wldp.dll;_WldpCheckSecurityWatermarkState@4
+WldpCheckWcosDeviceEncryptionSecure;code;Wldp.dll;_WldpCheckWcosDeviceEncryptionSecure@4
+WldpDisableDeveloperMode;code;Wldp.dll;_WldpDisableDeveloperMode@0
+WldpEnableDeveloperMode;code;Wldp.dll;_WldpEnableDeveloperMode@4
+WldpGetLockdownPolicy;code;Wldp.dll;_WldpGetLockdownPolicy@12
+WldpIsAllowedEntryPoint;code;Wldp.dll;_WldpIsAllowedEntryPoint@16
+WldpIsClassInApprovedList;code;Wldp.dll;_WldpIsClassInApprovedList@16
+WldpIsDebugAllowed;code;Wldp.dll;_WldpIsDebugAllowed@8
+WldpIsDynamicCodePolicyEnabled;code;Wldp.dll;_WldpIsDynamicCodePolicyEnabled@4
+WldpQueryDynamicCodeTrust;code;Wldp.dll;_WldpQueryDynamicCodeTrust@12
+WldpQuerySecurityPolicy;code;Wldp.dll;_WldpQuerySecurityPolicy@24
+WldpResetSecurityWatermarkState;code;Wldp.dll;_WldpResetSecurityWatermarkState@0
+WldpSetDynamicCodeTrust2;code;Wldp.dll;_WldpSetDynamicCodeTrust2@8
+WldpSetDynamicCodeTrust;code;Wldp.dll;_WldpSetDynamicCodeTrust@4

@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+SLQueryLicenseValueFromApp;code;api-ms-win-core-slapi-l1-1-0.dll;
+SLQueryLicenseValueFromApp2;code;api-ms-win-core-slapi-l1-1-0.dll;

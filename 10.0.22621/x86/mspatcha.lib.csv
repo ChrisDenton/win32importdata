@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+ApplyPatchToFileA;code;mspatcha.dll;_ApplyPatchToFileA@16
+ApplyPatchToFileByBuffers;code;mspatcha.dll;_ApplyPatchToFileByBuffers@44
+ApplyPatchToFileByHandles;code;mspatcha.dll;_ApplyPatchToFileByHandles@16
+ApplyPatchToFileByHandlesEx;code;mspatcha.dll;_ApplyPatchToFileByHandlesEx@24
+ApplyPatchToFileExA;code;mspatcha.dll;_ApplyPatchToFileExA@24
+ApplyPatchToFileExW;code;mspatcha.dll;_ApplyPatchToFileExW@24
+ApplyPatchToFileW;code;mspatcha.dll;_ApplyPatchToFileW@16
+GetFilePatchSignatureA;code;mspatcha.dll;_GetFilePatchSignatureA@36
+GetFilePatchSignatureByBuffer;code;mspatcha.dll;_GetFilePatchSignatureByBuffer@40
+GetFilePatchSignatureByHandle;code;mspatcha.dll;_GetFilePatchSignatureByHandle@36
+GetFilePatchSignatureW;code;mspatcha.dll;_GetFilePatchSignatureW@36
+NormalizeFileForPatchSignature;code;mspatcha.dll;_NormalizeFileForPatchSignature@40
+TestApplyPatchToFileA;code;mspatcha.dll;_TestApplyPatchToFileA@12
+TestApplyPatchToFileByBuffers;code;mspatcha.dll;_TestApplyPatchToFileByBuffers@24
+TestApplyPatchToFileByHandles;code;mspatcha.dll;_TestApplyPatchToFileByHandles@12
+TestApplyPatchToFileW;code;mspatcha.dll;_TestApplyPatchToFileW@12

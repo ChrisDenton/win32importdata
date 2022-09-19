@@ -1,0 +1,14 @@
+Name;Type;DLL;SymbolOrOrdinal
+DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
+PIXBeginCapture;code;dxgi.dll;?PIXBeginCapture@@YAJIPEAX@Z (long __cdecl PIXBeginCapture(unsigned int,void *))
+PIXEndCapture;code;dxgi.dll;?PIXEndCapture@@YAJH@Z (long __cdecl PIXEndCapture(int))
+PIXGetCaptureState;code;dxgi.dll;?PIXGetCaptureState@@YAIXZ (unsigned int __cdecl PIXGetCaptureState(void))
+CreateDXGIFactory;code;dxgi.dll;
+CreateDXGIFactory1;code;dxgi.dll;
+CreateDXGIFactory2;code;dxgi.dll;
+DXGID3D10CreateDevice;code;dxgi.dll;
+DXGID3D10CreateLayeredDevice;code;dxgi.dll;
+DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;
+DXGID3D10RegisterLayers;code;dxgi.dll;
+DXGIGetDebugInterface1;code;dxgi.dll;
+DXGIReportAdapterConfiguration;code;dxgi.dll;

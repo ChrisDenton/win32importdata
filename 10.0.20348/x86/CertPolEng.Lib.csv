@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+IntPstGetCertificate;code;certpoleng.dll;_IntPstGetCertificate@16
+IntPstGetNameIdentifierForCertificate;code;certpoleng.dll;_IntPstGetNameIdentifierForCertificate@8
+IntPstGetTrustAnchors;code;certpoleng.dll;_IntPstGetTrustAnchors@16
+IntPstMapCertificateToProvider;code;certpoleng.dll;_IntPstMapCertificateToProvider@12
+IntPstMapUserCredsToProvider;code;certpoleng.dll;_IntPstMapUserCredsToProvider@12
+IntPstValidate;code;certpoleng.dll;_IntPstValidate@24
+PstAcquirePrivateKey;code;certpoleng.dll;_PstAcquirePrivateKey@4
+PstGetCertificateChain;code;certpoleng.dll;_PstGetCertificateChain@12
+PstGetCertificates;code;certpoleng.dll;_PstGetCertificates@24
+PstGetTrustAnchors;code;certpoleng.dll;_PstGetTrustAnchors@16
+PstGetTrustAnchorsEx;code;certpoleng.dll;_PstGetTrustAnchorsEx@20
+PstGetUserNameForCertificate;code;certpoleng.dll;_PstGetUserNameForCertificate@8
+PstMapCertificate;code;certpoleng.dll;_PstMapCertificate@12
+PstValidate;code;certpoleng.dll;_PstValidate@24

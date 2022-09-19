@@ -1,0 +1,33 @@
+Name;Type;DLL;SymbolOrOrdinal
+AddERExcludedApplicationA;code;faultrep.dll;#AddERExcludedApplicationA
+AddERExcludedApplicationW;code;faultrep.dll;#AddERExcludedApplicationW
+CancelHangReporting;code;faultrep.dll;#CancelHangReporting
+#ReportActivationHang;code;faultrep.dll;1
+ReportCoreHang;code;faultrep.dll;#ReportCoreHang
+ReportFault;code;faultrep.dll;#ReportFault
+ReportHang;code;faultrep.dll;#ReportHang
+#ReportNavigationHang;code;faultrep.dll;2
+WerpGetDebugger;code;faultrep.dll;#WerpGetDebugger
+WerpInitiateCrashReporting;code;faultrep.dll;#WerpInitiateCrashReporting
+WerpLaunchAeDebug;code;faultrep.dll;#WerpLaunchAeDebug
+BasepReportFault;code;faultrep.dll;?BasepReportFault@@$$hYA?AW4tagEFaultRepRetVal@@PEAU_EXCEPTION_POINTERS@@K@Z (enum tagEFaultRepRetVal __cdecl BasepReportFault(struct _EXCEPTION_POINTERS *,unsigned long))
+CheckForReadOnlyResourceFilter;code;faultrep.dll;?CheckForReadOnlyResourceFilter@@$$hYAJPEAU_EXCEPTION_POINTERS@@@Z (long __cdecl CheckForReadOnlyResourceFilter(struct _EXCEPTION_POINTERS *))
+CheckPerUserCrossProcessThrottle;code;faultrep.dll;?CheckPerUserCrossProcessThrottle@@$$hYAJPEAH@Z (long __cdecl CheckPerUserCrossProcessThrottle(int *))
+UpdatePerUserLastCrossProcessCollectionTime;code;faultrep.dll;?UpdatePerUserLastCrossProcessCollectionTime@@$$hYAJXZ (long __cdecl UpdatePerUserLastCrossProcessCollectionTime(void))
+WerReportHang;code;faultrep.dll;?WerReportHang@@$$hYAJPEAUHWND__@@PEB_W@Z (long __cdecl WerReportHang(struct HWND__ *,wchar_t const *))
+BasepReportFault;code;faultrep.dll;?BasepReportFault@@YA?AW4tagEFaultRepRetVal@@PEAU_EXCEPTION_POINTERS@@K@Z (enum tagEFaultRepRetVal __cdecl BasepReportFault(struct _EXCEPTION_POINTERS *,unsigned long))
+CheckForReadOnlyResourceFilter;code;faultrep.dll;?CheckForReadOnlyResourceFilter@@YAJPEAU_EXCEPTION_POINTERS@@@Z (long __cdecl CheckForReadOnlyResourceFilter(struct _EXCEPTION_POINTERS *))
+CheckPerUserCrossProcessThrottle;code;faultrep.dll;?CheckPerUserCrossProcessThrottle@@YAJPEAH@Z (long __cdecl CheckPerUserCrossProcessThrottle(int *))
+UpdatePerUserLastCrossProcessCollectionTime;code;faultrep.dll;?UpdatePerUserLastCrossProcessCollectionTime@@YAJXZ (long __cdecl UpdatePerUserLastCrossProcessCollectionTime(void))
+WerReportHang;code;faultrep.dll;?WerReportHang@@YAJPEAUHWND__@@PEB_W@Z (long __cdecl WerReportHang(struct HWND__ *,wchar_t const *))
+AddERExcludedApplicationA;code;faultrep.dll;
+AddERExcludedApplicationW;code;faultrep.dll;
+CancelHangReporting;code;faultrep.dll;
+ReportActivationHang;code;faultrep.dll;1
+ReportCoreHang;code;faultrep.dll;
+ReportFault;code;faultrep.dll;
+ReportHang;code;faultrep.dll;
+ReportNavigationHang;code;faultrep.dll;2
+WerpGetDebugger;code;faultrep.dll;
+WerpInitiateCrashReporting;code;faultrep.dll;
+WerpLaunchAeDebug;code;faultrep.dll;

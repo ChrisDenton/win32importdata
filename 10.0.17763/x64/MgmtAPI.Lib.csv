@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+SnmpMgrClose;code;mgmtapi.dll;
+SnmpMgrCtl;code;mgmtapi.dll;
+SnmpMgrGetTrap;code;mgmtapi.dll;
+SnmpMgrGetTrapEx;code;mgmtapi.dll;
+SnmpMgrOidToStr;code;mgmtapi.dll;
+SnmpMgrOpen;code;mgmtapi.dll;
+SnmpMgrRequest;code;mgmtapi.dll;
+SnmpMgrStrToOid;code;mgmtapi.dll;
+SnmpMgrTrapListen;code;mgmtapi.dll;

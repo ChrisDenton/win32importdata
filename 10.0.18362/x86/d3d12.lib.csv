@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+D3D12CoreCreateLayeredDevice;code;d3d12.dll;_D3D12CoreCreateLayeredDevice@20
+D3D12CoreGetLayeredDeviceSize;code;d3d12.dll;_D3D12CoreGetLayeredDeviceSize@8
+D3D12CoreRegisterLayers;code;d3d12.dll;_D3D12CoreRegisterLayers@8
+_D3D12CreateDevice@16;code;d3d12.dll;101
+D3D12CreateRootSignatureDeserializer;code;d3d12.dll;_D3D12CreateRootSignatureDeserializer@16
+D3D12CreateVersionedRootSignatureDeserializer;code;d3d12.dll;_D3D12CreateVersionedRootSignatureDeserializer@16
+D3D12EnableExperimentalFeatures;code;d3d12.dll;_D3D12EnableExperimentalFeatures@16
+_D3D12GetDebugInterface@8;code;d3d12.dll;102
+D3D12PIXEventsReplaceBlock;code;d3d12.dll;_D3D12PIXEventsReplaceBlock@4
+D3D12PIXGetThreadInfo;code;d3d12.dll;_D3D12PIXGetThreadInfo@0
+D3D12PIXNotifyWakeFromFenceSignal;code;d3d12.dll;_D3D12PIXNotifyWakeFromFenceSignal@4
+D3D12PIXReportCounter;code;d3d12.dll;_D3D12PIXReportCounter@8
+D3D12SerializeRootSignature;code;d3d12.dll;_D3D12SerializeRootSignature@16
+D3D12SerializeVersionedRootSignature;code;d3d12.dll;_D3D12SerializeVersionedRootSignature@12

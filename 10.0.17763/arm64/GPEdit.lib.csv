@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+BrowseForGPO;code;GPEDIT.DLL;
+CreateGPOLink;code;GPEDIT.DLL;
+CreateRSOPQuery;code;GPEDIT.DLL;100
+DeleteAllGPOLinks;code;GPEDIT.DLL;
+DeleteGPOLink;code;GPEDIT.DLL;
+ExportRSoPData;code;GPEDIT.DLL;
+FreeRSOPQuery;code;GPEDIT.DLL;101
+FreeRSOPQueryResults;code;GPEDIT.DLL;102
+ImportRSoPData;code;GPEDIT.DLL;
+RunRSOPQuery;code;GPEDIT.DLL;103

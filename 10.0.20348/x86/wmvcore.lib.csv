@@ -1,0 +1,21 @@
+Name;Type;DLL;SymbolOrOrdinal
+WMCheckURLExtension;code;WMVCore.DLL;?WMCheckURLExtension@@YGJPBG@Z (long __stdcall WMCheckURLExtension(unsigned short const *))
+WMCheckURLScheme;code;WMVCore.DLL;?WMCheckURLScheme@@YGJPBG@Z (long __stdcall WMCheckURLScheme(unsigned short const *))
+WMCreateBackupRestorerPrivate;code;WMVCore.DLL;?WMCreateBackupRestorerPrivate@@YGJPAUIUnknown@@PAPAUIWMLicenseBackup@@@Z (long __stdcall WMCreateBackupRestorerPrivate(struct IUnknown *,struct IWMLicenseBackup * *))
+WMCreateLicenseRevocationAgentPrivate;code;WMVCore.DLL;?WMCreateLicenseRevocationAgentPrivate@@YGJPAPAUIWMLicenseRevocationAgent@@@Z (long __stdcall WMCreateLicenseRevocationAgentPrivate(struct IWMLicenseRevocationAgent * *))
+WMCreateSyncReaderPriv;code;WMVCore.DLL;?WMCreateSyncReaderPriv@@YGJPAPAUIWMSyncReader@@@Z (long __stdcall WMCreateSyncReaderPriv(struct IWMSyncReader * *))
+WMIsAvailableOffline;code;WMVCore.DLL;?WMIsAvailableOffline@@YGJPBG0PAH@Z (long __stdcall WMIsAvailableOffline(unsigned short const *,unsigned short const *,int *))
+WMValidateData;code;WMVCore.DLL;?WMValidateData@@YGJPAEPAK@Z (long __stdcall WMValidateData(unsigned char *,unsigned long *))
+WMCreateBackupRestorer;code;WMVCore.DLL;_WMCreateBackupRestorer@8
+WMCreateEditor;code;WMVCore.DLL;_WMCreateEditor@4
+WMCreateIndexer;code;WMVCore.DLL;_WMCreateIndexer@4
+WMCreateProfileManager;code;WMVCore.DLL;_WMCreateProfileManager@4
+WMCreateReader;code;WMVCore.DLL;_WMCreateReader@12
+WMCreateReaderPriv;code;WMVCore.DLL;_WMCreateReaderPriv@4
+WMCreateSyncReader;code;WMVCore.DLL;_WMCreateSyncReader@12
+WMCreateWriter;code;WMVCore.DLL;_WMCreateWriter@8
+WMCreateWriterFileSink;code;WMVCore.DLL;_WMCreateWriterFileSink@4
+WMCreateWriterNetworkSink;code;WMVCore.DLL;_WMCreateWriterNetworkSink@4
+WMCreateWriterPriv;code;WMVCore.DLL;_WMCreateWriterPriv@4
+WMCreateWriterPushSink;code;WMVCore.DLL;_WMCreateWriterPushSink@4
+WMIsContentProtected;code;WMVCore.DLL;_WMIsContentProtected@8

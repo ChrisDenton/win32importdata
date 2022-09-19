@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+_DllCreate@32;code;MCIOLE32.dll;6
+_DllCreateFromClip@32;code;MCIOLE32.dll;3
+_DllCreateFromFile@36;code;MCIOLE32.dll;7
+_DllCreateFromTemplate@32;code;MCIOLE32.dll;5
+_DllCreateLinkFromClip@28;code;MCIOLE32.dll;4
+_DllCreateLinkFromFile@40;code;MCIOLE32.dll;8
+_DllLoadFromStream@36;code;MCIOLE32.dll;2
+GetMessageHook;code;MCIOLE32.dll;_GetMessageHook@12
+InstallHook;code;MCIOLE32.dll;_InstallHook@8
+_OleQueryObjPos@16;code;MCIOLE32.dll;10
+RemoveHook;code;MCIOLE32.dll;_RemoveHook@0

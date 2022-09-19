@@ -1,0 +1,22 @@
+Name;Type;DLL;SymbolOrOrdinal
+WldpIsAppApprovedByPolicy;code;Wldp.dll;?WldpIsAppApprovedByPolicy@@YAJPEBG_K@Z (long __cdecl WldpIsAppApprovedByPolicy(unsigned short const *,unsigned __int64))
+WldpQueryWindowsLockdownMode;code;Wldp.dll;?WldpQueryWindowsLockdownMode@@YAJPEAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z (long __cdecl WldpQueryWindowsLockdownMode(enum WLDP_WINDOWS_LOCKDOWN_MODE *))
+WldpQueryWindowsLockdownRestriction;code;Wldp.dll;?WldpQueryWindowsLockdownRestriction@@YAJPEAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))
+WldpSetWindowsLockdownRestriction;code;Wldp.dll;?WldpSetWindowsLockdownRestriction@@YAJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))
+WldpAddDeveloperCertificateForDynamicCodeTrust;code;Wldp.dll;
+WldpCheckDeviceEncryptionNotStarted;code;Wldp.dll;
+WldpCheckRetailConfiguration;code;Wldp.dll;
+WldpCheckSecurityWatermarkState;code;Wldp.dll;
+WldpCheckWcosDeviceEncryptionSecure;code;Wldp.dll;
+WldpDisableDeveloperMode;code;Wldp.dll;
+WldpEnableDeveloperMode;code;Wldp.dll;
+WldpGetLockdownPolicy;code;Wldp.dll;
+WldpIsAllowedEntryPoint;code;Wldp.dll;
+WldpIsClassInApprovedList;code;Wldp.dll;
+WldpIsDebugAllowed;code;Wldp.dll;
+WldpIsDynamicCodePolicyEnabled;code;Wldp.dll;
+WldpQueryDynamicCodeTrust;code;Wldp.dll;
+WldpQuerySecurityPolicy;code;Wldp.dll;
+WldpResetSecurityWatermarkState;code;Wldp.dll;
+WldpSetDynamicCodeTrust;code;Wldp.dll;
+WldpSetDynamicCodeTrust2;code;Wldp.dll;

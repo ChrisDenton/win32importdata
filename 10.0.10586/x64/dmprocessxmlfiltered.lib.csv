@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+DMProcessConfigXML;code;DMProcessXMLFiltered.dll;
+DMProcessConfigXMLFiltered;code;DMProcessXMLFiltered.dll;
+MdmProcessConfigXmlWithAttributes;code;DMProcessXMLFiltered.dll;

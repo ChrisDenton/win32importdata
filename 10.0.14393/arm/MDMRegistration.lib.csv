@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+?DiscoverEndpoint@@YAJPBG0PAW4MDMAuthPolicy@@PAPAG22@Z (long __cdecl DiscoverEndpoint(unsigned short const *,unsigned short const *,enum MDMAuthPolicy *,unsigned short * *,unsigned short * *,unsigned short * *));code;MDMRegistration.DLL;1
+?FindDiscoveryService@@YAJPBGPAPBGPAH@Z (long __cdecl FindDiscoveryService(unsigned short const *,unsigned short const * *,int *));code;MDMRegistration.DLL;2
+DiscoverManagementService;code;MDMRegistration.DLL;
+DiscoverManagementServiceEx;code;MDMRegistration.DLL;
+GetManagementAppHyperlink;code;MDMRegistration.DLL;
+IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;
+IsManagementRegistrationAllowed;code;MDMRegistration.DLL;
+RegisterDeviceWithManagement;code;MDMRegistration.DLL;
+SetManagedExternally;code;MDMRegistration.DLL;
+UnregisterDeviceWithManagement;code;MDMRegistration.DLL;

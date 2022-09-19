@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+_CloseDnsPerformanceData@0;code;dnsperf.dll;3
+_CollectDnsPerformanceData@16;code;dnsperf.dll;2
+_OpenDnsPerformanceData@4;code;dnsperf.dll;1

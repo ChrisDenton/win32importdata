@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+CscSearchApiGetInterface;code;CSCAPI.dll;
+OfflineFilesEnable;code;CSCAPI.dll;
+OfflineFilesQueryStatus;code;CSCAPI.dll;

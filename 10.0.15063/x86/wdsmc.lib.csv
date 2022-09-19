@@ -1,0 +1,14 @@
+Name;Type;DLL;SymbolOrOrdinal
+ClosePerfCounters;code;WDSMC.dll;?ClosePerfCounters@@YGKXZ (unsigned long __stdcall ClosePerfCounters(void))
+CollectPerfCounters;code;WDSMC.dll;?CollectPerfCounters@@YGKPAGPAPAXPAK2@Z (unsigned long __stdcall CollectPerfCounters(unsigned short *,void * *,unsigned long *,unsigned long *))
+OpenPerfCounters;code;WDSMC.dll;?OpenPerfCounters@@YGKPAG@Z (unsigned long __stdcall OpenPerfCounters(unsigned short *))
+WdsProviderInitialize;code;WDSMC.dll;?WdsProviderInitialize@@YGKPAX@Z (unsigned long __stdcall WdsProviderInitialize(void *))
+WdsTransportServerCanJoinNamespace;code;WDSMC.dll;?WdsTransportServerCanJoinNamespace@@YGKPBG@Z (unsigned long __stdcall WdsTransportServerCanJoinNamespace(unsigned short const *))
+WdsTransportServerRegisterNotification;code;WDSMC.dll;?WdsTransportServerRegisterNotification@@YGKP6GXPAXKPBG0@Z0PAPAX@Z (unsigned long __stdcall WdsTransportServerRegisterNotification(void (__stdcall*)(void *,unsigned long,unsigned short const *,void *),void *,void * *))
+WdsTransportServerUnRegisterNotification;code;WDSMC.dll;?WdsTransportServerUnRegisterNotification@@YGKPAX@Z (unsigned long __stdcall WdsTransportServerUnRegisterNotification(void *))
+WdsTransportServerAllocateBuffer;code;WDSMC.dll;_WdsTransportServerAllocateBuffer@8
+WdsTransportServerCompleteRead;code;WDSMC.dll;_WdsTransportServerCompleteRead@16
+WdsTransportServerFreeBuffer;code;WDSMC.dll;_WdsTransportServerFreeBuffer@8
+WdsTransportServerRegisterCallback;code;WDSMC.dll;_WdsTransportServerRegisterCallback@12
+WdsTransportServerTrace;code;WDSMC.dll;_WdsTransportServerTrace
+WdsTransportServerTraceV;code;WDSMC.dll;_WdsTransportServerTraceV@16

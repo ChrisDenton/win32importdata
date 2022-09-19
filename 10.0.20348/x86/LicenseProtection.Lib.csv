@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+RegisterLicenseKeyWithExpiration;code;licenseprotection.dll;_RegisterLicenseKeyWithExpiration@12
+ValidateLicenseKeyProtection;code;licenseprotection.dll;_ValidateLicenseKeyProtection@16

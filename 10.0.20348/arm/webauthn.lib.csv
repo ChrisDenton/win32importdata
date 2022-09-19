@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+WebAuthNAuthenticatorGetAssertion;code;webauthn.dll;
+WebAuthNAuthenticatorMakeCredential;code;webauthn.dll;
+WebAuthNCancelCurrentOperation;code;webauthn.dll;
+WebAuthNFreeAssertion;code;webauthn.dll;
+WebAuthNFreeCredentialAttestation;code;webauthn.dll;
+WebAuthNGetApiVersionNumber;code;webauthn.dll;
+WebAuthNGetCancellationId;code;webauthn.dll;
+WebAuthNGetErrorName;code;webauthn.dll;
+WebAuthNGetW3CExceptionDOMError;code;webauthn.dll;
+WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable;code;webauthn.dll;

@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+ComDBClaimNextFreePort;code;MSPORTS.DLL;
+ComDBClaimPort;code;MSPORTS.DLL;
+ComDBClose;code;MSPORTS.DLL;
+ComDBGetCurrentPortUsage;code;MSPORTS.DLL;
+ComDBOpen;code;MSPORTS.DLL;
+ComDBReleasePort;code;MSPORTS.DLL;
+ComDBResizeDatabase;code;MSPORTS.DLL;
+ParallelPortPropPageProvider;code;MSPORTS.DLL;
+PortsClassInstaller;code;MSPORTS.DLL;
+SerialDisplayAdvancedSettings;code;MSPORTS.DLL;
+SerialPortPropPageProvider;code;MSPORTS.DLL;

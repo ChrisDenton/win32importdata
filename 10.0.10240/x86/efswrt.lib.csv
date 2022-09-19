@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+DpmBufferFree;code;efswrt.dll;_DpmBufferFree@4
+DpmProtectSecretToIdentity;code;efswrt.dll;_DpmProtectSecretToIdentity@32
+DpmStreamClose;code;efswrt.dll;_DpmStreamClose@4
+DpmStreamOpenToProtectToIdentity;code;efswrt.dll;_DpmStreamOpenToProtectToIdentity@20
+DpmStreamOpenToUnprotect;code;efswrt.dll;_DpmStreamOpenToUnprotect@12
+DpmStreamUpdate;code;efswrt.dll;_DpmStreamUpdate@16
+DpmUnprotectSecret;code;efswrt.dll;_DpmUnprotectSecret@24
+EnterpriseDataCopyProtection;code;efswrt.dll;_EnterpriseDataCopyProtection@12
+EnterpriseDataGetStatus;code;efswrt.dll;_EnterpriseDataGetStatus@8
+EnterpriseDataProtect;code;efswrt.dll;_EnterpriseDataProtect@12
+EnterpriseDataRevoke;code;efswrt.dll;_EnterpriseDataRevoke@4
+FreeIdentityProtectorList;code;efswrt.dll;_FreeIdentityProtectorList@4
+ProtectFileToIdentity;code;efswrt.dll;_ProtectFileToIdentity@12
+QueryIdentityProtectors;code;efswrt.dll;_QueryIdentityProtectors@8

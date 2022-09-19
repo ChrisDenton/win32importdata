@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+#CreateControlInput;code;Windows.UI.dll;1601
+#CreateControlInputEx;code;Windows.UI.dll;1603
+CreateControlInput;code;Windows.UI.dll;1601
+CreateControlInputEx;code;Windows.UI.dll;1603

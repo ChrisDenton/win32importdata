@@ -1,0 +1,232 @@
+Name;Type;DLL;SymbolOrOrdinal
+ADVANCEDSETUPDIALOG;code;WINSPOOL.DRV;?ADVANCEDSETUPDIALOG@@YAJPAUHWND__@@PAXPAU_devicemodeA@@2@Z (long __cdecl ADVANCEDSETUPDIALOG(struct HWND__ *,void *,struct _devicemodeA *,struct _devicemodeA *))
+AdvancedSetupDialog;code;WINSPOOL.DRV;?AdvancedSetupDialog@@YAJPAUHWND__@@PAXPAU_devicemodeA@@2@Z (long __cdecl AdvancedSetupDialog(struct HWND__ *,void *,struct _devicemodeA *,struct _devicemodeA *))
+?CallCommonPropertySheetUI@@YAJPAUHWND__@@P6AJPAU_PROPSHEETUI_INFO@@J@ZJPAK@Z (long __cdecl CallCommonPropertySheetUI(struct HWND__ *,long (__cdecl*)(struct _PROPSHEETUI_INFO *,long),long,unsigned long *));code;WINSPOOL.DRV;218
+ConvertAnsiDevModeToUnicodeDevmode;code;WINSPOOL.DRV;?ConvertAnsiDevModeToUnicodeDevmode@@YAHPAU_devicemodeA@@PAU_devicemodeW@@KPAK@Z (int __cdecl ConvertAnsiDevModeToUnicodeDevmode(struct _devicemodeA *,struct _devicemodeW *,unsigned long,unsigned long *))
+ConvertUnicodeDevModeToAnsiDevmode;code;WINSPOOL.DRV;?ConvertUnicodeDevModeToAnsiDevmode@@YAHPAU_devicemodeW@@PAU_devicemodeA@@KPAK@Z (int __cdecl ConvertUnicodeDevModeToAnsiDevmode(struct _devicemodeW *,struct _devicemodeA *,unsigned long,unsigned long *))
+DEVICEMODE;code;WINSPOOL.DRV;?DEVICEMODE@@YAXPAUHWND__@@PAXPAD2@Z (void __cdecl DEVICEMODE(struct HWND__ *,void *,char *,char *))
+DeviceMode;code;WINSPOOL.DRV;?DeviceMode@@YAXPAUHWND__@@PAXPAD2@Z (void __cdecl DeviceMode(struct HWND__ *,void *,char *,char *))
+DocumentEvent;code;WINSPOOL.DRV;?DocumentEvent@@YAHPAXPAUHDC__@@HK0K0@Z (int __cdecl DocumentEvent(void *,struct HDC__ *,int,unsigned long,void *,unsigned long,void *))
+?FindCompatibleDriver@@YAJPBG0PAGKPAK1K22@Z (long __cdecl FindCompatibleDriver(unsigned short const *,unsigned short const *,unsigned short *,unsigned long,unsigned long *,unsigned short *,unsigned long,unsigned long *,unsigned long *));code;WINSPOOL.DRV;252
+?FlushBuffer2@@YAHPAX@Z (int __cdecl FlushBuffer2(void *));code;WINSPOOL.DRV;255
+?GetWorkFlowSourceLibraryHandle@@YAPAUHINSTANCE__@@PAX@Z (struct HINSTANCE__ * __cdecl GetWorkFlowSourceLibraryHandle(void *));code;WINSPOOL.DRV;362
+?InternalGetPrinterDriverA@@YAHPAXPADKPAEKPAK@Z (int __cdecl InternalGetPrinterDriverA(void *,char *,unsigned long,unsigned char *,unsigned long,unsigned long *));code;WINSPOOL.DRV;233
+?InternalGetPrinterDriverW@@YAHPAXPAGKPAEKPAK@Z (int __cdecl InternalGetPrinterDriverW(void *,unsigned short *,unsigned long,unsigned char *,unsigned long,unsigned long *));code;WINSPOOL.DRV;234
+?PrintUIDocumentDefaults@@YAXPAUHWND__@@PBGHJ@Z (void __cdecl PrintUIDocumentDefaults(struct HWND__ *,unsigned short const *,int,long));code;WINSPOOL.DRV;221
+?PrintUIDocumentPropertiesWrap@@YAJPAUHWND__@@PAXPAGPAU_devicemodeW@@3KK@Z (long __cdecl PrintUIDocumentPropertiesWrap(struct HWND__ *,void *,unsigned short *,struct _devicemodeW *,struct _devicemodeW *,unsigned long,unsigned long));code;WINSPOOL.DRV;229
+?PrintUIPrinterPropPages@@YAXPAUHWND__@@PBGHJ@Z (void __cdecl PrintUIPrinterPropPages(struct HWND__ *,unsigned short const *,int,long));code;WINSPOOL.DRV;220
+?PrintUIPrinterSetup@@YAHPAUHWND__@@IIPAGPAIPBG@Z (int __cdecl PrintUIPrinterSetup(struct HWND__ *,unsigned int,unsigned int,unsigned short *,unsigned int *,unsigned short const *));code;WINSPOOL.DRV;230
+?PrintUIQueueCreate@@YAXPAUHWND__@@PBGHJ@Z (void __cdecl PrintUIQueueCreate(struct HWND__ *,unsigned short const *,int,long));code;WINSPOOL.DRV;219
+?PrintUIServerPropPages@@YAXPAUHWND__@@PBGHJ@Z (void __cdecl PrintUIServerPropPages(struct HWND__ *,unsigned short const *,int,long));code;WINSPOOL.DRV;231
+QueryColorProfile;code;WINSPOOL.DRV;?QueryColorProfile@@YAHPAXPAU_devicemodeW@@K0PAK2@Z (int __cdecl QueryColorProfile(void *,struct _devicemodeW *,unsigned long,void *,unsigned long *,unsigned long *))
+QueryRemoteFonts;code;WINSPOOL.DRV;?QueryRemoteFonts@@YAHPAXPAU_UNIVERSAL_FONT_ID@@K@Z (int __cdecl QueryRemoteFonts(void *,struct _UNIVERSAL_FONT_ID *,unsigned long))
+QuerySpoolMode;code;WINSPOOL.DRV;?QuerySpoolMode@@YAHPAXPAJPAK@Z (int __cdecl QuerySpoolMode(void *,long *,unsigned long *))
+SpoolerDevQueryPrintW;code;WINSPOOL.DRV;?SpoolerDevQueryPrintW@@YAHPAXPAU_devicemodeW@@PAKPAGK@Z (int __cdecl SpoolerDevQueryPrintW(void *,struct _devicemodeW *,unsigned long *,unsigned short *,unsigned long))
+StartDocDlgW;code;WINSPOOL.DRV;?StartDocDlgW@@YAPAGPAXPAU_DOCINFOW@@@Z (unsigned short * __cdecl StartDocDlgW(void *,struct _DOCINFOW *))
+AbortPrinter;code;WINSPOOL.DRV;
+AddFormA;code;WINSPOOL.DRV;
+AddFormW;code;WINSPOOL.DRV;
+AddJobA;code;WINSPOOL.DRV;
+AddJobW;code;WINSPOOL.DRV;
+AddMonitorA;code;WINSPOOL.DRV;
+AddMonitorW;code;WINSPOOL.DRV;
+AddPerMachineConnectionA;code;WINSPOOL.DRV;206
+AddPerMachineConnectionW;code;WINSPOOL.DRV;207
+AddPortA;code;WINSPOOL.DRV;
+AddPortExA;code;WINSPOOL.DRV;
+AddPortExW;code;WINSPOOL.DRV;
+AddPortW;code;WINSPOOL.DRV;
+AddPrintProcessorA;code;WINSPOOL.DRV;
+AddPrintProcessorW;code;WINSPOOL.DRV;
+AddPrintProvidorA;code;WINSPOOL.DRV;
+AddPrintProvidorW;code;WINSPOOL.DRV;
+AddPrinterA;code;WINSPOOL.DRV;
+AddPrinterConnection2A;code;WINSPOOL.DRV;
+AddPrinterConnection2W;code;WINSPOOL.DRV;
+AddPrinterConnectionA;code;WINSPOOL.DRV;
+AddPrinterConnectionW;code;WINSPOOL.DRV;
+AddPrinterDriverA;code;WINSPOOL.DRV;
+AddPrinterDriverExA;code;WINSPOOL.DRV;
+AddPrinterDriverExW;code;WINSPOOL.DRV;
+AddPrinterDriverW;code;WINSPOOL.DRV;
+AddPrinterW;code;WINSPOOL.DRV;
+AdvancedDocumentPropertiesA;code;WINSPOOL.DRV;
+AdvancedDocumentPropertiesW;code;WINSPOOL.DRV;
+ClosePrinter;code;WINSPOOL.DRV;
+CloseSpoolFileHandle;code;WINSPOOL.DRV;
+CommitSpoolData;code;WINSPOOL.DRV;
+ConfigurePortA;code;WINSPOOL.DRV;
+ConfigurePortW;code;WINSPOOL.DRV;
+ConnectToPrinterDlg;code;WINSPOOL.DRV;
+CorePrinterDriverInstalledA;code;WINSPOOL.DRV;
+CorePrinterDriverInstalledW;code;WINSPOOL.DRV;
+CreatePrintAsyncNotifyChannel;code;WINSPOOL.DRV;
+CreatePrinterIC;code;WINSPOOL.DRV;
+DEVICECAPABILITIES;code;WINSPOOL.DRV;
+DeleteFormA;code;WINSPOOL.DRV;
+DeleteFormW;code;WINSPOOL.DRV;
+DeleteJobNamedProperty;code;WINSPOOL.DRV;
+DeleteMonitorA;code;WINSPOOL.DRV;
+DeleteMonitorW;code;WINSPOOL.DRV;
+DeletePerMachineConnectionA;code;WINSPOOL.DRV;208
+DeletePerMachineConnectionW;code;WINSPOOL.DRV;209
+DeletePortA;code;WINSPOOL.DRV;
+DeletePortW;code;WINSPOOL.DRV;
+DeletePrintProcessorA;code;WINSPOOL.DRV;
+DeletePrintProcessorW;code;WINSPOOL.DRV;
+DeletePrintProvidorA;code;WINSPOOL.DRV;
+DeletePrintProvidorW;code;WINSPOOL.DRV;
+DeletePrinter;code;WINSPOOL.DRV;
+DeletePrinterConnectionA;code;WINSPOOL.DRV;
+DeletePrinterConnectionW;code;WINSPOOL.DRV;
+DeletePrinterDataA;code;WINSPOOL.DRV;
+DeletePrinterDataExA;code;WINSPOOL.DRV;
+DeletePrinterDataExW;code;WINSPOOL.DRV;
+DeletePrinterDataW;code;WINSPOOL.DRV;
+DeletePrinterDriverA;code;WINSPOOL.DRV;
+DeletePrinterDriverExA;code;WINSPOOL.DRV;
+DeletePrinterDriverExW;code;WINSPOOL.DRV;
+DeletePrinterDriverPackageA;code;WINSPOOL.DRV;
+DeletePrinterDriverPackageW;code;WINSPOOL.DRV;
+DeletePrinterDriverW;code;WINSPOOL.DRV;
+DeletePrinterIC;code;WINSPOOL.DRV;
+DeletePrinterKeyA;code;WINSPOOL.DRV;
+DeletePrinterKeyW;code;WINSPOOL.DRV;
+DevQueryPrint;code;WINSPOOL.DRV;
+DevQueryPrintEx;code;WINSPOOL.DRV;
+DeviceCapabilities;code;WINSPOOL.DRV;
+DeviceCapabilitiesA;code;WINSPOOL.DRV;
+DeviceCapabilitiesW;code;WINSPOOL.DRV;
+DevicePropertySheets;code;WINSPOOL.DRV;
+DocumentPropertiesA;code;WINSPOOL.DRV;
+DocumentPropertiesW;code;WINSPOOL.DRV;
+DocumentPropertySheets;code;WINSPOOL.DRV;
+EXTDEVICEMODE;code;WINSPOOL.DRV;
+EndDocPrinter;code;WINSPOOL.DRV;
+EndPagePrinter;code;WINSPOOL.DRV;
+EnumFormsA;code;WINSPOOL.DRV;
+EnumFormsW;code;WINSPOOL.DRV;
+EnumJobNamedProperties;code;WINSPOOL.DRV;
+EnumJobsA;code;WINSPOOL.DRV;
+EnumJobsW;code;WINSPOOL.DRV;
+EnumMonitorsA;code;WINSPOOL.DRV;
+EnumMonitorsW;code;WINSPOOL.DRV;
+EnumPerMachineConnectionsA;code;WINSPOOL.DRV;210
+EnumPerMachineConnectionsW;code;WINSPOOL.DRV;211
+EnumPortsA;code;WINSPOOL.DRV;
+EnumPortsW;code;WINSPOOL.DRV;
+EnumPrintProcessorDatatypesA;code;WINSPOOL.DRV;
+EnumPrintProcessorDatatypesW;code;WINSPOOL.DRV;
+EnumPrintProcessorsA;code;WINSPOOL.DRV;
+EnumPrintProcessorsW;code;WINSPOOL.DRV;
+EnumPrinterDataA;code;WINSPOOL.DRV;
+EnumPrinterDataExA;code;WINSPOOL.DRV;
+EnumPrinterDataExW;code;WINSPOOL.DRV;
+EnumPrinterDataW;code;WINSPOOL.DRV;
+EnumPrinterDriversA;code;WINSPOOL.DRV;
+EnumPrinterDriversW;code;WINSPOOL.DRV;
+EnumPrinterKeyA;code;WINSPOOL.DRV;
+EnumPrinterKeyW;code;WINSPOOL.DRV;
+EnumPrinterPropertySheets;code;WINSPOOL.DRV;100
+EnumPrintersA;code;WINSPOOL.DRV;
+EnumPrintersW;code;WINSPOOL.DRV;
+ExtDeviceMode;code;WINSPOOL.DRV;
+ExternalConnectToLd64In32Server;code;WINSPOOL.DRV;224
+FindClosePrinterChangeNotification;code;WINSPOOL.DRV;
+FindFirstPrinterChangeNotification;code;WINSPOOL.DRV;
+FindNextPrinterChangeNotification;code;WINSPOOL.DRV;
+FlushPrinter;code;WINSPOOL.DRV;
+ForceUnloadDriver;code;WINSPOOL.DRV;215
+FreePrintNamedPropertyArray;code;WINSPOOL.DRV;
+FreePrintPropertyValue;code;WINSPOOL.DRV;
+FreePrinterNotifyInfo;code;WINSPOOL.DRV;
+GetCorePrinterDriversA;code;WINSPOOL.DRV;
+GetCorePrinterDriversW;code;WINSPOOL.DRV;
+GetDefaultPrinterA;code;WINSPOOL.DRV;201
+GetDefaultPrinterW;code;WINSPOOL.DRV;203
+GetFormA;code;WINSPOOL.DRV;
+GetFormW;code;WINSPOOL.DRV;
+GetJobA;code;WINSPOOL.DRV;
+GetJobNamedPropertyValue;code;WINSPOOL.DRV;
+GetJobW;code;WINSPOOL.DRV;
+GetPrintClassObject;code;WINSPOOL.DRV;251
+GetPrintExecutionData;code;WINSPOOL.DRV;
+GetPrintOutputInfo;code;WINSPOOL.DRV;
+GetPrintProcessorDirectoryA;code;WINSPOOL.DRV;
+GetPrintProcessorDirectoryW;code;WINSPOOL.DRV;
+GetPrinterA;code;WINSPOOL.DRV;
+GetPrinterDataA;code;WINSPOOL.DRV;
+GetPrinterDataExA;code;WINSPOOL.DRV;
+GetPrinterDataExW;code;WINSPOOL.DRV;
+GetPrinterDataW;code;WINSPOOL.DRV;
+GetPrinterDriver2A;code;WINSPOOL.DRV;
+GetPrinterDriver2W;code;WINSPOOL.DRV;
+GetPrinterDriverA;code;WINSPOOL.DRV;
+GetPrinterDriverDirectoryA;code;WINSPOOL.DRV;
+GetPrinterDriverDirectoryW;code;WINSPOOL.DRV;
+GetPrinterDriverPackagePathA;code;WINSPOOL.DRV;
+GetPrinterDriverPackagePathW;code;WINSPOOL.DRV;
+GetPrinterDriverW;code;WINSPOOL.DRV;
+GetPrinterW;code;WINSPOOL.DRV;
+GetSpoolFileHandle;code;WINSPOOL.DRV;
+InstallPrinterDriverFromPackageA;code;WINSPOOL.DRV;
+InstallPrinterDriverFromPackageW;code;WINSPOOL.DRV;
+IsValidDevmodeA;code;WINSPOOL.DRV;
+IsValidDevmodeW;code;WINSPOOL.DRV;
+IsWorkflowAssociated;code;WINSPOOL.DRV;361
+LoadPrinterDriver;code;WINSPOOL.DRV;212
+OpenPrinter2A;code;WINSPOOL.DRV;
+OpenPrinter2W;code;WINSPOOL.DRV;
+OpenPrinterA;code;WINSPOOL.DRV;
+OpenPrinterW;code;WINSPOOL.DRV;
+PlayGdiScriptOnPrinterIC;code;WINSPOOL.DRV;
+PrintUICreateInstance;code;WINSPOOL.DRV;228
+PrintUIWebPnpEntry;code;WINSPOOL.DRV;226
+PrintUIWebPnpPostEntry;code;WINSPOOL.DRV;227
+PrinterMessageBoxA;code;WINSPOOL.DRV;
+PrinterMessageBoxW;code;WINSPOOL.DRV;
+PrinterProperties;code;WINSPOOL.DRV;
+PublishPrinterA;code;WINSPOOL.DRV;216
+PublishPrinterW;code;WINSPOOL.DRV;217
+ReadPrinter;code;WINSPOOL.DRV;
+RefCntLoadDriver;code;WINSPOOL.DRV;213
+RefCntUnloadDriver;code;WINSPOOL.DRV;214
+RegisterForPrintAsyncNotifications;code;WINSPOOL.DRV;
+ReportJobProcessingProgress;code;WINSPOOL.DRV;
+ResetPrinterA;code;WINSPOOL.DRV;
+ResetPrinterW;code;WINSPOOL.DRV;
+RouterFreeBidiResponseContainer;code;WINSPOOL.DRV;223
+ScheduleJob;code;WINSPOOL.DRV;
+SeekPrinter;code;WINSPOOL.DRV;
+SendRecvBidiData;code;WINSPOOL.DRV;222
+SetDefaultPrinterA;code;WINSPOOL.DRV;202
+SetDefaultPrinterW;code;WINSPOOL.DRV;204
+SetFormA;code;WINSPOOL.DRV;
+SetFormW;code;WINSPOOL.DRV;
+SetJobA;code;WINSPOOL.DRV;
+SetJobNamedProperty;code;WINSPOOL.DRV;
+SetJobW;code;WINSPOOL.DRV;
+SetPortA;code;WINSPOOL.DRV;
+SetPortW;code;WINSPOOL.DRV;
+SetPrintExecutionData;code;WINSPOOL.DRV;254
+SetPrinterA;code;WINSPOOL.DRV;
+SetPrinterDataA;code;WINSPOOL.DRV;
+SetPrinterDataExA;code;WINSPOOL.DRV;
+SetPrinterDataExW;code;WINSPOOL.DRV;
+SetPrinterDataW;code;WINSPOOL.DRV;
+SetPrinterW;code;WINSPOOL.DRV;
+SetWinspoolOptions;code;WINSPOOL.DRV;253
+SplDriverUnloadComplete;code;WINSPOOL.DRV;
+SplReadPrinter;code;WINSPOOL.DRV;205
+SpoolerPrinterEvent;code;WINSPOOL.DRV;
+SpoolerSetPolicy;code;WINSPOOL.DRV;250
+StartDocDlgA;code;WINSPOOL.DRV;
+StartDocPrinterA;code;WINSPOOL.DRV;
+StartDocPrinterW;code;WINSPOOL.DRV;
+StartPagePrinter;code;WINSPOOL.DRV;
+UnRegisterForPrintAsyncNotifications;code;WINSPOOL.DRV;
+UploadPrinterDriverPackageA;code;WINSPOOL.DRV;
+UploadPrinterDriverPackageW;code;WINSPOOL.DRV;
+WaitForPrinterChange;code;WINSPOOL.DRV;
+WritePrinter;code;WINSPOOL.DRV;
+XcvDataW;code;WINSPOOL.DRV;

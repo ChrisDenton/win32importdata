@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+PrintLog;code;TLOG.dll;_PrintLog

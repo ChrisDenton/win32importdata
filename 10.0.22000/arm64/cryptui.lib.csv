@@ -1,0 +1,109 @@
+Name;Type;DLL;SymbolOrOrdinal
+ACUIProviderInvokeUI;code;CRYPTUI.dll;#ACUIProviderInvokeUI
+CertSelectionGetSerializedBlob;code;CRYPTUI.dll;#CertSelectionGetSerializedBlob
+CommonInit;code;CRYPTUI.dll;#CommonInit
+CryptDllProtectPrompt;code;CRYPTUI.dll;#CryptDllProtectPrompt
+CryptUIDlgCertMgr;code;CRYPTUI.dll;#CryptUIDlgCertMgr
+CryptUIDlgFreeCAContext;code;CRYPTUI.dll;#CryptUIDlgFreeCAContext
+CryptUIDlgFreePolicyServerContext;code;CRYPTUI.dll;#CryptUIDlgFreePolicyServerContext
+CryptUIDlgSelectCA;code;CRYPTUI.dll;#CryptUIDlgSelectCA
+CryptUIDlgSelectCertificateA;code;CRYPTUI.dll;#CryptUIDlgSelectCertificateA
+CryptUIDlgSelectCertificateFromStore;code;CRYPTUI.dll;#CryptUIDlgSelectCertificateFromStore
+CryptUIDlgSelectCertificateW;code;CRYPTUI.dll;#CryptUIDlgSelectCertificateW
+CryptUIDlgSelectPolicyServer;code;CRYPTUI.dll;#CryptUIDlgSelectPolicyServer
+CryptUIDlgSelectStoreA;code;CRYPTUI.dll;#CryptUIDlgSelectStoreA
+CryptUIDlgSelectStoreW;code;CRYPTUI.dll;#CryptUIDlgSelectStoreW
+CryptUIDlgViewCRLA;code;CRYPTUI.dll;#CryptUIDlgViewCRLA
+CryptUIDlgViewCRLW;code;CRYPTUI.dll;#CryptUIDlgViewCRLW
+CryptUIDlgViewCTLA;code;CRYPTUI.dll;#CryptUIDlgViewCTLA
+CryptUIDlgViewCTLW;code;CRYPTUI.dll;#CryptUIDlgViewCTLW
+CryptUIDlgViewCertificateA;code;CRYPTUI.dll;#CryptUIDlgViewCertificateA
+CryptUIDlgViewCertificatePropertiesA;code;CRYPTUI.dll;#CryptUIDlgViewCertificatePropertiesA
+CryptUIDlgViewCertificatePropertiesW;code;CRYPTUI.dll;#CryptUIDlgViewCertificatePropertiesW
+CryptUIDlgViewCertificateW;code;CRYPTUI.dll;#CryptUIDlgViewCertificateW
+CryptUIDlgViewContext;code;CRYPTUI.dll;#CryptUIDlgViewContext
+CryptUIDlgViewSignerInfoA;code;CRYPTUI.dll;#CryptUIDlgViewSignerInfoA
+CryptUIDlgViewSignerInfoW;code;CRYPTUI.dll;#CryptUIDlgViewSignerInfoW
+CryptUIFreeCertificatePropertiesPagesA;code;CRYPTUI.dll;#CryptUIFreeCertificatePropertiesPagesA
+CryptUIFreeCertificatePropertiesPagesW;code;CRYPTUI.dll;#CryptUIFreeCertificatePropertiesPagesW
+CryptUIFreeViewSignaturesPagesA;code;CRYPTUI.dll;#CryptUIFreeViewSignaturesPagesA
+CryptUIFreeViewSignaturesPagesW;code;CRYPTUI.dll;#CryptUIFreeViewSignaturesPagesW
+CryptUIGetCertificatePropertiesPagesA;code;CRYPTUI.dll;#CryptUIGetCertificatePropertiesPagesA
+CryptUIGetCertificatePropertiesPagesW;code;CRYPTUI.dll;#CryptUIGetCertificatePropertiesPagesW
+CryptUIGetViewSignaturesPagesA;code;CRYPTUI.dll;#CryptUIGetViewSignaturesPagesA
+CryptUIGetViewSignaturesPagesW;code;CRYPTUI.dll;#CryptUIGetViewSignaturesPagesW
+CryptUIStartCertMgr;code;CRYPTUI.dll;#CryptUIStartCertMgr
+CryptUIViewExpiringCerts;code;CRYPTUI.dll;#CryptUIViewExpiringCerts
+CryptUIWizBuildCTL;code;CRYPTUI.dll;#CryptUIWizBuildCTL
+CryptUIWizDigitalSign;code;CRYPTUI.dll;#CryptUIWizDigitalSign
+CryptUIWizExport;code;CRYPTUI.dll;#CryptUIWizExport
+CryptUIWizFreeDigitalSignContext;code;CRYPTUI.dll;#CryptUIWizFreeDigitalSignContext
+CryptUIWizImport;code;CRYPTUI.dll;#CryptUIWizImport
+CryptUIWizImportInternal;code;CRYPTUI.dll;#CryptUIWizImportInternal
+IsWizardExtensionAvailable;code;CRYPTUI.dll;#IsWizardExtensionAvailable
+AddChainToStore;code;CRYPTUI.dll;?AddChainToStore@@$$hYAHPEAXPEBU_CERT_CONTEXT@@KPEAPEAXHPEAU_CERT_TRUST_STATUS@@@Z (int __cdecl AddChainToStore(void *,struct _CERT_CONTEXT const *,unsigned long,void * *,int,struct _CERT_TRUST_STATUS *))
+CertDllLogMismatchPinRules;code;CRYPTUI.dll;?CertDllLogMismatchPinRules@@$$hYAJPEBG000000@Z (long __cdecl CertDllLogMismatchPinRules(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *))
+CertDllProtectedRootMessageBox;code;CRYPTUI.dll;?CertDllProtectedRootMessageBox@@$$hYAHPEAXPEBU_CERT_CONTEXT@@KI@Z (int __cdecl CertDllProtectedRootMessageBox(void *,struct _CERT_CONTEXT const *,unsigned long,unsigned int))
+CompareCertificate;code;CRYPTUI.dll;?CompareCertificate@@$$hYAH_J00@Z (int __cdecl CompareCertificate(__int64,__int64,__int64))
+CryptUIDlgAddPolicyServer;code;CRYPTUI.dll;?CryptUIDlgAddPolicyServer@@$$hYAJPEAUHWND__@@KHPEAPEAU_PolicyUrlProperties@@KHP6AJ0PEAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PEAPEAUIX509EnrollmentPolicyServer@@@ZPEAPEAG88PEAK@Z (long __cdecl CryptUIDlgAddPolicyServer(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__cdecl*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *))
+CryptUIDlgAddPolicyServerWithPriority;code;CRYPTUI.dll;?CryptUIDlgAddPolicyServerWithPriority@@$$hYAJPEAUHWND__@@KHPEAPEAU_PolicyUrlProperties@@KHP6AJ0PEAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PEAPEAUIX509EnrollmentPolicyServer@@@ZPEAPEAG88PEAK9@Z (long __cdecl CryptUIDlgAddPolicyServerWithPriority(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__cdecl*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *,unsigned long *))
+CryptUIDlgPropertyPolicy;code;CRYPTUI.dll;?CryptUIDlgPropertyPolicy@@$$hYAJPEAUHWND__@@HHPEBG1KPEAPEAU_PolicyUrlProperties@@KPEAKPEAPEAPEAG3@Z (long __cdecl CryptUIDlgPropertyPolicy(struct HWND__ *,int,int,unsigned short const *,unsigned short const *,unsigned long,struct _PolicyUrlProperties * *,unsigned long,unsigned long *,unsigned short * * *,unsigned long *))
+DisplayHtmlHelp;code;CRYPTUI.dll;?DisplayHtmlHelp@@$$hYAXPEAUHWND__@@PEBG@Z (void __cdecl DisplayHtmlHelp(struct HWND__ *,unsigned short const *))
+FormatDateStringAutoLayout;code;CRYPTUI.dll;?FormatDateStringAutoLayout@@$$hYAHPEAPEAGU_FILETIME@@H@Z (int __cdecl FormatDateStringAutoLayout(unsigned short * *,struct _FILETIME,int))
+GetUnknownErrorString;code;CRYPTUI.dll;?GetUnknownErrorString@@$$hYAHPEAPEAGK@Z (int __cdecl GetUnknownErrorString(unsigned short * *,unsigned long))
+InvokeHelpLink;code;CRYPTUI.dll;?InvokeHelpLink@@$$hYAXPEAUHWND__@@@Z (void __cdecl InvokeHelpLink(struct HWND__ *))
+MyFormatEnhancedKeyUsageString;code;CRYPTUI.dll;?MyFormatEnhancedKeyUsageString@@$$hYAHPEAPEAGPEBU_CERT_CONTEXT@@HH@Z (int __cdecl MyFormatEnhancedKeyUsageString(unsigned short * *,struct _CERT_CONTEXT const *,int,int))
+AddChainToStore;code;CRYPTUI.dll;?AddChainToStore@@YAHPEAXPEBU_CERT_CONTEXT@@KPEAPEAXHPEAU_CERT_TRUST_STATUS@@@Z (int __cdecl AddChainToStore(void *,struct _CERT_CONTEXT const *,unsigned long,void * *,int,struct _CERT_TRUST_STATUS *))
+CertDllLogMismatchPinRules;code;CRYPTUI.dll;?CertDllLogMismatchPinRules@@YAJPEBG000000@Z (long __cdecl CertDllLogMismatchPinRules(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *))
+CertDllProtectedRootMessageBox;code;CRYPTUI.dll;?CertDllProtectedRootMessageBox@@YAHPEAXPEBU_CERT_CONTEXT@@KI@Z (int __cdecl CertDllProtectedRootMessageBox(void *,struct _CERT_CONTEXT const *,unsigned long,unsigned int))
+CompareCertificate;code;CRYPTUI.dll;?CompareCertificate@@YAH_J00@Z (int __cdecl CompareCertificate(__int64,__int64,__int64))
+CryptUIDlgAddPolicyServer;code;CRYPTUI.dll;?CryptUIDlgAddPolicyServer@@YAJPEAUHWND__@@KHPEAPEAU_PolicyUrlProperties@@KHP6AJ0PEAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PEAPEAUIX509EnrollmentPolicyServer@@@ZPEAPEAG88PEAK@Z (long __cdecl CryptUIDlgAddPolicyServer(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__cdecl*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *))
+CryptUIDlgAddPolicyServerWithPriority;code;CRYPTUI.dll;?CryptUIDlgAddPolicyServerWithPriority@@YAJPEAUHWND__@@KHPEAPEAU_PolicyUrlProperties@@KHP6AJ0PEAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PEAPEAUIX509EnrollmentPolicyServer@@@ZPEAPEAG88PEAK9@Z (long __cdecl CryptUIDlgAddPolicyServerWithPriority(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__cdecl*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *,unsigned long *))
+CryptUIDlgPropertyPolicy;code;CRYPTUI.dll;?CryptUIDlgPropertyPolicy@@YAJPEAUHWND__@@HHPEBG1KPEAPEAU_PolicyUrlProperties@@KPEAKPEAPEAPEAG3@Z (long __cdecl CryptUIDlgPropertyPolicy(struct HWND__ *,int,int,unsigned short const *,unsigned short const *,unsigned long,struct _PolicyUrlProperties * *,unsigned long,unsigned long *,unsigned short * * *,unsigned long *))
+DisplayHtmlHelp;code;CRYPTUI.dll;?DisplayHtmlHelp@@YAXPEAUHWND__@@PEBG@Z (void __cdecl DisplayHtmlHelp(struct HWND__ *,unsigned short const *))
+FormatDateStringAutoLayout;code;CRYPTUI.dll;?FormatDateStringAutoLayout@@YAHPEAPEAGU_FILETIME@@H@Z (int __cdecl FormatDateStringAutoLayout(unsigned short * *,struct _FILETIME,int))
+GetUnknownErrorString;code;CRYPTUI.dll;?GetUnknownErrorString@@YAHPEAPEAGK@Z (int __cdecl GetUnknownErrorString(unsigned short * *,unsigned long))
+InvokeHelpLink;code;CRYPTUI.dll;?InvokeHelpLink@@YAXPEAUHWND__@@@Z (void __cdecl InvokeHelpLink(struct HWND__ *))
+MyFormatEnhancedKeyUsageString;code;CRYPTUI.dll;?MyFormatEnhancedKeyUsageString@@YAHPEAPEAGPEBU_CERT_CONTEXT@@HH@Z (int __cdecl MyFormatEnhancedKeyUsageString(unsigned short * *,struct _CERT_CONTEXT const *,int,int))
+ACUIProviderInvokeUI;code;CRYPTUI.dll;
+CertSelectionGetSerializedBlob;code;CRYPTUI.dll;
+CommonInit;code;CRYPTUI.dll;
+CryptDllProtectPrompt;code;CRYPTUI.dll;
+CryptUIDlgCertMgr;code;CRYPTUI.dll;
+CryptUIDlgFreeCAContext;code;CRYPTUI.dll;
+CryptUIDlgFreePolicyServerContext;code;CRYPTUI.dll;
+CryptUIDlgSelectCA;code;CRYPTUI.dll;
+CryptUIDlgSelectCertificateA;code;CRYPTUI.dll;
+CryptUIDlgSelectCertificateFromStore;code;CRYPTUI.dll;
+CryptUIDlgSelectCertificateW;code;CRYPTUI.dll;
+CryptUIDlgSelectPolicyServer;code;CRYPTUI.dll;
+CryptUIDlgSelectStoreA;code;CRYPTUI.dll;
+CryptUIDlgSelectStoreW;code;CRYPTUI.dll;
+CryptUIDlgViewCRLA;code;CRYPTUI.dll;
+CryptUIDlgViewCRLW;code;CRYPTUI.dll;
+CryptUIDlgViewCTLA;code;CRYPTUI.dll;
+CryptUIDlgViewCTLW;code;CRYPTUI.dll;
+CryptUIDlgViewCertificateA;code;CRYPTUI.dll;
+CryptUIDlgViewCertificatePropertiesA;code;CRYPTUI.dll;
+CryptUIDlgViewCertificatePropertiesW;code;CRYPTUI.dll;
+CryptUIDlgViewCertificateW;code;CRYPTUI.dll;
+CryptUIDlgViewContext;code;CRYPTUI.dll;
+CryptUIDlgViewSignerInfoA;code;CRYPTUI.dll;
+CryptUIDlgViewSignerInfoW;code;CRYPTUI.dll;
+CryptUIFreeCertificatePropertiesPagesA;code;CRYPTUI.dll;
+CryptUIFreeCertificatePropertiesPagesW;code;CRYPTUI.dll;
+CryptUIFreeViewSignaturesPagesA;code;CRYPTUI.dll;
+CryptUIFreeViewSignaturesPagesW;code;CRYPTUI.dll;
+CryptUIGetCertificatePropertiesPagesA;code;CRYPTUI.dll;
+CryptUIGetCertificatePropertiesPagesW;code;CRYPTUI.dll;
+CryptUIGetViewSignaturesPagesA;code;CRYPTUI.dll;
+CryptUIGetViewSignaturesPagesW;code;CRYPTUI.dll;
+CryptUIStartCertMgr;code;CRYPTUI.dll;
+CryptUIViewExpiringCerts;code;CRYPTUI.dll;
+CryptUIWizBuildCTL;code;CRYPTUI.dll;
+CryptUIWizDigitalSign;code;CRYPTUI.dll;
+CryptUIWizExport;code;CRYPTUI.dll;
+CryptUIWizFreeDigitalSignContext;code;CRYPTUI.dll;
+CryptUIWizImport;code;CRYPTUI.dll;
+CryptUIWizImportInternal;code;CRYPTUI.dll;
+IsWizardExtensionAvailable;code;CRYPTUI.dll;

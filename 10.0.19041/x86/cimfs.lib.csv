@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+CimCloseImage;code;CIMFS.dll;_CimCloseImage@4
+CimCloseStream;code;CIMFS.dll;_CimCloseStream@4
+CimCommitImage;code;CIMFS.dll;_CimCommitImage@4
+CimCreateAlternateStream;code;CIMFS.dll;_CimCreateAlternateStream@20
+CimCreateFile;code;CIMFS.dll;_CimCreateFile@16
+CimCreateHardLink;code;CIMFS.dll;_CimCreateHardLink@12
+CimCreateImage;code;CIMFS.dll;_CimCreateImage@16
+CimDeletePath;code;CIMFS.dll;_CimDeletePath@8
+CimDismountImage;code;CIMFS.dll;_CimDismountImage@4
+CimMountImage;code;CIMFS.dll;_CimMountImage@16
+CimWriteStream;code;CIMFS.dll;_CimWriteStream@12

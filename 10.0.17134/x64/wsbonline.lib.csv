@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+DeregisterOnlineBackupFromWindowsServerBackup;code;WSBOnline.dll;?DeregisterOnlineBackupFromWindowsServerBackup@@YAJU_GUID@@@Z (long __cdecl DeregisterOnlineBackupFromWindowsServerBackup(struct _GUID))
+RegisterOnlineBackupWithWindowsServerBackup;code;WSBOnline.dll;?RegisterOnlineBackupWithWindowsServerBackup@@YAJPEAU_WSB_OB_REGISTRATION_INFO@@@Z (long __cdecl RegisterOnlineBackupWithWindowsServerBackup(struct _WSB_OB_REGISTRATION_INFO *))
+UpdateOBStatusInWindowsServerBackup;code;WSBOnline.dll;?UpdateOBStatusInWindowsServerBackup@@YAJPEAU_WSB_OB_STATUS_INFO@@@Z (long __cdecl UpdateOBStatusInWindowsServerBackup(struct _WSB_OB_STATUS_INFO *))

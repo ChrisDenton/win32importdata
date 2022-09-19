@@ -1,0 +1,33 @@
+Name;Type;DLL;SymbolOrOrdinal
+DiscoverManagementService;code;MDMRegistration.DLL;#DiscoverManagementService
+DiscoverManagementServiceEx;code;MDMRegistration.DLL;#DiscoverManagementServiceEx
+GetDeviceManagementConfigInfo;code;MDMRegistration.DLL;#GetDeviceManagementConfigInfo
+GetDeviceRegistrationInfo;code;MDMRegistration.DLL;#GetDeviceRegistrationInfo
+GetManagementAppHyperlink;code;MDMRegistration.DLL;#GetManagementAppHyperlink
+IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;#IsDeviceRegisteredWithManagement
+IsManagementRegistrationAllowed;code;MDMRegistration.DLL;#IsManagementRegistrationAllowed
+IsMdmUxWithoutAadAllowed;code;MDMRegistration.DLL;#IsMdmUxWithoutAadAllowed
+RegisterDeviceWithManagement;code;MDMRegistration.DLL;#RegisterDeviceWithManagement
+RegisterDeviceWithManagementUsingAADCredentials;code;MDMRegistration.DLL;#RegisterDeviceWithManagementUsingAADCredentials
+RegisterDeviceWithManagementUsingAADDeviceCredentials;code;MDMRegistration.DLL;#RegisterDeviceWithManagementUsingAADDeviceCredentials
+RegisterDeviceWithManagementUsingAADDeviceCredentials2;code;MDMRegistration.DLL;#RegisterDeviceWithManagementUsingAADDeviceCredentials2
+SetDeviceManagementConfigInfo;code;MDMRegistration.DLL;#SetDeviceManagementConfigInfo
+SetManagedExternally;code;MDMRegistration.DLL;#SetManagedExternally
+UnregisterDeviceWithManagement;code;MDMRegistration.DLL;#UnregisterDeviceWithManagement
+?FindDiscoveryService@@$$hYAJPEBGPEAPEBGPEAH@Z (long __cdecl FindDiscoveryService(unsigned short const *,unsigned short const * *,int *));code;MDMRegistration.DLL;2
+?FindDiscoveryService@@YAJPEBGPEAPEBGPEAH@Z (long __cdecl FindDiscoveryService(unsigned short const *,unsigned short const * *,int *));code;MDMRegistration.DLL;2
+DiscoverManagementService;code;MDMRegistration.DLL;
+DiscoverManagementServiceEx;code;MDMRegistration.DLL;
+GetDeviceManagementConfigInfo;code;MDMRegistration.DLL;
+GetDeviceRegistrationInfo;code;MDMRegistration.DLL;
+GetManagementAppHyperlink;code;MDMRegistration.DLL;
+IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;
+IsManagementRegistrationAllowed;code;MDMRegistration.DLL;
+IsMdmUxWithoutAadAllowed;code;MDMRegistration.DLL;
+RegisterDeviceWithManagement;code;MDMRegistration.DLL;
+RegisterDeviceWithManagementUsingAADCredentials;code;MDMRegistration.DLL;
+RegisterDeviceWithManagementUsingAADDeviceCredentials;code;MDMRegistration.DLL;
+RegisterDeviceWithManagementUsingAADDeviceCredentials2;code;MDMRegistration.DLL;
+SetDeviceManagementConfigInfo;code;MDMRegistration.DLL;
+SetManagedExternally;code;MDMRegistration.DLL;
+UnregisterDeviceWithManagement;code;MDMRegistration.DLL;

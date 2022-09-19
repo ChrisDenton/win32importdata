@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+FmtIdToPropStgName;code;IPROP.dll;_FmtIdToPropStgName
+FreePropVariantArray;code;IPROP.dll;_FreePropVariantArray
+PropStgNameToFmtId;code;IPROP.dll;_PropStgNameToFmtId
+PropVariantClear;code;IPROP.dll;_PropVariantClear
+PropVariantCopy;code;IPROP.dll;_PropVariantCopy
+StgCreatePropSetStg;code;IPROP.dll;_StgCreatePropSetStg
+StgCreatePropStg;code;IPROP.dll;_StgCreatePropStg
+StgOpenPropStg;code;IPROP.dll;_StgOpenPropStg

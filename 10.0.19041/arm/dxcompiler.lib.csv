@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+DxcCreateInstance2;code;dxcompiler.dll;?DxcCreateInstance2@@YAJPAUIMalloc@@ABU_GUID@@1PAPAX@Z (long __cdecl DxcCreateInstance2(struct IMalloc *,struct _GUID const &,struct _GUID const &,void * *))
+DxcCreateInstance;code;dxcompiler.dll;?DxcCreateInstance@@YAJABU_GUID@@0PAPAX@Z (long __cdecl DxcCreateInstance(struct _GUID const &,struct _GUID const &,void * *))

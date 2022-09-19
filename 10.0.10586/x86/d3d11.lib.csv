@@ -1,0 +1,46 @@
+Name;Type;DLL;SymbolOrOrdinal
+D3DKMTCloseAdapter;code;d3d11.dll;?D3DKMTCloseAdapter@@YGJPAU_D3DKMT_CLOSEADAPTER@@@Z (long __stdcall D3DKMTCloseAdapter(struct _D3DKMT_CLOSEADAPTER *))
+D3DKMTDestroyAllocation;code;d3d11.dll;?D3DKMTDestroyAllocation@@YGJPAU_D3DKMT_DESTROYALLOCATION@@@Z (long __stdcall D3DKMTDestroyAllocation(struct _D3DKMT_DESTROYALLOCATION *))
+D3DKMTDestroyContext;code;d3d11.dll;?D3DKMTDestroyContext@@YGJPAU_D3DKMT_DESTROYCONTEXT@@@Z (long __stdcall D3DKMTDestroyContext(struct _D3DKMT_DESTROYCONTEXT *))
+D3DKMTDestroyDevice;code;d3d11.dll;?D3DKMTDestroyDevice@@YGJPAU_D3DKMT_DESTROYDEVICE@@@Z (long __stdcall D3DKMTDestroyDevice(struct _D3DKMT_DESTROYDEVICE *))
+D3DKMTDestroySynchronizationObject;code;d3d11.dll;?D3DKMTDestroySynchronizationObject@@YGJPAU_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT@@@Z (long __stdcall D3DKMTDestroySynchronizationObject(struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT *))
+D3DKMTPresent;code;d3d11.dll;?D3DKMTPresent@@YGJPBU_D3DKMT_PRESENT@@@Z (long __stdcall D3DKMTPresent(struct _D3DKMT_PRESENT const *))
+D3DKMTQueryAdapterInfo;code;d3d11.dll;?D3DKMTQueryAdapterInfo@@YGJPAU_D3DKMT_QUERYADAPTERINFO@@@Z (long __stdcall D3DKMTQueryAdapterInfo(struct _D3DKMT_QUERYADAPTERINFO *))
+D3DKMTSetDisplayPrivateDriverFormat;code;d3d11.dll;?D3DKMTSetDisplayPrivateDriverFormat@@YGJPAU_D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT@@@Z (long __stdcall D3DKMTSetDisplayPrivateDriverFormat(struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT *))
+D3DKMTSignalSynchronizationObject;code;d3d11.dll;?D3DKMTSignalSynchronizationObject@@YGJPAU_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT@@@Z (long __stdcall D3DKMTSignalSynchronizationObject(struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT *))
+D3DKMTUnlock;code;d3d11.dll;?D3DKMTUnlock@@YGJPAU_D3DKMT_UNLOCK@@@Z (long __stdcall D3DKMTUnlock(struct _D3DKMT_UNLOCK *))
+D3DKMTWaitForSynchronizationObject;code;d3d11.dll;?D3DKMTWaitForSynchronizationObject@@YGJPAU_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT@@@Z (long __stdcall D3DKMTWaitForSynchronizationObject(struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT *))
+OpenAdapter10;code;d3d11.dll;?OpenAdapter10@@YGJPAUD3D10DDIARG_OPENADAPTER@@@Z (long __stdcall OpenAdapter10(struct D3D10DDIARG_OPENADAPTER *))
+OpenAdapter10_2;code;d3d11.dll;?OpenAdapter10_2@@YGJPAUD3D10DDIARG_OPENADAPTER@@@Z (long __stdcall OpenAdapter10_2(struct D3D10DDIARG_OPENADAPTER *))
+CreateDirect3D11DeviceFromDXGIDevice;code;d3d11.dll;_CreateDirect3D11DeviceFromDXGIDevice@8
+CreateDirect3D11SurfaceFromDXGISurface;code;d3d11.dll;_CreateDirect3D11SurfaceFromDXGISurface@8
+D3D11CoreCreateDevice;code;d3d11.dll;_D3D11CoreCreateDevice@40
+D3D11CoreCreateLayeredDevice;code;d3d11.dll;_D3D11CoreCreateLayeredDevice@20
+D3D11CoreGetLayeredDeviceSize;code;d3d11.dll;_D3D11CoreGetLayeredDeviceSize@8
+D3D11CoreRegisterLayers;code;d3d11.dll;_D3D11CoreRegisterLayers@8
+D3D11CreateDevice;code;d3d11.dll;_D3D11CreateDevice@40
+D3D11CreateDeviceAndSwapChain;code;d3d11.dll;_D3D11CreateDeviceAndSwapChain@48
+D3D11On12CreateDevice;code;d3d11.dll;_D3D11On12CreateDevice@40
+D3DKMTCreateAllocation;code;d3d11.dll;_D3DKMTCreateAllocation@4
+D3DKMTCreateContext;code;d3d11.dll;_D3DKMTCreateContext@4
+D3DKMTCreateDevice;code;d3d11.dll;_D3DKMTCreateDevice@4
+D3DKMTCreateSynchronizationObject;code;d3d11.dll;_D3DKMTCreateSynchronizationObject@4
+D3DKMTEscape;code;d3d11.dll;_D3DKMTEscape@4
+D3DKMTGetContextSchedulingPriority;code;d3d11.dll;_D3DKMTGetContextSchedulingPriority@4
+D3DKMTGetDeviceState;code;d3d11.dll;_D3DKMTGetDeviceState@4
+D3DKMTGetDisplayModeList;code;d3d11.dll;_D3DKMTGetDisplayModeList@4
+D3DKMTGetMultisampleMethodList;code;d3d11.dll;_D3DKMTGetMultisampleMethodList@4
+D3DKMTGetRuntimeData;code;d3d11.dll;_D3DKMTGetRuntimeData@4
+D3DKMTGetSharedPrimaryHandle;code;d3d11.dll;_D3DKMTGetSharedPrimaryHandle@4
+D3DKMTLock;code;d3d11.dll;_D3DKMTLock@4
+D3DKMTOpenAdapterFromHdc;code;d3d11.dll;_D3DKMTOpenAdapterFromHdc@4
+D3DKMTOpenResource;code;d3d11.dll;_D3DKMTOpenResource@4
+D3DKMTQueryAllocationResidency;code;d3d11.dll;_D3DKMTQueryAllocationResidency@4
+D3DKMTQueryResourceInfo;code;d3d11.dll;_D3DKMTQueryResourceInfo@4
+D3DKMTRender;code;d3d11.dll;_D3DKMTRender@4
+D3DKMTSetAllocationPriority;code;d3d11.dll;_D3DKMTSetAllocationPriority@4
+D3DKMTSetContextSchedulingPriority;code;d3d11.dll;_D3DKMTSetContextSchedulingPriority@4
+D3DKMTSetDisplayMode;code;d3d11.dll;_D3DKMTSetDisplayMode@4
+D3DKMTSetGammaRamp;code;d3d11.dll;_D3DKMTSetGammaRamp@4
+D3DKMTSetVidPnSourceOwner;code;d3d11.dll;_D3DKMTSetVidPnSourceOwner@4
+D3DKMTWaitForVerticalBlankEvent;code;d3d11.dll;_D3DKMTWaitForVerticalBlankEvent@4

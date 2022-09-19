@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+?HvsiLaunchBrowserOnHostIfNeeded@@YAJPEBGHU_GUID@@@Z (long __cdecl HvsiLaunchBrowserOnHostIfNeeded(unsigned short const *,int,struct _GUID));code;IsolatedWindowsEnvironmentUtils.dll;100
+?HvsiPostEncodedVectorBuffer@@YAJAEBU_GUID@@KPEAEAEA_N22AEA_K33@Z (long __cdecl HvsiPostEncodedVectorBuffer(struct _GUID const &,unsigned long,unsigned char *,bool &,bool &,bool &,unsigned __int64 &,unsigned __int64 &,unsigned __int64 &));code;IsolatedWindowsEnvironmentUtils.dll;101
+?HvsiQueryUrlTrustedOnHost@@YAHPEBG@Z (int __cdecl HvsiQueryUrlTrustedOnHost(unsigned short const *));code;IsolatedWindowsEnvironmentUtils.dll;102
+?OpenContainerDownloadsFolderOnHost@@YAJXZ (long __cdecl OpenContainerDownloadsFolderOnHost(void));code;IsolatedWindowsEnvironmentUtils.dll;103
+HvsiHvRpcInitialize;code;IsolatedWindowsEnvironmentUtils.dll;201
+HvsiHvRpcUninitialize;code;IsolatedWindowsEnvironmentUtils.dll;202
+HvsiR_ResolverQuery;code;IsolatedWindowsEnvironmentUtils.dll;200
+IsProcessInIsolatedWindowsEnvironment;code;IsolatedWindowsEnvironmentUtils.dll;

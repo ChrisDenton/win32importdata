@@ -1,0 +1,16 @@
+Name;Type;DLL;SymbolOrOrdinal
+??0VirtualBus@VstorInterface@@QAE@XZ;code;VstorInterface.dll;
+??1VirtualBus@VstorInterface@@QAE@XZ;code;VstorInterface.dll;
+??4VirtualBus@VstorInterface@@QAEAAV01@ABV01@@Z;code;VstorInterface.dll;
+?Close@VirtualBus@VstorInterface@@AAEXXZ;code;VstorInterface.dll;
+?CreateDriveEx@VirtualBus@VstorInterface@@QAEJPAUtagNewVirtualDriveDescription@@AAUtagVirtualDriveInformation@@@Z;code;VstorInterface.dll;
+?IsValid@VirtualBus@VstorInterface@@QAE_NXZ;code;VstorInterface.dll;
+?Open@VirtualBus@VstorInterface@@AAEJXZ;code;VstorInterface.dll;
+?QueryDriveInterface@VirtualBus@VstorInterface@@QAEJABU_GUID@@PAGK@Z;code;VstorInterface.dll;
+?QueryMountedImage@VirtualBus@VstorInterface@@QAEJABU_GUID@@PAGK@Z;code;VstorInterface.dll;
+?QueryStorageInformation@VirtualBus@VstorInterface@@QAEJABU_GUID@@AAUSTORAGE_INFORMATION@12@@Z;code;VstorInterface.dll;
+?QueryStorageInformation@VirtualBus@VstorInterface@@QAEJPAXAAUSTORAGE_INFORMATION@12@@Z;code;VstorInterface.dll;
+?QueryStorageInformation@VirtualBus@VstorInterface@@QAEJPBGAAUSTORAGE_INFORMATION@12@@Z;code;VstorInterface.dll;
+?QueryVersion@VirtualBus@VstorInterface@@QAEJAAUtagVirtualStorageVersion@@@Z;code;VstorInterface.dll;
+?ReSync@VirtualBus@VstorInterface@@QAEJABU_GUID@@PBG@Z;code;VstorInterface.dll;
+?RemoveDrive@VirtualBus@VstorInterface@@QAEJABU_GUID@@_N@Z;code;VstorInterface.dll;

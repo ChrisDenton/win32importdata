@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+CopyLZFile;code;LZ32.dll;
+GetExpandedNameA;code;LZ32.dll;
+GetExpandedNameW;code;LZ32.dll;
+LZClose;code;LZ32.dll;
+LZCloseFile;code;LZ32.dll;
+LZCopy;code;LZ32.dll;
+LZCreateFileW;code;LZ32.dll;
+LZDone;code;LZ32.dll;
+LZInit;code;LZ32.dll;
+LZOpenFileA;code;LZ32.dll;
+LZOpenFileW;code;LZ32.dll;
+LZRead;code;LZ32.dll;
+LZSeek;code;LZ32.dll;
+LZStart;code;LZ32.dll;

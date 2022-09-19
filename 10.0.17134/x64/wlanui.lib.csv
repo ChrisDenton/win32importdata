@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+WLInvokeProfileUI;code;wlanui.dll;?WLInvokeProfileUI@@YAKPEAU_PM_PROFILE@@PEAU_GUID@@PEAUHWND__@@HHW4_WL_DISPLAY_PAGES@@PEAPEAU1@PEAHPEAU_AUI_CREDS_INFO@@@Z (unsigned long __cdecl WLInvokeProfileUI(struct _PM_PROFILE *,struct _GUID *,struct HWND__ *,int,int,enum _WL_DISPLAY_PAGES,struct _PM_PROFILE * *,int *,struct _AUI_CREDS_INFO *))
+WLInvokeProfileUIFromXMLFile;code;wlanui.dll;?WLInvokeProfileUIFromXMLFile@@YAKPEAGPEAU_GUID@@PEAUHWND__@@HHW4_WL_DISPLAY_PAGES@@PEAUIXMLDOMSchemaCollection@@PEAHPEAPEAGPEAKPEAU_AUI_CREDS_INFO@@@Z (unsigned long __cdecl WLInvokeProfileUIFromXMLFile(unsigned short *,struct _GUID *,struct HWND__ *,int,int,enum _WL_DISPLAY_PAGES,struct IXMLDOMSchemaCollection *,int *,unsigned short * *,unsigned long *,struct _AUI_CREDS_INFO *))
+WLFreeProfile;code;wlanui.dll;
+WLFreeProfileXml;code;wlanui.dll;
+WlanUIEditProfile;code;wlanui.dll;

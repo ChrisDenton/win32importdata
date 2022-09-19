@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+DllMain;code;XINPUT9_1_0.dll;#DllMain
+XInputGetCapabilities;code;XINPUT9_1_0.dll;#XInputGetCapabilities
+XInputGetDSoundAudioDeviceGuids;code;XINPUT9_1_0.dll;#XInputGetDSoundAudioDeviceGuids
+XInputGetState;code;XINPUT9_1_0.dll;#XInputGetState
+XInputSetState;code;XINPUT9_1_0.dll;#XInputSetState
+DllMain;code;XINPUT9_1_0.dll;
+XInputGetCapabilities;code;XINPUT9_1_0.dll;
+XInputGetDSoundAudioDeviceGuids;code;XINPUT9_1_0.dll;
+XInputGetState;code;XINPUT9_1_0.dll;
+XInputSetState;code;XINPUT9_1_0.dll;

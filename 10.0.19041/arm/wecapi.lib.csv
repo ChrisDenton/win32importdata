@@ -1,0 +1,18 @@
+Name;Type;DLL;SymbolOrOrdinal
+EcIsConfigRequired;code;WecApi.dll;?EcIsConfigRequired@@YAHPAH@Z (int __cdecl EcIsConfigRequired(int *))
+EcQuickConfig;code;WecApi.dll;?EcQuickConfig@@YAHXZ (int __cdecl EcQuickConfig(void))
+EcClose;code;WecApi.dll;
+EcDeleteSubscription;code;WecApi.dll;
+EcEnumNextSubscription;code;WecApi.dll;
+EcGetObjectArrayProperty;code;WecApi.dll;
+EcGetObjectArraySize;code;WecApi.dll;
+EcGetSubscriptionProperty;code;WecApi.dll;
+EcGetSubscriptionRunTimeStatus;code;WecApi.dll;
+EcInsertObjectArrayElement;code;WecApi.dll;
+EcOpenSubscription;code;WecApi.dll;
+EcOpenSubscriptionEnum;code;WecApi.dll;
+EcRemoveObjectArrayElement;code;WecApi.dll;
+EcRetrySubscription;code;WecApi.dll;
+EcSaveSubscription;code;WecApi.dll;
+EcSetObjectArrayProperty;code;WecApi.dll;
+EcSetSubscriptionProperty;code;WecApi.dll;

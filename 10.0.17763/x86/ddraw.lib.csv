@@ -1,0 +1,14 @@
+Name;Type;DLL;SymbolOrOrdinal
+DDGetAttachedSurfaceLcl;code;DDRAW.dll;_DDGetAttachedSurfaceLcl@12
+DDInternalLock;code;DDRAW.dll;_DDInternalLock@8
+DDInternalUnlock;code;DDRAW.dll;_DDInternalUnlock@4
+DSoundHelp;code;DDRAW.dll;_DSoundHelp@12
+DirectDrawCreate;code;DDRAW.dll;_DirectDrawCreate@12
+DirectDrawCreateClipper;code;DDRAW.dll;_DirectDrawCreateClipper@12
+DirectDrawCreateEx;code;DDRAW.dll;_DirectDrawCreateEx@16
+DirectDrawEnumerateA;code;DDRAW.dll;_DirectDrawEnumerateA@8
+DirectDrawEnumerateExA;code;DDRAW.dll;_DirectDrawEnumerateExA@12
+DirectDrawEnumerateExW;code;DDRAW.dll;_DirectDrawEnumerateExW@12
+DirectDrawEnumerateW;code;DDRAW.dll;_DirectDrawEnumerateW@8
+GetDDSurfaceLocal;code;DDRAW.dll;_GetDDSurfaceLocal@12
+GetSurfaceFromDC;code;DDRAW.dll;_GetSurfaceFromDC@12

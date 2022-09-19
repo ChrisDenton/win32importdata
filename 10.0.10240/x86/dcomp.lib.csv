@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+_DCompositionCreateDevice2@12;code;dcomp.dll;1017
+DCompositionCreateDevice3;code;dcomp.dll;_DCompositionCreateDevice3@12
+DCompositionCreateDevice;code;dcomp.dll;_DCompositionCreateDevice@12
+DCompositionCreateSurfaceHandle;code;dcomp.dll;_DCompositionCreateSurfaceHandle@12

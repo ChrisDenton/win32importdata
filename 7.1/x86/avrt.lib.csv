@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+AvQuerySystemResponsiveness;code;AVRT.dll;_AvQuerySystemResponsiveness@8
+AvRevertMmThreadCharacteristics;code;AVRT.dll;_AvRevertMmThreadCharacteristics@4
+AvRtCreateThreadOrderingGroup;code;AVRT.dll;_AvRtCreateThreadOrderingGroup@16
+AvRtCreateThreadOrderingGroupExA;code;AVRT.dll;_AvRtCreateThreadOrderingGroupExA@20
+AvRtCreateThreadOrderingGroupExW;code;AVRT.dll;_AvRtCreateThreadOrderingGroupExW@20
+AvRtDeleteThreadOrderingGroup;code;AVRT.dll;_AvRtDeleteThreadOrderingGroup@4
+AvRtJoinThreadOrderingGroup;code;AVRT.dll;_AvRtJoinThreadOrderingGroup@12
+AvRtLeaveThreadOrderingGroup;code;AVRT.dll;_AvRtLeaveThreadOrderingGroup@4
+AvRtWaitOnThreadOrderingGroup;code;AVRT.dll;_AvRtWaitOnThreadOrderingGroup@4
+AvSetMmMaxThreadCharacteristicsA;code;AVRT.dll;_AvSetMmMaxThreadCharacteristicsA@12
+AvSetMmMaxThreadCharacteristicsW;code;AVRT.dll;_AvSetMmMaxThreadCharacteristicsW@12
+AvSetMmThreadCharacteristicsA;code;AVRT.dll;_AvSetMmThreadCharacteristicsA@8
+AvSetMmThreadCharacteristicsW;code;AVRT.dll;_AvSetMmThreadCharacteristicsW@8
+AvSetMmThreadPriority;code;AVRT.dll;_AvSetMmThreadPriority@8

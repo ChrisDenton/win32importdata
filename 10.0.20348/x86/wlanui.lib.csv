@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+WLFreeProfile;code;wlanui.dll;_WLFreeProfile@4
+WLFreeProfileXml;code;wlanui.dll;_WLFreeProfileXml@4
+WLInvokeProfileUI;code;wlanui.dll;_WLInvokeProfileUI@36
+WLInvokeProfileUIFromXMLFile;code;wlanui.dll;_WLInvokeProfileUIFromXMLFile@44
+WlanUIEditProfile;code;wlanui.dll;_WlanUIEditProfile@28

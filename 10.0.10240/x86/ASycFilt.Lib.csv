@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+FilterCreateInstance;code;ASYCFILT.dll;_FilterCreateInstance@20

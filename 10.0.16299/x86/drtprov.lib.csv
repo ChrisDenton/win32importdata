@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+DrtCreateDerivedKey;code;drtprov.dll;_DrtCreateDerivedKey@8
+DrtCreateDerivedKeySecurityProvider;code;drtprov.dll;_DrtCreateDerivedKeySecurityProvider@12
+DrtCreateDnsBootstrapResolver;code;drtprov.dll;_DrtCreateDnsBootstrapResolver@12
+DrtCreateNullSecurityProvider;code;drtprov.dll;_DrtCreateNullSecurityProvider@4
+DrtCreatePnrpBootstrapResolver;code;drtprov.dll;_DrtCreatePnrpBootstrapResolver@20
+DrtDeleteDerivedKeySecurityProvider;code;drtprov.dll;_DrtDeleteDerivedKeySecurityProvider@4
+DrtDeleteDnsBootstrapResolver;code;drtprov.dll;_DrtDeleteDnsBootstrapResolver@4
+DrtDeleteNullSecurityProvider;code;drtprov.dll;_DrtDeleteNullSecurityProvider@4
+DrtDeletePnrpBootstrapResolver;code;drtprov.dll;_DrtDeletePnrpBootstrapResolver@4

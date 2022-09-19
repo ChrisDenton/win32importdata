@@ -1,0 +1,25 @@
+Name;Type;DLL;SymbolOrOrdinal
+NdfRunDllDiagnoseIncident;code;NDFAPI.DLL;?NdfRunDllDiagnoseIncident@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl NdfRunDllDiagnoseIncident(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDiagnoseNetConnectionIncident;code;NDFAPI.DLL;?NdfRunDllDiagnoseNetConnectionIncident@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl NdfRunDllDiagnoseNetConnectionIncident(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDiagnoseWithAnswerFile;code;NDFAPI.DLL;?NdfRunDllDiagnoseWithAnswerFile@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl NdfRunDllDiagnoseWithAnswerFile(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDuplicateIPDefendingSystem;code;NDFAPI.DLL;?NdfRunDllDuplicateIPDefendingSystem@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl NdfRunDllDuplicateIPDefendingSystem(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDuplicateIPOffendingSystem;code;NDFAPI.DLL;?NdfRunDllDuplicateIPOffendingSystem@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl NdfRunDllDuplicateIPOffendingSystem(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllHelpTopic;code;NDFAPI.DLL;?NdfRunDllHelpTopic@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl NdfRunDllHelpTopic(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfCancelIncident;code;NDFAPI.DLL;
+NdfCloseIncident;code;NDFAPI.DLL;
+NdfCreateConnectivityIncident;code;NDFAPI.DLL;
+NdfCreateDNSIncident;code;NDFAPI.DLL;
+NdfCreateGroupingIncident;code;NDFAPI.DLL;
+NdfCreateInboundIncident;code;NDFAPI.DLL;
+NdfCreateIncident;code;NDFAPI.DLL;
+NdfCreateNetConnectionIncident;code;NDFAPI.DLL;
+NdfCreatePnrpIncident;code;NDFAPI.DLL;
+NdfCreateSharingIncident;code;NDFAPI.DLL;
+NdfCreateWebIncident;code;NDFAPI.DLL;
+NdfCreateWebIncidentEx;code;NDFAPI.DLL;
+NdfCreateWinSockIncident;code;NDFAPI.DLL;
+NdfDiagnoseIncident;code;NDFAPI.DLL;
+NdfExecuteDiagnosis;code;NDFAPI.DLL;
+NdfGetTraceFile;code;NDFAPI.DLL;
+NdfRepairIncident;code;NDFAPI.DLL;
+NdfRepairIncidentEx;code;NDFAPI.DLL;

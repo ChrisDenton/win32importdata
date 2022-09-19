@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+?StartXpsPrintJobInternal1@@YAJPB_W00PAX1PAPAUIXpsPrintJob@@PAPAUIXpsOMPackageTarget@@_NP6AXPAUIStream@@W4EPrintTicketScope@@HH@Z@Z (long __cdecl StartXpsPrintJobInternal1(wchar_t const *,wchar_t const *,wchar_t const *,void *,void *,struct IXpsPrintJob * *,struct IXpsOMPackageTarget * *,bool,void (__cdecl*)(struct IStream *,enum EPrintTicketScope,int,int)));code;XPSPRINT.DLL;4
+?StartXpsPrintJobInternal@@YAJPB_W00PAX1PAEIPAPAUIXpsPrintJob@@PAPAUIXpsPrintJobStream@@4P6AXPAUIStream@@W4EPrintTicketScope@@HH@Z@Z (long __cdecl StartXpsPrintJobInternal(wchar_t const *,wchar_t const *,wchar_t const *,void *,void *,unsigned char *,unsigned int,struct IXpsPrintJob * *,struct IXpsPrintJobStream * *,struct IXpsPrintJobStream * *,void (__cdecl*)(struct IStream *,enum EPrintTicketScope,int,int)));code;XPSPRINT.DLL;2
+StartXpsPrintJob;code;XPSPRINT.DLL;
+StartXpsPrintJob1;code;XPSPRINT.DLL;

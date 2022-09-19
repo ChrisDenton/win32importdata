@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+ComputeInvCMAP;code;ImgUtil.dll;_ComputeInvCMAP@16
+CreateDDrawSurfaceOnDIB;code;ImgUtil.dll;_CreateDDrawSurfaceOnDIB@8
+CreateMIMEMap;code;ImgUtil.dll;_CreateMIMEMap@4
+DecodeImage;code;ImgUtil.dll;_DecodeImage@12
+DecodeImageEx;code;ImgUtil.dll;_DecodeImageEx@16
+DitherTo8;code;ImgUtil.dll;_DitherTo8@56
+GetMaxMIMEIDBytes;code;ImgUtil.dll;_GetMaxMIMEIDBytes@4
+IdentifyMIMEType;code;ImgUtil.dll;_IdentifyMIMEType@12
+SniffStream;code;ImgUtil.dll;_SniffStream@12

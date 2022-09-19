@@ -1,0 +1,8 @@
+Name;Type;DLL;SymbolOrOrdinal
+WdsBpAddOption;code;WDSBP.dll;_WdsBpAddOption@16
+WdsBpCloseHandle;code;WDSBP.dll;_WdsBpCloseHandle@4
+WdsBpGetOptionBuffer;code;WDSBP.dll;_WdsBpGetOptionBuffer@16
+WdsBpInitialize;code;WDSBP.dll;_WdsBpInitialize@8
+WdsBpParseInitialize;code;WDSBP.dll;_WdsBpParseInitialize@16
+WdsBpParseInitializev6;code;WDSBP.dll;_WdsBpParseInitializev6@16
+WdsBpQueryOption;code;WDSBP.dll;_WdsBpQueryOption@20

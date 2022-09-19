@@ -1,0 +1,156 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateChakraEngine;code;chakra.dll;?CreateChakraEngine@@YAPEAVChakraEngine@@XZ (class ChakraEngine * __cdecl CreateChakraEngine(void))
+DumpDiagInfo;code;chakra.dll;?DumpDiagInfo@@YAXPEAUHWND__@@PEAUHINSTANCE__@@PEADH@Z (void __cdecl DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))
+JsDiscardBackgroundParse;code;chakra.dll;?JsDiscardBackgroundParse@@YA_NKPEAX@Z (bool __cdecl JsDiscardBackgroundParse(unsigned long,void *))
+JsInitializeJITServer;code;chakra.dll;?JsInitializeJITServer@@YAJPEAU_GUID@@PEAX1@Z (long __cdecl JsInitializeJITServer(struct _GUID *,void *,void *))
+JsQueueBackgroundParse;code;chakra.dll;?JsQueueBackgroundParse@@YAJPEAUScriptContents@JsStaticAPI@@PEAK@Z (long __cdecl JsQueueBackgroundParse(struct JsStaticAPI::ScriptContents *,unsigned long *))
+MemProtectHeapAddRootSection;code;chakra.dll;?MemProtectHeapAddRootSection@@YAXPEAXPEAUMemProtectHeapRootSection@@@Z (void __cdecl MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))
+MemProtectHeapCollect;code;chakra.dll;?MemProtectHeapCollect@@YAJPEAXW4MemProtectHeapCollectFlags@@@Z (long __cdecl MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))
+MemProtectHeapCreate;code;chakra.dll;?MemProtectHeapCreate@@YAJPEAPEAXW4MemProtectHeapCreateFlags@@@Z (long __cdecl MemProtectHeapCreate(void * *,enum MemProtectHeapCreateFlags))
+MemProtectHeapDestroy;code;chakra.dll;?MemProtectHeapDestroy@@YAJPEAX@Z (long __cdecl MemProtectHeapDestroy(void *))
+MemProtectHeapDisableCollection;code;chakra.dll;?MemProtectHeapDisableCollection@@YAXPEAX@Z (void __cdecl MemProtectHeapDisableCollection(void *))
+MemProtectHeapIsValidObject;code;chakra.dll;?MemProtectHeapIsValidObject@@YA_NPEAX0@Z (bool __cdecl MemProtectHeapIsValidObject(void *,void *))
+MemProtectHeapMemSize;code;chakra.dll;?MemProtectHeapMemSize@@YAJPEAX0PEA_K@Z (long __cdecl MemProtectHeapMemSize(void *,void *,unsigned __int64 *))
+MemProtectHeapNotifyCurrentThreadDetach;code;chakra.dll;?MemProtectHeapNotifyCurrentThreadDetach@@YAXPEAX@Z (void __cdecl MemProtectHeapNotifyCurrentThreadDetach(void *))
+MemProtectHeapProtectCurrentThread;code;chakra.dll;?MemProtectHeapProtectCurrentThread@@YAJPEAXP6AX0@Z0@Z (long __cdecl MemProtectHeapProtectCurrentThread(void *,void (__cdecl*)(void *),void *))
+MemProtectHeapRemoveRootSection;code;chakra.dll;?MemProtectHeapRemoveRootSection@@YAJPEAXPEAUMemProtectHeapRootSection@@@Z (long __cdecl MemProtectHeapRemoveRootSection(void *,struct MemProtectHeapRootSection *))
+MemProtectHeapReportHeapSize;code;chakra.dll;?MemProtectHeapReportHeapSize@@YAXPEAX@Z (void __cdecl MemProtectHeapReportHeapSize(void *))
+MemProtectHeapRootAlloc;code;chakra.dll;?MemProtectHeapRootAlloc@@YAPEAXPEAX_K@Z (void * __cdecl MemProtectHeapRootAlloc(void *,unsigned __int64))
+MemProtectHeapRootAllocLeaf;code;chakra.dll;?MemProtectHeapRootAllocLeaf@@YAPEAXPEAX_K@Z (void * __cdecl MemProtectHeapRootAllocLeaf(void *,unsigned __int64))
+MemProtectHeapRootRealloc;code;chakra.dll;?MemProtectHeapRootRealloc@@YAJPEAX_KPEAPEAX@Z (long __cdecl MemProtectHeapRootRealloc(void *,unsigned __int64,void * *))
+MemProtectHeapRootReallocLeaf;code;chakra.dll;?MemProtectHeapRootReallocLeaf@@YAJPEAX_KPEAPEAX@Z (long __cdecl MemProtectHeapRootReallocLeaf(void *,unsigned __int64,void * *))
+MemProtectHeapSynchronizeWithCollector;code;chakra.dll;?MemProtectHeapSynchronizeWithCollector@@YAJPEAX@Z (long __cdecl MemProtectHeapSynchronizeWithCollector(void *))
+MemProtectHeapUnprotectCurrentThread;code;chakra.dll;?MemProtectHeapUnprotectCurrentThread@@YAJPEAX@Z (long __cdecl MemProtectHeapUnprotectCurrentThread(void *))
+MemProtectHeapUnrootAndZero;code;chakra.dll;?MemProtectHeapUnrootAndZero@@YAJPEAX0@Z (long __cdecl MemProtectHeapUnrootAndZero(void *,void *))
+RecyclerNativeHeapAddExternalMemoryUsage;code;chakra.dll;?RecyclerNativeHeapAddExternalMemoryUsage@@YAXPEAX_K@Z (void __cdecl RecyclerNativeHeapAddExternalMemoryUsage(void *,unsigned __int64))
+RecyclerNativeHeapAllocLeaf;code;chakra.dll;?RecyclerNativeHeapAllocLeaf@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocLeaf(void *,unsigned __int64))
+RecyclerNativeHeapAllocLeafFinalized;code;chakra.dll;?RecyclerNativeHeapAllocLeafFinalized@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocLeafFinalized(void *,unsigned __int64))
+RecyclerNativeHeapAllocTraced;code;chakra.dll;?RecyclerNativeHeapAllocTraced@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocTraced(void *,unsigned __int64))
+RecyclerNativeHeapAllocTracedFinalized;code;chakra.dll;?RecyclerNativeHeapAllocTracedFinalized@@YAPEAXPEAX_K@Z (void * __cdecl RecyclerNativeHeapAllocTracedFinalized(void *,unsigned __int64))
+RecyclerNativeHeapCollectGarbageInThread;code;chakra.dll;?RecyclerNativeHeapCollectGarbageInThread@@YAXPEAX_N@Z (void __cdecl RecyclerNativeHeapCollectGarbageInThread(void *,bool))
+RecyclerNativeHeapCreateWeakReference;code;chakra.dll;?RecyclerNativeHeapCreateWeakReference@@YAJPEAX0PEAPEAX@Z (long __cdecl RecyclerNativeHeapCreateWeakReference(void *,void *,void * *))
+RecyclerNativeHeapGetRealAddressFromInterior;code;chakra.dll;?RecyclerNativeHeapGetRealAddressFromInterior@@YAPEAXPEAX0@Z (void * __cdecl RecyclerNativeHeapGetRealAddressFromInterior(void *,void *))
+RecyclerNativeHeapGetStrongReference;code;chakra.dll;?RecyclerNativeHeapGetStrongReference@@YAPEAXPEAX0@Z (void * __cdecl RecyclerNativeHeapGetStrongReference(void *,void *))
+RecyclerNativeHeapHasWeakReferenceCleanupOccurred;code;chakra.dll;?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YA_NPEAXPEA_K@Z (bool __cdecl RecyclerNativeHeapHasWeakReferenceCleanupOccurred(void *,unsigned __int64 *))
+RecyclerNativeHeapRootAddRef;code;chakra.dll;?RecyclerNativeHeapRootAddRef@@YAJPEAX0PEAI@Z (long __cdecl RecyclerNativeHeapRootAddRef(void *,void *,unsigned int *))
+RecyclerNativeHeapRootRelease;code;chakra.dll;?RecyclerNativeHeapRootRelease@@YAXPEAX0PEAI@Z (void __cdecl RecyclerNativeHeapRootRelease(void *,void *,unsigned int *))
+JsAddRef;code;chakra.dll;
+JsBoolToBoolean;code;chakra.dll;
+JsBooleanToBool;code;chakra.dll;
+JsCallFunction;code;chakra.dll;
+JsCollectGarbage;code;chakra.dll;
+JsConstructObject;code;chakra.dll;
+JsConvertValueToBoolean;code;chakra.dll;
+JsConvertValueToNumber;code;chakra.dll;
+JsConvertValueToObject;code;chakra.dll;
+JsConvertValueToString;code;chakra.dll;
+JsCreateArray;code;chakra.dll;
+JsCreateArrayBuffer;code;chakra.dll;
+JsCreateContext;code;chakra.dll;
+JsCreateDataView;code;chakra.dll;
+JsCreateError;code;chakra.dll;
+JsCreateExternalArrayBuffer;code;chakra.dll;
+JsCreateExternalObject;code;chakra.dll;
+JsCreateFunction;code;chakra.dll;
+JsCreateNamedFunction;code;chakra.dll;
+JsCreateObject;code;chakra.dll;
+JsCreateRangeError;code;chakra.dll;
+JsCreateReferenceError;code;chakra.dll;
+JsCreateRuntime;code;chakra.dll;
+JsCreateSymbol;code;chakra.dll;
+JsCreateSyntaxError;code;chakra.dll;
+JsCreateThreadService;code;chakra.dll;
+JsCreateTypeError;code;chakra.dll;
+JsCreateTypedArray;code;chakra.dll;
+JsCreateURIError;code;chakra.dll;
+JsDefineProperty;code;chakra.dll;
+JsDeleteIndexedProperty;code;chakra.dll;
+JsDeleteProperty;code;chakra.dll;
+JsDisableRuntimeExecution;code;chakra.dll;
+JsDisposeRuntime;code;chakra.dll;
+JsDoubleToNumber;code;chakra.dll;
+JsEnableRuntimeExecution;code;chakra.dll;
+JsEnumerateHeap;code;chakra.dll;
+JsEquals;code;chakra.dll;
+JsGetAndClearException;code;chakra.dll;
+JsGetArrayBufferStorage;code;chakra.dll;
+JsGetContextData;code;chakra.dll;
+JsGetContextOfObject;code;chakra.dll;
+JsGetCurrentContext;code;chakra.dll;
+JsGetDataViewStorage;code;chakra.dll;
+JsGetExtensionAllowed;code;chakra.dll;
+JsGetExternalData;code;chakra.dll;
+JsGetFalseValue;code;chakra.dll;
+JsGetGlobalObject;code;chakra.dll;
+JsGetIndexedPropertiesExternalData;code;chakra.dll;
+JsGetIndexedProperty;code;chakra.dll;
+JsGetNullValue;code;chakra.dll;
+JsGetOwnPropertyDescriptor;code;chakra.dll;
+JsGetOwnPropertyNames;code;chakra.dll;
+JsGetOwnPropertySymbols;code;chakra.dll;
+JsGetProperty;code;chakra.dll;
+JsGetPropertyIdFromName;code;chakra.dll;
+JsGetPropertyIdFromSymbol;code;chakra.dll;
+JsGetPropertyIdType;code;chakra.dll;
+JsGetPropertyNameFromId;code;chakra.dll;
+JsGetPrototype;code;chakra.dll;
+JsGetRuntime;code;chakra.dll;
+JsGetRuntimeMemoryLimit;code;chakra.dll;
+JsGetRuntimeMemoryUsage;code;chakra.dll;
+JsGetStringLength;code;chakra.dll;
+JsGetSymbolFromPropertyId;code;chakra.dll;
+JsGetTrueValue;code;chakra.dll;
+JsGetTypedArrayInfo;code;chakra.dll;
+JsGetTypedArrayStorage;code;chakra.dll;
+JsGetUndefinedValue;code;chakra.dll;
+JsGetValueType;code;chakra.dll;
+JsHasException;code;chakra.dll;
+JsHasExternalData;code;chakra.dll;
+JsHasIndexedPropertiesExternalData;code;chakra.dll;
+JsHasIndexedProperty;code;chakra.dll;
+JsHasProperty;code;chakra.dll;
+JsIdle;code;chakra.dll;
+JsInspectableToObject;code;chakra.dll;
+JsInstanceOf;code;chakra.dll;
+JsIntToNumber;code;chakra.dll;
+JsIsEnumeratingHeap;code;chakra.dll;
+JsIsRuntimeExecutionDisabled;code;chakra.dll;
+JsNumberToDouble;code;chakra.dll;
+JsNumberToInt;code;chakra.dll;
+JsObjectToInspectable;code;chakra.dll;
+JsParseScript;code;chakra.dll;
+JsParseScriptWithAttributes;code;chakra.dll;
+JsParseSerializedScript;code;chakra.dll;
+JsParseSerializedScriptWithCallback;code;chakra.dll;
+JsPointerToString;code;chakra.dll;
+JsPreventExtension;code;chakra.dll;
+JsProjectWinRTNamespace;code;chakra.dll;400
+JsRelease;code;chakra.dll;
+JsRunScript;code;chakra.dll;
+JsRunSerializedScript;code;chakra.dll;
+JsRunSerializedScriptWithCallback;code;chakra.dll;
+JsSerializeScript;code;chakra.dll;
+JsSetContextData;code;chakra.dll;
+JsSetCurrentContext;code;chakra.dll;
+JsSetException;code;chakra.dll;
+JsSetExternalData;code;chakra.dll;
+JsSetIndexedPropertiesToExternalData;code;chakra.dll;
+JsSetIndexedProperty;code;chakra.dll;
+JsSetObjectBeforeCollectCallback;code;chakra.dll;
+JsSetProjectionEnqueueCallback;code;chakra.dll;401
+JsSetPromiseContinuationCallback;code;chakra.dll;
+JsSetProperty;code;chakra.dll;
+JsSetPrototype;code;chakra.dll;
+JsSetRuntimeBeforeCollectCallback;code;chakra.dll;
+JsSetRuntimeMemoryAllocationCallback;code;chakra.dll;
+JsSetRuntimeMemoryLimit;code;chakra.dll;
+JsStartDebugging;code;chakra.dll;
+JsStartProfiling;code;chakra.dll;
+JsStopProfiling;code;chakra.dll;
+JsStrictEquals;code;chakra.dll;
+JsStringToPointer;code;chakra.dll;
+JsValueToVariant;code;chakra.dll;
+JsVarAddRef;code;chakra.dll;
+JsVarRelease;code;chakra.dll;
+JsVarToExtension;code;chakra.dll;
+JsVariantToValue;code;chakra.dll;

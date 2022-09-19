@@ -1,0 +1,8 @@
+Name;Type;DLL;SymbolOrOrdinal
+D3D12CoreCreateLayeredDevice;code;d3d12.dll;_D3D12CoreCreateLayeredDevice@20
+D3D12CoreGetLayeredDeviceSize;code;d3d12.dll;_D3D12CoreGetLayeredDeviceSize@8
+D3D12CoreRegisterLayers;code;d3d12.dll;_D3D12CoreRegisterLayers@8
+_D3D12CreateDevice@16;code;d3d12.dll;101
+D3D12CreateRootSignatureDeserializer;code;d3d12.dll;_D3D12CreateRootSignatureDeserializer@16
+_D3D12GetDebugInterface@8;code;d3d12.dll;102
+D3D12SerializeRootSignature;code;d3d12.dll;_D3D12SerializeRootSignature@16

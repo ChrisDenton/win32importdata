@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateDirect3D11DeviceFromDXGIDevice;code;d3d11.dll;
+CreateDirect3D11SurfaceFromDXGISurface;code;d3d11.dll;
+D3D11CoreCreateDevice;code;d3d11.dll;
+D3D11CoreCreateLayeredDevice;code;d3d11.dll;
+D3D11CoreGetLayeredDeviceSize;code;d3d11.dll;
+D3D11CoreRegisterLayers;code;d3d11.dll;
+D3D11CreateDevice;code;d3d11.dll;
+D3D11CreateDeviceAndSwapChain;code;d3d11.dll;
+D3D11On12CreateDevice;code;d3d11.dll;

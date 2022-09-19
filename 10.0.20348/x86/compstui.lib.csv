@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+CommonPropertySheetUIA;code;COMPSTUI.dll;_CommonPropertySheetUIA@16
+CommonPropertySheetUIW;code;COMPSTUI.dll;_CommonPropertySheetUIW@16
+GetCPSUIUserData;code;COMPSTUI.dll;_GetCPSUIUserData@4
+SetCPSUIUserData;code;COMPSTUI.dll;_SetCPSUIUserData@8

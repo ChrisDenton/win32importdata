@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+MI_Application_InitializeV1;code;mi.dll;_MI_Application_InitializeV1
+mi_clientFT_V1;data;mi.dll;_mi_clientFT_V1

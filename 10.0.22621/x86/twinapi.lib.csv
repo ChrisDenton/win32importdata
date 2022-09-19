@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+_RegisterMeetNowWindow@12;code;TWINAPI.dll;500
+_SetMeetNowIconBadge@8;code;TWINAPI.dll;501

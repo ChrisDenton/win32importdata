@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFWMDRMOutputTrustAuthority_CreateInstance;code;WMDRMSDK.DLL;_MFWMDRMOutputTrustAuthority_CreateInstance@4
+WMDRMCreateProvider;code;WMDRMSDK.DLL;_WMDRMCreateProvider@4
+WMDRMShutdown;code;WMDRMSDK.DLL;_WMDRMShutdown@0
+WMDRMStartup;code;WMDRMSDK.DLL;_WMDRMStartup@0
+_WMDRMCreateProvider;code;WMDRMSDK.DLL;__WMDRMCreateProvider@12

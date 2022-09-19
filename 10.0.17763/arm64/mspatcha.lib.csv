@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+ApplyPatchToFileA;code;mspatcha.dll;
+ApplyPatchToFileByBuffers;code;mspatcha.dll;
+ApplyPatchToFileByHandles;code;mspatcha.dll;
+ApplyPatchToFileByHandlesEx;code;mspatcha.dll;
+ApplyPatchToFileExA;code;mspatcha.dll;
+ApplyPatchToFileExW;code;mspatcha.dll;
+ApplyPatchToFileW;code;mspatcha.dll;
+GetFilePatchSignatureA;code;mspatcha.dll;
+GetFilePatchSignatureByBuffer;code;mspatcha.dll;
+GetFilePatchSignatureByHandle;code;mspatcha.dll;
+GetFilePatchSignatureW;code;mspatcha.dll;
+NormalizeFileForPatchSignature;code;mspatcha.dll;
+TestApplyPatchToFileA;code;mspatcha.dll;
+TestApplyPatchToFileByBuffers;code;mspatcha.dll;
+TestApplyPatchToFileByHandles;code;mspatcha.dll;
+TestApplyPatchToFileW;code;mspatcha.dll;

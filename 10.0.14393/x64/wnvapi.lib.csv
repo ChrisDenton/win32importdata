@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+WnvOpen;code;wnvapi.dll;
+WnvRequestNotification;code;wnvapi.dll;

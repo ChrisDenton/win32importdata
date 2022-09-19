@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+WHvEmulatorCreateEmulator;code;WinHvEmulation.dll;
+WHvEmulatorDestroyEmulator;code;WinHvEmulation.dll;
+WHvEmulatorTryIoEmulation;code;WinHvEmulation.dll;
+WHvEmulatorTryMmioEmulation;code;WinHvEmulation.dll;

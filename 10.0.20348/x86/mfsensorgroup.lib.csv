@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFCreateRelativePanelWatcher;code;MFSENSORGROUP.dll;_MFCreateRelativePanelWatcher@12
+MFCreateSensorActivityMonitor;code;MFSENSORGROUP.dll;_MFCreateSensorActivityMonitor@8
+MFCreateSensorGroup;code;MFSENSORGROUP.dll;_MFCreateSensorGroup@8
+MFCreateSensorProfile;code;MFSENSORGROUP.dll;_MFCreateSensorProfile@16
+MFCreateSensorProfileCollection;code;MFSENSORGROUP.dll;_MFCreateSensorProfileCollection@4
+MFCreateSensorStream;code;MFSENSORGROUP.dll;_MFCreateSensorStream@16

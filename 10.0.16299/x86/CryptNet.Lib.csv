@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+CryptGetObjectUrl;code;CRYPTNET.dll;_CryptGetObjectUrl@32
+CryptInstallCancelRetrieval;code;CRYPTNET.dll;_CryptInstallCancelRetrieval@16
+CryptRetrieveObjectByUrlA;code;CRYPTNET.dll;_CryptRetrieveObjectByUrlA@36
+CryptRetrieveObjectByUrlW;code;CRYPTNET.dll;_CryptRetrieveObjectByUrlW@36
+CryptUninstallCancelRetrieval;code;CRYPTNET.dll;_CryptUninstallCancelRetrieval@8

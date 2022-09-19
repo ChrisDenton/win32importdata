@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+ApplyLocalManagementSyncML;code;MDMLocalManagement.DLL;
+RegisterDeviceWithLocalManagement;code;MDMLocalManagement.DLL;
+UnregisterDeviceWithLocalManagement;code;MDMLocalManagement.DLL;

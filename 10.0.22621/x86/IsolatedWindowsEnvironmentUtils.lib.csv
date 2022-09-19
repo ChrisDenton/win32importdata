@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+?HvsiLaunchBrowserOnHostIfNeeded@@YGJPBGHU_GUID@@@Z (long __stdcall HvsiLaunchBrowserOnHostIfNeeded(unsigned short const *,int,struct _GUID));code;IsolatedWindowsEnvironmentUtils.dll;100
+?HvsiPostEncodedVectorBuffer@@YGJABU_GUID@@KPAEAA_N22AA_K33@Z (long __stdcall HvsiPostEncodedVectorBuffer(struct _GUID const &,unsigned long,unsigned char *,bool &,bool &,bool &,unsigned __int64 &,unsigned __int64 &,unsigned __int64 &));code;IsolatedWindowsEnvironmentUtils.dll;101
+?HvsiQueryUrlTrustedOnHost@@YGHPBG@Z (int __stdcall HvsiQueryUrlTrustedOnHost(unsigned short const *));code;IsolatedWindowsEnvironmentUtils.dll;102
+?OpenContainerDownloadsFolderOnHost@@YGJXZ (long __stdcall OpenContainerDownloadsFolderOnHost(void));code;IsolatedWindowsEnvironmentUtils.dll;103
+_HvsiHvRpcInitialize@16;code;IsolatedWindowsEnvironmentUtils.dll;201
+_HvsiHvRpcUninitialize@0;code;IsolatedWindowsEnvironmentUtils.dll;202
+_HvsiR_ResolverQuery@32;code;IsolatedWindowsEnvironmentUtils.dll;200
+IsCrossIsolatedEnvironmentClipboardContent;code;IsolatedWindowsEnvironmentUtils.dll;_IsCrossIsolatedEnvironmentClipboardContent@4
+IsProcessInIsolatedWindowsEnvironment;code;IsolatedWindowsEnvironmentUtils.dll;_IsProcessInIsolatedWindowsEnvironment@4

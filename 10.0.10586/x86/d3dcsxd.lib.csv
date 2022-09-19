@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+D3DX11CreateFFT1DComplex;code;d3dcsxd_47.dll;_D3DX11CreateFFT1DComplex@20
+D3DX11CreateFFT1DReal;code;d3dcsxd_47.dll;_D3DX11CreateFFT1DReal@20
+D3DX11CreateFFT2DComplex;code;d3dcsxd_47.dll;_D3DX11CreateFFT2DComplex@24
+D3DX11CreateFFT2DReal;code;d3dcsxd_47.dll;_D3DX11CreateFFT2DReal@24
+D3DX11CreateFFT3DComplex;code;d3dcsxd_47.dll;_D3DX11CreateFFT3DComplex@28
+D3DX11CreateFFT3DReal;code;d3dcsxd_47.dll;_D3DX11CreateFFT3DReal@28
+D3DX11CreateFFT;code;d3dcsxd_47.dll;_D3DX11CreateFFT@20
+D3DX11CreateScan;code;d3dcsxd_47.dll;_D3DX11CreateScan@16
+D3DX11CreateSegmentedScan;code;d3dcsxd_47.dll;_D3DX11CreateSegmentedScan@12

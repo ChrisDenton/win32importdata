@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+_GetOpenCardNameA@4;code;SCARDDLG.dll;1
+_GetOpenCardNameW@4;code;SCARDDLG.dll;2
+_SCardDlgExtendedError@0;code;SCARDDLG.dll;3
+_SCardUIDlgSelectCardA@4;code;SCARDDLG.dll;4
+_SCardUIDlgSelectCardW@4;code;SCARDDLG.dll;5

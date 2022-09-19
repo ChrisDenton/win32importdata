@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+SetSocketMediaStreamingMode;code;Windows.Networking.dll;#SetSocketMediaStreamingMode
+SetSocketMediaStreamingMode;code;Windows.Networking.dll;

@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+SLAcquireGenuineTicket;code;slcext.dll;_SLAcquireGenuineTicket@20
+SLActivateProduct;code;slcext.dll;_SLActivateProduct@28
+SLGetPackageProductKey;code;slcext.dll;_SLGetPackageProductKey@12
+SLGetPackageProperties;code;slcext.dll;_SLGetPackageProperties@16
+SLGetPackageToken;code;slcext.dll;_SLGetPackageToken@16
+SLGetReferralInformation;code;slcext.dll;_SLGetReferralInformation@20
+SLGetServerStatus;code;slcext.dll;_SLGetServerStatus@20
+SLInstallPackage;code;slcext.dll;_SLInstallPackage@24
+SLUninstallPackage;code;slcext.dll;_SLUninstallPackage@20

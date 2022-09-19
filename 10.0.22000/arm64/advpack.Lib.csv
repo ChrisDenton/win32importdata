@@ -1,0 +1,169 @@
+Name;Type;DLL;SymbolOrOrdinal
+AddDelBackupEntry;code;ADVPACK.dll;#AddDelBackupEntry
+AddDelBackupEntryA;code;ADVPACK.dll;#AddDelBackupEntryA
+AddDelBackupEntryW;code;ADVPACK.dll;#AddDelBackupEntryW
+AdvInstallFile;code;ADVPACK.dll;#AdvInstallFile
+AdvInstallFileA;code;ADVPACK.dll;#AdvInstallFileA
+AdvInstallFileW;code;ADVPACK.dll;#AdvInstallFileW
+CloseINFEngine;code;ADVPACK.dll;#CloseINFEngine
+DelNode;code;ADVPACK.dll;#DelNode
+DelNodeA;code;ADVPACK.dll;#DelNodeA
+DelNodeRunDLL32W;code;ADVPACK.dll;#DelNodeRunDLL32W
+DelNodeW;code;ADVPACK.dll;#DelNodeW
+ExecuteCab;code;ADVPACK.dll;#ExecuteCab
+ExecuteCabA;code;ADVPACK.dll;#ExecuteCabA
+ExecuteCabW;code;ADVPACK.dll;#ExecuteCabW
+ExtractFiles;code;ADVPACK.dll;#ExtractFiles
+ExtractFilesA;code;ADVPACK.dll;#ExtractFilesA
+ExtractFilesW;code;ADVPACK.dll;#ExtractFilesW
+FileSaveMarkNotExist;code;ADVPACK.dll;#FileSaveMarkNotExist
+FileSaveMarkNotExistA;code;ADVPACK.dll;#FileSaveMarkNotExistA
+FileSaveMarkNotExistW;code;ADVPACK.dll;#FileSaveMarkNotExistW
+FileSaveRestoreOnINF;code;ADVPACK.dll;#FileSaveRestoreOnINF
+FileSaveRestoreOnINFA;code;ADVPACK.dll;#FileSaveRestoreOnINFA
+FileSaveRestoreOnINFW;code;ADVPACK.dll;#FileSaveRestoreOnINFW
+FileSaveRestoreW;code;ADVPACK.dll;#FileSaveRestoreW
+GetVersionFromFile;code;ADVPACK.dll;#GetVersionFromFile
+GetVersionFromFileA;code;ADVPACK.dll;#GetVersionFromFileA
+GetVersionFromFileEx;code;ADVPACK.dll;#GetVersionFromFileEx
+GetVersionFromFileExA;code;ADVPACK.dll;#GetVersionFromFileExA
+GetVersionFromFileExW;code;ADVPACK.dll;#GetVersionFromFileExW
+GetVersionFromFileW;code;ADVPACK.dll;#GetVersionFromFileW
+IsNTAdmin;code;ADVPACK.dll;#IsNTAdmin
+LaunchINFSection;code;ADVPACK.dll;#LaunchINFSection
+LaunchINFSectionExW;code;ADVPACK.dll;#LaunchINFSectionExW
+LaunchINFSectionW;code;ADVPACK.dll;#LaunchINFSectionW
+NeedReboot;code;ADVPACK.dll;#NeedReboot
+NeedRebootInit;code;ADVPACK.dll;#NeedRebootInit
+OpenINFEngine;code;ADVPACK.dll;#OpenINFEngine
+OpenINFEngineA;code;ADVPACK.dll;#OpenINFEngineA
+OpenINFEngineW;code;ADVPACK.dll;#OpenINFEngineW
+RebootCheckOnInstall;code;ADVPACK.dll;#RebootCheckOnInstall
+RebootCheckOnInstallA;code;ADVPACK.dll;#RebootCheckOnInstallA
+RebootCheckOnInstallW;code;ADVPACK.dll;#RebootCheckOnInstallW
+RegInstall;code;ADVPACK.dll;#RegInstall
+RegInstallA;code;ADVPACK.dll;#RegInstallA
+RegInstallW;code;ADVPACK.dll;#RegInstallW
+RegRestoreAll;code;ADVPACK.dll;#RegRestoreAll
+RegRestoreAllA;code;ADVPACK.dll;#RegRestoreAllA
+RegRestoreAllW;code;ADVPACK.dll;#RegRestoreAllW
+RegSaveRestore;code;ADVPACK.dll;#RegSaveRestore
+RegSaveRestoreA;code;ADVPACK.dll;#RegSaveRestoreA
+RegSaveRestoreOnINF;code;ADVPACK.dll;#RegSaveRestoreOnINF
+RegSaveRestoreOnINFA;code;ADVPACK.dll;#RegSaveRestoreOnINFA
+RegSaveRestoreOnINFW;code;ADVPACK.dll;#RegSaveRestoreOnINFW
+RegSaveRestoreW;code;ADVPACK.dll;#RegSaveRestoreW
+RunSetupCommand;code;ADVPACK.dll;#RunSetupCommand
+RunSetupCommandA;code;ADVPACK.dll;#RunSetupCommandA
+RunSetupCommandW;code;ADVPACK.dll;#RunSetupCommandW
+SetPerUserSecValues;code;ADVPACK.dll;#SetPerUserSecValues
+SetPerUserSecValuesA;code;ADVPACK.dll;#SetPerUserSecValuesA
+SetPerUserSecValuesW;code;ADVPACK.dll;#SetPerUserSecValuesW
+TranslateInfString;code;ADVPACK.dll;#TranslateInfString
+TranslateInfStringA;code;ADVPACK.dll;#TranslateInfStringA
+TranslateInfStringEx;code;ADVPACK.dll;#TranslateInfStringEx
+TranslateInfStringExA;code;ADVPACK.dll;#TranslateInfStringExA
+TranslateInfStringExW;code;ADVPACK.dll;#TranslateInfStringExW
+TranslateInfStringW;code;ADVPACK.dll;#TranslateInfStringW
+UserInstStubWrapper;code;ADVPACK.dll;#UserInstStubWrapper
+UserInstStubWrapperA;code;ADVPACK.dll;#UserInstStubWrapperA
+UserInstStubWrapperW;code;ADVPACK.dll;#UserInstStubWrapperW
+UserUnInstStubWrapper;code;ADVPACK.dll;#UserUnInstStubWrapper
+UserUnInstStubWrapperA;code;ADVPACK.dll;#UserUnInstStubWrapperA
+UserUnInstStubWrapperW;code;ADVPACK.dll;#UserUnInstStubWrapperW
+DelNodeRunDLL32;code;ADVPACK.dll;?DelNodeRunDLL32@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl DelNodeRunDLL32(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+DelNodeRunDLL32A;code;ADVPACK.dll;?DelNodeRunDLL32A@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl DelNodeRunDLL32A(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+DoInfInstall;code;ADVPACK.dll;?DoInfInstall@@$$hYAJPEAU_ADVPACKARGSA@@@Z (long __cdecl DoInfInstall(struct _ADVPACKARGSA *))
+DoInfInstallA;code;ADVPACK.dll;?DoInfInstallA@@$$hYAJPEAU_ADVPACKARGSA@@@Z (long __cdecl DoInfInstallA(struct _ADVPACKARGSA *))
+DoInfInstallW;code;ADVPACK.dll;?DoInfInstallW@@$$hYAJPEAU_ADVPACKARGSW@@@Z (long __cdecl DoInfInstallW(struct _ADVPACKARGSW *))
+FileSaveRestore;code;ADVPACK.dll;?FileSaveRestore@@$$hYAJPEAUHWND__@@PEBD11K@Z (long __cdecl FileSaveRestore(struct HWND__ *,char const *,char const *,char const *,unsigned long))
+FileSaveRestoreA;code;ADVPACK.dll;?FileSaveRestoreA@@$$hYAJPEAUHWND__@@PEBD11K@Z (long __cdecl FileSaveRestoreA(struct HWND__ *,char const *,char const *,char const *,unsigned long))
+LaunchINFSectionA;code;ADVPACK.dll;?LaunchINFSectionA@@$$hYAHPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (int __cdecl LaunchINFSectionA(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+LaunchINFSectionEx;code;ADVPACK.dll;?LaunchINFSectionEx@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl LaunchINFSectionEx(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+LaunchINFSectionExA;code;ADVPACK.dll;?LaunchINFSectionExA@@$$hYAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl LaunchINFSectionExA(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+RegisterOCX;code;ADVPACK.dll;?RegisterOCX@@$$hYAHPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (int __cdecl RegisterOCX(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+RegisterOCXW;code;ADVPACK.dll;?RegisterOCXW@@$$hYAHPEAUHWND__@@PEAUHINSTANCE__@@PEAGH@Z (int __cdecl RegisterOCXW(struct HWND__ *,struct HINSTANCE__ *,unsigned short *,int))
+DelNodeRunDLL32;code;ADVPACK.dll;?DelNodeRunDLL32@@YAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl DelNodeRunDLL32(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+DelNodeRunDLL32A;code;ADVPACK.dll;?DelNodeRunDLL32A@@YAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl DelNodeRunDLL32A(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+DoInfInstall;code;ADVPACK.dll;?DoInfInstall@@YAJPEAU_ADVPACKARGSA@@@Z (long __cdecl DoInfInstall(struct _ADVPACKARGSA *))
+DoInfInstallA;code;ADVPACK.dll;?DoInfInstallA@@YAJPEAU_ADVPACKARGSA@@@Z (long __cdecl DoInfInstallA(struct _ADVPACKARGSA *))
+DoInfInstallW;code;ADVPACK.dll;?DoInfInstallW@@YAJPEAU_ADVPACKARGSW@@@Z (long __cdecl DoInfInstallW(struct _ADVPACKARGSW *))
+FileSaveRestore;code;ADVPACK.dll;?FileSaveRestore@@YAJPEAUHWND__@@PEBD11K@Z (long __cdecl FileSaveRestore(struct HWND__ *,char const *,char const *,char const *,unsigned long))
+FileSaveRestoreA;code;ADVPACK.dll;?FileSaveRestoreA@@YAJPEAUHWND__@@PEBD11K@Z (long __cdecl FileSaveRestoreA(struct HWND__ *,char const *,char const *,char const *,unsigned long))
+LaunchINFSectionA;code;ADVPACK.dll;?LaunchINFSectionA@@YAHPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (int __cdecl LaunchINFSectionA(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+LaunchINFSectionEx;code;ADVPACK.dll;?LaunchINFSectionEx@@YAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl LaunchINFSectionEx(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+LaunchINFSectionExA;code;ADVPACK.dll;?LaunchINFSectionExA@@YAJPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (long __cdecl LaunchINFSectionExA(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+RegisterOCX;code;ADVPACK.dll;?RegisterOCX@@YAHPEAUHWND__@@PEAUHINSTANCE__@@PEBDH@Z (int __cdecl RegisterOCX(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+RegisterOCXW;code;ADVPACK.dll;?RegisterOCXW@@YAHPEAUHWND__@@PEAUHINSTANCE__@@PEAGH@Z (int __cdecl RegisterOCXW(struct HWND__ *,struct HINSTANCE__ *,unsigned short *,int))
+AddDelBackupEntry;code;ADVPACK.dll;
+AddDelBackupEntryA;code;ADVPACK.dll;
+AddDelBackupEntryW;code;ADVPACK.dll;
+AdvInstallFile;code;ADVPACK.dll;
+AdvInstallFileA;code;ADVPACK.dll;
+AdvInstallFileW;code;ADVPACK.dll;
+CloseINFEngine;code;ADVPACK.dll;
+DelNode;code;ADVPACK.dll;
+DelNodeA;code;ADVPACK.dll;
+DelNodeRunDLL32W;code;ADVPACK.dll;
+DelNodeW;code;ADVPACK.dll;
+ExecuteCab;code;ADVPACK.dll;
+ExecuteCabA;code;ADVPACK.dll;
+ExecuteCabW;code;ADVPACK.dll;
+ExtractFiles;code;ADVPACK.dll;
+ExtractFilesA;code;ADVPACK.dll;
+ExtractFilesW;code;ADVPACK.dll;
+FileSaveMarkNotExist;code;ADVPACK.dll;
+FileSaveMarkNotExistA;code;ADVPACK.dll;
+FileSaveMarkNotExistW;code;ADVPACK.dll;
+FileSaveRestoreOnINF;code;ADVPACK.dll;
+FileSaveRestoreOnINFA;code;ADVPACK.dll;
+FileSaveRestoreOnINFW;code;ADVPACK.dll;
+FileSaveRestoreW;code;ADVPACK.dll;
+GetVersionFromFile;code;ADVPACK.dll;
+GetVersionFromFileA;code;ADVPACK.dll;
+GetVersionFromFileEx;code;ADVPACK.dll;
+GetVersionFromFileExA;code;ADVPACK.dll;
+GetVersionFromFileExW;code;ADVPACK.dll;
+GetVersionFromFileW;code;ADVPACK.dll;
+IsNTAdmin;code;ADVPACK.dll;
+LaunchINFSection;code;ADVPACK.dll;
+LaunchINFSectionExW;code;ADVPACK.dll;
+LaunchINFSectionW;code;ADVPACK.dll;
+NeedReboot;code;ADVPACK.dll;
+NeedRebootInit;code;ADVPACK.dll;
+OpenINFEngine;code;ADVPACK.dll;
+OpenINFEngineA;code;ADVPACK.dll;
+OpenINFEngineW;code;ADVPACK.dll;
+RebootCheckOnInstall;code;ADVPACK.dll;
+RebootCheckOnInstallA;code;ADVPACK.dll;
+RebootCheckOnInstallW;code;ADVPACK.dll;
+RegInstall;code;ADVPACK.dll;
+RegInstallA;code;ADVPACK.dll;
+RegInstallW;code;ADVPACK.dll;
+RegRestoreAll;code;ADVPACK.dll;
+RegRestoreAllA;code;ADVPACK.dll;
+RegRestoreAllW;code;ADVPACK.dll;
+RegSaveRestore;code;ADVPACK.dll;
+RegSaveRestoreA;code;ADVPACK.dll;
+RegSaveRestoreOnINF;code;ADVPACK.dll;
+RegSaveRestoreOnINFA;code;ADVPACK.dll;
+RegSaveRestoreOnINFW;code;ADVPACK.dll;
+RegSaveRestoreW;code;ADVPACK.dll;
+RunSetupCommand;code;ADVPACK.dll;
+RunSetupCommandA;code;ADVPACK.dll;
+RunSetupCommandW;code;ADVPACK.dll;
+SetPerUserSecValues;code;ADVPACK.dll;
+SetPerUserSecValuesA;code;ADVPACK.dll;
+SetPerUserSecValuesW;code;ADVPACK.dll;
+TranslateInfString;code;ADVPACK.dll;
+TranslateInfStringA;code;ADVPACK.dll;
+TranslateInfStringEx;code;ADVPACK.dll;
+TranslateInfStringExA;code;ADVPACK.dll;
+TranslateInfStringExW;code;ADVPACK.dll;
+TranslateInfStringW;code;ADVPACK.dll;
+UserInstStubWrapper;code;ADVPACK.dll;
+UserInstStubWrapperA;code;ADVPACK.dll;
+UserInstStubWrapperW;code;ADVPACK.dll;
+UserUnInstStubWrapper;code;ADVPACK.dll;
+UserUnInstStubWrapperA;code;ADVPACK.dll;
+UserUnInstStubWrapperW;code;ADVPACK.dll;

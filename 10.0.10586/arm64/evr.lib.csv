@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFCreateVideoMixer;code;EVR.dll;
+MFCreateVideoMixerAndPresenter;code;EVR.dll;
+MFCreateVideoOTA;code;EVR.dll;
+MFCreateVideoPresenter;code;EVR.dll;
+MFCreateVideoPresenter2;code;EVR.dll;
+MFCreateVideoSampleAllocator;code;EVR.dll;
+MFCreateVideoSampleFromSurface;code;EVR.dll;
+MFGetPlaneSize;code;EVR.dll;
+MFIsFormatYUV;code;EVR.dll;

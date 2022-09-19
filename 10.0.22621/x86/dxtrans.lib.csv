@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+?DXConstOverArray@@YGXPAVDXPMSAMPLE@@ABV1@K@Z;code;dxtrans.dll;
+?DXConstUnderArray@@YGXPAVDXPMSAMPLE@@ABV1@K@Z;code;dxtrans.dll;
+?DXDitherArray@@YGXPBUDXDITHERDESC@@@Z;code;dxtrans.dll;
+?DXLinearInterpolateArray@@YGXPBVDXBASESAMPLE@@PAUDXLIMAPINFO@@PAV1@K@Z;code;dxtrans.dll;
+?DXOverArray@@YGXPAVDXPMSAMPLE@@PBV1@K@Z;code;dxtrans.dll;
+?DXOverArrayMMX@@YGXPAVDXPMSAMPLE@@PBV1@K@Z;code;dxtrans.dll;

@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+LicenseProtectionPbrReset;code;licenseprotection.dll;?LicenseProtectionPbrReset@@YGJW4ResetScopeType@@PBG1@Z (long __stdcall LicenseProtectionPbrReset(enum ResetScopeType,unsigned short const *,unsigned short const *))
+RegisterLicenseKeyWithExpiration;code;licenseprotection.dll;_RegisterLicenseKeyWithExpiration@12
+ValidateLicenseKeyProtection;code;licenseprotection.dll;_ValidateLicenseKeyProtection@16

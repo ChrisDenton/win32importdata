@@ -1,0 +1,111 @@
+Name;Type;DLL;SymbolOrOrdinal
+PdhVbAddCounter;code;pdh.dll;?PdhVbAddCounter@@YGKPAXPBDPAPAX@Z (unsigned long __stdcall PdhVbAddCounter(void *,char const *,void * *))
+PdhVbCreateCounterPathList;code;pdh.dll;?PdhVbCreateCounterPathList@@YGKKPBD@Z (unsigned long __stdcall PdhVbCreateCounterPathList(unsigned long,char const *))
+PdhVbGetCounterPathElements;code;pdh.dll;?PdhVbGetCounterPathElements@@YGKPBDPAD1111K@Z (unsigned long __stdcall PdhVbGetCounterPathElements(char const *,char *,char *,char *,char *,char *,unsigned long))
+PdhVbGetCounterPathFromList;code;pdh.dll;?PdhVbGetCounterPathFromList@@YGKKPADK@Z (unsigned long __stdcall PdhVbGetCounterPathFromList(unsigned long,char *,unsigned long))
+PdhVbGetDoubleCounterValue;code;pdh.dll;?PdhVbGetDoubleCounterValue@@YGNPAXPAK@Z (double __stdcall PdhVbGetDoubleCounterValue(void *,unsigned long *))
+PdhVbGetLogFileSize;code;pdh.dll;?PdhVbGetLogFileSize@@YGKPAXPAJ@Z (unsigned long __stdcall PdhVbGetLogFileSize(void *,long *))
+PdhVbGetOneCounterPath;code;pdh.dll;?PdhVbGetOneCounterPath@@YGKPADKKPBD@Z (unsigned long __stdcall PdhVbGetOneCounterPath(char *,unsigned long,unsigned long,char const *))
+PdhVbIsGoodStatus;code;pdh.dll;?PdhVbIsGoodStatus@@YGKJ@Z (unsigned long __stdcall PdhVbIsGoodStatus(long))
+PdhVbOpenLog;code;pdh.dll;?PdhVbOpenLog@@YGKPBDKPAKPAXK0PAPAX@Z (unsigned long __stdcall PdhVbOpenLog(char const *,unsigned long,unsigned long *,void *,unsigned long,char const *,void * *))
+PdhVbOpenQuery;code;pdh.dll;?PdhVbOpenQuery@@YGKPAPAX@Z (unsigned long __stdcall PdhVbOpenQuery(void * *))
+PdhVbUpdateLog;code;pdh.dll;?PdhVbUpdateLog@@YGKPAXPBD@Z (unsigned long __stdcall PdhVbUpdateLog(void *,char const *))
+PdhAddCounterA;code;pdh.dll;_PdhAddCounterA@16
+PdhAddCounterW;code;pdh.dll;_PdhAddCounterW@16
+PdhAddEnglishCounterA;code;pdh.dll;_PdhAddEnglishCounterA@16
+PdhAddEnglishCounterW;code;pdh.dll;_PdhAddEnglishCounterW@16
+PdhBindInputDataSourceA;code;pdh.dll;_PdhBindInputDataSourceA@8
+PdhBindInputDataSourceW;code;pdh.dll;_PdhBindInputDataSourceW@8
+PdhBrowseCountersA;code;pdh.dll;_PdhBrowseCountersA@4
+PdhBrowseCountersHA;code;pdh.dll;_PdhBrowseCountersHA@4
+PdhBrowseCountersHW;code;pdh.dll;_PdhBrowseCountersHW@4
+PdhBrowseCountersW;code;pdh.dll;_PdhBrowseCountersW@4
+PdhCalculateCounterFromRawValue;code;pdh.dll;_PdhCalculateCounterFromRawValue@20
+PdhCloseLog;code;pdh.dll;_PdhCloseLog@8
+PdhCloseQuery;code;pdh.dll;_PdhCloseQuery@4
+PdhCollectQueryData;code;pdh.dll;_PdhCollectQueryData@4
+PdhCollectQueryDataEx;code;pdh.dll;_PdhCollectQueryDataEx@12
+PdhCollectQueryDataWithTime;code;pdh.dll;_PdhCollectQueryDataWithTime@8
+PdhComputeCounterStatistics;code;pdh.dll;_PdhComputeCounterStatistics@24
+PdhConnectMachineA;code;pdh.dll;_PdhConnectMachineA@4
+PdhConnectMachineW;code;pdh.dll;_PdhConnectMachineW@4
+PdhCreateSQLTablesA;code;pdh.dll;_PdhCreateSQLTablesA@4
+PdhCreateSQLTablesW;code;pdh.dll;_PdhCreateSQLTablesW@4
+PdhEnumLogSetNamesA;code;pdh.dll;_PdhEnumLogSetNamesA@12
+PdhEnumLogSetNamesW;code;pdh.dll;_PdhEnumLogSetNamesW@12
+PdhEnumMachinesA;code;pdh.dll;_PdhEnumMachinesA@12
+PdhEnumMachinesHA;code;pdh.dll;_PdhEnumMachinesHA@12
+PdhEnumMachinesHW;code;pdh.dll;_PdhEnumMachinesHW@12
+PdhEnumMachinesW;code;pdh.dll;_PdhEnumMachinesW@12
+PdhEnumObjectItemsA;code;pdh.dll;_PdhEnumObjectItemsA@36
+PdhEnumObjectItemsHA;code;pdh.dll;_PdhEnumObjectItemsHA@36
+PdhEnumObjectItemsHW;code;pdh.dll;_PdhEnumObjectItemsHW@36
+PdhEnumObjectItemsW;code;pdh.dll;_PdhEnumObjectItemsW@36
+PdhEnumObjectsA;code;pdh.dll;_PdhEnumObjectsA@24
+PdhEnumObjectsHA;code;pdh.dll;_PdhEnumObjectsHA@24
+PdhEnumObjectsHW;code;pdh.dll;_PdhEnumObjectsHW@24
+PdhEnumObjectsW;code;pdh.dll;_PdhEnumObjectsW@24
+PdhExpandCounterPathA;code;pdh.dll;_PdhExpandCounterPathA@12
+PdhExpandCounterPathW;code;pdh.dll;_PdhExpandCounterPathW@12
+PdhExpandWildCardPathA;code;pdh.dll;_PdhExpandWildCardPathA@20
+PdhExpandWildCardPathHA;code;pdh.dll;_PdhExpandWildCardPathHA@20
+PdhExpandWildCardPathHW;code;pdh.dll;_PdhExpandWildCardPathHW@20
+PdhExpandWildCardPathW;code;pdh.dll;_PdhExpandWildCardPathW@20
+PdhFormatFromRawValue;code;pdh.dll;_PdhFormatFromRawValue@24
+PdhGetCounterInfoA;code;pdh.dll;_PdhGetCounterInfoA@16
+PdhGetCounterInfoW;code;pdh.dll;_PdhGetCounterInfoW@16
+PdhGetCounterTimeBase;code;pdh.dll;_PdhGetCounterTimeBase@8
+PdhGetDataSourceTimeRangeA;code;pdh.dll;_PdhGetDataSourceTimeRangeA@16
+PdhGetDataSourceTimeRangeH;code;pdh.dll;_PdhGetDataSourceTimeRangeH@16
+PdhGetDataSourceTimeRangeW;code;pdh.dll;_PdhGetDataSourceTimeRangeW@16
+PdhGetDefaultPerfCounterA;code;pdh.dll;_PdhGetDefaultPerfCounterA@20
+PdhGetDefaultPerfCounterHA;code;pdh.dll;_PdhGetDefaultPerfCounterHA@20
+PdhGetDefaultPerfCounterHW;code;pdh.dll;_PdhGetDefaultPerfCounterHW@20
+PdhGetDefaultPerfCounterW;code;pdh.dll;_PdhGetDefaultPerfCounterW@20
+PdhGetDefaultPerfObjectA;code;pdh.dll;_PdhGetDefaultPerfObjectA@16
+PdhGetDefaultPerfObjectHA;code;pdh.dll;_PdhGetDefaultPerfObjectHA@16
+PdhGetDefaultPerfObjectHW;code;pdh.dll;_PdhGetDefaultPerfObjectHW@16
+PdhGetDefaultPerfObjectW;code;pdh.dll;_PdhGetDefaultPerfObjectW@16
+PdhGetDllVersion;code;pdh.dll;_PdhGetDllVersion@4
+PdhGetFormattedCounterArrayA;code;pdh.dll;_PdhGetFormattedCounterArrayA@20
+PdhGetFormattedCounterArrayW;code;pdh.dll;_PdhGetFormattedCounterArrayW@20
+PdhGetFormattedCounterValue;code;pdh.dll;_PdhGetFormattedCounterValue@16
+PdhGetLogFileSize;code;pdh.dll;_PdhGetLogFileSize@8
+PdhGetLogSetGUID;code;pdh.dll;_PdhGetLogSetGUID@12
+PdhGetRawCounterArrayA;code;pdh.dll;_PdhGetRawCounterArrayA@16
+PdhGetRawCounterArrayW;code;pdh.dll;_PdhGetRawCounterArrayW@16
+PdhGetRawCounterValue;code;pdh.dll;_PdhGetRawCounterValue@12
+PdhIsRealTimeQuery;code;pdh.dll;_PdhIsRealTimeQuery@4
+PdhLookupPerfIndexByNameA;code;pdh.dll;_PdhLookupPerfIndexByNameA@12
+PdhLookupPerfIndexByNameW;code;pdh.dll;_PdhLookupPerfIndexByNameW@12
+PdhLookupPerfNameByIndexA;code;pdh.dll;_PdhLookupPerfNameByIndexA@16
+PdhLookupPerfNameByIndexW;code;pdh.dll;_PdhLookupPerfNameByIndexW@16
+PdhMakeCounterPathA;code;pdh.dll;_PdhMakeCounterPathA@16
+PdhMakeCounterPathW;code;pdh.dll;_PdhMakeCounterPathW@16
+PdhOpenLogA;code;pdh.dll;_PdhOpenLogA@28
+PdhOpenLogW;code;pdh.dll;_PdhOpenLogW@28
+PdhOpenQuery;code;pdh.dll;_PdhOpenQuery@12
+PdhOpenQueryA;code;pdh.dll;_PdhOpenQueryA@12
+PdhOpenQueryH;code;pdh.dll;_PdhOpenQueryH@12
+PdhOpenQueryW;code;pdh.dll;_PdhOpenQueryW@12
+PdhParseCounterPathA;code;pdh.dll;_PdhParseCounterPathA@16
+PdhParseCounterPathW;code;pdh.dll;_PdhParseCounterPathW@16
+PdhParseInstanceNameA;code;pdh.dll;_PdhParseInstanceNameA@24
+PdhParseInstanceNameW;code;pdh.dll;_PdhParseInstanceNameW@24
+PdhReadRawLogRecord;code;pdh.dll;_PdhReadRawLogRecord@20
+PdhRemoveCounter;code;pdh.dll;_PdhRemoveCounter@4
+PdhSelectDataSourceA;code;pdh.dll;_PdhSelectDataSourceA@16
+PdhSelectDataSourceW;code;pdh.dll;_PdhSelectDataSourceW@16
+PdhSetCounterScaleFactor;code;pdh.dll;_PdhSetCounterScaleFactor@8
+PdhSetDefaultRealTimeDataSource;code;pdh.dll;_PdhSetDefaultRealTimeDataSource@4
+PdhSetLogSetRunID;code;pdh.dll;_PdhSetLogSetRunID@8
+PdhSetQueryTimeRange;code;pdh.dll;_PdhSetQueryTimeRange@8
+PdhUpdateLogA;code;pdh.dll;_PdhUpdateLogA@8
+PdhUpdateLogFileCatalog;code;pdh.dll;_PdhUpdateLogFileCatalog@4
+PdhUpdateLogW;code;pdh.dll;_PdhUpdateLogW@8
+PdhValidatePathA;code;pdh.dll;_PdhValidatePathA@4
+PdhValidatePathExA;code;pdh.dll;_PdhValidatePathExA@8
+PdhValidatePathExW;code;pdh.dll;_PdhValidatePathExW@8
+PdhValidatePathW;code;pdh.dll;_PdhValidatePathW@4
+PdhVerifySQLDBA;code;pdh.dll;_PdhVerifySQLDBA@4
+PdhVerifySQLDBW;code;pdh.dll;_PdhVerifySQLDBW@4

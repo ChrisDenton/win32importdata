@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+TxfGetThreadMiniVersionForCreate;code;txfw32.dll;_TxfGetThreadMiniVersionForCreate@4
+TxfLogCreateFileReadContext;code;txfw32.dll;_TxfLogCreateFileReadContext@28
+TxfLogCreateRangeReadContext;code;txfw32.dll;_TxfLogCreateRangeReadContext@36
+TxfLogDestroyReadContext;code;txfw32.dll;_TxfLogDestroyReadContext@4
+TxfLogReadRecords;code;txfw32.dll;_TxfLogReadRecords@20
+TxfLogRecordGetFileName;code;txfw32.dll;_TxfLogRecordGetFileName@20
+TxfLogRecordGetGenericType;code;txfw32.dll;_TxfLogRecordGetGenericType@16
+TxfReadMetadataInfo;code;txfw32.dll;_TxfReadMetadataInfo@20
+TxfSetThreadMiniVersionForCreate;code;txfw32.dll;_TxfSetThreadMiniVersionForCreate@4

@@ -1,0 +1,42 @@
+Name;Type;DLL;SymbolOrOrdinal
+?GetAccessRights@@YAJPAXQAPAXKQAK@Z (long __cdecl GetAccessRights(void *,void * * const,unsigned long,unsigned long * const));code;certadm.dll;212
+?GetLocaleName@@YAJPAPAG@Z (long __cdecl GetLocaleName(unsigned short * *));code;certadm.dll;213
+?GetToken@@YAJPAGPBU_CERT_CONTEXT@@PAPAX@Z (long __cdecl GetToken(unsigned short *,struct _CERT_CONTEXT const *,void * *));code;certadm.dll;216
+?GetUserPrincipalName@@YAJPAPAG@Z (long __cdecl GetUserPrincipalName(unsigned short * *));code;certadm.dll;217
+?VerifyCertContextWithNtAuth@@YAJPBU_CERT_CONTEXT@@@Z (long __cdecl VerifyCertContextWithNtAuth(struct _CERT_CONTEXT const *));code;certadm.dll;215
+?myBackupDB@@YAJPBGK0PAU_DBBACKUPPROGRESS@@@Z (long __cdecl myBackupDB(unsigned short const *,unsigned long,unsigned short const *,struct _DBBACKUPPROGRESS *));code;certadm.dll;218
+?myCertServerExportPFX@@YAJPBG00PAXHHHKPAPAG@Z (long __cdecl myCertServerExportPFX(unsigned short const *,unsigned short const *,unsigned short const *,void *,int,int,int,unsigned long,unsigned short * *));code;certadm.dll;220
+?myCertServerImportPFX@@YAJPBG0HPAPAG1PAPBU_CERT_CONTEXT@@@Z (long __cdecl myCertServerImportPFX(unsigned short const *,unsigned short const *,int,unsigned short * *,unsigned short * *,struct _CERT_CONTEXT const * *));code;certadm.dll;221
+?myGetColumnDisplayName@@YAJPBGPAPBG@Z (long __cdecl myGetColumnDisplayName(unsigned short const *,unsigned short const * *));code;certadm.dll;210
+?myGetColumnName@@YAJKHPAPBG@Z (long __cdecl myGetColumnName(unsigned long,int,unsigned short const * *));code;certadm.dll;211
+?myRestoreDB@@YAJPBGK0000PAU_DBBACKUPPROGRESS@@@Z (long __cdecl myRestoreDB(unsigned short const *,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,struct _DBBACKUPPROGRESS *));code;certadm.dll;219
+CertSrvBackupClose;code;certadm.dll;5
+CertSrvBackupEnd;code;certadm.dll;6
+CertSrvBackupFree;code;certadm.dll;15
+CertSrvBackupGetBackupLogsW;code;certadm.dll;7
+CertSrvBackupGetDatabaseNamesW;code;certadm.dll;8
+CertSrvBackupGetDynamicFileListW;code;certadm.dll;14
+CertSrvBackupOpenFileW;code;certadm.dll;9
+CertSrvBackupPrepareW;code;certadm.dll;10
+CertSrvBackupRead;code;certadm.dll;11
+CertSrvBackupTruncateLogs;code;certadm.dll;12
+CertSrvIsServerOnlineW;code;certadm.dll;13
+CertSrvRestoreEnd;code;certadm.dll;21
+CertSrvRestoreGetDatabaseLocationsW;code;certadm.dll;17
+CertSrvRestorePrepareW;code;certadm.dll;18
+CertSrvRestoreRegisterComplete;code;certadm.dll;20
+CertSrvRestoreRegisterThroughFile;code;certadm.dll;22
+CertSrvRestoreRegisterW;code;certadm.dll;19
+CertSrvServerControlW;code;certadm.dll;16
+ClosePerfMon;code;certadm.dll;
+CollectPerfMon;code;certadm.dll;
+CreatePerfObject;code;certadm.dll;203
+CreatePerfObjectWithAlias;code;certadm.dll;209
+DecrementPerfCounter;code;certadm.dll;207
+DeletePerfObject;code;certadm.dll;204
+IncrementPerfCounter;code;certadm.dll;206
+InitPerfMon;code;certadm.dll;201
+OpenPerfMon;code;certadm.dll;
+ResetPerfObjectList;code;certadm.dll;205
+UninitPerfMon;code;certadm.dll;202
+UpdatePerfCounter;code;certadm.dll;208

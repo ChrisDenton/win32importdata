@@ -1,0 +1,43 @@
+Name;Type;DLL;SymbolOrOrdinal
+D3DKMTCloseAdapter;code;d3d11.dll;?D3DKMTCloseAdapter@@YAJPEAU_D3DKMT_CLOSEADAPTER@@@Z (long __cdecl D3DKMTCloseAdapter(struct _D3DKMT_CLOSEADAPTER *))
+D3DKMTDestroyAllocation;code;d3d11.dll;?D3DKMTDestroyAllocation@@YAJPEAU_D3DKMT_DESTROYALLOCATION@@@Z (long __cdecl D3DKMTDestroyAllocation(struct _D3DKMT_DESTROYALLOCATION *))
+D3DKMTDestroyContext;code;d3d11.dll;?D3DKMTDestroyContext@@YAJPEAU_D3DKMT_DESTROYCONTEXT@@@Z (long __cdecl D3DKMTDestroyContext(struct _D3DKMT_DESTROYCONTEXT *))
+D3DKMTDestroyDevice;code;d3d11.dll;?D3DKMTDestroyDevice@@YAJPEAU_D3DKMT_DESTROYDEVICE@@@Z (long __cdecl D3DKMTDestroyDevice(struct _D3DKMT_DESTROYDEVICE *))
+D3DKMTDestroySynchronizationObject;code;d3d11.dll;?D3DKMTDestroySynchronizationObject@@YAJPEAU_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT@@@Z (long __cdecl D3DKMTDestroySynchronizationObject(struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT *))
+D3DKMTQueryAdapterInfo;code;d3d11.dll;?D3DKMTQueryAdapterInfo@@YAJPEAU_D3DKMT_QUERYADAPTERINFO@@@Z (long __cdecl D3DKMTQueryAdapterInfo(struct _D3DKMT_QUERYADAPTERINFO *))
+D3DKMTSetDisplayPrivateDriverFormat;code;d3d11.dll;?D3DKMTSetDisplayPrivateDriverFormat@@YAJPEAU_D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT@@@Z (long __cdecl D3DKMTSetDisplayPrivateDriverFormat(struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT *))
+D3DKMTSignalSynchronizationObject;code;d3d11.dll;?D3DKMTSignalSynchronizationObject@@YAJPEAU_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT@@@Z (long __cdecl D3DKMTSignalSynchronizationObject(struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT *))
+D3DKMTUnlock;code;d3d11.dll;?D3DKMTUnlock@@YAJPEAU_D3DKMT_UNLOCK@@@Z (long __cdecl D3DKMTUnlock(struct _D3DKMT_UNLOCK *))
+D3DKMTWaitForSynchronizationObject;code;d3d11.dll;?D3DKMTWaitForSynchronizationObject@@YAJPEAU_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT@@@Z (long __cdecl D3DKMTWaitForSynchronizationObject(struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT *))
+OpenAdapter10;code;d3d11.dll;?OpenAdapter10@@YAJPEAUD3D10DDIARG_OPENADAPTER@@@Z (long __cdecl OpenAdapter10(struct D3D10DDIARG_OPENADAPTER *))
+OpenAdapter10_2;code;d3d11.dll;?OpenAdapter10_2@@YAJPEAUD3D10DDIARG_OPENADAPTER@@@Z (long __cdecl OpenAdapter10_2(struct D3D10DDIARG_OPENADAPTER *))
+D3D11CoreCreateDevice;code;d3d11.dll;
+D3D11CoreCreateLayeredDevice;code;d3d11.dll;
+D3D11CoreGetLayeredDeviceSize;code;d3d11.dll;
+D3D11CoreRegisterLayers;code;d3d11.dll;
+D3D11CreateDevice;code;d3d11.dll;
+D3D11CreateDeviceAndSwapChain;code;d3d11.dll;
+D3DKMTCreateAllocation;code;d3d11.dll;
+D3DKMTCreateContext;code;d3d11.dll;
+D3DKMTCreateDevice;code;d3d11.dll;
+D3DKMTCreateSynchronizationObject;code;d3d11.dll;
+D3DKMTEscape;code;d3d11.dll;
+D3DKMTGetContextSchedulingPriority;code;d3d11.dll;
+D3DKMTGetDeviceState;code;d3d11.dll;
+D3DKMTGetDisplayModeList;code;d3d11.dll;
+D3DKMTGetMultisampleMethodList;code;d3d11.dll;
+D3DKMTGetRuntimeData;code;d3d11.dll;
+D3DKMTGetSharedPrimaryHandle;code;d3d11.dll;
+D3DKMTLock;code;d3d11.dll;
+D3DKMTOpenAdapterFromHdc;code;d3d11.dll;
+D3DKMTOpenResource;code;d3d11.dll;
+D3DKMTPresent;code;d3d11.dll;
+D3DKMTQueryAllocationResidency;code;d3d11.dll;
+D3DKMTQueryResourceInfo;code;d3d11.dll;
+D3DKMTRender;code;d3d11.dll;
+D3DKMTSetAllocationPriority;code;d3d11.dll;
+D3DKMTSetContextSchedulingPriority;code;d3d11.dll;
+D3DKMTSetDisplayMode;code;d3d11.dll;
+D3DKMTSetGammaRamp;code;d3d11.dll;
+D3DKMTSetVidPnSourceOwner;code;d3d11.dll;
+D3DKMTWaitForVerticalBlankEvent;code;d3d11.dll;

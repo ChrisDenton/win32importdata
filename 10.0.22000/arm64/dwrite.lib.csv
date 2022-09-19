@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+DWriteCreateFactory;code;DWrite.dll;#DWriteCreateFactory
+DWriteCreateFactory;code;DWrite.dll;

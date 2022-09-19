@@ -1,0 +1,25 @@
+Name;Type;DLL;SymbolOrOrdinal
+NdfRunDllDiagnoseIncident;code;NDFAPI.DLL;?NdfRunDllDiagnoseIncident@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall NdfRunDllDiagnoseIncident(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDiagnoseNetConnectionIncident;code;NDFAPI.DLL;?NdfRunDllDiagnoseNetConnectionIncident@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall NdfRunDllDiagnoseNetConnectionIncident(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDiagnoseWithAnswerFile;code;NDFAPI.DLL;?NdfRunDllDiagnoseWithAnswerFile@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall NdfRunDllDiagnoseWithAnswerFile(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDuplicateIPDefendingSystem;code;NDFAPI.DLL;?NdfRunDllDuplicateIPDefendingSystem@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall NdfRunDllDuplicateIPDefendingSystem(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllDuplicateIPOffendingSystem;code;NDFAPI.DLL;?NdfRunDllDuplicateIPOffendingSystem@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall NdfRunDllDuplicateIPOffendingSystem(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfRunDllHelpTopic;code;NDFAPI.DLL;?NdfRunDllHelpTopic@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall NdfRunDllHelpTopic(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+NdfCancelIncident;code;NDFAPI.DLL;_NdfCancelIncident@4
+NdfCloseIncident;code;NDFAPI.DLL;_NdfCloseIncident@4
+NdfCreateConnectivityIncident;code;NDFAPI.DLL;_NdfCreateConnectivityIncident@4
+NdfCreateDNSIncident;code;NDFAPI.DLL;_NdfCreateDNSIncident@12
+NdfCreateGroupingIncident;code;NDFAPI.DLL;_NdfCreateGroupingIncident@28
+NdfCreateInboundIncident;code;NDFAPI.DLL;_NdfCreateInboundIncident@28
+NdfCreateIncident;code;NDFAPI.DLL;_NdfCreateIncident@16
+NdfCreateNetConnectionIncident;code;NDFAPI.DLL;_NdfCreateNetConnectionIncident@20
+NdfCreatePnrpIncident;code;NDFAPI.DLL;_NdfCreatePnrpIncident@20
+NdfCreateSharingIncident;code;NDFAPI.DLL;_NdfCreateSharingIncident@8
+NdfCreateWebIncident;code;NDFAPI.DLL;_NdfCreateWebIncident@8
+NdfCreateWebIncidentEx;code;NDFAPI.DLL;_NdfCreateWebIncidentEx@16
+NdfCreateWinSockIncident;code;NDFAPI.DLL;_NdfCreateWinSockIncident@24
+NdfDiagnoseIncident;code;NDFAPI.DLL;_NdfDiagnoseIncident@20
+NdfExecuteDiagnosis;code;NDFAPI.DLL;_NdfExecuteDiagnosis@8
+NdfGetTraceFile;code;NDFAPI.DLL;_NdfGetTraceFile@8
+NdfRepairIncident;code;NDFAPI.DLL;_NdfRepairIncident@12
+NdfRepairIncidentEx;code;NDFAPI.DLL;_NdfRepairIncidentEx@16

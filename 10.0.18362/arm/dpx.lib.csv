@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+DpxCheckJobExists;code;dpx.dll;
+DpxCheckJobExistsEx;code;dpx.dll;
+DpxDeleteJob;code;dpx.dll;
+DpxDeleteJobEx;code;dpx.dll;
+DpxFreeMemory;code;dpx.dll;
+DpxNewJob;code;dpx.dll;
+DpxNewJobEx;code;dpx.dll;
+DpxRestoreJob;code;dpx.dll;
+DpxRestoreJobEx;code;dpx.dll;
+DpxRestoreOrNewJob;code;dpx.dll;
+DpxRestoreOrNewJobEx;code;dpx.dll;

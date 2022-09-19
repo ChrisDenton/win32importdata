@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+BasepReportFault;code;faultrep.dll;?BasepReportFault@@YA?AW4tagEFaultRepRetVal@@PEAU_EXCEPTION_POINTERS@@K@Z (enum tagEFaultRepRetVal __cdecl BasepReportFault(struct _EXCEPTION_POINTERS *,unsigned long))
+CheckForReadOnlyResourceFilter;code;faultrep.dll;?CheckForReadOnlyResourceFilter@@YAJPEAU_EXCEPTION_POINTERS@@@Z (long __cdecl CheckForReadOnlyResourceFilter(struct _EXCEPTION_POINTERS *))
+CheckPerUserCrossProcessThrottle;code;faultrep.dll;?CheckPerUserCrossProcessThrottle@@YAJPEAH@Z (long __cdecl CheckPerUserCrossProcessThrottle(int *))
+UpdatePerUserLastCrossProcessCollectionTime;code;faultrep.dll;?UpdatePerUserLastCrossProcessCollectionTime@@YAJXZ (long __cdecl UpdatePerUserLastCrossProcessCollectionTime(void))
+AddERExcludedApplicationA;code;faultrep.dll;
+AddERExcludedApplicationW;code;faultrep.dll;
+CancelHangReporting;code;faultrep.dll;
+ReportActivationHang;code;faultrep.dll;1
+ReportCoreHang;code;faultrep.dll;
+ReportFault;code;faultrep.dll;
+ReportHang;code;faultrep.dll;
+ReportNavigationHang;code;faultrep.dll;2
+WerReportHang;code;faultrep.dll;
+WerpGetDebugger;code;faultrep.dll;
+WerpInitiateCrashReporting;code;faultrep.dll;
+WerpLaunchAeDebug;code;faultrep.dll;

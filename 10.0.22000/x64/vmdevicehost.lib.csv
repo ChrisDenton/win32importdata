@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+HdvCreateDeviceInstance;code;vmdevicehost.dll;
+HdvCreateGuestMemoryAperture;code;vmdevicehost.dll;
+HdvCreateSectionBackedMmioRange;code;vmdevicehost.dll;
+HdvDeliverGuestInterrupt;code;vmdevicehost.dll;
+HdvDestroyGuestMemoryAperture;code;vmdevicehost.dll;
+HdvDestroySectionBackedMmioRange;code;vmdevicehost.dll;
+HdvInitializeDeviceHost;code;vmdevicehost.dll;
+HdvInitializeDeviceHostForProxy;code;vmdevicehost.dll;
+HdvProxyDeviceHost;code;vmdevicehost.dll;
+HdvReadGuestMemory;code;vmdevicehost.dll;
+HdvRegisterDoorbell;code;vmdevicehost.dll;
+HdvRegisterDoorbellPage;code;vmdevicehost.dll;
+HdvTeardownDeviceHost;code;vmdevicehost.dll;
+HdvUnregisterDoorbell;code;vmdevicehost.dll;
+HdvUnregisterDoorbellPage;code;vmdevicehost.dll;
+HdvWriteGuestMemory;code;vmdevicehost.dll;

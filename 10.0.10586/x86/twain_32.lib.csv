@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+_AboutDlgProc@16;code;TWAIN_32.dll;4
+_ChooseDlgProc@16;code;TWAIN_32.dll;3
+_DSM_Entry@24;code;TWAIN_32.dll;1
+_InfoHook@12;code;TWAIN_32.dll;6
+_WGDlgProc@16;code;TWAIN_32.dll;5

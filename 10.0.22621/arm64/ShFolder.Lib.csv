@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+SHGetFolderPathA;code;SHFOLDER.dll;#SHGetFolderPathA
+SHGetFolderPathW;code;SHFOLDER.dll;SHGetFolderPathW
+SHGetFolderPathA;code;SHFOLDER.dll;
+SHGetFolderPathW;code;SHFOLDER.dll;

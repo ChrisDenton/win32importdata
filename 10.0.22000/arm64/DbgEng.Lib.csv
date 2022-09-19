@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+DebugConnect;code;dbgeng.dll;#DebugConnect
+DebugConnectWide;code;dbgeng.dll;#DebugConnectWide
+DebugCreate;code;dbgeng.dll;#DebugCreate
+DebugCreateEx;code;dbgeng.dll;#DebugCreateEx
+DebugConnect;code;dbgeng.dll;
+DebugConnectWide;code;dbgeng.dll;
+DebugCreate;code;dbgeng.dll;
+DebugCreateEx;code;dbgeng.dll;

@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+?StartXpsPrintJobOnDocumentPackageTargetInternal@@YAJW4__MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001@@PEAU_DEV_OBJECT@@PEB_W22PEAUIStream@@PEAX3_NPEAPEAUIXpsPrintJob@@PEAPEAUIXpsDocumentPackageTarget@@5P6AX3W4EPrintTicketScope@@HH@Z@Z (long __cdecl StartXpsPrintJobOnDocumentPackageTargetInternal(enum __MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001,struct _DEV_OBJECT *,wchar_t const *,wchar_t const *,wchar_t const *,struct IStream *,void *,struct IStream *,bool,struct IXpsPrintJob * *,struct IXpsDocumentPackageTarget * *,bool,void (__cdecl*)(struct IStream *,enum EPrintTicketScope,int,int)));code;XPSDOCUMENTTARGETPRINT.DLL;7
+DllMain;code;XPSDOCUMENTTARGETPRINT.DLL;

@@ -1,0 +1,16 @@
+Name;Type;DLL;SymbolOrOrdinal
+DMOEnum;code;msdmo.dll;_DMOEnum@28
+DMOGetName;code;msdmo.dll;_DMOGetName@8
+DMOGetTypes;code;msdmo.dll;_DMOGetTypes@28
+DMOGuidToStrA;code;msdmo.dll;_DMOGuidToStrA@8
+DMOGuidToStrW;code;msdmo.dll;_DMOGuidToStrW@8
+DMORegister;code;msdmo.dll;_DMORegister@32
+DMOStrToGuidA;code;msdmo.dll;_DMOStrToGuidA@8
+DMOStrToGuidW;code;msdmo.dll;_DMOStrToGuidW@8
+DMOUnregister;code;msdmo.dll;_DMOUnregister@8
+MoCopyMediaType;code;msdmo.dll;_MoCopyMediaType@8
+MoCreateMediaType;code;msdmo.dll;_MoCreateMediaType@8
+MoDeleteMediaType;code;msdmo.dll;_MoDeleteMediaType@4
+MoDuplicateMediaType;code;msdmo.dll;_MoDuplicateMediaType@8
+MoFreeMediaType;code;msdmo.dll;_MoFreeMediaType@4
+MoInitMediaType;code;msdmo.dll;_MoInitMediaType@8

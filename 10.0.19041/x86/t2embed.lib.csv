@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+TTCharToUnicode;code;t2embed.dll;_TTCharToUnicode@24
+TTDeleteEmbeddedFont;code;t2embed.dll;_TTDeleteEmbeddedFont@12
+TTEmbedFont;code;t2embed.dll;_TTEmbedFont@44
+TTEmbedFontEx;code;t2embed.dll;_TTEmbedFontEx@44
+TTEmbedFontFromFileA;code;t2embed.dll;_TTEmbedFontFromFileA@52
+TTEnableEmbeddingForFacename;code;t2embed.dll;_TTEnableEmbeddingForFacename@8
+TTGetEmbeddedFontInfo;code;t2embed.dll;_TTGetEmbeddedFontInfo@28
+TTGetEmbeddingType;code;t2embed.dll;_TTGetEmbeddingType@8
+TTGetNewFontName;code;t2embed.dll;_TTGetNewFontName@20
+TTIsEmbeddingEnabled;code;t2embed.dll;_TTIsEmbeddingEnabled@8
+TTIsEmbeddingEnabledForFacename;code;t2embed.dll;_TTIsEmbeddingEnabledForFacename@8
+TTLoadEmbeddedFont;code;t2embed.dll;_TTLoadEmbeddedFont@40
+TTRunValidationTests;code;t2embed.dll;_TTRunValidationTests@8
+TTRunValidationTestsEx;code;t2embed.dll;_TTRunValidationTestsEx@8

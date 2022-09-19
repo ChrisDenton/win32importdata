@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+HrAddAppxLicense;code;OEMLicense.dll;?HrAddAppxLicense@@YAJPEBG0H@Z (long __cdecl HrAddAppxLicense(unsigned short const *,unsigned short const *,int))
+HrInstallClipLicense;code;OEMLicense.dll;?HrInstallClipLicense@@YAJIPEBE@Z (long __cdecl HrInstallClipLicense(unsigned int,unsigned char const *))
+HrNotifyPhoneLicenseReady;code;OEMLicense.dll;?HrNotifyPhoneLicenseReady@@YAJPEBG@Z (long __cdecl HrNotifyPhoneLicenseReady(unsigned short const *))
+HrRemoveAppxLicense;code;OEMLicense.dll;?HrRemoveAppxLicense@@YAJPEBG0H@Z (long __cdecl HrRemoveAppxLicense(unsigned short const *,unsigned short const *,int))
+AddDemoAppLicense;code;OEMLicense.dll;
+RemoveDemoAppLicense;code;OEMLicense.dll;

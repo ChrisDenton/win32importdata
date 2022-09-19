@@ -1,0 +1,291 @@
+Name;Type;DLL;SymbolOrOrdinal
+??0CCollection@@QEAA@XZ;code;hhsetup.dll;??0CCollection@@$$hQEAA@XZ (public: __cdecl CCollection::CCollection(void))
+??0CFIFOString@@QEAA@XZ;code;hhsetup.dll;??0CFIFOString@@$$hQEAA@XZ (public: __cdecl CFIFOString::CFIFOString(void))
+??0CFolder@@QEAA@XZ;code;hhsetup.dll;??0CFolder@@$$hQEAA@XZ (public: __cdecl CFolder::CFolder(void))
+??0CLocation@@QEAA@XZ;code;hhsetup.dll;??0CLocation@@$$hQEAA@XZ (public: __cdecl CLocation::CLocation(void))
+??0CPointerList@@QEAA@XZ;code;hhsetup.dll;??0CPointerList@@$$hQEAA@XZ (public: __cdecl CPointerList::CPointerList(void))
+??0CTitle@@QEAA@XZ;code;hhsetup.dll;??0CTitle@@$$hQEAA@XZ (public: __cdecl CTitle::CTitle(void))
+??1CCollection@@QEAA@XZ;code;hhsetup.dll;??1CCollection@@$$hQEAA@XZ (public: __cdecl CCollection::~CCollection(void))
+??1CFIFOString@@QEAA@XZ;code;hhsetup.dll;??1CFIFOString@@$$hQEAA@XZ (public: __cdecl CFIFOString::~CFIFOString(void))
+??1CFolder@@QEAA@XZ;code;hhsetup.dll;??1CFolder@@$$hQEAA@XZ (public: __cdecl CFolder::~CFolder(void))
+??1CLocation@@QEAA@XZ;code;hhsetup.dll;??1CLocation@@$$hQEAA@XZ (public: __cdecl CLocation::~CLocation(void))
+??1CPointerList@@QEAA@XZ;code;hhsetup.dll;??1CPointerList@@$$hQEAA@XZ (public: __cdecl CPointerList::~CPointerList(void))
+??1CTitle@@QEAA@XZ;code;hhsetup.dll;??1CTitle@@$$hQEAA@XZ (public: __cdecl CTitle::~CTitle(void))
+??4CCollection@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;??4CCollection@@$$hQEAAAEAV0@AEBV0@@Z (public: class CCollection & __cdecl CCollection::operator=(class CCollection const &))
+??4CFIFOString@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;??4CFIFOString@@$$hQEAAAEAV0@AEBV0@@Z (public: class CFIFOString & __cdecl CFIFOString::operator=(class CFIFOString const &))
+??4CFolder@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;??4CFolder@@$$hQEAAAEAV0@AEBV0@@Z (public: class CFolder & __cdecl CFolder::operator=(class CFolder const &))
+??4CLocation@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;??4CLocation@@$$hQEAAAEAV0@AEBV0@@Z (public: class CLocation & __cdecl CLocation::operator=(class CLocation const &))
+??4CPointerList@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;??4CPointerList@@$$hQEAAAEAV0@AEBV0@@Z (public: class CPointerList & __cdecl CPointerList::operator=(class CPointerList const &))
+??4CTitle@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;??4CTitle@@$$hQEAAAEAV0@AEBV0@@Z (public: class CTitle & __cdecl CTitle::operator=(class CTitle const &))
+?Add@CPointerList@@QEAAPEAUListItem@@PEAX@Z;code;hhsetup.dll;?Add@CPointerList@@$$hQEAAPEAUListItem@@PEAX@Z (public: struct ListItem * __cdecl CPointerList::Add(void *))
+?AddChildFolder@CFolder@@QEAAKPEAV1@@Z;code;hhsetup.dll;?AddChildFolder@CFolder@@$$hQEAAKPEAV1@@Z (public: unsigned long __cdecl CFolder::AddChildFolder(class CFolder *))
+?AddChildFolder@CFolder@@QEAAPEAV1@PEBDKPEAKG@Z;code;hhsetup.dll;?AddChildFolder@CFolder@@$$hQEAAPEAV1@PEBDKPEAKG@Z (public: class CFolder * __cdecl CFolder::AddChildFolder(char const *,unsigned long,unsigned long *,unsigned short))
+?AddChildFolder@CFolder@@QEAAPEAV1@PEBGKPEAKG@Z;code;hhsetup.dll;?AddChildFolder@CFolder@@$$hQEAAPEAV1@PEBGKPEAKG@Z (public: class CFolder * __cdecl CFolder::AddChildFolder(unsigned short const *,unsigned long,unsigned long *,unsigned short))
+?AddCollection@CCollection@@QEAAPEAVCColList@@XZ;code;hhsetup.dll;?AddCollection@CCollection@@$$hQEAAPEAVCColList@@XZ (public: class CColList * __cdecl CCollection::AddCollection(void))
+?AddFolder@CCollection@@QEAAPEAVCFolder@@PEBDKPEAKG@Z;code;hhsetup.dll;?AddFolder@CCollection@@$$hQEAAPEAVCFolder@@PEBDKPEAKG@Z (public: class CFolder * __cdecl CCollection::AddFolder(char const *,unsigned long,unsigned long *,unsigned short))
+?AddFolder@CCollection@@QEAAPEAVCFolder@@PEBGKPEAKG@Z;code;hhsetup.dll;?AddFolder@CCollection@@$$hQEAAPEAVCFolder@@PEBGKPEAKG@Z (public: class CFolder * __cdecl CCollection::AddFolder(unsigned short const *,unsigned long,unsigned long *,unsigned short))
+?AddLocation@CCollection@@QEAAPEAVCLocation@@PEBD000PEAK@Z;code;hhsetup.dll;?AddLocation@CCollection@@$$hQEAAPEAVCLocation@@PEBD000PEAK@Z (public: class CLocation * __cdecl CCollection::AddLocation(char const *,char const *,char const *,char const *,unsigned long *))
+?AddLocation@CCollection@@QEAAPEAVCLocation@@PEBG000PEAK@Z;code;hhsetup.dll;?AddLocation@CCollection@@$$hQEAAPEAVCLocation@@PEBG000PEAK@Z (public: class CLocation * __cdecl CCollection::AddLocation(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long *))
+?AddLocationHistory@CTitle@@QEAAKKPEBD00PEBVCLocation@@00H@Z;code;hhsetup.dll;?AddLocationHistory@CTitle@@$$hQEAAKKPEBD00PEBVCLocation@@00H@Z (public: unsigned long __cdecl CTitle::AddLocationHistory(unsigned long,char const *,char const *,char const *,class CLocation const *,char const *,char const *,int))
+?AddLocationHistory@CTitle@@QEAAKKPEBG00PEBVCLocation@@00H@Z;code;hhsetup.dll;?AddLocationHistory@CTitle@@$$hQEAAKKPEBG00PEBVCLocation@@00H@Z (public: unsigned long __cdecl CTitle::AddLocationHistory(unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,class CLocation const *,unsigned short const *,unsigned short const *,int))
+?AddRef@CCollection@@QEAAXXZ;code;hhsetup.dll;?AddRef@CCollection@@$$hQEAAXXZ (public: void __cdecl CCollection::AddRef(void))
+?AddRefedTitle@CCollection@@AEAAKPEAVCFolder@@@Z;code;hhsetup.dll;?AddRefedTitle@CCollection@@$$hAEAAKPEAVCFolder@@@Z (private: unsigned long __cdecl CCollection::AddRefedTitle(class CFolder *))
+?AddTail@CFIFOString@@QEAAKPEAD@Z;code;hhsetup.dll;?AddTail@CFIFOString@@$$hQEAAKPEAD@Z (public: unsigned long __cdecl CFIFOString::AddTail(char *))
+?AddTitle@CCollection@@QEAAPEAVCTitle@@PEBD0000GIPEAVCLocation@@PEAKH0@Z;code;hhsetup.dll;?AddTitle@CCollection@@$$hQEAAPEAVCTitle@@PEBD0000GIPEAVCLocation@@PEAKH0@Z (public: class CTitle * __cdecl CCollection::AddTitle(char const *,char const *,char const *,char const *,char const *,unsigned short,unsigned int,class CLocation *,unsigned long *,int,char const *))
+?AddTitle@CCollection@@QEAAPEAVCTitle@@PEBG0000GIPEAVCLocation@@PEAKH0@Z;code;hhsetup.dll;?AddTitle@CCollection@@$$hQEAAPEAVCTitle@@PEBG0000GIPEAVCLocation@@PEAKH0@Z (public: class CTitle * __cdecl CCollection::AddTitle(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short,unsigned int,class CLocation *,unsigned long *,int,unsigned short const *))
+?AllocCopyValue@CCollection@@AEAAKPEAVCParseXML@@PEADPEAPEAD@Z;code;hhsetup.dll;?AllocCopyValue@CCollection@@$$hAEAAKPEAVCParseXML@@PEADPEAPEAD@Z (private: unsigned long __cdecl CCollection::AllocCopyValue(class CParseXML *,char *,char * *))
+?AllocSetValue@@YAKPEBDPEAPEAD@Z;code;hhsetup.dll;?AllocSetValue@@$$hYAKPEBDPEAPEAD@Z (unsigned long __cdecl AllocSetValue(char const *,char * *))
+?CheckTitleRef@CCollection@@AEAAKPEBDG@Z;code;hhsetup.dll;?CheckTitleRef@CCollection@@$$hAEAAKPEBDG@Z (private: unsigned long __cdecl CCollection::CheckTitleRef(char const *,unsigned short))
+?CheckTitleRef@CCollection@@AEAAKPEBGG@Z;code;hhsetup.dll;?CheckTitleRef@CCollection@@$$hAEAAKPEBGG@Z (private: unsigned long __cdecl CCollection::CheckTitleRef(unsigned short const *,unsigned short))
+?Close@CCollection@@QEAAKXZ;code;hhsetup.dll;?Close@CCollection@@$$hQEAAKXZ (public: unsigned long __cdecl CCollection::Close(void))
+?ConfirmTitles@CCollection@@QEAAXXZ;code;hhsetup.dll;?ConfirmTitles@CCollection@@$$hQEAAXXZ (public: void __cdecl CCollection::ConfirmTitles(void))
+?DecrementRefTitleCount@CCollection@@QEAAXXZ;code;hhsetup.dll;?DecrementRefTitleCount@CCollection@@$$hQEAAXXZ (public: void __cdecl CCollection::DecrementRefTitleCount(void))
+?DeleteChildren@CCollection@@AEAAXPEAPEAVCFolder@@@Z;code;hhsetup.dll;?DeleteChildren@CCollection@@$$hAEAAXPEAPEAVCFolder@@@Z (private: void __cdecl CCollection::DeleteChildren(class CFolder * *))
+?DeleteFolder@CCollection@@QEAAKPEAVCFolder@@@Z;code;hhsetup.dll;?DeleteFolder@CCollection@@$$hQEAAKPEAVCFolder@@@Z (public: unsigned long __cdecl CCollection::DeleteFolder(class CFolder *))
+?DeleteFolders@CCollection@@AEAAXPEAPEAVCFolder@@@Z;code;hhsetup.dll;?DeleteFolders@CCollection@@$$hAEAAXPEAPEAVCFolder@@@Z (private: void __cdecl CCollection::DeleteFolders(class CFolder * *))
+?DeleteLocalFiles@CCollection@@AEAAXPEAULocationHistory@@PEAVCTitle@@@Z;code;hhsetup.dll;?DeleteLocalFiles@CCollection@@$$hAEAAXPEAULocationHistory@@PEAVCTitle@@@Z (private: void __cdecl CCollection::DeleteLocalFiles(struct LocationHistory *,class CTitle *))
+?DeleteLocation@CCollection@@AEAAKPEAVCLocation@@@Z;code;hhsetup.dll;?DeleteLocation@CCollection@@$$hAEAAKPEAVCLocation@@@Z (private: unsigned long __cdecl CCollection::DeleteLocation(class CLocation *))
+?DeleteTitle@CCollection@@AEAAKPEAVCTitle@@@Z;code;hhsetup.dll;?DeleteTitle@CCollection@@$$hAEAAKPEAVCTitle@@@Z (private: unsigned long __cdecl CCollection::DeleteTitle(class CTitle *))
+?Dirty@CCollection@@QEAAXXZ;code;hhsetup.dll;?Dirty@CCollection@@$$hQEAAXXZ (public: void __cdecl CCollection::Dirty(void))
+?FindCollection@CCollection@@QEAAPEAVCColList@@PEBD@Z;code;hhsetup.dll;?FindCollection@CCollection@@$$hQEAAPEAVCColList@@PEBD@Z (public: class CColList * __cdecl CCollection::FindCollection(char const *))
+?FindLocation@CCollection@@QEAAPEAVCLocation@@PEBDPEAI@Z;code;hhsetup.dll;?FindLocation@CCollection@@$$hQEAAPEAVCLocation@@PEBDPEAI@Z (public: class CLocation * __cdecl CCollection::FindLocation(char const *,unsigned int *))
+?FindLocation@CCollection@@QEAAPEAVCLocation@@PEBGPEAI@Z;code;hhsetup.dll;?FindLocation@CCollection@@$$hQEAAPEAVCLocation@@PEBGPEAI@Z (public: class CLocation * __cdecl CCollection::FindLocation(unsigned short const *,unsigned int *))
+?FindTitle@CCollection@@QEAAPEAVCTitle@@PEBDG@Z;code;hhsetup.dll;?FindTitle@CCollection@@$$hQEAAPEAVCTitle@@PEBDG@Z (public: class CTitle * __cdecl CCollection::FindTitle(char const *,unsigned short))
+?FindTitle@CCollection@@QEAAPEAVCTitle@@PEBGG@Z;code;hhsetup.dll;?FindTitle@CCollection@@$$hQEAAPEAVCTitle@@PEBGG@Z (public: class CTitle * __cdecl CCollection::FindTitle(unsigned short const *,unsigned short))
+?First@CPointerList@@QEAAPEAUListItem@@XZ;code;hhsetup.dll;?First@CPointerList@@$$hQEAAPEAUListItem@@XZ (public: struct ListItem * __cdecl CPointerList::First(void))
+?FirstLocation@CCollection@@QEAAPEAVCLocation@@XZ;code;hhsetup.dll;?FirstLocation@CCollection@@$$hQEAAPEAVCLocation@@XZ (public: class CLocation * __cdecl CCollection::FirstLocation(void))
+?GetColNo@CCollection@@QEAAKXZ;code;hhsetup.dll;?GetColNo@CCollection@@$$hQEAAKXZ (public: unsigned long __cdecl CCollection::GetColNo(void))
+?GetCollectionFileName@CCollection@@QEAAPEBDXZ;code;hhsetup.dll;?GetCollectionFileName@CCollection@@$$hQEAAPEBDXZ (public: char const * __cdecl CCollection::GetCollectionFileName(void))
+?GetCollectionFileNameW@CCollection@@QEAAPEBGXZ;code;hhsetup.dll;?GetCollectionFileNameW@CCollection@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CCollection::GetCollectionFileNameW(void))
+?GetFindMergedCHMS@CCollection@@QEAAHXZ;code;hhsetup.dll;?GetFindMergedCHMS@CCollection@@$$hQEAAHXZ (public: int __cdecl CCollection::GetFindMergedCHMS(void))
+?GetFirstChildFolder@CFolder@@QEAAPEAV1@XZ;code;hhsetup.dll;?GetFirstChildFolder@CFolder@@$$hQEAAPEAV1@XZ (public: class CFolder * __cdecl CFolder::GetFirstChildFolder(void))
+?GetFirstTitle@CCollection@@QEAAPEAVCTitle@@XZ;code;hhsetup.dll;?GetFirstTitle@CCollection@@$$hQEAAPEAVCTitle@@XZ (public: class CTitle * __cdecl CCollection::GetFirstTitle(void))
+?GetId@CLocation@@QEBAPEADXZ;code;hhsetup.dll;?GetId@CLocation@@$$hQEBAPEADXZ (public: char * __cdecl CLocation::GetId(void)const )
+?GetId@CTitle@@QEAAPEADXZ;code;hhsetup.dll;?GetId@CTitle@@$$hQEAAPEADXZ (public: char * __cdecl CTitle::GetId(void))
+?GetIdW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;?GetIdW@CLocation@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CLocation::GetIdW(void))
+?GetIdW@CTitle@@QEAAPEBGXZ;code;hhsetup.dll;?GetIdW@CTitle@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CTitle::GetIdW(void))
+?GetLangId@CCollection@@QEAAGPEBD@Z;code;hhsetup.dll;?GetLangId@CCollection@@$$hQEAAGPEBD@Z (public: unsigned short __cdecl CCollection::GetLangId(char const *))
+?GetLangId@CCollection@@QEAAGPEBG@Z;code;hhsetup.dll;?GetLangId@CCollection@@$$hQEAAGPEBG@Z (public: unsigned short __cdecl CCollection::GetLangId(unsigned short const *))
+?GetLanguage@CFolder@@QEAAGXZ;code;hhsetup.dll;?GetLanguage@CFolder@@$$hQEAAGXZ (public: unsigned short __cdecl CFolder::GetLanguage(void))
+?GetLanguage@CTitle@@QEAAGXZ;code;hhsetup.dll;?GetLanguage@CTitle@@$$hQEAAGXZ (public: unsigned short __cdecl CTitle::GetLanguage(void))
+?GetLocation@CTitle@@QEAAPEAULocationHistory@@K@Z;code;hhsetup.dll;?GetLocation@CTitle@@$$hQEAAPEAULocationHistory@@K@Z (public: struct LocationHistory * __cdecl CTitle::GetLocation(unsigned long))
+?GetMasterCHM@CCollection@@QEAAHPEAPEADPEAG@Z;code;hhsetup.dll;?GetMasterCHM@CCollection@@$$hQEAAHPEAPEADPEAG@Z (public: int __cdecl CCollection::GetMasterCHM(char * *,unsigned short *))
+?GetMasterCHM@CCollection@@QEAAHPEAPEAGPEAG@Z;code;hhsetup.dll;?GetMasterCHM@CCollection@@$$hQEAAHPEAPEAGPEAG@Z (public: int __cdecl CCollection::GetMasterCHM(unsigned short * *,unsigned short *))
+?GetNextFolder@CFolder@@QEAAPEAV1@XZ;code;hhsetup.dll;?GetNextFolder@CFolder@@$$hQEAAPEAV1@XZ (public: class CFolder * __cdecl CFolder::GetNextFolder(void))
+?GetNextLocation@CLocation@@QEAAPEAV1@XZ;code;hhsetup.dll;?GetNextLocation@CLocation@@$$hQEAAPEAV1@XZ (public: class CLocation * __cdecl CLocation::GetNextLocation(void))
+?GetNextTitle@CTitle@@QEAAPEAV1@XZ;code;hhsetup.dll;?GetNextTitle@CTitle@@$$hQEAAPEAV1@XZ (public: class CTitle * __cdecl CTitle::GetNextTitle(void))
+?GetOrder@CFolder@@QEAAKXZ;code;hhsetup.dll;?GetOrder@CFolder@@$$hQEAAKXZ (public: unsigned long __cdecl CFolder::GetOrder(void))
+?GetParent@CFolder@@QEAAPEAV1@XZ;code;hhsetup.dll;?GetParent@CFolder@@$$hQEAAPEAV1@XZ (public: class CFolder * __cdecl CFolder::GetParent(void))
+?GetPath@CLocation@@QEAAPEADXZ;code;hhsetup.dll;?GetPath@CLocation@@$$hQEAAPEADXZ (public: char * __cdecl CLocation::GetPath(void))
+?GetPathW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;?GetPathW@CLocation@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CLocation::GetPathW(void))
+?GetRefTitleCount@CCollection@@QEAAKXZ;code;hhsetup.dll;?GetRefTitleCount@CCollection@@$$hQEAAKXZ (public: unsigned long __cdecl CCollection::GetRefTitleCount(void))
+?GetRootFolder@CCollection@@QEAAPEAVCFolder@@XZ;code;hhsetup.dll;?GetRootFolder@CCollection@@$$hQEAAPEAVCFolder@@XZ (public: class CFolder * __cdecl CCollection::GetRootFolder(void))
+?GetSampleLocation@CCollection@@QEAAPEADXZ;code;hhsetup.dll;?GetSampleLocation@CCollection@@$$hQEAAPEADXZ (public: char * __cdecl CCollection::GetSampleLocation(void))
+?GetSampleLocationW@CCollection@@QEAAPEBGXZ;code;hhsetup.dll;?GetSampleLocationW@CCollection@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CCollection::GetSampleLocationW(void))
+?GetTail@CFIFOString@@QEAAKPEAPEAD@Z;code;hhsetup.dll;?GetTail@CFIFOString@@$$hQEAAKPEAPEAD@Z (public: unsigned long __cdecl CFIFOString::GetTail(char * *))
+?GetTitle@CFolder@@QEAAPEADXZ;code;hhsetup.dll;?GetTitle@CFolder@@$$hQEAAPEADXZ (public: char * __cdecl CFolder::GetTitle(void))
+?GetTitle@CLocation@@QEAAPEADXZ;code;hhsetup.dll;?GetTitle@CLocation@@$$hQEAAPEADXZ (public: char * __cdecl CLocation::GetTitle(void))
+?GetTitleW@CFolder@@QEAAPEBGXZ;code;hhsetup.dll;?GetTitleW@CFolder@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CFolder::GetTitleW(void))
+?GetTitleW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;?GetTitleW@CLocation@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CLocation::GetTitleW(void))
+?GetVersion@CCollection@@QEAAKXZ;code;hhsetup.dll;?GetVersion@CCollection@@$$hQEAAKXZ (public: unsigned long __cdecl CCollection::GetVersion(void))
+?GetVisableRootFolder@CCollection@@QEAAPEAVCFolder@@XZ;code;hhsetup.dll;?GetVisableRootFolder@CCollection@@$$hQEAAPEAVCFolder@@XZ (public: class CFolder * __cdecl CCollection::GetVisableRootFolder(void))
+?GetVolume@CLocation@@QEAAPEADXZ;code;hhsetup.dll;?GetVolume@CLocation@@$$hQEAAPEADXZ (public: char * __cdecl CLocation::GetVolume(void))
+?GetVolumeW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;?GetVolumeW@CLocation@@$$hQEAAPEBGXZ (public: unsigned short const * __cdecl CLocation::GetVolumeW(void))
+?HandleCollection@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;?HandleCollection@CCollection@@$$hAEAAKPEAVCParseXML@@PEAD@Z (private: unsigned long __cdecl CCollection::HandleCollection(class CParseXML *,char *))
+?HandleCollectionEntry@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;?HandleCollectionEntry@CCollection@@$$hAEAAKPEAVCParseXML@@PEAD@Z (private: unsigned long __cdecl CCollection::HandleCollectionEntry(class CParseXML *,char *))
+?HandleFolder@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;?HandleFolder@CCollection@@$$hAEAAKPEAVCParseXML@@PEAD@Z (private: unsigned long __cdecl CCollection::HandleFolder(class CParseXML *,char *))
+?HandleLocation@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;?HandleLocation@CCollection@@$$hAEAAKPEAVCParseXML@@PEAD@Z (private: unsigned long __cdecl CCollection::HandleLocation(class CParseXML *,char *))
+?HandleTitle@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;?HandleTitle@CCollection@@$$hAEAAKPEAVCParseXML@@PEAD@Z (private: unsigned long __cdecl CCollection::HandleTitle(class CParseXML *,char *))
+?IncrementRefTitleCount@CCollection@@QEAAXXZ;code;hhsetup.dll;?IncrementRefTitleCount@CCollection@@$$hQEAAXXZ (public: void __cdecl CCollection::IncrementRefTitleCount(void))
+?IsDirty@CCollection@@QEAAHXZ;code;hhsetup.dll;?IsDirty@CCollection@@$$hQEAAHXZ (public: int __cdecl CCollection::IsDirty(void))
+?MergeKeywords@CCollection@@QEAAHPEAD@Z;code;hhsetup.dll;?MergeKeywords@CCollection@@$$hQEAAHPEAD@Z (public: int __cdecl CCollection::MergeKeywords(char *))
+?MergeKeywords@CCollection@@QEAAHPEAG@Z;code;hhsetup.dll;?MergeKeywords@CCollection@@$$hQEAAHPEAG@Z (public: int __cdecl CCollection::MergeKeywords(unsigned short *))
+?NewLocation@CCollection@@AEAAPEAVCLocation@@XZ;code;hhsetup.dll;?NewLocation@CCollection@@$$hAEAAPEAVCLocation@@XZ (private: class CLocation * __cdecl CCollection::NewLocation(void))
+?NewLocationHistory@CTitle@@QEAAPEAULocationHistory@@XZ;code;hhsetup.dll;?NewLocationHistory@CTitle@@$$hQEAAPEAULocationHistory@@XZ (public: struct LocationHistory * __cdecl CTitle::NewLocationHistory(void))
+?NewTitle@CCollection@@AEAAPEAVCTitle@@XZ;code;hhsetup.dll;?NewTitle@CCollection@@$$hAEAAPEAVCTitle@@XZ (private: class CTitle * __cdecl CCollection::NewTitle(void))
+?Next@CPointerList@@QEAAPEAUListItem@@PEAU2@@Z;code;hhsetup.dll;?Next@CPointerList@@$$hQEAAPEAUListItem@@PEAU2@@Z (public: struct ListItem * __cdecl CPointerList::Next(struct ListItem *))
+?Open@CCollection@@QEAAKPEBD@Z;code;hhsetup.dll;?Open@CCollection@@$$hQEAAKPEBD@Z (public: unsigned long __cdecl CCollection::Open(char const *))
+?Open@CCollection@@QEAAKPEBG@Z;code;hhsetup.dll;?Open@CCollection@@$$hQEAAKPEBG@Z (public: unsigned long __cdecl CCollection::Open(unsigned short const *))
+?ParseFile@CCollection@@AEAAKPEBD@Z;code;hhsetup.dll;?ParseFile@CCollection@@$$hAEAAKPEBD@Z (private: unsigned long __cdecl CCollection::ParseFile(char const *))
+?Release@CCollection@@AEAAKXZ;code;hhsetup.dll;?Release@CCollection@@$$hAEAAKXZ (private: unsigned long __cdecl CCollection::Release(void))
+?RemoveAll@CFIFOString@@QEAAXXZ;code;hhsetup.dll;?RemoveAll@CFIFOString@@$$hQEAAXXZ (public: void __cdecl CFIFOString::RemoveAll(void))
+?RemoveAll@CPointerList@@QEAAXXZ;code;hhsetup.dll;?RemoveAll@CPointerList@@$$hQEAAXXZ (public: void __cdecl CPointerList::RemoveAll(void))
+?RemoveCollection@CCollection@@QEAAKH@Z;code;hhsetup.dll;?RemoveCollection@CCollection@@$$hQEAAKH@Z (public: unsigned long __cdecl CCollection::RemoveCollection(int))
+?RemoveCollectionEntry@CCollection@@QEAAXPEBD@Z;code;hhsetup.dll;?RemoveCollectionEntry@CCollection@@$$hQEAAXPEBD@Z (public: void __cdecl CCollection::RemoveCollectionEntry(char const *))
+?Save@CCollection@@QEAAKXZ;code;hhsetup.dll;?Save@CCollection@@$$hQEAAKXZ (public: unsigned long __cdecl CCollection::Save(void))
+?SetExTitlePtr@CFolder@@QEAAXPEAVCExTitle@@@Z;code;hhsetup.dll;?SetExTitlePtr@CFolder@@$$hQEAAXPEAVCExTitle@@@Z (public: void __cdecl CFolder::SetExTitlePtr(class CExTitle *))
+?SetFindMergedCHMS@CCollection@@QEAAXH@Z;code;hhsetup.dll;?SetFindMergedCHMS@CCollection@@$$hQEAAXH@Z (public: void __cdecl CCollection::SetFindMergedCHMS(int))
+?SetFirstChildFolder@CFolder@@QEAAXPEAV1@@Z;code;hhsetup.dll;?SetFirstChildFolder@CFolder@@$$hQEAAXPEAV1@@Z (public: void __cdecl CFolder::SetFirstChildFolder(class CFolder *))
+?SetId@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;?SetId@CLocation@@$$hQEAAXPEBD@Z (public: void __cdecl CLocation::SetId(char const *))
+?SetId@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;?SetId@CLocation@@$$hQEAAXPEBG@Z (public: void __cdecl CLocation::SetId(unsigned short const *))
+?SetId@CTitle@@QEAAXPEBD@Z;code;hhsetup.dll;?SetId@CTitle@@$$hQEAAXPEBD@Z (public: void __cdecl CTitle::SetId(char const *))
+?SetId@CTitle@@QEAAXPEBG@Z;code;hhsetup.dll;?SetId@CTitle@@$$hQEAAXPEBG@Z (public: void __cdecl CTitle::SetId(unsigned short const *))
+?SetLanguage@CFolder@@QEAAXG@Z;code;hhsetup.dll;?SetLanguage@CFolder@@$$hQEAAXG@Z (public: void __cdecl CFolder::SetLanguage(unsigned short))
+?SetLanguage@CTitle@@QEAAXG@Z;code;hhsetup.dll;?SetLanguage@CTitle@@$$hQEAAXG@Z (public: void __cdecl CTitle::SetLanguage(unsigned short))
+?SetMasterCHM@CCollection@@QEAAXPEBDG@Z;code;hhsetup.dll;?SetMasterCHM@CCollection@@$$hQEAAXPEBDG@Z (public: void __cdecl CCollection::SetMasterCHM(char const *,unsigned short))
+?SetMasterCHM@CCollection@@QEAAXPEBGG@Z;code;hhsetup.dll;?SetMasterCHM@CCollection@@$$hQEAAXPEBGG@Z (public: void __cdecl CCollection::SetMasterCHM(unsigned short const *,unsigned short))
+?SetNextFolder@CFolder@@QEAAXPEAV1@@Z;code;hhsetup.dll;?SetNextFolder@CFolder@@$$hQEAAXPEAV1@@Z (public: void __cdecl CFolder::SetNextFolder(class CFolder *))
+?SetNextLocation@CLocation@@QEAAXPEAV1@@Z;code;hhsetup.dll;?SetNextLocation@CLocation@@$$hQEAAXPEAV1@@Z (public: void __cdecl CLocation::SetNextLocation(class CLocation *))
+?SetNextTitle@CTitle@@QEAAXPEAV1@@Z;code;hhsetup.dll;?SetNextTitle@CTitle@@$$hQEAAXPEAV1@@Z (public: void __cdecl CTitle::SetNextTitle(class CTitle *))
+?SetOrder@CFolder@@QEAAXK@Z;code;hhsetup.dll;?SetOrder@CFolder@@$$hQEAAXK@Z (public: void __cdecl CFolder::SetOrder(unsigned long))
+?SetParent@CFolder@@QEAAXPEAV1@@Z;code;hhsetup.dll;?SetParent@CFolder@@$$hQEAAXPEAV1@@Z (public: void __cdecl CFolder::SetParent(class CFolder *))
+?SetPath@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;?SetPath@CLocation@@$$hQEAAXPEBD@Z (public: void __cdecl CLocation::SetPath(char const *))
+?SetPath@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;?SetPath@CLocation@@$$hQEAAXPEBG@Z (public: void __cdecl CLocation::SetPath(unsigned short const *))
+?SetSampleLocation@CCollection@@QEAAXPEBD@Z;code;hhsetup.dll;?SetSampleLocation@CCollection@@$$hQEAAXPEBD@Z (public: void __cdecl CCollection::SetSampleLocation(char const *))
+?SetSampleLocation@CCollection@@QEAAXPEBG@Z;code;hhsetup.dll;?SetSampleLocation@CCollection@@$$hQEAAXPEBG@Z (public: void __cdecl CCollection::SetSampleLocation(unsigned short const *))
+?SetTitle@CFolder@@QEAAXPEBD@Z;code;hhsetup.dll;?SetTitle@CFolder@@$$hQEAAXPEBD@Z (public: void __cdecl CFolder::SetTitle(char const *))
+?SetTitle@CFolder@@QEAAXPEBG@Z;code;hhsetup.dll;?SetTitle@CFolder@@$$hQEAAXPEBG@Z (public: void __cdecl CFolder::SetTitle(unsigned short const *))
+?SetTitle@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;?SetTitle@CLocation@@$$hQEAAXPEBD@Z (public: void __cdecl CLocation::SetTitle(char const *))
+?SetTitle@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;?SetTitle@CLocation@@$$hQEAAXPEBG@Z (public: void __cdecl CLocation::SetTitle(unsigned short const *))
+?SetVersion@CCollection@@QEAAXK@Z;code;hhsetup.dll;?SetVersion@CCollection@@$$hQEAAXK@Z (public: void __cdecl CCollection::SetVersion(unsigned long))
+?SetVolume@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;?SetVolume@CLocation@@$$hQEAAXPEBD@Z (public: void __cdecl CLocation::SetVolume(char const *))
+?SetVolume@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;?SetVolume@CLocation@@$$hQEAAXPEBG@Z (public: void __cdecl CLocation::SetVolume(unsigned short const *))
+?WriteFolder@CCollection@@AEAAHPEAPEAVCFolder@@@Z;code;hhsetup.dll;?WriteFolder@CCollection@@$$hAEAAHPEAPEAVCFolder@@@Z (private: int __cdecl CCollection::WriteFolder(class CFolder * *))
+?WriteFolders@CCollection@@AEAAHPEAPEAVCFolder@@@Z;code;hhsetup.dll;?WriteFolders@CCollection@@$$hAEAAHPEAPEAVCFolder@@@Z (private: int __cdecl CCollection::WriteFolders(class CFolder * *))
+?bIsVisable@CFolder@@QEAAHXZ;code;hhsetup.dll;?bIsVisable@CFolder@@$$hQEAAHXZ (public: int __cdecl CFolder::bIsVisable(void))
+?wssResetNextColNum@CCollection@@AEAAXXZ;code;hhsetup.dll;?wssResetNextColNum@CCollection@@$$hAEAAXXZ (private: void __cdecl CCollection::wssResetNextColNum(void))
+??0CCollection@@QEAA@XZ;code;hhsetup.dll;
+??0CFIFOString@@QEAA@XZ;code;hhsetup.dll;
+??0CFolder@@QEAA@XZ;code;hhsetup.dll;
+??0CLocation@@QEAA@XZ;code;hhsetup.dll;
+??0CPointerList@@QEAA@XZ;code;hhsetup.dll;
+??0CTitle@@QEAA@XZ;code;hhsetup.dll;
+??1CCollection@@QEAA@XZ;code;hhsetup.dll;
+??1CFIFOString@@QEAA@XZ;code;hhsetup.dll;
+??1CFolder@@QEAA@XZ;code;hhsetup.dll;
+??1CLocation@@QEAA@XZ;code;hhsetup.dll;
+??1CPointerList@@QEAA@XZ;code;hhsetup.dll;
+??1CTitle@@QEAA@XZ;code;hhsetup.dll;
+??4CCollection@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;
+??4CFIFOString@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;
+??4CFolder@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;
+??4CLocation@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;
+??4CPointerList@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;
+??4CTitle@@QEAAAEAV0@AEBV0@@Z;code;hhsetup.dll;
+?Add@CPointerList@@QEAAPEAUListItem@@PEAX@Z;code;hhsetup.dll;
+?AddChildFolder@CFolder@@QEAAKPEAV1@@Z;code;hhsetup.dll;
+?AddChildFolder@CFolder@@QEAAPEAV1@PEBDKPEAKG@Z;code;hhsetup.dll;
+?AddChildFolder@CFolder@@QEAAPEAV1@PEBGKPEAKG@Z;code;hhsetup.dll;
+?AddCollection@CCollection@@QEAAPEAVCColList@@XZ;code;hhsetup.dll;
+?AddFolder@CCollection@@QEAAPEAVCFolder@@PEBDKPEAKG@Z;code;hhsetup.dll;
+?AddFolder@CCollection@@QEAAPEAVCFolder@@PEBGKPEAKG@Z;code;hhsetup.dll;
+?AddLocation@CCollection@@QEAAPEAVCLocation@@PEBD000PEAK@Z;code;hhsetup.dll;
+?AddLocation@CCollection@@QEAAPEAVCLocation@@PEBG000PEAK@Z;code;hhsetup.dll;
+?AddLocationHistory@CTitle@@QEAAKKPEBD00PEBVCLocation@@00H@Z;code;hhsetup.dll;
+?AddLocationHistory@CTitle@@QEAAKKPEBG00PEBVCLocation@@00H@Z;code;hhsetup.dll;
+?AddRef@CCollection@@QEAAXXZ;code;hhsetup.dll;
+?AddRefedTitle@CCollection@@AEAAKPEAVCFolder@@@Z;code;hhsetup.dll;
+?AddTail@CFIFOString@@QEAAKPEAD@Z;code;hhsetup.dll;
+?AddTitle@CCollection@@QEAAPEAVCTitle@@PEBD0000GIPEAVCLocation@@PEAKH0@Z;code;hhsetup.dll;
+?AddTitle@CCollection@@QEAAPEAVCTitle@@PEBG0000GIPEAVCLocation@@PEAKH0@Z;code;hhsetup.dll;
+?AllocCopyValue@CCollection@@AEAAKPEAVCParseXML@@PEADPEAPEAD@Z;code;hhsetup.dll;
+?AllocSetValue@@YAKPEBDPEAPEAD@Z;code;hhsetup.dll;
+?CheckTitleRef@CCollection@@AEAAKPEBDG@Z;code;hhsetup.dll;
+?CheckTitleRef@CCollection@@AEAAKPEBGG@Z;code;hhsetup.dll;
+?Close@CCollection@@QEAAKXZ;code;hhsetup.dll;
+?ConfirmTitles@CCollection@@QEAAXXZ;code;hhsetup.dll;
+?DecrementRefTitleCount@CCollection@@QEAAXXZ;code;hhsetup.dll;
+?DeleteChildren@CCollection@@AEAAXPEAPEAVCFolder@@@Z;code;hhsetup.dll;
+?DeleteFolder@CCollection@@QEAAKPEAVCFolder@@@Z;code;hhsetup.dll;
+?DeleteFolders@CCollection@@AEAAXPEAPEAVCFolder@@@Z;code;hhsetup.dll;
+?DeleteLocalFiles@CCollection@@AEAAXPEAULocationHistory@@PEAVCTitle@@@Z;code;hhsetup.dll;
+?DeleteLocation@CCollection@@AEAAKPEAVCLocation@@@Z;code;hhsetup.dll;
+?DeleteTitle@CCollection@@AEAAKPEAVCTitle@@@Z;code;hhsetup.dll;
+?Dirty@CCollection@@QEAAXXZ;code;hhsetup.dll;
+?FindCollection@CCollection@@QEAAPEAVCColList@@PEBD@Z;code;hhsetup.dll;
+?FindLocation@CCollection@@QEAAPEAVCLocation@@PEBDPEAI@Z;code;hhsetup.dll;
+?FindLocation@CCollection@@QEAAPEAVCLocation@@PEBGPEAI@Z;code;hhsetup.dll;
+?FindTitle@CCollection@@QEAAPEAVCTitle@@PEBDG@Z;code;hhsetup.dll;
+?FindTitle@CCollection@@QEAAPEAVCTitle@@PEBGG@Z;code;hhsetup.dll;
+?First@CPointerList@@QEAAPEAUListItem@@XZ;code;hhsetup.dll;
+?FirstLocation@CCollection@@QEAAPEAVCLocation@@XZ;code;hhsetup.dll;
+?GetColNo@CCollection@@QEAAKXZ;code;hhsetup.dll;
+?GetCollectionFileName@CCollection@@QEAAPEBDXZ;code;hhsetup.dll;
+?GetCollectionFileNameW@CCollection@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetFindMergedCHMS@CCollection@@QEAAHXZ;code;hhsetup.dll;
+?GetFirstChildFolder@CFolder@@QEAAPEAV1@XZ;code;hhsetup.dll;
+?GetFirstTitle@CCollection@@QEAAPEAVCTitle@@XZ;code;hhsetup.dll;
+?GetId@CLocation@@QEBAPEADXZ;code;hhsetup.dll;
+?GetId@CTitle@@QEAAPEADXZ;code;hhsetup.dll;
+?GetIdW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetIdW@CTitle@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetLangId@CCollection@@QEAAGPEBD@Z;code;hhsetup.dll;
+?GetLangId@CCollection@@QEAAGPEBG@Z;code;hhsetup.dll;
+?GetLanguage@CFolder@@QEAAGXZ;code;hhsetup.dll;
+?GetLanguage@CTitle@@QEAAGXZ;code;hhsetup.dll;
+?GetLocation@CTitle@@QEAAPEAULocationHistory@@K@Z;code;hhsetup.dll;
+?GetMasterCHM@CCollection@@QEAAHPEAPEADPEAG@Z;code;hhsetup.dll;
+?GetMasterCHM@CCollection@@QEAAHPEAPEAGPEAG@Z;code;hhsetup.dll;
+?GetNextFolder@CFolder@@QEAAPEAV1@XZ;code;hhsetup.dll;
+?GetNextLocation@CLocation@@QEAAPEAV1@XZ;code;hhsetup.dll;
+?GetNextTitle@CTitle@@QEAAPEAV1@XZ;code;hhsetup.dll;
+?GetOrder@CFolder@@QEAAKXZ;code;hhsetup.dll;
+?GetParent@CFolder@@QEAAPEAV1@XZ;code;hhsetup.dll;
+?GetPath@CLocation@@QEAAPEADXZ;code;hhsetup.dll;
+?GetPathW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetRefTitleCount@CCollection@@QEAAKXZ;code;hhsetup.dll;
+?GetRootFolder@CCollection@@QEAAPEAVCFolder@@XZ;code;hhsetup.dll;
+?GetSampleLocation@CCollection@@QEAAPEADXZ;code;hhsetup.dll;
+?GetSampleLocationW@CCollection@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetTail@CFIFOString@@QEAAKPEAPEAD@Z;code;hhsetup.dll;
+?GetTitle@CFolder@@QEAAPEADXZ;code;hhsetup.dll;
+?GetTitle@CLocation@@QEAAPEADXZ;code;hhsetup.dll;
+?GetTitleW@CFolder@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetTitleW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;
+?GetVersion@CCollection@@QEAAKXZ;code;hhsetup.dll;
+?GetVisableRootFolder@CCollection@@QEAAPEAVCFolder@@XZ;code;hhsetup.dll;
+?GetVolume@CLocation@@QEAAPEADXZ;code;hhsetup.dll;
+?GetVolumeW@CLocation@@QEAAPEBGXZ;code;hhsetup.dll;
+?HandleCollection@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;
+?HandleCollectionEntry@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;
+?HandleFolder@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;
+?HandleLocation@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;
+?HandleTitle@CCollection@@AEAAKPEAVCParseXML@@PEAD@Z;code;hhsetup.dll;
+?IncrementRefTitleCount@CCollection@@QEAAXXZ;code;hhsetup.dll;
+?IsDirty@CCollection@@QEAAHXZ;code;hhsetup.dll;
+?MergeKeywords@CCollection@@QEAAHPEAD@Z;code;hhsetup.dll;
+?MergeKeywords@CCollection@@QEAAHPEAG@Z;code;hhsetup.dll;
+?NewLocation@CCollection@@AEAAPEAVCLocation@@XZ;code;hhsetup.dll;
+?NewLocationHistory@CTitle@@QEAAPEAULocationHistory@@XZ;code;hhsetup.dll;
+?NewTitle@CCollection@@AEAAPEAVCTitle@@XZ;code;hhsetup.dll;
+?Next@CPointerList@@QEAAPEAUListItem@@PEAU2@@Z;code;hhsetup.dll;
+?Open@CCollection@@QEAAKPEBD@Z;code;hhsetup.dll;
+?Open@CCollection@@QEAAKPEBG@Z;code;hhsetup.dll;
+?ParseFile@CCollection@@AEAAKPEBD@Z;code;hhsetup.dll;
+?Release@CCollection@@AEAAKXZ;code;hhsetup.dll;
+?RemoveAll@CFIFOString@@QEAAXXZ;code;hhsetup.dll;
+?RemoveAll@CPointerList@@QEAAXXZ;code;hhsetup.dll;
+?RemoveCollection@CCollection@@QEAAKH@Z;code;hhsetup.dll;
+?RemoveCollectionEntry@CCollection@@QEAAXPEBD@Z;code;hhsetup.dll;
+?Save@CCollection@@QEAAKXZ;code;hhsetup.dll;
+?SetExTitlePtr@CFolder@@QEAAXPEAVCExTitle@@@Z;code;hhsetup.dll;
+?SetFindMergedCHMS@CCollection@@QEAAXH@Z;code;hhsetup.dll;
+?SetFirstChildFolder@CFolder@@QEAAXPEAV1@@Z;code;hhsetup.dll;
+?SetId@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetId@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;
+?SetId@CTitle@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetId@CTitle@@QEAAXPEBG@Z;code;hhsetup.dll;
+?SetLanguage@CFolder@@QEAAXG@Z;code;hhsetup.dll;
+?SetLanguage@CTitle@@QEAAXG@Z;code;hhsetup.dll;
+?SetMasterCHM@CCollection@@QEAAXPEBDG@Z;code;hhsetup.dll;
+?SetMasterCHM@CCollection@@QEAAXPEBGG@Z;code;hhsetup.dll;
+?SetNextFolder@CFolder@@QEAAXPEAV1@@Z;code;hhsetup.dll;
+?SetNextLocation@CLocation@@QEAAXPEAV1@@Z;code;hhsetup.dll;
+?SetNextTitle@CTitle@@QEAAXPEAV1@@Z;code;hhsetup.dll;
+?SetOrder@CFolder@@QEAAXK@Z;code;hhsetup.dll;
+?SetParent@CFolder@@QEAAXPEAV1@@Z;code;hhsetup.dll;
+?SetPath@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetPath@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;
+?SetSampleLocation@CCollection@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetSampleLocation@CCollection@@QEAAXPEBG@Z;code;hhsetup.dll;
+?SetTitle@CFolder@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetTitle@CFolder@@QEAAXPEBG@Z;code;hhsetup.dll;
+?SetTitle@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetTitle@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;
+?SetVersion@CCollection@@QEAAXK@Z;code;hhsetup.dll;
+?SetVolume@CLocation@@QEAAXPEBD@Z;code;hhsetup.dll;
+?SetVolume@CLocation@@QEAAXPEBG@Z;code;hhsetup.dll;
+?WriteFolder@CCollection@@AEAAHPEAPEAVCFolder@@@Z;code;hhsetup.dll;
+?WriteFolders@CCollection@@AEAAHPEAPEAVCFolder@@@Z;code;hhsetup.dll;
+?bIsVisable@CFolder@@QEAAHXZ;code;hhsetup.dll;
+?wssResetNextColNum@CCollection@@AEAAXXZ;code;hhsetup.dll;

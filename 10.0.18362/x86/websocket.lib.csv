@@ -1,0 +1,14 @@
+Name;Type;DLL;SymbolOrOrdinal
+WebSocketAbortHandle;code;websocket.dll;_WebSocketAbortHandle@4
+WebSocketBeginClientHandshake;code;websocket.dll;_WebSocketBeginClientHandshake@36
+WebSocketBeginServerHandshake;code;websocket.dll;_WebSocketBeginServerHandshake@32
+WebSocketCompleteAction;code;websocket.dll;_WebSocketCompleteAction@12
+WebSocketCreateClientHandle;code;websocket.dll;_WebSocketCreateClientHandle@12
+WebSocketCreateServerHandle;code;websocket.dll;_WebSocketCreateServerHandle@12
+WebSocketDeleteHandle;code;websocket.dll;_WebSocketDeleteHandle@4
+WebSocketEndClientHandshake;code;websocket.dll;_WebSocketEndClientHandshake@24
+WebSocketEndServerHandshake;code;websocket.dll;_WebSocketEndServerHandshake@4
+WebSocketGetAction;code;websocket.dll;_WebSocketGetAction@32
+WebSocketGetGlobalProperty;code;websocket.dll;_WebSocketGetGlobalProperty@12
+WebSocketReceive;code;websocket.dll;_WebSocketReceive@12
+WebSocketSend;code;websocket.dll;_WebSocketSend@16

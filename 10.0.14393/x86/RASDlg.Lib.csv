@@ -1,0 +1,25 @@
+Name;Type;DLL;SymbolOrOrdinal
+RasHandleDiagnostics;code;RASDLG.dll;?RasHandleDiagnostics@@YGXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __stdcall RasHandleDiagnostics(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+GetRasDialOutProtocols;code;RASDLG.dll;_GetRasDialOutProtocols@0
+RasAutodialQueryDlgA;code;RASDLG.dll;_RasAutodialQueryDlgA@20
+RasAutodialQueryDlgW;code;RASDLG.dll;_RasAutodialQueryDlgW@20
+RasDialDlgA;code;RASDLG.dll;_RasDialDlgA@16
+RasDialDlgW;code;RASDLG.dll;_RasDialDlgW@16
+RasEntryDlgA;code;RASDLG.dll;_RasEntryDlgA@12
+RasEntryDlgW;code;RASDLG.dll;_RasEntryDlgW@12
+RasPhonebookDlgA;code;RASDLG.dll;_RasPhonebookDlgA@12
+RasPhonebookDlgW;code;RASDLG.dll;_RasPhonebookDlgW@12
+RasSrvAddPropPages;code;RASDLG.dll;_RasSrvAddPropPages@20
+RasSrvAllowConnectionsConfig;code;RASDLG.dll;_RasSrvAllowConnectionsConfig@4
+RasSrvCleanupService;code;RASDLG.dll;_RasSrvCleanupService@0
+RasSrvEnumConnections;code;RASDLG.dll;_RasSrvEnumConnections@12
+RasSrvHangupConnection;code;RASDLG.dll;_RasSrvHangupConnection@4
+RasSrvInitializeService;code;RASDLG.dll;_RasSrvInitializeService@0
+RasSrvIsConnectionConnected;code;RASDLG.dll;_RasSrvIsConnectionConnected@8
+RasSrvIsICConfigured;code;RASDLG.dll;_RasSrvIsICConfigured@4
+RasSrvIsServiceRunning;code;RASDLG.dll;_RasSrvIsServiceRunning@4
+RasUserEnableManualDial;code;RASDLG.dll;_RasUserEnableManualDial@12
+RasUserGetManualDial;code;RASDLG.dll;_RasUserGetManualDial@12
+RasUserPrefsDlg;code;RASDLG.dll;_RasUserPrefsDlg@4
+RouterEntryDlgA;code;RASDLG.dll;_RouterEntryDlgA@16
+RouterEntryDlgW;code;RASDLG.dll;_RouterEntryDlgW@16

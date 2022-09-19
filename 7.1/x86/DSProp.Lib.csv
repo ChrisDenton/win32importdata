@@ -1,0 +1,20 @@
+Name;Type;DLL;SymbolOrOrdinal
+CheckADsError;code;dsprop.dll;?CheckADsError@@YGHPAJHPBDHPAUHWND__@@@Z (int __stdcall CheckADsError(long *,int,char const *,int,struct HWND__ *))
+CrackName;code;dsprop.dll;?CrackName@@YGJPBGPAPAGW4CRACK_NAME_OPR@@PAUHWND__@@@Z (long __stdcall CrackName(unsigned short const *,unsigned short * *,enum CRACK_NAME_OPR,struct HWND__ *))
+DSPROP_GetGCSearchOnDomain;code;dsprop.dll;?DSPROP_GetGCSearchOnDomain@@YGJPBGABU_GUID@@PAPAX@Z (long __stdcall DSPROP_GetGCSearchOnDomain(unsigned short const *,struct _GUID const &,void * *))
+ErrMsg;code;dsprop.dll;?ErrMsg@@YGXIPAUHWND__@@@Z (void __stdcall ErrMsg(unsigned int,struct HWND__ *))
+ErrMsgParam;code;dsprop.dll;?ErrMsgParam@@YGXIJPAUHWND__@@@Z (void __stdcall ErrMsgParam(unsigned int,long,struct HWND__ *))
+FindSheet;code;dsprop.dll;?FindSheet@@YGHPBG@Z (int __stdcall FindSheet(unsigned short const *))
+MsgBox;code;dsprop.dll;?MsgBox@@YGXIPAUHWND__@@@Z (void __stdcall MsgBox(unsigned int,struct HWND__ *))
+ReportError;code;dsprop.dll;?ReportError@@YGXJHPAUHWND__@@@Z (void __stdcall ReportError(long,int,struct HWND__ *))
+Smart_PADS_ATTR_INFO__Empty;code;dsprop.dll;?Smart_PADS_ATTR_INFO__Empty@@YGXPAPAU_ads_attr_info@@@Z (void __stdcall Smart_PADS_ATTR_INFO__Empty(struct _ads_attr_info * *))
+ADsPropCheckIfWritable;code;dsprop.dll;_ADsPropCheckIfWritable@8
+ADsPropCreateNotifyObj;code;dsprop.dll;_ADsPropCreateNotifyObj@12
+ADsPropGetInitInfo;code;dsprop.dll;_ADsPropGetInitInfo@8
+ADsPropSendErrorMessage;code;dsprop.dll;_ADsPropSendErrorMessage@8
+ADsPropSetHwnd;code;dsprop.dll;_ADsPropSetHwnd@8
+ADsPropSetHwndWithTitle;code;dsprop.dll;_ADsPropSetHwndWithTitle@12
+ADsPropShowErrorDialog;code;dsprop.dll;_ADsPropShowErrorDialog@8
+BringSheetToForeground;code;dsprop.dll;_BringSheetToForeground@8
+IsSheetAlreadyUp;code;dsprop.dll;_IsSheetAlreadyUp@4
+PostADsPropSheet;code;dsprop.dll;_PostADsPropSheet@16

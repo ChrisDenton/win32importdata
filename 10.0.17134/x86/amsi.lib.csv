@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+AmsiCloseSession;code;Amsi.dll;_AmsiCloseSession@8
+AmsiInitialize;code;Amsi.dll;_AmsiInitialize@8
+AmsiOpenSession;code;Amsi.dll;_AmsiOpenSession@8
+AmsiScanBuffer;code;Amsi.dll;_AmsiScanBuffer@24
+AmsiScanString;code;Amsi.dll;_AmsiScanString@20
+AmsiUacInitialize;code;Amsi.dll;_AmsiUacInitialize@4
+AmsiUacScan;code;Amsi.dll;_AmsiUacScan@16
+AmsiUacUninitialize;code;Amsi.dll;_AmsiUacUninitialize@4
+AmsiUninitialize;code;Amsi.dll;_AmsiUninitialize@4

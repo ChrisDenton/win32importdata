@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+DirectInput8Create;code;DINPUT8.dll;_DirectInput8Create@20

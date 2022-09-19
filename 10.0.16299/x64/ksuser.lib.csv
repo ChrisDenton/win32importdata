@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+KsCreateAllocator;code;ksuser.dll;
+KsCreateAllocator2;code;ksuser.dll;
+KsCreateClock;code;ksuser.dll;
+KsCreateClock2;code;ksuser.dll;
+KsCreatePin;code;ksuser.dll;
+KsCreatePin2;code;ksuser.dll;
+KsCreateTopologyNode;code;ksuser.dll;
+KsCreateTopologyNode2;code;ksuser.dll;

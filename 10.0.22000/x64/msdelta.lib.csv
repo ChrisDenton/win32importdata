@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+ApplyDeltaA;code;msdelta.dll;
+ApplyDeltaB;code;msdelta.dll;
+ApplyDeltaGetReverseB;code;msdelta.dll;
+ApplyDeltaProvidedB;code;msdelta.dll;
+ApplyDeltaW;code;msdelta.dll;
+CreateDeltaA;code;msdelta.dll;
+CreateDeltaB;code;msdelta.dll;
+CreateDeltaW;code;msdelta.dll;
+DeltaFree;code;msdelta.dll;
+DeltaNormalizeProvidedB;code;msdelta.dll;
+GetDeltaInfoA;code;msdelta.dll;
+GetDeltaInfoB;code;msdelta.dll;
+GetDeltaInfoW;code;msdelta.dll;
+GetDeltaSignatureA;code;msdelta.dll;
+GetDeltaSignatureB;code;msdelta.dll;
+GetDeltaSignatureW;code;msdelta.dll;

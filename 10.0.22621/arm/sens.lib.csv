@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+SensNotifyNetconEvent;code;Sens.dll;
+SensNotifyRasEvent;code;Sens.dll;
+SensNotifyWinlogonEvent;code;Sens.dll;

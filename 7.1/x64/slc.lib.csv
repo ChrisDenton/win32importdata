@@ -1,0 +1,43 @@
+Name;Type;DLL;SymbolOrOrdinal
+SLGetInstalledSAMLicenseApplications;code;slc.dll;?SLGetInstalledSAMLicenseApplications@@YAJPEAIPEAPEAU_GUID@@@Z (long __cdecl SLGetInstalledSAMLicenseApplications(unsigned int *,struct _GUID * *))
+SLGetSAMLicense;code;slc.dll;?SLGetSAMLicense@@YAJPEBU_GUID@@PEAIPEAPEAE@Z (long __cdecl SLGetSAMLicense(struct _GUID const *,unsigned int *,unsigned char * *))
+SLInstallSAMLicense;code;slc.dll;?SLInstallSAMLicense@@YAJPEBU_GUID@@IPEBE@Z (long __cdecl SLInstallSAMLicense(struct _GUID const *,unsigned int,unsigned char const *))
+SLUninstallSAMLicense;code;slc.dll;?SLUninstallSAMLicense@@YAJPEBU_GUID@@@Z (long __cdecl SLUninstallSAMLicense(struct _GUID const *))
+SLpCheckProductKey;code;slc.dll;?SLpCheckProductKey@@YAJPEAUDIGITALPID4@@PEAH@Z (long __cdecl SLpCheckProductKey(struct DIGITALPID4 *,int *))
+SLpGetGenuineLocal;code;slc.dll;?SLpGetGenuineLocal@@YAJPEAXPEBU_GUID@@PEAW4_SL_GENUINE_STATE@@@Z (long __cdecl SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))
+SLpUpdateComponentTokens;code;slc.dll;?SLpUpdateComponentTokens@@YAJPEAXPEAH@Z (long __cdecl SLpUpdateComponentTokens(void *,int *))
+SLClose;code;slc.dll;
+SLConsumeRight;code;slc.dll;
+SLConsumeWindowsRight;code;slc.dll;
+SLDepositOfflineConfirmationId;code;slc.dll;
+SLFireEvent;code;slc.dll;
+SLGenerateOfflineInstallationId;code;slc.dll;
+SLGetApplicationInformation;code;slc.dll;
+SLGetGenuineInformation;code;slc.dll;
+SLGetInstalledProductKeyIds;code;slc.dll;
+SLGetLicense;code;slc.dll;
+SLGetLicenseFileId;code;slc.dll;
+SLGetLicenseInformation;code;slc.dll;
+SLGetLicensingStatusInformation;code;slc.dll;
+SLGetPKeyId;code;slc.dll;
+SLGetPKeyInformation;code;slc.dll;
+SLGetPolicyInformation;code;slc.dll;
+SLGetPolicyInformationDWORD;code;slc.dll;
+SLGetProductSkuInformation;code;slc.dll;
+SLGetSLIDList;code;slc.dll;
+SLGetServiceInformation;code;slc.dll;
+SLGetWindowsInformation;code;slc.dll;
+SLGetWindowsInformationDWORD;code;slc.dll;
+SLInstallLicense;code;slc.dll;
+SLInstallProofOfPurchase;code;slc.dll;
+SLIsWindowsGenuineLocal;code;slc.dll;
+SLOpen;code;slc.dll;
+SLReArmWindows;code;slc.dll;
+SLRegisterEvent;code;slc.dll;
+SLRegisterWindowsEvent;code;slc.dll;
+SLSetCurrentProductKey;code;slc.dll;
+SLSetGenuineInformation;code;slc.dll;
+SLUninstallLicense;code;slc.dll;
+SLUninstallProofOfPurchase;code;slc.dll;
+SLUnregisterEvent;code;slc.dll;
+SLUnregisterWindowsEvent;code;slc.dll;

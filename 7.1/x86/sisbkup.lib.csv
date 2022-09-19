@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+SisCSFilesToBackupForLink;code;sisbkup.dll;_SisCSFilesToBackupForLink@28
+SisCreateBackupStructure;code;sisbkup.dll;_SisCreateBackupStructure@20
+SisCreateRestoreStructure;code;sisbkup.dll;_SisCreateRestoreStructure@20
+SisFreeAllocatedMemory;code;sisbkup.dll;_SisFreeAllocatedMemory@4
+SisFreeBackupStructure;code;sisbkup.dll;_SisFreeBackupStructure@4
+SisFreeRestoreStructure;code;sisbkup.dll;_SisFreeRestoreStructure@4
+SisRestoredCommonStoreFile;code;sisbkup.dll;_SisRestoredCommonStoreFile@8
+SisRestoredLink;code;sisbkup.dll;_SisRestoredLink@24

@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+?GetEapProviders@@YAJPBGPAV?$CArray@UAuthProviderData@@AAU1@@@@Z (long __cdecl GetEapProviders(unsigned short const *,class CArray<struct AuthProviderData,struct AuthProviderData &> *));code;rasuser.dll;8
+?IASCreateProfileAdvancedPage@@YAPAU_PSP@@PAUISdo@@PAUISdoDictionaryOld@@JPAX@Z (struct _PSP * __cdecl IASCreateProfileAdvancedPage(struct ISdo *,struct ISdoDictionaryOld *,long,void *));code;rasuser.dll;6
+?IASDeleteProfileAdvancedPage@@YAHPAU_PSP@@@Z (int __cdecl IASDeleteProfileAdvancedPage(struct _PSP *));code;rasuser.dll;7
+?OpenRAS_IASProfileDlg2@@YAJPBGPAUISdo@@PAUISdoDictionaryOld@@HKPAXPAUISdoCollection@@@Z (long __cdecl OpenRAS_IASProfileDlg2(unsigned short const *,struct ISdo *,struct ISdoDictionaryOld *,int,unsigned long,void *,struct ISdoCollection *));code;rasuser.dll;9
+?OpenRAS_IASProfileDlg@@YAJPBGPAUISdo@@PAUISdoDictionaryOld@@HKPAX@Z (long __cdecl OpenRAS_IASProfileDlg(unsigned short const *,struct ISdo *,struct ISdoDictionaryOld *,int,unsigned long,void *));code;rasuser.dll;5

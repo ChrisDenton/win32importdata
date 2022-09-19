@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+AiEvaluatePlugin;code;srpapi.dll;_AiEvaluatePlugin@20
+AppIDDecodeAttributeString;code;srpapi.dll;_AppIDDecodeAttributeString@8
+AppIDEncodeAttributeString;code;srpapi.dll;_AppIDEncodeAttributeString@12
+AppIDFreeAttributeString;code;srpapi.dll;_AppIDFreeAttributeString@4
+SrpCloseThreadNetworkContext;code;srpapi.dll;_SrpCloseThreadNetworkContext@4
+SrpCreateThreadNetworkContext;code;srpapi.dll;_SrpCreateThreadNetworkContext@8
+SrpDisablePermissiveModeFileEncryption;code;srpapi.dll;_SrpDisablePermissiveModeFileEncryption@0
+SrpDoesPolicyAllowAppExecution;code;srpapi.dll;_SrpDoesPolicyAllowAppExecution@8
+SrpEnablePermissiveModeFileEncryption;code;srpapi.dll;_SrpEnablePermissiveModeFileEncryption@4
+SrpGetAllowedEnterprises;code;srpapi.dll;_SrpGetAllowedEnterprises@12
+SrpGetEnterpriseIds;code;srpapi.dll;_SrpGetEnterpriseIds@16
+SrpGetProcessUniqueIdFromToken;code;srpapi.dll;_SrpGetProcessUniqueIdFromToken@8
+SrpInheritEnterpriseContext;code;srpapi.dll;_SrpInheritEnterpriseContext@16
+SrpIsAllowed;code;srpapi.dll;_SrpIsAllowed@4
+SrpRestoreEnterpriseContext;code;srpapi.dll;_SrpRestoreEnterpriseContext@4
+SrpSetTokenEnterpriseId;code;srpapi.dll;_SrpSetTokenEnterpriseId@8

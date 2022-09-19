@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+IsDestinationReachableA;code;SensApi.dll;_IsDestinationReachableA@8
+IsDestinationReachableW;code;SensApi.dll;_IsDestinationReachableW@8
+IsNetworkAlive;code;SensApi.dll;_IsNetworkAlive@4

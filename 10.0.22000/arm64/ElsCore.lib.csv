@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+MappingDoAction;code;elscore.dll;#MappingDoAction
+MappingFreePropertyBag;code;elscore.dll;#MappingFreePropertyBag
+MappingFreeServices;code;elscore.dll;#MappingFreeServices
+MappingGetServices;code;elscore.dll;#MappingGetServices
+MappingRecognizeText;code;elscore.dll;#MappingRecognizeText
+MappingDoAction;code;elscore.dll;
+MappingFreePropertyBag;code;elscore.dll;
+MappingFreeServices;code;elscore.dll;
+MappingGetServices;code;elscore.dll;
+MappingRecognizeText;code;elscore.dll;

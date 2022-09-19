@@ -1,0 +1,18 @@
+Name;Type;DLL;SymbolOrOrdinal
+CsSetOptions;code;APPMGMTS.dll;?CsSetOptions@@YAXK@Z (void __cdecl CsSetOptions(unsigned long))
+CsCreateClassStore;code;APPMGMTS.dll;
+CsEnumApps;code;APPMGMTS.dll;
+CsGetAppCategories;code;APPMGMTS.dll;
+CsGetClassAccess;code;APPMGMTS.dll;
+CsGetClassStore;code;APPMGMTS.dll;
+CsGetClassStorePath;code;APPMGMTS.dll;
+CsRegisterAppCategory;code;APPMGMTS.dll;
+CsServerGetClassStore;code;APPMGMTS.dll;
+CsUnregisterAppCategory;code;APPMGMTS.dll;
+GenerateGroupPolicy;code;APPMGMTS.dll;
+IID_IClassAdmin;code;APPMGMTS.dll;
+ProcessGroupPolicyObjectsEx;code;APPMGMTS.dll;
+ReleaseAppCategoryInfoList;code;APPMGMTS.dll;
+ReleasePackageDetail;code;APPMGMTS.dll;
+ReleasePackageInfo;code;APPMGMTS.dll;
+ServiceMain;code;APPMGMTS.dll;

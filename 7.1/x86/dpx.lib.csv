@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+DpxFreeMemory;code;dpx.dll;_DpxFreeMemory@4
+DpxNewJob;code;dpx.dll;_DpxNewJob@8
+DpxRestoreJob;code;dpx.dll;_DpxRestoreJob@8

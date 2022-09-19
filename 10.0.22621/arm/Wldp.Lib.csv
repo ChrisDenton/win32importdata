@@ -1,0 +1,38 @@
+Name;Type;DLL;SymbolOrOrdinal
+WldpIsAppApprovedByPolicy;code;Wldp.dll;?WldpIsAppApprovedByPolicy@@YAJPBG_K@Z (long __cdecl WldpIsAppApprovedByPolicy(unsigned short const *,unsigned __int64))
+WldpIsProductionConfiguration;code;Wldp.dll;?WldpIsProductionConfiguration@@YAJPAH@Z (long __cdecl WldpIsProductionConfiguration(int *))
+WldpIsWcosProductionConfiguration;code;Wldp.dll;?WldpIsWcosProductionConfiguration@@YAJPAH@Z (long __cdecl WldpIsWcosProductionConfiguration(int *))
+WldpQueryPolicySettingEnabled2;code;Wldp.dll;?WldpQueryPolicySettingEnabled2@@YAJPBGPAH@Z (long __cdecl WldpQueryPolicySettingEnabled2(unsigned short const *,int *))
+WldpQueryPolicySettingEnabled;code;Wldp.dll;?WldpQueryPolicySettingEnabled@@YAJW4WLDP_POLICY_SETTING@@PAH@Z (long __cdecl WldpQueryPolicySettingEnabled(enum WLDP_POLICY_SETTING,int *))
+WldpQueryPolicySettingEnabledInternal;code;Wldp.dll;?WldpQueryPolicySettingEnabledInternal@@YAJW4WLDP_POLICY_SETTING_INTERNAL@@PAH@Z (long __cdecl WldpQueryPolicySettingEnabledInternal(enum WLDP_POLICY_SETTING_INTERNAL,int *))
+WldpQueryWindowsLockdownMode;code;Wldp.dll;?WldpQueryWindowsLockdownMode@@YAJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z (long __cdecl WldpQueryWindowsLockdownMode(enum WLDP_WINDOWS_LOCKDOWN_MODE *))
+WldpQueryWindowsLockdownRestriction;code;Wldp.dll;?WldpQueryWindowsLockdownRestriction@@YAJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))
+WldpResetProductionConfiguration;code;Wldp.dll;?WldpResetProductionConfiguration@@YAJXZ (long __cdecl WldpResetProductionConfiguration(void))
+WldpResetWcosProductionConfiguration;code;Wldp.dll;?WldpResetWcosProductionConfiguration@@YAJXZ (long __cdecl WldpResetWcosProductionConfiguration(void))
+WldpSendSmartAppControlBlockToast;code;Wldp.dll;?WldpSendSmartAppControlBlockToast@@YAJPBG0@Z (long __cdecl WldpSendSmartAppControlBlockToast(unsigned short const *,unsigned short const *))
+WldpSendSmartAppControlSwitchEnforceToast;code;Wldp.dll;?WldpSendSmartAppControlSwitchEnforceToast@@YAJXZ (long __cdecl WldpSendSmartAppControlSwitchEnforceToast(void))
+WldpSetWindowsLockdownRestriction;code;Wldp.dll;?WldpSetWindowsLockdownRestriction@@YAJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __cdecl WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))
+WldpTraceLoggingWDACBlockDialogShown;code;Wldp.dll;?WldpTraceLoggingWDACBlockDialogShown@@YAXPBGJU_GUID@@0@Z (void __cdecl WldpTraceLoggingWDACBlockDialogShown(unsigned short const *,long,struct _GUID,unsigned short const *))
+WldpAddDeveloperCertificateForDynamicCodeTrust;code;Wldp.dll;
+WldpCanExecuteBuffer;code;Wldp.dll;
+WldpCanExecuteFile;code;Wldp.dll;
+WldpCanExecuteStream;code;Wldp.dll;
+WldpChangeVulnerableDriverBlocklistState;code;Wldp.dll;
+WldpCheckDeviceEncryptionNotStarted;code;Wldp.dll;
+WldpCheckRetailConfiguration;code;Wldp.dll;
+WldpCheckWcosDeviceEncryptionSecure;code;Wldp.dll;
+WldpDisableDeveloperMode;code;Wldp.dll;
+WldpEnableDeveloperMode;code;Wldp.dll;
+WldpGetLockdownPolicy;code;Wldp.dll;
+WldpIsAllowedEntryPoint;code;Wldp.dll;
+WldpIsClassInApprovedList;code;Wldp.dll;
+WldpIsDebugAllowed;code;Wldp.dll;
+WldpIsDynamicCodePolicyEnabled;code;Wldp.dll;
+WldpIsProductionConfigurationInProc;code;Wldp.dll;
+WldpIsVulnerableDriverBlocklistDisabled;code;Wldp.dll;
+WldpIsVulnerableDriverBlocklistEligibleToDisable;code;Wldp.dll;
+WldpQueryDeviceSecurityInformation;code;Wldp.dll;
+WldpQueryDynamicCodeTrust;code;Wldp.dll;
+WldpQuerySecurityPolicy;code;Wldp.dll;
+WldpSetDynamicCodeTrust;code;Wldp.dll;
+WldpSetDynamicCodeTrust2;code;Wldp.dll;

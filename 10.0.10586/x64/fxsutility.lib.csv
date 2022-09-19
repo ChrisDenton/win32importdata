@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+CanSendToFaxRecipient;code;fxsutility.DLL;
+SendToFaxRecipient;code;fxsutility.DLL;

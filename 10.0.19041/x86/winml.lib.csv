@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+WinMLCreateRuntime;code;winml.dll;_WinMLCreateRuntime@4

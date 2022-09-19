@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFCreateDXSurfaceBuffer;code;EVR.dll;_MFCreateDXSurfaceBuffer@16
+MFCreateVideoMixer;code;EVR.dll;_MFCreateVideoMixer@16
+MFCreateVideoMixerAndPresenter;code;EVR.dll;_MFCreateVideoMixerAndPresenter@24
+MFCreateVideoOTA;code;EVR.dll;_MFCreateVideoOTA@8
+MFCreateVideoPresenter2;code;EVR.dll;_MFCreateVideoPresenter2@16
+MFCreateVideoPresenter;code;EVR.dll;_MFCreateVideoPresenter@16
+MFCreateVideoSampleAllocator;code;EVR.dll;_MFCreateVideoSampleAllocator@8
+MFCreateVideoSampleFromSurface;code;EVR.dll;_MFCreateVideoSampleFromSurface@8
+MFGetPlaneSize;code;EVR.dll;_MFGetPlaneSize@16
+MFIsFormatYUV;code;EVR.dll;_MFIsFormatYUV@4

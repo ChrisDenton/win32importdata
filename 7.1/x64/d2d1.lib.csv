@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+D2D1CreateFactory;code;d2d1.dll;1
+D2D1InvertMatrix;code;d2d1.dll;5
+D2D1IsMatrixInvertible;code;d2d1.dll;4
+D2D1MakeRotateMatrix;code;d2d1.dll;2
+D2D1MakeSkewMatrix;code;d2d1.dll;3

@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+BackupPerfRegistryToFileW;code;loadperf.dll;
+InstallPerfDllA;code;loadperf.dll;
+InstallPerfDllW;code;loadperf.dll;
+LoadPerfCounterTextStringsA;code;loadperf.dll;
+LoadPerfCounterTextStringsW;code;loadperf.dll;
+LpAcquireInstallationMutex;code;loadperf.dll;
+LpReleaseInstallationMutex;code;loadperf.dll;
+RestorePerfRegistryFromFileW;code;loadperf.dll;
+SetServiceAsTrustedA;code;loadperf.dll;
+SetServiceAsTrustedW;code;loadperf.dll;
+UnloadPerfCounterTextStringsA;code;loadperf.dll;
+UnloadPerfCounterTextStringsW;code;loadperf.dll;
+UpdatePerfNameFilesA;code;loadperf.dll;
+UpdatePerfNameFilesW;code;loadperf.dll;

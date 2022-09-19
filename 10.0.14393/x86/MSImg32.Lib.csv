@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+AlphaBlend;code;MSIMG32.dll;_AlphaBlend@44
+GradientFill;code;MSIMG32.dll;_GradientFill@24
+TransparentBlt;code;MSIMG32.dll;_TransparentBlt@44

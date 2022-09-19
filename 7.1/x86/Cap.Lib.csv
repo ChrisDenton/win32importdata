@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+_DumpCAP@0;code;CAP.dll;5
+_StartCAP@0;code;CAP.dll;3
+_StopCAP@0;code;CAP.dll;4
+__penter;code;CAP.dll;2

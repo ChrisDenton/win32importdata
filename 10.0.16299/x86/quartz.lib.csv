@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+AMGetErrorTextA;code;QUARTZ.dll;_AMGetErrorTextA@12
+AMGetErrorTextW;code;QUARTZ.dll;_AMGetErrorTextW@12
+AmpFactorToDB;code;QUARTZ.dll;_AmpFactorToDB@4
+DBToAmpFactor;code;QUARTZ.dll;_DBToAmpFactor@4

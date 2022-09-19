@@ -1,0 +1,16 @@
+Name;Type;DLL;SymbolOrOrdinal
+WHvCancelRunVirtualProcessor;code;WinHvPlatform.dll;
+WHvCreatePartition;code;WinHvPlatform.dll;
+WHvCreateVirtualProcessor;code;WinHvPlatform.dll;
+WHvDeletePartition;code;WinHvPlatform.dll;
+WHvDeleteVirtualProcessor;code;WinHvPlatform.dll;
+WHvGetCapability;code;WinHvPlatform.dll;
+WHvGetPartitionProperty;code;WinHvPlatform.dll;
+WHvGetVirtualProcessorRegisters;code;WinHvPlatform.dll;
+WHvMapGpaRange;code;WinHvPlatform.dll;
+WHvRunVirtualProcessor;code;WinHvPlatform.dll;
+WHvSetPartitionProperty;code;WinHvPlatform.dll;
+WHvSetVirtualProcessorRegisters;code;WinHvPlatform.dll;
+WHvSetupPartition;code;WinHvPlatform.dll;
+WHvTranslateGva;code;WinHvPlatform.dll;
+WHvUnmapGpaRange;code;WinHvPlatform.dll;

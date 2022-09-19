@@ -1,0 +1,19 @@
+Name;Type;DLL;SymbolOrOrdinal
+EnsureServiceRunning;code;infocardapi.dll;?EnsureServiceRunning@@YAJXZ (long __cdecl EnsureServiceRunning(void))
+CloseCryptoHandle;code;infocardapi.dll;
+Decrypt;code;infocardapi.dll;
+Encrypt;code;infocardapi.dll;
+FreeToken;code;infocardapi.dll;
+GenerateDerivedKey;code;infocardapi.dll;
+GetBrowserToken;code;infocardapi.dll;
+GetCryptoTransform;code;infocardapi.dll;
+GetKeyedHash;code;infocardapi.dll;
+GetToken;code;infocardapi.dll;
+HashCore;code;infocardapi.dll;
+HashFinal;code;infocardapi.dll;
+ImportInformationCard;code;infocardapi.dll;
+ManageCardSpace;code;infocardapi.dll;
+SignHash;code;infocardapi.dll;
+TransformBlock;code;infocardapi.dll;
+TransformFinalBlock;code;infocardapi.dll;
+VerifyHash;code;infocardapi.dll;

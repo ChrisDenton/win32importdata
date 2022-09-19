@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFCreateAVIMediaSink;code;mfsrcsnk.dll;_MFCreateAVIMediaSink@16
+MFCreateWAVEMediaSink;code;mfsrcsnk.dll;_MFCreateWAVEMediaSink@12

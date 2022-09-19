@@ -1,0 +1,10 @@
+Name;Type;DLL;SymbolOrOrdinal
+SnmpMgrClose;code;mgmtapi.dll;_SnmpMgrClose@4
+SnmpMgrCtl;code;mgmtapi.dll;_SnmpMgrCtl@28
+SnmpMgrGetTrap;code;mgmtapi.dll;_SnmpMgrGetTrap@24
+SnmpMgrGetTrapEx;code;mgmtapi.dll;_SnmpMgrGetTrapEx@32
+SnmpMgrOidToStr;code;mgmtapi.dll;_SnmpMgrOidToStr@8
+SnmpMgrOpen;code;mgmtapi.dll;_SnmpMgrOpen@16
+SnmpMgrRequest;code;mgmtapi.dll;_SnmpMgrRequest@20
+SnmpMgrStrToOid;code;mgmtapi.dll;_SnmpMgrStrToOid@8
+SnmpMgrTrapListen;code;mgmtapi.dll;_SnmpMgrTrapListen@4

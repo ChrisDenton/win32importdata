@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+DebugConnect;code;dbgeng.dll;_DebugConnect@12
+DebugConnectWide;code;dbgeng.dll;_DebugConnectWide@12
+DebugCreate;code;dbgeng.dll;_DebugCreate@8

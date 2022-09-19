@@ -1,0 +1,145 @@
+Name;Type;DLL;SymbolOrOrdinal
+SceAddToNameList;code;SCECLI.dll;#SceAddToNameList
+SceAddToNameStatusList;code;SCECLI.dll;#SceAddToNameStatusList
+SceAddToObjectList;code;SCECLI.dll;#SceAddToObjectList
+SceAnalyzeSystem;code;SCECLI.dll;#SceAnalyzeSystem
+SceAppendSecurityProfileInfo;code;SCECLI.dll;#SceAppendSecurityProfileInfo
+SceBrowseDatabaseTable;code;SCECLI.dll;#SceBrowseDatabaseTable
+SceCloseProfile;code;SCECLI.dll;#SceCloseProfile
+SceCommitTransaction;code;SCECLI.dll;#SceCommitTransaction
+SceCompareNameList;code;SCECLI.dll;#SceCompareNameList
+SceCompareSecurityDescriptors;code;SCECLI.dll;#SceCompareSecurityDescriptors
+SceConfigureSystem;code;SCECLI.dll;#SceConfigureSystem
+SceCopyBaseProfile;code;SCECLI.dll;#SceCopyBaseProfile
+SceCreateDirectory;code;SCECLI.dll;#SceCreateDirectory
+SceDcPromoCreateGPOsInSysvol;code;SCECLI.dll;#SceDcPromoCreateGPOsInSysvol
+SceDcPromoCreateGPOsInSysvolEx;code;SCECLI.dll;#SceDcPromoCreateGPOsInSysvolEx
+SceDcPromoteSecurity;code;SCECLI.dll;#SceDcPromoteSecurity
+SceDcPromoteSecurityEx;code;SCECLI.dll;#SceDcPromoteSecurityEx
+SceEnforceSecurityPolicyPropagation;code;SCECLI.dll;#SceEnforceSecurityPolicyPropagation
+SceEnumerateServices;code;SCECLI.dll;#SceEnumerateServices
+SceFreeMemory;code;SCECLI.dll;#SceFreeMemory
+SceFreeProfileMemory;code;SCECLI.dll;#SceFreeProfileMemory
+SceGenerateRollback;code;SCECLI.dll;#SceGenerateRollback
+SceGetAnalysisAreaSummary;code;SCECLI.dll;#SceGetAnalysisAreaSummary
+SceGetAreas;code;SCECLI.dll;#SceGetAreas
+SceGetDatabaseSetting;code;SCECLI.dll;#SceGetDatabaseSetting
+SceGetDbTime;code;SCECLI.dll;#SceGetDbTime
+SceGetObjectChildren;code;SCECLI.dll;#SceGetObjectChildren
+SceGetObjectSecurity;code;SCECLI.dll;#SceGetObjectSecurity
+SceGetScpProfileDescription;code;SCECLI.dll;#SceGetScpProfileDescription
+SceGetSecurityProfileInfo;code;SCECLI.dll;#SceGetSecurityProfileInfo
+SceGetServerProductType;code;SCECLI.dll;#SceGetServerProductType
+SceGetTimeStamp;code;SCECLI.dll;#SceGetTimeStamp
+SceIsSystemDatabase;code;SCECLI.dll;#SceIsSystemDatabase
+SceLookupPrivRightName;code;SCECLI.dll;#SceLookupPrivRightName
+SceOpenProfile;code;SCECLI.dll;#SceOpenProfile
+SceRegisterRegValues;code;SCECLI.dll;#SceRegisterRegValues
+SceRollbackTransaction;code;SCECLI.dll;#SceRollbackTransaction
+SceSetDatabaseSetting;code;SCECLI.dll;#SceSetDatabaseSetting
+SceSetupBackupSecurity;code;SCECLI.dll;#SceSetupBackupSecurity
+SceSetupConfigureServices;code;SCECLI.dll;#SceSetupConfigureServices
+SceSetupGenerateTemplate;code;SCECLI.dll;#SceSetupGenerateTemplate
+SceSetupMoveSecurityFile;code;SCECLI.dll;#SceSetupMoveSecurityFile
+SceSetupRootSecurity;code;SCECLI.dll;#SceSetupRootSecurity
+SceSetupSystemByInfName;code;SCECLI.dll;#SceSetupSystemByInfName
+SceSetupUnwindSecurityFile;code;SCECLI.dll;#SceSetupUnwindSecurityFile
+SceSetupUpdateSecurityFile;code;SCECLI.dll;#SceSetupUpdateSecurityFile
+SceSetupUpdateSecurityKey;code;SCECLI.dll;#SceSetupUpdateSecurityKey
+SceSetupUpdateSecurityService;code;SCECLI.dll;#SceSetupUpdateSecurityService
+SceStartTransaction;code;SCECLI.dll;#SceStartTransaction
+SceSvcConvertSDToText;code;SCECLI.dll;#SceSvcConvertSDToText
+SceSvcConvertTextToSD;code;SCECLI.dll;#SceSvcConvertTextToSD
+SceSvcFree;code;SCECLI.dll;#SceSvcFree
+SceSvcGetInformationTemplate;code;SCECLI.dll;#SceSvcGetInformationTemplate
+SceSvcQueryInfo;code;SCECLI.dll;#SceSvcQueryInfo
+SceSvcSetInfo;code;SCECLI.dll;#SceSvcSetInfo
+SceSvcSetInformationTemplate;code;SCECLI.dll;#SceSvcSetInformationTemplate
+SceSvcUpdateInfo;code;SCECLI.dll;#SceSvcUpdateInfo
+SceUpdateObjectInfo;code;SCECLI.dll;#SceUpdateObjectInfo
+SceUpdateSecurityProfile;code;SCECLI.dll;#SceUpdateSecurityProfile
+SceWrapperExportSecurityProfile;code;SCECLI.dll;#SceWrapperExportSecurityProfile
+SceWrapperImportSecurityProfile;code;SCECLI.dll;#SceWrapperImportSecurityProfile
+SceWriteSecurityProfileInfo;code;SCECLI.dll;#SceWriteSecurityProfileInfo
+DeltaNotify;code;SCECLI.dll;?DeltaNotify@@$$hYAJPEAXW4_SECURITY_DB_DELTA_TYPE@@W4_SECURITY_DB_OBJECT_TYPE@@KPEAU_UNICODE_STRING@@PEAT_LARGE_INTEGER@@PEAT_SAM_DELTA_DATA@@@Z (long __cdecl DeltaNotify(void *,enum _SECURITY_DB_DELTA_TYPE,enum _SECURITY_DB_OBJECT_TYPE,unsigned long,struct _UNICODE_STRING *,union _LARGE_INTEGER *,union _SAM_DELTA_DATA *))
+InitializeChangeNotify;code;SCECLI.dll;?InitializeChangeNotify@@$$hYAEXZ (unsigned char __cdecl InitializeChangeNotify(void))
+SceConfigureConvertedFileSecurity;code;SCECLI.dll;?SceConfigureConvertedFileSecurity@@$$hYAKPEAGK@Z (unsigned long __cdecl SceConfigureConvertedFileSecurity(unsigned short *,unsigned long))
+SceGenerateGroupPolicy;code;SCECLI.dll;?SceGenerateGroupPolicy@@$$hYAKKPEAHPEAGPEAU_RSOP_TARGET@@2@Z (unsigned long __cdecl SceGenerateGroupPolicy(unsigned long,int *,unsigned short *,struct _RSOP_TARGET *,struct _RSOP_TARGET *))
+SceNotifyPolicyDelta;code;SCECLI.dll;?SceNotifyPolicyDelta@@$$hYAJW4_SECURITY_DB_TYPE@@W4_SECURITY_DB_DELTA_TYPE@@W4_SECURITY_DB_OBJECT_TYPE@@PEAX@Z (long __cdecl SceNotifyPolicyDelta(enum _SECURITY_DB_TYPE,enum _SECURITY_DB_DELTA_TYPE,enum _SECURITY_DB_OBJECT_TYPE,void *))
+SceOpenPolicy;code;SCECLI.dll;?SceOpenPolicy@@$$hYAJXZ (long __cdecl SceOpenPolicy(void))
+SceProcessSecurityPolicyGPO;code;SCECLI.dll;?SceProcessSecurityPolicyGPO@@$$hYAKKPEAXPEAUHKEY__@@PEAU_GROUP_POLICY_OBJECTW@@2_KPEAHP6AKHPEAG@Z@Z (unsigned long __cdecl SceProcessSecurityPolicyGPO(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned __int64,int *,unsigned long (__cdecl*)(int,unsigned short *)))
+SceProcessSecurityPolicyGPOEx;code;SCECLI.dll;?SceProcessSecurityPolicyGPOEx@@$$hYAKKPEAXPEAUHKEY__@@PEAU_GROUP_POLICY_OBJECTW@@2_KPEAHP6AKHPEAG@ZPEAUIWbemServices@@PEAJ@Z (unsigned long __cdecl SceProcessSecurityPolicyGPOEx(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned __int64,int *,unsigned long (__cdecl*)(int,unsigned short *),struct IWbemServices *,long *))
+SceSysPrep;code;SCECLI.dll;?SceSysPrep@@$$hYAKH@Z (unsigned long __cdecl SceSysPrep(int))
+SceSysPrepOffline;code;SCECLI.dll;?SceSysPrepOffline@@$$hYAKPEAU_SYSPREP_OS_OFFLINE@@@Z (unsigned long __cdecl SceSysPrepOffline(struct _SYSPREP_OS_OFFLINE *))
+DeltaNotify;code;SCECLI.dll;?DeltaNotify@@YAJPEAXW4_SECURITY_DB_DELTA_TYPE@@W4_SECURITY_DB_OBJECT_TYPE@@KPEAU_UNICODE_STRING@@PEAT_LARGE_INTEGER@@PEAT_SAM_DELTA_DATA@@@Z (long __cdecl DeltaNotify(void *,enum _SECURITY_DB_DELTA_TYPE,enum _SECURITY_DB_OBJECT_TYPE,unsigned long,struct _UNICODE_STRING *,union _LARGE_INTEGER *,union _SAM_DELTA_DATA *))
+InitializeChangeNotify;code;SCECLI.dll;?InitializeChangeNotify@@YAEXZ (unsigned char __cdecl InitializeChangeNotify(void))
+SceConfigureConvertedFileSecurity;code;SCECLI.dll;?SceConfigureConvertedFileSecurity@@YAKPEAGK@Z (unsigned long __cdecl SceConfigureConvertedFileSecurity(unsigned short *,unsigned long))
+SceGenerateGroupPolicy;code;SCECLI.dll;?SceGenerateGroupPolicy@@YAKKPEAHPEAGPEAU_RSOP_TARGET@@2@Z (unsigned long __cdecl SceGenerateGroupPolicy(unsigned long,int *,unsigned short *,struct _RSOP_TARGET *,struct _RSOP_TARGET *))
+SceNotifyPolicyDelta;code;SCECLI.dll;?SceNotifyPolicyDelta@@YAJW4_SECURITY_DB_TYPE@@W4_SECURITY_DB_DELTA_TYPE@@W4_SECURITY_DB_OBJECT_TYPE@@PEAX@Z (long __cdecl SceNotifyPolicyDelta(enum _SECURITY_DB_TYPE,enum _SECURITY_DB_DELTA_TYPE,enum _SECURITY_DB_OBJECT_TYPE,void *))
+SceOpenPolicy;code;SCECLI.dll;?SceOpenPolicy@@YAJXZ (long __cdecl SceOpenPolicy(void))
+SceProcessSecurityPolicyGPO;code;SCECLI.dll;?SceProcessSecurityPolicyGPO@@YAKKPEAXPEAUHKEY__@@PEAU_GROUP_POLICY_OBJECTW@@2_KPEAHP6AKHPEAG@Z@Z (unsigned long __cdecl SceProcessSecurityPolicyGPO(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned __int64,int *,unsigned long (__cdecl*)(int,unsigned short *)))
+SceProcessSecurityPolicyGPOEx;code;SCECLI.dll;?SceProcessSecurityPolicyGPOEx@@YAKKPEAXPEAUHKEY__@@PEAU_GROUP_POLICY_OBJECTW@@2_KPEAHP6AKHPEAG@ZPEAUIWbemServices@@PEAJ@Z (unsigned long __cdecl SceProcessSecurityPolicyGPOEx(unsigned long,void *,struct HKEY__ *,struct _GROUP_POLICY_OBJECTW *,struct _GROUP_POLICY_OBJECTW *,unsigned __int64,int *,unsigned long (__cdecl*)(int,unsigned short *),struct IWbemServices *,long *))
+SceSysPrep;code;SCECLI.dll;?SceSysPrep@@YAKH@Z (unsigned long __cdecl SceSysPrep(int))
+SceSysPrepOffline;code;SCECLI.dll;?SceSysPrepOffline@@YAKPEAU_SYSPREP_OS_OFFLINE@@@Z (unsigned long __cdecl SceSysPrepOffline(struct _SYSPREP_OS_OFFLINE *))
+SceAddToNameList;code;SCECLI.dll;
+SceAddToNameStatusList;code;SCECLI.dll;
+SceAddToObjectList;code;SCECLI.dll;
+SceAnalyzeSystem;code;SCECLI.dll;
+SceAppendSecurityProfileInfo;code;SCECLI.dll;
+SceBrowseDatabaseTable;code;SCECLI.dll;
+SceCloseProfile;code;SCECLI.dll;
+SceCommitTransaction;code;SCECLI.dll;
+SceCompareNameList;code;SCECLI.dll;
+SceCompareSecurityDescriptors;code;SCECLI.dll;
+SceConfigureSystem;code;SCECLI.dll;
+SceCopyBaseProfile;code;SCECLI.dll;
+SceCreateDirectory;code;SCECLI.dll;
+SceDcPromoCreateGPOsInSysvol;code;SCECLI.dll;
+SceDcPromoCreateGPOsInSysvolEx;code;SCECLI.dll;
+SceDcPromoteSecurity;code;SCECLI.dll;
+SceDcPromoteSecurityEx;code;SCECLI.dll;
+SceEnforceSecurityPolicyPropagation;code;SCECLI.dll;
+SceEnumerateServices;code;SCECLI.dll;
+SceFreeMemory;code;SCECLI.dll;
+SceFreeProfileMemory;code;SCECLI.dll;
+SceGenerateRollback;code;SCECLI.dll;
+SceGetAnalysisAreaSummary;code;SCECLI.dll;
+SceGetAreas;code;SCECLI.dll;
+SceGetDatabaseSetting;code;SCECLI.dll;
+SceGetDbTime;code;SCECLI.dll;
+SceGetObjectChildren;code;SCECLI.dll;
+SceGetObjectSecurity;code;SCECLI.dll;
+SceGetScpProfileDescription;code;SCECLI.dll;
+SceGetSecurityProfileInfo;code;SCECLI.dll;
+SceGetServerProductType;code;SCECLI.dll;
+SceGetTimeStamp;code;SCECLI.dll;
+SceIsSystemDatabase;code;SCECLI.dll;
+SceLookupPrivRightName;code;SCECLI.dll;
+SceOpenProfile;code;SCECLI.dll;
+SceRegisterRegValues;code;SCECLI.dll;
+SceRollbackTransaction;code;SCECLI.dll;
+SceSetDatabaseSetting;code;SCECLI.dll;
+SceSetupBackupSecurity;code;SCECLI.dll;
+SceSetupConfigureServices;code;SCECLI.dll;
+SceSetupGenerateTemplate;code;SCECLI.dll;
+SceSetupMoveSecurityFile;code;SCECLI.dll;
+SceSetupRootSecurity;code;SCECLI.dll;
+SceSetupSystemByInfName;code;SCECLI.dll;
+SceSetupUnwindSecurityFile;code;SCECLI.dll;
+SceSetupUpdateSecurityFile;code;SCECLI.dll;
+SceSetupUpdateSecurityKey;code;SCECLI.dll;
+SceSetupUpdateSecurityService;code;SCECLI.dll;
+SceStartTransaction;code;SCECLI.dll;
+SceSvcConvertSDToText;code;SCECLI.dll;
+SceSvcConvertTextToSD;code;SCECLI.dll;
+SceSvcFree;code;SCECLI.dll;
+SceSvcGetInformationTemplate;code;SCECLI.dll;
+SceSvcQueryInfo;code;SCECLI.dll;
+SceSvcSetInfo;code;SCECLI.dll;
+SceSvcSetInformationTemplate;code;SCECLI.dll;
+SceSvcUpdateInfo;code;SCECLI.dll;
+SceUpdateObjectInfo;code;SCECLI.dll;
+SceUpdateSecurityProfile;code;SCECLI.dll;
+SceWrapperExportSecurityProfile;code;SCECLI.dll;
+SceWrapperImportSecurityProfile;code;SCECLI.dll;
+SceWriteSecurityProfileInfo;code;SCECLI.dll;

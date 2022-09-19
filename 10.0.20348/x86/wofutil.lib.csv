@@ -1,0 +1,12 @@
+Name;Type;DLL;SymbolOrOrdinal
+WofEnumEntries;code;WOFUTIL.dll;_WofEnumEntries@16
+WofFileEnumFiles;code;WOFUTIL.dll;_WofFileEnumFiles@16
+WofGetDriverVersion;code;WOFUTIL.dll;_WofGetDriverVersion@12
+WofIsExternalFile;code;WOFUTIL.dll;_WofIsExternalFile@20
+WofSetFileDataLocation;code;WOFUTIL.dll;_WofSetFileDataLocation@16
+WofShouldCompressBinaries;code;WOFUTIL.dll;_WofShouldCompressBinaries@8
+WofWimAddEntry;code;WOFUTIL.dll;_WofWimAddEntry@20
+WofWimEnumFiles;code;WOFUTIL.dll;_WofWimEnumFiles@20
+WofWimRemoveEntry;code;WOFUTIL.dll;_WofWimRemoveEntry@12
+WofWimSuspendEntry;code;WOFUTIL.dll;_WofWimSuspendEntry@12
+WofWimUpdateEntry;code;WOFUTIL.dll;_WofWimUpdateEntry@16

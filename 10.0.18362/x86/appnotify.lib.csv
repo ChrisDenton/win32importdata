@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+RegisterAppStateChangeNotification;code;api-ms-win-core-psm-appnotify-l1-1-0.dll;_RegisterAppStateChangeNotification@12
+UnregisterAppStateChangeNotification;code;api-ms-win-core-psm-appnotify-l1-1-0.dll;_UnregisterAppStateChangeNotification@4
+RegisterAppConstrainedChangeNotification;code;api-ms-win-core-psm-appnotify-l1-1-1.dll;_RegisterAppConstrainedChangeNotification@12
+UnregisterAppConstrainedChangeNotification;code;api-ms-win-core-psm-appnotify-l1-1-1.dll;_UnregisterAppConstrainedChangeNotification@4

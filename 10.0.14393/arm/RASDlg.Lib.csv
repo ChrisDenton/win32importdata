@@ -1,0 +1,25 @@
+Name;Type;DLL;SymbolOrOrdinal
+RasHandleDiagnostics;code;RASDLG.dll;?RasHandleDiagnostics@@YAXPAUHWND__@@PAUHINSTANCE__@@PBDH@Z (void __cdecl RasHandleDiagnostics(struct HWND__ *,struct HINSTANCE__ *,char const *,int))
+GetRasDialOutProtocols;code;RASDLG.dll;
+RasAutodialQueryDlgA;code;RASDLG.dll;
+RasAutodialQueryDlgW;code;RASDLG.dll;
+RasDialDlgA;code;RASDLG.dll;
+RasDialDlgW;code;RASDLG.dll;
+RasEntryDlgA;code;RASDLG.dll;
+RasEntryDlgW;code;RASDLG.dll;
+RasPhonebookDlgA;code;RASDLG.dll;
+RasPhonebookDlgW;code;RASDLG.dll;
+RasSrvAddPropPages;code;RASDLG.dll;
+RasSrvAllowConnectionsConfig;code;RASDLG.dll;
+RasSrvCleanupService;code;RASDLG.dll;
+RasSrvEnumConnections;code;RASDLG.dll;
+RasSrvHangupConnection;code;RASDLG.dll;
+RasSrvInitializeService;code;RASDLG.dll;
+RasSrvIsConnectionConnected;code;RASDLG.dll;
+RasSrvIsICConfigured;code;RASDLG.dll;
+RasSrvIsServiceRunning;code;RASDLG.dll;
+RasUserEnableManualDial;code;RASDLG.dll;
+RasUserGetManualDial;code;RASDLG.dll;
+RasUserPrefsDlg;code;RASDLG.dll;
+RouterEntryDlgA;code;RASDLG.dll;
+RouterEntryDlgW;code;RASDLG.dll;

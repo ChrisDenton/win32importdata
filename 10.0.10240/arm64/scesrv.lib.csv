@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+ScesrvInitializeServer;code;SCESRV.dll;
+ScesrvTerminateServer;code;SCESRV.dll;

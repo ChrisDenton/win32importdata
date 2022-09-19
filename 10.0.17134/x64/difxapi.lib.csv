@@ -1,0 +1,13 @@
+Name;Type;DLL;SymbolOrOrdinal
+DIFXAPISetLogCallbackA;code;DIFXAPI.dll;
+DIFXAPISetLogCallbackW;code;DIFXAPI.dll;
+DriverPackageGetPathA;code;DIFXAPI.dll;
+DriverPackageGetPathW;code;DIFXAPI.dll;
+DriverPackageInstallA;code;DIFXAPI.dll;
+DriverPackageInstallW;code;DIFXAPI.dll;
+DriverPackagePreinstallA;code;DIFXAPI.dll;
+DriverPackagePreinstallW;code;DIFXAPI.dll;
+DriverPackageUninstallA;code;DIFXAPI.dll;
+DriverPackageUninstallW;code;DIFXAPI.dll;
+SetDifxLogCallbackA;code;DIFXAPI.dll;
+SetDifxLogCallbackW;code;DIFXAPI.dll;

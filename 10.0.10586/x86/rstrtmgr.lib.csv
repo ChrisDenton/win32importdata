@@ -1,0 +1,13 @@
+Name;Type;DLL;SymbolOrOrdinal
+RmAddFilter;code;RstrtMgr.DLL;_RmAddFilter@20
+RmCancelCurrentTask;code;RstrtMgr.DLL;_RmCancelCurrentTask@4
+RmEndSession;code;RstrtMgr.DLL;_RmEndSession@4
+RmGetFilterList;code;RstrtMgr.DLL;_RmGetFilterList@16
+RmGetList;code;RstrtMgr.DLL;_RmGetList@20
+RmJoinSession;code;RstrtMgr.DLL;_RmJoinSession@8
+RmRegisterResources;code;RstrtMgr.DLL;_RmRegisterResources@28
+RmRemoveFilter;code;RstrtMgr.DLL;_RmRemoveFilter@16
+RmReserveHeap;code;RstrtMgr.DLL;_RmReserveHeap@4
+RmRestart;code;RstrtMgr.DLL;_RmRestart@12
+RmShutdown;code;RstrtMgr.DLL;_RmShutdown@12
+RmStartSession;code;RstrtMgr.DLL;_RmStartSession@12

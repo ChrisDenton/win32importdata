@@ -1,0 +1,46 @@
+Name;Type;DLL;SymbolOrOrdinal
+WSDAddFirewallCheck;code;wsdapi.dll;?WSDAddFirewallCheck@@YGJPBGPAPAX@Z (long __stdcall WSDAddFirewallCheck(unsigned short const *,void * *))
+WSDCancelNetworkChangeNotify;code;wsdapi.dll;?WSDCancelNetworkChangeNotify@@YGJPAX@Z (long __stdcall WSDCancelNetworkChangeNotify(void *))
+WSDCopyNameList;code;wsdapi.dll;?WSDCopyNameList@@YGJPAPAU_WSD_NAME_LIST@@PBU1@@Z (long __stdcall WSDCopyNameList(struct _WSD_NAME_LIST * *,struct _WSD_NAME_LIST const *))
+WSDNotifyNetworkChange;code;wsdapi.dll;?WSDNotifyNetworkChange@@YGJP6GKPAX@Z0PAPAX@Z (long __stdcall WSDNotifyNetworkChange(unsigned long (__stdcall*)(void *),void *,void * *))
+WSDRemoveFirewallCheck;code;wsdapi.dll;?WSDRemoveFirewallCheck@@YGJPAX@Z (long __stdcall WSDRemoveFirewallCheck(void *))
+WSDXMLCompareNames;code;wsdapi.dll;?WSDXMLCompareNames@@YGJPBU_WSDXML_NAME@@0@Z (long __stdcall WSDXMLCompareNames(struct _WSDXML_NAME const *,struct _WSDXML_NAME const *))
+WSDAllocateLinkedMemory;code;wsdapi.dll;_WSDAllocateLinkedMemory@8
+WSDAttachLinkedMemory;code;wsdapi.dll;_WSDAttachLinkedMemory@8
+WSDCompareEndpoints;code;wsdapi.dll;_WSDCompareEndpoints@8
+WSDCopyEndpoint;code;wsdapi.dll;_WSDCopyEndpoint@8
+WSDCreateDeviceHost2;code;wsdapi.dll;_WSDCreateDeviceHost2@20
+WSDCreateDeviceHost;code;wsdapi.dll;_WSDCreateDeviceHost@12
+WSDCreateDeviceHostAdvanced;code;wsdapi.dll;_WSDCreateDeviceHostAdvanced@20
+WSDCreateDeviceProxy2;code;wsdapi.dll;_WSDCreateDeviceProxy2@24
+WSDCreateDeviceProxy;code;wsdapi.dll;_WSDCreateDeviceProxy@16
+WSDCreateDeviceProxyAdvanced;code;wsdapi.dll;_WSDCreateDeviceProxyAdvanced@20
+WSDCreateDiscoveryProvider2;code;wsdapi.dll;_WSDCreateDiscoveryProvider2@16
+WSDCreateDiscoveryProvider;code;wsdapi.dll;_WSDCreateDiscoveryProvider@8
+WSDCreateDiscoveryPublisher2;code;wsdapi.dll;_WSDCreateDiscoveryPublisher2@16
+WSDCreateDiscoveryPublisher;code;wsdapi.dll;_WSDCreateDiscoveryPublisher@8
+WSDCreateHttpAddress;code;wsdapi.dll;_WSDCreateHttpAddress@4
+WSDCreateHttpMessageParameters;code;wsdapi.dll;_WSDCreateHttpMessageParameters@4
+WSDCreateHttpTransport;code;wsdapi.dll;_WSDCreateHttpTransport@12
+WSDCreateMetadataAgent;code;wsdapi.dll;_WSDCreateMetadataAgent@20
+WSDCreateOutboundAttachment;code;wsdapi.dll;_WSDCreateOutboundAttachment@4
+WSDCreateUdpAddress;code;wsdapi.dll;_WSDCreateUdpAddress@4
+WSDCreateUdpMessageParameters;code;wsdapi.dll;_WSDCreateUdpMessageParameters@4
+WSDCreateUdpTransport;code;wsdapi.dll;_WSDCreateUdpTransport@4
+WSDDetachLinkedMemory;code;wsdapi.dll;_WSDDetachLinkedMemory@4
+WSDFreeLinkedMemory;code;wsdapi.dll;_WSDFreeLinkedMemory@4
+WSDGenerateFault;code;wsdapi.dll;_WSDGenerateFault@24
+WSDGenerateFaultEx;code;wsdapi.dll;_WSDGenerateFaultEx@20
+WSDGenerateRandomDelay;code;wsdapi.dll;_WSDGenerateRandomDelay@8
+WSDGetConfigurationOption;code;wsdapi.dll;_WSDGetConfigurationOption@12
+WSDProcessFault;code;wsdapi.dll;_WSDProcessFault@12
+WSDSetConfigurationOption;code;wsdapi.dll;_WSDSetConfigurationOption@12
+WSDUriDecode;code;wsdapi.dll;_WSDUriDecode@16
+WSDUriEncode;code;wsdapi.dll;_WSDUriEncode@16
+WSDXMLAddChild;code;wsdapi.dll;_WSDXMLAddChild@8
+WSDXMLAddSibling;code;wsdapi.dll;_WSDXMLAddSibling@8
+WSDXMLBuildAnyForSingleElement;code;wsdapi.dll;_WSDXMLBuildAnyForSingleElement@12
+WSDXMLCleanupElement;code;wsdapi.dll;_WSDXMLCleanupElement@4
+WSDXMLCreateContext;code;wsdapi.dll;_WSDXMLCreateContext@4
+WSDXMLGetNameFromBuiltinNamespace;code;wsdapi.dll;_WSDXMLGetNameFromBuiltinNamespace@12
+WSDXMLGetValueFromAny;code;wsdapi.dll;_WSDXMLGetValueFromAny@16

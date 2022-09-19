@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+RegisterModule;code;RpcProxy.dll;?RegisterModule@@YAJKPEAVIHttpModuleRegistrationInfo@@PEAVIHttpServer@@@Z (long __cdecl RegisterModule(unsigned long,class IHttpModuleRegistrationInfo *,class IHttpServer *))
+GetExtensionVersion;code;RpcProxy.dll;
+GetFilterVersion;code;RpcProxy.dll;
+HttpExtensionProc;code;RpcProxy.dll;
+HttpFilterProc;code;RpcProxy.dll;

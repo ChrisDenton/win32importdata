@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateFontPackage;code;FONTSUB.dll;
+MergeFontPackage;code;FONTSUB.dll;

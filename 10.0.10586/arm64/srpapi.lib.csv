@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+AiEvaluatePlugin;code;srpapi.dll;
+AppIDDecodeAttributeString;code;srpapi.dll;
+AppIDEncodeAttributeString;code;srpapi.dll;
+AppIDFreeAttributeString;code;srpapi.dll;
+SrpCloseThreadNetworkContext;code;srpapi.dll;
+SrpCreateThreadNetworkContext;code;srpapi.dll;
+SrpDisablePermissiveModeFileEncryption;code;srpapi.dll;
+SrpDoesPolicyAllowAppExecution;code;srpapi.dll;
+SrpEnablePermissiveModeFileEncryption;code;srpapi.dll;
+SrpGetAllowedEnterprises;code;srpapi.dll;
+SrpGetEnterpriseIds;code;srpapi.dll;
+SrpGetProcessUniqueIdFromToken;code;srpapi.dll;
+SrpInheritEnterpriseContext;code;srpapi.dll;
+SrpIsAllowed;code;srpapi.dll;
+SrpRestoreEnterpriseContext;code;srpapi.dll;
+SrpSetTokenEnterpriseId;code;srpapi.dll;

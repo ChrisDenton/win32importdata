@@ -1,0 +1,8 @@
+Name;Type;DLL;SymbolOrOrdinal
+_OleCreateFontIndirect@12;code;OLEPRO32.DLL;253
+_OleCreatePictureIndirect@16;code;OLEPRO32.DLL;252
+_OleCreatePropertyFrame@44;code;OLEPRO32.DLL;250
+_OleCreatePropertyFrameIndirect@4;code;OLEPRO32.DLL;249
+_OleIconToCursor@8;code;OLEPRO32.DLL;248
+_OleLoadPicture@20;code;OLEPRO32.DLL;251
+_OleTranslateColor@12;code;OLEPRO32.DLL;254

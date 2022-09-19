@@ -1,0 +1,24 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFGetUncompressedVideoFormat;code;EVR.dll;?MFGetUncompressedVideoFormat@@YGKPBU_MFVIDEOFORMAT@@@Z (unsigned long __stdcall MFGetUncompressedVideoFormat(struct _MFVIDEOFORMAT const *))
+MFConvertColorInfoFromDXVA;code;EVR.dll;_MFConvertColorInfoFromDXVA@8
+MFConvertColorInfoToDXVA;code;EVR.dll;_MFConvertColorInfoToDXVA@8
+MFConvertFromFP16Array;code;EVR.dll;_MFConvertFromFP16Array@12
+MFConvertToFP16Array;code;EVR.dll;_MFConvertToFP16Array@12
+MFCopyImage;code;EVR.dll;_MFCopyImage@24
+MFCreateDXSurfaceBuffer;code;EVR.dll;_MFCreateDXSurfaceBuffer@16
+MFCreateVideoMediaType;code;EVR.dll;_MFCreateVideoMediaType@8
+MFCreateVideoMediaTypeFromBitMapInfoHeader;code;EVR.dll;_MFCreateVideoMediaTypeFromBitMapInfoHeader@48
+MFCreateVideoMediaTypeFromSubtype;code;EVR.dll;_MFCreateVideoMediaTypeFromSubtype@8
+MFCreateVideoMediaTypeFromVideoInfoHeader2;code;EVR.dll;_MFCreateVideoMediaTypeFromVideoInfoHeader2@24
+MFCreateVideoMediaTypeFromVideoInfoHeader;code;EVR.dll;_MFCreateVideoMediaTypeFromVideoInfoHeader@36
+MFCreateVideoMixer;code;EVR.dll;_MFCreateVideoMixer@16
+MFCreateVideoMixerAndPresenter;code;EVR.dll;_MFCreateVideoMixerAndPresenter@24
+MFCreateVideoOTA;code;EVR.dll;_MFCreateVideoOTA@8
+MFCreateVideoPresenter;code;EVR.dll;_MFCreateVideoPresenter@16
+MFCreateVideoSampleAllocator;code;EVR.dll;_MFCreateVideoSampleAllocator@8
+MFCreateVideoSampleFromSurface;code;EVR.dll;_MFCreateVideoSampleFromSurface@8
+MFGetPlaneSize;code;EVR.dll;_MFGetPlaneSize@16
+MFGetStrideForBitmapInfoHeader;code;EVR.dll;_MFGetStrideForBitmapInfoHeader@12
+MFInitVideoFormat;code;EVR.dll;_MFInitVideoFormat@8
+MFInitVideoFormat_RGB;code;EVR.dll;_MFInitVideoFormat_RGB@16
+MFIsFormatYUV;code;EVR.dll;_MFIsFormatYUV@4

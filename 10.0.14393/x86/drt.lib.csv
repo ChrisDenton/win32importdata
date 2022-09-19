@@ -1,0 +1,22 @@
+Name;Type;DLL;SymbolOrOrdinal
+DrtFlushCache;code;drt.dll;?DrtFlushCache@@YGJPAX@Z (long __stdcall DrtFlushCache(void *))
+DrtGetCacheStatsEx;code;drt.dll;?DrtGetCacheStatsEx@@YGJPAXPAU_drtCacheStatsExTag@@@Z (long __stdcall DrtGetCacheStatsEx(void *,struct _drtCacheStatsExTag *))
+DrtHandlePowerEvent;code;drt.dll;?DrtHandlePowerEvent@@YGJPAXH@Z (long __stdcall DrtHandlePowerEvent(void *,int))
+DrtPingPeer;code;drt.dll;?DrtPingPeer@@YGJPAXPAUsockaddr_in6@@HKPAJ1PAK3PAUdrt_data_tag@@@Z (long __stdcall DrtPingPeer(void *,struct sockaddr_in6 *,int,unsigned long,long *,struct sockaddr_in6 *,unsigned long *,unsigned long *,struct drt_data_tag *))
+DrtStartPartitionDetection;code;drt.dll;?DrtStartPartitionDetection@@YGJPAX@Z (long __stdcall DrtStartPartitionDetection(void *))
+DrtClose;code;drt.dll;_DrtClose@4
+DrtContinueSearch;code;drt.dll;_DrtContinueSearch@4
+DrtEndSearch;code;drt.dll;_DrtEndSearch@4
+DrtGetEventData;code;drt.dll;_DrtGetEventData@12
+DrtGetEventDataSize;code;drt.dll;_DrtGetEventDataSize@8
+DrtGetInstanceName;code;drt.dll;_DrtGetInstanceName@12
+DrtGetInstanceNameSize;code;drt.dll;_DrtGetInstanceNameSize@8
+DrtGetSearchPath;code;drt.dll;_DrtGetSearchPath@12
+DrtGetSearchPathSize;code;drt.dll;_DrtGetSearchPathSize@8
+DrtGetSearchResult;code;drt.dll;_DrtGetSearchResult@12
+DrtGetSearchResultSize;code;drt.dll;_DrtGetSearchResultSize@8
+DrtOpen;code;drt.dll;_DrtOpen@16
+DrtRegisterKey;code;drt.dll;_DrtRegisterKey@16
+DrtStartSearch;code;drt.dll;_DrtStartSearch@28
+DrtUnregisterKey;code;drt.dll;_DrtUnregisterKey@4
+DrtUpdateKey;code;drt.dll;_DrtUpdateKey@8

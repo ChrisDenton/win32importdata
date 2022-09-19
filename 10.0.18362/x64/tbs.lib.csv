@@ -1,0 +1,22 @@
+Name;Type;DLL;SymbolOrOrdinal
+Tbsi_Create_Attestation_From_Log;code;tbs.dll;?Tbsi_Create_Attestation_From_Log@@YAJPEAEIPEAGPEAPEAG00IPEAII@Z (long __cdecl Tbsi_Create_Attestation_From_Log(unsigned char *,unsigned int,unsigned short *,unsigned short * *,unsigned char *,unsigned char *,unsigned int,unsigned int *,unsigned int))
+Tbsi_Get_TCG_Logs;code;tbs.dll;?Tbsi_Get_TCG_Logs@@YAIIPEAIPEAEI0I@Z (unsigned int __cdecl Tbsi_Get_TCG_Logs(unsigned int,unsigned int *,unsigned char *,unsigned int,unsigned int *,unsigned int))
+GetDeviceID;code;tbs.dll;
+GetDeviceIDString;code;tbs.dll;
+GetDeviceIDWithTimeout;code;tbs.dll;
+Tbsi_Context_Create;code;tbs.dll;
+Tbsi_Create_Windows_Key;code;tbs.dll;
+Tbsi_FilterLog;code;tbs.dll;
+Tbsi_GetDeviceInfo;code;tbs.dll;
+Tbsi_Get_OwnerAuth;code;tbs.dll;
+Tbsi_Get_TCG_Log;code;tbs.dll;
+Tbsi_Get_TCG_Log_Ex;code;tbs.dll;
+Tbsi_Physical_Presence_Command;code;tbs.dll;
+Tbsi_Revoke_Attestation;code;tbs.dll;
+Tbsi_ShaHash;code;tbs.dll;
+Tbsip_Cancel_Commands;code;tbs.dll;
+Tbsip_Context_Close;code;tbs.dll;
+Tbsip_Submit_Command;code;tbs.dll;
+Tbsip_Submit_Command_NonBlocking;code;tbs.dll;
+Tbsip_TestInterruptInformation;code;tbs.dll;
+Tbsip_TestMorBit;code;tbs.dll;

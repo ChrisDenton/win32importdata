@@ -1,0 +1,15 @@
+Name;Type;DLL;SymbolOrOrdinal
+DeleteExtractedFiles;code;Cabinet.dll;4
+DllGetVersion;code;Cabinet.dll;2
+Extract;code;Cabinet.dll;3
+FCIAddFile;code;Cabinet.dll;11
+FCICreate;code;Cabinet.dll;10
+FCIDestroy;code;Cabinet.dll;14
+FCIFlushCabinet;code;Cabinet.dll;13
+FCIFlushFolder;code;Cabinet.dll;12
+FDICopy;code;Cabinet.dll;22
+FDICreate;code;Cabinet.dll;20
+FDIDestroy;code;Cabinet.dll;23
+FDIIsCabinet;code;Cabinet.dll;21
+FDITruncateCabinet;code;Cabinet.dll;24
+GetDllVersion;code;Cabinet.dll;1

@@ -1,0 +1,2 @@
+Name;Type;DLL;SymbolOrOrdinal
+DXCoreCreateAdapterFactory;code;dxcore.dll;_DXCoreCreateAdapterFactory@8

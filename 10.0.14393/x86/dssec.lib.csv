@@ -1,0 +1,5 @@
+Name;Type;DLL;SymbolOrOrdinal
+_DSCreateISecurityInfoObject@28;code;DSSEC.dll;1
+_DSCreateISecurityInfoObjectEx@40;code;DSSEC.dll;4
+_DSCreateSecurityPage@28;code;DSSEC.dll;2
+_DSEditSecurity@32;code;DSSEC.dll;3

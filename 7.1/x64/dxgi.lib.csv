@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+DXGIDumpJournal;code;dxgi.dll;?DXGIDumpJournal@@YAXP6AXPEBD@Z@Z (void __cdecl DXGIDumpJournal(void (__cdecl*)(char const *)))
+CreateDXGIFactory;code;dxgi.dll;
+CreateDXGIFactory1;code;dxgi.dll;
+DXGID3D10CreateDevice;code;dxgi.dll;
+DXGID3D10CreateLayeredDevice;code;dxgi.dll;
+DXGID3D10GetLayeredDeviceSize;code;dxgi.dll;
+DXGID3D10RegisterLayers;code;dxgi.dll;
+DXGIReportAdapterConfiguration;code;dxgi.dll;

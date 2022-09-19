@@ -1,0 +1,7 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateXmlReader;code;XmlLite.dll;_CreateXmlReader@12
+CreateXmlReaderInputWithEncodingCodePage;code;XmlLite.dll;_CreateXmlReaderInputWithEncodingCodePage@24
+CreateXmlReaderInputWithEncodingName;code;XmlLite.dll;_CreateXmlReaderInputWithEncodingName@24
+CreateXmlWriter;code;XmlLite.dll;_CreateXmlWriter@12
+CreateXmlWriterOutputWithEncodingCodePage;code;XmlLite.dll;_CreateXmlWriterOutputWithEncodingCodePage@16
+CreateXmlWriterOutputWithEncodingName;code;XmlLite.dll;_CreateXmlWriterOutputWithEncodingName@16

@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+SRSetRestorePoint;code;sfc.dll;_SRSetRestorePoint@8
+SRSetRestorePointA;code;sfc.dll;_SRSetRestorePointA@8
+SRSetRestorePointW;code;sfc.dll;_SRSetRestorePointW@8
+_SfcClose@4;code;sfc.dll;4
+_SfcConnectToServer@4;code;sfc.dll;3
+_SfcFileException@12;code;sfc.dll;5
+SfcGetNextProtectedFile;code;sfc.dll;_SfcGetNextProtectedFile@8
+_SfcInitProt@28;code;sfc.dll;1
+_SfcInitiateScan@8;code;sfc.dll;6
+_SfcInstallProtectedFiles@28;code;sfc.dll;7
+SfcIsFileProtected;code;sfc.dll;_SfcIsFileProtected@8
+SfcIsKeyProtected;code;sfc.dll;_SfcIsKeyProtected@12
+_SfcTerminateWatcherThread@0;code;sfc.dll;2
+_SfpDeleteCatalog@8;code;sfc.dll;9
+_SfpInstallCatalog@12;code;sfc.dll;8
+SfpVerifyFile;code;sfc.dll;_SfpVerifyFile@12

@@ -1,0 +1,9 @@
+Name;Type;DLL;SymbolOrOrdinal
+CreateCaptureAudioStateMonitor;code;Windows.Media.MediaControl.DLL;
+CreateCaptureAudioStateMonitorForCategory;code;Windows.Media.MediaControl.DLL;
+CreateCaptureAudioStateMonitorForCategoryAndDeviceId;code;Windows.Media.MediaControl.DLL;
+CreateCaptureAudioStateMonitorForCategoryAndDeviceRole;code;Windows.Media.MediaControl.DLL;
+CreateRenderAudioStateMonitor;code;Windows.Media.MediaControl.DLL;
+CreateRenderAudioStateMonitorForCategory;code;Windows.Media.MediaControl.DLL;
+CreateRenderAudioStateMonitorForCategoryAndDeviceId;code;Windows.Media.MediaControl.DLL;
+CreateRenderAudioStateMonitorForCategoryAndDeviceRole;code;Windows.Media.MediaControl.DLL;

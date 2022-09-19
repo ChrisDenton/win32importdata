@@ -1,0 +1,6 @@
+Name;Type;DLL;SymbolOrOrdinal
+DCompositionAttachMouseWheelToHwnd;code;dcomp.dll;
+DCompositionCreateDevice;code;dcomp.dll;
+DCompositionCreateDevice2;code;dcomp.dll;1017
+DCompositionCreateDevice3;code;dcomp.dll;
+DCompositionCreateSurfaceHandle;code;dcomp.dll;

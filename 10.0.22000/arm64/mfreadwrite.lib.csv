@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+MFCreateSinkWriterFromMediaSink;code;MFReadWrite.dll;#MFCreateSinkWriterFromMediaSink
+MFCreateSinkWriterFromURL;code;MFReadWrite.dll;#MFCreateSinkWriterFromURL
+MFCreateSourceReaderFromByteStream;code;MFReadWrite.dll;#MFCreateSourceReaderFromByteStream
+MFCreateSourceReaderFromMediaSource;code;MFReadWrite.dll;#MFCreateSourceReaderFromMediaSource
+MFCreateSourceReaderFromURL;code;MFReadWrite.dll;#MFCreateSourceReaderFromURL
+MFCreateSinkWriterFromMediaSink;code;MFReadWrite.dll;
+MFCreateSinkWriterFromURL;code;MFReadWrite.dll;
+MFCreateSourceReaderFromByteStream;code;MFReadWrite.dll;
+MFCreateSourceReaderFromMediaSource;code;MFReadWrite.dll;
+MFCreateSourceReaderFromURL;code;MFReadWrite.dll;

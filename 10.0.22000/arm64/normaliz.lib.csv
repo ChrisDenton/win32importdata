@@ -1,0 +1,11 @@
+Name;Type;DLL;SymbolOrOrdinal
+IdnToAscii;code;Normaliz.dll;IdnToAscii
+IdnToNameprepUnicode;code;Normaliz.dll;IdnToNameprepUnicode
+IdnToUnicode;code;Normaliz.dll;IdnToUnicode
+IsNormalizedString;code;Normaliz.dll;IsNormalizedString
+NormalizeString;code;Normaliz.dll;NormalizeString
+IdnToAscii;code;Normaliz.dll;
+IdnToNameprepUnicode;code;Normaliz.dll;
+IdnToUnicode;code;Normaliz.dll;
+IsNormalizedString;code;Normaliz.dll;
+NormalizeString;code;Normaliz.dll;

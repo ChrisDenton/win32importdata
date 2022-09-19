@@ -1,0 +1,4 @@
+Name;Type;DLL;SymbolOrOrdinal
+WaitOnAddress;code;api-ms-win-core-synch-l1-2-0.dll;
+WakeByAddressAll;code;api-ms-win-core-synch-l1-2-0.dll;
+WakeByAddressSingle;code;api-ms-win-core-synch-l1-2-0.dll;

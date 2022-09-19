@@ -1,0 +1,18 @@
+Name;Type;DLL;SymbolOrOrdinal
+EcIsConfigRequired;code;WecApi.dll;?EcIsConfigRequired@@YGHPAH@Z (int __stdcall EcIsConfigRequired(int *))
+EcQuickConfig;code;WecApi.dll;?EcQuickConfig@@YGHXZ (int __stdcall EcQuickConfig(void))
+EcClose;code;WecApi.dll;_EcClose@4
+EcDeleteSubscription;code;WecApi.dll;_EcDeleteSubscription@8
+EcEnumNextSubscription;code;WecApi.dll;_EcEnumNextSubscription@16
+EcGetObjectArrayProperty;code;WecApi.dll;_EcGetObjectArrayProperty@28
+EcGetObjectArraySize;code;WecApi.dll;_EcGetObjectArraySize@8
+EcGetSubscriptionProperty;code;WecApi.dll;_EcGetSubscriptionProperty@24
+EcGetSubscriptionRunTimeStatus;code;WecApi.dll;_EcGetSubscriptionRunTimeStatus@28
+EcInsertObjectArrayElement;code;WecApi.dll;_EcInsertObjectArrayElement@8
+EcOpenSubscription;code;WecApi.dll;_EcOpenSubscription@12
+EcOpenSubscriptionEnum;code;WecApi.dll;_EcOpenSubscriptionEnum@4
+EcRemoveObjectArrayElement;code;WecApi.dll;_EcRemoveObjectArrayElement@8
+EcRetrySubscription;code;WecApi.dll;_EcRetrySubscription@12
+EcSaveSubscription;code;WecApi.dll;_EcSaveSubscription@8
+EcSetObjectArrayProperty;code;WecApi.dll;_EcSetObjectArrayProperty@20
+EcSetSubscriptionProperty;code;WecApi.dll;_EcSetSubscriptionProperty@16

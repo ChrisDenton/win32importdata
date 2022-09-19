@@ -1,0 +1,3 @@
+Name;Type;DLL;SymbolOrOrdinal
+WSCWriteNameSpaceOrder;code;SPORDER.dll;_WSCWriteNameSpaceOrder@8
+WSCWriteProviderOrder;code;SPORDER.dll;_WSCWriteProviderOrder@8

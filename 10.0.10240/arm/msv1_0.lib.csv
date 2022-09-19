@@ -1,0 +1,19 @@
+Name;Type;DLL;SymbolOrOrdinal
+MsvIsLocalhostAliases;code;msv1_0.dll;?MsvIsLocalhostAliases@@YAHPAU_UNICODE_STRING@@@Z (int __cdecl MsvIsLocalhostAliases(struct _UNICODE_STRING *))
+SpLsaModeInitialize;code;msv1_0.dll;?SpLsaModeInitialize@@YAJKPAKPAPAU_SECPKG_FUNCTION_TABLE@@0@Z (long __cdecl SpLsaModeInitialize(unsigned long,unsigned long *,struct _SECPKG_FUNCTION_TABLE * *,unsigned long *))
+SpUserModeInitialize;code;msv1_0.dll;?SpUserModeInitialize@@YAJKPAKPAPAU_SECPKG_USER_FUNCTION_TABLE@@0@Z (long __cdecl SpUserModeInitialize(unsigned long,unsigned long *,struct _SECPKG_USER_FUNCTION_TABLE * *,unsigned long *))
+DllMain;code;msv1_0.dll;
+LsaApCallPackage;code;msv1_0.dll;
+LsaApCallPackagePassthrough;code;msv1_0.dll;
+LsaApCallPackageUntrusted;code;msv1_0.dll;
+LsaApInitializePackage;code;msv1_0.dll;
+LsaApLogonTerminated;code;msv1_0.dll;
+LsaApLogonUserEx2;code;msv1_0.dll;
+Msv1_0ExportSubAuthenticationRoutine;code;msv1_0.dll;
+Msv1_0SubAuthenticationPresent;code;msv1_0.dll;
+MsvGetLogonAttemptCount;code;msv1_0.dll;
+MsvSamLogoff;code;msv1_0.dll;
+MsvSamValidate;code;msv1_0.dll;
+MsvValidateTarget;code;msv1_0.dll;
+SpInitialize;code;msv1_0.dll;1
+SpInstanceInit;code;msv1_0.dll;32

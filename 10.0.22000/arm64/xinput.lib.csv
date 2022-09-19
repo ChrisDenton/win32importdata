@@ -1,0 +1,17 @@
+Name;Type;DLL;SymbolOrOrdinal
+#DllMain;code;XINPUT1_4.dll;1
+#XInputEnable;code;XINPUT1_4.dll;5
+#XInputGetAudioDeviceIds;code;XINPUT1_4.dll;10
+#XInputGetBatteryInformation;code;XINPUT1_4.dll;7
+#XInputGetCapabilities;code;XINPUT1_4.dll;4
+#XInputGetKeystroke;code;XINPUT1_4.dll;8
+#XInputGetState;code;XINPUT1_4.dll;2
+#XInputSetState;code;XINPUT1_4.dll;3
+DllMain;code;XINPUT1_4.dll;1
+XInputEnable;code;XINPUT1_4.dll;5
+XInputGetAudioDeviceIds;code;XINPUT1_4.dll;10
+XInputGetBatteryInformation;code;XINPUT1_4.dll;7
+XInputGetCapabilities;code;XINPUT1_4.dll;4
+XInputGetKeystroke;code;XINPUT1_4.dll;8
+XInputGetState;code;XINPUT1_4.dll;2
+XInputSetState;code;XINPUT1_4.dll;3

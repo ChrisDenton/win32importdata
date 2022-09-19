@@ -1,0 +1,46 @@
+Name;Type;DLL;SymbolOrOrdinal
+WSDAddFirewallCheck;code;wsdapi.dll;?WSDAddFirewallCheck@@YAJPEBGPEAPEAX@Z (long __cdecl WSDAddFirewallCheck(unsigned short const *,void * *))
+WSDCancelNetworkChangeNotify;code;wsdapi.dll;?WSDCancelNetworkChangeNotify@@YAJPEAX@Z (long __cdecl WSDCancelNetworkChangeNotify(void *))
+WSDCopyNameList;code;wsdapi.dll;?WSDCopyNameList@@YAJPEAPEAU_WSD_NAME_LIST@@PEBU1@@Z (long __cdecl WSDCopyNameList(struct _WSD_NAME_LIST * *,struct _WSD_NAME_LIST const *))
+WSDNotifyNetworkChange;code;wsdapi.dll;?WSDNotifyNetworkChange@@YAJP6AKPEAX@Z0PEAPEAX@Z (long __cdecl WSDNotifyNetworkChange(unsigned long (__cdecl*)(void *),void *,void * *))
+WSDRemoveFirewallCheck;code;wsdapi.dll;?WSDRemoveFirewallCheck@@YAJPEAX@Z (long __cdecl WSDRemoveFirewallCheck(void *))
+WSDXMLCompareNames;code;wsdapi.dll;?WSDXMLCompareNames@@YAJPEBU_WSDXML_NAME@@0@Z (long __cdecl WSDXMLCompareNames(struct _WSDXML_NAME const *,struct _WSDXML_NAME const *))
+WSDAllocateLinkedMemory;code;wsdapi.dll;
+WSDAttachLinkedMemory;code;wsdapi.dll;
+WSDCompareEndpoints;code;wsdapi.dll;
+WSDCopyEndpoint;code;wsdapi.dll;
+WSDCreateDeviceHost;code;wsdapi.dll;
+WSDCreateDeviceHost2;code;wsdapi.dll;
+WSDCreateDeviceHostAdvanced;code;wsdapi.dll;
+WSDCreateDeviceProxy;code;wsdapi.dll;
+WSDCreateDeviceProxy2;code;wsdapi.dll;
+WSDCreateDeviceProxyAdvanced;code;wsdapi.dll;
+WSDCreateDiscoveryProvider;code;wsdapi.dll;
+WSDCreateDiscoveryProvider2;code;wsdapi.dll;
+WSDCreateDiscoveryPublisher;code;wsdapi.dll;
+WSDCreateDiscoveryPublisher2;code;wsdapi.dll;
+WSDCreateHttpAddress;code;wsdapi.dll;
+WSDCreateHttpMessageParameters;code;wsdapi.dll;
+WSDCreateHttpTransport;code;wsdapi.dll;
+WSDCreateMetadataAgent;code;wsdapi.dll;
+WSDCreateOutboundAttachment;code;wsdapi.dll;
+WSDCreateUdpAddress;code;wsdapi.dll;
+WSDCreateUdpMessageParameters;code;wsdapi.dll;
+WSDCreateUdpTransport;code;wsdapi.dll;
+WSDDetachLinkedMemory;code;wsdapi.dll;
+WSDFreeLinkedMemory;code;wsdapi.dll;
+WSDGenerateFault;code;wsdapi.dll;
+WSDGenerateFaultEx;code;wsdapi.dll;
+WSDGenerateRandomDelay;code;wsdapi.dll;
+WSDGetConfigurationOption;code;wsdapi.dll;
+WSDProcessFault;code;wsdapi.dll;
+WSDSetConfigurationOption;code;wsdapi.dll;
+WSDUriDecode;code;wsdapi.dll;
+WSDUriEncode;code;wsdapi.dll;
+WSDXMLAddChild;code;wsdapi.dll;
+WSDXMLAddSibling;code;wsdapi.dll;
+WSDXMLBuildAnyForSingleElement;code;wsdapi.dll;
+WSDXMLCleanupElement;code;wsdapi.dll;
+WSDXMLCreateContext;code;wsdapi.dll;
+WSDXMLGetNameFromBuiltinNamespace;code;wsdapi.dll;
+WSDXMLGetValueFromAny;code;wsdapi.dll;
