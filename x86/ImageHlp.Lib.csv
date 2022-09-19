@@ -78,6 +78,7 @@ SymFromName;code;imagehlp.dll;_SymFromName@12
 SymFunctionTableAccess64;code;imagehlp.dll;_SymFunctionTableAccess64@12
 SymFunctionTableAccess64AccessRoutines;code;imagehlp.dll;_SymFunctionTableAccess64AccessRoutines@20
 SymFunctionTableAccess;code;imagehlp.dll;_SymFunctionTableAccess@8
+SymGetExtendedOption;code;imagehlp.dll;_SymGetExtendedOption@4
 SymGetLineFromAddr64;code;imagehlp.dll;_SymGetLineFromAddr64@20
 SymGetLineFromAddr;code;imagehlp.dll;_SymGetLineFromAddr@16
 SymGetLineFromInlineContext;code;imagehlp.dll;_SymGetLineFromInlineContext@32
@@ -128,6 +129,7 @@ SymRegisterCallback;code;imagehlp.dll;_SymRegisterCallback@12
 SymRegisterFunctionEntryCallback64;code;imagehlp.dll;_SymRegisterFunctionEntryCallback64@16
 SymRegisterFunctionEntryCallback;code;imagehlp.dll;_SymRegisterFunctionEntryCallback@12
 SymSetContext;code;imagehlp.dll;_SymSetContext@12
+SymSetExtendedOption;code;imagehlp.dll;_SymSetExtendedOption@8
 SymSetOptions;code;imagehlp.dll;_SymSetOptions@4
 SymSetScopeFromAddr;code;imagehlp.dll;_SymSetScopeFromAddr@12
 SymSetScopeFromIndex;code;imagehlp.dll;_SymSetScopeFromIndex@16

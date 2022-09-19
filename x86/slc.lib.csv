@@ -1,0 +1,42 @@
+Name;Type;DLL;SymbolOrOrdinal
+SLpCheckProductKey;code;SLC.dll;?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z (long __stdcall SLpCheckProductKey(struct DIGITALPID4 *,int *))
+SLpGetGenuineLocal;code;SLC.dll;?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z (long __stdcall SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))
+SLpProcessOemProductKey;code;SLC.dll;?SLpProcessOemProductKey@@YGJPAXPAH@Z (long __stdcall SLpProcessOemProductKey(void *,int *))
+SLpUpdateComponentTokens;code;SLC.dll;?SLpUpdateComponentTokens@@YGJPAXPAH@Z (long __stdcall SLpUpdateComponentTokens(void *,int *))
+SLClose;code;SLC.dll;_SLClose@4
+SLConsumeRight;code;SLC.dll;_SLConsumeRight@20
+SLConsumeWindowsRight;code;SLC.dll;_SLConsumeWindowsRight@4
+SLDepositOfflineConfirmationId;code;SLC.dll;_SLDepositOfflineConfirmationId@16
+SLDepositOfflineConfirmationIdEx;code;SLC.dll;_SLDepositOfflineConfirmationIdEx@20
+SLFireEvent;code;SLC.dll;_SLFireEvent@12
+SLGenerateOfflineInstallationId;code;SLC.dll;_SLGenerateOfflineInstallationId@12
+SLGenerateOfflineInstallationIdEx;code;SLC.dll;_SLGenerateOfflineInstallationIdEx@16
+SLGetApplicationInformation;code;SLC.dll;_SLGetApplicationInformation@24
+SLGetGenuineInformation;code;SLC.dll;_SLGetGenuineInformation@20
+SLGetInstalledProductKeyIds;code;SLC.dll;_SLGetInstalledProductKeyIds@16
+SLGetLicense;code;SLC.dll;_SLGetLicense@16
+SLGetLicenseFileId;code;SLC.dll;_SLGetLicenseFileId@16
+SLGetLicenseInformation;code;SLC.dll;_SLGetLicenseInformation@24
+SLGetLicensingStatusInformation;code;SLC.dll;_SLGetLicensingStatusInformation@24
+SLGetPKeyId;code;SLC.dll;_SLGetPKeyId@24
+SLGetPKeyInformation;code;SLC.dll;_SLGetPKeyInformation@24
+SLGetPolicyInformation;code;SLC.dll;_SLGetPolicyInformation@20
+SLGetPolicyInformationDWORD;code;SLC.dll;_SLGetPolicyInformationDWORD@12
+SLGetProductSkuInformation;code;SLC.dll;_SLGetProductSkuInformation@24
+SLGetSLIDList;code;SLC.dll;_SLGetSLIDList@24
+SLGetServiceInformation;code;SLC.dll;_SLGetServiceInformation@20
+SLGetWindowsInformation;code;SLC.dll;_SLGetWindowsInformation@16
+SLGetWindowsInformationDWORD;code;SLC.dll;_SLGetWindowsInformationDWORD@8
+SLInstallLicense;code;SLC.dll;_SLInstallLicense@16
+SLInstallProofOfPurchase;code;SLC.dll;_SLInstallProofOfPurchase@24
+SLIsWindowsGenuineLocal;code;SLC.dll;_SLIsWindowsGenuineLocal@4
+SLOpen;code;SLC.dll;_SLOpen@4
+SLReArmWindows;code;SLC.dll;_SLReArmWindows@0
+SLRegisterEvent;code;SLC.dll;_SLRegisterEvent@16
+SLRegisterWindowsEvent;code;SLC.dll;_SLRegisterWindowsEvent@8
+SLSetCurrentProductKey;code;SLC.dll;_SLSetCurrentProductKey@12
+SLSetGenuineInformation;code;SLC.dll;_SLSetGenuineInformation@20
+SLUninstallLicense;code;SLC.dll;_SLUninstallLicense@8
+SLUninstallProofOfPurchase;code;SLC.dll;_SLUninstallProofOfPurchase@8
+SLUnregisterEvent;code;SLC.dll;_SLUnregisterEvent@16
+SLUnregisterWindowsEvent;code;SLC.dll;_SLUnregisterWindowsEvent@8

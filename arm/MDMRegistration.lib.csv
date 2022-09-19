@@ -3,9 +3,11 @@ Name;Type;DLL;SymbolOrOrdinal
 ?FindDiscoveryService@@YAJPBGPAPBGPAH@Z (long __cdecl FindDiscoveryService(unsigned short const *,unsigned short const * *,int *));code;MDMRegistration.DLL;2
 DiscoverManagementService;code;MDMRegistration.DLL;
 DiscoverManagementServiceEx;code;MDMRegistration.DLL;
+GetDeviceRegistrationInfo;code;MDMRegistration.DLL;
 GetManagementAppHyperlink;code;MDMRegistration.DLL;
 IsDeviceRegisteredWithManagement;code;MDMRegistration.DLL;
 IsManagementRegistrationAllowed;code;MDMRegistration.DLL;
 RegisterDeviceWithManagement;code;MDMRegistration.DLL;
+RegisterDeviceWithManagementUsingAADCredentials;code;MDMRegistration.DLL;
 SetManagedExternally;code;MDMRegistration.DLL;
 UnregisterDeviceWithManagement;code;MDMRegistration.DLL;

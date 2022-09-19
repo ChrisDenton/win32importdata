@@ -24,6 +24,7 @@ EdpQueryRevokedPolicyOwnerIds;code;FeClient.dll;_EdpQueryRevokedPolicyOwnerIds@1
 EdpRmsClearKeys;code;FeClient.dll;_EdpRmsClearKeys@0
 EdpSetCredServiceInfo;code;FeClient.dll;_EdpSetCredServiceInfo@20
 EdpUnprotectFile;code;FeClient.dll;_EdpUnprotectFile@8
+EdpWriteLogSiteLearningEvents;code;FeClient.dll;_EdpWriteLogSiteLearningEvents@4
 EfsClientCloseFileRaw;code;FeClient.dll;_EfsClientCloseFileRaw@4
 EfsClientCopyFileRaw;code;FeClient.dll;_EfsClientCopyFileRaw@8
 EfsClientDecryptFile;code;FeClient.dll;_EfsClientDecryptFile@8
@@ -42,3 +43,4 @@ EfsClientWriteFileWithHeaderRaw;code;FeClient.dll;_EfsClientWriteFileWithHeaderR
 FeClientInitialize;code;FeClient.dll;_FeClientInitialize@8
 GetLockSessionUnwrappedKey;code;FeClient.dll;_GetLockSessionUnwrappedKey@28
 GetLockSessionWrappedKey;code;FeClient.dll;_GetLockSessionWrappedKey@28
+OefsCheckSupport;code;FeClient.dll;_OefsCheckSupport@8

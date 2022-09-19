@@ -167,6 +167,7 @@ sqlite3_rtree_geometry_callback;code;winsqlite3.dll;
 sqlite3_rtree_query_callback;code;winsqlite3.dll;
 sqlite3_set_authorizer;code;winsqlite3.dll;
 sqlite3_set_auxdata;code;winsqlite3.dll;
+sqlite3_set_last_insert_rowid;code;winsqlite3.dll;
 sqlite3_shutdown;code;winsqlite3.dll;
 sqlite3_sleep;code;winsqlite3.dll;
 sqlite3_snprintf;code;winsqlite3.dll;

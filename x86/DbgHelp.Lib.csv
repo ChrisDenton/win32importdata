@@ -103,6 +103,7 @@ SymFromTokenW;code;dbghelp.dll;_SymFromTokenW@20
 SymFunctionTableAccess64;code;dbghelp.dll;_SymFunctionTableAccess64@12
 SymFunctionTableAccess64AccessRoutines;code;dbghelp.dll;_SymFunctionTableAccess64AccessRoutines@20
 SymFunctionTableAccess;code;dbghelp.dll;_SymFunctionTableAccess@8
+SymGetExtendedOption;code;dbghelp.dll;_SymGetExtendedOption@4
 SymGetFileLineOffsets64;code;dbghelp.dll;_SymGetFileLineOffsets64@20
 SymGetHomeDirectory;code;dbghelp.dll;_SymGetHomeDirectory@12
 SymGetHomeDirectoryW;code;dbghelp.dll;_SymGetHomeDirectoryW@12
@@ -182,6 +183,7 @@ SymRegisterFunctionEntryCallback;code;dbghelp.dll;_SymRegisterFunctionEntryCallb
 SymSearch;code;dbghelp.dll;_SymSearch@44
 SymSearchW;code;dbghelp.dll;_SymSearchW@44
 SymSetContext;code;dbghelp.dll;_SymSetContext@12
+SymSetExtendedOption;code;dbghelp.dll;_SymSetExtendedOption@8
 SymSetHomeDirectory;code;dbghelp.dll;_SymSetHomeDirectory@8
 SymSetHomeDirectoryW;code;dbghelp.dll;_SymSetHomeDirectoryW@8
 SymSetOptions;code;dbghelp.dll;_SymSetOptions@4

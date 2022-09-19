@@ -1,4 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
+MagSetFullscreenUseBitmapSmoothing;code;MAGNIFICATION.dll;?MagSetFullscreenUseBitmapSmoothing@@YAHH@Z (int __cdecl MagSetFullscreenUseBitmapSmoothing(int))
+MagSetLensUseBitmapSmoothing;code;MAGNIFICATION.dll;?MagSetLensUseBitmapSmoothing@@YAHPEAUHWND__@@H@Z (int __cdecl MagSetLensUseBitmapSmoothing(struct HWND__ *,int))
 MagGetColorEffect;code;MAGNIFICATION.dll;
 MagGetFullscreenColorEffect;code;MAGNIFICATION.dll;
 MagGetFullscreenTransform;code;MAGNIFICATION.dll;

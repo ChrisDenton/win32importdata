@@ -21,6 +21,7 @@ DocumentEvent;code;WINSPOOL.DRV;?DocumentEvent@@YAHPEAXPEAUHDC__@@HK0K0@Z (int _
 QueryColorProfile;code;WINSPOOL.DRV;?QueryColorProfile@@YAHPEAXPEAU_devicemodeW@@K0PEAK2@Z (int __cdecl QueryColorProfile(void *,struct _devicemodeW *,unsigned long,void *,unsigned long *,unsigned long *))
 QueryRemoteFonts;code;WINSPOOL.DRV;?QueryRemoteFonts@@YAHPEAXPEAU_UNIVERSAL_FONT_ID@@K@Z (int __cdecl QueryRemoteFonts(void *,struct _UNIVERSAL_FONT_ID *,unsigned long))
 QuerySpoolMode;code;WINSPOOL.DRV;?QuerySpoolMode@@YAHPEAXPEAJPEAK@Z (int __cdecl QuerySpoolMode(void *,long *,unsigned long *))
+?SetParentWindow@@YAHPEAXPEAUHWND__@@H@Z (int __cdecl SetParentWindow(void *,struct HWND__ *,int));code;WINSPOOL.DRV;363
 SpoolerDevQueryPrintW;code;WINSPOOL.DRV;?SpoolerDevQueryPrintW@@YAHPEAXPEAU_devicemodeW@@PEAKPEAGK@Z (int __cdecl SpoolerDevQueryPrintW(void *,struct _devicemodeW *,unsigned long *,unsigned short *,unsigned long))
 StartDocDlgW;code;WINSPOOL.DRV;?StartDocDlgW@@YAPEAGPEAXPEAU_DOCINFOW@@@Z (unsigned short * __cdecl StartDocDlgW(void *,struct _DOCINFOW *))
 AbortPrinter;code;WINSPOOL.DRV;

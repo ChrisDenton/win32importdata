@@ -37,3 +37,4 @@ wscSetDefaultProduct;code;WSCAPI.dll;
 wscUnRegisterChangeNotification;code;WSCAPI.dll;
 wscUnregisterSecurityProduct;code;WSCAPI.dll;
 wscUpdateProductStatus;code;WSCAPI.dll;
+wscUpdateProductSubStatus;code;WSCAPI.dll;

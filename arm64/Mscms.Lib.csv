@@ -69,6 +69,7 @@ InternalSetDeviceConfig;code;mscms.dll;
 InternalSetDeviceGammaRamp;code;mscms.dll;203
 InternalSetDeviceTemperature;code;mscms.dll;204
 InternalWcsAssociateColorProfileWithDevice;code;mscms.dll;
+InternalWcsDisassociateColorProfileWithDevice;code;mscms.dll;
 IsColorProfileTagPresent;code;mscms.dll;
 IsColorProfileValid;code;mscms.dll;
 OpenColorProfileA;code;mscms.dll;

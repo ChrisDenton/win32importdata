@@ -124,12 +124,14 @@ GetSessionCompartmentId;code;IPHLPAPI.DLL;_GetSessionCompartmentId@4
 GetTcp6Table2;code;IPHLPAPI.DLL;_GetTcp6Table2@12
 GetTcp6Table;code;IPHLPAPI.DLL;_GetTcp6Table@12
 GetTcpStatistics;code;IPHLPAPI.DLL;_GetTcpStatistics@4
+GetTcpStatisticsEx2;code;IPHLPAPI.DLL;_GetTcpStatisticsEx2@8
 GetTcpStatisticsEx;code;IPHLPAPI.DLL;_GetTcpStatisticsEx@8
 GetTcpTable2;code;IPHLPAPI.DLL;_GetTcpTable2@12
 GetTcpTable;code;IPHLPAPI.DLL;_GetTcpTable@12
 GetTeredoPort;code;IPHLPAPI.DLL;_GetTeredoPort@4
 GetUdp6Table;code;IPHLPAPI.DLL;_GetUdp6Table@12
 GetUdpStatistics;code;IPHLPAPI.DLL;_GetUdpStatistics@4
+GetUdpStatisticsEx2;code;IPHLPAPI.DLL;_GetUdpStatisticsEx2@8
 GetUdpStatisticsEx;code;IPHLPAPI.DLL;_GetUdpStatisticsEx@8
 GetUdpTable;code;IPHLPAPI.DLL;_GetUdpTable@12
 GetUniDirectionalAdapterInfo;code;IPHLPAPI.DLL;_GetUniDirectionalAdapterInfo@8

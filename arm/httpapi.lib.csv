@@ -19,6 +19,7 @@ HttpFlushResponseCache;code;HTTPAPI.dll;
 HttpGetCounters;code;HTTPAPI.dll;
 HttpInitialize;code;HTTPAPI.dll;
 HttpPrepareUrl;code;HTTPAPI.dll;
+HttpQueryRequestProperty;code;HTTPAPI.dll;
 HttpQueryRequestQueueProperty;code;HTTPAPI.dll;
 HttpQueryServerSessionProperty;code;HTTPAPI.dll;
 HttpQueryServiceConfiguration;code;HTTPAPI.dll;

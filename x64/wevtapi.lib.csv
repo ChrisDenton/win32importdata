@@ -1,6 +1,5 @@
 Name;Type;DLL;SymbolOrOrdinal
 EvtIntSysprepCleanup;code;wevtapi.dll;?EvtIntSysprepCleanup@@YAKXZ (unsigned long __cdecl EvtIntSysprepCleanup(void))
-EvtSetObjectArrayProperty;code;wevtapi.dll;?EvtSetObjectArrayProperty@@YAHPEAXKKKPEAU_EVT_VARIANT@@@Z (int __cdecl EvtSetObjectArrayProperty(void *,unsigned long,unsigned long,unsigned long,struct _EVT_VARIANT *))
 EvtArchiveExportedLog;code;wevtapi.dll;
 EvtCancel;code;wevtapi.dll;
 EvtClearLog;code;wevtapi.dll;

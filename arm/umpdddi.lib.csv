@@ -85,6 +85,7 @@ XLATEOBJ_piVector;code;GDI32.dll;
 fpClosePrinter;data;GDI32.dll;
 gMaxGdiHandleCount;data;GDI32.dll;
 gW32PID;data;GDI32.dll;
+g_systemCallFilterId;data;GDI32.dll;
 ghICM;data;GDI32.dll;
 pGdiDevCaps;data;GDI32.dll;
 pGdiSharedHandleTable;data;GDI32.dll;

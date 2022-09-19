@@ -8,6 +8,7 @@ WinUsb_GetAdjustedFrameNumber;code;WINUSB.DLL;_WinUsb_GetAdjustedFrameNumber@12
 WinUsb_GetAssociatedInterface;code;WINUSB.DLL;_WinUsb_GetAssociatedInterface@12
 WinUsb_GetCurrentAlternateSetting;code;WINUSB.DLL;_WinUsb_GetCurrentAlternateSetting@8
 WinUsb_GetCurrentFrameNumber;code;WINUSB.DLL;_WinUsb_GetCurrentFrameNumber@12
+WinUsb_GetCurrentFrameNumberAndQpc;code;WINUSB.DLL;_WinUsb_GetCurrentFrameNumberAndQpc@8
 WinUsb_GetDescriptor;code;WINUSB.DLL;_WinUsb_GetDescriptor@28
 WinUsb_GetOverlappedResult;code;WINUSB.DLL;_WinUsb_GetOverlappedResult@16
 WinUsb_GetPipePolicy;code;WINUSB.DLL;_WinUsb_GetPipePolicy@20
@@ -29,6 +30,8 @@ WinUsb_SetCurrentAlternateSetting;code;WINUSB.DLL;_WinUsb_SetCurrentAlternateSet
 WinUsb_SetCurrentAlternateSettingAsync;code;WINUSB.DLL;_WinUsb_SetCurrentAlternateSettingAsync@12
 WinUsb_SetPipePolicy;code;WINUSB.DLL;_WinUsb_SetPipePolicy@20
 WinUsb_SetPowerPolicy;code;WINUSB.DLL;_WinUsb_SetPowerPolicy@16
+WinUsb_StartTrackingForTimeSync;code;WINUSB.DLL;_WinUsb_StartTrackingForTimeSync@8
+WinUsb_StopTrackingForTimeSync;code;WINUSB.DLL;_WinUsb_StopTrackingForTimeSync@8
 WinUsb_UnregisterIsochBuffer;code;WINUSB.DLL;_WinUsb_UnregisterIsochBuffer@4
 WinUsb_WriteIsochPipe;code;WINUSB.DLL;_WinUsb_WriteIsochPipe@20
 WinUsb_WriteIsochPipeAsap;code;WINUSB.DLL;_WinUsb_WriteIsochPipeAsap@20

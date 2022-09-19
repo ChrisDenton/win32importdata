@@ -17,6 +17,7 @@ _MMDeviceGetPolicyConfig@4;code;MMDevAPI.DLL;14
 _RegisterForMediaCallback@8;code;MMDevAPI.DLL;10
 _UnregisterMediaCallback@4;code;MMDevAPI.DLL;11
 _mmdDevFindMmDevProperty@12;code;MMDevAPI.DLL;19
+_mmdDevGetEndpointFormFactorFromMMDeviceId@8;code;MMDevAPI.DLL;30
 _mmdDevGetInstanceIdFromInterfaceId@8;code;MMDevAPI.DLL;26
 _mmdDevGetInstanceIdFromMMDeviceId@8;code;MMDevAPI.DLL;29
 _mmdDevGetInterfaceClassGuid@8;code;MMDevAPI.DLL;24

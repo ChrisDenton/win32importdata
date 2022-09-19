@@ -559,6 +559,7 @@ QueryServiceObjectSecurity;code;ADVAPI32.dll;_QueryServiceObjectSecurity@20
 QueryServiceStatus;code;ADVAPI32.dll;_QueryServiceStatus@8
 QueryServiceStatusEx;code;ADVAPI32.dll;_QueryServiceStatusEx@20
 QueryTraceA;code;ADVAPI32.dll;_QueryTraceA@16
+QueryTraceProcessingHandle;code;ADVAPI32.dll;_QueryTraceProcessingHandle@32
 QueryTraceW;code;ADVAPI32.dll;_QueryTraceW@16
 QueryUsersOnEncryptedFile;code;ADVAPI32.dll;_QueryUsersOnEncryptedFile@8
 ReadEncryptedFileRaw;code;ADVAPI32.dll;_ReadEncryptedFileRaw@12
@@ -658,6 +659,8 @@ RegisterWaitChainCOMCallback;code;ADVAPI32.dll;_RegisterWaitChainCOMCallback@8
 RemoteRegEnumKeyWrapper;code;ADVAPI32.dll;_RemoteRegEnumKeyWrapper@20
 RemoteRegEnumValueWrapper;code;ADVAPI32.dll;_RemoteRegEnumValueWrapper@28
 RemoteRegQueryInfoKeyWrapper;code;ADVAPI32.dll;_RemoteRegQueryInfoKeyWrapper@40
+RemoteRegQueryMultipleValues2Wrapper;code;ADVAPI32.dll;_RemoteRegQueryMultipleValues2Wrapper@24
+RemoteRegQueryMultipleValuesWrapper;code;ADVAPI32.dll;_RemoteRegQueryMultipleValuesWrapper@20
 RemoteRegQueryValueWrapper;code;ADVAPI32.dll;_RemoteRegQueryValueWrapper@24
 RemoveTraceCallback;code;ADVAPI32.dll;_RemoveTraceCallback@4
 RemoveUsersFromEncryptedFile;code;ADVAPI32.dll;_RemoveUsersFromEncryptedFile@8

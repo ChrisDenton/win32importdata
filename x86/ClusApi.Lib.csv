@@ -12,7 +12,10 @@ AddClusterGroupToGroupSetDependency;code;CLUSAPI.dll;_AddClusterGroupToGroupSetD
 AddClusterNode;code;CLUSAPI.dll;_AddClusterNode@16
 AddClusterResourceDependency;code;CLUSAPI.dll;_AddClusterResourceDependency@8
 AddClusterResourceNode;code;CLUSAPI.dll;_AddClusterResourceNode@8
+AddClusterStorageNode;code;CLUSAPI.dll;_AddClusterStorageNode@24
+AddCrossClusterGroupSetDependency;code;CLUSAPI.dll;_AddCrossClusterGroupSetDependency@12
 AddResourceToClusterSharedVolumes;code;CLUSAPI.dll;_AddResourceToClusterSharedVolumes@4
+AddResourceToClusterSharedVolumesEx;code;CLUSAPI.dll;_AddResourceToClusterSharedVolumesEx@8
 BackupClusterDatabase;code;CLUSAPI.dll;_BackupClusterDatabase@8
 CanResourceBeDependent;code;CLUSAPI.dll;_CanResourceBeDependent@8
 CancelClusterGroupOperation;code;CLUSAPI.dll;_CancelClusterGroupOperation@8
@@ -53,6 +56,7 @@ ClusterGetEnumCount;code;CLUSAPI.dll;_ClusterGetEnumCount@4
 ClusterGetEnumCountEx;code;CLUSAPI.dll;_ClusterGetEnumCountEx@4
 ClusterGetFaultDomainObject;code;CLUSAPI.dll;_ClusterGetFaultDomainObject@16
 ClusterGetFaultDomainObjects;code;CLUSAPI.dll;_ClusterGetFaultDomainObjects@20
+ClusterGetFaultDomainState;code;CLUSAPI.dll;_ClusterGetFaultDomainState@16
 ClusterGetFaultDomainXML;code;CLUSAPI.dll;_ClusterGetFaultDomainXML@12
 ClusterGetPlacementScore;code;CLUSAPI.dll;_ClusterGetPlacementScore@24
 ClusterGroupCloseEnum;code;CLUSAPI.dll;_ClusterGroupCloseEnum@4
@@ -91,6 +95,7 @@ ClusterNodeGetEnumCount;code;CLUSAPI.dll;_ClusterNodeGetEnumCount@4
 ClusterNodeGetEnumCountEx;code;CLUSAPI.dll;_ClusterNodeGetEnumCountEx@4
 ClusterNodeOpenEnum;code;CLUSAPI.dll;_ClusterNodeOpenEnum@8
 ClusterNodeOpenEnumEx;code;CLUSAPI.dll;_ClusterNodeOpenEnumEx@12
+ClusterNodeReplacement;code;CLUSAPI.dll;_ClusterNodeReplacement@12
 ClusterOpenEnum;code;CLUSAPI.dll;_ClusterOpenEnum@8
 ClusterOpenEnumEx;code;CLUSAPI.dll;_ClusterOpenEnumEx@12
 ClusterRegBatchAddCommand;code;CLUSAPI.dll;_ClusterRegBatchAddCommand@24
@@ -174,6 +179,10 @@ DeleteClusterResource;code;CLUSAPI.dll;_DeleteClusterResource@4
 DeleteClusterResourceType;code;CLUSAPI.dll;_DeleteClusterResourceType@8
 DestroyCluster;code;CLUSAPI.dll;_DestroyCluster@16
 DestroyClusterGroup;code;CLUSAPI.dll;_DestroyClusterGroup@4
+DetermineCNOResTypeFromCluster;code;CLUSAPI.dll;_DetermineCNOResTypeFromCluster@8
+DetermineCNOResTypeFromNodelist;code;CLUSAPI.dll;_DetermineCNOResTypeFromNodelist@12
+DetermineClusterCloudTypeFromCluster;code;CLUSAPI.dll;_DetermineClusterCloudTypeFromCluster@8
+DetermineClusterCloudTypeFromNodelist;code;CLUSAPI.dll;_DetermineClusterCloudTypeFromNodelist@12
 EvictClusterNode;code;CLUSAPI.dll;_EvictClusterNode@4
 EvictClusterNodeEx;code;CLUSAPI.dll;_EvictClusterNodeEx@12
 FailClusterResource;code;CLUSAPI.dll;_FailClusterResource@4
@@ -237,6 +246,7 @@ OpenClusterNetInterfaceEx;code;CLUSAPI.dll;_OpenClusterNetInterfaceEx@16
 OpenClusterNetwork;code;CLUSAPI.dll;_OpenClusterNetwork@8
 OpenClusterNetworkEx;code;CLUSAPI.dll;_OpenClusterNetworkEx@16
 OpenClusterNode;code;CLUSAPI.dll;_OpenClusterNode@8
+OpenClusterNodeById;code;CLUSAPI.dll;_OpenClusterNodeById@8
 OpenClusterNodeEx;code;CLUSAPI.dll;_OpenClusterNodeEx@16
 OpenClusterResource;code;CLUSAPI.dll;_OpenClusterResource@8
 OpenClusterResourceEx;code;CLUSAPI.dll;_OpenClusterResourceEx@16
@@ -248,8 +258,11 @@ RegisterClusterResourceTypeNotifyV2;code;CLUSAPI.dll;_RegisterClusterResourceTyp
 RemoveClusterGroupDependency;code;CLUSAPI.dll;_RemoveClusterGroupDependency@8
 RemoveClusterGroupSetDependency;code;CLUSAPI.dll;_RemoveClusterGroupSetDependency@8
 RemoveClusterGroupToGroupSetDependency;code;CLUSAPI.dll;_RemoveClusterGroupToGroupSetDependency@8
+RemoveClusterNameAccount;code;CLUSAPI.dll;_RemoveClusterNameAccount@8
 RemoveClusterResourceDependency;code;CLUSAPI.dll;_RemoveClusterResourceDependency@8
 RemoveClusterResourceNode;code;CLUSAPI.dll;_RemoveClusterResourceNode@8
+RemoveClusterStorageNode;code;CLUSAPI.dll;_RemoveClusterStorageNode@16
+RemoveCrossClusterGroupSetDependency;code;CLUSAPI.dll;_RemoveCrossClusterGroupSetDependency@12
 RemoveResourceFromClusterSharedVolumes;code;CLUSAPI.dll;_RemoveResourceFromClusterSharedVolumes@4
 RestartClusterResource;code;CLUSAPI.dll;_RestartClusterResource@8
 RestoreClusterDatabase;code;CLUSAPI.dll;_RestoreClusterDatabase@12

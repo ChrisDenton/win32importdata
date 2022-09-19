@@ -20,6 +20,7 @@ DwEnumEntryDetailsEx;code;RASAPI32.dll;_DwEnumEntryDetailsEx@20
 DwRasUninitialize;code;RASAPI32.dll;_DwRasUninitialize@0
 GetAutoTriggerProfileInfo;code;RASAPI32.dll;_GetAutoTriggerProfileInfo@24
 IsActiveAutoTriggerConnection;code;RASAPI32.dll;_IsActiveAutoTriggerConnection@16
+IsActiveAutoTriggerConnectionEx;code;RASAPI32.dll;_IsActiveAutoTriggerConnectionEx@20
 RasAutoDialSharedConnection;code;RASAPI32.dll;_RasAutoDialSharedConnection@0
 RasAutodialAddressToNetwork;code;RASAPI32.dll;_RasAutodialAddressToNetwork@12
 RasAutodialEntryToNetwork;code;RASAPI32.dll;_RasAutodialEntryToNetwork@12
@@ -96,6 +97,7 @@ RasHangUpW;code;RASAPI32.dll;_RasHangUpW@4
 RasInvokeEapUI;code;RASAPI32.dll;_RasInvokeEapUI@16
 RasIsPublicPhonebook;code;RASAPI32.dll;_RasIsPublicPhonebook@4
 RasIsSharedConnection;code;RASAPI32.dll;_RasIsSharedConnection@8
+RasNQMStateEnteredNotification;code;RASAPI32.dll;_RasNQMStateEnteredNotification@0
 RasQueryRedialOnLinkFailure;code;RASAPI32.dll;_RasQueryRedialOnLinkFailure@12
 RasQuerySharedAutoDial;code;RASAPI32.dll;_RasQuerySharedAutoDial@4
 RasQuerySharedConnection;code;RASAPI32.dll;_RasQuerySharedConnection@4
@@ -103,6 +105,7 @@ RasRegisterEntryChangeNotification;code;RASAPI32.dll;_RasRegisterEntryChangeNoti
 RasRenameEntryA;code;RASAPI32.dll;_RasRenameEntryA@12
 RasRenameEntryW;code;RASAPI32.dll;_RasRenameEntryW@12
 RasSetAutoTriggerProfile;code;RASAPI32.dll;_RasSetAutoTriggerProfile@24
+RasSetAutoTriggerProfileEx;code;RASAPI32.dll;_RasSetAutoTriggerProfileEx@28
 RasSetAutodialAddressA;code;RASAPI32.dll;_RasSetAutodialAddressA@20
 RasSetAutodialAddressW;code;RASAPI32.dll;_RasSetAutodialAddressW@20
 RasSetAutodialEnableA;code;RASAPI32.dll;_RasSetAutodialEnableA@8

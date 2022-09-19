@@ -5,6 +5,7 @@ WinHttpAutoProxySvcMain;code;WINHTTP.dll;_WinHttpAutoProxySvcMain@8
 WinHttpCheckPlatform;code;WINHTTP.dll;_WinHttpCheckPlatform@0
 WinHttpCloseHandle;code;WINHTTP.dll;_WinHttpCloseHandle@4
 WinHttpConnect;code;WINHTTP.dll;_WinHttpConnect@16
+WinHttpConnectionDeletePolicyEntries;code;WINHTTP.dll;_WinHttpConnectionDeletePolicyEntries@8
 WinHttpConnectionDeleteProxyInfo;code;WINHTTP.dll;_WinHttpConnectionDeleteProxyInfo@8
 WinHttpConnectionFreeNameList;code;WINHTTP.dll;_WinHttpConnectionFreeNameList@4
 WinHttpConnectionFreeProxyInfo;code;WINHTTP.dll;_WinHttpConnectionFreeProxyInfo@4
@@ -12,7 +13,9 @@ WinHttpConnectionFreeProxyList;code;WINHTTP.dll;_WinHttpConnectionFreeProxyList@
 WinHttpConnectionGetNameList;code;WINHTTP.dll;_WinHttpConnectionGetNameList@4
 WinHttpConnectionGetProxyInfo;code;WINHTTP.dll;_WinHttpConnectionGetProxyInfo@12
 WinHttpConnectionGetProxyList;code;WINHTTP.dll;_WinHttpConnectionGetProxyList@8
+WinHttpConnectionSetPolicyEntries;code;WINHTTP.dll;_WinHttpConnectionSetPolicyEntries@12
 WinHttpConnectionSetProxyInfo;code;WINHTTP.dll;_WinHttpConnectionSetProxyInfo@12
+WinHttpConnectionUpdateIfIndexTable;code;WINHTTP.dll;_WinHttpConnectionUpdateIfIndexTable@8
 WinHttpCrackUrl;code;WINHTTP.dll;_WinHttpCrackUrl@16
 WinHttpCreateProxyResolver;code;WINHTTP.dll;_WinHttpCreateProxyResolver@8
 WinHttpCreateUrl;code;WINHTTP.dll;_WinHttpCreateUrl@16
@@ -39,6 +42,7 @@ WinHttpQueryHeaders;code;WINHTTP.dll;_WinHttpQueryHeaders@24
 WinHttpQueryOption;code;WINHTTP.dll;_WinHttpQueryOption@16
 WinHttpReadData;code;WINHTTP.dll;_WinHttpReadData@16
 WinHttpReadProxySettings;code;WINHTTP.dll;_WinHttpReadProxySettings@28
+WinHttpReadProxySettingsHvsi;code;WINHTTP.dll;_WinHttpReadProxySettingsHvsi@32
 WinHttpReceiveResponse;code;WINHTTP.dll;_WinHttpReceiveResponse@8
 WinHttpResetAutoProxy;code;WINHTTP.dll;_WinHttpResetAutoProxy@8
 WinHttpSaveProxyCredentials;code;WINHTTP.dll;_WinHttpSaveProxyCredentials@16

@@ -4,6 +4,7 @@ WerSysprepGeneralize;code;wer.dll;?WerSysprepGeneralize@@YAKXZ (unsigned long __
 WerSysprepSpecialize;code;wer.dll;?WerSysprepSpecialize@@YAKXZ (unsigned long __cdecl WerSysprepSpecialize(void))
 WerUnattendedSetup;code;wer.dll;?WerUnattendedSetup@@YAXXZ (void __cdecl WerUnattendedSetup(void))
 WerpAddAppCompatData;code;wer.dll;?WerpAddAppCompatData@@YAJPAXPBG1@Z (long __cdecl WerpAddAppCompatData(void *,unsigned short const *,unsigned short const *))
+WerpAddIfRegisteredForAppLocalDump;code;wer.dll;?WerpAddIfRegisteredForAppLocalDump@@YAJPAX0PBG@Z (long __cdecl WerpAddIfRegisteredForAppLocalDump(void *,void *,unsigned short const *))
 WerpAddMemoryBlock;code;wer.dll;?WerpAddMemoryBlock@@YAJPAXK0KK@Z (long __cdecl WerpAddMemoryBlock(void *,unsigned long,void *,unsigned long,unsigned long))
 WerpAddRegisteredDataToReport;code;wer.dll;?WerpAddRegisteredDataToReport@@YAJPAX0@Z (long __cdecl WerpAddRegisteredDataToReport(void *,void *))
 WerpAddRegisteredDumpsToReport;code;wer.dll;?WerpAddRegisteredDumpsToReport@@YAJPAX0@Z (long __cdecl WerpAddRegisteredDumpsToReport(void *,void *))
@@ -11,9 +12,9 @@ WerpAddRegisteredMetadataToReport;code;wer.dll;?WerpAddRegisteredMetadataToRepor
 WerpArchiveReport;code;wer.dll;?WerpArchiveReport@@YAJPAXPBGHPAPAXPAH@Z (long __cdecl WerpArchiveReport(void *,unsigned short const *,int,void * *,int *))
 WerpCancelResponseDownload;code;wer.dll;?WerpCancelResponseDownload@@YAJPAX@Z (long __cdecl WerpCancelResponseDownload(void *))
 WerpCancelUpload;code;wer.dll;?WerpCancelUpload@@YAJPAX@Z (long __cdecl WerpCancelUpload(void *))
+WerpCleanWer;code;wer.dll;?WerpCleanWer@@YAJXZ (long __cdecl WerpCleanWer(void))
 WerpCloseStore;code;wer.dll;?WerpCloseStore@@YAXPAX@Z (void __cdecl WerpCloseStore(void *))
 WerpCreateMachineStore;code;wer.dll;?WerpCreateMachineStore@@YAJXZ (long __cdecl WerpCreateMachineStore(void))
-WerpCreateUserStore;code;wer.dll;?WerpCreateUserStore@@YAJH@Z (long __cdecl WerpCreateUserStore(int))
 WerpDeleteReport;code;wer.dll;?WerpDeleteReport@@YAJPAXPBG@Z (long __cdecl WerpDeleteReport(void *,unsigned short const *))
 WerpDestroyWerString;code;wer.dll;?WerpDestroyWerString@@YAXPAPAX@Z (void __cdecl WerpDestroyWerString(void * *))
 WerpDownloadResponse;code;wer.dll;?WerpDownloadResponse@@YAJPAX0PBGHKK1@Z (long __cdecl WerpDownloadResponse(void *,void *,unsigned short const *,int,unsigned long,unsigned long,unsigned short const *))
@@ -60,9 +61,9 @@ WerpLoadReport;code;wer.dll;?WerpLoadReport@@YAJPAXPBGPAPAXHH@Z (long __cdecl We
 WerpLoadReportFromBuffer;code;wer.dll;?WerpLoadReportFromBuffer@@YAJPAXKPAPAXH@Z (long __cdecl WerpLoadReportFromBuffer(void *,unsigned long,void * *,int))
 WerpOpenMachineArchive;code;wer.dll;?WerpOpenMachineArchive@@YAJPAPAX@Z (long __cdecl WerpOpenMachineArchive(void * *))
 WerpOpenMachineQueue;code;wer.dll;?WerpOpenMachineQueue@@YAJPAPAX@Z (long __cdecl WerpOpenMachineQueue(void * *))
-WerpOpenUserArchive;code;wer.dll;?WerpOpenUserArchive@@YAJPAPAX@Z (long __cdecl WerpOpenUserArchive(void * *))
 WerpPromptUser;code;wer.dll;?WerpPromptUser@@YAJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z (long __cdecl WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))
 WerpPruneStore;code;wer.dll;?WerpPruneStore@@YAJPAX@Z (long __cdecl WerpPruneStore(void *))
+WerpQueueHasBypassPowerReports;code;wer.dll;?WerpQueueHasBypassPowerReports@@YAJPAH@Z (long __cdecl WerpQueueHasBypassPowerReports(int *))
 WerpReportCancel;code;wer.dll;?WerpReportCancel@@YAJPAX@Z (long __cdecl WerpReportCancel(void *))
 WerpReportSprintfParameter;code;wer.dll;?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))
 WerpReserveMachineQueueReportDir;code;wer.dll;?WerpReserveMachineQueueReportDir@@YAJPAXPAGK@Z (long __cdecl WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))
@@ -70,6 +71,7 @@ WerpResetTransientImageCacheStatistics;code;wer.dll;?WerpResetTransientImageCach
 WerpRestartApplication;code;wer.dll;?WerpRestartApplication@@YAJPAXPBG1PAH2@Z (long __cdecl WerpRestartApplication(void *,unsigned short const *,unsigned short const *,int *,int *))
 WerpSetDynamicParameter;code;wer.dll;?WerpSetDynamicParameter@@YAJPAXKPBG1@Z (long __cdecl WerpSetDynamicParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
 WerpSetEventName;code;wer.dll;?WerpSetEventName@@YAJPAXPBG@Z (long __cdecl WerpSetEventName(void *,unsigned short const *))
+WerpSetProcessTimelines;code;wer.dll;?WerpSetProcessTimelines@@YAJPAXPBU_WER_PROCESS_TIMELINES@@K@Z (long __cdecl WerpSetProcessTimelines(void *,struct _WER_PROCESS_TIMELINES const *,unsigned long))
 WerpSetReportApplicationIdentity;code;wer.dll;?WerpSetReportApplicationIdentity@@YAJPAXPAE@Z (long __cdecl WerpSetReportApplicationIdentity(void *,unsigned char *))
 WerpSetReportFlags;code;wer.dll;?WerpSetReportFlags@@YAJPAXK@Z (long __cdecl WerpSetReportFlags(void *,unsigned long))
 WerpSetReportInformation;code;wer.dll;?WerpSetReportInformation@@YAJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z (long __cdecl WerpSetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const *))
@@ -79,13 +81,12 @@ WerpSetReportUploadContextToken;code;wer.dll;?WerpSetReportUploadContextToken@@Y
 WerpSetTelemetryAppParams;code;wer.dll;?WerpSetTelemetryAppParams@@YAJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z (long __cdecl WerpSetTelemetryAppParams(void *,struct _WER_TELEMETRY_APP_PARAMS const *))
 WerpSetTelemetryKernelParams;code;wer.dll;?WerpSetTelemetryKernelParams@@YAJPAXK@Z (long __cdecl WerpSetTelemetryKernelParams(void *,unsigned long))
 WerpSetTelemetryServiceParams;code;wer.dll;?WerpSetTelemetryServiceParams@@YAJPAXPBG1H@Z (long __cdecl WerpSetTelemetryServiceParams(void *,unsigned short const *,unsigned short const *,int))
-WerpSetTimedTask;code;wer.dll;?WerpSetTimedTask@@YAJH@Z (long __cdecl WerpSetTimedTask(int))
+WerpSetTimedTask;code;wer.dll;?WerpSetTimedTask@@YAJHH@Z (long __cdecl WerpSetTimedTask(int,int))
 WerpShowUpsellUI;code;wer.dll;?WerpShowUpsellUI@@YAJPAUHWND__@@PAH@Z (long __cdecl WerpShowUpsellUI(struct HWND__ *,int *))
 WerpStitchedMinidumpVmPostReadCallback;code;wer.dll;?WerpStitchedMinidumpVmPostReadCallback@@YAJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z (long __cdecl WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))
 WerpStitchedMinidumpVmPreReadCallback;code;wer.dll;?WerpStitchedMinidumpVmPreReadCallback@@YAJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z (long __cdecl WerpStitchedMinidumpVmPreReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long))
 WerpStitchedMinidumpVmQueryCallback;code;wer.dll;?WerpStitchedMinidumpVmQueryCallback@@YAJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z (long __cdecl WerpStitchedMinidumpVmQueryCallback(struct _WERP_STITCHED_DUMP_WRITER *,struct _MINIDUMP_MEMORY_INFO *,unsigned __int64))
 WerpSubmitReportFromStore;code;wer.dll;?WerpSubmitReportFromStore@@YAJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z (long __cdecl WerpSubmitReportFromStore(void *,unsigned short const *,void *,class IReportUI *,void * *,unsigned long,enum _WER_SUBMIT_RESULT *))
-WerpSvcReportFromMachineQueue;code;wer.dll;?WerpSvcReportFromMachineQueue@@YAJPAXPBG@Z (long __cdecl WerpSvcReportFromMachineQueue(void *,unsigned short const *))
 WerpTraceAuxMemDumpStatistics;code;wer.dll;?WerpTraceAuxMemDumpStatistics@@YAXP6AXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z (void __cdecl WerpTraceAuxMemDumpStatistics(void (__cdecl*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_AUXILIARY_MEMORY_DUMP *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
 WerpTraceDuration;code;wer.dll;?WerpTraceDuration@@YAXP6AXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z (void __cdecl WerpTraceDuration(void (__cdecl*)(void *,unsigned long,unsigned short const *,char *),void *,unsigned long,union _LARGE_INTEGER *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
 WerpTraceImageCacheStatistics;code;wer.dll;?WerpTraceImageCacheStatistics@@YAXP6AXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z (void __cdecl WerpTraceImageCacheStatistics(void (__cdecl*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_IMAGE_CACHE *,union _LARGE_INTEGER *))
@@ -123,6 +124,7 @@ WerStoreUploadReport;code;wer.dll;
 WerpAddFile;code;wer.dll;
 WerpAddFileBuffer;code;wer.dll;
 WerpAddFileCallback;code;wer.dll;
+WerpAddTerminationReason;code;wer.dll;
 WerpAuxmdDumpProcessImages;code;wer.dll;
 WerpAuxmdDumpRegisteredBlocks;code;wer.dll;
 WerpAuxmdFree;code;wer.dll;
@@ -138,8 +140,8 @@ WerpGetReportConsent;code;wer.dll;
 WerpGetStoreLocation;code;wer.dll;
 WerpIsDisabled;code;wer.dll;
 WerpLaunchResponse;code;wer.dll;
-WerpOpenUserQueue;code;wer.dll;
 WerpSetAuxiliaryArchivePath;code;wer.dll;
 WerpSetCallBack;code;wer.dll;
 WerpSetDefaultUserConsent;code;wer.dll;
 WerpSetIntegratorReportId;code;wer.dll;
+WerpSetReportOption;code;wer.dll;

@@ -73,6 +73,7 @@ D3DKMTAbandonSwapChain;code;GDI32.dll;_D3DKMTAbandonSwapChain@4
 D3DKMTAcquireKeyedMutex2;code;GDI32.dll;_D3DKMTAcquireKeyedMutex2@4
 D3DKMTAcquireKeyedMutex;code;GDI32.dll;_D3DKMTAcquireKeyedMutex@4
 D3DKMTAcquireSwapChain;code;GDI32.dll;_D3DKMTAcquireSwapChain@4
+D3DKMTAddSurfaceToSwapChain;code;GDI32.dll;_D3DKMTAddSurfaceToSwapChain@4
 D3DKMTAdjustFullscreenGamma;code;GDI32.dll;_D3DKMTAdjustFullscreenGamma@4
 D3DKMTCacheHybridQueryValue;code;GDI32.dll;_D3DKMTCacheHybridQueryValue@4
 D3DKMTChangeVideoMemoryReservation;code;GDI32.dll;_D3DKMTChangeVideoMemoryReservation@4
@@ -88,6 +89,7 @@ D3DKMTCloseAdapter;code;GDI32.dll;_D3DKMTCloseAdapter@4
 D3DKMTConfigureSharedResource;code;GDI32.dll;_D3DKMTConfigureSharedResource@4
 D3DKMTCreateAllocation2;code;GDI32.dll;_D3DKMTCreateAllocation2@4
 D3DKMTCreateAllocation;code;GDI32.dll;_D3DKMTCreateAllocation@4
+D3DKMTCreateBundleObject;code;GDI32.dll;_D3DKMTCreateBundleObject@4
 D3DKMTCreateContext;code;GDI32.dll;_D3DKMTCreateContext@4
 D3DKMTCreateContextVirtual;code;GDI32.dll;_D3DKMTCreateContextVirtual@4
 D3DKMTCreateDCFromMemory;code;GDI32.dll;_D3DKMTCreateDCFromMemory@4
@@ -99,9 +101,11 @@ D3DKMTCreateKeyedMutex;code;GDI32.dll;_D3DKMTCreateKeyedMutex@4
 D3DKMTCreateOutputDupl;code;GDI32.dll;_D3DKMTCreateOutputDupl@4
 D3DKMTCreateOverlay;code;GDI32.dll;_D3DKMTCreateOverlay@4
 D3DKMTCreatePagingQueue;code;GDI32.dll;_D3DKMTCreatePagingQueue@4
+D3DKMTCreateProtectedSession;code;GDI32.dll;_D3DKMTCreateProtectedSession@4
 D3DKMTCreateSwapChain;code;GDI32.dll;_D3DKMTCreateSwapChain@4
 D3DKMTCreateSynchronizationObject2;code;GDI32.dll;_D3DKMTCreateSynchronizationObject2@4
 D3DKMTCreateSynchronizationObject;code;GDI32.dll;_D3DKMTCreateSynchronizationObject@4
+D3DKMTDDisplayEnum;code;GDI32.dll;_D3DKMTDDisplayEnum@4
 D3DKMTDestroyAllocation2;code;GDI32.dll;_D3DKMTDestroyAllocation2@4
 D3DKMTDestroyAllocation;code;GDI32.dll;_D3DKMTDestroyAllocation@4
 D3DKMTDestroyContext;code;GDI32.dll;_D3DKMTDestroyContext@4
@@ -113,11 +117,16 @@ D3DKMTDestroyKeyedMutex;code;GDI32.dll;_D3DKMTDestroyKeyedMutex@4
 D3DKMTDestroyOutputDupl;code;GDI32.dll;_D3DKMTDestroyOutputDupl@4
 D3DKMTDestroyOverlay;code;GDI32.dll;_D3DKMTDestroyOverlay@4
 D3DKMTDestroyPagingQueue;code;GDI32.dll;_D3DKMTDestroyPagingQueue@4
+D3DKMTDestroyProtectedSession;code;GDI32.dll;_D3DKMTDestroyProtectedSession@4
 D3DKMTDestroySynchronizationObject;code;GDI32.dll;_D3DKMTDestroySynchronizationObject@4
+D3DKMTDispMgrCreate;code;GDI32.dll;_D3DKMTDispMgrCreate@4
+D3DKMTDispMgrSourceOperation;code;GDI32.dll;_D3DKMTDispMgrSourceOperation@4
+D3DKMTDispMgrTargetOperation;code;GDI32.dll;_D3DKMTDispMgrTargetOperation@4
 D3DKMTEnumAdapters2;code;GDI32.dll;_D3DKMTEnumAdapters2@4
 D3DKMTEnumAdapters;code;GDI32.dll;_D3DKMTEnumAdapters@4
 D3DKMTEscape;code;GDI32.dll;_D3DKMTEscape@4
 D3DKMTEvict;code;GDI32.dll;_D3DKMTEvict@4
+D3DKMTExtractBundleObject;code;GDI32.dll;_D3DKMTExtractBundleObject@4
 D3DKMTFlipOverlay;code;GDI32.dll;_D3DKMTFlipOverlay@4
 D3DKMTFlushHeapTransitions;code;GDI32.dll;_D3DKMTFlushHeapTransitions@4
 D3DKMTFreeGpuVirtualAddress;code;GDI32.dll;_D3DKMTFreeGpuVirtualAddress@4
@@ -135,6 +144,7 @@ D3DKMTGetOverlayState;code;GDI32.dll;_D3DKMTGetOverlayState@4
 D3DKMTGetPostCompositionCaps;code;GDI32.dll;_D3DKMTGetPostCompositionCaps@4
 D3DKMTGetPresentHistory;code;GDI32.dll;_D3DKMTGetPresentHistory@4
 D3DKMTGetPresentQueueEvent;code;GDI32.dll;_D3DKMTGetPresentQueueEvent@8
+D3DKMTGetProcessDeviceLostSupport;code;GDI32.dll;_D3DKMTGetProcessDeviceLostSupport@4
 D3DKMTGetProcessSchedulingPriorityBand;code;GDI32.dll;_D3DKMTGetProcessSchedulingPriorityBand@4
 D3DKMTGetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTGetProcessSchedulingPriorityClass@8
 D3DKMTGetResourcePresentPrivateDriverData;code;GDI32.dll;_D3DKMTGetResourcePresentPrivateDriverData@4
@@ -165,6 +175,7 @@ D3DKMTOpenAdapterFromLuid;code;GDI32.dll;_D3DKMTOpenAdapterFromLuid@4
 D3DKMTOpenKeyedMutex2;code;GDI32.dll;_D3DKMTOpenKeyedMutex2@4
 D3DKMTOpenKeyedMutex;code;GDI32.dll;_D3DKMTOpenKeyedMutex@4
 D3DKMTOpenNtHandleFromName;code;GDI32.dll;_D3DKMTOpenNtHandleFromName@4
+D3DKMTOpenProtectedSessionFromNtHandle;code;GDI32.dll;_D3DKMTOpenProtectedSessionFromNtHandle@4
 D3DKMTOpenResource2;code;GDI32.dll;_D3DKMTOpenResource2@4
 D3DKMTOpenResource;code;GDI32.dll;_D3DKMTOpenResource@4
 D3DKMTOpenResourceFromNtHandle;code;GDI32.dll;_D3DKMTOpenResourceFromNtHandle@4
@@ -184,11 +195,14 @@ D3DKMTPresent;code;GDI32.dll;_D3DKMTPresent@4
 D3DKMTPresentMultiPlaneOverlay2;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay2@4
 D3DKMTPresentMultiPlaneOverlay3;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay3@4
 D3DKMTPresentMultiPlaneOverlay;code;GDI32.dll;_D3DKMTPresentMultiPlaneOverlay@4
+D3DKMTPresentRedirected;code;GDI32.dll;_D3DKMTPresentRedirected@4
 D3DKMTQueryAdapterInfo;code;GDI32.dll;_D3DKMTQueryAdapterInfo@4
 D3DKMTQueryAllocationResidency;code;GDI32.dll;_D3DKMTQueryAllocationResidency@4
 D3DKMTQueryClockCalibration;code;GDI32.dll;_D3DKMTQueryClockCalibration@4
 D3DKMTQueryFSEBlock;code;GDI32.dll;_D3DKMTQueryFSEBlock@4
 D3DKMTQueryProcessOfferInfo;code;GDI32.dll;_D3DKMTQueryProcessOfferInfo@4
+D3DKMTQueryProtectedSessionInfoFromNtHandle;code;GDI32.dll;_D3DKMTQueryProtectedSessionInfoFromNtHandle@4
+D3DKMTQueryProtectedSessionStatus;code;GDI32.dll;_D3DKMTQueryProtectedSessionStatus@4
 D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName;code;GDI32.dll;_D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName@4
 D3DKMTQueryResourceInfo;code;GDI32.dll;_D3DKMTQueryResourceInfo@4
 D3DKMTQueryResourceInfoFromNtHandle;code;GDI32.dll;_D3DKMTQueryResourceInfoFromNtHandle@4
@@ -202,11 +216,13 @@ D3DKMTReleaseKeyedMutex2;code;GDI32.dll;_D3DKMTReleaseKeyedMutex2@4
 D3DKMTReleaseKeyedMutex;code;GDI32.dll;_D3DKMTReleaseKeyedMutex@4
 D3DKMTReleaseProcessVidPnSourceOwners;code;GDI32.dll;_D3DKMTReleaseProcessVidPnSourceOwners@4
 D3DKMTReleaseSwapChain;code;GDI32.dll;_D3DKMTReleaseSwapChain@4
+D3DKMTRemoveSurfaceFromSwapChain;code;GDI32.dll;_D3DKMTRemoveSurfaceFromSwapChain@4
 D3DKMTRender;code;GDI32.dll;_D3DKMTRender@4
 D3DKMTReserveGpuVirtualAddress;code;GDI32.dll;_D3DKMTReserveGpuVirtualAddress@4
 D3DKMTSetAllocationPriority;code;GDI32.dll;_D3DKMTSetAllocationPriority@4
 D3DKMTSetContextInProcessSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextInProcessSchedulingPriority@4
 D3DKMTSetContextSchedulingPriority;code;GDI32.dll;_D3DKMTSetContextSchedulingPriority@4
+D3DKMTSetDeviceLostSupport;code;GDI32.dll;_D3DKMTSetDeviceLostSupport@4
 D3DKMTSetDisplayMode;code;GDI32.dll;_D3DKMTSetDisplayMode@4
 D3DKMTSetDisplayPrivateDriverFormat;code;GDI32.dll;_D3DKMTSetDisplayPrivateDriverFormat@4
 D3DKMTSetDodIndirectSwapchain;code;GDI32.dll;_D3DKMTSetDodIndirectSwapchain@4
@@ -214,6 +230,7 @@ D3DKMTSetFSEBlock;code;GDI32.dll;_D3DKMTSetFSEBlock@4
 D3DKMTSetGammaRamp;code;GDI32.dll;_D3DKMTSetGammaRamp@4
 D3DKMTSetHwProtectionTeardownRecovery;code;GDI32.dll;_D3DKMTSetHwProtectionTeardownRecovery@4
 D3DKMTSetMemoryBudgetTarget;code;GDI32.dll;_D3DKMTSetMemoryBudgetTarget@4
+D3DKMTSetMonitorColorSpaceTransform;code;GDI32.dll;_D3DKMTSetMonitorColorSpaceTransform@4
 D3DKMTSetProcessSchedulingPriorityBand;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityBand@4
 D3DKMTSetProcessSchedulingPriorityClass;code;GDI32.dll;_D3DKMTSetProcessSchedulingPriorityClass@8
 D3DKMTSetQueuedLimit;code;GDI32.dll;_D3DKMTSetQueuedLimit@4
@@ -222,6 +239,7 @@ D3DKMTSetStereoEnabled;code;GDI32.dll;_D3DKMTSetStereoEnabled@4
 D3DKMTSetSyncRefreshCountWaitTarget;code;GDI32.dll;_D3DKMTSetSyncRefreshCountWaitTarget@4
 D3DKMTSetVidPnSourceHwProtection;code;GDI32.dll;_D3DKMTSetVidPnSourceHwProtection@4
 D3DKMTSetVidPnSourceOwner1;code;GDI32.dll;_D3DKMTSetVidPnSourceOwner1@4
+D3DKMTSetVidPnSourceOwner2;code;GDI32.dll;_D3DKMTSetVidPnSourceOwner2@4
 D3DKMTSetVidPnSourceOwner;code;GDI32.dll;_D3DKMTSetVidPnSourceOwner@4
 D3DKMTSetYieldPercentage;code;GDI32.dll;_D3DKMTSetYieldPercentage@4
 D3DKMTShareObjects;code;GDI32.dll;_D3DKMTShareObjects@20
@@ -237,6 +255,7 @@ D3DKMTSubmitCommandToHwQueue;code;GDI32.dll;_D3DKMTSubmitCommandToHwQueue@4
 D3DKMTSubmitSignalSyncObjectsToHwQueue;code;GDI32.dll;_D3DKMTSubmitSignalSyncObjectsToHwQueue@4
 D3DKMTSubmitWaitForSyncObjectsToHwQueue;code;GDI32.dll;_D3DKMTSubmitWaitForSyncObjectsToHwQueue@4
 D3DKMTTrimProcessCommitment;code;GDI32.dll;_D3DKMTTrimProcessCommitment@4
+D3DKMTUnOrderedPresentSwapChain;code;GDI32.dll;_D3DKMTUnOrderedPresentSwapChain@4
 D3DKMTUnlock2;code;GDI32.dll;_D3DKMTUnlock2@4
 D3DKMTUnlock;code;GDI32.dll;_D3DKMTUnlock@4
 D3DKMTUnpinDirectFlipResources;code;GDI32.dll;_D3DKMTUnpinDirectFlipResources@4
@@ -565,6 +584,7 @@ WidenPath;code;GDI32.dll;_WidenPath@4
 fpClosePrinter;data;GDI32.dll;_fpClosePrinter
 gMaxGdiHandleCount;data;GDI32.dll;_gMaxGdiHandleCount
 gW32PID;data;GDI32.dll;_gW32PID
+g_systemCallFilterId;data;GDI32.dll;_g_systemCallFilterId
 gdiPlaySpoolStream;code;GDI32.dll;_gdiPlaySpoolStream@24
 ghICM;data;GDI32.dll;_ghICM
 pGdiDevCaps;data;GDI32.dll;_pGdiDevCaps

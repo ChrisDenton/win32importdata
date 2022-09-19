@@ -1,5 +1,6 @@
 Name;Type;DLL;SymbolOrOrdinal
 AddStroke;code;inkobjcore.dll;_AddStroke@20
+AddStrokeWithId;code;inkobjcore.dll;_AddStrokeWithId@24
 AddWordsToWordList;code;inkobjcore.dll;_AddWordsToWordList@8
 AdviseInkChange;code;inkobjcore.dll;_AdviseInkChange@8
 CreateContext;code;inkobjcore.dll;_CreateContext@8
@@ -20,9 +21,11 @@ IsStringSupported;code;inkobjcore.dll;_IsStringSupported@12
 LoadCachedAttributes;code;inkobjcore.dll;_LoadCachedAttributes@20
 MakeWordList;code;inkobjcore.dll;_MakeWordList@12
 Process;code;inkobjcore.dll;_Process@8
+SetConstraint;code;inkobjcore.dll;_SetConstraint@12
 SetEnabledUnicodeRanges;code;inkobjcore.dll;_SetEnabledUnicodeRanges@12
 SetFactoid;code;inkobjcore.dll;_SetFactoid@12
 SetFlags;code;inkobjcore.dll;_SetFlags@8
 SetGuide;code;inkobjcore.dll;_SetGuide@12
+SetStrokeGroupId;code;inkobjcore.dll;_SetStrokeGroupId@12
 SetTextContext;code;inkobjcore.dll;_SetTextContext@20
 SetWordList;code;inkobjcore.dll;_SetWordList@8

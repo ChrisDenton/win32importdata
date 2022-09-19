@@ -250,6 +250,7 @@ EnumSystemCodePagesA;code;KERNEL32.dll;_EnumSystemCodePagesA@8
 EnumSystemCodePagesW;code;KERNEL32.dll;_EnumSystemCodePagesW@8
 EnumSystemFirmwareTables;code;KERNEL32.dll;_EnumSystemFirmwareTables@12
 EnumSystemGeoID;code;KERNEL32.dll;_EnumSystemGeoID@12
+EnumSystemGeoNames;code;KERNEL32.dll;_EnumSystemGeoNames@12
 EnumSystemLanguageGroupsA;code;KERNEL32.dll;_EnumSystemLanguageGroupsA@12
 EnumSystemLanguageGroupsW;code;KERNEL32.dll;_EnumSystemLanguageGroupsW@12
 EnumSystemLocalesA;code;KERNEL32.dll;_EnumSystemLocalesA@8
@@ -480,6 +481,7 @@ GetFullPathNameTransactedA;code;KERNEL32.dll;_GetFullPathNameTransactedA@20
 GetFullPathNameTransactedW;code;KERNEL32.dll;_GetFullPathNameTransactedW@20
 GetFullPathNameW;code;KERNEL32.dll;_GetFullPathNameW@16
 GetGeoInfoA;code;KERNEL32.dll;_GetGeoInfoA@20
+GetGeoInfoEx;code;KERNEL32.dll;_GetGeoInfoEx@16
 GetGeoInfoW;code;KERNEL32.dll;_GetGeoInfoW@20
 GetHandleInformation;code;KERNEL32.dll;_GetHandleInformation@8
 GetLargePageMinimum;code;KERNEL32.dll;_GetLargePageMinimum@0
@@ -656,6 +658,7 @@ GetTimeFormatW;code;KERNEL32.dll;_GetTimeFormatW@24
 GetTimeZoneInformation;code;KERNEL32.dll;_GetTimeZoneInformation@4
 GetTimeZoneInformationForYear;code;KERNEL32.dll;_GetTimeZoneInformationForYear@12
 GetUILanguageInfo;code;KERNEL32.dll;_GetUILanguageInfo@20
+GetUserDefaultGeoName;code;KERNEL32.dll;_GetUserDefaultGeoName@8
 GetUserDefaultLCID;code;KERNEL32.dll;_GetUserDefaultLCID@0
 GetUserDefaultLangID;code;KERNEL32.dll;_GetUserDefaultLangID@0
 GetUserDefaultLocaleName;code;KERNEL32.dll;_GetUserDefaultLocaleName@8
@@ -771,6 +774,8 @@ IsValidLanguageGroup;code;KERNEL32.dll;_IsValidLanguageGroup@8
 IsValidLocale;code;KERNEL32.dll;_IsValidLocale@8
 IsValidLocaleName;code;KERNEL32.dll;_IsValidLocaleName@4
 IsValidNLSVersion;code;KERNEL32.dll;_IsValidNLSVersion@12
+IsWow64GuestMachineSupported;code;KERNEL32.dll;_IsWow64GuestMachineSupported@8
+IsWow64Process2;code;KERNEL32.dll;_IsWow64Process2@12
 IsWow64Process;code;KERNEL32.dll;_IsWow64Process@8
 K32EmptyWorkingSet;code;KERNEL32.dll;_K32EmptyWorkingSet@4
 K32EnumDeviceDrivers;code;KERNEL32.dll;_K32EnumDeviceDrivers@12
@@ -952,6 +957,7 @@ ReadConsoleOutputCharacterA;code;KERNEL32.dll;_ReadConsoleOutputCharacterA@20
 ReadConsoleOutputCharacterW;code;KERNEL32.dll;_ReadConsoleOutputCharacterW@20
 ReadConsoleOutputW;code;KERNEL32.dll;_ReadConsoleOutputW@20
 ReadConsoleW;code;KERNEL32.dll;_ReadConsoleW@20
+ReadDirectoryChangesExW;code;KERNEL32.dll;_ReadDirectoryChangesExW@36
 ReadDirectoryChangesW;code;KERNEL32.dll;_ReadDirectoryChangesW@32
 ReadFile;code;KERNEL32.dll;_ReadFile@20
 ReadFileEx;code;KERNEL32.dll;_ReadFileEx@20
@@ -1137,6 +1143,7 @@ SetTimeZoneInformation;code;KERNEL32.dll;_SetTimeZoneInformation@4
 SetTimerQueueTimer;code;KERNEL32.dll;_SetTimerQueueTimer@24
 SetUnhandledExceptionFilter;code;KERNEL32.dll;_SetUnhandledExceptionFilter@4
 SetUserGeoID;code;KERNEL32.dll;_SetUserGeoID@4
+SetUserGeoName;code;KERNEL32.dll;_SetUserGeoName@4
 SetVolumeLabelA;code;KERNEL32.dll;_SetVolumeLabelA@8
 SetVolumeLabelW;code;KERNEL32.dll;_SetVolumeLabelW@8
 SetVolumeMountPointA;code;KERNEL32.dll;_SetVolumeMountPointA@8
@@ -1226,6 +1233,7 @@ WakeAllConditionVariable;code;KERNEL32.dll;_WakeAllConditionVariable@4
 WakeConditionVariable;code;KERNEL32.dll;_WakeConditionVariable@4
 WerGetFlags;code;KERNEL32.dll;_WerGetFlags@8
 WerRegisterAdditionalProcess;code;KERNEL32.dll;_WerRegisterAdditionalProcess@8
+WerRegisterAppLocalDump;code;KERNEL32.dll;_WerRegisterAppLocalDump@4
 WerRegisterCustomMetadata;code;KERNEL32.dll;_WerRegisterCustomMetadata@8
 WerRegisterExcludedMemoryBlock;code;KERNEL32.dll;_WerRegisterExcludedMemoryBlock@8
 WerRegisterFile;code;KERNEL32.dll;_WerRegisterFile@12
@@ -1233,6 +1241,7 @@ WerRegisterMemoryBlock;code;KERNEL32.dll;_WerRegisterMemoryBlock@8
 WerRegisterRuntimeExceptionModule;code;KERNEL32.dll;_WerRegisterRuntimeExceptionModule@8
 WerSetFlags;code;KERNEL32.dll;_WerSetFlags@4
 WerUnregisterAdditionalProcess;code;KERNEL32.dll;_WerUnregisterAdditionalProcess@4
+WerUnregisterAppLocalDump;code;KERNEL32.dll;_WerUnregisterAppLocalDump@0
 WerUnregisterCustomMetadata;code;KERNEL32.dll;_WerUnregisterCustomMetadata@4
 WerUnregisterExcludedMemoryBlock;code;KERNEL32.dll;_WerUnregisterExcludedMemoryBlock@4
 WerUnregisterFile;code;KERNEL32.dll;_WerUnregisterFile@4
